@@ -1,18 +1,44 @@
 
 
 /* ===== Primary Styles ========================================================
-   Author:
+   Author: Mark Staplehurst / Brett Bergmann
    ========================================================================== */
 
+body{
+	padding-top:150px;
+}
 
+/* HEADER */
 
+.navbar-inner{
+	background-color:#ee462b;
+	min-height:145px;
+	background-image:none; /* Bootstrap uses this for gradients, which don't want yet */
+	color:#fff;
+}
 
+.navbar .brand{
+	padding:0;
+}
 
+.navbar .nav{
+	float:right;
+}
 
+.navbar .nav > li > a{
+	float:right;
+	color:#fff;
+}
 
+/* Panel2 */
 
+#panel2_container{
+	background:#f3f3f3;
+	width:100%;
+}
 
-
-
+#panel2{
+	min-height:145px;
+}
 
 
