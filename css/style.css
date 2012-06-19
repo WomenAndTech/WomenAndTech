@@ -152,3 +152,16 @@ h4 {
 #app-screen {
 	text-align:right;
 }
+
+#nomination-form{
+	width:560px;
+	height:450px;
+}
+
+#nomination-form .modal-header{
+	height:20px;
+}
+
+#nomination-form iframe{
+	padding-left:10px;
+}

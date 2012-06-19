@@ -34,7 +34,7 @@
 <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <a class="btn btn-navbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -42,7 +42,7 @@
           <a class="brand" href="#"><img src="img/womenandtech-logo.png"></a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li><a href="#">Nominate a Woman</a></li>
+              <li><a href="#nomination-form" data-href="#nomination-form" data-toggle="modal">Nominate a Woman</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -61,7 +61,7 @@
           </div>
           <div class="row">  
             <div class="span6">
-               <h4>We're going to share stories about <em>smart women</em> doing <em>important things</em></h3>
+               <h4>We're going to share stories about <em>smart women</em> doing <em>important things</em></h4>
                <p>We're not complaining. We’re not endorsing the obvious. We're simply going to hound some very clever women in tech until they meet with us for a coffee 
     so we can pick their brains and share with you our conversations.</p>
             </div>
@@ -96,6 +96,22 @@
         <div class="row-fluid" id="panel2">
         	<div class="span12">
             	<h4>Stay informed about the women tech project</h4>
+               <!-- Begin MailChimp Signup Form -->
+               <div id="mc_embed_signup">
+                  <form action="http://womenandtech.us5.list-manage.com/subscribe/post?u=1370c4a70b43a1285e806a56d&amp;id=123c00728e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                  <div class="mc-field-group">
+                     <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                  </label>
+                     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                  </div>
+                     <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                     </div>	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                  </form>
+               </div>
+               
+               <!--End mc_embed_signup-->
 			</div>
         </div>
       </div>
@@ -168,6 +184,17 @@ It's public recognition for their efforts and encouragement to put themselves ou
       </footer>
 
     </div> <!-- /container -->
+
+    <div class="modal hide" id="nomination-form">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <p>&nbsp;</p>
+        </div>
+        <!-- <div class="modal-body"> -->
+        <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDRqNXdEZElvMjItbDItbGhrZTdHRmc6MQ" width="550" height="400" frameborder="0" marginheight="0" marginwidth="0">
+        </iframe>
+      <!-- </div> -->
+    </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
