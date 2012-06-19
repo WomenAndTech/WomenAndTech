@@ -5,7 +5,38 @@
    ========================================================================== */
 
 body{
+	font-family: 'Open Sans', sans-serif;
 	padding-top:150px;
+	font-size: 16px;
+    line-height: 2;
+	color:#333333;
+}
+
+h1, h3 {
+	font-family:'Arvo', serif;
+	font-weight:normal;
+}
+h2, h4, h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+}
+a:active,
+a:focus { outline: none!important }
+
+h1 {
+	font-size:66px;
+	line-height:74px;
+	margin:0 0 25px;
+}
+h3 {
+	font-size:36px;
+	line-height:50px;
+	margin:0 0 25px;
+}
+h4 {
+	font-size:32px;
+	line-height:40px;
+	margin:0 0 20px;
 }
 
 /* HEADER */
@@ -15,10 +46,15 @@ body{
 	min-height:145px;
 	background-image:none; /* Bootstrap uses this for gradients, which don't want yet */
 	color:#fff;
+	border-bottom: solid 2px #ffffff;
+	-moz-box-shadow: 0px 4px 0px #f3f3f3;
+	-webkit-box-shadow:  0px 4px 0px #f3f3f3;
+    box-shadow:  0px 4px 0px #f3f3f3;
 }
 
 .navbar .brand{
 	padding:0;
+	margin:30px 0 0 0;
 }
 
 .navbar .nav{
@@ -30,9 +66,32 @@ body{
 	color:#fff;
 }
 
+.content-block {
+	padding:65px 0;
+}
+
+#intro-icons {
+	margin:10px 0 0; 
+}
+
+.intro-icon {
+	text-align:center;
+	font-weight:600;
+	font-style:italic;
+	line-height:20px;
+}
+
+.intro-icon img {
+	margin:0 0 8px;
+}
+
+.larger-type {
+	font-size:20px;
+	margin:0 0 20px;
+}
 /* Panel2 */
 
-#panel2_container{
+#subscribe{
 	background:#f3f3f3;
 	width:100%;
 }
@@ -41,4 +100,55 @@ body{
 	min-height:145px;
 }
 
+#grand-plan h3 {
+	margin:0 0 35px;
+}
+#grand-plan h3 strong {
+	background:#ee462b;
+	height:20px;
+	width:20px;
+	border-radius:40px;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+	padding:10px;
+	text-align:center;
+	color:#ffffff;
+	font-style:italic;
+	font-weight:normal;
+}
+#grand-plan h3 em {
+	border-bottom: 1px solid #333;
+	padding-bottom: 1px;
+}
 
+.timeline {
+	background:transparent url(../img/ui-womenandtech.png) repeat-y -300px 0;
+}
+.timeline-entry {
+	padding:50px 0;
+}
+.timeline h2 {
+	margin:-1px 0 0 20px;
+	background:transparent url(../img/ui-womenandtech.png) no-repeat 0 0;
+	width:108px;
+	height:42px;
+	position:relative;
+}
+.timeline h2:after {
+	content: ''; 
+    background: url("../img/ui-womenandtech.png") no-repeat scroll -143px -4px transparent; 
+    height: 20px; 
+    position: absolute; 
+    left: 40px;
+    top: 65px; 
+    width:100px;
+}
+#stories h2 {
+	background-position:0 -61px;
+}
+#app h2 {
+	background-position:0 -122px;
+}
+#app-screen {
+	text-align:right;
+}
