@@ -10,6 +10,7 @@ body{
 	font-size: 16px;
     line-height: 2;
 	color:#333333;
+	padding-top: 60px;
 }
 
 h1, h3 {
@@ -172,4 +173,8 @@ h4 {
 
 footer{
 	background:#222222;
+}
+
+footer p{
+	margin-bottom:0;
 }
