@@ -307,7 +307,7 @@ h4 {
 
 footer{
 	background:#222222;
-	padding:0 0 1px;
+	padding:0 0 5px;
 
 }
 
@@ -365,7 +365,13 @@ footer{
 	}
 
 	footer #byline a{
+		padding-left:2px;
 		color:#aaa;
+	}
+
+	footer #byline a:hover, footer #byline a:active{
+		text-decoration:none;
+		color:#fcb8ab;
 	}
 
 
