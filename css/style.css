@@ -171,10 +171,32 @@ h4 {
 	padding-left:10px;
 }
 
+/* Footer */
+
 footer{
 	background:#222222;
+	height:32px;
 }
+
 
 footer p{
 	margin-bottom:0;
+}
+
+footer .timeline{
+	background-image:none;
+	position:relative;
+}
+
+footer #timeline-end{
+	width: 19px;
+	height: 32px;
+	position:absolute;
+	top: -1px;
+	left: 85px;
+	background: 
+	transparent url(../img/ui-womenandtech.png);
+	background-position: -143px -45px;
+	background-repeat:no-repeat;.
+	
 }
