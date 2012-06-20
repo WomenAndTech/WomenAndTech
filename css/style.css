@@ -430,7 +430,7 @@ footer #logo img{
 		padding:20px 0;
 	}
 	.timeline h2 {
-		margin:0;
+		margin:0 0 10px;
 	}
 	.timeline h2:after {
 		display:none;
@@ -526,8 +526,8 @@ footer #logo img{
 		width:50px;
 	}
 	#subscribe input[type=submit]{ 
-		font-size:1.2em;
-		padding:16px 0 16px;
+		font-size:1em;
+		padding:13px 0 14px;
 	}
 	#coffee-drinker .container {
 		min-height:200px;
