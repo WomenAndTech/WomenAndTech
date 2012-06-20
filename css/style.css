@@ -175,9 +175,8 @@ h4 {
 
 footer{
 	background:#222222;
-	height:32px;
+	height:50px;
 }
-
 
 footer p{
 	margin-bottom:0;
@@ -197,6 +196,20 @@ footer #timeline-end{
 	background: 
 	transparent url(../img/ui-womenandtech.png);
 	background-position: -143px -45px;
-	background-repeat:no-repeat;.
-	
+	background-repeat:no-repeat;.	
+}
+
+footer #tagline{
+	color:#f0f0f0;
+	font-style:italic;
+	padding-top:5px;
+}
+
+footer #tagline p{
+	margin-left:-15px;
+}
+
+footer #logo img{
+	float:right;
+	padding-top:10px;
 }
