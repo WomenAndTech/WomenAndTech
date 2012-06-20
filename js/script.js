@@ -1,12 +1,10 @@
-/* Author:
-Brett Bergmann
-*/
-
-$(function(){
-
+(function ($) {
+	$(".no-touch .parallax").length > 0 && $.getScript("/js/parallax.js");
+	
 	var $email_input=$('#mce-EMAIL'),
 	$email_submit=$('#mc-embedded-subscribe'),
 	timer=null,
+
 	change_color=function(){
 		if($email_input.val()!=""){
 			$email_submit.css("background-color","#ee462b").attr("disabled",false);
@@ -15,8 +13,7 @@ $(function(){
 			$email_submit.css("background-color","").attr("disabled","disabled");
 		}
 	}
-
-
+	
 	$email_input.focus(function(){
 		timer=setInterval(change_color,333);
 	}).blur(function(){
@@ -24,14 +21,7 @@ $(function(){
 		change_color();
 	})
 
-
-
-
-});
-
-
-
-
+})(jQuery);
 
 
 
