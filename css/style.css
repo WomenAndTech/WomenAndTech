@@ -307,45 +307,67 @@ h4 {
 
 footer{
 	background:#222222;
-	padding:0 0 10px;
+	padding:0 0 1px;
+
 }
 
-footer p{
-	margin-bottom:0;
-}
+	footer .container{
+		position:relative;
+			padding:0 0 40px;
+	}
+	footer p{
+		margin-bottom:0;
+	}
 
-footer .timeline{
-	padding:0;
-	background-image:none;
-	position:relative;
-}
+	footer .timeline{
+		padding:0;
+		background-image:none;
+		position:relative;
+	}
 
-footer #timeline-end{
-	width: 19px;
-	height: 32px;
-	position:absolute;
-	top: -1px;
-	left: 75px;
-	background: 
-	transparent url(../img/ui-womenandtech.png);
-	background-position: -143px -45px;
-	background-repeat:no-repeat;.	
-}
+	footer #timeline-end{
+		width: 19px;
+		height: 32px;
+		position:absolute;
+		top: -1px;
+		left: 75px;
+		background: 
+		transparent url(../img/ui-womenandtech.png);
+		background-position: -143px -45px;
+		background-repeat:no-repeat;.	
+	}
 
-footer #tagline{
-	color:#f0f0f0;
-	font-style:italic;
-	padding-top:5px;
-}
+	footer #tagline{
+		color:#f0f0f0;
+		font-style:italic;
+		padding-top:5px;
+	}
 
-footer #tagline p{
-	margin-left:5px;
-}
+	footer #tagline p{
+		margin-left:5px;
+	}
 
-footer #logo img{
-	float:right;
-	padding-top:10px;
-}
+	footer #logo img{
+		float:right;
+		padding-top:10px;
+	}
+
+	footer #byline{
+		color:#aaa;
+		font-size:0.5em;
+
+	}
+
+	footer #byline p{
+		position:absolute;
+		bottom:0px;
+		right:0px;
+	}
+
+	footer #byline a{
+		color:#aaa;
+	}
+
 
 .orange{
 	color:#ee462b;
@@ -478,8 +500,17 @@ footer #logo img{
 	footer #timeline-end {
 		display:none;
 	}
+
 	footer {
 		height:auto;
+	}
+
+	footer .container{
+		padding: 0 20px;
+	}
+
+	footer #byline p{
+		position:static;
 	}
 
 	#logo {
