@@ -42,7 +42,9 @@ h4 {
 /* GLOBAL ELEMENTS */
 
 .modal {
-	margin:-325px 0 0 -300px;	
+	width: 590px;
+	height: 600px;
+	margin:-300px 0 0 -295px;	
 }
 
 .content-block {
@@ -291,12 +293,7 @@ h4 {
 		padding:0 0 0 30px;
 		width:350px;	
 	}
-/* NOMINATION FORM */
 
-.modal{
-	width:600px;
-	height:650px;
-}
 
 #nomination-form .modal-header{
 	height:20px;
