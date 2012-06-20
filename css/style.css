@@ -509,6 +509,7 @@ footer{
 
 	footer {
 		height:auto;
+		padding-bottom:20px;
 	}
 
 	footer .container{
@@ -517,6 +518,11 @@ footer{
 
 	footer #byline p{
 		position:static;
+	}
+
+	footer #byline a{
+		padding-right:6px;
+		color:#aaa;
 	}
 
 	#logo {
