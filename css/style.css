@@ -58,6 +58,12 @@ h4 {
 
 /* HEADER */
 
+#twitter{
+	position: absolute;
+	top:5px;
+	right:-25px;
+}
+
 .navbar-inner{
 	background-color:#ee462b;
 	min-height:145px;
@@ -69,6 +75,14 @@ h4 {
 	-webkit-box-shadow:  0px 4px 0px #f3f3f3;
     box-shadow:  0px 4px 0px #f3f3f3;
 }
+.navbar .container{
+	position:relative;
+}
+
+.navbar i{
+	vertical-align:baseline;
+}
+
 
 .navbar .brand{
 	padding:0;
