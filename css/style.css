@@ -58,10 +58,21 @@ h4 {
 
 /* HEADER */
 
-#twitter{
+#social_buttons{
 	position: absolute;
 	top:5px;
 	right:-25px;
+	width:205px;
+}
+
+#twitter, .fb-like{
+float:left;
+opacity:0.8;
+}
+
+.fb-like{
+	margin-top:-4px;
+	padding-right:5px;
 }
 
 .navbar-inner{
@@ -101,7 +112,7 @@ h4 {
 	font-style:italic;
 	font-weight:600;
 	border-bottom:2px solid #fcb8ab;
-	padding:0 0 5px;
+	padding:25px 0 5px 0;
 	margin:0 0 20px 10px;
 }
 
