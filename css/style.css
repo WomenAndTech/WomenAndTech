@@ -58,6 +58,23 @@ h4 {
 
 /* HEADER */
 
+#social_buttons{
+	position: absolute;
+	top:5px;
+	right:-25px;
+	width:205px;
+}
+
+#twitter, .fb-like{
+float:left;
+opacity:0.8;
+}
+
+.fb-like{
+	margin-top:-4px;
+	padding-right:5px;
+}
+
 .navbar-inner{
 	background-color:#ee462b;
 	min-height:145px;
@@ -69,6 +86,14 @@ h4 {
 	-webkit-box-shadow:  0px 4px 0px #f3f3f3;
     box-shadow:  0px 4px 0px #f3f3f3;
 }
+.navbar .container{
+	position:relative;
+}
+
+.navbar i{
+	vertical-align:baseline;
+}
+
 
 .navbar .brand{
 	padding:0;
@@ -87,7 +112,7 @@ h4 {
 	font-style:italic;
 	font-weight:600;
 	border-bottom:2px solid #fcb8ab;
-	padding:0 0 5px;
+	padding:25px 0 5px 0;
 	margin:0 0 20px 10px;
 }
 
