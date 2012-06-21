@@ -78,7 +78,7 @@ opacity:0.8;
 .navbar-inner{
 	background-color:#ee462b;
 	min-height:145px;
-	background-image:none; /* Bootstrap uses this for gradients, which don't want yet */
+	background-image:none;
 	filter:none;
 	color:#fff;
 	border-bottom: solid 2px #ffffff;
