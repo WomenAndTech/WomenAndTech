@@ -62,16 +62,16 @@ h4 {
 	position: absolute;
 	top:5px;
 	right:-25px;
-	width:205px;
+	width:300px;
 }
 
 #twitter, .fb-like{
-float:left;
-opacity:0.8;
+	float:right;
+	opacity:0.8;
 }
 
 .fb-like{
-	margin-top:-4px;
+	margin-top:-5px;
 	padding-right:5px;
 }
 
@@ -461,6 +461,13 @@ footer{
 		color:#fff;
 		background-color:#333;
 	}
+	#social_buttons{ 
+		right:0;
+		float:right;
+		position:relative;
+		width:100%;
+	}
+	
 	.container, #coffee {
 		padding:0 20px;
 	}
@@ -471,7 +478,10 @@ footer{
 		margin:0;
 	}
 	.navbar .brand {
-		margin-left:20px;
+		margin-left:0;
+		width:100%;
+		text-align:center;
+		margin-bottom:15px;
 	}
 	#grand-plan h3 {
 		margin:0 0 20px;
@@ -584,6 +594,10 @@ footer{
 	}
 	#intro-icons .intro-icon span {
 		width:91px;
+	}
+	#social_buttons{ 
+		right:0;
+		top:8px;
 	}
 	.timeline h2:after {
 		content: '';
