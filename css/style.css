@@ -58,11 +58,12 @@ h4 {
 
 /* HEADER */
 
-#social_buttons{
-	position: absolute;
+#social_buttons{ 
+	right:-20px;
 	top:5px;
-	right:-25px;
-	width:300px;
+	float:right;
+	position:relative;
+	width:100%;
 }
 
 #twitter, .fb-like{
