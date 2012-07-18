@@ -381,13 +381,12 @@ footer{
 	footer #byline{
 		color:#aaa;
 		font-size:0.7em;
-
+		padding: 20px 0;
 	}
 
 	footer #byline p{
-		position:absolute;
-		bottom:0px;
-		right:0px;
+		float:right;
+		clear:right;
 	}
 
 	footer #byline a{
