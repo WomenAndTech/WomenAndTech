@@ -2,10 +2,10 @@
 	$(".no-touch .parallax").length > 0 && $.getScript("/js/parallax.js");
 	
 	var $email_input=$('#mce-EMAIL'),
-	$email_submit=$('#mc-embedded-subscribe'),
-	timer=null,
+		$email_submit=$('#mc-embedded-subscribe'),
+		timer;
 
-	change_color=function(){
+	var change_color=function(){
 		if($email_input.val()!=""){
 			$email_submit.css("background-color","#ee462b").attr("disabled",false);
 		}
@@ -20,6 +20,9 @@
 		clearInterval(timer);
 		change_color();
 	})
+
+	$('#byline').find('a').tooltip({placement: 'top'});
+	$('#email').find('a').tooltip({placement: 'top', delay: {show: 0, hide: 1000} })
 
 })(jQuery);
 

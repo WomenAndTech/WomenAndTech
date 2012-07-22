@@ -379,24 +379,54 @@ footer{
 	}
 
 	footer #byline{
-		color:#aaa;
+		color:#fff;
 		font-size:0.7em;
-		padding: 20px 0;
+		margin:50px 0 15px 60px;
+		padding-top:45px;
+		border-top:3px solid #333;
+		font-weight:bold;
 	}
 
-	footer #byline p{
-		float:right;
-		clear:right;
+	footer #names i{
+		margin-right:2px;
+	}
+
+	footer #names p{
+		margin-left:-30px;
 	}
 
 	footer #byline a{
-		padding-left:2px;
-		color:#aaa;
+		padding-left:7px;
+		color:#fcb8ab;
 	}
 
 	footer #byline a:hover, footer #byline a:active{
 		text-decoration:none;
-		color:#fcb8ab;
+		color:#ccc;
+	}
+
+	footer #contact p{
+		float:right;
+	}
+
+	footer #contact i{
+		margin-top:1px;
+	}
+
+	footer #email i{
+		margin-right:3px;
+	}
+
+	footer #follow img{
+		padding-bottom:3px;
+	}
+
+	footer #follow{
+		padding-left:8px;
+	}
+
+	footer #follow img{
+		margin-right:2px;
 	}
 
 
@@ -664,4 +694,5 @@ footer{
 	footer #timeline-end {
 		left:85px;
 	}
+
 }
