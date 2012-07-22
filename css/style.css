@@ -381,19 +381,13 @@ footer{
 	footer #byline{
 		color:#fff;
 		font-size:0.7em;
-		margin:50px 0 15px 60px;
+		margin:70px 0 5px 60px;
 		padding-top:45px;
 		border-top:3px solid #333;
 		font-weight:bold;
+		text-transform:uppercase;
 	}
 
-	footer #names i{
-		margin-right:2px;
-	}
-
-	footer #names p{
-		margin-left:-30px;
-	}
 
 	footer #byline a{
 		padding-left:7px;
@@ -405,6 +399,21 @@ footer{
 		color:#ccc;
 	}
 
+	footer #names a{
+		text-transform:none;
+	}
+
+	footer #names i{
+		margin-right:2px;
+	}
+
+	footer #names p{
+		margin-left:-30px;
+	}
+	footer #contact{
+		position: relative;
+		left:3px;
+	}
 	footer #contact p{
 		float:right;
 	}
@@ -422,7 +431,7 @@ footer{
 	}
 
 	footer #follow{
-		padding-left:8px;
+		padding-left:9px;
 	}
 
 	footer #follow img{
