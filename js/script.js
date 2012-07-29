@@ -1,5 +1,14 @@
 (function ($) {
 	$(".no-touch .parallax").length > 0 && $.getScript("/js/parallax.js");
+
+	$("#contact-link").find('a').click(function(e){
+		e.preventDefault();
+		var contact_pos=$("#contact").offset().top;
+		if($(window).scrollTop() + $(window).height() < contact_pos) {
+			$('html,body').animate({ scrollTop: contact_pos},2000);
+		}
+		return false;
+	});
 	
 	var $email_input=$('#mce-EMAIL'),
 		$email_submit=$('#mc-embedded-subscribe'),
