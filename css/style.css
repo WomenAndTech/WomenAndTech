@@ -379,25 +379,67 @@ footer{
 	}
 
 	footer #byline{
-		color:#aaa;
-		font-size:0.7em;
-
+		color:#fff;
+		font-size:0.65em;
+		margin:70px 0 5px;
+		margin-left:70px;
+		padding-top:45px;
+		border-top:3px solid #333;
+		font-weight:bold;
+		text-transform:uppercase;
 	}
 
-	footer #byline p{
-		position:absolute;
-		bottom:0px;
-		right:0px;
-	}
 
 	footer #byline a{
-		padding-left:2px;
-		color:#aaa;
+		padding-left:6px;
+		color:#fcb8ab;
 	}
 
 	footer #byline a:hover, footer #byline a:active{
 		text-decoration:none;
-		color:#fcb8ab;
+		color:#ccc;
+	}
+	footer #names{
+		width:610px;
+	}
+
+	footer #names a{
+		text-transform:none;
+	}
+
+	footer #names i{
+		margin-right:2px;
+	}
+
+	footer #names p{
+		margin-left:-30px;
+	}
+	footer #contact{
+		position: relative;
+		left:3px;
+	}
+	footer #contact p{
+		float:right;
+	}
+
+	footer #contact i{
+		margin-top:1px;
+	}
+
+	footer #email i{
+		margin-right:3px;
+	}
+
+	footer #follow img{
+		padding-bottom:3px;
+	}
+
+	footer #follow{
+		padding-left:9px;
+	}
+
+	footer #follow img{
+		margin-right:2px;
 	}
 
 
@@ -405,8 +447,12 @@ footer{
 	color:#ee462b;
 }
 
-
-
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
 
 @media (max-width: 480px) {
 	.modal {
@@ -424,7 +470,19 @@ footer{
 		margin-left:0;
 		font-size:28px;
 	}
+
+
+	
+
 }
+
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
 
 @media (max-width: 767px) {
 	body {
@@ -552,14 +610,46 @@ footer{
 		padding: 0 20px;
 	}
 
-	footer #byline p{
-		position:static;
+	footer #byline{
+		margin:0;
+		padding:0;
+		font-size:0.8em;
 	}
 
 	footer #byline a{
-		padding-right:6px;
-		color:#aaa;
+		color:#fcb8ab;
 	}
+
+	footer #names{
+		width:auto;
+		margin-left:32px;
+		padding-top:20px;
+	}
+
+	footer #names a{
+		padding:0;
+	}
+
+	footer #names i{
+		margin-top:2px;
+	}
+
+	footer #contact{
+	position: relative;
+	left: -10px;
+	width: auto;
+	padding: 20px 0 30px 0;
+	}
+
+	footer #contact p{
+		float:left;
+		padding-right:10px;
+	}
+
+	footer #contact i{
+		margin-top:3px;
+	}
+
 
 	#logo {
 		background-color:#222;
@@ -569,6 +659,13 @@ footer{
 			margin:0 0 20px;
 		}
 }
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 979px) {
 	body {
@@ -616,11 +713,46 @@ footer{
 		padding:0;
 		width:290px;
 	}
+
 	footer #tagline p {
 		margin:4px 0 0 25px;
 		font-size:13px;
 	}
+
+	footer #byline{
+		margin-left:100px;
+		font-size:0.7em;
+	}
+
+	footer #names, footer #contact{
+		display: block;
+		float: none;
+		width: auto;
+		margin-left: 0;
+
+	}
+
+	footer #contact{
+		position: relative;
+		left: -46px;
+		padding: 15px 0;
+	}
+
+	footer #contact p{
+		float:left;
+		padding-right:10px;
+	}
+
+
+
 }
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
 
 @media (min-width: 1200px) {
 	h1 {
@@ -665,4 +797,19 @@ footer{
 	footer #timeline-end {
 		left:85px;
 	}
+
+	footer #byline{
+		font-size:0.7em;
+		margin-left:60px;
+	}
+
+
+	footer #byline a{
+		padding-left:7px;
+	}
+
+	footer #names{
+		width:770px;
+	}
+
 }

@@ -4267,8 +4267,8 @@ input[type="submit"].btn.btn-mini {
 }
 
 .tooltip.in {
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
 
 .tooltip.top {
@@ -4291,7 +4291,7 @@ input[type="submit"].btn.btn-mini {
   bottom: 0;
   left: 50%;
   margin-left: -5px;
-  border-top: 5px solid #000000;
+  border-top: 5px solid #ffffff;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
 }
@@ -4302,7 +4302,7 @@ input[type="submit"].btn.btn-mini {
   margin-top: -5px;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  border-left: 5px solid #000000;
+  border-left: 5px solid #ffffff;
 }
 
 .tooltip.bottom .tooltip-arrow {
@@ -4310,7 +4310,7 @@ input[type="submit"].btn.btn-mini {
   left: 50%;
   margin-left: -5px;
   border-right: 5px solid transparent;
-  border-bottom: 5px solid #000000;
+  border-bottom: 5px solid #ffffff;
   border-left: 5px solid transparent;
 }
 
@@ -4319,17 +4319,18 @@ input[type="submit"].btn.btn-mini {
   left: 0;
   margin-top: -5px;
   border-top: 5px solid transparent;
-  border-right: 5px solid #000000;
+  border-right: 5px solid #ffffff;
   border-bottom: 5px solid transparent;
 }
 
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
-  color: #ffffff;
+  color: #000000;
+  font-weight:bold;
   text-align: center;
   text-decoration: none;
-  background-color: #000000;
+  background-color: #ffffff;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
