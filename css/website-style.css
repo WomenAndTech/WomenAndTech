@@ -175,6 +175,35 @@ h4 {
 		font-style: italic;
 	}
 
+	/* Article > Aside */
+
+	aside {
+		width:75%;
+	}
+
+	aside p{
+		font-size: 0.8em
+	}
+
+	/* Article > Aside > Info-Panel */
+
+	aside.info-panel{
+		color:white;
+		background-color:#ee462b;
+		padding:1em;
+		line-height: 1.5em;
+		text-align: left;
+
+	}
+
+	aside.info-panel h3{
+		color:white;
+		line-height:1.5em;
+		margin-bottom:0.5em;
+		font-weight: bold;
+	}
+
+
 
 /* Footer */
 
