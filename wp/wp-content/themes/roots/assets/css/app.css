@@ -1,0 +1,713 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+    line-height: 2;
+  color:#333333;
+}
+
+h1, h3 {
+  font-family:'Arvo', serif;
+  font-weight:normal;
+}
+
+h2, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:normal;
+}
+
+a{
+  color:#ee462b;
+  text-decoration: underline;
+}
+
+a:hover{
+  color:#888;
+  text-decoration: none;
+}
+
+a:active,
+a:focus { outline: none!important }
+
+
+h4 {
+  font-size:26px;
+  line-height:38px;
+  margin:0 0 20px;
+}
+
+/* GLOBAL ELEMENTS */
+
+.modal {
+  width: 590px;
+  height: 600px;
+  margin:-300px 0 0 -295px; 
+}
+
+.content-block {
+  padding:65px 0;
+}
+
+.larger-type {
+  font-size:20px;
+  margin:0 0 20px;
+}
+
+
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+#banner { }
+
+.navbar{
+  padding-bottom:35px;
+}
+
+.navbar-inner{
+  background-color:#ee462b;
+  background-image:none;
+  filter:none;
+  color:#fff;
+  border-bottom: solid 2px #ffffff;
+  -moz-box-shadow: 0px 4px 0px #f3f3f3;
+  -webkit-box-shadow:  0px 4px 0px #f3f3f3;
+    box-shadow:  0px 4px 0px #f3f3f3;
+}
+.navbar .container{
+  position:relative;
+}
+
+.navbar i{
+  vertical-align:baseline;
+}
+
+
+.navbar .brand{
+  padding:0;
+  margin:0 0 0 0;
+}
+
+.navbar .nav{
+  margin:0 0 0 0;
+  float:right;
+}
+
+.navbar .nav > li > a{
+  float:right;
+  color:#fff;
+  font-size:20px;
+  font-style:italic;
+  font-weight:600;
+  border-bottom:2px solid #fcb8ab;
+  padding:0 0 5px 0;
+  margin:0 0 20px 10px;
+}
+
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+#content { }
+
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+#main { }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+#sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry p.byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+#content-info { }
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 979px) {
+  /* Fix top padding when using the responsive grid with the fixed topbar */
+  body.top-navbar {
+    padding-top: 0;
+  }
+}
+
+
+
+
+/* ===== Primary Styles ========================================================
+   Author: Mark Staplehurst / Brett Bergmann
+   ========================================================================== */
+
+
+
+/* HEADER */
+
+
+
+/* --- Article ---- */
+
+  /* Article > Header */
+
+  #article-number{
+    background:#ee462b;
+    float:left;
+    font-family:'Arvo', serif;
+    color:white;
+    font-weight:100;
+    font-size: 0.8em;
+    text-align:center;
+    line-height:0.8em;
+    padding:1.35em;
+    padding-left:1.25em;
+    padding-right:1.25em;
+    margin-right:1em;
+    letter-spacing:0.1em;
+  }
+
+  h1 {
+    font-size:3.5em;
+    line-height:0.9em;
+    margin:0 0 35px;
+  }
+  
+  address {
+    font-weight: 100;
+  }
+
+  address img{
+    padding-right:5px;
+  }
+
+  address a, address a:visited, address a:active{
+    color:black;
+    font-weight: bold;
+  }
+
+  address a:hover{
+    color:#ee462b;
+    text-decoration: none;
+  }
+
+  /* Article > Section */
+
+  section{
+    margin:2em 0;
+    text-align: justify;
+  }
+  
+  h2{
+    font-size:1.7em;
+    line-height:2em;
+  }
+
+  h3 {
+    font-size:1em;
+    line-height:1em;
+    font-weight: bold;
+    color:#000;
+    margin-bottom:1.25em;
+
+  }
+
+  /* Article > #Opening */
+
+  #opening{
+    font-style: italic;
+  }
+
+  /* Article > Aside */
+
+  aside {
+    width:75%;
+  }
+
+  aside p{
+    font-size: 0.8em
+  }
+
+  /* Article > Aside > Info-Panel */
+
+  aside.info-panel{
+    color:white;
+    background-color:#ee462b;
+    padding:1em;
+    line-height: 1.5em;
+    text-align: left;
+
+  }
+
+  aside.info-panel h3{
+    color:white;
+    line-height:1.5em;
+    margin-bottom:0.5em;
+    font-weight: bold;
+  }
+
+
+
+/* Footer */
+
+footer{
+  background:#222222;
+  padding:0 0 5px;
+
+}
+
+  footer .container{
+    position:relative;
+      padding:0 0 40px;
+  }
+  footer p{
+    margin-bottom:0;
+  }
+
+
+  footer #logo img{
+    float:right;
+    padding-top:10px;
+  }
+
+  footer #byline{
+    color:#fff;
+    font-size:0.65em;
+    margin:70px 0 5px;
+    margin-left:70px;
+    padding-top:45px;
+    border-top:3px solid #333;
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+
+
+  footer #byline a{
+    padding-left:6px;
+    color:#fcb8ab;
+  }
+
+  footer #byline a:hover, footer #byline a:active{
+    text-decoration:none;
+    color:#ccc;
+  }
+  footer #names{
+    width:610px;
+  }
+
+  footer #names a{
+    text-transform:none;
+  }
+
+  footer #names i{
+    margin-right:2px;
+  }
+
+  footer #names p{
+    margin-left:-30px;
+  }
+  footer #contact{
+    position: relative;
+    left:3px;
+  }
+  footer #contact p{
+    float:right;
+  }
+
+  footer #contact i{
+    margin-top:1px;
+  }
+
+  footer #email i{
+    margin-right:3px;
+  }
+
+  footer #follow img{
+    padding-bottom:3px;
+  }
+
+  footer #follow{
+    padding-left:9px;
+  }
+
+  footer #follow img{
+    margin-right:2px;
+  }
+
+
+.orange{
+  color:#ee462b;
+}
+
+
+/* Tool Tip Overide */
+
+.tooltip {
+  position: absolute;
+  z-index: 1020;
+  display: block;
+  padding: 5px;
+  font-size: 11px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  visibility: visible;
+}
+
+.tooltip.in {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.tooltip.top {
+  margin-top: -2px;
+}
+
+.tooltip.right {
+  margin-left: 2px;
+}
+
+.tooltip.bottom {
+  margin-top: 2px;
+}
+
+.tooltip.left {
+  margin-left: -2px;
+}
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top: 5px solid #ffffff;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #ffffff;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #ffffff;
+  border-left: 5px solid transparent;
+}
+
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-right: 5px solid #ffffff;
+  border-bottom: 5px solid transparent;
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #000000;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+@media (max-width: 480px) {
+  .modal {
+    width:auto; 
+    margin:0;
+    top:10px;
+  }
+  
+
+}
+
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+@media (max-width: 767px) {
+  body {
+    padding:0;
+  }
+  .navbar .nav {
+    clear:left;
+    float:left;
+    text-align:center;
+    width:100%;
+    margin:20px 0 0;
+    padding:20px 0;
+    background:#f3f3f3;
+  }
+  .navbar .nav > li {
+    float:none;
+    padding:0 20px;
+    display:block;
+  }
+  .navbar .nav > li > a{
+    width:100%;
+    font-size:24px;
+    color:#333333;
+    border-bottom:none;
+    padding:13px 0;
+    float:none;
+    font-style:normal;
+    margin:0;
+    text-transform:uppercase;
+    font-size:1.2em;
+    background-color:#333;
+    color:#fff;
+  }
+  .navbar .nav > li > a:hover {
+    color:#fff;
+    background-color:#333;
+  }
+
+  
+  .container, #coffee {
+    padding:0 20px;
+  }
+  .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+    padding:0;
+  }
+  .navbar-fixed-top, .navbar-fixed-bottom {
+    margin:0;
+  }
+  .navbar .brand {
+    margin-left:0;
+    width:100%;
+    text-align:center;
+    margin-bottom:15px;
+  }
+
+
+  footer {
+    height:auto;
+    padding-bottom:20px;
+  }
+
+  footer .container{
+    padding: 0 20px;
+  }
+
+  footer #byline{
+    margin:0;
+    padding:0;
+    font-size:0.8em;
+  }
+
+  footer #byline a{
+    color:#fcb8ab;
+  }
+
+  footer #names{
+    width:auto;
+    margin-left:32px;
+    padding-top:20px;
+  }
+
+  footer #names a{
+    padding:0;
+  }
+
+  footer #names i{
+    margin-top:2px;
+  }
+
+  footer #contact{
+  position: relative;
+  left: -10px;
+  width: auto;
+  padding: 20px 0 30px 0;
+  }
+
+  footer #contact p{
+    float:left;
+    padding-right:10px;
+  }
+
+  footer #contact i{
+    margin-top:3px;
+  }
+
+
+  #logo {
+    background-color:#222;
+  }
+    footer #logo img {
+      float:none;
+      margin:0 0 20px;
+    }
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    padding:0;
+    font-size:16px;
+    line-height:1.9;
+  }
+  h4 {
+    font-size:24px;
+    line-height:36px;
+  }
+  .navbar .nav {
+    margin-right:20px;
+  }
+  .navbar .brand {
+    margin-left:20px;
+  }
+  .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+    padding:0;
+  }
+
+
+  footer #tagline p {
+    margin:4px 0 0 25px;
+    font-size:13px;
+  }
+
+  footer #byline{
+    margin-left:100px;
+    font-size:0.7em;
+  }
+
+  footer #names, footer #contact{
+    display: block;
+    float: none;
+    width: auto;
+    margin-left: 0;
+
+  }
+
+  footer #contact{
+    position: relative;
+    left: -46px;
+    padding: 15px 0;
+  }
+
+  footer #contact p{
+    float:left;
+    padding-right:10px;
+  }
+
+
+
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+@media (min-width: 1200px) {
+  /*
+  h1 {
+    font-size:64px;
+    line-height:74px;
+  }
+  h3 {
+    font-size:38px;
+    line-height:50px;
+  }
+  h4 {
+    font-size:32px;
+    line-height:44px;
+  }
+
+
+  footer #byline{
+    font-size:0.7em;
+    margin-left:60px;
+  }
+
+
+  footer #byline a{
+    padding-left:7px;
+  }
+
+  footer #names{
+    width:770px;
+  }
+  */
+}
+
