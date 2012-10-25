@@ -6,8 +6,8 @@
 
 body{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-    line-height: 2;
+	font-size: 14px;
+  line-height: 1.7em;
 	color:#333333;
 }
 
@@ -58,6 +58,27 @@ h4 {
 	margin:0 0 20px;
 }
 
+.container-fluid{
+	width:90%;
+	padding:0 5%;
+
+}
+
+.container-fluid .row-fluid{
+		max-width:1200px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.row-fluid .new-line{
+	clear:both;
+	margin-left:0;
+}
+
+.row-fluid .offset3.new-line{
+	margin-left:25.5319148936%;
+}
+
 /* HEADER */
 
 .navbar{
@@ -104,7 +125,8 @@ h4 {
 	margin:0 0 20px 10px;
 }
 
-/* --- Article ---- */
+/* --- Article #1 ---- */
+	
 
 	/* Article > Header */
 
@@ -114,28 +136,24 @@ h4 {
 		font-family:'Arvo', serif;
 		color:white;
 		font-weight:100;
-		font-size: 0.8em;
+		font-size: 2em;
 		text-align:center;
-		line-height:0.8em;
-		padding:1.35em;
-		padding-left:1.25em;
-		padding-right:1.25em;
-		margin-right:1em;
-		letter-spacing:0.1em;
+		line-height:1em;
+		padding:0.5em 0.75em;
+		margin-right:0.25em;
+		border-radius: 50%;
+		font-style:italic;
 	}
 
 	h1 {
 		font-size:3.5em;
-		line-height:0.9em;
-		margin:0 0 35px;
+		line-height:1.15em;
+		margin:0 0 0.25em;
 	}
 	
 	address {
 		font-weight: 100;
-	}
-
-	address img{
-		padding-right:5px;
+		margin-left:0.5em;
 	}
 
 	address a, address a:visited, address a:active{
@@ -143,9 +161,36 @@ h4 {
 		font-weight: bold;
 	}
 
+	address p{
+		margin:0;
+	}
+
 	address a:hover{
 		color:#ee462b;
 		text-decoration: none;
+	}
+
+	address .author-image{
+		display:inline-block;
+		border-radius:50%;
+		width:35px;
+		height:35px;
+	}
+
+	address #author-ivonnekn{
+		background:url('http://api.twitter.com/1/users/profile_image/ivonnekn') center center;
+	}
+
+
+	address .author-info{
+		display:inline-block;
+		height:35px;
+		padding-left:5px;
+	}
+	
+	address #date{
+		font-size:0.75em;
+		color:#555;
 	}
 
 	/* Article > Section */
@@ -155,12 +200,11 @@ h4 {
 		text-align: justify;
 	}
 	
-	h2{
+	section h2{
 		font-size:1.7em;
-		line-height:2em;
 	}
 
-	h3 {
+	section h3 {
 		font-size:1em;
 		line-height:1em;
 		font-weight: bold;
@@ -169,11 +213,42 @@ h4 {
 
 	}
 
+	/* Article > #Introduction */
+
+	#introduction{
+		
+	}
+
 	/* Article > #Opening */
 
 	#opening{
 		font-style: italic;
+		background: #f3f3f3;
 	}
+
+	#opening figure{
+		display: inline-block;
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+
+	#opening figure img{
+		width:100%;
+	}
+
+	#opening span{
+		display:block;
+	}
+
+	#opening span span#left{
+		padding-right:3%;
+	}
+
+	#opening span span#right{
+		padding-left:3%;
+	}
+
 
 	/* Article > Aside */
 
@@ -182,7 +257,7 @@ h4 {
 	}
 
 	aside p{
-		font-size: 0.8em
+		font-size: 0.9em
 	}
 
 	/* Article > Aside > Info-Panel */
@@ -201,6 +276,36 @@ h4 {
 		line-height:1.5em;
 		margin-bottom:0.5em;
 		font-weight: bold;
+	}
+
+	/* Article > Aside > Pull-Quote */
+
+	aside.pull-quote{
+		background-color:#eee;
+		width:100%;
+	}
+	
+	aside.pull-quote .span11{
+		background-color:#eee;
+	}
+
+	aside.pull-quote .span1{
+		font-size:10em;
+		line-height:1em;
+		color:white;
+		background-color:#ee462b;
+	}
+
+	aside.pull-quote h2{
+		margin:0;
+		padding:0.5em 2em;
+	}
+
+	/* Article > Interview-Panel */
+
+	.interview-panel{
+		font-size: 1.14em;
+		line-height: 1.75em;	
 	}
 
 
@@ -394,12 +499,6 @@ footer{
 /*------------------------------------------------*/
 
 @media (max-width: 480px) {
-	.modal {
-		width:auto;	
-		margin:0;
-		top:10px;
-	}
-	
 
 }
 
@@ -415,6 +514,7 @@ footer{
 	body {
 		padding:0;
 	}
+	/*
 	.navbar .nav {
 		clear:left;
 		float:left;
@@ -522,7 +622,7 @@ footer{
 		footer #logo img {
 			float:none;
 			margin:0 0 20px;
-		}
+		}*/
 }
 
 /*------------------------------------------------*/
@@ -538,6 +638,8 @@ footer{
 		font-size:16px;
 		line-height:1.9;
 	}
+
+	/*
 	h4 {
 		font-size:24px;
 		line-height:36px;
@@ -580,7 +682,7 @@ footer{
 	footer #contact p{
 		float:left;
 		padding-right:10px;
-	}
+	}*/
 
 
 
