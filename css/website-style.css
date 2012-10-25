@@ -281,24 +281,36 @@ h4 {
 	/* Article > Aside > Pull-Quote */
 
 	aside.pull-quote{
-		background-color:#eee;
+		background-color:#f3f3f3;
 		width:100%;
+		margin:5em 0;
+		display:block;
 	}
 	
-	aside.pull-quote .span11{
-		background-color:#eee;
+	aside.pull-quote .quote{
+		background-color:#f3f3f3;
+		height:8em;
 	}
 
-	aside.pull-quote .span1{
-		font-size:10em;
-		line-height:1em;
+	aside.pull-quote .quote-mark{
 		color:white;
 		background-color:#ee462b;
+		height:8em;
+		margin-left:0;
+		width:8.54700854701%;
+		vertical-align: middle;
+		text-align: center;
 	}
 
-	aside.pull-quote h2{
+	aside.pull-quote .quote-mark span{
+		font-size:10em;
+		line-height: 1em;
+		vertical-align: middle;
+	}
+
+	aside.pull-quote .quote h2{
 		margin:0;
-		padding:0.5em 2em;
+		padding:0.5em 3em 0.5em 0.5em;
 	}
 
 	/* Article > Interview-Panel */
