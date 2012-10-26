@@ -206,7 +206,7 @@ h4 {
 
 	section h3 {
 		font-size:1em;
-		line-height:1em;
+		line-height:1.4em;
 		font-weight: bold;
 		color:#000;
 		margin-bottom:1.25em;
@@ -280,44 +280,54 @@ h4 {
 
 	/* Article > Aside > Pull-Quote */
 
-	aside.pull-quote{
+	.pull-quote{
 		background-color:#f3f3f3;
 		width:100%;
-		margin:5em 0;
+		margin:2em 0 4em;
 		display:block;
 	}
 	
-	aside.pull-quote .quote{
+	.pull-quote .quote{
 		background-color:#f3f3f3;
-		height:8em;
+		height:7em;
+		width:95%;
+		float:left;
 	}
 
-	aside.pull-quote .quote-mark{
+	.pull-quote .quote h2{
+		margin:0;
+		padding:0.25em 0.5em;
+	}
+
+	.pull-quote .quote-mark{
 		color:white;
 		background-color:#ee462b;
-		height:8em;
+		height:7em;
 		margin-left:0;
-		width:8.54700854701%;
+		width:5%;
+		float:left;
 		vertical-align: middle;
 		text-align: center;
 	}
 
-	aside.pull-quote .quote-mark span{
-		font-size:10em;
+	.pull-quote .quote-mark span{
+		font-size:7em;
 		line-height: 1em;
 		vertical-align: middle;
 	}
 
-	aside.pull-quote .quote h2{
-		margin:0;
-		padding:0.5em 3em 0.5em 0.5em;
-	}
+
 
 	/* Article > Interview-Panel */
 
 	.interview-panel{
 		font-size: 1.14em;
 		line-height: 1.75em;	
+	}
+
+
+	.interview-panel p{
+		margin-bottom:1.5em;
 	}
 
 
