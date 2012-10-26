@@ -250,19 +250,49 @@ h4 {
 	}
 
 
-	/* Article > Aside */
+	/* Article > Aside/Figure */
 
-	aside {
+	aside, figure {
+		position:relative;
 		width:75%;
 	}
 
-	aside p{
+	aside p, figure p{
 		font-size: 0.9em
+	}
+
+	.arrow,
+	.arrow:after {
+	  position: absolute;
+	  display: inline-block;
+	  width: 0;
+	  height: 0;
+	  border-color: transparent;
+	  border-style: solid;
+	}
+
+	.arrow:after {
+	  z-index: -1;
+	  content: "";
+	}
+
+	.arrow {
+	  top: 50%;
+	  right: -15px;
+	  margin-top: -10px;
+	  border-width: 15px 0 15px 15px;
+	}
+
+	.arrow:after {
+	  right: -1px;
+	  bottom: -11px;
+	  border-left-color: #000;
+	  border-width: 16px 0 16px 16px;
 	}
 
 	/* Article > Aside > Info-Panel */
 
-	aside.info-panel{
+	.info-panel aside{
 		color:white;
 		background-color:#ee462b;
 		padding:1em;
@@ -271,11 +301,72 @@ h4 {
 
 	}
 
-	aside.info-panel h3{
+	.info-panel aside h3{
 		color:white;
 		line-height:1.5em;
 		margin-bottom:0.5em;
+		margin-top:0;
 		font-weight: bold;
+		font-size:1.1em;
+	}
+
+	.info-panel .arrow:after{
+		border-left-color: #ee462b;
+	}
+
+	/* Article > Figure > Notable-Person */
+
+	
+	.notable-person figure{
+		color:black;
+		background-color:#f3f3f3;
+		padding:1em;
+		margin:0;
+		line-height: 1.5em;
+		text-align: left;
+	}
+
+	.notable-person .arrow:after{
+		border-left-color: #f3f3f3;
+	}
+
+	.notable-person img{
+		width:33%;
+		float:left;
+	}
+
+	.notable-person figcaption{	
+		float:left;
+		width: 60%;
+		margin-left: 7%;
+	}
+
+	.notable-person h3{
+		line-height:1.5em;
+		margin-bottom:0.5em;
+		margin-top:0;
+		font-weight: bold;
+		font-size:1.1em;
+	}
+
+	.notable-person h4{
+		font-size:1em;
+		line-height: 0.5em;
+		margin:0;
+		margin-bottom:0.5em;
+		font-weight: normal;
+	}
+	
+	#neha-khera figure{
+		top:3.5em;
+	}
+
+	#mary-wells figure{
+		top:-1em;
+	}
+	
+	#william-barek figure{
+		top:5em;
 	}
 
 	/* Article > Aside > Pull-Quote */
