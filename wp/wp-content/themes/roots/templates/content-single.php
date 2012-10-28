@@ -1,8 +1,15 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
     <?php the_content(); ?>
-    <?php //var_dump(get_adjacent_post(false,"",false)); ?>
+
   </article>
+  
+  <h1>Next</h1>
+  <?php var_dump(get_adjacent_post(false,"",false, 'interview')); ?>
+
+  <h1>Previously</h1>
+  <?php var_dump(get_adjacent_post(false,"",true, 'interview')); ?>
+
 <?php endwhile; ?>
 
 
