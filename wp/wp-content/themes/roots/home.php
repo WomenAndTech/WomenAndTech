@@ -5,9 +5,18 @@ Template Name: Homepage
 ?>
 
 
-<?php 
-  // Get latest post 
-  query_posts('post_type=post&showposts=1');
+<?php
+  $args = array(
+    'post_type'=> array(
+                  'post',
+                  'interview'
+                  ),
+    'showposts' => 1,
+    'order' => 'DESC'
+  );
+
+  // Get latest post
+  query_posts($args);
 ?>
 
 <?php get_template_part('templates/content', 'single'); ?>

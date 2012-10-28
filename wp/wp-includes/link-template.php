@@ -1092,9 +1092,10 @@ function get_next_post($in_same_cat = false, $excluded_categories = '') {
  * @param bool $in_same_cat Optional. Whether post should be in a same category.
  * @param array|string $excluded_categories Optional. Array or comma-separated list of excluded category IDs.
  * @param bool $previous Optional. Whether to retrieve previous post.
+ * @param bool $post_type Optional. Whether to retrieve specific post.
  * @return mixed Post object if successful. Null if global $post is not set. Empty string if no corresponding post exists.
  */
-function get_adjacent_post( $in_same_cat = false, $excluded_categories = '', $previous = true ) {
+function get_adjacent_post( $in_same_cat = false, $excluded_categories = '', $previous = true, $post_type ) {
 	global $post, $wpdb;
 
 	if ( empty( $post ) )
@@ -1136,13 +1137,14 @@ function get_adjacent_post( $in_same_cat = false, $excluded_categories = '', $pr
 			}
 		}
 	}
-
+	// Added by Brett
+	$post_type = $post_type ? $post_type : $post->post_type;
 	$adjacent = $previous ? 'previous' : 'next';
 	$op = $previous ? '<' : '>';
 	$order = $previous ? 'DESC' : 'ASC';
 
 	$join  = apply_filters( "get_{$adjacent}_post_join", $join, $in_same_cat, $excluded_categories );
-	$where = apply_filters( "get_{$adjacent}_post_where", $wpdb->prepare("WHERE p.post_date $op %s AND p.post_type = %s AND p.post_status = 'publish' $posts_in_ex_cats_sql", $current_post_date, $post->post_type), $in_same_cat, $excluded_categories );
+	$where = apply_filters( "get_{$adjacent}_post_where", $wpdb->prepare("WHERE p.post_date $op %s AND p.post_type = %s AND p.post_status = 'publish' $posts_in_ex_cats_sql", $current_post_date, $post_type), $in_same_cat, $excluded_categories );
 	$sort  = apply_filters( "get_{$adjacent}_post_sort", "ORDER BY p.post_date $order LIMIT 1" );
 
 	$query = "SELECT p.* FROM $wpdb->posts AS p $join $where $sort";
