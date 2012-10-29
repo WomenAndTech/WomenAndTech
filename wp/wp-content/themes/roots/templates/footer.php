@@ -1,6 +1,8 @@
-<footer id="content-info" class="container" role="contentinfo">
-  <?php dynamic_sidebar('sidebar-footer'); ?>
-  <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+<footer class="container" role="contentinfo">
+  
+  <?php get_template_part('templates/teaser'); ?>
+  <?php get_template_part('templates/byline'); ?>
+  
 </footer>
 
 <?php if (GOOGLE_ANALYTICS_ID) : ?>

@@ -4,14 +4,14 @@
 
   </article>
   
-  <h1>Next</h1>
-  <?php var_dump(get_adjacent_post(false,"",false, 'interview')); ?>
 
-  <h1>Previously</h1>
-  <?php var_dump(get_adjacent_post(false,"",true, 'interview')); ?>
 
 <?php endwhile; ?>
 
+
+<?php //var_dump(get_adjacent_post(false,"",false, 'interview')); ?>
+
+<?php //var_dump(get_adjacent_post(false,"",true, 'interview')); ?>
 
 <!-- <header>
   <h1 class="entry-title"><?php //the_title(); ?></h1>
