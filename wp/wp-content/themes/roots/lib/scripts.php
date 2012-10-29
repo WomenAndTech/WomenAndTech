@@ -19,7 +19,7 @@ function roots_scripts() {
   wp_enqueue_style('roots_bootstrap', '/assets/css/bootstrap.css', false, null);
   wp_enqueue_style('roots_bootstrap_responsive', '/assets/css/bootstrap-responsive.css', array('roots_bootstrap'), null);
 
-  wp_enqueue_style('roots_arvo_font', 'http://fonts.googleapis.com/css?family=Arvo:400,400italic|Open+Sans:400italic,600italic,400,600', false, null);
+  // wp_enqueue_style('roots_arvo_font', 'http://fonts.googleapis.com/css?family=Arvo:400,400italic|Open+Sans:400italic,600italic,400,600', false, null);
 
   wp_enqueue_style('roots_app', '/assets/css/app.css', array('roots_bootstrap'), null);
 
