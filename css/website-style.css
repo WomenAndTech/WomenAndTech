@@ -491,10 +491,17 @@ footer{
 	#subscribe .mc-field-group{
 		border-bottom:1px solid #888;
 		padding:10px;
+		padding-top:20px;
 	}
 	
 	#subscribe label{
 		display:inline-block;
+	}
+
+	#subscribe #placeholder{
+		font-size:1.5em;
+		font-style: italic;
+		padding:10px 0 0 10px;
 	}
 	
 	#subscribe input[type=submit]{
@@ -503,17 +510,20 @@ footer{
 		border:none;
 		font-weight:600;
 		font-size:1.2em;
-		padding:13px 0;
-		width:100%;
+		padding:13px 5px;
+		width:35%;
+		position:absolute;
+		right:5px;
+		bottom:5px;
 		text-align:center;
 		color:#fff;
 		text-transform:uppercase;
 		line-height:1;
-		margin-top:5px;
 		transition-property:linear 0.2s;
 		-moz-transition:linear 0.2s;
 		-webkit-transition:linear 0.2s;
-		-o-transition:linear 0.2s;	
+		-o-transition:linear 0.2s;
+	
 	}
 
 	footer p{
