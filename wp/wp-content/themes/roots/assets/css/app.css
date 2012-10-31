@@ -1,20 +1,36 @@
 /* ==========================================================================
-   Base
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
    ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+/* ===== Primary Styles ========================================================
+   Author: Mark Staplehurst / Brett Bergmann
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Blanch Condensed';
+  src: url("../BLANCH_CONDENSED.otf") format("opentype");
+}
 
 body{
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-    line-height: 2;
+  font-size: 14px;
+  line-height: 1.7em;
   color:#333333;
 }
 
-h1, h3 {
+h1 {
   font-family:'Arvo', serif;
   font-weight:normal;
 }
 
-h2, h4, h5 {
+h2, h3, h4, h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight:normal;
 }
@@ -56,13 +72,28 @@ h4 {
   margin:0 0 20px;
 }
 
+.container-fluid{
+  width:90%;
+  padding:0 5%;
 
+}
 
-/* =============================================================================
-   Header
-   ========================================================================== */
+.container-fluid .row-fluid{
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-#banner { }
+.row-fluid .new-line{
+  clear:both;
+  margin-left:0;
+}
+
+.row-fluid .offset3.new-line{
+  margin-left:25.5319148936%;
+}
+
+/* HEADER */
 
 .navbar{
   padding-bottom:35px;
@@ -108,89 +139,8 @@ h4 {
   margin:0 0 20px 10px;
 }
 
-
-
-/* ==========================================================================
-   Content
-   ========================================================================== */
-
-#content { }
-
-
-
-/* ==========================================================================
-   Primary Content
-   ========================================================================== */
-
-#main { }
-
-
-
-/* ==========================================================================
-   Sidebar
-   ========================================================================== */
-
-#sidebar { }
-
-
-
-/* ==========================================================================
-   Posts
-   ========================================================================== */
-
-.hentry header { }
-.hentry time { }
-.hentry p.byline { }
-.hentry .entry-content { }
-.hentry footer { }
-
-
-
-/* ==========================================================================
-   Footer
-   ========================================================================== */
-
-#content-info { }
-
-
-
-/* ==========================================================================
-   WordPress Generated Classes
-   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
-   ========================================================================== */
-
-.aligncenter { display: block; margin: 0 auto; }
-.alignleft { float: left; }
-.alignright { float: right; }
-figure.alignnone { margin-left: 0; margin-right: 0; }
-
-
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-@media (max-width: 979px) {
-  /* Fix top padding when using the responsive grid with the fixed topbar */
-  body.top-navbar {
-    padding-top: 0;
-  }
-}
-
-
-
-
-/* ===== Primary Styles ========================================================
-   Author: Mark Staplehurst / Brett Bergmann
-   ========================================================================== */
-
-
-
-/* HEADER */
-
-
-
-/* --- Article ---- */
+/* --- Article #1 ---- */
+  
 
   /* Article > Header */
 
@@ -200,28 +150,24 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     font-family:'Arvo', serif;
     color:white;
     font-weight:100;
-    font-size: 0.8em;
+    font-size: 2em;
     text-align:center;
-    line-height:0.8em;
-    padding:1.35em;
-    padding-left:1.25em;
-    padding-right:1.25em;
-    margin-right:1em;
-    letter-spacing:0.1em;
+    line-height:1em;
+    padding:0.5em 0.75em;
+    margin-right:0.25em;
+    border-radius: 50%;
+    font-style:italic;
   }
 
   h1 {
     font-size:3.5em;
-    line-height:0.9em;
-    margin:0 0 35px;
+    line-height:1.15em;
+    margin:0 0 0.25em;
   }
   
   address {
     font-weight: 100;
-  }
-
-  address img{
-    padding-right:5px;
+    margin-left:0.5em;
   }
 
   address a, address a:visited, address a:active{
@@ -229,9 +175,36 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     font-weight: bold;
   }
 
+  address p{
+    margin:0;
+  }
+
   address a:hover{
     color:#ee462b;
     text-decoration: none;
+  }
+
+  address .author-image{
+    display:inline-block;
+    border-radius:50%;
+    width:35px;
+    height:35px;
+  }
+
+  address #author-ivonnekn{
+    background:url('http://api.twitter.com/1/users/profile_image/ivonnekn') center center;
+  }
+
+
+  address .author-info{
+    display:inline-block;
+    height:35px;
+    padding-left:5px;
+  }
+  
+  address #date{
+    font-size:0.75em;
+    color:#555;
   }
 
   /* Article > Section */
@@ -241,39 +214,99 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     text-align: justify;
   }
   
-  h2{
+  section h2{
     font-size:1.7em;
-    line-height:2em;
   }
 
-  h3 {
+  section h3 {
     font-size:1em;
-    line-height:1em;
+    line-height:1.4em;
     font-weight: bold;
     color:#000;
     margin-bottom:1.25em;
 
   }
 
+  /* Article > #Introduction */
+
+  #introduction{
+    
+  }
+
   /* Article > #Opening */
 
   #opening{
     font-style: italic;
+    background: #f3f3f3;
   }
 
-  /* Article > Aside */
+  #opening figure{
+    display: inline-block;
+    width:100%;
+    margin:0;
+    padding:0;
+  }
 
-  aside {
+  #opening figure img{
+    width:100%;
+  }
+
+  #opening span{
+    display:block;
+  }
+
+  #opening span span#left{
+    padding-right:3%;
+  }
+
+  #opening span span#right{
+    padding-left:3%;
+  }
+
+
+  /* Article > Aside/Figure */
+
+  aside, figure {
+    position:relative;
     width:75%;
   }
 
-  aside p{
-    font-size: 0.8em
+  aside p, figure p{
+    font-size: 0.9em
+  }
+
+  .arrow,
+  .arrow:after {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+  }
+
+  .arrow:after {
+    z-index: -1;
+    content: "";
+  }
+
+  .arrow {
+    top: 50%;
+    right: -15px;
+    margin-top: -10px;
+    border-width: 15px 0 15px 15px;
+  }
+
+  .arrow:after {
+    right: -1px;
+    bottom: -11px;
+    border-left-color: #000;
+    border-width: 16px 0 16px 16px;
   }
 
   /* Article > Aside > Info-Panel */
 
-  aside.info-panel{
+  .info-panel aside{
     color:white;
     background-color:#ee462b;
     padding:1em;
@@ -282,11 +315,124 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
   }
 
-  aside.info-panel h3{
+  .info-panel aside h3{
     color:white;
     line-height:1.5em;
     margin-bottom:0.5em;
+    margin-top:0;
     font-weight: bold;
+    font-size:1.1em;
+  }
+
+  .info-panel .arrow:after{
+    border-left-color: #ee462b;
+  }
+
+  /* Article > Figure > Notable-Person */
+
+  
+  .notable-person figure{
+    color:black;
+    background-color:#f3f3f3;
+    padding:1em;
+    margin:0;
+    line-height: 1.5em;
+    text-align: left;
+  }
+
+  .notable-person .arrow:after{
+    border-left-color: #f3f3f3;
+  }
+
+  .notable-person img{
+    width:33%;
+    float:left;
+  }
+
+  .notable-person figcaption{ 
+    float:left;
+    width: 60%;
+    margin-left: 7%;
+  }
+
+  .notable-person h3{
+    line-height:1.5em;
+    margin-bottom:0.5em;
+    margin-top:0;
+    font-weight: bold;
+    font-size:1.1em;
+  }
+
+  .notable-person h4{
+    font-size:1em;
+    line-height: 0.5em;
+    margin:0;
+    margin-bottom:0.5em;
+    font-weight: normal;
+  }
+  
+  #neha-khera figure{
+    top:3.5em;
+  }
+
+  #mary-wells figure{
+    top:-1em;
+  }
+  
+  #william-barek figure{
+    top:5em;
+  }
+
+  /* Article > Aside > Pull-Quote */
+
+  .pull-quote{
+    background-color:#f3f3f3;
+    width:100%;
+    margin:2em 0 4em;
+    display:block;
+  }
+  
+  .pull-quote .quote{
+    background-color:#f3f3f3;
+    height:7em;
+    width:95%;
+    float:left;
+  }
+
+  .pull-quote .quote h2{
+    margin:0;
+    padding:0.25em 0.5em;
+  }
+
+  .pull-quote .quote-mark{
+    color:white;
+    background-color:#ee462b;
+    height:7em;
+    margin-left:0;
+    width:5%;
+    float:left;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .pull-quote .quote-mark span{
+    font-size:7em;
+    line-height: 1em;
+    vertical-align: middle;
+  }
+
+
+
+  /* Article > Interview-Panel */
+
+  .interview-panel{
+    font-size: 1.14em;
+    line-height: 1.75em;  
+  }
+
+
+  .interview-panel p{
+    margin-bottom:1.5em;
   }
 
 
@@ -299,10 +445,115 @@ footer{
 
 }
 
-  footer .container{
-    position:relative;
-      padding:0 0 40px;
+  #teasers a .span4, #teasers .span4{
+    background:#f3f3f3;
+    margin-top:5em;
   }
+
+  #teasers a:hover .span4{
+    background:#dedddd;
+    margin-top:5em;
+  }
+  
+  #teasers a h3, #teasers h3{
+    color:#ee462b;
+    text-align: center;
+    line-height: 1em;
+    font-family: 'Blanch Condensed', sans-serif;
+    font-size: 2em;
+    margin:5px 0;
+    font-weight: 100;
+  }
+
+  #teasers a:hover h3{
+    color:#222222;
+  }
+
+  .teaser-block{
+    padding-bottom:10px;
+  }
+
+  .teaser-block > img, .teaser-block #subscribe{
+    position:relative;
+    left:10px;
+    width:350px;
+    height:186px;
+  }
+
+  #subscribe{
+    background: #dedddd;
+  }
+
+  #subscribe input[type=email], #subscribe input[type=text]{
+    box-shadow:none;
+    -moz-border-box:none;
+    -webkit-border-box:none;
+    border:none;
+    border-radius:0;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    font-size:32px;
+    height:inherit;
+    width:inherit;
+    padding:0;
+    margin:0;
+    background-color: #dedddd;
+    border-left:1px solid #888888;
+    padding-left:10px;
+    padding-top:1px;
+    margin-left:10px;
+    line-height:1;
+    color:#ee462b;
+    width:75%;
+    font-weight:200;
+  }
+  
+  #subscribe input::-webkit-input-placeholder{
+    font-style:italic;
+  }
+  #subscribe input:-moz-placeholder{
+    font-style:italic;
+  }
+  
+  #subscribe .mc-field-group{
+    border-bottom:1px solid #888;
+    margin:10px;
+    padding-top:20px;
+  }
+  
+  #subscribe label{
+    display:inline-block;
+    margin-bottom:15px;
+  }
+
+  #subscribe #placeholder{
+    font-size:1.5em;
+    font-style: italic;
+    padding-left: 10px;
+  }
+  
+  #subscribe input[type=submit]{
+    font-family: 'Open Sans', sans-serif;
+    background-color:#fcb8ab;
+    border:none;
+    font-weight:600;
+    font-size:1.2em;
+    padding:13px 5px;
+    width:35%;
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    text-align:center;
+    color:#fff;
+    text-transform:uppercase;
+    line-height:1;
+    transition-property:linear 0.2s;
+    -moz-transition:linear 0.2s;
+    -webkit-transition:linear 0.2s;
+    -o-transition:linear 0.2s;
+  
+  }
+
   footer p{
     margin-bottom:0;
   }
@@ -315,13 +566,10 @@ footer{
 
   footer #byline{
     color:#fff;
-    font-size:0.65em;
-    margin:70px 0 5px;
-    margin-left:70px;
-    padding-top:45px;
-    border-top:3px solid #333;
     font-weight:bold;
     text-transform:uppercase;
+    font-size:0.9em;
+    padding:6em 0 1.5em 0;
   }
 
 
@@ -334,10 +582,7 @@ footer{
     text-decoration:none;
     color:#ccc;
   }
-  footer #names{
-    width:610px;
-  }
-
+  
   footer #names a{
     text-transform:none;
   }
@@ -480,12 +725,6 @@ footer{
 /*------------------------------------------------*/
 
 @media (max-width: 480px) {
-  .modal {
-    width:auto; 
-    margin:0;
-    top:10px;
-  }
-  
 
 }
 
@@ -501,6 +740,7 @@ footer{
   body {
     padding:0;
   }
+  /*
   .navbar .nav {
     clear:left;
     float:left;
@@ -608,7 +848,7 @@ footer{
     footer #logo img {
       float:none;
       margin:0 0 20px;
-    }
+    }*/
 }
 
 /*------------------------------------------------*/
@@ -624,6 +864,8 @@ footer{
     font-size:16px;
     line-height:1.9;
   }
+
+  /*
   h4 {
     font-size:24px;
     line-height:36px;
@@ -666,7 +908,7 @@ footer{
   footer #contact p{
     float:left;
     padding-right:10px;
-  }
+  }*/
 
 
 
