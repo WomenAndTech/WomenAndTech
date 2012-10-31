@@ -433,7 +433,7 @@ footer{
 
 	#teasers .span4{
 		background:#f3f3f3;
-		margin-top:5%;
+		margin-top:5em;
 	}
 	
 	#teasers h3{
@@ -538,12 +538,10 @@ footer{
 
 	footer #byline{
 		color:#fff;
-		font-size:0.65em;
-		margin:70px 0 5px;
-		margin-left:70px;
-		padding-top:45px;
 		font-weight:bold;
 		text-transform:uppercase;
+		font-size:0.9em;
+		padding:6em 0 1.5em 0;
 	}
 
 
@@ -556,10 +554,7 @@ footer{
 		text-decoration:none;
 		color:#ccc;
 	}
-	footer #names{
-		width:610px;
-	}
-
+	
 	footer #names a{
 		text-transform:none;
 	}
