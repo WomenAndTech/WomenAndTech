@@ -4,6 +4,11 @@
    Author: Mark Staplehurst / Brett Bergmann
    ========================================================================== */
 
+@font-face {
+	font-family: 'Blanch Condensed';
+	src: url("../BLANCH_CONDENSED.otf") format("opentype");
+}
+
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -439,18 +444,22 @@ footer{
 	#teasers h3{
 		color:#ee462b;
 		text-align: center;
-		line-height: 1em
+		line-height: 1em;
+		font-family: 'Blanch Condensed', sans-serif;
+		font-size: 2em;
+		margin:5px 0;
+		font-weight: 100;
 	}
 
 	.teaser-block{
-		padding-bottom:5px;
+		padding-bottom:10px;
 	}
 
 	.teaser-block > img, .teaser-block #subscribe{
 		position:relative;
-		left:5px;
-		width:360px;
-		height:188px;
+		left:10px;
+		width:350px;
+		height:186px;
 	}
 
 	#subscribe{
@@ -490,18 +499,19 @@ footer{
 	
 	#subscribe .mc-field-group{
 		border-bottom:1px solid #888;
-		padding:10px;
+		margin:10px;
 		padding-top:20px;
 	}
 	
 	#subscribe label{
 		display:inline-block;
+		margin-bottom:15px;
 	}
 
 	#subscribe #placeholder{
 		font-size:1.5em;
 		font-style: italic;
-		padding:10px 0 0 10px;
+		padding-left: 10px;
 	}
 	
 	#subscribe input[type=submit]{
@@ -513,8 +523,8 @@ footer{
 		padding:13px 5px;
 		width:35%;
 		position:absolute;
-		right:5px;
-		bottom:5px;
+		right:10px;
+		bottom:10px;
 		text-align:center;
 		color:#fff;
 		text-transform:uppercase;
