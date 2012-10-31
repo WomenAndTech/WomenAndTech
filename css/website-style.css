@@ -11,12 +11,12 @@ body{
 	color:#333333;
 }
 
-h1, h3 {
+h1 {
 	font-family:'Arvo', serif;
 	font-weight:normal;
 }
 
-h2, h4, h5 {
+h2, h3, h4, h5 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:normal;
 }
@@ -431,10 +431,31 @@ footer{
 
 }
 
-	footer .container{
-		position:relative;
-			padding:0 0 40px;
+	#teasers .span4{
+		background:#f3f3f3;
+		margin-top:5%;
 	}
+	
+	#teasers h3{
+		color:#ee462b;
+		text-align: center;
+		line-height: 1em
+	}
+
+	#teasers .teaser{
+		width:90%;
+		padding:0 5% 5% 5%;
+	}
+
+	.teaser#subscribe{
+		background:#dedddd;
+		width:90%;
+		margin:0 auto;
+		padding:0;
+		margin-bottom:5%;
+		height:80%;
+	}
+
 	footer p{
 		margin-bottom:0;
 	}
@@ -451,7 +472,6 @@ footer{
 		margin:70px 0 5px;
 		margin-left:70px;
 		padding-top:45px;
-		border-top:3px solid #333;
 		font-weight:bold;
 		text-transform:uppercase;
 	}
