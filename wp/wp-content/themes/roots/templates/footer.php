@@ -1,8 +1,8 @@
-<footer class="container" role="contentinfo">
-  
-  <?php get_template_part('templates/teaser'); ?>
-  <?php get_template_part('templates/byline'); ?>
-  
+<footer role="contentinfo">
+  <div class="container">
+    <?php get_template_part('templates/teaser'); ?>
+    <?php get_template_part('templates/byline'); ?>
+  </div>
 </footer>
 
 <?php if (GOOGLE_ANALYTICS_ID) : ?>
