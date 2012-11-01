@@ -90,6 +90,10 @@ h4 {
 	padding-bottom:35px;
 }
 
+.navbar .right{
+	float:right;
+}
+
 .navbar-inner{
 	background-color:#ee462b;
 	background-image:none;
@@ -111,16 +115,14 @@ h4 {
 	vertical-align:baseline;
 }
 
-.navbar .brand, nav{
+.navbar .brand{
 	padding:0.5em 0;
 	margin:0 0 0 0;
 }
 
 .navbar .nav{
 	margin:0 0 0 0;
-	float:right;
-	position:relative;
-	top:35px;
+	padding-top:10px;
 }
 
 .navbar .nav > li {
@@ -132,12 +134,47 @@ line-height: 2em
 	color:#fff;
 	font-size:20px;
 	font-style:italic;
-	font-weight:600;
 	border-bottom:2px solid #fcb8ab;
 	padding:0;
 	margin:0 0 0 20px;
 	text-shadow:none;
 }
+
+.navbar .contact{
+	float:right;
+	padding-top:0.4em;
+}
+
+.navbar .contact p{
+	display:inline;
+}
+
+.navbar .contact a{
+	color:#fff;
+	text-decoration: none;
+}
+
+	.navbar .contact i{
+		margin-top:1px;
+	}
+
+	.navbar .email i{
+		margin-right:3px;
+	}
+
+	.navbar .follow img{
+		padding-bottom:3px;
+	}
+
+	.navbar .follow{
+		padding-left:9px;
+		padding-right:1.5em;
+	}
+
+	.navbar .follow img{
+		margin-right:4px;
+	}
+
 
 /* --- Article #1 ---- */
 	
