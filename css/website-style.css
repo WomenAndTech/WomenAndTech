@@ -99,24 +99,32 @@ h4 {
 	-moz-box-shadow: 0px 4px 0px #f3f3f3;
 	-webkit-box-shadow:  0px 4px 0px #f3f3f3;
     box-shadow:  0px 4px 0px #f3f3f3;
+  padding-left:0;
+  padding-right:0;
 }
 .navbar .container{
 	position:relative;
 }
 
+
 .navbar i{
 	vertical-align:baseline;
 }
 
-
-.navbar .brand{
-	padding:0;
+.navbar .brand, nav{
+	padding:0.5em 0;
 	margin:0 0 0 0;
 }
 
 .navbar .nav{
 	margin:0 0 0 0;
 	float:right;
+	position:relative;
+	top:35px;
+}
+
+.navbar .nav > li {
+line-height: 2em
 }
 
 .navbar .nav > li > a{
@@ -126,8 +134,9 @@ h4 {
 	font-style:italic;
 	font-weight:600;
 	border-bottom:2px solid #fcb8ab;
-	padding:0 0 5px 0;
-	margin:0 0 20px 10px;
+	padding:0;
+	margin:0 0 0 20px;
+	text-shadow:none;
 }
 
 /* --- Article #1 ---- */
@@ -135,7 +144,7 @@ h4 {
 
 	/* Article > Header */
 
-	#article-number{
+	.article-number{
 		background:#ee462b;
 		float:left;
 		font-family:'Arvo', serif;
@@ -144,7 +153,7 @@ h4 {
 		font-size: 2em;
 		text-align:center;
 		line-height:1em;
-		padding:0.5em 0.75em;
+		padding:0.5em 0.8em 0.5em 0.75em;
 		margin-right:0.25em;
 		border-radius: 50%;
 		font-style:italic;
@@ -934,3 +943,66 @@ footer{
 	}
 	*/
 }
+
+/* ===== #past-interviews ============================================== */
+#past-interviews h1{
+	margin-bottom:1em;
+}
+
+.past-listing{
+ height: 36em;
+ background-color:#f3f3f3;
+ font-size:14px;
+ margin-bottom:4em;
+}
+
+	.past-listing h2{
+		font-family: 'Arvo', serif;
+		font-size: 2em;
+		line-height: 1.6em;
+		margin-bottom:0;
+		padding-bottom:0;
+	}
+
+	.past-listing img{
+		width:100%;
+	}
+
+	.past-listing > p, .past-listing .title-block{
+		padding:0 1.1em;
+	}
+
+	.past-listing > p,{
+		clear:both;
+	}
+
+	.past-listing .title-block{
+		margin-bottom:1em;
+	}
+
+	.past-post .title-block{
+		margin-bottom:1.5em;
+	}
+
+	.past-interview .article-number{
+		font-size:1em;
+		float: left;
+		margin:0;
+		margin-top:1.3em;
+		margin-left:1em;
+	}
+	
+	.past-interview .title-block{
+		padding-left:3.7em;
+	}
+	
+	.title-block p{
+		line-height:1.5em;
+		padding-left:0.2em;
+	}
+
+	.title-block p strong{
+		font-family: 'Arvo', serif;
+	}
+
+
