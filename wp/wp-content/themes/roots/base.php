@@ -12,9 +12,9 @@
     }
   ?>
 
-  <div id="wrap" class="container" role="document">
+  <!-- <div id="wrap" class="container" role="document">
     <div id="content" class="row">
-      <div id="main" class="<?php echo roots_main_class(); ?>" role="main">
+      <div id="main" class="<?php echo roots_main_class(); ?>" role="main"> -->
         <?php include roots_template_path(); ?>
       </div>
       <?php if (roots_display_sidebar()) : ?>
@@ -22,8 +22,8 @@
         <?php get_template_part('templates/sidebar'); ?>
       </aside>
       <?php endif; ?>
-    </div><!-- /#content -->
-  </div><!-- /#wrap -->
+    <!-- </div> --><!-- /#content -->
+  <!-- </div> --><!-- /#wrap -->
 
   <?php get_template_part('templates/footer'); ?>
 
