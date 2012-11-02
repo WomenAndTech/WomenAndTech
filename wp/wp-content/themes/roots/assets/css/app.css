@@ -93,10 +93,14 @@ h4 {
   margin-left:25.5319148936%;
 }
 
-/* HEADER */
+/* HEADER / NAV */
 
 .navbar{
   padding-bottom:35px;
+}
+
+.navbar .right{
+  float:right;
 }
 
 .navbar-inner{
@@ -108,24 +112,31 @@ h4 {
   -moz-box-shadow: 0px 4px 0px #f3f3f3;
   -webkit-box-shadow:  0px 4px 0px #f3f3f3;
     box-shadow:  0px 4px 0px #f3f3f3;
+  padding-left:0;
+  padding-right:0;
 }
 .navbar .container{
   position:relative;
 }
 
+
 .navbar i{
   vertical-align:baseline;
 }
 
-
 .navbar .brand{
-  padding:0;
+  padding:0.5em 0;
   margin:0 0 0 0;
 }
 
 .navbar .nav{
   margin:0 0 0 0;
-  float:right;
+  padding-top:10px;
+  float: right;
+}
+
+.navbar .nav > li {
+line-height: 2em
 }
 
 .navbar .nav > li > a{
@@ -133,11 +144,61 @@ h4 {
   color:#fff;
   font-size:20px;
   font-style:italic;
-  font-weight:600;
   border-bottom:2px solid #fcb8ab;
-  padding:0 0 5px 0;
-  margin:0 0 20px 10px;
+  padding:0 3px;
+  margin:0 0 0 20px;
+  text-shadow:none;
 }
+
+.navbar .nav > li > a:hover{
+  color:#444;
+}
+  /* overwrite bootstrap */
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+  color:#fff;
+  background-color: transparent;
+  border-bottom:2px solid #fcb8ab;
+  border-radius:3px;
+  padding:0 0.5em;
+  color: #fcb8ab;
+}
+
+.navbar .contact{
+  float:right;
+  padding-top:0.4em;
+}
+
+.navbar .contact p{
+  display:inline;
+}
+
+.navbar .contact a{
+  color:#fff;
+  text-decoration: none;
+}
+
+  .navbar .contact i{
+    margin-top:1px;
+  }
+
+  .navbar .email i{
+    margin-right:3px;
+  }
+
+  .navbar .follow img{
+    padding-bottom:3px;
+  }
+
+  .navbar .follow{
+    padding-left:9px;
+    padding-right:1.5em;
+  }
+
+  .navbar .follow img{
+    margin-right:4px;
+  }
+  
+
 
 /* --- Article #1 ---- */
   
