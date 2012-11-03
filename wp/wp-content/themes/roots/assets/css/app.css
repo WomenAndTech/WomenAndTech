@@ -151,7 +151,7 @@ line-height: 2em
 }
 
 .navbar .nav > li > a:hover{
-  color:#444;
+  color:#fcb8ab;
 }
   /* overwrite bootstrap */
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
@@ -176,6 +176,13 @@ line-height: 2em
   color:#fff;
   text-decoration: none;
 }
+
+.navbar .contact a:hover{
+  color:#fcb8ab;
+  text-decoration: none;
+}
+
+
 
   .navbar .contact i{
     margin-top:1px;
