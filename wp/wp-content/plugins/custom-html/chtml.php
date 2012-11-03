@@ -31,23 +31,23 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-define('CHTML_PATH','/custom-html/');
+define('CHTML_PATH','/custom-content/');
 
 define('CHTML_VERSION','1.0');
 
 function CHTML_box() {
- add_meta_box( 'custom-html', 'Use a custom HTML/PHP for this post?', 'CHTML_add_box', 'post', 'normal','high' );
- add_meta_box( 'custom-html', 'Use a custom HTML/PHP for this page?', 'CHTML_add_box', 'page', 'normal','high' );
-  add_meta_box( 'custom-html', 'Use a custom HTML/PHP for this interview?', 'CHTML_add_box', 'interview', 'normal','high' );
+ add_meta_box( 'custom-content', 'Use custom content for this post?', 'CHTML_add_box', 'post', 'normal','high' );
+ add_meta_box( 'custom-content', 'Use custom content for this page?', 'CHTML_add_box', 'page', 'normal','high' );
+  add_meta_box( 'custom-content', 'Use custom content for this interview?', 'CHTML_add_box', 'interview', 'normal','high' );
 }
 
 function CHTML_add_box() {
   global $post_ID;
   $current = get_post_meta($post_ID, 'html_file', 'true'); 
   $dir_url = get_stylesheet_directory()	. CHTML_PATH;
-  echo "Select your custom file: ";
+  echo "This file overwrites content for this post: ";
   echo "<select id='CHTML' name='CHTML'>";
-  echo "<option value='-1'>Select a HTML/PHP File</option>";  
+  echo "<option value='-1'>Select a PHP File</option>";  
   if ($handle = opendir($dir_url)) {
     while (false !== ($file = readdir($handle))) {
         if ($file != "." && $file != "..") {
@@ -84,15 +84,14 @@ function CHTML_save() {
 
 function CHTML_include() {
  global $wp_query;
- global $custom_html_php;
+ global $custom_content;
  $id = $wp_query->post->ID;
  $custom_file  = get_post_meta($id, 'html_file','true');
- $custom_file = str_replace('.php', '', $custom_file);
  // $custom_file = str_replace('.html', '', $custom_file);
  // $the_path   = get_stylesheet_directory() . '/custom_html' . CHTML_PATH;
  // $the_output = $the_path . CHTML_PATH . $custom_file;
  
- if ($custom_file) $custom_html_php = $custom_file;
+ if ($custom_file) $custom_content = str_replace('.php', '', $custom_file);
 
 }
 

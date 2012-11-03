@@ -18,5 +18,21 @@ function create_interview_type() {
   );
 }
 
+add_action('pre_get_posts', 'homepage_gets_posts_interviews');
+
+function homepage_gets_posts_interviews($query){
+  // Do not affect queries for admin pages
+  if( $query->is_admin == 1 ) return;
+  // stop if wp is working on anything but the main query
+  if( !$query->is_main_query() ) return;
+  // stop if we are not working on an archive view
+  if( $query->is_archive == 1 ) return;
+  if(is_home()):
+    $query->set('showposts', 1);
+    $query->set('post_type', array('post','interview'));
+    $query->set('order', 'DESC');
+  endif;
+}
+
 
 ?>
