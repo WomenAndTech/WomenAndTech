@@ -15,7 +15,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @font-face {
   font-family: 'Blanch Condensed';
-  src: url("../BLANCH_CONDENSED.otf") format("opentype");
+  src: url("../fonts/BLANCH_CONDENSED.otf") format("opentype");
 }
 
 body{

@@ -32,16 +32,16 @@ define('CCSS_PATH','/custom-css/');
 define('CCSS_VERSION','1.0');
 
 function ccss_box() {
- add_meta_box( 'custom-css', 'Use a custom stylesheet for this post?', 'ccss_add_box', 'post', 'normal','high' );
- add_meta_box( 'custom-css', 'Use a custom stylesheet for this page?', 'ccss_add_box', 'page', 'normal','high' );
-  add_meta_box( 'custom-css', 'Use a custom stylesheet for this interview?', 'ccss_add_box', 'interview', 'normal','high' );
+ add_meta_box( 'custom-css', 'Add a custom stylesheet to this post?', 'ccss_add_box', 'post', 'normal','high' );
+ add_meta_box( 'custom-css', 'Add a custom stylesheet to this page?', 'ccss_add_box', 'page', 'normal','high' );
+  add_meta_box( 'custom-css', 'Add a custom stylesheet to this interview?', 'ccss_add_box', 'interview', 'normal','high' );
 }
 
 function ccss_add_box() {
   global $post_ID;
   $current = get_post_meta($post_ID, 'css_sheet', 'true'); 
   $dir_url = get_stylesheet_directory()	. CCSS_PATH;
-  echo "Select your custom stylesheet: ";
+  echo "Additional stylesheet: ";
   echo "<select id='ccss' name='ccss'>";
   echo "<option value='-1'>Select a stylesheet</option>";  
   if ($handle = opendir($dir_url)) {
