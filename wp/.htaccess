@@ -9,6 +9,7 @@
   RewriteRule ^index\.php$ - [L]
   RewriteRule ^assets/css/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/css/$1 [QSA,L]
   RewriteRule ^assets/custom-css/(.*) %{ENV:PATH}wp/wp-content/themes/roots/custom-css/$1 [QSA,L]
+  RewriteRule ^assets/custom-js/(.*) %{ENV:PATH}wp/wp-content/themes/roots/custom-js/$1 [QSA,L]
   RewriteRule ^assets/js/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/js/$1 [QSA,L]
   RewriteRule ^assets/img/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/img/$1 [QSA,L]
     RewriteRule ^assets/fonts/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/fonts/$1 [QSA,L]
