@@ -4,6 +4,7 @@ RewriteEngine On
 RewriteBase /WomenAndTech/wp/
 RewriteRule ^index\.php$ - [L]
 RewriteRule ^assets/css/(.*) /WomenAndTech/wp/wp-content/themes/roots/assets/css/$1 [QSA,L]
+RewriteRule ^assets/custom-css/(.*) /WomenAndTech/wp/wp-content/themes/roots/custom-css/$1 [QSA,L]
 RewriteRule ^assets/js/(.*) /WomenAndTech/wp/wp-content/themes/roots/assets/js/$1 [QSA,L]
 RewriteRule ^assets/img/(.*) /WomenAndTech/wp/wp-content/themes/roots/assets/img/$1 [QSA,L]
 RewriteRule ^plugins/(.*) /WomenAndTech/wp/wp-content/plugins/$1 [QSA,L]
