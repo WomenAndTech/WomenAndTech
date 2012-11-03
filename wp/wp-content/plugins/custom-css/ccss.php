@@ -26,7 +26,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 /* CHANGE THE FOLLOWING IF YOU NEED A DIFFERENT PATH IT MUST BE A SUBDIR IN YOUR THEME'S FOLDER */
-define('CCSS_PATH','/custom/');
+define('CCSS_PATH','/custom-css/');
 /* AND THAT'S ABOUT IT */
 
 define('CCSS_VERSION','1.0');
@@ -40,7 +40,7 @@ function ccss_box() {
 function ccss_add_box() {
   global $post_ID;
   $current = get_post_meta($post_ID, 'css_sheet', 'true'); 
-  $dir_url = get_stylesheet_directory() . '/assets/css'	. CCSS_PATH;
+  $dir_url = get_stylesheet_directory()	. CCSS_PATH;
   echo "Select your custom stylesheet: ";
   echo "<select id='ccss' name='ccss'>";
   echo "<option value='-1'>Select a stylesheet</option>";  
@@ -82,7 +82,7 @@ function ccss_include() {
  global $wp_query;
  $id = $wp_query->post->ID;
  $the_sheet  = get_post_meta($id, 'css_sheet','true'); 
- $the_path   = get_template_directory_uri().'/assets/css';
+ $the_path   = get_template_directory_uri().'/assets';
  $the_output = $the_path . CCSS_PATH . $the_sheet;
  if ($the_sheet) {
   echo '<link rel="stylesheet" href="' . $the_output . '" type="text/css" media="screen" />'; 
