@@ -1,9 +1,9 @@
 <?php
 
-if (is_home()||is_single()||is_frontpage()) $ids[]=$post->ID;
+$ids=array($post->ID);
 
 //PREVIOUS INTERVIEW
-$args = array( 'post_type' => 'interview', 'posts_per_page' => 1, 'post__not_in' => $ids );
+$args = array( 'post_type' => 'interview', 'showposts' => 1, 'post__not_in' => $ids );
 
 $loop = new WP_Query( $args ); ?>
 
@@ -21,12 +21,13 @@ $loop = new WP_Query( $args ); ?>
   $prev_url="#"; 
 endif; ?>
 
+<?php wp_reset_query(); ?>
 
 
 <?php
 
 //NEXT INTERVIEW
-$args = array( 'post_type' => 'interview', 'posts_per_page' => 1, 'post__not_in' => $ids, 'post_status' => array('future') );
+$args = array( 'post_type' => 'interview', 'showposts' => 2, 'post__not_in' => $ids, 'post_status' => array('future') );
 
 $loop = new WP_Query( $args ); ?>
 
@@ -39,6 +40,7 @@ $loop = new WP_Query( $args ); ?>
   
 <?php endwhile; ?>
 
+<?php wp_reset_query(); ?>
 
 
 <div class="row" id="teasers">
