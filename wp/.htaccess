@@ -11,6 +11,7 @@
   RewriteRule ^assets/custom-css/(.*) %{ENV:PATH}wp/wp-content/themes/roots/custom-css/$1 [QSA,L]
   RewriteRule ^assets/js/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/js/$1 [QSA,L]
   RewriteRule ^assets/img/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/img/$1 [QSA,L]
+    RewriteRule ^assets/fonts/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/fonts/$1 [QSA,L]
   RewriteRule ^plugins/(.*) %{ENV:PATH}wp/wp-content/plugins/$1 [QSA,L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
