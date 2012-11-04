@@ -26,11 +26,18 @@ function homepage_gets_posts_interviews($query){
   // stop if wp is working on anything but the main query
   if( !$query->is_main_query() ) return;
   // stop if we are not working on an archive view
-  if( $query->is_archive == 1 ) return;
+  if( $query->is_archive == 1 || $query->is_author == 1 ):
+    $query->set('post_type', array('post','interview'));
+    $query->set('post_status', array('publish', 'future'));
+  endif;
   if(is_home()):
     $query->set('showposts', 1);
     $query->set('post_type', array('post','interview'));
     $query->set('order', 'DESC');
+  endif;
+
+  if(is_single()):
+      $query->set('post_status', array('publish'));
   endif;
 }
 
