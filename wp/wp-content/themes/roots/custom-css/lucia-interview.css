@@ -3,21 +3,6 @@
 
   /* Article > Header */
 
-  .article-number{
-    background:#ee462b;
-    float:left;
-    font-family:'Arvo', serif;
-    color:white;
-    font-weight:100;
-    font-size: 2em;
-    text-align:center;
-    line-height:1em;
-    padding:0.5em 0.8em 0.5em 0.75em;
-    margin-right:0.25em;
-    border-radius: 50%;
-    font-style:italic;
-  }
-
   h1 {
     font-size:3.5em;
     line-height:1.15em;

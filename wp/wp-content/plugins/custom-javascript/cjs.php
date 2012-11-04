@@ -103,6 +103,6 @@ function cjs_uninstall() {
 
 add_action('admin_menu', 'cjs_box');
 add_action('save_post', 'cjs_save');
-add_action('wp_head','cjs_include');
+add_action('wp_footer','cjs_include');
 register_uninstall_hook(__FILE__, 'cjs_uninstall');
 ?>

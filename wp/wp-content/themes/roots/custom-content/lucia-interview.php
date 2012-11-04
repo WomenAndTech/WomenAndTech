@@ -1,7 +1,7 @@
 <div class="container">
   <header class="row">
     <div class="span8">
-      <div class="article-number">1</div>
+      <div class="interview-number">1</div>
       <h1 class="clearfix">Lucia Mariani-Vena</h1>
       <address>
         <div class="author-image" id="author-ivonnekn"></div>
