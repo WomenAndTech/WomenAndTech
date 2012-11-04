@@ -1,6 +1,9 @@
 <div class="page-header">
-  <h1>
-    <?php
+<div class="container">
+  <div class="row">
+    <div class="span12">
+      <h1>
+        <?php
       if (is_home()) {
         if (get_option('page_for_posts', true)) {
           echo get_the_title(get_option('page_for_posts', true));
@@ -10,7 +13,8 @@
       } elseif (is_archive()) {
         $term = get_term_by('slug', get_query_var('term'), get_query_var('taxonomy'));
         if ($term) {
-          echo $term->name;
+          echo $term->
+        name;
         } elseif (is_post_type_archive()) {
           echo get_queried_object()->labels->name;
         } elseif (is_day()) {
@@ -34,5 +38,8 @@
         the_title();
       }
     ?>
-  </h1>
+      </h1>
+    </div>
+  </div>
+</div>
 </div>

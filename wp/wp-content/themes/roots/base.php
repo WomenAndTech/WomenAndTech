@@ -11,17 +11,19 @@
       get_template_part('templates/header');
     }
   ?>
-
+  
+  <?php include roots_template_path(); ?>
+  
   <!-- <div id="wrap" class="container" role="document">
     <div id="content" class="row">
-      <div id="main" class="<?php echo roots_main_class(); ?>" role="main"> -->
-        <?php include roots_template_path(); ?>
-      </div>
-      <?php if (roots_display_sidebar()) : ?>
-      <aside id="sidebar" class="<?php echo roots_sidebar_class(); ?>" role="complementary">
-        <?php get_template_part('templates/sidebar'); ?>
-      </aside>
-      <?php endif; ?>
+      <div id="main" class="<?php echo roots_main_class(); ?>" role="main">
+        <?php //include roots_template_path(); ?>
+      </div> -->
+      <?php //if (roots_display_sidebar()) : ?>
+     <!--  <aside id="sidebar" class="<?php echo roots_sidebar_class(); ?>" role="complementary"> -->
+        <?php //get_template_part('templates/sidebar'); ?>
+      <!-- </aside> -->
+      <?php //endif; ?>
     <!-- </div> --><!-- /#content -->
   <!-- </div> --><!-- /#wrap -->
 
