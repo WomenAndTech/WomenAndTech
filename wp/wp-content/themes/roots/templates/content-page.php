@@ -7,6 +7,7 @@ global $custom_content;
   <?php the_ID(); ?>
   ">
   <?php if (!$custom_content): ?>
+  <?php get_template_part('templates/page', 'header'); ?>
   <div class="container">
     <div class="row">
       <div class="span12">
@@ -16,5 +17,6 @@ global $custom_content;
   </div>
   <?php else:
           get_template_part("custom-content/$custom_content");
-      endif; ?></div>
+      endif; ?>
+</div>
 <?php endwhile; ?>
