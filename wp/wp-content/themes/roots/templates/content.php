@@ -7,7 +7,7 @@
     <a class="close" data-dismiss="alert">&times;</a>
     <p><?php _e('Sorry, no results were found.', 'roots'); ?></p>
   </div>
-  <?php get_search_form(); ?>
+  <?php //get_search_form(); ?>
 </div>
 </div>
 </div>
