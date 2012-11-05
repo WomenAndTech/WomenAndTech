@@ -4,7 +4,8 @@
     if (get_option('page_for_posts', true)) {
       echo get_the_title(get_option('page_for_posts', true));
     } else {
-      _e('Past Interviews', 'roots');
+      the_title();
+      //_e(get_the_title(), 'roots');
     }
   } elseif (is_archive()) {
     $term = get_term_by('slug', get_query_var('term'), get_query_var('taxonomy'));
