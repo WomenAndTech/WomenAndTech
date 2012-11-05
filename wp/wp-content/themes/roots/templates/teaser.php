@@ -1,33 +1,55 @@
 <?php
+/*
 
-$ids=array($post->ID);
+2 cases:
 
-//PREVIOUS INTERVIEW
-$args = array( 'post_type' => 'interview', 'showposts' => 1, 'post__not_in' => $ids );
+1- homepage or single post: get the previous interview to the current one
+2- page or other, get the previous interview
 
-$loop = new WP_Query( $args ); ?>
 
-<?php if ($loop->have_posts()) : ?>
-  <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+*/
 
-    <?php $teaser_image=get_field('teaser_image');
-          $prev_image_url=$teaser_image['url'];
-          $prev_url=get_permalink();
-    ?>
-    
-  <?php endwhile; ?>
-<?php else:
-  $prev_image_url=get_template_directory_uri().'/assets/img/no-previous-teaser.jpg';
-  $prev_url="#"; 
-endif; ?>
+//Case 1:
+if(is_home()||is_single()):
+  $post=get_adjacent_post(false,'',true,'interview');
+  if($post):
+    setup_postdata($post);
+    $teaser_image=get_field('teaser_image');
+    $prev_image_url=$teaser_image['url'];
+    $prev_url=get_permalink();
+    wp_reset_postdata();
+  else:
+    $prev_image_url=get_template_directory_uri().'/assets/img/no-previous-teaser.jpg';
+    $prev_url="#"; 
+  endif; //previous interview
 
-<?php wp_reset_query(); ?>
+//Case 2:
+else:
+  $args = array( 'post_type' => 'interview', 'showposts' => 1);
 
+  $loop = new WP_Query( $args ); ?>
+
+  <?php if ($loop->have_posts()) : ?>
+    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+      <?php $teaser_image=get_field('teaser_image');
+            $prev_image_url=$teaser_image['url'];
+            $prev_url=get_permalink();
+      ?>
+      
+    <?php endwhile; ?>
+  <?php else:
+    $prev_image_url=get_template_directory_uri().'/assets/img/no-previous-teaser.jpg';
+    $prev_url="#"; 
+  endif; ?>
+
+  <?php wp_reset_query(); ?>
+<?php endif; //is home or single ?>
 
 <?php
 
 //NEXT INTERVIEW
-$args = array( 'post_type' => 'interview', 'showposts' => 2, 'post__not_in' => $ids, 'post_status' => array('future') );
+$args = array( 'post_type' => 'interview', 'showposts' => 1, 'post__not_in' => $ids, 'post_status' => array('future') );
 
 $loop = new WP_Query( $args ); ?>
 
@@ -35,7 +57,8 @@ $loop = new WP_Query( $args ); ?>
 
   <?php $teaser_image=get_field('teaser_image');
         $next_image_url=$teaser_image['url'];
-        $next_url=get_permalink();
+        // $next_url=get_permalink();
+        $next_url="#";
   ?>
   
 <?php endwhile; ?>
