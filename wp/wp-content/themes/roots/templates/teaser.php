@@ -66,7 +66,7 @@ $loop = new WP_Query( $args ); ?>
 <?php wp_reset_query(); ?>
 
 
-<div class="row" id="teasers">
+<div class="row-fluid" id="teasers">
   
     <div class="span4">
       <a href="<?php echo $prev_url; ?>">

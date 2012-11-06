@@ -1,5 +1,5 @@
 <footer role="contentinfo">
-  <div class="container">
+  <div class="container-fluid">
     <?php get_template_part('templates/teaser'); ?>
     <?php get_template_part('templates/byline'); ?>
   </div>
