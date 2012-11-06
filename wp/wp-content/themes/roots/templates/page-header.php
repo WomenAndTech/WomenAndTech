@@ -1,4 +1,4 @@
-  <h1 class='page-header'>
+  <h1>
     <?php
   if (is_home()) {
     if (get_option('page_for_posts', true)) {
