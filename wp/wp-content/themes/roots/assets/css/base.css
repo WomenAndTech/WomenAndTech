@@ -73,15 +73,14 @@ h4 {
 }
 
 .container-fluid{
-  width:90%;
   padding:0 5%;
 
 }
 
 .container-fluid .row-fluid{
-    max-width:1200px;
+ /*   max-width:1200px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
 }
 
 .row-fluid .new-line{
@@ -321,6 +320,10 @@ footer{
     margin-top:5em;
   }
   
+  #teasers a{
+    text-decoration: none;
+  }
+
   #teasers h3{
     color:#ee462b;
     text-align: center;
@@ -432,6 +435,7 @@ footer{
     text-transform:uppercase;
     font-size:0.9em;
     padding:6em 0 1.5em 0;
+    margin-left:0;
   }
 
 
@@ -783,24 +787,24 @@ footer{
 /*------------------------------------------------*/
 
 @media (min-width: 1200px) {
-  /*
-  h1 {
+  
+ /* h1 {
     font-size:64px;
     line-height:74px;
-  }
-  h3 {
+  }*/
+ /* h3 {
     font-size:38px;
     line-height:50px;
-  }
-  h4 {
+  }*/
+/*  h4 {
     font-size:32px;
     line-height:44px;
   }
-
-
+*/
+/*
   footer #byline{
     font-size:0.7em;
-    margin-left:60px;
+
   }
 
 
@@ -809,8 +813,13 @@ footer{
   }
 
   footer #names{
-    width:770px;
+    /*width:770px;*/
+    margin-left:60px;
   }
-  */
+
+  footer #contact{
+    margin-left:0;
+  }*/
+  
 }
 

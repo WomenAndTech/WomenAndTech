@@ -1,5 +1,12 @@
+<div class="container-fluid ">
+  <div class="row-fluid">
+    <div class="span12 page-header">
+<?php get_template_part('templates/page', 'header'); ?>
+</div>
+</div>
+</div>
+
 <div class="container-fluid">
-  <?php get_template_part('templates/page', 'header'); ?>
   <div class="row-fluid">
     <?php  $post_count = 0; ?>
     <?php while (have_posts() ) : the_post(); ?>
