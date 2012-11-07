@@ -1,0 +1,366 @@
+
+
+/* ===== Primary Styles ========================================================
+   Author: Mark Staplehurst / Brett Bergmann
+   ========================================================================== */
+
+.the-plan h1,  .the-plan h3 {
+	font-family:'Arvo', serif;
+	font-weight:normal;
+}
+.the-plan h2, .the-plan h4, .the-plan h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+}
+.the-plan a:active,
+.the-plan a:focus { outline: none!important }
+
+.the-plan h1 {
+	font-size:56px;
+	line-height:70px;
+	margin:0 0 25px;
+}
+.the-plan h3 {
+	font-size:36px;
+	line-height:50px;
+	margin:0 0 25px;
+}
+.the-plan h4 {
+	font-size:26px;
+	line-height:38px;
+	margin:0 0 20px;
+}
+
+/* GLOBAL ELEMENTS */
+
+.modal {
+	width: 590px;
+	height: 600px;
+	margin:-300px 0 0 -295px;	
+}
+
+.the-plan .content-block {
+	padding:65px 0;
+}
+
+.the-plan .larger-type {
+	font-size:20px;
+	margin:0 0 20px;
+}
+
+
+/* INTRO */
+
+#intro-icons {
+	margin:10px 0 0; 
+}
+	#intro-icons .span4{
+		text-align:right;
+	}
+	#intro-icons .intro-icon {
+		font-weight:600;
+		font-style:italic;
+		font-size:15px;
+		line-height:20px;
+	}
+		#intro-icons .intro-icon span {
+			text-align:center;
+			display:block;
+			width:121px;
+			float:right;
+		}
+		#intro-icons .intro-icon img {
+			margin:0 0 8px;
+		}
+
+
+/* PHASED APPROACH */
+
+#grand-plan h3 {
+	margin:0 0 35px;
+}
+	#grand-plan h3 strong {
+		background:#ee462b;
+		height:20px;
+		width:20px;
+		border-radius:40px;
+		-moz-border-radius:40px;
+		-webkit-border-radius:40px;
+		padding:10px;
+		text-align:center;
+		color:#ffffff;
+		font-style:italic;
+		font-weight:normal;
+	}
+	
+	#grand-plan h3 em {
+		border-bottom: 1px solid #333;
+		padding-bottom: 1px;
+	}
+
+.timeline {
+	padding:65px 0;
+	background:transparent url(../img/the-plan/ui-womenandtech.png) repeat-y -310px 0;
+}
+	.timeline h2 {
+		margin:-1px 0 0 20px;
+		background:transparent url(../img/the-plan/ui-womenandtech.png) no-repeat 0 0;
+		width:108px;
+		height:42px;
+		position:relative;
+	}
+	.timeline h2:after {
+		content: ''; 
+		background: url(../img/the-plan/ui-womenandtech.png) no-repeat scroll -143px -4px transparent; 
+		height: 20px; 
+		position: absolute; 
+		left: 40px;
+		top: 65px; 
+		width:60px;
+	}
+
+.timeline-entry {
+	padding:50px 0;
+}
+.timeline-grey {
+	background:transparent url(../img/the-plan/ui-timeline-grey.png) repeat-y 0 0;
+}
+.timeline-white {
+	background:transparent url(../img/the-plan/ui-timeline-white.png) repeat-y 0 0;
+}
+
+/* PHASE 1 */
+
+#coffee {
+	padding:65px 0 0 0;
+}
+	#coffee .timeline {
+		padding-top:0;
+	}
+
+#coffee-drinker {
+	background: #F3F3F3 url(../img/the-plan/coffee-drinker.jpg) 50% 100% no-repeat;
+	background-size: cover;
+}
+	#coffee-drinker .container {
+		min-height:280px; 
+	}
+
+/* PHASE 2 */
+
+#stories h2 {
+	background-position:0 -61px;
+}
+
+#call-outs {
+	background-color:#f3f3f3;
+}
+	#call-outs .container {
+		padding:75px 0;
+	}
+	#call-outs .row {
+		text-align:right;
+	}
+
+/* PHASE 3 */
+
+#app h2 {
+	background-position:0 -122px;
+}
+#app-screen {
+	text-align:right;
+}
+	#app-screen.span5 {
+		padding:0 0 0 30px;
+		width:350px;	
+	}
+
+
+#nomination-form .modal-header{
+	height:20px;
+}
+
+#nomination-form iframe{
+	padding-left:10px;
+}
+
+
+
+
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+@media (max-width: 480px) {
+
+
+
+	
+
+}
+
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+@media (max-width: 767px) {
+	
+	
+/*	.the-plan .container, #coffee {
+		padding:0 20px;
+	}*/
+	
+	#grand-plan h3 {
+		margin:0 0 20px;
+	}
+	.timeline-entry {
+		padding:20px 0;
+	}
+	.timeline h2 {
+		margin:0 0 10px;
+	}
+	.timeline h2:after {
+		display:none;
+	}
+	.timeline, .timeline-grey, .timeline-white {
+		background:none;
+	}
+	#intro-icons {
+		border-top:2px solid #ccc;
+		margin:30px 0 0;
+		padding:60px 0 0;
+	}
+	#intro-icons .span4 {
+		float:left;
+		width:33%;
+		text-align:center;
+	}
+	#intro-icons .intro-icon span {
+		width:100%;
+	}
+	
+	#call-outs .container {
+		padding:10px 0;
+	}
+	#call-outs .container .span6 {	
+		text-align:center;
+	}
+	#call-outs .container img {
+		padding:5px 0;
+	}
+	#coffee-drinker .container {
+		min-height:150px;
+	}
+	#app-screen.span5 {
+		margin:30px 0 0 0;
+		width:auto;
+		padding:0;
+		text-align:center;
+	}
+	
+
+
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+	body {
+		padding:0;
+		font-size:16px;
+		line-height:1.9;
+	}
+	h4 {
+		font-size:24px;
+		line-height:36px;
+	}
+	
+	#intro-icons .intro-icon {
+		font-size:14px;
+		line-height:18px;
+	}
+	#intro-icons .intro-icon span {
+		width:91px;
+	}
+	#social_buttons{ 
+		right:0;
+		top:8px;
+	}
+	.timeline h2:after {
+		content: '';
+		left: 40px; 
+		width:50px;
+	}
+	
+	#coffee-drinker .container {
+		min-height:200px;
+	}
+	#app-screen.span5 {
+		padding:0;
+		width:290px;
+	}
+
+	f
+
+
+
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+@media (min-width: 1200px) {
+	h1 {
+		font-size:64px;
+		line-height:74px;
+	}
+	h3 {
+		font-size:38px;
+		line-height:50px;
+	}
+	h4 {
+		font-size:32px;
+		line-height:44px;
+	}
+	#intro-icons .intro-icon {
+		font-size:17px;
+	}
+	#intro-icons .intro-icon span {
+		width:125px;
+	}
+	.timeline {
+		background-position:-300px 0;
+	}
+	.timeline h2:after {
+		content: '';
+		left: 40px; 
+		width:100px;
+	}
+	
+	#coffee-drinker .container {
+		min-height:400px; 
+	}
+	#app-screen.span5 {
+		padding:0;
+		width:470px;
+	}
+	
+
+}
