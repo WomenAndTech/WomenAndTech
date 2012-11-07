@@ -57,7 +57,7 @@ Next we have to import our development database. This will look different from o
 
 - Click Choose file and navigate to /Applications/MAMP/htdocs/wp/db/
 
-- choose the file women_and_tech_development.sql and click Go.
+- choose the file women_and_tech.sql and click Go.
 
 When the file has been imported you'll see all the database tables on the left. 
 
