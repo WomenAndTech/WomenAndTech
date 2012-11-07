@@ -89,7 +89,7 @@ On the live Wordpress site (http://womenandtech.com/wp/login) you'll need to hoo
 
 4. Images in Custom Content
 
-If you're using images in your art direct content (.php files in /custom-content), add a folder to /assets/img/ to store all your images and reference them like <img src="<?php echo get_template_directory_uri(); ?>/assets/img/YOUR_FOLDER/youfile.png">. You can see an example of this in /custom-content/the-plan.php
+If you're using images in your art direct content (.php files in /custom-content), add a folder to /assets/img/ to store all your images and reference them like `<img src="<?php echo get_template_directory_uri(); ?>/assets/img/YOUR_FOLDER/youfile.png">`. You can see an example of this in /custom-content/the-plan.php
 
 If you're using background images in your css, you can reference them like this:
 
