@@ -93,6 +93,6 @@ If you're using images in your art direct content (.php files in /custom-content
 
 If you're using background images in your css, you can reference them like this:
 
-#bg-img{
+`#bg-img{
 	background: url(../img/YOUR_FOLDER/yourfile.png)
-}
+}`
