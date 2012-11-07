@@ -18,7 +18,8 @@ WomenAndTech
 
 1. File Locations
 
-All our files are stored on Github: CHECK THIS
+All our files are stored on Github. You're looking at it!
+
 Please send me your username and I'll add you as admin so you can push changes back up.
 
 The files you'll be interested in are located here: /wp/wp-content/themes/roots
