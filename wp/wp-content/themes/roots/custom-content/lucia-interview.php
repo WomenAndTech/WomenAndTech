@@ -102,7 +102,7 @@
       <figure>
         <div class="arrow"></div>
         <h3>Notable Person</h3>
-        <img src='img/interview1-NotablePerson-neha-khera.jpg'>
+        <img src='<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/neha-khera.jpg'>
         <figcaption class="clear">
           <a href="http://www.techvibes.com/author/neha-khera" target=_blank>
             <h4>Neha Khera</h4>
@@ -141,7 +141,7 @@
       <figure>
         <div class="arrow"></div>
         <h3>Notable Person</h3>
-        <img src='img/interview1-NotablePerson-mary-wells.jpg'>
+        <img src='<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/mary-wells.jpg'>
         <figcaption class="clear">
           <a href="https://uwaterloo.ca/mechanical-mechatronics-engineering/people-profiles/mary-wells" target=_blank>
             <h4>Mary Wells</h4>
@@ -213,9 +213,9 @@
       <figure>
         <div class="arrow"></div>
         <h3>Notable Person</h3>
-        <img src='img/interview1-NotablePerson-william-barek.jpg'>
+        <img src='<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/william-barek.jpg'>
         <figcaption class="clear">
-          <a href="http://www.techvibes.com/author/neha-khera" target=_blank>
+          <a href="http://www.linkedin.com/in/williambarek" target=_blank>
             <h4>William Barek</h4>
           </a>
           <p>
