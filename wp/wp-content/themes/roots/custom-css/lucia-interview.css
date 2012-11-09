@@ -230,39 +230,53 @@
   /* Article > Aside > Pull-Quote */
 
   .pull-quote{
+    /* pull quote should have 90px-ish margin (90/14 = ~6) */
+    margin-bottom:6em;
+    margin-top:4.5em; /* <p> has 1.5em bottom margin so this counteracts that */
     background-color:#f3f3f3;
-    width:100%;
-    margin:2em 0 4em;
     display:block;
+  }
+  
+  /* pull quote in the last row is followed by a new section */
+  /* It must counteract .section's top margin of 2em */
+  /* to give an even 6em whitespace */
+
+  .pull-quote.last-row{
+    margin-bottom:4em;
+
   }
   
   .pull-quote .quote{
     background-color:#f3f3f3;
     height:7em;
-    width:95%;
+    width:94%; /* quote and quote mark must add to 100% */
     float:left;
   }
 
+
+  
   .pull-quote .quote h2{
     margin:0;
     padding:0.25em 0.5em;
   }
-
+  
   .pull-quote .quote-mark{
     color:white;
     background-color:#ee462b;
     height:7em;
-    margin-left:0;
-    width:5%;
+    margin-left:1%; 
+    width:3%;  /* quote and quote mark must add to 100% */
     float:left;
     vertical-align: middle;
     text-align: center;
+    padding:0 1%;
+    
   }
 
-  .pull-quote .quote-mark span{
-    font-size:7em;
-    line-height: 1em;
+  .pull-quote .quote-mark img{
+    padding-top:1.25em;
     vertical-align: middle;
+    max-width:100%;
   }
 
 
