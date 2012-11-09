@@ -1,5 +1,10 @@
 /* --- Article #1 ---- */
   
+  a {
+    text-decoration: none;
+    font-weight:bold;
+  }
+
 
   /* Article > Header */
 
@@ -9,10 +14,7 @@
     margin:0 0 0.25em;
   }
 
-  a {
-    text-decoration: none;
-    font-weight:bold;
-  }
+
   
   address {
     font-weight: 100;
@@ -78,6 +80,10 @@
     color:#000;
     margin-bottom:1.25em;
 
+  }
+
+  .new-line{
+    clear:left;
   }
 
   /* Article > #Introduction */
@@ -157,6 +163,13 @@
     border-width: 16px 0 16px 16px;
   }
 
+  /* Article > Info-Panel / Notable-Person */
+
+  .info-panel, .notable-person{
+    position:relative;
+  }
+
+
   /* Article > Aside > Info-Panel */
 
   .info-panel aside{
@@ -165,6 +178,8 @@
     padding:1em;
     line-height: 1.5em;
     text-align: left;
+    position:absolute;
+    top:1em;
 
   }
 
@@ -181,6 +196,18 @@
     border-left-color: #ee462b;
   }
 
+
+  aside p.mentor{
+    color:black;
+    font-style: italic;
+    font-size:0.8em;
+  }
+
+  aside p.mentor em{
+    font-style: normal;
+    font-weight: bold;
+  }
+
   /* Article > Figure > Notable-Person */
 
   
@@ -191,6 +218,8 @@
     margin:0;
     line-height: 1.5em;
     text-align: left;
+    position:absolute;
+    top:1em;
   }
 
   .notable-person .arrow:after{
