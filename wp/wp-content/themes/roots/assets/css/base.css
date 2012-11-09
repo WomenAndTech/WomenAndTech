@@ -285,7 +285,7 @@ line-height: 2em
     margin-bottom:1.5em;
   }
 
-  .type-interview .interview-number{
+  .past-interviews.interview-number{
     font-size:1em;
     float: left;
     margin:0;
