@@ -53,7 +53,7 @@
 
 <div class="container">
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span6  offset3 interview-panel">
       <h3>Tell us a bit about yourself and how you got your start.</h3>
       <p>
         I’ve been in the industry for about 10 years. I completed my Arts Management degree at the University of Toronto. That was where I started in web design. They wanted someone with an artistic background who could learn to code on the fly. At the time, they were trying to get faculty members to publish their dissertations in electronic format so I started designing ebooks and educational websites. I eventually landed at St. George Campus working with the VP of Research doing web design and development to push out the exciting research that was happening at the university.
@@ -66,7 +66,7 @@
       </p>
     </div>
 
-    <div class="span9 offset3 new-line pull-quote">
+    <div class="span12 pull-quote">
       <aside class="quote">
         <h2>
           That first year when you’re at home [with kids] is a huge transitional time – it is for many women I think.
@@ -77,17 +77,7 @@
       </div>
     </div>
 
-    <div class="span3 new-line info-panel">
-
-      <aside>
-        <div class="arrow"></div>
-        <h3>Parental leave in Canada</h3>
-        <p>
-          Mothers are allowed 15 weeks full-salary paid maternity leave. After that, they get half pay. Parents are allowed up to 35 weeks combined leave.
-        </p>
-      </aside>
-    </div>
-    <div class="span6 interview-panel">
+    <div class="span6 offset3 interview-panel">
       <p>
         After my son was born, I started getting involved with
         <a href="http://girlsintechtoronto.com/" target=_blank>Girls In Tech</a>
@@ -99,7 +89,7 @@
   <section class="row">
 
     <div class="span3 notable-person" id="neha-khera">
-      <figure>
+      <figure class='first-row'>
         <div class="arrow"></div>
         <h3>Notable Person</h3>
         <img src='<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/neha-khera.jpg'>
@@ -126,7 +116,7 @@
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span6  offset3 interview-panel">
       <h3>Do you see the same women coming to Girls in Tech events?</h3>
       <p>
         It varies. There’s always the core group but different people come out depending on the content. For one session we had an
@@ -138,7 +128,7 @@
 
   <section class="row">
     <div class="span3 notable-person" id="mary-wells">
-      <figure>
+      <figure class="first-row">
         <div class="arrow"></div>
         <h3>Notable Person</h3>
         <img src='<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/mary-wells.jpg'>
@@ -161,7 +151,7 @@
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span6  offset3 interview-panel">
       <h3>
         Do you think that the structure of these programs need to change?
       </h3>
@@ -172,13 +162,22 @@
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span3  info-panel">
+      <aside class="first-row">
+        <div class="arrow"></div>
+        <h3>Parental leave in Canada</h3>
+        <p>
+          Mothers are allowed 15 weeks full-salary paid maternity leave. After that, they get half pay. Parents are allowed up to 35 weeks combined leave.
+        </p>
+      </aside>
+    </div>
+    <div class="span6  interview-panel">
       <h3>Were you overwhelmed?</h3>
       <p>
         Yes. Everyone has different choices but I breastfed my children. I was up with them at night and especially with the first one, you don’t know what to expect. Lack of sleep and being tired is overwhelming. You feel like you’re unplugged from the world. But I invested in an iPhone and I used it to keep reading. I would read when I was up breastfeeding. That’s when I became very active and more involved. Being connected empowered me and helped me to keep up with the world and the industry.
       </p>
     </div>
-    <div class="span9 offset3 new-line pull-quote last-row">
+    <div class="span12 pull-quote last-row">
       <aside class="quote">
         <h2>
           I’ve always been an information buff. I loved encyclopedias, I loved reading. When the Internet came around I wanted it.
@@ -191,7 +190,7 @@
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span6  offset3 interview-panel">
       <h3>How did you become interested in technology initially?</h3>
       <p>
         I’ve always been an information buff. I loved encyclopedias, I loved reading. When the Internet came around I wanted it. I remember when the information superhighway was kind of a big issue with the Ontario government – were they going to censor it? That’s when I got really interested. I lived in a small town and there wasn’t much to do, so my way of connecting with people and seeing the world was through the Internet and learning. Nobody took my hand and said “Here, learn HTML.” I was just curious and discovered it on my own. That’s what’s so great about technology, you can just unbundle it yourself.
@@ -200,7 +199,7 @@
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span6  offset3 interview-panel">
       <h3>What attracted you to building websites?</h3>
       <p>
         I liked the design aspect of it. You were creating something. I liked the taxonomy side and the user interface side of it. I liked taking thoughts and ideas that were on paper and then translating them and putting them on the web.
@@ -210,7 +209,7 @@
 
   <section class="row">
     <div class="span3 notable-person" id="william-barek">
-      <figure>
+      <figure class='first-row'>
         <div class="arrow"></div>
         <h3>Notable Person</h3>
         <img src='<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/william-barek.jpg'>
@@ -236,7 +235,16 @@
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span3 info-panel mentor-quote">
+      <aside>
+        <p>
+         “Lucia is one rare individual that [...] didn't have a strong technology background, but was savvy to embrace new digital technologies. Her tenacity to adopt and learn all aspects of multimedia, web and social media, [...] made her a perfect candidate to join our team.”
+        </p>
+        <p class="mentor"><em>William Barek,</em> Former Director at Centre for Instructional Technology Development, University of Toronto at Scarborough</p>
+      </aside>
+    </div>
+
+    <div class="span6 interview-panel">
       <h3>What challenges have you faced working in the tech industry?</h3>
       <p>
         I think one expectation that can sometimes be placed on the only female member of the team is that they really want you to be the nurturer, the one that brings everyone together. If you don’t act that role, they hold that against you, at least in my experience.
@@ -248,7 +256,7 @@
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span6  offset3 interview-panel">
       <h3>
         Anne-Marie Slaughter’s
         <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/" target=_blank>article in The Atlantic</a>
@@ -263,7 +271,7 @@
         There needs to be a lot more co-working. I think that would help. If you feel like you can bring your child somewhere and still do what needs to be done, I think that would be helpful to women.
       </p>
     </div>
-    <div class="span9 offset3 new-line pull-quote">
+    <div class="span12 pull-quote">
       <aside class="quote">
         <h2>
           People talk about having it all, but I just said I’m not gonna think about that anymore. I’m just going to do what I do.
@@ -273,10 +281,13 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark.png"/>
       </div>
     </div>
-    <div class="span6 offset3 new-line">
+    <div class="span6 offset3 interview-panel">
       <p>
         Now the kicker for me is my daughter was born with moderate hearing loss. She’s seven months now. She wears hearing aids. So one parent has to take on that role of early educator. We have to train her brain to listen with the hearing aids. She’s pretty much learning the basics of language and breaking words down to the simplest sounds and then building on that. Somebody needs to be there with her to help her do that, which makes things more complicated.
       </p>
+    </div>
+
+    <div class="span6 offset3 interview-panel">
       <p>
         We got that news at two months and it was shocking, but it was also a moment for me to say either I’m going to bury my head down and be so devastated for her, or I’m going to keep doing what I’m doing. I’ve stopped thinking about whether I’m keeping up. People talk about having it all, but I just said I’m not gonna think about that anymore. I’m just going to do what I do.
       </p>
@@ -284,7 +295,7 @@
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span6  offset3 interview-panel">
       <h3>
         Did having a family change your perspective on the industry or the role of women working in the industry?
       </h3>
@@ -292,7 +303,7 @@
         You really start thinking about it when everyone sees that you’re pregnant. That’s tough. Showing up in client meetings and pitches you’re wondering, are they not going to accept us because I’m pregnant? You internalize a lot of those things. That’s when you think about your role. Sometimes you think that you’re holding the team back. I wanted to go up for a promotion and I started to think, can I do that or are they going to say, well maybe we’ll wait until you come back? It can hurt your pay because you’re not necessarily going for that promotion. And it hurts your morale and confidence a bit.
       </p>
     </div>
-    <div class="span9 offset3 new-line pull-quote">
+    <div class="span12 pull-quote">
       <aside class="quote">
         <h2>
           Showing up in client meetings and pitches you’re wondering, are they not going to accept us because I’m pregnant?
@@ -302,7 +313,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark.png"/>
       </div>
     </div>
-    <div class="span6 offset3 new-line">
+    <div class="span6 offset3  interview-panel">
       <p>
         The reality is that you have to find it within yourself to overcome that. I used to approach it as this super person, like “Yes I’m pregnant but this doesn’t change me” or “Yes I’m a mom but this doesn’t change me.” Then after awhile, you say I am who I am now and I’m gonna be good at it.
       </p>
@@ -310,7 +321,15 @@
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span3 info-panel mentor-quote">
+      <aside>
+        <p>
+         “[Lucia] has a powerful ability to take complex research and make it easy to understand […]. To Lucia, the technology is simply a tool. Her talent is in helping people, real people, to understand the research being conducted at U of T and how it is about their lives."
+        </p>
+        <p class="mentor"><em>Paul Fraumeni,</em> director, Research Communications, the University of Toronto</p>
+      </aside>
+    </div>
+    <div class="span6 interview-panel">
       <h3>
         Maybe there needs to be less talk about having it all and more doing?
       </h3>
@@ -318,7 +337,12 @@
         Yeah, but you have to feel like you have the support to do what you need to do. That includes having supportive work and home environments. I’ve been fortunate because I have both. U of T has been very supportive throughout my maternity leave; they’ll work with me if I decide I need to go back to work and have that secure income to support my family.
       </p>
     </div>
-    <div class="span9 offset3 new-line pull-quote">
+    <div class="span6 offset3  interview-panel">
+      <p>
+        I also love working on my own thing and growing our business and it’s going well. But there are a lot more unknowns when you’re running your own business. I have to figure out how much risk I can take. When you’re thinking about work-life balance you have to manage your career the same way you would manage your portfolio – your funds, your RRSP [Registered Retirement Savings Plan]. Do you want a lot of risk or just a little? You have to think to yourself, what can you sleep with at night? But you don’t have to check out. For me that’s not an option.
+      </p>
+    </div>
+    <div class="span12 pull-quote">
       <aside class="quote">
         <h2>
           Do you want a lot of risk or just a little? You have to think to yourself, what can you sleep with at night?
@@ -328,15 +352,10 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark.png"/>
       </div>
     </div>
-    <div class="span6 offset3 new-line">
-      <p>
-        I also love working on my own thing and growing our business and it’s going well. But there are a lot more unknowns when you’re running your own business. I have to figure out how much risk I can take. When you’re thinking about work-life balance you have to manage your career the same way you would manage your portfolio – your funds, your RRSP [Registered Retirement Savings Plan]. Do you want a lot of risk or just a little? You have to think to yourself, what can you sleep with at night? But you don’t have to check out. For me that’s not an option.
-      </p>
-    </div>
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span6  offset3 interview-panel">
       <h3>What goals do you have for your career?</h3>
       <p>
         I’ve always done things that felt right. I never really followed the money trail. I’ve always worked on things that I’m passionate about and I’d like to continue that. I know I want to be more along the lines of this digital strategist that I am at Feast Interactive. I see myself in a leadership role and would like to establish myself in Toronto as a leader in the industry.
@@ -345,7 +364,7 @@
   </section>
 
   <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
+    <div class="span6  offset3 interview-panel">
       <h3>
         Is there anything exciting that you’re working on that you want to tell us about?
       </h3>
@@ -358,51 +377,4 @@
     </div>
   </section>
 
-  <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
-      <h3>Choose one from each of the following:</h3>
-      <p> <strong>cats or dogs?</strong>
-        dogs
-        <br/> <strong>children or elders?</strong>
-        children
-        <br/>
-        <strong>desktop or mobile?</strong>
-        mobile
-        <br/>
-        <strong>Google or Apple?</strong>
-        Google
-        <br/>
-        <strong>work or play?</strong>
-        work
-        <br/>
-        <strong>Daphne or Velma?</strong>
-        Velma
-        <br/>
-        <strong>local or global?</strong>
-        global
-        <br/>
-        <strong>realism or surrealism?</strong>
-        surrealism
-        <br/>
-        <strong>open source or proprietary?</strong>
-        open source
-        <br/>
-        <strong>Twitter or Facebook?</strong>
-        Twitter
-      </p>
-    </div>
-  </section>
-
-  <section class="row">
-    <div class="span6 new-line offset3 interview-panel">
-      <h3>
-        Without knowing who they are, please pose a question for our next interviewee.
-      </h3>
-      <p>
-        When will we see a female version of <em>Steve Jobs</em>
-        or <em>Mark Zuckerberg</em>
-        ?
-      </p>
-    </div>
-  </section>
 </div>
