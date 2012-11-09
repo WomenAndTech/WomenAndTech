@@ -32,7 +32,7 @@
 
 <div id="opening">
   <figure class='full_width'>
-    <img src="img/interview1-lucia-mariani-vena.jpg"/>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-vena-large.jpg"/>
   </figure>
 
   <div class="container">
