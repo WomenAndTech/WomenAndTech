@@ -105,15 +105,26 @@ If you're using background images in your css, you can reference them like this:
 
 ## 5\. Posting!
 
-When creating a post or interview the following must be included:
+When creating a post or interview consider using the following:
 
-### 1. A Publish Date
+### 1. Publish Dates
   If you want your post to show up in the Archives/Past Interviews section, you must give it a publish date and 'Publish' it.
   
-  > Posts are ordered by publish date, so even if the date is in the future they will show up.
-  > * If you don't want your post to show up yet, save it as draft
+  _Posts are ordered by publish date, so even if the date is in the future they will show up._
+  __If you don't want your post to show up yet, save it as draft__
 
-### 2. A Featured Image
+### 2. Featured Images
   If you want a custom image to show up in the Archives/Past Interviews section, add a 'featured image' to your post or interview. You do this when creating the post itself. On the righthand side there should a _Featured Image_ section with an option to set a featured image. Upload one or choose it from the media library, change its title and description attributes for SEO/screen reader purposes, and click Set As Featured Image. Then save the details you've just entered.
 
-  > * Featured images are 1px x 2px
+  __Featured images are 380px x 260px__
+
+### 3. Excerpt for Archives
+  The Archives/Past Intrviews section shows a list of past and upcoming posts and can optionally display an excerpt or message about that content. To add this to the list, you'll find an _"Archive Excerpt"_ WSYWIG editor in the post/interview.
+
+  __The maximum number of characters for this section is about ~250. Longer excerpts will either break or be hidden from the page
+
+### 4. Author
+  Double check that this select box at the bottom of the post is set to the correct author. It will default to you but you may be adding content for another contributor.
+
+### 5. Categories / Tags
+  These currently aren't used for the front or backend. Feel free to add them or not.
