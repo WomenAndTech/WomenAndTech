@@ -1,4 +1,4 @@
-# WomenAndTech
+# Women && Tech
 
 
 1. File Locations
@@ -50,7 +50,7 @@ The page that opens MAMP's homepage and will allow you to see settings, etc. Mos
 
 - Click the databases tab and create a new one called `'women_and_tech'` You'll see a message saying it has been created and it will appear in the list of databases on the left hand side.
 
-- Click women_and_tech in the panel on the left
+- Click `women_and_tech` in the panel on the left
 
 Next we have to import our development database. This will look different from our production one (the live site), but it's enough to get us up and running to preview content and work on it on our own machines.
 
@@ -66,27 +66,29 @@ With MAMP running, you can now go to `http://localhost:8888/WomenAndTech/wp` in 
 
 Note: Somethings may look broken or act strange. That's ok. The purpose of this is to get you working with your own custom content so you shouldn't really worry about other sections of the site.
 
-Login to Wordpress using the admin username and password (it's our usual one or ask Brett), and you're set to go!
+Login to Wordpress using the admin username and password (it's our usual one or ask someone), and you're set to go!
 
 ## 3\. Posting!
 
 When creating a post or interview consider using the following:
 
-### 1. Publish Dates
-  If you want your post to show up in the Archives/Past Interviews section, you must give it a publish date and 'Publish' it.
-  
-  _Posts are ordered by publish date, so even if the date is in the future they will show up._
-  __If you don't want your post to show up yet, save it as draft__
-
 ### 2. Featured Images
   If you want a custom image to show up in the Archives/Past Interviews section, add a 'featured image' to your post or interview. You do this when creating the post itself. On the righthand side there should a _Featured Image_ section with an option to set a featured image. Upload one or choose it from the media library, change its title and description attributes for SEO/screen reader purposes, and click Set As Featured Image. Then save the details you've just entered.
 
-  __Featured images are 380px x 260px__
+  __Featured images are `380px x 260px`__
+
+### 1. Publish Dates and Publish States Are Important
+  If you want a link to your post/interview or just the featured image of a coming soon post/interview to show up in the Archives/Past Interviews section, you must give it a publish date and 'Publish' it. "Coming Soon" interviews will also show up in the site footer with the 'teaser image' `(see posting interviews below)`
+  
+  _Posts in the archives are ordered by publish date._
+
+  __If you don't want your post to show up yet, save it as draft__
+
 
 ### 3. Excerpt for Archives
   The Archives/Past Intrviews section shows a list of past and upcoming posts and can optionally display an excerpt or message about that content. To add this to the list, you'll find an _"Archive Excerpt"_ WSYWIG editor in the post/interview.
 
-  __The maximum number of characters for this section is about ~250. Longer excerpts will either break or be hidden from the page
+  __The maximum number of characters for this section is about ~250. Longer excerpts will either break or be hidden from the page__
 
 ### 4. Author
   Double check that this select box at the bottom of the post is set to the correct author. It will default to you but you may be adding content for another contributor.
@@ -95,6 +97,10 @@ When creating a post or interview consider using the following:
   These currently aren't used for the front or backend. Feel free to add them or not.
 
 ## 4\. Posting Interviews!
+  
+  Posting interviews requires 1 additional asset vs. regular posts, the 'teaser image.' This image shows up in the footer of the site. As mentioned above, a teaser image for a 'coming soon' interview (i.e. published, but with a future date) will show up in the 'Next Up' section of the footer. The Past Interviews footer section will show the closest interview to the post that you're currently viewing.
+
+  __Teaser Images need to be `360px x 188px`__
 
 ## 5\. Art-Directed / Custom Content
 
