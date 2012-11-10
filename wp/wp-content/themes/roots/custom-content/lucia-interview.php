@@ -1,16 +1,16 @@
 <div class="container">
   <header class="row">
-    <div class="span6">
+    <div class="span9">
       <div class="interview-number">1</div>
       <h1 class="clearfix">Lucia Mariani-Vena</h1>
       <address>
         <div class="author-image" id="author-ivonnekn"></div>
         <div class="author-info">
-          <p>
+          <p class="author">
             An interview by
-            <a href="http://twitter.com/ivonnekn" rel="author" target="_blank">Ivonne Karamoy</a>
+            <a href="http://twitter.com/ivonnekn" rel="author" target="_blank"><strong>Ivonne Karamoy</strong></a>
           </p>
-          <p id='date'>October 26, 2012</p>
+          <p class='date'>October 26, 2012</p>
         </div>
       </address>
     </div>
@@ -21,10 +21,8 @@
     <div class="span12">
       <h2>
         Lucia is principal and digital strategist at
-        <a href="#">Feast Interactive</a>
-        , the company she runs with her husband. She is also the managing director of
-        <a href="#">Girls in Tech Toronto</a>
-        , a web developer at University of Toronto, a wife and a mother of two.
+        <a href="#">Feast Interactive</a>, the company she runs with her husband. She is also the managing director of
+        <a href="#">Girls in Tech Toronto</a>, a web developer at University of Toronto, a wife and a mother of two.
       </h2>
     </div>
   </section>
@@ -261,7 +259,6 @@
         Anne-Marie Slaughter’s
         <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/" target=_blank>article in The Atlantic</a>
         talks about how difficult it is for women to “have it all”.
-        <br/>
         How have you been able to balance your career goals and your personal life?
       </h3>
       <p>
@@ -342,7 +339,7 @@
         I also love working on my own thing and growing our business and it’s going well. But there are a lot more unknowns when you’re running your own business. I have to figure out how much risk I can take. When you’re thinking about work-life balance you have to manage your career the same way you would manage your portfolio – your funds, your RRSP [Registered Retirement Savings Plan]. Do you want a lot of risk or just a little? You have to think to yourself, what can you sleep with at night? But you don’t have to check out. For me that’s not an option.
       </p>
     </div>
-    <div class="span11 pull-quote">
+    <div class="span11 pull-quote last-row">
       <aside class="quote">
         <h2>
           Do you want a lot of risk or just a little? You have to think to yourself, what can you sleep with at night?

@@ -1,2 +1,75 @@
 /* ===== past-interviews ============================================== */
 
+/* Past Post Blocks */
+
+  .past-listing{
+   height: 36em;
+   background-color:#f3f3f3;
+   font-size:14px;
+   margin-bottom:2.564102564102564%;
+  }
+
+
+  .past-listing h2{
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+    line-height: 1.6em;
+    margin-bottom:0;
+    padding-bottom:0;
+  }
+
+  .past-listing h2 a{
+    text-decoration: none;
+    color:#000;
+  }
+  
+  .past-listing h2 a:hover {
+    color:#ee462b;
+  }
+
+  .past-listing img{
+    width:100%;
+  }
+
+  .past-listing > p, .past-listing .title-block{
+    padding:0 1.1em;
+  }
+
+  .past-listing > p{
+    clear:both;
+  }
+
+  .past-listing .title-block{
+    margin-bottom:1em;
+  }
+
+  .past-listing .author a{
+    color:#333;
+    text-decoration: none;
+  }
+
+  .past-listing .author a:hover{
+    color:#ee462b;
+  }
+
+  .type-post .title-block{
+    margin-bottom:1.5em;
+  }
+
+  .past-interviews .interview-number{
+    font-size:1em;
+    float: left;
+    margin:0;
+    margin-top:1.3em;
+    margin-left:1em;
+  }
+  
+  .type-interview .title-block{
+    padding-left:3.7em;
+  }
+  
+  .title-block p{
+    line-height:1.5em;
+    padding-left:0.2em;
+  }
+
