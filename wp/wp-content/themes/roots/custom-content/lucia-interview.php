@@ -51,7 +51,10 @@
 
 <div class="container">
   <section class="row">
-    <div class="span8 offset3 interview-panel">
+    <div class="span3" id="start-tag">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/start-tag.png"/>
+    </div>
+    <div class="span8 interview-panel">
       <h3>Tell us a bit about yourself and how you got your start.</h3>
       <p>
         I’ve been in the industry for about 10 years. I completed my Arts Management degree at the University of Toronto. That was where I started in web design. They wanted someone with an artistic background who could learn to code on the fly. At the time, they were trying to get faculty members to publish their dissertations in electronic format so I started designing ebooks and educational websites. I eventually landed at St. George Campus working with the VP of Research doing web design and development to push out the exciting research that was happening at the university.
@@ -373,5 +376,9 @@
       </p>
     </div>
   </section>
-
+  <div class="row" id='end-tag'>
+    <div class="span3">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/end-tag.png"/>
+    </div>
+  </div>
 </div>
