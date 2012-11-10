@@ -9,9 +9,11 @@
 
 4. Posting Interviews!
 
-5. Art-Directed / Custom Content
+5. Pages
 
-6. Images in Custom Content
+6. Art-Directed / Custom Content
+
+7. Images in Custom Content
 
 
 
@@ -102,7 +104,13 @@ When creating a post or interview consider using the following:
 
   __Teaser Images need to be `360px x 188px`__
 
-## 5\. Art-Directed / Custom Content
+## 5\. Pages and the Nav Menu
+  
+  The site has a few pages: Past Interviews, The Plan, and Supporters. These are in the Pages section of Wordpress and most have custom content and CSS to get them to look good.
+
+  The Nav menu can be adjusted in the Appearance section of Wordpress. Just drag and drop nav items until it looks good
+
+## 6\. Art-Directed / Custom Content
 
 As mentioned above, you can overwrite an interview, post, or page with your own custom HTML, append a custom stylesheet or javascript file to it. Stylesheets and JS files inherit from what's already on the page (`themes/roots/assets/css/base.css` for the base styles / jQuery and Bootstrap Javascript files that come with the theme)
 
