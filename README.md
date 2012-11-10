@@ -5,13 +5,14 @@
 
 2. Setting up Wordpress Locally
 
-3. Art-Directed / Custom Content
+3. Posting!
 
-4. Images in Custom Content
+4. Posting Interviews!
 
-5. Posting!
+5. Art-Directed / Custom Content
 
-6. Posting Interviews!
+6. Images in Custom Content
+
 
 
 
@@ -67,43 +68,7 @@ Note: Somethings may look broken or act strange. That's ok. The purpose of this 
 
 Login to Wordpress using the admin username and password (it's our usual one or ask Brett), and you're set to go!
 
-## 3\. Art-Directed / Custom Content
-
-As mentioned above, you can overwrite an interview, post, or page with your own custom HTML, append a custom stylesheet or javascript file to it. Stylesheets and JS files inherit from what's already on the page (`themes/roots/assets/css/base.css` for the base styles / jQuery and Bootstrap Javascript files that come with the theme)
-
-To work with your own custom content (HTML) or update existing custom content first create or find the Interview/Post/Page that uses it in the Wordpress interface. Here, below the regular WYSIWYG editor you'll see 3 drop downs to select custom files to be used. Those options are listings of the files found in `/custom-content`, `/custom-css`, `/custom-js` in the roots theme folder.
-
-These files must be .php, .css. and .js files. PHP extension files contant HTML, but can also contain PHP if you want something fancy or to use Wordpress' built in functions (see `past-interviews.php`)
-
-So to recap: interviews, posts, and pages can be overwritten with custom HTML stored in .php files located in the `/custom-content` folder.
-
-IMPORTANT: You'll need to put 'something' in the WYSIWYG content are on pages where you're using custom content. This content will show up in RSS feeds and are used in to search posts. For this reason, I recommend that 'something' be the actual HTML or interview document you're working from. When you're done, in the production environment of the post, just paste this into the WYSIWYG editor.
-
-You can append a custom CSS file by added a .css file to the `/custom-css` folder and selecting it from the dropdown that appears in the Edit Post page. 
-
-You can add a Javascript file that gets called at the bottom of the interview, post, or page by adding a .js file to the `/custom-js` folder.
-
-Note: Any files you change/add on your local Wordpress need to be pushed back up to the Git Repo. These files will not be on the live web but will allow the webmaster to put the most current content online. When you're done with your custom content, email the webmaster or FTP it yourself.
-
-On the live Wordpress site `(http://womenandtech.com/wp/login)` you'll need to hook up the custom content, css, or js you just created/edited with actual interviews, posts, and pages that exist online. Do this in the same way you did in your local environment.
-
-## 4\. Images in Custom Content
-
-If you're using images in your art direct content (.php files in `/custom-content`), add a folder to /assets/img/ to store all your images and reference them like:
-
-```html
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/YOUR_FOLDER/youfile.png">
-```
-You can see an example of this in `/custom-content/the-plan.php`
-
-If you're using background images in your css, you can reference them like this:
-```css
-#bg-img{
-	background: url(../img/YOUR_FOLDER/yourfile.png)
-}
-```
-
-## 5\. Posting!
+## 3\. Posting!
 
 When creating a post or interview consider using the following:
 
@@ -128,3 +93,42 @@ When creating a post or interview consider using the following:
 
 ### 5. Categories / Tags
   These currently aren't used for the front or backend. Feel free to add them or not.
+
+## 4\. Posting Interviews!
+
+## 5\. Art-Directed / Custom Content
+
+As mentioned above, you can overwrite an interview, post, or page with your own custom HTML, append a custom stylesheet or javascript file to it. Stylesheets and JS files inherit from what's already on the page (`themes/roots/assets/css/base.css` for the base styles / jQuery and Bootstrap Javascript files that come with the theme)
+
+To work with your own custom content (HTML) or update existing custom content first create or find the Interview/Post/Page that uses it in the Wordpress interface. Here, below the regular WYSIWYG editor you'll see 3 drop downs to select custom files to be used. Those options are listings of the files found in `/custom-content`, `/custom-css`, `/custom-js` in the roots theme folder.
+
+These files must be .php, .css. and .js files. PHP extension files contant HTML, but can also contain PHP if you want something fancy or to use Wordpress' built in functions (see `past-interviews.php`)
+
+So to recap: interviews, posts, and pages can be overwritten with custom HTML stored in .php files located in the `/custom-content` folder.
+
+IMPORTANT: You'll need to put 'something' in the WYSIWYG content are on pages where you're using custom content. This content will show up in RSS feeds and are used in to search posts. For this reason, I recommend that 'something' be the actual HTML or interview document you're working from. When you're done, in the production environment of the post, just paste this into the WYSIWYG editor.
+
+You can append a custom CSS file by added a .css file to the `/custom-css` folder and selecting it from the dropdown that appears in the Edit Post page. 
+
+You can add a Javascript file that gets called at the bottom of the interview, post, or page by adding a .js file to the `/custom-js` folder.
+
+Note: Any files you change/add on your local Wordpress need to be pushed back up to the Git Repo. These files will not be on the live web but will allow the webmaster to put the most current content online. When you're done with your custom content, email the webmaster or FTP it yourself.
+
+On the live Wordpress site `(http://womenandtech.com/wp/login)` you'll need to hook up the custom content, css, or js you just created/edited with actual interviews, posts, and pages that exist online. Do this in the same way you did in your local environment.
+
+## 6\. Images in Custom Content
+
+If you're using images in your art direct content (.php files in `/custom-content`), add a folder to /assets/img/ to store all your images and reference them like:
+
+```html
+<img src="<?php echo get_template_directory_uri(); ?>/assets/img/YOUR_FOLDER/youfile.png">
+```
+You can see an example of this in `/custom-content/the-plan.php`
+
+If you're using background images in your css, you can reference them like this:
+```css
+#bg-img{
+	background: url(../img/YOUR_FOLDER/yourfile.png)
+}
+```
+
