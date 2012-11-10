@@ -124,8 +124,11 @@
   #opening span span#right{
     padding-left:3%;
   }
-
-
+  
+  /* Article > Start Tag */
+  #start-tag{
+    padding-top:1em;
+  }
   /* Article > Aside/Figure */
 
   aside, figure {
@@ -337,4 +340,16 @@
   .interview-panel p{
     margin-bottom:1.5em;
     color:#444;
+  }
+
+/* End Tag */
+  
+  #end-tag{
+    position: relative;
+    top:-103px;
+    margin-top:-1em; /* Moves the end tag up to counteract .section's bottom margin */
+  }
+
+  #end-tag img{
+    position:absolute;
   }
