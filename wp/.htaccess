@@ -1,22 +1,24 @@
 # BEGIN WordPress
+
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
   # Development Rule - Change to whatever your working dir is
-  RewriteRule .* - [E=PATH:/WomenAndTech/]
+  RewriteRule .* - [D=WP_PATH:/Web/wamp/www/WomenAndTech/]
   # Production Rule:
-  # RewriteRule .* - [E=PATH:/]
+  # RewriteRule .* - [D=WP_PATH:/Web/wamp/www/WomenAndTech/]
   RewriteRule ^index\.php$ - [L]
-  RewriteRule ^assets/css/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/css/$1 [QSA,L]
-  RewriteRule ^assets/custom-css/(.*) %{ENV:PATH}wp/wp-content/themes/roots/custom-css/$1 [QSA,L]
-  RewriteRule ^assets/custom-js/(.*) %{ENV:PATH}wp/wp-content/themes/roots/custom-js/$1 [QSA,L]
-  RewriteRule ^assets/js/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/js/$1 [QSA,L]
-  RewriteRule ^assets/img/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/img/$1 [QSA,L]
-    RewriteRule ^assets/fonts/(.*) %{ENV:PATH}wp/wp-content/themes/roots/assets/fonts/$1 [QSA,L]
-  RewriteRule ^plugins/(.*) %{ENV:PATH}wp/wp-content/plugins/$1 [QSA,L]
+  RewriteRule ^assets/css/(.*) %{ENV:WP_PATH}wp/wp-content/themes/roots/assets/css/$1 [QSA,L]
+  RewriteRule ^assets/custom-css/(.*) %{ENV:WP_PATH}wp/wp-content/themes/roots/custom-css/$1 [QSA,L]
+  RewriteRule ^assets/custom-js/(.*) %{ENV:WP_PATH}wp/wp-content/themes/roots/custom-js/$1 [QSA,L]
+  RewriteRule ^assets/js/(.*) %{ENV:WP_PATH}wp/wp-content/themes/roots/assets/js/$1 [QSA,L]
+  RewriteRule ^assets/img/(.*) %{ENV:WP_PATH}wp/wp-content/themes/roots/assets/img/$1 [QSA,L]
+  RewriteRule ^assets/fonts/(.*) %{ENV:WP_PATH}wp/wp-content/themes/roots/assets/fonts/$1 [QSA,L]
+  RewriteRule ^plugins/(.*) %{ENV:WP_PATH}wp/wp-content/plugins/$1 [QSA,L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . %{ENV:PATH}wp/index.php [L]
+  RewriteRule . %{ENV:WP_PATH}wp/index.php [L]
 </IfModule>
 
 # END WordPress

@@ -12,7 +12,7 @@ global $custom_content;
         </div>
       </div>
     </div>
-        <? else:
+        <?php else:
           get_template_part("custom-content/$custom_content");
       endif; ?>
     </article>
