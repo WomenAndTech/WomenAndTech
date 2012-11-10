@@ -1,5 +1,4 @@
-WomenAndTech
-============
+# WomenAndTech
 
 
 1. File Locations
@@ -16,7 +15,7 @@ WomenAndTech
 
 
 
-1. File Locations
+## 1\. File Locations
 
 All our files are stored on Github. You're looking at it!
 
@@ -32,7 +31,7 @@ This is the place where per post custom content is read from when you're in WP. 
 
 There are 2 ways of working with the site: using your own local install of Wordpress and uploading or using an HTML editing program like Dreamweaver that allows you to edit files online so you don't have to keep uploading them. If you'd like more info on the latter, please let me know!
 
-2. Setting up Wordpress Locally
+## 2\. Setting up Wordpress Locally
 
 Because W&&T runs on Wordpress online it's nice to setup your own local Wordpress environment
 so you can simulate the way things work online and run your custom content without uploading it.
@@ -68,7 +67,7 @@ Note: Somethings may look broken or act strange. That's ok. The purpose of this 
 
 Login to Wordpress using the admin username and password (it's our usual one or ask Brett), and you're set to go!
 
-3. Art-Directed / Custom Content
+## 3\. Art-Directed / Custom Content
 
 As mentioned above, you can overwrite an interview, post, or page with your own custom HTML, append a custom stylesheet or javascript file to it. Stylesheets and JS files inherit from what's already on the page (`themes/roots/assets/css/base.css` for the base styles / jQuery and Bootstrap Javascript files that come with the theme)
 
@@ -88,7 +87,7 @@ Note: Any files you change/add on your local Wordpress need to be pushed back up
 
 On the live Wordpress site `(http://womenandtech.com/wp/login)` you'll need to hook up the custom content, css, or js you just created/edited with actual interviews, posts, and pages that exist online. Do this in the same way you did in your local environment.
 
-4. Images in Custom Content
+## 4\. Images in Custom Content
 
 If you're using images in your art direct content (.php files in `/custom-content`), add a folder to /assets/img/ to store all your images and reference them like:
 
