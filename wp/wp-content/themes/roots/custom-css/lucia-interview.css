@@ -1,6 +1,6 @@
 /* --- Article #1 ---- */
   
-  a {
+  .lucia-interview a {
     text-decoration: none;
     font-weight:bold;
   }
@@ -8,7 +8,7 @@
 
   /* Article > Header */
 
-  h1 {
+  .lucia-interview h1 {
     margin:0 0 0.25em;
   }
   
