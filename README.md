@@ -72,12 +72,12 @@ Login to Wordpress using the admin username and password (it's our usual one or 
 
 When creating a post or interview consider using the following:
 
-### 2. Featured Images
+### 1. Featured Images
   If you want a custom image to show up in the Archives/Past Interviews section, add a 'featured image' to your post or interview. You do this when creating the post itself. On the righthand side there should a _Featured Image_ section with an option to set a featured image. Upload one or choose it from the media library, change its title and description attributes for SEO/screen reader purposes, and click Set As Featured Image. Then save the details you've just entered.
 
   __Featured images are `380px x 260px`__
 
-### 1. Publish Dates and Publish States Are Important
+### 2. Publish Dates and Publish States Are Important
   If you want a link to your post/interview or just the featured image of a coming soon post/interview to show up in the Archives/Past Interviews section, you must give it a publish date and 'Publish' it. "Coming Soon" interviews will also show up in the site footer with the 'teaser image' `(see posting interviews below)`
   
   _Posts in the archives are ordered by publish date._
