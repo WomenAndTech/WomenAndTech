@@ -109,8 +109,11 @@ When creating a post or interview the following must be included:
 
 ### 1. A Publish Date
   If you want your post to show up in the Archives/Past Interviews section, you must give it a publish date and 'Publish' it.
-    > Posts are ordered by publish date, so even if the date is in the future they will show up.
-    > * If you don't want your post to show up yet, save it as draft
+  
+  > Posts are ordered by publish date, so even if the date is in the future they will show up.
+  > * If you don't want your post to show up yet, save it as draft
+
 ### 2. A Featured Image
   If you want a custom image to show up in the Archives/Past Interviews section, add a 'featured image' to your post or interview. You do this when creating the post itself. On the righthand side there should a _Featured Image_ section with an option to set a featured image. Upload one or choose it from the media library, change its title and description attributes for SEO/screen reader purposes, and click Set As Featured Image. Then save the details you've just entered.
-    > * Featured images are AxBpx
+
+  > * Featured images are 1px x 2px
