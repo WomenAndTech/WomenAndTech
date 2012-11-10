@@ -21,18 +21,26 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 body{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  line-height: 1.7em;
+  line-height: 2em;
   color:#333333;
 }
 
 h1 {
   font-family:'Arvo', serif;
   font-weight:normal;
+  font-size:5em;
+  line-height:1.15em;
 }
 
 h2, h3, h4, h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight:normal;
+}
+
+h2{
+  font-size:2.14em;
+  font-weight:100;
+  line-height: 1.6em
 }
 
 a{
@@ -154,12 +162,13 @@ line-height: 2em
 }
   /* overwrite bootstrap */
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
-  color:#fff;
+  
   background-color: transparent;
-  border-bottom:1px solid #fcb8ab;
-  border-radius:3px;
-  padding:0 0.5em;
+
   color: #fcb8ab;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 .navbar .contact{
@@ -213,98 +222,17 @@ line-height: 2em
     font-family:'Arvo', serif;
     color:white;
     font-weight:100;
-    font-size: 2em;
     text-align:center;
     line-height:1em;
     padding:0.5em 0.8em 0.5em 0.75em;
-    margin-right:0.25em;
     border-radius: 50%;
     font-style:italic;
   }
 
-  h1 {
-    font-size:3.5em;
-    line-height:1.15em;
-    margin:0 0 0.25em;
-  }
-
-
-/* Past Post Blocks */
-
-.past-listing{
- height: 36em;
- background-color:#f3f3f3;
- font-size:14px;
- margin-bottom:2.564102564102564%;
-}
-
-
-  .past-listing h2{
-    font-family: 'Arvo', serif;
-    font-size: 2em;
-    line-height: 1.6em;
-    margin-bottom:0;
-    padding-bottom:0;
-  }
-
-  .past-listing h2 a{
-    text-decoration: none;
-    color:#000;
-  }
-  
-  .past-listing h2 a:hover {
-    color:#ee462b;
-  }
-
-  .past-listing img{
-    width:100%;
-  }
-
-  .past-listing > p, .past-listing .title-block{
-    padding:0 1.1em;
-  }
-
-  .past-listing > p{
-    clear:both;
-  }
-
-  .past-listing .title-block{
-    margin-bottom:1em;
-  }
-
-  .past-listing .author a{
-    color:#333;
-    text-decoration: none;
-  }
-
-  .past-listing .author a:hover{
-    color:#ee462b;
-  }
-
-  .type-post .title-block{
-    margin-bottom:1.5em;
-  }
-
-  .past-interviews.interview-number{
-    font-size:1em;
-    float: left;
-    margin:0;
-    margin-top:1.3em;
-    margin-left:1em;
-  }
-  
-  .type-interview .title-block{
-    padding-left:3.7em;
-  }
-  
-  .title-block p{
-    line-height:1.5em;
-    padding-left:0.2em;
-  }
-
-  .title-block p strong{
+  p.author strong{
     font-family: 'Arvo', serif;
   }
+
 
 /* Footer */
 
