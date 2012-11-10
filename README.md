@@ -27,7 +27,7 @@ The files you'll be interested in are located here: /wp/wp-content/themes/roots
 /wp-content is where plugins and themes go
 /themes/roots is where our bootstrap theme 'roots' is located
 
-Inside here you'll see all the Wordpress theme files that get everything up and running, but if you're doing art-directed content you'll be interested in the folders /customer-content, /custom-css, /custom-js
+Inside here you'll see all the Wordpress theme files that get everything up and running, but if you're doing art-directed content you'll be interested in the folders `/customer-content`, `/custom-css`, `/custom-js`
 This is the place where per post custom content is read from when you're in WP. More about this below
 
 There are 2 ways of working with the site: using your own local install of Wordpress and uploading or using an HTML editing program like Dreamweaver that allows you to edit files online so you don't have to keep uploading them. If you'd like more info on the latter, please let me know!
@@ -48,7 +48,7 @@ The page that opens MAMP's homepage and will allow you to see settings, etc. Mos
 
 - Click under MySQL, click phpMyAdmin
 
-- Click the databases tab and create a new one called 'women_and_tech' You'll see a message saying it has been created and it will appear in the list of databases on the left hand side.
+- Click the databases tab and create a new one called `'women_and_tech'` You'll see a message saying it has been created and it will appear in the list of databases on the left hand side.
 
 - Click women_and_tech in the panel on the left
 
@@ -58,7 +58,7 @@ Next we have to import our development database. This will look different from o
 
 - Click Choose file and navigate to `/Applications/MAMP/htdocs/wp/db/`
 
-- choose the file women_and_tech.sql and click Go.
+- choose the file `women_and_tech.sql` and click Go.
 
 When the file has been imported you'll see all the database tables on the left. 
 
@@ -70,9 +70,9 @@ Login to Wordpress using the admin username and password (it's our usual one or 
 
 3. Art-Directed / Custom Content
 
-As mentioned above, you can overwrite an interview, post, or page with your own custom HTML, append a custom stylesheet or javascript file to it. Stylesheets and JS files inherit from what's already on the page (base.css for the base styles / jQuery and Bootstrap Javascript files that come with the theme)
+As mentioned above, you can overwrite an interview, post, or page with your own custom HTML, append a custom stylesheet or javascript file to it. Stylesheets and JS files inherit from what's already on the page (`themes/roots/assets/css/base.css` for the base styles / jQuery and Bootstrap Javascript files that come with the theme)
 
-To work with your own custom content (HTML) or update existing custom content first create or find the Interview/Post/Page that uses it in the Wordpress interface. Here, below the regular WYSIWYG editor you'll see 3 drop downs to select custom files to be used. Those options are listings of the files found in `/custom-content,` `/custom-css,` `/custom-js` in the roots theme folder.
+To work with your own custom content (HTML) or update existing custom content first create or find the Interview/Post/Page that uses it in the Wordpress interface. Here, below the regular WYSIWYG editor you'll see 3 drop downs to select custom files to be used. Those options are listings of the files found in `/custom-content`, `/custom-css`, `/custom-js` in the roots theme folder.
 
 These files must be .php, .css. and .js files. PHP extension files contant HTML, but can also contain PHP if you want something fancy or to use Wordpress' built in functions (see `past-interviews.php`)
 
@@ -82,7 +82,7 @@ IMPORTANT: You'll need to put 'something' in the WYSIWYG content are on pages wh
 
 You can append a custom CSS file by added a .css file to the `/custom-css` folder and selecting it from the dropdown that appears in the Edit Post page. 
 
-You can add a Javascript file that gets called at the bottom of the interview, post, or page by adding a .js file to the /custom-js folder.
+You can add a Javascript file that gets called at the bottom of the interview, post, or page by adding a .js file to the `/custom-js` folder.
 
 Note: Any files you change/add on your local Wordpress need to be pushed back up to the Git Repo. These files will not be on the live web but will allow the webmaster to put the most current content online. When you're done with your custom content, email the webmaster or FTP it yourself.
 
@@ -90,13 +90,13 @@ On the live Wordpress site `(http://womenandtech.com/wp/login)` you'll need to h
 
 4. Images in Custom Content
 
-If you're using images in your art direct content (.php files in /custom-content), add a folder to /assets/img/ to store all your images and reference them like ``` html
+If you're using images in your art direct content (.php files in `/custom-content`), add a folder to /assets/img/ to store all your images and reference them like ```html
 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/YOUR_FOLDER/youfile.png">
 ```
 You can see an example of this in `/custom-content/the-plan.php`
 
 If you're using background images in your css, you can reference them like this:
-``` css
+```css
 #bg-img{
 	background: url(../img/YOUR_FOLDER/yourfile.png)
 }```
