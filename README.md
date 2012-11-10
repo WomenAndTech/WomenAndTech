@@ -66,7 +66,7 @@ With MAMP running, you can now go to `http://localhost:8888/WomenAndTech/wp` in 
 
 Note: Somethings may look broken or act strange. That's ok. The purpose of this is to get you working with your own custom content so you shouldn't really worry about other sections of the site.
 
-Login to Wordpress using the admin username and password (it's our usual one or ask someone), and you're set to go!
+Login to Wordpress using the `admin` username and password (it's our usual one or ask someone), and you're set to go!
 
 ## 3\. Posting!
 
