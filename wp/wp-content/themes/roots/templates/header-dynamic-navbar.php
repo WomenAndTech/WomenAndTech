@@ -17,7 +17,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bird_white_16.png">Follow Us!</a>
           </p>
           <p class="email">
-            <a href="#" title="contact@womenandtech.com"> <i class="icon-envelope icon-white"></i>
+            <a href="#subscribe" title="Subscribe!"> <i class="icon-envelope icon-white"></i>
               Sign up for updates
             </a>
           </p>
