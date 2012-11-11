@@ -369,16 +369,24 @@
   </section>
 
   <section class="row">
-    <div class="span8 offset3 standout-question">
-      <div class="row-fluid">
+    <div class="span8 offset3">
+      <div class="row-fluid callout-question">
         <div class="span12" id="question-prompt">
           <h3>Without knowing who they are, please post a question for our next interviewee.</h3>
         </div>
-        <div class="span2 new-line" id="profile-image">
+        <div class="span3 new-line" id="profile-image">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-square.jpg"/>
         </div>
-        <div class="span10">
+        <div class="span8">
           <h4>When will we see a female version of Steve Jobs or Mark Zuckerberg?</h4>
+        </div>
+        <div class="span1" id='quote-mark'>
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark-small.png"/>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="span12" id="call-to-action">
+          <p>Be sure to check back next month (or <a href="#subscribe">subscribe below</a>) for Heather Payne's answer to this question.</p>
         </div>
       </div>
     </div>
