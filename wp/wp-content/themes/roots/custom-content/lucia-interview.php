@@ -365,6 +365,24 @@
       </p>
     </div>
   </section>
+
+  <section class="row">
+    <div class="span8 offset3 standout-question">
+      <div class="row-fluid">
+        <div class="span12" id="question-prompt">
+          <h3>Without knowing who they are, please post a question for our next interviewee.</h3>
+        </div>
+        <div class="span2 new-line" id="profile-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-square.jpg"/>
+        </div>
+        <div class="span10">
+          <h4>When will we see a female version of Steve Jobs or Mark Zuckerberg?</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- END TAG -->
   <div class="row" id='end-tag'>
     <div class="span3">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/end-tag.png"/>
