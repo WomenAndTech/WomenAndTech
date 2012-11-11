@@ -310,7 +310,9 @@
 
   <section class="row">
     <div class="span3 info-panel personal-testimony">
+
       <aside>
+        <div class="arrow"></div>
         <h3>Personal Testimony</h3>
         <p>
          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/paul-fraumeni.png"/>  “[Lucia] has a powerful ability to take complex research and make it easy to understand […]. To Lucia, the technology is simply a tool. Her talent is in helping people, real people, to understand the research being conducted at U of T and how it is about their lives."
