@@ -129,6 +129,7 @@
   #start-tag{
     padding-top:1em;
   }
+  
   /* Article > Aside/Figure */
 
   aside, figure {
@@ -136,7 +137,6 @@
     width:75%;
   }
 
-  
 
   .info-panel, .notable-person{
     position:relative;
@@ -213,18 +213,25 @@
     border-left-color: #ee462b;
   }
 
-
-  .info-panel .mentor{
+  /* Article > Aside > Personal-Testimony */
+  
+  .personal-testimony .mentor{
     font-style: italic;
     font-size:0.8em;
   }
 
-  .info-panel .mentor em{
+  .personal-testimony .mentor em{
     font-style: normal;
     font-style: normal;
     font-weight: bold;
     font-size:1.2em;
   }
+
+  .personal-testimony p img{
+    float:left;
+    padding-right:1em;
+  }
+
 
   /* Article > Figure > Notable-Person */
 
