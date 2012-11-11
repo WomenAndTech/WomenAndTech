@@ -3,7 +3,7 @@
   RewriteEngine On
   RewriteBase /
   # Development Rule - Change to whatever your working dir is
-  RewriteRule .* - [E=WP_PATH:/WomenAndTech/]
+  RewriteRule .* - [D=WP_PATH:/Web/wamp/www/WomenAndTech/]
   # Production Rule:
   # RewriteRule .* - [E=WP_PATH:/]
   RewriteRule ^index\.php$ - [L]
