@@ -10,7 +10,7 @@
             An interview by
             <a href="http://twitter.com/ivonnekn" rel="author" target="_blank"><strong>Ivonne Karamoy</strong></a>
           </p>
-          <p class='date'>October 26, 2012</p>
+          <p class='date'>November 13, 2012</p>
         </div>
       </address>
     </div>
@@ -166,7 +166,7 @@
     <div class="span3  info-panel">
       <aside class="first-row">
         <div class="arrow"></div>
-        <h3>Parental leave in Canada</h3>
+        <h3>Parental Leave in Canada</h3>
         <p>
           Mothers are allowed 15 weeks full-salary paid maternity leave. After that, they get half pay. Parents are allowed up to 35 weeks combined leave.
         </p>
@@ -209,23 +209,17 @@
   </section>
 
   <section class="row">
-    <div class="span3 notable-person" id="william-barek">
-      <figure class='first-row'>
+   
+      <div class="span3 info-panel mentor-quote">
+      <aside>
         <div class="arrow"></div>
-        <h3>Notable Person</h3>
-        <img src='<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/william-barek.jpg'>
-        <figcaption class="clear">
-          <a href="http://www.linkedin.com/in/williambarek" target=_blank>
-            <h4>William Barek</h4>
-          </a>
-          <p>
-            Former Director of Centre for Instructional Technology Development
-          </p>
-        </figcaption>
-        <div style="clear:both"></div>
-      </figure>
+        <h3>Personal Testimony</h3>
+        <p>
+         “Lucia is one rare individual that [...] didn't have a strong technology background, but was savvy to embrace new digital technologies. Her tenacity to adopt and learn all aspects of multimedia, web and social media, [...] made her a perfect candidate to join our team.”
+        </p>
+        <p class="mentor"><em>William Barek,</em> Former Director at Centre for Instructional Technology Development, University of Toronto at Scarborough</p>
+      </aside>
     </div>
-    <!-- notable person -->
 
     <div class="span8 interview-panel">
       <h3>Did you have any mentors in your career?</h3>
@@ -236,16 +230,9 @@
   </section>
 
   <section class="row">
-    <div class="span3 info-panel mentor-quote">
-      <aside>
-        <p>
-         “Lucia is one rare individual that [...] didn't have a strong technology background, but was savvy to embrace new digital technologies. Her tenacity to adopt and learn all aspects of multimedia, web and social media, [...] made her a perfect candidate to join our team.”
-        </p>
-        <p class="mentor"><em>William Barek,</em> Former Director at Centre for Instructional Technology Development, University of Toronto at Scarborough</p>
-      </aside>
-    </div>
 
-    <div class="span8 interview-panel">
+
+    <div class="span8 offset3 interview-panel">
       <h3>What challenges have you faced working in the tech industry?</h3>
       <p>
         I think one expectation that can sometimes be placed on the only female member of the team is that they really want you to be the nurturer, the one that brings everyone together. If you don’t act that role, they hold that against you, at least in my experience.
