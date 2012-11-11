@@ -1,11 +1,13 @@
+
 (function($){
 
   $(document).on('click', 'a[href=#subscribe]', function(e){
-
-    /* Scrolling to the subscribe area */
     e.preventDefault();
+
+    // Scrolling to the subscribe area
     var $subscribe = $('#subscribe')
     , subscribe_pos=$subscribe.offset().top
+
     //Callback for when we're done scrolling    
     , flash_color = function(){
                       $subscribe.css({backgroundColor: '#ee462b'})
@@ -17,10 +19,13 @@
                         .find('input.email')
                           .focus();
                     };
-  
+    //If we're not at the bottom of the page,
+    //Scroll there and fire the callback
+
     if($(window).scrollTop() + $(window).height() < subscribe_pos) {
       $('html,body').stop().animate({ scrollTop: subscribe_pos},500, flash_color);
     }
+    //Otherwise just fire the callback
     else{
       flash_color()
     }
