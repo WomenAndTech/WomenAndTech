@@ -88,10 +88,11 @@ function cjs_include() {
  global $wp_query;
  $id = $wp_query->post->ID;
  $the_js  = get_post_meta($id, 'custom_js','true'); 
- $the_path   = get_template_directory_uri().'/assets';
+ $the_path   = '/assets';
  $the_output = $the_path . CJS_PATH . $the_js;
  if ($the_js) {
-  echo '<script src="' . $the_output . '" type="text/javascript"></script>'; 
+  wp_register_script('custom_js', $the_output, 'roots_main', null, true);
+  wp_enqueue_script('custom_js');
  }
 }
 
@@ -103,6 +104,7 @@ function cjs_uninstall() {
 
 add_action('admin_menu', 'cjs_box');
 add_action('save_post', 'cjs_save');
-add_action('wp_footer','cjs_include');
+//set priority low so the enqueu scripts in script.php has a chance to run first
+add_action('wp_enqueue_scripts','cjs_include', 1000);
 register_uninstall_hook(__FILE__, 'cjs_uninstall');
 ?>
