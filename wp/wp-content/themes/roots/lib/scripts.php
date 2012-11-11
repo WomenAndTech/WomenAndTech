@@ -36,14 +36,26 @@ function roots_scripts() {
     wp_register_script('jquery', '', '', '1.8.2', false);
   }
 
-  if (is_single() && comments_open() && get_option('thread_comments')) {
+  /*if (is_single() && comments_open() && get_option('thread_comments')) {
     wp_enqueue_script('comment-reply');
-  }
+  }*/
 
-  wp_register_script('roots_plugins', '/assets/js/plugins.js', false, null, false);
-  wp_register_script('roots_main', '/assets/js/main.js', false, null, false);
+  wp_register_script('roots_plugins', '/assets/js/plugins.js', 'jquery', null, false);
+  
+
+  wp_enqueue_script('swiffy', '/assets/js/vendor/swiffy-4.9.0.min.js', 'jquery', null, false);
+  
+  //Can load this in the footer:
+  wp_enqueue_script('jquery_color', 'http://code.jquery.com/color/jquery.color-git.js', 'jquery', null, true);
+  wp_register_script('roots_main', '/assets/js/main.js', 'jquery', null, true);
+
+  wp_enqueue_script('swiffy');
   wp_enqueue_script('roots_plugins');
+
+  //Loads in the footer:
+  wp_enqueue_script('jquery_color');
   wp_enqueue_script('roots_main');
+
 }
 
 add_action('wp_enqueue_scripts', 'roots_scripts', 100);
