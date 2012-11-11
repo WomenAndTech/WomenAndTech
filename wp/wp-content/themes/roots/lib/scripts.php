@@ -43,10 +43,10 @@ function roots_scripts() {
   wp_register_script('roots_plugins', '/assets/js/plugins.js', 'jquery', null, false);
   
 
-  wp_enqueue_script('swiffy', '/assets/js/vendor/swiffy-4.9.0.min.js', 'jquery', null, false);
+  wp_register_script('swiffy', '/assets/js/vendor/swiffy-4.9.0.min.js', 'jquery', null, false);
   
   //Can load this in the footer:
-  wp_enqueue_script('jquery_color', 'http://code.jquery.com/color/jquery.color-git.js', 'jquery', null, true);
+  wp_register_script('jquery_color', 'http://code.jquery.com/color/jquery.color-git.js', 'jquery', null, true);
   wp_register_script('roots_main', '/assets/js/main.js', 'jquery', null, true);
 
   wp_enqueue_script('swiffy');
