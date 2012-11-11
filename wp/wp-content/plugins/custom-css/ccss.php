@@ -82,10 +82,11 @@ function ccss_include() {
  global $wp_query;
  $id = $wp_query->post->ID;
  $the_sheet  = get_post_meta($id, 'css_sheet','true'); 
- $the_path   = get_template_directory_uri().'/assets';
+ $the_path   = '/assets';
  $the_output = $the_path . CCSS_PATH . $the_sheet;
- if ($the_sheet) {
-  echo '<link rel="stylesheet" href="' . $the_output . '" type="text/css" media="screen" />'; 
+ if ($the_sheet) { 
+  wp_enqueue_style('custom_css', $the_output, array('roots_base'), null);
+
   // if (is_single() || is_page()) echo '<link rel="stylesheet" href="' . $the_output . '" type="text/css" media="screen" />';  
  }
 }
@@ -98,6 +99,6 @@ function ccss_uninstall() {
 
 add_action('admin_menu', 'ccss_box');
 add_action('save_post', 'ccss_save');
-add_action('wp_head','ccss_include');
+add_action('wp_enqueue_scripts','ccss_include', 1000);
 register_uninstall_hook(__FILE__, 'ccss_uninstall');
 ?>

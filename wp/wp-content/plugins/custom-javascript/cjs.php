@@ -91,7 +91,7 @@ function cjs_include() {
  $the_path   = '/assets';
  $the_output = $the_path . CJS_PATH . $the_js;
  if ($the_js) {
-  wp_register_script('custom_js', $the_output, 'roots_main', null, true);
+  wp_register_script('custom_js', $the_output, array('jquery'), null, true);
   wp_enqueue_script('custom_js');
  }
 }
