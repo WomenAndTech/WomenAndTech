@@ -21,7 +21,7 @@ function roots_scripts() {
 
   wp_enqueue_style('roots_arvo_font', 'http://fonts.googleapis.com/css?family=Arvo:400,400italic|Open+Sans:400italic,600italic,400,600', false, null);
 
-  wp_enqueue_style('roots_app', '/assets/css/base.css', array('roots_bootstrap'), null);
+  wp_enqueue_style('roots_base', '/assets/css/base.css', array('roots_bootstrap'), null);
 
   // Load style.css from child theme
   if (is_child_theme()) {
@@ -40,14 +40,14 @@ function roots_scripts() {
     wp_enqueue_script('comment-reply');
   }*/
 
-  wp_register_script('roots_plugins', '/assets/js/plugins.js', 'jquery', null, false);
+  wp_register_script('roots_plugins', '/assets/js/plugins.js', array('jquery'), null, false);
   
 
-  wp_register_script('swiffy', '/assets/js/vendor/swiffy-4.9.0.min.js', 'jquery', null, false);
+  wp_register_script('swiffy', '/assets/js/vendor/swiffy-4.9.0.min.js', array('jquery'), null, false);
   
   //Can load this in the footer:
-  wp_register_script('jquery_color', 'http://code.jquery.com/color/jquery.color-git.js', 'jquery', null, true);
-  wp_register_script('roots_main', '/assets/js/main.js', 'jquery', null, true);
+  wp_register_script('jquery_color', 'http://code.jquery.com/color/jquery.color-git.js', array('jquery'), null, true);
+  wp_register_script('roots_main', '/assets/js/main.js', array('jquery'), null, true);
 
   wp_enqueue_script('swiffy');
   wp_enqueue_script('roots_plugins');
