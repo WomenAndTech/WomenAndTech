@@ -1,10 +1,13 @@
 
 (function($){
 
-  $(document).on('click', 'a[href=#subscribe]', function(e){
+  $(document)
+
+  /* -- Scrolling to the subscribe area -- */
+  .on('click', 'a[href=#subscribe]', function(e){
     e.preventDefault();
 
-    // Scrolling to the subscribe area
+
     var $subscribe = $('#subscribe')
     , subscribe_pos=$subscribe.offset().top
 
@@ -31,12 +34,14 @@
     }
     return false;
   })
-  .on('focus', 'input.email', function(){
-    /* Remove mock cursor in the subscribe email field */
+
+  /* -- Remove mock cursor in the subscribe email field -- */
+  .on('focus', 'input.email', function(){  
     $(this).css('border-left', '0px');
   })
+
+  /* -- Add back in mock cursor when other not typing anymore -- */
   .on('blur', 'input.email', function(){
-    /* Add back in mock cursor when other not typing anymore */
     $(this).css('border-left', '');
   })
 
