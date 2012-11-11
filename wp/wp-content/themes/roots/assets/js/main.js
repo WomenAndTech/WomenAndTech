@@ -9,7 +9,7 @@
     //Callback for when we're done scrolling    
     , flash_color = function(){
                       $subscribe.css({backgroundColor: '#ee462b'})
-                        .animate({backgroundColor: '#dedddd'}, 650)
+                        .animate({backgroundColor: '#dedddd'}, 250)
                         .closest('.span4')
                           .css({backgroundColor:'#F68A77'})
                           .animate({backgroundColor:'#f3f3f3'}, 850)
