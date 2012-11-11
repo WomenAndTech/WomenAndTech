@@ -2,8 +2,15 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+  
   # Development Rule - Change to whatever your working dir is
-  RewriteRule .* - [D=WP_PATH:/Web/wamp/www/WomenAndTech/]
+  RewriteRule .* - [E=WP_PATH:/WomenAndTech/]
+  
+  # ------------- #
+  # FOR MARK:
+  # RewriteRule .* - [D=WP_PATH:/Web/wamp/www/WomenAndTech/]
+  # ------------- #
+  
   # Production Rule:
   # RewriteRule .* - [E=WP_PATH:/]
   RewriteRule ^index\.php$ - [L]
