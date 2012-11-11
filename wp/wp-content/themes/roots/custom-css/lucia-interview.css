@@ -2,7 +2,7 @@
   
   .lucia-interview a {
     text-decoration: none;
-    font-weight:bold;
+    font-weight:normal;
   }
 
 
@@ -10,17 +10,21 @@
 
   .lucia-interview h1 {
     margin:0 0 0.25em;
+      font-size: 4.286em;
+      letter-spacing: -0.018em;
+
   }
   
   .interview-number{
     margin-top:0.1em;
-    margin-right: 0.25em;
+    margin-right: 0.429em;
     font-size: 2.5em;
+    padding:0.4em 0.7em;
   }
   
   address {
     font-weight: 100;
-    margin-left:0.5em;
+    margin-left:0.143em;
     font-size:1.4em;
     line-height: 1.1em
   }
@@ -47,7 +51,8 @@
   }
 
   address #author-ivonnekn{
-    background:url('http://api.twitter.com/1/users/profile_image/ivonnekn') center center;
+    background:url('http://api.twitter.com/1/users/profile_image?screen_name=ivonnekn&size=bigger') center center no-repeat;
+     background-size: 110%;
   }
 
 
@@ -55,9 +60,20 @@
     display:inline-block;
     height:35px;
     padding-left:5px;
+    top:-0.214em;
+    position: relative;
   }
-  
-  
+
+address .author-info .author {
+    font-size:0.929em;
+    margin-bottom:0.214em;
+}
+address .author-info p.author strong {
+    font-weight: 700;
+    font-size:1em;
+    color:#333;
+}
+
   address .date{
     font-size:0.6em;
     color:#555;
@@ -68,17 +84,25 @@
   section{
     margin:2.5em 0;
   }
+section#introduction {
+    margin:1.5em 0 4em -30px;
+}
 
+section h2 {
+    font-size:2em;
+    line-height: 1.571em;
+    margin:0;
+}
 
   section h2 a{
     font-weight: normal;
   }
 
   section h3 {
-    font-size:1em;
+    font-size:1.071em;
     line-height:1.8em;
     font-weight: bold;
-    color:#000;
+    color:#333333;
     margin-bottom:1.8em;
 
   }
@@ -115,6 +139,7 @@
 
   #opening span{
     display:block;
+    color:#000;
   }
 
   #opening span span#left{
@@ -137,7 +162,9 @@
     width:75%;
   }
 
-
+  .info-panel {
+        font-weight: bold;
+  }
   .info-panel, .notable-person{
     position:relative;
   }
@@ -149,10 +176,10 @@
 
   .notable-person h3, .info-panel h3{
     line-height:1.5em;
-    margin-bottom:1.5em;
+    margin-bottom:0.429em;
     margin-top:0;
     font-weight: bold;
-    font-size:1.3em;
+    font-size:1.429em;
     font-family:'Arvo', serif;
   }
 
@@ -253,22 +280,20 @@
 
   .notable-person img{
     float:left;
+      width:32%;
   }
 
   .notable-person figcaption{ 
     float:left;
-    width: 60%;
-    margin-left: 7%;
+    width: 63%;
+    margin-left: 5%;
     padding-top: 0.2em;
     line-height:1.5em;
   }
-  
-  .notable-person h3{
-    margin-bottom:1em;
-  }
+
 
   .notable-person h4{
-    font-size:1em;
+    font-size:1.071em;
     line-height: 0.5em;
     margin:0;
     margin-bottom:0.75em;
@@ -308,7 +333,6 @@
   
   .pull-quote .quote{
     background-color:#f3f3f3;
-    height:7em;
     width:94%; /* quote and quote mark must add to 100% */
     float:left;
   }
@@ -317,25 +341,25 @@
   
   .pull-quote .quote h2{
     margin:0;
-    line-height:1.4em;
-    padding:0.25em 0.5em;
+    line-height:1.429em;
+    padding:0.714em;
   }
   
   .pull-quote .quote-mark{
     color:white;
     background-color:#ee462b;
-    height:7em;
-    margin-left:1%; 
+    height:8.571em;
+    margin-left:2%;
     width:3%;  /* quote and quote mark must add to 100% */
     float:left;
     vertical-align: middle;
     text-align: center;
-    padding:0 1%;
+    padding:0 0.5%;
     
   }
 
   .pull-quote .quote-mark img{
-    padding-top:1.25em;
+    padding-top:1.143em;
     vertical-align: middle;
     max-width:100%;
   }
@@ -416,3 +440,21 @@
   #end-tag img{
     position:absolute;
   }
+
+@media(min-width:768px) and (max-width:979px) {
+    .lucia-interview h1 {
+        font-size:3em;
+    }
+    section h2 {
+        font-size:1.5em;
+    }
+}
+@media(max-width:767px){
+    .lucia-interview h1 {
+        font-size:1em;
+    }
+    section h2 {
+        font-size:1.429em;
+    }
+}
+>>>>>>> CSS Tweaks and Animation approach
