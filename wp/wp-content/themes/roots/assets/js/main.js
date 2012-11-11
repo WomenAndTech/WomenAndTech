@@ -8,12 +8,15 @@
     , subscribe_pos=$subscribe.offset().top
     //Callback for when we're done scrolling    
     , flash_color = function(){
-                        $subscribe.css('background', '#ee462b').closest('.span4').css('background', '#F68A77').end().find('input.email').focus().end();
-
-                          setTimeout(function(){
-                            $subscribe.css('background', '#dedddd').closest('.span4').css('background', '#f3f3f3');
-                          },250);
-                        }
+                      $subscribe.css({backgroundColor: '#ee462b'})
+                        .animate({backgroundColor: '#dedddd'}, 650)
+                        .closest('.span4')
+                          .css({backgroundColor:'#F68A77'})
+                          .animate({backgroundColor:'#f3f3f3'}, 850)
+                        .end()
+                        .find('input.email')
+                          .focus();
+                    };
   
     if($(window).scrollTop() + $(window).height() < subscribe_pos) {
       $('html,body').stop().animate({ scrollTop: subscribe_pos},500, flash_color);
