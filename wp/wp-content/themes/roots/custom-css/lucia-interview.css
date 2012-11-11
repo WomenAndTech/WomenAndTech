@@ -355,6 +355,39 @@
     color:#444;
   }
 
+  /* Standout-Question */
+  
+  .standout-question{
+    background:#f3f3f3;
+  }
+  
+  .standout-question .new-line{
+    clear:left;
+    margin-left:0;
+  }
+
+  .standout-question #question-prompt{
+    background-color:#ee462b;
+    padding:0.5em;
+    text-align: center;
+  }
+
+  #question-prompt h3{
+    font-size:1.4em;
+    color:white;
+    margin:0;
+    font-weight:normal;
+  }
+  
+  .standout-question #profile-image{
+    padding:1.5%;
+  }
+
+  .standout-question #profile-image img{
+    border-radius:50%;
+  }
+  
+
 /* End Tag */
   
   #end-tag{
