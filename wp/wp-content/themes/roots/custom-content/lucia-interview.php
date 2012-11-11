@@ -215,7 +215,8 @@
         <div class="arrow"></div>
         <h3>Personal Testimony</h3>
         <p>
-         “Lucia is one rare individual that [...] didn't have a strong technology background, but was savvy to embrace new digital technologies. Her tenacity to adopt and learn all aspects of multimedia, web and social media, [...] made her a perfect candidate to join our team.”
+
+         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/william-barek.png"/> “Lucia is one rare individual that [...] didn't have a strong technology background, but was savvy to embrace new digital technologies. Her tenacity to adopt and learn all aspects of multimedia, web and social media, [...] made her a perfect candidate to join our team.”
         </p>
         <p class="mentor"><em>William Barek,</em> Former Director at Centre for Instructional Technology Development, University of Toronto at Scarborough</p>
       </aside>
@@ -308,10 +309,11 @@
   </section>
 
   <section class="row">
-    <div class="span3 info-panel mentor-quote">
+    <div class="span3 info-panel personal-testimony">
       <aside>
+        <h3>Personal Testimony</h3>
         <p>
-         “[Lucia] has a powerful ability to take complex research and make it easy to understand […]. To Lucia, the technology is simply a tool. Her talent is in helping people, real people, to understand the research being conducted at U of T and how it is about their lives."
+         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/paul-fraumeni.png"/>  “[Lucia] has a powerful ability to take complex research and make it easy to understand […]. To Lucia, the technology is simply a tool. Her talent is in helping people, real people, to understand the research being conducted at U of T and how it is about their lives."
         </p>
         <p class="mentor"><em>Paul Fraumeni,</em> director, Research Communications, the University of Toronto</p>
       </aside>
