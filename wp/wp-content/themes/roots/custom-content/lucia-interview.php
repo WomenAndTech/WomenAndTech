@@ -210,7 +210,7 @@
 
   <section class="row">
    
-      <div class="span3 info-panel mentor-quote">
+      <div class="span3 info-panel personal-testimony">
       <aside>
         <div class="arrow"></div>
         <h3>Personal Testimony</h3>

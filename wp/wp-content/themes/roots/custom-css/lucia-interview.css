@@ -136,14 +136,30 @@
     width:75%;
   }
 
-  aside p, figure p{
-    font-size: 1.0em;
-    line-height: 1.6em;
-  }
+  
 
   .info-panel, .notable-person{
     position:relative;
   }
+
+  .info-panel p, .notable-person p{
+    font-size: 1.0em;
+    line-height: 1.7em;
+  }
+
+  .notable-person h3, .info-panel h3{
+    line-height:1.5em;
+    margin-bottom:1.5em;
+    margin-top:0;
+    font-weight: bold;
+    font-size:1.3em;
+    font-family:'Arvo', serif;
+  }
+
+  .notable-person a, .info-panel a{
+    text-decoration: underline;
+  }
+
 
   .arrow,
   .arrow:after {
@@ -175,6 +191,7 @@
   }
 
 
+
   /* Article > Aside > Info-Panel */
 
   .info-panel aside{
@@ -190,12 +207,6 @@
 
   .info-panel aside h3{
     color:white;
-    line-height:1.5em;
-    margin-bottom:0.5em;
-    margin-top:0;
-    font-weight: bold;
-    font-size:1.4em;
-    font-family:'Arvo', serif;
   }
 
   .info-panel .arrow:after{
@@ -203,15 +214,16 @@
   }
 
 
-  aside p.mentor{
-    color:black;
+  .info-panel .mentor{
     font-style: italic;
     font-size:0.8em;
   }
 
-  aside p.mentor em{
+  .info-panel .mentor em{
+    font-style: normal;
     font-style: normal;
     font-weight: bold;
+    font-size:1.2em;
   }
 
   /* Article > Figure > Notable-Person */
@@ -243,14 +255,9 @@
     padding-top: 0.2em;
     line-height:1.5em;
   }
-
+  
   .notable-person h3{
-    line-height:1.5em;
-    margin-bottom:0.5em;
-    margin-top:0;
-    font-weight: bold;
-    font-size:1.1em;
-    font-family:'Arvo', serif;
+    margin-bottom:1em;
   }
 
   .notable-person h4{
