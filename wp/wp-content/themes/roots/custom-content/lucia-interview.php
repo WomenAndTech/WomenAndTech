@@ -14,16 +14,18 @@
         </div>
       </address>
     </div>
-    <div class="span3 offset1"></div>
+    <div class="span2 offset1"> <div id="startanimation" style="width: 200px; height: 100px">
+                                         </div>
+                                         <script>
+										 startanimationObj = {"tags":[{"bounds":[{"ymin":-1540,"ymax":1540,"xmin":-1540,"xmax":1540}],"id":1,"fillstyles":[{"color":[-20828],"type":1}],"paths":[{"fill":0,"data":["::40Ob38F:89J51db51D51d51D89jb:38f51d89jb51d51d89j51db38f:89j51Db51d51D51d89Jb:38F51D89Jb51D51D89J51Dc"]}],"flat":true,"type":1},{"tags":[{"id":1,"matrix":0,"type":3,"depth":1},{"type":2}],"id":2,"frameCount":1,"type":7},{"id":2,"matrix":"5323E::5323E06h06d","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h64d","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h99d","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h26e","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h48e","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h68e","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h88e","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h11f","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h44f","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h99f","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h76g","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h69h","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h48i","type":3,"depth":3},{"type":2},{"bounds":[{"ymin":-90,"ymax":90,"xmin":0,"xmax":180}],"id":3,"fillstyles":[{"color":[-20828],"type":1}],"paths":[{"fill":0,"data":["::0Ia:0ra0r:a:0Rc"]}],"flat":true,"type":1},{"tags":[{"id":3,"matrix":0,"type":3,"depth":1},{"type":2}],"id":4,"frameCount":1,"type":7},{"id":4,"ratio":13,"matrix":"7n::0583C66h26j","type":3,"depth":1},{"replace":true,"matrix":"5323E::5323E06h96i","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"67l::0592C66h26j","type":3,"depth":1},{"replace":true,"matrix":"5323E::5323E06h20j","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"192e::0624C67h26j","type":3,"depth":1},{"replace":true,"matrix":"5323E::5323E06h26j","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"142m::0689C66h26j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"7356b::0805C66h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"2410e::1010C66h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"9432i::1395C66h26j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"4097s::2168C66h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"20320c::3200C66h26j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"17289d::3993C67h26j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"89844d::4586C66h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"48132e::5063C67h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"97307e::5465C66h26j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"40153f::5815C66h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"78303f::6127C66h26j","type":3,"depth":1},{"type":2},{"type":9,"actions":[{"type":7}]},{"replace":true,"matrix":"12833g::6409C66h26j","type":3,"depth":1},{"type":2}],"fileSize":950,"v":"4.9.0","backgroundColor":-1,"frameSize":{"ymin":0,"ymax":2000,"xmin":0,"xmax":4000},"frameCount":29,"frameRate":31,"code":"","version":11};
+                                           var stage = new swiffy.Stage(document.getElementById('startanimation'),startanimationObj);
+                                           stage.start();
+                                         </script></div>
   </header>
 
   <section class="row"  id="introduction">
     <div class="span12">
-      <h2>
-        Lucia is principal and digital strategist at
-        <a href="#">Feast Interactive</a>, the company she runs with her husband. She is also the managing director of
-        <a href="#">Girls in Tech Toronto</a>, a web developer at University of Toronto, a wife and a mother of two.
-      </h2>
+      <h2> Lucia is responsible for the genesis of <a href="http://www.girlsintechtoronto.com" target="_blank">Girls in Tech Toronto</a>, the local chapter of a global movement to unite women working in technology. We dig into her story to pinpoint how exactly she fell in love with her career and to find out what it is like to be a <em>mother in tech</em>.</h2>
     </div>
   </section>
 </div>
@@ -37,12 +39,12 @@
     <section class="row">
       <span class="span6">
         <span id="left">
-          How does she make all this work together? To find out I met Lucia at the Yonge and Eglinton Starbucks after she put her kids to bed. 8:30pm – when we met for a coffee – is when Lucia begins the second half of her day. She had her second child nine months ago and is currently on maternity leave.
+          8:30pm, after Lucia put her kids to bed, is when we met for a coffee. This is when Lucia begins the second half of her day, especially now on maternity leave with her second child.
         </span>
       </span>
       <span class="span6">
         <span id="right">
-          Given the inflexible demands on her time, she must be sure to work efficiently. In our hour-long conversation we discussed where and when her interest in technology began, her mentors, her family, her thoughts on women in the industry and how she stays tuned into her career while raising a family.
+          In our hour-long conversation we discussed her thoughts on women in the industry, her male mentors, her family and how she manages to “have it all”.
         </span>
       </span>
     </section>
@@ -51,10 +53,10 @@
 
 <div class="container">
   <section class="row">
-    <div class="span3" id="start-tag">
+    <div class="span4" id="start-tag">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/start-tag.png"/>
     </div>
-    <div class="span8 interview-panel">
+    <div class="span7 interview-panel">
       <h3>Tell us a bit about yourself and how you got your start.</h3>
       <p>
         I’ve been in the industry for about 10 years. I completed my Arts Management degree at the University of Toronto. That was where I started in web design. They wanted someone with an artistic background who could learn to code on the fly. At the time, they were trying to get faculty members to publish their dissertations in electronic format so I started designing ebooks and educational websites. I eventually landed at St. George Campus working with the VP of Research doing web design and development to push out the exciting research that was happening at the university.
@@ -78,24 +80,23 @@
       </div>
     </div>
 
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <p>
         After my son was born, I started getting involved with
-        <a href="http://girlsintechtoronto.com/" target=_blank>Girls In Tech</a>
-        . It’s hard to jump from being a professional and working a lot to staying home with the kids. I needed to do something. That first year when you’re at home is a huge transitional time – it is for many women I think. So I started the Girls in Tech group in Toronto.
+        <a href="http://girlsintechtoronto.com/" target=_blank>Girls In Tech</a>. It’s hard to jump from being a professional and working a lot to staying home with the kids. I needed to do something. That first year when you’re at home is a huge transitional time – it is for many women I think. So I started the Girls in Tech group in Toronto.
       </p>
     </div>
   </section>
 
   <section class="row">
 
-    <div class="span3 notable-person" id="neha-khera">
+    <div class="span4 notable-person" id="neha-khera">
       <figure class='first-row'>
         <div class="arrow"></div>
         <h3>Notable Person</h3>
         <img src='<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/neha-khera.jpg'>
         <figcaption class="clear">
-          <a href="http://www.techvibes.com/author/neha-khera" target=_blank>
+          <a href="http://ca.linkedin.com/in/nkhera" target=_blank>
             <h4>Neha Khera</h4>
           </a>
           <p>Co-runs Girls In Tech Toronto with Lucia</p>
@@ -105,7 +106,7 @@
     </div>
     <!-- notable person -->
 
-    <div class="span8 interview-panel">
+    <div class="span7 interview-panel">
       <h3>Did Girls in Tech already exist at that time?</h3>
       <p>
         Not in Toronto. One late night I was looking for a group, a network of other women in tech to reach out to. I found this organization in the States: Girls in Tech, but I noticed there wasn’t a local chapter in Toronto. So I reached out to them and told them I’d be interested in starting one. At the same time, my partner Neha was also interested so we connected and decided to get it going.
@@ -117,7 +118,7 @@
   </section>
 
   <section class="row">
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <h3>Do you see the same women coming to Girls in Tech events?</h3>
       <p>
         It varies. There’s always the core group but different people come out depending on the content. For one session we had an
@@ -128,7 +129,7 @@
   </section>
 
   <section class="row">
-    <div class="span3 notable-person" id="mary-wells">
+    <div class="span4 notable-person" id="mary-wells">
       <figure class="first-row">
         <div class="arrow"></div>
         <h3>Notable Person</h3>
@@ -143,7 +144,7 @@
       </figure>
     </div>
     <!-- notable person -->
-    <div class="span8 interview-panel">
+    <div class="span7 interview-panel">
       <h3>What thoughts came out of that panel?</h3>
       <p>
         Mary Wells who is at the University of Waterloo – she’s an engineer, a mom and a really impressive woman. Her thesis is that you really have to get to children when they’re young, like grade 4 or 5 to get them interested in the sciences and math. After that, it’s a bit too late. That’s her philosophy.
@@ -152,7 +153,7 @@
   </section>
 
   <section class="row">
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <h3>
         Do you think that the structure of these programs need to change?
       </h3>
@@ -163,7 +164,7 @@
   </section>
 
   <section class="row">
-    <div class="span3  info-panel">
+    <div class="span4  info-panel">
       <aside class="first-row">
         <div class="arrow"></div>
         <h3>Parental Leave in Canada</h3>
@@ -172,7 +173,7 @@
         </p>
       </aside>
     </div>
-    <div class="span8  interview-panel">
+    <div class="span7  interview-panel">
       <h3>Were you overwhelmed?</h3>
       <p>
         Yes. Everyone has different choices but I breastfed my children. I was up with them at night and especially with the first one, you don’t know what to expect. Lack of sleep and being tired is overwhelming. You feel like you’re unplugged from the world. But I invested in an iPhone and I used it to keep reading. I would read when I was up breastfeeding. That’s when I became very active and more involved. Being connected empowered me and helped me to keep up with the world and the industry.
@@ -191,7 +192,7 @@
   </section>
 
   <section class="row">
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <h3>How did you become interested in technology initially?</h3>
       <p>
         I’ve always been an information buff. I loved encyclopedias, I loved reading. When the Internet came around I wanted it. I remember when the information superhighway was kind of a big issue with the Ontario government – were they going to censor it? That’s when I got really interested. I lived in a small town and there wasn’t much to do, so my way of connecting with people and seeing the world was through the Internet and learning. Nobody took my hand and said “Here, learn HTML.” I was just curious and discovered it on my own. That’s what’s so great about technology, you can just unbundle it yourself.
@@ -200,7 +201,7 @@
   </section>
 
   <section class="row">
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <h3>What attracted you to building websites?</h3>
       <p>
         I liked the design aspect of it. You were creating something. I liked the taxonomy side and the user interface side of it. I liked taking thoughts and ideas that were on paper and then translating them and putting them on the web.
@@ -210,7 +211,7 @@
 
   <section class="row">
    
-      <div class="span3 info-panel personal-testimony">
+      <div class="span4 info-panel personal-testimony">
       <aside>
         <div class="arrow"></div>
         <h3>Personal Testimony</h3>
@@ -222,7 +223,7 @@
       </aside>
     </div>
 
-    <div class="span8 interview-panel">
+    <div class="span7 interview-panel">
       <h3>Did you have any mentors in your career?</h3>
       <p>
         I’ve worked with two men in my career that influenced my professional beliefs and my philosophy. My first boss at U of T, William Barek, was an early adopter of Apple computers and lived and breathed everything Steve Jobs. He was well-read and so into technology. He had all the latest gadgets – he had ten ebook readers and this was back then. People would send them to him and he would hack into them. He was so passionate about technology and thought that eReaders were going to replace hardcover books. I was drawn to that passion and he really opened my eyes to Apple systems, open source and that part of technology that I hadn’t seen before. I also worked with another gentleman named Paul Fraumeni. He had an ad agency background and opened my eyes to writing and the creative aspect of technology that comes from the agency world.
@@ -233,7 +234,7 @@
   <section class="row">
 
 
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <h3>What challenges have you faced working in the tech industry?</h3>
       <p>
         I think one expectation that can sometimes be placed on the only female member of the team is that they really want you to be the nurturer, the one that brings everyone together. If you don’t act that role, they hold that against you, at least in my experience.
@@ -245,7 +246,7 @@
   </section>
 
   <section class="row">
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <h3>
         Anne-Marie Slaughter’s
         <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/" target=_blank>article in The Atlantic</a>
@@ -269,13 +270,13 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark.png"/>
       </div>
     </div>
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <p>
         Now the kicker for me is my daughter was born with moderate hearing loss. She’s seven months now. She wears hearing aids. So one parent has to take on that role of early educator. We have to train her brain to listen with the hearing aids. She’s pretty much learning the basics of language and breaking words down to the simplest sounds and then building on that. Somebody needs to be there with her to help her do that, which makes things more complicated.
       </p>
     </div>
 
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <p>
         We got that news at two months and it was shocking, but it was also a moment for me to say either I’m going to bury my head down and be so devastated for her, or I’m going to keep doing what I’m doing. I’ve stopped thinking about whether I’m keeping up. People talk about having it all, but I just said I’m not gonna think about that anymore. I’m just going to do what I do.
       </p>
@@ -283,7 +284,7 @@
   </section>
 
   <section class="row">
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <h3>
         Did having a family change your perspective on the industry or the role of women working in the industry?
       </h3>
@@ -301,7 +302,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark.png"/>
       </div>
     </div>
-    <div class="span8 offset3  interview-panel">
+    <div class="span7 offset4  interview-panel">
       <p>
         The reality is that you have to find it within yourself to overcome that. I used to approach it as this super person, like “Yes I’m pregnant but this doesn’t change me” or “Yes I’m a mom but this doesn’t change me.” Then after awhile, you say I am who I am now and I’m gonna be good at it.
       </p>
@@ -309,8 +310,7 @@
   </section>
 
   <section class="row">
-    <div class="span3 info-panel personal-testimony">
-
+    <div class="span4 info-panel personal-testimony">
       <aside>
         <div class="arrow"></div>
         <h3>Personal Testimony</h3>
@@ -320,7 +320,7 @@
         <p class="mentor"><em>Paul Fraumeni,</em> director, Research Communications, the University of Toronto</p>
       </aside>
     </div>
-    <div class="span8 interview-panel">
+    <div class="span7 interview-panel">
       <h3>
         Maybe there needs to be less talk about having it all and more doing?
       </h3>
@@ -328,7 +328,7 @@
         Yeah, but you have to feel like you have the support to do what you need to do. That includes having supportive work and home environments. I’ve been fortunate because I have both. U of T has been very supportive throughout my maternity leave; they’ll work with me if I decide I need to go back to work and have that secure income to support my family.
       </p>
     </div>
-    <div class="span8 offset3  interview-panel">
+    <div class="span7 offset4  interview-panel">
       <p>
         I also love working on my own thing and growing our business and it’s going well. But there are a lot more unknowns when you’re running your own business. I have to figure out how much risk I can take. When you’re thinking about work-life balance you have to manage your career the same way you would manage your portfolio – your funds, your RRSP [Registered Retirement Savings Plan]. Do you want a lot of risk or just a little? You have to think to yourself, what can you sleep with at night? But you don’t have to check out. For me that’s not an option.
       </p>
@@ -346,7 +346,7 @@
   </section>
 
   <section class="row">
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <h3>What goals do you have for your career?</h3>
       <p>
         I’ve always done things that felt right. I never really followed the money trail. I’ve always worked on things that I’m passionate about and I’d like to continue that. I know I want to be more along the lines of this digital strategist that I am at Feast Interactive. I see myself in a leadership role and would like to establish myself in Toronto as a leader in the industry.
@@ -355,7 +355,7 @@
   </section>
 
   <section class="row">
-    <div class="span8 offset3 interview-panel">
+    <div class="span7 offset4 interview-panel">
       <h3>
         Is there anything exciting that you’re working on that you want to tell us about?
       </h3>
@@ -394,7 +394,7 @@
 
   <!-- END TAG -->
   <div class="row" id='end-tag'>
-    <div class="span3">
+    <div class="span4">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/end-tag.png"/>
     </div>
   </div>
