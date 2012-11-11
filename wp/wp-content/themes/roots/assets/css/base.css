@@ -13,10 +13,15 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Author: Mark Staplehurst / Brett Bergmann
    ========================================================================== */
 
+
 @font-face {
   font-family: 'Blanch Condensed';
-  src: url("../fonts/BLANCH_CONDENSED.otf") format("opentype");
+  src: url('../fonts/BLANCH_CONDENSED.eot');
+  src: local('☺'), url('../fonts/BLANCH_CONDENSED.woff') format('woff'), url('../fonts/BLANCH_CONDENSED.ttf') format('truetype'), url('../fonts/BLANCH_CONDENSED.svg') format('svg'), url("../fonts/BLANCH_CONDENSED.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 body{
   font-family: 'Open Sans', sans-serif;
