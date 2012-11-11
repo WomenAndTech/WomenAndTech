@@ -1,0 +1,76 @@
+/* line 5, ../sass/sponsors.scss */
+#sponsors {
+  padding: 20px;
+}
+
+/* line 9, ../sass/sponsors.scss */
+#featured_sponsor {
+  margin-top: 90px;
+}
+/* line 11, ../sass/sponsors.scss */
+#featured_sponsor h2 {
+  color: #b2b2b2;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+/* line 16, ../sass/sponsors.scss */
+#featured_sponsor #box {
+  background: #f3f3f3;
+}
+/* line 19, ../sass/sponsors.scss */
+#featured_sponsor #box #sponsor_logo p {
+  text-align: center;
+  padding: 50px 0px;
+}
+/* line 22, ../sass/sponsors.scss */
+#featured_sponsor #box #sponsor_logo p img {
+  width: 80%;
+}
+/* line 27, ../sass/sponsors.scss */
+#featured_sponsor #box #sponsor_callout {
+  padding: 50px 0px;
+}
+/* line 29, ../sass/sponsors.scss */
+#featured_sponsor #box #sponsor_callout p {
+  font-size: 1.25em;
+  line-height: 2em;
+  padding-right: 30px;
+}
+
+/* line 38, ../sass/sponsors.scss */
+#friends {
+  margin-top: 90px;
+  text-align: center;
+}
+/* line 41, ../sass/sponsors.scss */
+#friends h3 {
+  text-align: left;
+  color: #b2b2b2;
+  font-style: italic;
+}
+/* line 46, ../sass/sponsors.scss */
+#friends img {
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+/* line 50, ../sass/sponsors.scss */
+#friends p {
+  text-align: left;
+}
+
+/* line 55, ../sass/sponsors.scss */
+#interest {
+  margin-top: 90px;
+  font-size: 0.85em;
+}
+
+@media (min-width: 1200px) {
+  /* line 64, ../sass/sponsors.scss */
+  #featured_sponsor #box #sponsor_logo img {
+    width: 100%;
+  }
+  /* line 68, ../sass/sponsors.scss */
+  #featured_sponsor #box #sponsor_callout {
+    margin-left: 0px;
+  }
+}
