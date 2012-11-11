@@ -3,4 +3,4 @@
 img/.DS_Store
 wp/assets/*
 wp/.htaccess
-wp/*.htaccess
+.htaccess
