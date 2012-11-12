@@ -36,7 +36,7 @@
     background:transparent;
   }
 
-  #byline-teaser #the-team, #byline-teaser #contact{
+  #byline-teaser #the-team, #byline-teaser #contact-methods{
     width:100%;
   }
 
@@ -52,12 +52,12 @@
   footer{
     position:relative;
   }
-  footer #contact{
+  footer #contact-methods{
     position: absolute;
     bottom:0;
   }
 
-  footer #contact p {
+  footer #contact-methods p {
     float: none;
     margin-left: 0;
     clear:right;

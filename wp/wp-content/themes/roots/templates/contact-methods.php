@@ -1,4 +1,4 @@
-<div class="span6" id="contact">
+<div class="span6" id="contact-methods">
   <img src="<?php echo get_template_directory_uri(); ?>/assets/img/womenandtech-logo-black.png" id='logo-black'>
   <p id="follow">
     <a href="https://twitter.com/intent/user?screen_name=womenandtech" target="_blank" rel='tooltip' title="@womenandtech">
