@@ -261,9 +261,13 @@ footer{
 
 }
 
-  #teasers .span4{
+  #teasers .span4, #teasers #byline-teaser{
     background:#f3f3f3;
     margin-top:5em;
+  }
+
+  #teasers #byline-teaser{
+    display:none;
   }
   
   #teasers a{
@@ -385,6 +389,7 @@ footer{
   }
 
 
+
   footer #byline a{
     padding-left:6px;
     color:#fcb8ab;
@@ -395,11 +400,11 @@ footer{
     color:#ccc;
   }
   
-  footer #names i{
+  footer #the-team i{
     margin-right:2px;
   }
 
-  footer #names a{
+  footer #the-team a{
     border-radius: 100%;
     width: 37px;
     height: 37px;
@@ -413,39 +418,39 @@ footer{
     top:-4px;
   }
 
-  footer #names a:hover{
+  footer #the-team a:hover{
     background: #F68A77;
   }
 
-  /*footer #names a#border-color1{
+  /*footer #the-team a#border-color1{
     background: #F68A77;
    }
-  footer #names a#border-color2{
+  footer #the-team a#border-color2{
     background: #F79280;
    }
-  footer #names a#border-color3{
+  footer #the-team a#border-color3{
     background: #F89988;
    }
-  footer #names a#border-color4{
+  footer #the-team a#border-color4{
     background: #F9A191;
    }
-  footer #names a#border-color5{
+  footer #the-team a#border-color5{
     background: #FAA899;
    }
-  footer #names a#border-color6{
+  footer #the-team a#border-color6{
     background: #FBB0A2;
    }*/
 
 
   
-  footer #names a img{
+  footer #the-team a img{
     border-radius:50%;
     width:35px;
     height:35px
   }
 
 
-  footer #names p{
+  footer #the-team p{
     margin-left:-30px;
   }
 
