@@ -56,6 +56,16 @@ a{
   text-decoration: underline;
 }
 
+a [class^="icon-"], a [class*=" icon-"], a i{
+  text-decoration: none;
+}
+
+i.icon-white{
+  color:white;
+}
+
+
+
 a:hover{
   color:#888;
   text-decoration: none;
@@ -435,36 +445,38 @@ footer{
   }
 
 
-
   footer #names p{
     margin-left:-30px;
   }
+
+  /* contact section */
+
   footer #contact{
-    position: relative;
-    left:3px;
-  }
-  footer #contact p{
     float:right;
   }
 
-  footer #contact i{
-    margin-top:1px;
+  footer #contact p{
+    float:right;
+    margin-left:1em;
   }
-
-  footer #email i{
-    margin-right:3px;
-  }
-
-  footer #follow img{
-    padding-bottom:3px;
+  
+  footer #rss i, footer #email i{
+    margin-right:0.5em;
   }
 
   footer #follow{
-    padding-left:9px;
+    margin-left:0.4em;
+    margin-right:1.1em;
   }
 
   footer #follow img{
-    margin-right:2px;
+    margin-right:0.3em;
+    padding-bottom:3px;
+  }
+
+  footer #logo-black{
+    vertical-align: middle;
+    float:right;
   }
 
   .orange{
