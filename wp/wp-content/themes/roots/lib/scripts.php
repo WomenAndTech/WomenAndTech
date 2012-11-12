@@ -25,6 +25,8 @@ function roots_scripts() {
 
   wp_enqueue_style('roots_base', '/assets/css/base.css', array('roots_bootstrap'), null);
 
+  wp_enqueue_style('roots_base_responsive', '/assets/css/base-responsive.css', array('roots_base'), null);
+
 
 
   // Load style.css from child theme
