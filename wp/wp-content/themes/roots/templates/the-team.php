@@ -1,5 +1,5 @@
 <div class="span6" id="the-team">
-        <p><i class="icon-heart-empty icon-white"></i> Brought to you by
+      <p><i class="icon-heart-empty icon-white"></i> Brought to you by
         <span id='team-links'>
           <a href="http://twitter.com/cassiemc" rel='tooltip' title="Cassie McDaniel" target="_blank" id='border-color1'>
             <img src="http://api.twitter.com/1/users/profile_image/cassiemc">
@@ -20,5 +20,5 @@
              <img src="http://api.twitter.com/1/users/profile_image/RayKao">
           </a>
         </span>
-        </p>
-      </div>
+      </p>
+    </div>
