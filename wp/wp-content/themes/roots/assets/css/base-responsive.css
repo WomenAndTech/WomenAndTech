@@ -8,9 +8,7 @@
 /*------------------------------------------------*/
 /*------------------------------------------------*/
 @media (max-width: 767px) {
-  body {
-    padding:0;
-  }
+
 
 
   
@@ -19,15 +17,55 @@
 /*------------------------------------------------*/
 /*------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 979px) {
-  body {
-    padding:0;
-    font-size:16px;
-    line-height:1.9;
+
+
+  .span4#past-interviews-teaser, .span4#up-next-teaser{
+    width: 352px;
   }
 
+  .span4#get-updates-teaser{
+    width: 352px;
+  }
 
+  #byline{
+    display:none;
+  }
 
+  #teasers #byline-teaser{
+    display:block;
+    background:transparent;
+  }
 
+  #byline-teaser #the-team, #byline-teaser #contact{
+    width:100%;
+  }
+
+  #byline-teaser #team-links{
+    display:block;
+  }
+
+  footer #logo-black{
+    float:none;
+    clear:right;
+  }
+
+  footer{
+    position:relative;
+  }
+  footer #contact{
+    position: absolute;
+    bottom:0;
+  }
+
+  footer #contact p {
+    float: none;
+    margin-left: 0;
+    clear:right;
+  }
+
+  footer #follow{
+    margin-left:0;
+  }
 }
 
 /*------------------------------------------------*/
@@ -60,7 +98,7 @@
   #subscribe input[type="submit"] {
     right: 15px;
     bottom: 15px;
-    width: 30%;
+    width: 35%;
     font-size: 1.0em
   }
 }
