@@ -456,11 +456,11 @@ footer{
 
   /* contact section */
 
-  footer #contact{
+  footer #contact-methods{
     float:right;
   }
 
-  footer #contact p{
+  footer #contact-methods p{
     float:right;
     margin-left:1em;
   }
