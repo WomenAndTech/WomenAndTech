@@ -109,6 +109,6 @@ $loop = new WP_Query( $args ); ?>
 
   <div class="span6" id='byline-teaser'>
     <?php get_template_part('templates/the-team'); ?>
-    <?php get_template_part('templates/contact-us'); ?>
+    <?php get_template_part('templates/contact-methods'); ?>
   </div> 
 </div>
