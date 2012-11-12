@@ -66,28 +66,27 @@ $loop = new WP_Query( $args ); ?>
 <?php wp_reset_query(); ?>
 
 
-<div class="row-fluid" id="teasers">
+<div class="row" id="teasers">
   
-    <div class="span4">
-      <a href="<?php echo $prev_url; ?>">
-      <h3>Past Interviews</h3>
-      <div class="teaser-block">
-        <img src="<?php echo $prev_image_url; ?>">
-      </div>
-      </a>
+  <div class="span4" id='past-interviews-teaser'>
+    <a href="<?php echo $prev_url; ?>">
+    <h3>Past Interviews</h3>
+    <div class="teaser-block">
+      <img src="<?php echo $prev_image_url; ?>">
     </div>
-  
-  
-    <div class="span4">
-      <a href="<?php echo $next_url; ?>">
-      <h3>Up Next Time</h3>
-      <div class="teaser-block">
-        <img src="<?php echo $next_image_url; ?>">
-      </div>
-      </a>
+    </a>
+  </div>
+
+  <div class="span4" id='up-next-teaser'>
+    <a href="<?php echo $next_url; ?>">
+    <h3>Up Next Time</h3>
+    <div class="teaser-block">
+      <img src="<?php echo $next_image_url; ?>">
     </div>
+    </a>
+  </div>
   
-  <div class="span4">
+  <div class="span4" id='get-updates-teaser'>
     <h3>Get Updates</h3>
     <div class="teaser-block">
       <div id="subscribe">
@@ -106,5 +105,10 @@ $loop = new WP_Query( $args ); ?>
         </form>
         <!--End mc_embed_signup-->
       </div>
-    </div>
+  </div>
+
+  <div class="span6" id='byline-teaser'>
+    <?php get_template_part('templates/the-team'); ?>
+    <?php get_template_part('templates/contact-us'); ?>
+  </div> 
 </div>
