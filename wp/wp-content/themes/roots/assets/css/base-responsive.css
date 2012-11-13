@@ -1,17 +1,114 @@
 /*------------------------------------------------*/
 /*------------------------------------------------*/
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+  
+  .row#teasers{
+    padding-top:2em;
+  }
+
+  .row#teasers .span4{
+    width:100%;
+    margin-top:0;
+    margin-bottom:2em;
+  }
+
+  .teaser-block #subscribe{
+    height:180px;
+  }
+
+  footer #byline {
+    padding:0;
+  }
+  
+  #team-links{
+    display:block;
+    margin-left: -10px;
+    margin-top: 13px;
+  }
+
+  #the-team p{
+    color:white;
+    font-size: 1.3em;
+  }
+
+  #the-team a {
+    width: 41px;
+    height: 41px;
+    position: static;
+    margin-left:12px;
+  }
+
+  footer #logo-black {
+    float: none;
+    position: absolute;
+    bottom: -2.5em;
+    left: 0;
+  }
+
+  footer #contact-methods {
+  float: none;
+  border: 1px solid #333;
+  margin-top: 3em;
+  }
+
+  footer #contact-methods p {
+  float: left;
+  margin:0;
+  margin-top:1em;
+  }
+
+  footer #contact-methods a {
+    padding-left:15px;
+  }
+
+  footer #contact-methods #follow a {
+    padding-left:0;
+  }
 
 }
 
 
 /*------------------------------------------------*/
 /*------------------------------------------------*/
-@media (max-width: 767px) {
-
-
+@media (min-width: 501px) and (max-width: 649px) {
+  .row#teasers .span4{
+    width:80%;
+    margin:0 10%;
+  }
 
   
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+@media (min-width: 650px) and (max-width: 767px) {
+  .row#teasers .span4{
+    width:70%;
+    margin:0 15%;
+  }
+
+  
+}
+
+@media (max-width: 767px) {
+  
+  .teaser-block > img{
+    height:inherit;
+  }
+  footer{
+    position:relative;
+
+  }
+  #footer-background{
+    background:#222;
+    position:absolute;
+    width:800px;
+    height:1100px;
+    left:-20px;
+    z-index: -2;
+  }
+
+
 }
 
 /*------------------------------------------------*/
@@ -48,16 +145,28 @@
     color:#FCB8AB;
   }
 
-  #byline-teaser #team-links{
+  #team-links{
     display:block;
     margin-left: -15px;
     margin-top: 10px;
   }
 
-  #byline-teaser #the-team p{
+  #the-team p{
     color:white;
     font-size: 1.3em;
     margin-left: -0.5em;
+  }
+
+  #the-team a {
+    width: 41px;
+    height: 41px;
+    position: static;
+    margin-left:12px;
+  }
+
+  #the-team a img {
+    width: 39px;
+    height: 39px;
   }
 
 
@@ -72,6 +181,7 @@
   footer{
     position:relative;
   }
+
   footer #contact-methods{
     position: absolute;
     bottom:0;
@@ -91,24 +201,10 @@
     margin-right:0.4em;
   }
 
-  footer #the-team a {
-    width: 41px;
-    height: 41px;
-    position: static;
-    margin-left:12px;
-  }
-
-  footer #the-team a img {
-    width: 39px;
-    height: 39px;
-  }
+  
 
 
-  #footer-spacer{
-    width:100%;
-    height:3em;
-    background: #222;
-  }
+
 
 
 }
@@ -146,6 +242,27 @@
     width: 35%;
     font-size: 1.0em
   }
+  
+  footer #byline{
+    font-size:0.8em;
+  }
+
+  footer #logo-black{
+    width:115px;
+  }
+
+  footer #contact-methods p {
+  margin-left: 0.5em;
+  }
+
+  footer #rss i, footer #email i {
+  margin-right: 0.4em;
+  }
+
+  footer #follow img{
+    margin-right:0.25em;
+  }
+
 }
 
 /*------------------------------------------------*/

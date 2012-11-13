@@ -435,10 +435,12 @@ section h2 {
     position: relative;
     top:-103px;
     margin-top:-1em; /* Moves the end tag up to counteract .section's bottom margin */
+    z-index: 1;
   }
 
   #end-tag img{
     position:absolute;
+    z-index: 2;
   }
 
 @media(min-width:768px) and (max-width:979px) {
