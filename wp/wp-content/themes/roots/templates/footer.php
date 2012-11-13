@@ -1,12 +1,11 @@
 <footer role="contentinfo">
+  <div id='footer-background' class='visible-phone'></div>
   <div class="container">
     <?php get_template_part('templates/teaser'); ?>
     <?php get_template_part('templates/byline'); ?>
   </div>
 </footer>
 
-<div id='footer-spacer' class='visible-tablet'>
-</div>
 
 <?php if (GOOGLE_ANALYTICS_ID) : ?>
 <script>
