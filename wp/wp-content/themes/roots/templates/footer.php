@@ -5,6 +5,9 @@
   </div>
 </footer>
 
+<div id='footer-spacer' class='visible-tablet'>
+</div>
+
 <?php if (GOOGLE_ANALYTICS_ID) : ?>
 <script>
   var _gaq=[['_setAccount','<?php echo GOOGLE_ANALYTICS_ID; ?>'],['_trackPageview']];
