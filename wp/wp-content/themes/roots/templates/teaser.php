@@ -107,7 +107,7 @@ $loop = new WP_Query( $args ); ?>
       </div>
   </div>
 
-  <div class="span6" id='byline-teaser'>
+  <div class="span6 visible-tablet" id='byline-teaser'>
     <?php get_template_part('templates/the-team'); ?>
     <?php get_template_part('templates/contact-methods'); ?>
   </div>
