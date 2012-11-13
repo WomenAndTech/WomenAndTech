@@ -111,5 +111,4 @@ $loop = new WP_Query( $args ); ?>
     <?php get_template_part('templates/the-team'); ?>
     <?php get_template_part('templates/contact-methods'); ?>
   </div>
-  <br/><br/><br/>
 </div>

@@ -385,14 +385,12 @@ footer{
     text-transform:uppercase;
     font-size:0.9em;
     padding:6em 0 1.5em 0;
-    margin-left:0;
   }
-
-
 
   footer #byline a{
     padding-left:6px;
     color:#fcb8ab;
+    text-decoration: none;
   }
 
   footer #byline a:hover, footer #byline a:active{
@@ -449,11 +447,6 @@ footer{
     height:35px
   }
 
-
-  #byline #the-team p{
-    margin-left:-30px;
-  }
-
   /* contact section */
 
   footer #contact-methods{
@@ -485,7 +478,9 @@ footer{
     vertical-align: middle;
     float:right;
   }
+  
 
+  
   .orange{
     color:#ee462b;
   }
