@@ -34,19 +34,34 @@
   #teasers #byline-teaser{
     display:block;
     background:transparent;
+
   }
 
+  #teasers #byline-teaser, #teasers #get-updates-teaser{
+    margin-top:1.2em;
+  }
   #byline-teaser #the-team, #byline-teaser #contact-methods{
     width:100%;
   }
 
   #byline-teaser #team-links{
     display:block;
+    margin-left: -15px;
+    margin-top: 15px;
   }
 
+  #byline-teaser #the-team p{
+    color:white;
+    font-size:1.2em;
+  }
+
+
   footer #logo-black{
-    float:none;
-    clear:right;
+    clear: right;
+    float: none;
+    position: absolute;
+    bottom: 3px;
+    left: 206px;
   }
 
   footer{
