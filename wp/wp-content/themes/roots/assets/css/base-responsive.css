@@ -27,12 +27,7 @@
     width: 352px;
   }
 
-  #byline{
-    display:none;
-  }
-
   #teasers #byline-teaser{
-    display:block;
     background:transparent;
 
   }
@@ -45,6 +40,10 @@
     width:100%;
   }
 
+  #the-team i{
+    font-size:0.8em;
+  }
+
   #byline-teaser #contact-methods a{
     color:#FCB8AB;
   }
@@ -52,7 +51,7 @@
   #byline-teaser #team-links{
     display:block;
     margin-left: -15px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   #byline-teaser #the-team p{
@@ -88,10 +87,15 @@
     margin-left:0;
   }
 
+  footer #follow img {
+    margin-right:0.4em;
+  }
+
   footer #the-team a {
     width: 41px;
     height: 41px;
     position: static;
+    margin-left:12px;
   }
 
   footer #the-team a img {
