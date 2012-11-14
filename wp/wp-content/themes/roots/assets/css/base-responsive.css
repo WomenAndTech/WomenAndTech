@@ -20,10 +20,16 @@
     padding:0;
   }
   
+  #the-team{
+    width:100%;
+  }
+
   #team-links{
     display:block;
+    margin:0;
     margin-left: -10px;
     margin-top: 13px;
+    float:none;
   }
 
   #the-team p{
@@ -38,24 +44,7 @@
     margin-left:12px;
   }
 
-  footer #logo-black {
-    float: none;
-    position: absolute;
-    bottom: -2.5em;
-    left: 0;
-  }
 
-  footer #contact-methods {
-  float: none;
-  border: 1px solid #333;
-  margin-top: 3em;
-  }
-
-  footer #contact-methods p {
-  float: left;
-  margin:0;
-  margin-top:1em;
-  }
 
   footer #contact-methods a {
     padding-left:15px;
@@ -64,6 +53,7 @@
   footer #contact-methods #follow a {
     padding-left:0;
   }
+
 
 }
 
@@ -74,6 +64,19 @@
   .row#teasers .span4{
     width:80%;
     margin:0 10%;
+  }
+
+  #byline {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  footer #contact-methods a {
+    padding-left:15px;
+  }
+
+  footer #contact-methods #follow a {
+    padding-left:0;
   }
 
   
@@ -87,7 +90,20 @@
     margin:0 15%;
   }
 
-  
+  #byline {
+    width: 70%;
+    margin: 0 auto;
+
+  }
+
+  footer #contact-methods a {
+    padding-left:35px;
+  }
+
+  footer #contact-methods #follow a {
+    padding-left:0;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -99,14 +115,50 @@
     position:relative;
 
   }
+
   #footer-background{
     background:#222;
     position:absolute;
     width:800px;
-    height:1100px;
+    height:1300px;
     left:-20px;
     z-index: -2;
   }
+
+  footer #byline {
+    position: relative;
+    padding: 3em 0 1.5em 0;
+  }
+
+
+  #team-links{
+    display:block;
+    margin-left: -10px;
+    margin-top: 13px;
+  }
+
+
+  footer #logo-black {
+    float: none;
+    position: absolute;
+    left: 0;
+    bottom:-1.5em;
+  }
+
+
+  footer #contact-methods {
+    float: none;
+    border: 1px solid #333;
+    margin-top: 3em;
+  }
+
+  footer #contact-methods p {
+    float: left;
+    margin:0;
+    margin-top:1em;
+  }
+
+
 
 
 }
