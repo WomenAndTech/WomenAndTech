@@ -52,7 +52,7 @@ h2{
 }
 
 a{
-  color:#ee462b;
+  color:#FF3818;
   text-decoration: underline;
 }
 
@@ -129,7 +129,7 @@ h4 {
 }
 
 .navbar-inner{
-  background-color:#ee462b;
+  background-color:#FF3818;
   background-image:none;
   filter:none;
   color:#fff;
@@ -235,7 +235,7 @@ line-height: 2em
 /* Shared styles */
 
   .interview-number{
-    background:#ee462b;
+    background:#FF3818;
     float:left;
     font-family:'Arvo', serif;
     color:white;
@@ -275,7 +275,7 @@ footer{
   }
 
   #teasers h3{
-    color:#ee462b;
+    color:#FF3818;
     text-align: center;
     line-height: 1em;
     font-family: 'Blanch Condensed', sans-serif;
@@ -317,7 +317,7 @@ footer{
     padding-top:1px;
     margin-left:10px;
     line-height:1;
-    color:#ee462b;
+    color:#FF3818;
     width:75%;
     font-weight:200;
   }
@@ -482,7 +482,7 @@ footer{
 
   
   .orange{
-    color:#ee462b;
+    color:#FF3818;
   }
 
 
