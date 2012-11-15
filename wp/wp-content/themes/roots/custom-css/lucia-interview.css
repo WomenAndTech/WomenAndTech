@@ -1,8 +1,15 @@
 /* --- Article #1 ---- */
-  
-  .lucia-interview a {
+
+  .lucia-interview a, .lucia-interview a:visited {
     text-decoration: none;
     font-weight:normal;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #FF3818;
+  }
+  
+  .lucia-interview a:hover {
+	color: #888;
+	border-bottom: 1px solid #ffaea4;
   }
 
 
@@ -39,7 +46,7 @@
   }
 
   address a:hover{
-    color:#ee462b;
+    color:#FF3818;
     text-decoration: none;
   }
 
@@ -72,6 +79,10 @@ address .author-info p.author strong {
     font-weight: 700;
     font-size:1em;
     color:#333;
+}
+
+address .author-info p.author a {
+	border-bottom:none;
 }
 
   address .date{
@@ -223,7 +234,7 @@ section h2 {
 
   .info-panel aside{
     color:white;
-    background-color:#ee462b;
+    background-color:#FF3818;
     padding:1em;
     line-height: 1.5em;
     text-align: left;
@@ -237,7 +248,7 @@ section h2 {
   }
 
   .info-panel .arrow:after{
-    border-left-color: #ee462b;
+    border-left-color: #FF3818;
   }
 
   /* Article > Aside > Personal-Testimony */
@@ -347,7 +358,7 @@ section h2 {
   
   .pull-quote .quote-mark{
     color:white;
-    background-color:#ee462b;
+    background-color:#FF3818;
     height:8.571em;
     margin-left:2%;
     width:3%;  /* quote and quote mark must add to 100% */
@@ -391,7 +402,7 @@ section h2 {
   }
 
   .callout-question #question-prompt{
-    background-color:#ee462b;
+    background-color:#FF3818;
     padding:0.5em;
     text-align: center;
   }
@@ -459,4 +470,67 @@ section h2 {
         font-size:1.429em;
     }
 }
->>>>>>> CSS Tweaks and Animation approach
+.navbar-inner {
+	padding-bottom:50px;
+}
+
+#logo {
+	position: fixed;
+	z-index: 1;
+	width: 100px;
+	height: 115px;
+	top: 0px;
+	left: 20px;
+}
+#intro-wrap {
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+}
+#intro {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    background-color: #272425;
+    z-index: 10;
+}
+#intro-inner{
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+	background-repeat:no-repeat;
+	position:relative;
+	height:100%;
+	z-index:10;
+	text-shadow:1px 1px 3px rgba(0,0,0,0.3)
+}
+.below-intro #intro-inner {
+    -webkit-background-size: auto;
+    background-size: auto;
+    display: none;
+}
+.caption {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+#enticer-wrap {
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    z-index: 10;
+}
+#enticer {
+    display: block;
+}
+.interview {
+	position:relative;
+}
+
