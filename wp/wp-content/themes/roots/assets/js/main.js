@@ -13,7 +13,7 @@
 
     //Callback for when we're done scrolling    
     , flash_color = function(){
-                      $subscribe.css({backgroundColor: '#ee462b'})
+                      $subscribe.css({backgroundColor: '#FF3818'})
                         .animate({backgroundColor: '#dedddd'}, 250)
                         .closest('.span4')
                           .css({backgroundColor:'#F68A77'})
@@ -44,8 +44,43 @@
   .on('blur', 'input.email', function(){
     $(this).css('border-left', '');
   })
+  .ready(function() {
+	
+	
+	var logo = new swiffy.Stage(document.getElementById('womenandtech-logo'), womenandtech);
+	logo.start();
 
-})(jQuery)
+	$(window).scroll(function () {
+		topper = $(window).scrollTop();
+		var gap = 115;
+		var headerY = $("header.navbar").position();
+		var headerH = $("header.navbar").height();
+		var photoY = $("#opening").position();
+		var photoH = $("#opening").height();
+	
+		if(topper > (headerY.top - gap) && topper < ((headerY.top + headerH))) {
+			logo.setFlashVars('Active=false');
+		} else {
+			logo.setFlashVars('Active=true');
+		}
+	
+		if(topper > (headerY.top - gap) && topper < ((headerY.top + headerH)) || topper > (photoY.top-gap) && topper < ((photoY.top-gap) + photoH +gap))
+		{
+			fillValue = "rgba(255,255,255,1)";
+			TweenLite.to($("#womenandtech-logo path"), .6, {css:{fill:fillValue, ease:Expo.easeOut}});
+		}
+		
+		else
+		{
+			fillValue = "rgba(48,48,47,1)";
+			TweenLite.to($("#womenandtech-logo path"), .6, {css:{fill:fillValue, ease:Expo.easeOut}});
+		}		
+	});
+
+	
+  });
+  
+})(jQuery);
 
 
 

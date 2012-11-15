@@ -14,13 +14,7 @@
         </div>
       </address>
     </div>
-    <div class="span2 offset1"> <div id="startanimation" style="width: 200px; height: 100px">
-                                         </div>
-                                         <script>
-										 startanimationObj = {"tags":[{"bounds":[{"ymin":-1540,"ymax":1540,"xmin":-1540,"xmax":1540}],"id":1,"fillstyles":[{"color":[-20828],"type":1}],"paths":[{"fill":0,"data":["::40Ob38F:89J51db51D51d51D89jb:38f51d89jb51d51d89j51db38f:89j51Db51d51D51d89Jb:38F51D89Jb51D51D89J51Dc"]}],"flat":true,"type":1},{"tags":[{"id":1,"matrix":0,"type":3,"depth":1},{"type":2}],"id":2,"frameCount":1,"type":7},{"id":2,"matrix":"5323E::5323E06h06d","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h64d","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h99d","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h26e","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h48e","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h68e","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h88e","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h11f","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h44f","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h99f","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h76g","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h69h","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"5323E::5323E06h48i","type":3,"depth":3},{"type":2},{"bounds":[{"ymin":-90,"ymax":90,"xmin":0,"xmax":180}],"id":3,"fillstyles":[{"color":[-20828],"type":1}],"paths":[{"fill":0,"data":["::0Ia:0ra0r:a:0Rc"]}],"flat":true,"type":1},{"tags":[{"id":3,"matrix":0,"type":3,"depth":1},{"type":2}],"id":4,"frameCount":1,"type":7},{"id":4,"ratio":13,"matrix":"7n::0583C66h26j","type":3,"depth":1},{"replace":true,"matrix":"5323E::5323E06h96i","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"67l::0592C66h26j","type":3,"depth":1},{"replace":true,"matrix":"5323E::5323E06h20j","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"192e::0624C67h26j","type":3,"depth":1},{"replace":true,"matrix":"5323E::5323E06h26j","type":3,"depth":3},{"type":2},{"replace":true,"matrix":"142m::0689C66h26j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"7356b::0805C66h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"2410e::1010C66h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"9432i::1395C66h26j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"4097s::2168C66h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"20320c::3200C66h26j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"17289d::3993C67h26j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"89844d::4586C66h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"48132e::5063C67h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"97307e::5465C66h26j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"40153f::5815C66h25j","type":3,"depth":1},{"type":2},{"replace":true,"matrix":"78303f::6127C66h26j","type":3,"depth":1},{"type":2},{"type":9,"actions":[{"type":7}]},{"replace":true,"matrix":"12833g::6409C66h26j","type":3,"depth":1},{"type":2}],"fileSize":950,"v":"4.9.0","backgroundColor":-1,"frameSize":{"ymin":0,"ymax":2000,"xmin":0,"xmax":4000},"frameCount":29,"frameRate":31,"code":"","version":11};
-                                           var stage = new swiffy.Stage(document.getElementById('startanimation'),startanimationObj);
-                                           stage.start();
-                                         </script></div>
+    <div class="span2 offset1"></div>
   </header>
 
   <section class="row"  id="introduction">
@@ -34,21 +28,8 @@
   <figure class='full_width'>
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-vena-large.jpg"/>
   </figure>
-
-  <div class="container">
-    <section class="row">
-      <span class="span6">
-        <span id="left">
-          8:30pm, after Lucia put her kids to bed, is when we met for a coffee. This is when Lucia begins the second half of her day, especially now on maternity leave with her second child.
-        </span>
-      </span>
-      <span class="span6">
-        <span id="right">
-          In our hour-long conversation we discussed her thoughts on women in the industry, her male mentors, her family and how she manages to “have it all”.
-        </span>
-      </span>
-    </section>
-  </div>
+	
+	  
 </div>
 
 <div class="container">
@@ -386,7 +367,7 @@
       </div>
       <div class="row-fluid">
         <div class="span12" id="call-to-action">
-          <p>Be sure to check back next month (or <a href="#subscribe">subscribe below</a>) for Heather Payne's answer to this question.</p>
+          <p>Be sure to check back next month (or <a href="#subscribe">subscribe below</a>) for Ariel Garten's answer to this question.</p>
         </div>
       </div>
     </div>

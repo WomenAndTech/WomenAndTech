@@ -7,8 +7,11 @@
         <span class="icon-bar"></span>
       </a>
   <!-- /wp/wp-content/themes/roots/assets/ -->
-      <a class="brand" href="<?php echo home_url(); ?>/">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-womenandtech.png" alt="Women &amp;&amp; Tech">
+  <div id="logo">
+  <div id="womenandtech-logo" style="width: 228px; height: 115px"></div>
+  </div>
+      <a class="brand" href="<?php echo home_url(); ?>/">  
+	 	
       </a>      
       <div class="right">
         <div class="contact">
