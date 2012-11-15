@@ -48,7 +48,6 @@ function roots_scripts() {
 
   wp_register_script('roots_plugins', '/assets/js/plugins.js', array('jquery'), null, false);
   
-
   wp_register_script('swiffy', '/assets/js/vendor/swiffy-4.9.0.min.js', array('jquery'), null, false);
   
   //Can load this in the footer:
