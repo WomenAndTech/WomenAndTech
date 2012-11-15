@@ -373,7 +373,7 @@
     </div>
   </section>
 
-  <!-- END TAG -->
+  <!-- END TAG! -->
   <div class="row" id='end-tag'>
     <div class="span4">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/end-tag.png"/>
