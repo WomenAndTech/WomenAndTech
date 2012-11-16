@@ -1,7 +1,9 @@
 /*------------------------------------------------*/
 /*------------------------------------------------*/
 @media (max-width: 480px) {
-
+  body{
+    font-size:12px;
+  }
   .navbar .right{
     float:left;
   }
@@ -124,7 +126,6 @@
 
 @media (max-width: 767px) {
   body {
-    font-size: 12px;
     padding-left: 0px;
     padding-right: 0px;
   }
