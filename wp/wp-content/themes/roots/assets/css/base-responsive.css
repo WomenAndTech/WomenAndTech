@@ -1,5 +1,21 @@
 /*------------------------------------------------*/
 /*------------------------------------------------*/
+@media (max-width: 480px) {
+
+  .navbar .right{
+    float:left;
+  }
+
+  #menu-primary-navigation {
+    float: left;
+  }
+
+  .navbar .nav li a {
+    float: left;
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 500px) {
   
   .row#teasers{
@@ -111,6 +127,16 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+  
+  .navbar .right{
+    float:left;
+  }
+
+  .navbar .nav li a {
+    float: left;
+    margin-bottom: 20px;
+  }
+
   .teaser-block > img{
     height:inherit;
   }
@@ -159,10 +185,29 @@
   }
 }
 
+
+@media (max-width: 979px) {
+  .navbar .nav {
+    float: left;
+  }
+}
+
 /*------------------------------------------------*/
 /*------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 979px) {
+  
+  .navbar .right{
+    float:left;
+  }
 
+  #menu-primary-navigation {
+    float: left;
+  }
+
+  .navbar .nav li a {
+    float: left;
+    margin-bottom: 20px;
+  }
 
   .span4#past-interviews-teaser, .span4#up-next-teaser{
     width: 352px;
