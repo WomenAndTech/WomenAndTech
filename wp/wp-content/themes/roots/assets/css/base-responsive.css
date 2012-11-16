@@ -107,9 +107,9 @@
 }
 
 @media (max-width: 767px) {
-  body{
-    padding-right: 0px;
+  body {
     padding-left: 0px;
+    padding-right: 0px;
   }
   .teaser-block > img{
     height:inherit;
