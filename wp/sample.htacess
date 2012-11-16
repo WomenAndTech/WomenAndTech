@@ -1,7 +1,7 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /wp
+  RewriteBase /
   # Development Rule - Change to whatever your working dir is
   RewriteRule .* - [E=WP_PATH:/WomenAndTech/]
   # Production Rule:
