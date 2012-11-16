@@ -40,13 +40,18 @@ Because W&&T runs on Wordpress online it's nice to setup your own local Wordpres
 so you can simulate the way things work online and run your custom content without uploading it.
 
 To setup Wordpress you first need an Apache server to run the php files that power WP and a mySQL server to read from the database. To do this:
-- Download MAMP on OSX, but there's also XAMP for Windows.
 
-- Clone the Git repository to the htdocs location of MAMP or XAMP. In MAMP that's in `/Applications/MAMP/htdocs.` I'm not to sure how XAMP handles things so please look it up Windows folks.
+### Download
+
+- Download MAMP on OSX, but there's also WAMP for Windows.
+
+- Clone the Git repository to the htdocs location of MAMP or XAMP. In MAMP that's in `/Applications/MAMP/htdocs.` I'm not to sure how WAMP handles things so please look it up Windows folks.
 
 - Run MAMP and start the servers (this may happen automatically). A new window should open up in your browser with the URL `http://localhost:8888/MAMP.`
 
 The page that opens MAMP's homepage and will allow you to see settings, etc. Most importantly for us though it allows us to open phpMyAdmin which is the way you can see your local mySQL database.
+
+### Import the development database
 
 - Click under MySQL, click phpMyAdmin
 
@@ -54,7 +59,7 @@ The page that opens MAMP's homepage and will allow you to see settings, etc. Mos
 
 - Click `women_and_tech` in the panel on the left
 
-Next we have to import our development database. This will look different from our production one (the live site), but it's enough to get us up and running to preview content and work on it on our own machines.
+Next we have to import our development database.
 
 - Go to the tab 'import'
 
@@ -64,11 +69,39 @@ Next we have to import our development database. This will look different from o
 
 When the file has been imported you'll see all the database tables on the left. 
 
-With MAMP running, you can now go to `http://localhost:8888/WomenAndTech/wp` in your browser and see the Wordpress install. 
+### Make custom changes to the database
 
-Note: Somethings may look broken or act strange. That's ok. The purpose of this is to get you working with your own custom content so you shouldn't really worry about other sections of the site.
+_If you've changed the settings of your MAMP/WAMP install_ and the URL for your server is different than `http://localhost:8888` or you've put the repository somewhere different than `\WomenAndTech`, then you'll have to dig into the Wordpress database to reflect that.
+
+Find the `wp_options` table in the women_and_tech database you just imported.
+
+Click `browse`
+
+Find the `siteurl` `option_name` (option_id 1), and edit the `option_value` field to read the exact URL where Wordpress can be reached. It's currently set to `http://localhost:8888/WomenAndTech/wp`
+
+Go to the next page of this table and do the same for the `home` `option_value` (option_id 37)
+
+
+### Create your own .htaccess file [REQUIRED]
+
+You must create your own `.htaccess` file.
+Go to /wp and find `sample.htaccess`
+Copy it, and then rename it `.htaccess`
+_If you've changed the settings of your MAMP/WAMP install_ edit this new .htaccess file to reflect that. You may need to change the parameters in `REWRITEBASE` or the `WP_PATH`
+
+
+### Get going with Wordpress
+
+With MAMP running, you can now go to `http://localhost:8888/WomenAndTech/wp/login` in your browser and see the Wordpress install. 
 
 Login to Wordpress using the `admin` username and password (it's our usual one or ask someone), and you're set to go!
+
+### My local site doesn't show the right homepage/has broken images ###
+
+Somethings may look broken or act strange. _That's ok!_ You have imported a development database that has pointers to files you don't have or need to import.
+
+**Don't worry :)**
+The purpose of this is to get you working with your own custom content so you shouldn't really worry about other sections of the site. _Things will not look perfect._ You may have to upload feature/teaser images, or assign custom content to pages or interviews. The most important part is that the thing you are working on looks good and works.
 
 ## 3\. Posting!
 
