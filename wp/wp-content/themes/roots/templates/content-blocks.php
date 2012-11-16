@@ -43,8 +43,8 @@
         <?php echo get_field('archive_excerpt'); ?>
       </article>
   <?php if ($post_count%4==0): ?>
-  </div>
-  <div class="row">
+<!--   </div>
+  <div class="row"> -->
   <?php endif;?>
     <?php endwhile; ?>   
   </div><!-- row -->
