@@ -103,10 +103,10 @@ h4 {
 
 }
 
-.container-fluid .row-fluid{
- /*   max-width:1200px;
+/*.container-fluid .row-fluid{
+    max-width:1200px;
     margin-left: auto;
-    margin-right: auto;*/
+    margin-right: auto;
 }
 
 /*.row .new-line{
@@ -251,6 +251,12 @@ line-height: 2em
     font-family: 'Arvo', serif;
   }
 
+/* Page Header */
+
+.page-header {
+  margin: 20px 0 20px;
+  border-bottom: none;
+}
 
 /* Footer */
 
