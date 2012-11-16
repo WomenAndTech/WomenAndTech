@@ -8,7 +8,7 @@
       </a>
   <!-- /wp/wp-content/themes/roots/assets/ -->
   <div id="logo">
-  <div id="womenandtech-logo" style="width: 228px; height: 115px"></div>
+    <div id="womenandtech-logo" style="width: 228px; height: 115px"></div>
   </div>
       <a class="brand" href="<?php echo home_url(); ?>/">  
 	 	
