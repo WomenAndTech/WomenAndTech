@@ -9,9 +9,11 @@
 }
 /* line 11, ../sass/sponsors.scss */
 #featured_sponsor h2 {
+  font-size: 3em;
   color: #b2b2b2;
   font-style: italic;
   margin-bottom: 40px;
+  font-family: 'Arvo', serif;
 }
 /* line 16, ../sass/sponsors.scss */
 #featured_sponsor #box {
@@ -44,9 +46,11 @@
 }
 /* line 41, ../sass/sponsors.scss */
 #friends h3 {
+  font-family: 'Arvo', serif;
   text-align: left;
   color: #b2b2b2;
   font-style: italic;
+  font-size: 2em;
 }
 /* line 46, ../sass/sponsors.scss */
 #friends img {
@@ -72,5 +76,17 @@
   /* line 68, ../sass/sponsors.scss */
   #featured_sponsor #box #sponsor_callout {
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  #sponsor_callout p {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 4em;
   }
 }
