@@ -1,13 +1,13 @@
-<div class="container-fluid ">
-  <div class="row-fluid">
+<div class="container">
+  <div class="row">
     <div class="span12 page-header">
 <?php get_template_part('templates/page', 'header'); ?>
 </div>
 </div>
 </div>
 
-<div class="container-fluid">
-  <div class="row-fluid">
+<div class="container">
+  <div class="row">
     <?php  $post_count = 0; ?>
     <?php while (have_posts() ) : the_post(); ?>
       <?php
@@ -42,10 +42,9 @@
         </div>
         <?php echo get_field('archive_excerpt'); ?>
       </article>
-  <?php if ($post_count==3): 
-      $post_count=0; ?>
+  <?php if ($post_count%4==0): ?>
   </div>
-  <div class="row-fluid new-row">
+  <div class="row">
   <?php endif;?>
     <?php endwhile; ?>   
   </div><!-- row -->
