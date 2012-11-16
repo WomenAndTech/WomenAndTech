@@ -254,7 +254,7 @@ line-height: 2em
 /* Page Header */
 
 .page-header {
-  margin: 20px 0 20px;
+  margin: 0;
   border-bottom: none;
 }
 
@@ -677,9 +677,46 @@ footer{
 
 /*------------------------------------------------*/
 /*------------------------------------------------*/
-@media (min-width: 768px) and (max-width: 979px) {
+@media (max-width: 767px) {
   .past-interviews{
+    padding:0 20px;
+  }
+
+  .past-interviews .interview-number {
+    margin-top: 1.5em;
+  }
+
+  .past-listing{
+    height:inherit;
+  }
+
+  .past-listing p{
+    padding-bottom:1em;
+  }
+
+  .past-listing .title-block{
+    height: inherit;
+  }
+  .title-block p{
+    padding-bottom:0.5em;
+  }
+}
+
+
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+  .past-listing{
     font-size: 12px;
+    width: 325px;
+    height: 40.5em;
+    line-height: 2em;
+  }
+
+  .past-interviews .interview-number {
+    margin-top: 1.45em;
   }
 
 }
