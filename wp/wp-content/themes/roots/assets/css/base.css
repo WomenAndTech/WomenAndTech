@@ -575,7 +575,134 @@ footer{
     height: 0;
   }
 
+/* ===== POST LISTING BLOCKS ===== */
+
+
+  .past-listing{
+   height: 40em;
+   background-color:#f3f3f3;
+   margin-bottom:30px;
+  }
+
+
+  .past-listing h2{
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+    line-height: 1.6em;
+    margin-bottom:0;
+    padding-bottom:0;
+  }
+
+  .past-listing h2 a{
+    text-decoration: none;
+    color:#000;
+  }
+  
+  .past-listing h2 a:hover {
+    color:#FF3818;
+  }
+
+  .past-listing img{
+    width:100%;
+  }
+
+  .past-listing > p, .past-listing .title-block{
+    padding:0 1.1em;
+  }
+
+  .past-listing > p{
+    clear:both;
+  }
+
+  .past-listing .title-block{
+    height:9em;
+  }
+
+  .past-listing .author a{
+    color:#333;
+    text-decoration: none;
+  }
+
+  .past-listing .author a:hover{
+    color:#FF3818;
+  }
+
+  .past-interviews .interview-number{
+    font-size:1em;
+    float: left;
+    margin:0;
+    margin-top:1.3em;
+    margin-left:1em;
+  }
+  
+  .type-interview .title-block{
+    padding-left:3.7em;
+  }
+  
+  .title-block p{
+    line-height:1.5em;
+    padding-left:0.2em;
+  }
+
+
+
 
 /* Responsive styles moved to base-responsive.css */
+
+
+
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+@media (max-width: 480px) {
+  
+  
+
+
+}
+
+
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 979px) {
+  .past-interviews{
+    font-size: 12px;
+  }
+
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+@media (min-width: 980px) and (max-width: 1199px) {
+
+  .past-listing{
+    height: 40.5em;
+  }
+
+  .past-listing h2{
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+  }
+
+  .past-interviews .interview-number {
+    margin-top: 0.9em;
+  }
+
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+@media (min-width: 1200px) {
+  
+
+  
+}
 
 
