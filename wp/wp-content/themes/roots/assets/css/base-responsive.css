@@ -116,16 +116,11 @@
   }
   footer{
     position:relative;
-
-  }
-
-  #footer-background{
-    background:#222;
-    position:absolute;
-    width:800px;
-    height:1300px;
-    left:-20px;
-    z-index: -2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    height: auto;
+    display: block;
   }
 
   footer #byline {
@@ -153,6 +148,8 @@
     float: none;
     border: 1px solid #333;
     margin-top: 3em;
+    display: block;
+    overflow: hidden;
   }
 
   footer #contact-methods p {
@@ -160,10 +157,6 @@
     margin:0;
     margin-top:1em;
   }
-
-
-
-
 }
 
 /*------------------------------------------------*/
@@ -235,11 +228,12 @@
 
   footer{
     position:relative;
+    padding-bottom: 80px;
   }
 
   footer #contact-methods{
-    position: absolute;
-    bottom:0;
+    position: relative;
+    margin-top: 70px;
   }
 
   footer #contact-methods p {
@@ -255,13 +249,6 @@
   footer #follow img {
     margin-right:0.4em;
   }
-
-  
-
-
-
-
-
 }
 
 /*------------------------------------------------*/
@@ -297,7 +284,6 @@
     width: 35%;
     font-size: 1.0em
   }
-  
   footer #byline{
     font-size:0.8em;
   }
