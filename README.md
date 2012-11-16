@@ -96,7 +96,7 @@ With MAMP running, you can now go to `http://localhost:8888/WomenAndTech/wp/logi
 
 Login to Wordpress using the `admin` username and password (it's our usual one or ask someone), and you're set to go!
 
-### The site doesn't look how it does online?
+### My local site doesn't show the right homepage/has broken images ###
 
 Somethings may look broken or act strange. _That's ok!_ You have imported a development database that has pointers to files you don't have or need to import.
 
