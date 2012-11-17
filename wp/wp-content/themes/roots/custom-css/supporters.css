@@ -1,5 +1,9 @@
 #sponsors {
-  padding: 20px;
+  padding: 20px 20px 0px;
+}
+#sponsors a {
+  font-weight: bold;
+  font-style: italic;
 }
 
 #team {
@@ -10,8 +14,10 @@
   color: #b2b2b2;
   font-family: 'Arvo', serif;
   font-size: 3em;
+  line-height: 1em;
   font-style: italic;
-  margin-bottom: 55px;
+  margin-bottom: 40px;
+  letter-spacing: -0.04em;
 }
 #about_team p {
   font-size: 1.32em;
@@ -33,15 +39,18 @@
   font-style: italic;
 }
 .member h3 {
-  font-size: 1em;
-  font-weight: bold;
+  font-size: 1.2em;
   line-height: 1em;
-  margin: 5px 0px;
+  margin-bottom: 0px;
 }
 .member h4 {
   font-family: 'Arvo', serif;
   color: #b2b2b2;
-  font-style: italic;
+  letter-spacing: -0.04em;
+}
+
+.with_heart p {
+  margin-bottom: 30px;
 }
 
 #friends {
@@ -55,24 +64,28 @@
   text-align: left;
   color: #b2b2b2;
   font-style: italic;
+  letter-spacing: -0.04em;
 }
-#friends img {
+#friends .friend {
+  padding: 0px 5px;
+}
+#friends .friend img {
   margin-top: 35px;
   margin-bottom: 40px;
 }
-#friends p {
-  text-align: left;
+#friends .friend p {
+  text-align: justify;
   font-size: 0.95em;
 }
 
 #help_us {
   background: #f3f3f3;
-  padding: 20px 10px;
+  padding: 5px 10px 10px;
   text-align: left;
 }
 #help_us h3 {
+  margin-left: 5px;
   margin-bottom: 20px;
-  color: #b2b2b2;
 }
 #help_us p {
   text-align: left;
@@ -82,15 +95,24 @@
 #help_us p img {
   float: left;
   margin: 5px;
+  margin-right: 15px;
   display: inline-block;
 }
-#help_us a {
-  font-weight: bold;
+#help_us span p {
+  margin: 0px;
+  margin-left: 5px;
+  padding: 0px;
+  min-height: 0px;
 }
 
 #interest {
   margin-top: 90px;
   font-size: 0.85em;
+}
+#interest p {
+  line-height: 1em;
+  padding: 0px;
+  margin: 0px;
 }
 
 @media (min-width: 1200px) {
@@ -119,7 +141,7 @@
     min-height: 100px;
   }
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .member {
     width: 23%;
     margin: 0px 1%;
