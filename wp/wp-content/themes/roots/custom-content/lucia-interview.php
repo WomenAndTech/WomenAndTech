@@ -19,7 +19,7 @@
 
   <section class="row"  id="introduction">
     <div class="span12">
-      <h2> Lucia is responsible for the genesis of <a href="http://www.girlsintechtoronto.com" target="_blank">Girls in Tech Toronto</a>, the local chapter of a global movement to unite women working in technology. We dig into her story to pinpoint how exactly she fell in love with her career and to find out what it is like to be a <em>mother in tech</em>.</h2>
+      <h2> Lucia is responsible for the genesis of <a href="http://www.girlsintechtoronto.com" target="_blank">Girls in Tech Toronto</a>, the local chapter of a global movement to unite women working in technology. We dig into her story to pinpoint how exactly she fell in love with her career and to find out what it is like to be a <em>mother</em> in tech.</h2>
     </div>
   </section>
 </div>
