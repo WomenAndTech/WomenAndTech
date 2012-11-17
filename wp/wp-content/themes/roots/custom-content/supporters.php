@@ -43,8 +43,8 @@
 
 					<div class="member">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ivonne.png" />
-						<h3>Ivonne Karamony</h3>
-						<p>Illustion, Outreach</p>
+						<h3>Ivonne Karamoy</h3>
+						<p>Illustration, Outreach</p>
 					</div>
 
 					<div class="member">
@@ -71,8 +71,8 @@
 						<p>Development</p>
 					</div>
 
-					<div class="member">
-						<h4>With ❤ from</h4>
+					<div class="member with_heart">
+						<h4>With &lt;3 from</h4>
 						<h3>Vicki Laszlo</h3>
 						<p>Coffee fairy</p>
 						<h3>Kathleen Harris</h3>
@@ -91,24 +91,30 @@
 				<div class="row">
 				
 					<div class="span3">
-						<a href="#" alt="People &amp; Code Inc." title="People &amp; Code Inc.">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/peopleandcode.png" alt="People &amp; Code" title="People & Code Inc." />
-						</a>
-						<p>The reason we got our team together in the first place was because these guys were ready to get building! Now both founders <a href="http://twitter.com/raykao" alt="Ray Kao" title="Ray Kao">Ray</a> and <a href="http://twitter.com/milang" alt="Milan Gokhale" title="Milan Gokhale">Milan</a> are on our team.</p>
+						<div class="friend">
+							<a href="#" alt="People &amp; Code Inc." title="People &amp; Code Inc.">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/peopleandcode.png" alt="People &amp; Code" title="People & Code Inc." />
+							</a>
+							<p>The reason we got our team together in the first place was because these guys were ready to get building! Now both founders <a href="http://twitter.com/raykao" alt="Ray Kao" title="Ray Kao">Ray</a> and <a href="http://twitter.com/milang" alt="Milan Gokhale" title="Milan Gokhale">Milan</a> are on our team.</p>
+						</div>
 					</div>
 
 					<div class="span3">
-						<a href="http://mycitylives.com" alt="My City Lives" title="My City Lives">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/mycitylives.png" alt="My City Lives" title="My City Lives" />
-						</a>
-						<p>My City Lives offered up their offices for us to meet in without hesitation. <a href="http://twitter.com/amirad" alt="Amira Dhalla" title="Amira Dhalla">Amira Dhalla</a>, cofounder, is one of the coolest women in tech we know.</p>
+						<div class="friend">
+							<a href="http://mycitylives.com" alt="My City Lives" title="My City Lives">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/mycitylives.png" alt="My City Lives" title="My City Lives" />
+							</a>
+							<p>My City Lives offered up their offices for us to meet in without hesitation. <a href="http://twitter.com/amirad" alt="Amira Dhalla" title="Amira Dhalla">Amira Dhalla</a>, cofounder, is one of the coolest women in tech we know.</p>
+						</div>
 					</div>
 
 					<div class="span3">
-						<a href="http://http://www.ecentricarts.com/" alt="Ecentricarts" title="Ecentricarts">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/ecentricarts.png" alt="Ecentricarts" title="Ecentricarts" />
-						</a>
-						<p>Our other headquarters is at ecentricarts, who have a high percentage of female developers. If that isn’t endorsement, we don’t know what is.</p>
+						<div class="friend">
+							<a href="http://http://www.ecentricarts.com/" alt="Ecentricarts" title="Ecentricarts">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/ecentricarts.png" alt="Ecentricarts" title="Ecentricarts" />
+							</a>
+							<p>Our other headquarters is at ecentricarts, who have a high percentage of female developers. If that isn’t endorsement, we don’t know what is.</p>
+						</div>
 					</div>
 
 				</div>
@@ -121,7 +127,9 @@
 					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/camera.png"> We need video and microphone equipment.</p>
 					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/volunteer.png"> We need volunteers with design or copyediting skills.</p>
 					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/photographers.png"> We need an occasional photographer.</p>
-					<a href="mailto:contact@womenandtech.com">Don’t hesitate to reach out.</a>
+					<span>
+						<p>Don’t hesitate to <a href="mailto:contact@womenandtech.com">reach out.</a></p>
+					</span>
 				</div>
 			</div>
 		</div>
@@ -131,7 +139,7 @@
 	<div id="interest">
 		<div class="row">
 			<div class="span12">
-				<p>If you are interesting in sponsoring a future interview, <a href="mailto:" alt="Contact Us" title="Contact Us">contact us</a> or download our <a href="#`">sponsors info package</a>.</p>
+				<p>If you are interested in sponsoring a future interview, <a href="mailto:" alt="Contact Us" title="Contact Us">contact us</a>.</p>
 			</div>
 		</div>
 	</div>
