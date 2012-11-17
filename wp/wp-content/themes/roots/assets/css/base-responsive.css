@@ -48,17 +48,13 @@
     float:none;
   }
 
-  #the-team p{
-    color:white;
-    font-size: 1.3em;
-  }
 
-  #the-team a {
+  /*#the-team a {
     width: 41px;
     height: 41px;
     position: static;
     margin-left:12px;
-  }
+  }*/
 
 
 
@@ -155,11 +151,11 @@
   }
 
 
-  #team-links{
+  /*#team-links{
     display:block;
     margin-left: -10px;
     margin-top: 13px;
-  }
+  }*/
 
 
   footer #logo-black {
@@ -172,8 +168,8 @@
 
   footer #contact-methods {
     float: none;
-    border: 1px solid #333;
-    margin-top: 3em;
+    border-top: 2px solid #333;
+    margin-top: 1em;
     display: block;
     overflow: hidden;
   }
@@ -245,22 +241,23 @@
   }
 
   #the-team p{
-    color:white;
-    font-size: 1.3em;
+    color: white;
+    font-size: 1.5em;
     margin-left: -0.5em;
+    line-height: 1.7em;
   }
 
-  #the-team a {
+  /*#the-team a {
     width: 41px;
     height: 41px;
     position: static;
     margin-left:12px;
-  }
+  }*/
 
-  #the-team a img {
+  /*#the-team a img {
     width: 39px;
     height: 39px;
-  }
+  }*/
 
 
   footer #logo-black{
@@ -278,7 +275,7 @@
 
   footer #contact-methods{
     position: relative;
-    margin-top: 70px;
+    margin-top: 115px;
   }
 
   footer #contact-methods p {
