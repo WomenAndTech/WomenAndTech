@@ -1,6 +1,6 @@
 <div class="span6" id="the-team">
-      <p><i class="icon-heart-empty icon-white"></i> Brought to you by
-        <span id='team-links'>
+      <p>With <i class="icon-heart-empty icon-white"></i> From the <a href="https://twitter.com/WomenAndTech/team/members" target="_blank">W&amp;&amp;T team</a>
+        <!-- <span id='team-links'>
           <a href="http://twitter.com/cassiemc" rel='tooltip' title="Cassie McDaniel" target="_blank" id='border-color1'>
             <img src="http://api.twitter.com/1/users/profile_image/cassiemc">
           </a>
@@ -19,6 +19,6 @@
           <a href="http://twitter.com/RayKao" target="_blank" rel='tooltip' title="Ray Kao" id='border-color6'>
              <img src="http://api.twitter.com/1/users/profile_image/RayKao">
           </a>
-        </span>
+        </span> -->
       </p>
     </div>
