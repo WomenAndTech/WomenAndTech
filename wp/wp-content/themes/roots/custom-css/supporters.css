@@ -79,9 +79,21 @@
   }
 }
 
+<<<<<<< Updated upstream
 @media (max-width: 768px) {
   #sponsor_callout p {
     padding-left: 30px;
+=======
+  #help_us p {
+    min-height: 100px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .member {
+    width: 23%;
+    margin: 0px 1%;
+    min-height: 230px;
+>>>>>>> Stashed changes
   }
 }
 
