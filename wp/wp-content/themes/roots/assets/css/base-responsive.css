@@ -1,5 +1,23 @@
 /*------------------------------------------------*/
 /*------------------------------------------------*/
+@media (max-width: 480px) {
+  body{
+    font-size:12px;
+  }
+  .navbar .right{
+    float:left;
+  }
+
+  #menu-primary-navigation {
+    float: left;
+  }
+
+  .navbar .nav li a {
+    float: left;
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 500px) {
   
   .row#teasers{
@@ -32,17 +50,13 @@
     float:none;
   }
 
-  #the-team p{
-    color:white;
-    font-size: 1.3em;
-  }
 
-  #the-team a {
+  /*#the-team a {
     width: 41px;
     height: 41px;
     position: static;
     margin-left:12px;
-  }
+  }*/
 
 
 
@@ -111,21 +125,26 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+  
+  .navbar .right{
+    float:left;
+  }
+
+  .navbar .nav li a {
+    float: left;
+    margin-bottom: 20px;
+  }
+
   .teaser-block > img{
     height:inherit;
   }
   footer{
     position:relative;
-
-  }
-
-  #footer-background{
-    background:#222;
-    position:absolute;
-    width:800px;
-    height:1300px;
-    left:-20px;
-    z-index: -2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    height: auto;
+    display: block;
   }
 
   footer #byline {
@@ -134,11 +153,11 @@
   }
 
 
-  #team-links{
+  /*#team-links{
     display:block;
     margin-left: -10px;
     margin-top: 13px;
-  }
+  }*/
 
 
   footer #logo-black {
@@ -151,8 +170,10 @@
 
   footer #contact-methods {
     float: none;
-    border: 1px solid #333;
-    margin-top: 3em;
+    border-top: 2px solid #333;
+    margin-top: 1em;
+    display: block;
+    overflow: hidden;
   }
 
   footer #contact-methods p {
@@ -160,16 +181,32 @@
     margin:0;
     margin-top:1em;
   }
+}
 
 
-
-
+@media (max-width: 979px) {
+  .navbar .nav {
+    float: left;
+  }
 }
 
 /*------------------------------------------------*/
 /*------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 979px) {
 
+
+  .navbar .right{
+    float:left;
+  }
+
+  #menu-primary-navigation {
+    float: left;
+  }
+
+  .navbar .nav li a {
+    float: left;
+    margin-bottom: 20px;
+  }
 
   .span4#past-interviews-teaser, .span4#up-next-teaser{
     width: 352px;
@@ -207,22 +244,23 @@
   }
 
   #the-team p{
-    color:white;
-    font-size: 1.3em;
+    color: white;
+    font-size: 1.5em;
     margin-left: -0.5em;
+    line-height: 1.7em;
   }
 
-  #the-team a {
+  /*#the-team a {
     width: 41px;
     height: 41px;
     position: static;
     margin-left:12px;
-  }
+  }*/
 
-  #the-team a img {
+  /*#the-team a img {
     width: 39px;
     height: 39px;
-  }
+  }*/
 
 
   footer #logo-black{
@@ -235,11 +273,12 @@
 
   footer{
     position:relative;
+    padding-bottom: 80px;
   }
 
   footer #contact-methods{
-    position: absolute;
-    bottom:0;
+    position: relative;
+    margin-top: 115px;
   }
 
   footer #contact-methods p {
@@ -255,13 +294,6 @@
   footer #follow img {
     margin-right:0.4em;
   }
-
-  
-
-
-
-
-
 }
 
 /*------------------------------------------------*/
@@ -297,7 +329,6 @@
     width: 35%;
     font-size: 1.0em
   }
-  
   footer #byline{
     font-size:0.8em;
   }
