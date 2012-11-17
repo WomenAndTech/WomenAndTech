@@ -6,7 +6,7 @@
  */
 
 //activate custom content
-CHTML_include();
+// CHTML_include();
 global $custom_content;
 
 header('Content-Type: application/rss+xml; charset=' . get_option('blog_charset'), true);
