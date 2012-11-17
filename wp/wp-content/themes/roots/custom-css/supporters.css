@@ -17,7 +17,7 @@
   line-height: 1em;
   font-style: italic;
   margin-bottom: 40px;
-  letter-spacing: 0em;
+  letter-spacing: -0.04em;
 }
 #about_team p {
   font-size: 1.32em;
@@ -46,6 +46,7 @@
 .member h4 {
   font-family: 'Arvo', serif;
   color: #b2b2b2;
+  letter-spacing: -0.04em;
 }
 
 .with_heart p {
@@ -63,6 +64,7 @@
   text-align: left;
   color: #b2b2b2;
   font-style: italic;
+  letter-spacing: -0.04em;
 }
 #friends .friend {
   padding: 0px 5px;
