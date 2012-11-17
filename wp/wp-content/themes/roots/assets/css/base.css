@@ -379,6 +379,16 @@ footer{
     margin-bottom:0;
   }
 
+  footer a{
+    color:#fcb8ab;
+    text-decoration: none;
+  }
+
+  footer a:hover{
+    text-decoration:none;
+    color: #FF3818;
+  }
+
 
   footer #logo img{
     float:right;
@@ -393,22 +403,16 @@ footer{
     padding:6em 0 1.5em 0;
   }
 
-  footer #byline a{
+  footer #byline a, footer #byline-teaser a{
     padding-left:6px;
-    color:#fcb8ab;
-    text-decoration: none;
-  }
 
-  footer #byline a:hover, footer #byline a:active{
-    text-decoration:none;
-    color:#ccc;
   }
   
   footer #the-team i{
     margin-right:2px;
   }
 
-  footer #the-team a{
+/*  footer #the-team a{
     border-radius: 100%;
     width: 37px;
     height: 37px;
@@ -420,11 +424,11 @@ footer{
     margin-left:10px;
     position:relative;
     top:-4px;
-  }
+  }*/
 
-  footer #the-team a:hover{
+/*  footer #the-team a:hover{
     background: #F68A77;
-  }
+  }*/
 
   /*footer #the-team a#border-color1{
     background: #F68A77;
@@ -447,11 +451,11 @@ footer{
 
 
   
-  footer #the-team a img{
+/*  footer #the-team a img{
     border-radius:50%;
     width:35px;
     height:35px
-  }
+  }*/
 
   /* contact section */
 
