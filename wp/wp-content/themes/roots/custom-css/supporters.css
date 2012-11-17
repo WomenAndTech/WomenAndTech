@@ -1,104 +1,133 @@
-/* line 5, ../sass/sponsors.scss */
 #sponsors {
   padding: 20px;
 }
 
-/* line 9, ../sass/sponsors.scss */
-#featured_sponsor {
-  margin-top: 90px;
-}
-/* line 11, ../sass/sponsors.scss */
-#featured_sponsor h2 {
-  font-size: 3em;
-  color: #b2b2b2;
-  font-style: italic;
-  margin-bottom: 40px;
-  font-family: 'Arvo', serif;
-}
-/* line 16, ../sass/sponsors.scss */
-#featured_sponsor #box {
-  background: #f3f3f3;
-}
-/* line 19, ../sass/sponsors.scss */
-#featured_sponsor #box #sponsor_logo p {
-  text-align: center;
-  padding: 50px 0px;
-}
-/* line 22, ../sass/sponsors.scss */
-#featured_sponsor #box #sponsor_logo p img {
-  width: 80%;
-}
-/* line 27, ../sass/sponsors.scss */
-#featured_sponsor #box #sponsor_callout {
-  padding: 50px 0px;
-}
-/* line 29, ../sass/sponsors.scss */
-#featured_sponsor #box #sponsor_callout p {
-  font-size: 1.25em;
-  line-height: 2em;
-  padding-right: 30px;
+#team {
+  margin-top: 100px;
 }
 
-/* line 38, ../sass/sponsors.scss */
+#about_team h2 {
+  color: #b2b2b2;
+  font-family: 'Arvo', serif;
+  font-size: 3em;
+  font-style: italic;
+  margin-bottom: 55px;
+}
+#about_team p {
+  font-size: 1.32em;
+  line-height: 2em;
+}
+
+.member {
+  width: 20%;
+  min-height: 200px;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+.member img {
+  margin: 0px auto;
+}
+.member p {
+  font-size: 0.9em;
+  font-style: italic;
+}
+.member h3 {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1em;
+  margin: 5px 0px;
+}
+.member h4 {
+  font-family: 'Arvo', serif;
+  color: #b2b2b2;
+  font-style: italic;
+}
+
 #friends {
   margin-top: 90px;
   text-align: center;
 }
-/* line 41, ../sass/sponsors.scss */
 #friends h3 {
+  font-size: 2em;
   font-family: 'Arvo', serif;
+  font-weight: normal;
   text-align: left;
   color: #b2b2b2;
   font-style: italic;
-  font-size: 2em;
 }
-/* line 46, ../sass/sponsors.scss */
 #friends img {
   margin-top: 35px;
   margin-bottom: 40px;
 }
-/* line 50, ../sass/sponsors.scss */
 #friends p {
   text-align: left;
+  font-size: 0.95em;
 }
 
-/* line 55, ../sass/sponsors.scss */
+#help_us {
+  background: #f3f3f3;
+  padding: 20px 10px;
+  text-align: left;
+}
+#help_us h3 {
+  margin-bottom: 20px;
+  color: #b2b2b2;
+}
+#help_us p {
+  text-align: left;
+  display: block;
+  min-height: 55px;
+}
+#help_us p img {
+  float: left;
+  margin: 5px;
+  display: inline-block;
+}
+#help_us a {
+  font-weight: bold;
+}
+
 #interest {
   margin-top: 90px;
   font-size: 0.85em;
 }
 
 @media (min-width: 1200px) {
-  /* line 64, ../sass/sponsors.scss */
   #featured_sponsor #box #sponsor_logo img {
     width: 100%;
   }
-  /* line 68, ../sass/sponsors.scss */
   #featured_sponsor #box #sponsor_callout {
     margin-left: 0px;
   }
 }
+@media (min-width: 768px) and (max-width: 979px) {
+  #about_team h2 {
+    font-size: 2em;
+  }
+  #about_team p {
+    font-size: 1em;
+  }
 
-<<<<<<< Updated upstream
-@media (max-width: 768px) {
-  #sponsor_callout p {
-    padding-left: 30px;
-=======
+  .member {
+    width: 31%;
+    margin: 0px 1%;
+    min-height: 245px;
+  }
+
   #help_us p {
     min-height: 100px;
   }
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .member {
     width: 23%;
     margin: 0px 1%;
     min-height: 230px;
->>>>>>> Stashed changes
   }
 }
-
 @media (max-width: 480px) {
-  h1 {
-    font-size: 4em;
+  .member {
+    width: 50%;
   }
 }
