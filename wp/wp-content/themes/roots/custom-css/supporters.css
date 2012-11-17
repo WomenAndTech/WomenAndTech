@@ -1,92 +1,155 @@
-/* line 5, ../sass/sponsors.scss */
 #sponsors {
-  padding: 20px;
+  padding: 20px 20px 0px;
+}
+#sponsors a {
+  font-weight: bold;
+  font-style: italic;
 }
 
-/* line 9, ../sass/sponsors.scss */
-#featured_sponsor {
-  margin-top: 90px;
+#team {
+  margin-top: 100px;
 }
-/* line 11, ../sass/sponsors.scss */
-#featured_sponsor h2 {
-  font-size: 3em;
+
+#about_team h2 {
   color: #b2b2b2;
+  font-family: 'Arvo', serif;
+  font-size: 3em;
+  line-height: 1em;
   font-style: italic;
   margin-bottom: 40px;
-  font-family: 'Arvo', serif;
+  letter-spacing: -0.04em;
 }
-/* line 16, ../sass/sponsors.scss */
-#featured_sponsor #box {
-  background: #f3f3f3;
-}
-/* line 19, ../sass/sponsors.scss */
-#featured_sponsor #box #sponsor_logo p {
-  text-align: center;
-  padding: 50px 0px;
-}
-/* line 22, ../sass/sponsors.scss */
-#featured_sponsor #box #sponsor_logo p img {
-  width: 80%;
-}
-/* line 27, ../sass/sponsors.scss */
-#featured_sponsor #box #sponsor_callout {
-  padding: 50px 0px;
-}
-/* line 29, ../sass/sponsors.scss */
-#featured_sponsor #box #sponsor_callout p {
-  font-size: 1.25em;
+#about_team p {
+  font-size: 1.32em;
   line-height: 2em;
-  padding-right: 30px;
 }
 
-/* line 38, ../sass/sponsors.scss */
+.member {
+  width: 20%;
+  min-height: 200px;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+.member img {
+  margin: 0px auto;
+}
+.member p {
+  font-size: 0.9em;
+  font-style: italic;
+}
+.member h3 {
+  font-size: 1.2em;
+  line-height: 1em;
+  margin-bottom: 0px;
+}
+.member h4 {
+  font-family: 'Arvo', serif;
+  color: #b2b2b2;
+  letter-spacing: -0.04em;
+}
+
+.with_heart p {
+  margin-bottom: 30px;
+}
+
 #friends {
   margin-top: 90px;
   text-align: center;
 }
-/* line 41, ../sass/sponsors.scss */
 #friends h3 {
+  font-size: 2em;
   font-family: 'Arvo', serif;
+  font-weight: normal;
   text-align: left;
   color: #b2b2b2;
   font-style: italic;
-  font-size: 2em;
+  letter-spacing: -0.04em;
 }
-/* line 46, ../sass/sponsors.scss */
-#friends img {
+#friends .friend {
+  padding: 0px 5px;
+}
+#friends .friend img {
   margin-top: 35px;
   margin-bottom: 40px;
 }
-/* line 50, ../sass/sponsors.scss */
-#friends p {
-  text-align: left;
+#friends .friend p {
+  text-align: justify;
+  font-size: 0.95em;
 }
 
-/* line 55, ../sass/sponsors.scss */
+#help_us {
+  background: #f3f3f3;
+  padding: 5px 10px 10px;
+  text-align: left;
+}
+#help_us h3 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+#help_us p {
+  text-align: left;
+  display: block;
+  min-height: 55px;
+}
+#help_us p img {
+  float: left;
+  margin: 5px;
+  margin-right: 15px;
+  display: inline-block;
+}
+#help_us span p {
+  margin: 0px;
+  margin-left: 5px;
+  padding: 0px;
+  min-height: 0px;
+}
+
 #interest {
   margin-top: 90px;
   font-size: 0.85em;
 }
+#interest p {
+  line-height: 1em;
+  padding: 0px;
+  margin: 0px;
+}
 
 @media (min-width: 1200px) {
-  /* line 64, ../sass/sponsors.scss */
   #featured_sponsor #box #sponsor_logo img {
     width: 100%;
   }
-  /* line 68, ../sass/sponsors.scss */
   #featured_sponsor #box #sponsor_callout {
     margin-left: 0px;
   }
 }
+@media (min-width: 768px) and (max-width: 979px) {
+  #about_team h2 {
+    font-size: 2em;
+  }
+  #about_team p {
+    font-size: 1em;
+  }
 
-@media (max-width: 768px) {
-  #sponsor_callout p {
-    padding-left: 30px;
+  .member {
+    width: 31%;
+    margin: 0px 1%;
+    min-height: 245px;
+  }
+
+  #help_us p {
+    min-height: 100px;
   }
 }
-
+@media (min-width: 480px) and (max-width: 767px) {
+  .member {
+    width: 23%;
+    margin: 0px 1%;
+    min-height: 230px;
+  }
+}
 @media (max-width: 480px) {
-  h1 {
-    font-size: 4em;
+  .member {
+    width: 50%;
   }
 }
