@@ -11,7 +11,14 @@
     font-size:3em;
   }
 
+}
 
+@media (max-width: 767px) {
+
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
 }
 
@@ -450,10 +457,6 @@
 /*------------------------------------------------*/
 @media (max-width: 767px) {
 
-  .archive body {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
 
   .archive .page-header{
     margin-left:0;
