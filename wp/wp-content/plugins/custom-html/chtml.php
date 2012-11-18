@@ -103,6 +103,6 @@ function CHTML_uninstall() {
 
 add_action('admin_menu', 'CHTML_box');
 add_action('save_post', 'CHTML_save');
-add_action('wp_head','CHTML_include');
+add_action('wp','CHTML_include');
 register_uninstall_hook(__FILE__, 'CHTML_uninstall');
 ?>
