@@ -29,14 +29,6 @@
     padding-bottom:50px;
 }
 
-#logo {
-    position: fixed;
-    z-index: 1;
-    width: 100px;
-    height: 115px;
-    top: 0px;
-    left: 20px;
-}
 #intro-wrap {
     min-height: 100%;
     height: 100%;
@@ -264,6 +256,9 @@ section h2 {
     line-height: 1.7em;
   }
 
+.info-panel p.last, .notable-person p.last{
+    margin-bottom:0;
+}
   .notable-person h3, .info-panel h3{
     line-height:1.5em;
     margin-bottom:0.429em;
@@ -388,6 +383,7 @@ section h2 {
     margin:0;
     margin-bottom:0.75em;
     font-weight: normal;
+    font-weight: bold;
   }
   
   #neha-khera figure{
@@ -408,8 +404,10 @@ section h2 {
     /* pull quote should have 90px-ish margin (90/14 = ~6) */
     margin-bottom:6em;
     margin-top:4.5em; /* <p> has 1.5em bottom margin so this counteracts that */
-    background-color:#f3f3f3;
+    background-color:#FF3818;
     display:block;
+    overflow:hidden;
+    position: relative;
   }
   
   /* pull quote in the last row is followed by a new section */
@@ -420,11 +418,15 @@ section h2 {
     margin-bottom:3.5em;
 
   }
-  
-  .pull-quote .quote{
-    background-color:#f3f3f3;
-    width:94%; /* quote and quote mark must add to 100% */
+
+#profile-image {
     float:left;
+    width:125px;
+    position: relative;
+}
+
+  .pull-quote .quote{
+    width:100%;
   }
 
 
@@ -432,20 +434,19 @@ section h2 {
   .pull-quote .quote h2{
     margin:0;
     line-height:1.429em;
-    padding:0.714em;
+    padding:0.5em 0.714em 0.714em 0.714em;
+    background-color: #f3f3f3;
+    margin-right:50px;
   }
   
   .pull-quote .quote-mark{
     color:white;
     background-color:#FF3818;
-    height:8.571em;
-    margin-left:2%;
-    width:3%;  /* quote and quote mark must add to 100% */
-    float:left;
-    vertical-align: middle;
+    position:absolute;
     text-align: center;
-    padding:0 0.5%;
-    
+    padding:0;
+    top:0.5em;
+    right:7px;
   }
 
   .pull-quote .quote-mark img{
@@ -476,18 +477,18 @@ section h2 {
   }
   
   .callout-question .new-line{
-    clear:left;
     margin-left:0;
   }
 
   .callout-question #question-prompt{
     background-color:#FF3818;
-    padding:0.5em;
-    text-align: center;
+    padding:0.7em 1em 0.8em;
+    text-align: left;
   }
 
   #question-prompt h3{
     font-size:1.4em;
+      line-height: 1.4em;
     color:white;
     margin:0;
     font-weight:normal;
@@ -502,17 +503,30 @@ section h2 {
   }
 
   .callout-question h4 {
-    font-size: 2.1em;
-    margin-top: 1.1em;
-    line-height: 1.6em;
+    font-size: 1.857em;
+    margin-top: 1em;
+    line-height: 1.429em;
     position:relative;
-    left:-0.5em;
+    margin-right:70px;
   }
 
-  .callout-question #quote-mark{
+ callout-question {
+    position: relative;
+}
+.callout-question #quote-mark{
+    position: absolute;
+    top:1em;
+    right: 15px;
+    width:38px;
+    height:23px;
+    margin:0;
     font-size: 2.1em;
-    margin-top: 1.25em;
-  }
+}
+.callout-question #question-details {
+    position: relative;
+    clear:left;
+    overflow: hidden;
+}
   
   #call-to-action p{
     padding-top:1em;
@@ -535,32 +549,50 @@ section h2 {
 
 /* Portrait Tablet */
 
-@media(min-width:768px) and (max-width:979px) {
+@media(min-width:767px) and (max-width:979px) {
     .lucia-interview h1 {
+        position:relative;
+        top:0.286em;
         font-size:3em;
     }
-    section h2 {
-        font-size:1.5em;
+    .callout-question h4 {
+        font-size:1.8em;
+        line-height: 1.571em;
     }
 
+
+}
+
+@media(min-width:1200px){
+    .callout-question h4 {
+        line-height: 1.6em;
+        font-size: 2em;
+    }
 }
 
 /* Portrait Tablet */
 @media(max-width:767px){
+    .navbar {
+        padding-bottom: 0;
+    }
+    .lucia-interview h1 {
+        font-size:3em;
+        position:relative;
+        top:0.286em;
+    }
     .container {
         -webkit-transition: none;
         -moz-transition: none;
         transition: none;
     }
-    #logo {
-        position: absolute;
-    }
     #opening {
         margin:0 0 1.429em;
     }
-    .lucia-interview h1 {
-        font-size:3em;
+    .container {
+        padding-left:0;
     }
+
+
     section#introduction {
         margin:0 0 2em;
     }
@@ -568,17 +600,34 @@ section h2 {
         margin:0;
         padding:0 2em;
     }
+    article header.row {
+        margin-bottom:0;
+    }
     section h2 {
-        font-size:1.429em;
+        font-size:1.786em;
     }
     section h3 {
-        margin-bottom:0.286em;
+        line-height: 1.571em;
+        margin-bottom:1em;
     }
-    #start-tag {
+    #question-prompt h3 {
+        line-height: 1.357em;
+    }
+    .row {
+        margin: 0 0 2em;
+    }
+    #start-tag, #end-tag {
         display:none;
     }
     .pull-quote {
-        margin:0;
+        margin:3em 0 2.571em;
+    }
+
+    .callout-question h4 {
+        margin:1em 3em 1em 1em;
+        left:auto;
+        font-size:1.786em;
+        line-height: 1.429em;
     }
     .notable-person {
         width:50%;
@@ -591,14 +640,15 @@ section h2 {
         top:auto;
     }
     .notable-person figure {
-        margin:0 2em 0 0;
+        margin:0 2em 1em 0;
+        top:1.357em;
     }
     .interview-panel p {
         margin-bottom:1.071em;
         line-height: 1.857em;
     }
     .info-panel aside {
-        margin:0 0 2em;
+        margin:1.429em 0 4.643em;
     }
     .info-panel p, .notable-person p {
         font-size:1.143em;
@@ -614,21 +664,22 @@ section h2 {
     .notable-person h3, .info-panel h3 {
         font-size:1.286em;
         line-height: 1.286em;
-        margin:0 0 0.571em;
+        margin:0 0 0.357em;
     }
     .notable-person h4 {
         font-size:1.143em;
         line-height: 1.429em;
-        margin:0 0 0.571em;
+        margin:0;
+        position: relative;
+        top: -0.214em;
     }
     .notable-person img {
       width:100px;
-      margin: 0 20px 10px 0;
+      margin: 0.357em 1.429em 0.714em 0;
     }
     .info-panel .arrow {
         display:none;
     }
-    .pull-quote .quote {
-        
-    }
+
+
 }
