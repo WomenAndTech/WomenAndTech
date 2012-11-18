@@ -37,13 +37,16 @@ function homepage_gets_posts_interviews($query){
   endif;
 
   if(is_single()):
-      $query->set('post_status', array('publish'));
+      $post_status = array('publish');
+      if (is_admin()) $post_status = array('publish, future');
+      $query->set('post_status', $post_status);
+      $query->set('post_type', array('post','interview'));
   endif;
 }
 
 function myfeed_request($qv) {
   if (isset($qv['feed']))
-    $qv['post_type'] = get_post_types();
+    $qv['post_type'] = array('post','interview');
   return $qv;
 }
 add_filter('request', 'myfeed_request');
