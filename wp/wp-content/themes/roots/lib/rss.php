@@ -29,9 +29,12 @@ function create_custom_feed() {
 // Replace default feed rewrite rules
 function customise_feed_rules($rules) {
     // Remove all feed related rules
-    $filtered_rules = array_filter($rules, function($rule) {
-        return !preg_match("/feed/i", $rule);
-    });
+    function filterRules($rules) {
+       return !preg_match("/feed/i", $rule); 
+    }
+
+    $filtered_rules = array_filter($rules, 'filterRules');
+
     // Add the rule(s) for your custom feed(s)
     $new_rules = array(
         'feed$' => 'index.php?feed=custom_feed'
