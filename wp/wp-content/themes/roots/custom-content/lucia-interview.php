@@ -149,7 +149,7 @@
       <aside class="first-row">
         <div class="arrow"></div>
         <h3>Parental Leave in Canada</h3>
-        <p>
+        <p class="last">
           Mothers are allowed 15 weeks full-salary paid maternity leave. After that, they get half pay. Parents are allowed up to 35 weeks combined leave.
         </p>
       </aside>
@@ -200,7 +200,7 @@
 
          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/william-barek.png"/> “Lucia is one rare individual that [...] didn't have a strong technology background, but was savvy to embrace new digital technologies. Her tenacity to adopt and learn all aspects of multimedia, web and social media, [...] made her a perfect candidate to join our team.”
         </p>
-        <p class="mentor"><em>William Barek,</em> Former Director at Centre for Instructional Technology Development, University of Toronto at Scarborough</p>
+        <p class="mentor last"><em>William Barek,</em> Former Director at Centre for Instructional Technology Development, University of Toronto at Scarborough</p>
       </aside>
     </div>
 
@@ -298,7 +298,7 @@
         <p>
          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/paul-fraumeni.png"/>  “[Lucia] has a powerful ability to take complex research and make it easy to understand […]. To Lucia, the technology is simply a tool. Her talent is in helping people, real people, to understand the research being conducted at U of T and how it is about their lives."
         </p>
-        <p class="mentor"><em>Paul Fraumeni,</em> director, Research Communications, the University of Toronto</p>
+        <p class="mentor last"><em>Paul Fraumeni,</em> director, Research Communications, the University of Toronto</p>
       </aside>
     </div>
     <div class="span7 interview-panel">
@@ -344,7 +344,7 @@
         With Girls in Tech, we’re starting to leverage the global network that we have access to. Toronto is very vibrant and active and there’s a lot of opportunity here. It took some time for the worldwide Girls in Tech community to notice Toronto because they want to see how dedicated you are at first. But now I feel like we’re in the same league as LA, New York, Paris.
       </p>
       <p>
-        With Feast Interactive, we’re filling a void. A lot of companies don’t want to manage social media marketing, they don’t know how, and we’re helping them with that. Right now, we’re working with a lot of startup brands in Canada which is really great because when they grow, we grow with them. We’re working with companies who believe in organic growth and doing it in an honest and real way. It’s been really exciting to be along for the ride.
+        With Feast Interactive, we’re filling a void. A lot of companies don’t want to manage social media marketing, they don’t know how, and we’re helping them with that. Right now, we’re working with a lot of startup brands in Canada which is really great because when they grow, we grow with them. We’re working with companies who believe in organic growth and doing it in an honest and real way. It’s been really exciting to be along for the ride. <span class="full-stop"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/full-stop.png" /></span>
       </p>
     </div>
   </section>
@@ -355,14 +355,14 @@
         <div class="span12" id="question-prompt">
           <h3>Without knowing who they are, please post a question for our next interviewee.</h3>
         </div>
-        <div class="span3 new-line" id="profile-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-square.jpg"/>
-        </div>
-        <div class="span8">
-          <h4>When will we see a female version of Steve Jobs or Mark Zuckerberg?</h4>
-        </div>
-        <div class="span1" id='quote-mark'>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark-small.png"/>
+        <div id="question-details">
+            <div id="profile-image">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-square.jpg"/>
+            </div>
+            <h4>When will we see a female version of Steve Jobs or Mark Zuckerberg?</h4>
+            <div id='quote-mark'>
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark-small.png"/>
+            </div>
         </div>
       </div>
       <div class="row-fluid">
