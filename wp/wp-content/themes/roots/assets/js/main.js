@@ -44,10 +44,11 @@
   .on('blur', 'input.email', function(){
     $(this).css('border-left', '');
   })
-  .ready(function() {
-	
-	
-	var logo = new swiffy.Stage(document.getElementById('womenandtech-logo'), womenandtech);
+
+  // MARK: Commenting this bit out; it's not working //
+  /*.ready(function() {
+
+  var logo = new swiffy.Stage(document.getElementById('womenandtech-logo'), womenandtech);
 	logo.start();
 
 	$(window).scroll(function () {
@@ -78,7 +79,7 @@
 	});
 
 	
-  });
+  });*/
   
 })(jQuery);
 
