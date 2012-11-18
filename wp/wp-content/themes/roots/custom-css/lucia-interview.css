@@ -1,3 +1,43 @@
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.curtains{
+    width: 100%;
+    z-index:1;
+    position:relative;
+    margin: 0;
+}
+
+.curtains>li{
+    -webkit-transform:translateZ(0);
+    background: white;
+    position: fixed;
+    display:block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index:1;
+
+    box-shadow:0 1px 15px 3px rgba(0,0,0,0.5);
+}
+.curtains>li.cover{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+.curtains>li.hidden{display:none;}
+.curtains>li:first-child{z-index:2;}
+
+
+
 /* --- Article #1 ---- */
 
   .lucia-interview a {
@@ -19,9 +59,7 @@
   }
 
   .container {
-      -webkit-transition: width 0.3s linear;
-      -moz-transition: width 0.3s linear;
-      transition: width 0.3s linear;
+
   }
 
 
@@ -201,21 +239,46 @@ section h2 {
 
   /* Article > #Opening */
 
-  #opening{
+  .fullscreen img {
+    width:100%;
+    min-height: 500px;
+    min-width: 748px;
+  }
+
+.fullscreen .arrow {
+    z-index: 1;
+}
+.fullscreen .info-panel {
+    width:370px;
+    top:50%;
+}
+
+  .opening{
     font-style: italic;
     background: #f3f3f3;
     font-size:1.2em;
     color:#444;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+      background-attachment:fixed;
+      background-position:center center;
+      background-repeat:no-repeat;
+      position:relative;
+      height:100%;
+      z-index:10;
   }
 
-  #opening figure{
+  .opening figure{
     display: inline-block;
     width:100%;
     margin:0;
     padding:0;
   }
 
-  #opening figure img{
+
+  .opening figure img{
     width:100%;
   }
 
@@ -680,6 +743,5 @@ section h2 {
     .info-panel .arrow {
         display:none;
     }
-
 
 }
