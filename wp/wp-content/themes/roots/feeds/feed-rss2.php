@@ -5,8 +5,6 @@
  * @package WordPress
  */
 
-//activate custom content
-// CHTML_include();
 global $custom_content;
 
 header('Content-Type: application/rss+xml; charset=' . get_option('blog_charset'), true);
@@ -46,26 +44,29 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
 	<item>
 		<title><?php the_title_rss() ?></title>
 		<link><?php the_permalink_rss() ?></link>
-		<!-- <comments><?php comments_link_feed(); ?></comments>-->
+		<?php /* we're not using comments right now 
+		<comments><?php comments_link_feed(); ?></comments> */?>
 		<pubDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_post_time('Y-m-d H:i:s', true), false); ?></pubDate>
 		<dc:creator><?php the_author() ?></dc:creator>
 		<?php the_category_rss('rss2') ?>
 
 		<guid isPermaLink="false"><?php the_guid(); ?></guid>
 <?php if (get_field('archive_excerpt')) : ?>
-		<description><![CDATA[<?php the_field('archive_excerpt'); ?>]]></description>
+		<description><?php echo strip_tags(get_field('archive_excerpt')); ?></description>
 <?php endif; ?>
 
 <?php if (!$custom_content && strlen( $post->post_content ) > 0): 
 	    // this item is not using custom content so grab the_content, but only if it exists ?>
-	<content:encoded><![CDATA[<?php the_content_feed('rss2') ?> stuff]]></content:encoded>
+	<content:encoded><![CDATA[<?php the_content_feed('rss2') ?>]]></content:encoded>
 <?php else : 
       // this item uses custom content, go get it! ?>
 	<content:encoded><![CDATA[<?php get_template_part("custom-content/$custom_content"); ?>]]></content:encoded>
 <?php endif; ?>
 
-  <!-- <wfw:commentRss><?php echo esc_url( get_post_comments_feed_link(null, 'rss2') ); ?></wfw:commentRss> -->
-  <!-- <slash:comments><?php echo get_comments_number(); ?></slash:comments> -->
+<?php /* we're not using comments right now 
+  <wfw:commentRss><?php echo esc_url( get_post_comments_feed_link(null, 'rss2') ); ?></wfw:commentRss>
+  <slash:comments><?php echo get_comments_number(); ?></slash:comments> */ ?>
+
 <?php rss_enclosure(); ?>
 	<?php do_action('rss2_item'); ?>
 	</item>
