@@ -231,6 +231,13 @@ line-height: 2em
     margin-right:4px;
   }
 
+#nomination-form .modal-header{
+  height:20px;
+}
+
+#nomination-form iframe{
+  padding-left:10px;
+}
 
 /* Shared styles */
 
