@@ -18,65 +18,87 @@
 			<div class="span9">
 				<div id="members">
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/you.png" />
-						<h3>The Community</h3>
-						<p>Nominate someone</p>
+						<a href="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/you.png" />
+							<h3>The Community</h3>
+							<p>Nominate someone</p>
+						</a>
 					</div>
 
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/cassie.png" />
-						<h3>Cassie McDaniel</h3>
-						<p>Design, Copy, Vision</p>
+						<a href="http://www.twitter.com/cassiemc">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/cassie.png" />
+							<h3>Cassie McDaniel</h3>
+							<p>Design, Copy, Vision</p>
+						</a>
 					</div>
 
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/mark.png" />
-						<h3>Mark Staplehurst</h3>
-						<p>Design and front-end</p>
+						<a href="http://www.twitter.com/britburger">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/mark.png" />
+							<h3>Mark Staplehurst</h3>
+							<p>Design and front-end</p>
+						</a>
 					</div>
 
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brett.png" />
-						<h3>Brett Bergmann</h3>
-						<p>Backend dev</p>
+						<a href="http://www.twitter.com/brttb">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brett.png" />
+							<h3>Brett Bergmann</h3>
+							<p>Backend dev</p>
+						</a>
 					</div>
 
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ivonne.png" />
-						<h3>Ivonne Karamoy</h3>
-						<p>Illustration, Outreach</p>
+						<a href="http://www.twitter.com/ivonnekn">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ivonne.png" />
+							<h3>Ivonne Karamoy</h3>
+							<p>Illustration, Outreach</p>
+						</a>
 					</div>
 
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/milan.png" />
-						<h3>Milan Gokhale</h3>
-						<p>Social Media, Strategy</p>
+						<a href="http://www.twitter.com/milang">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/milan.png" />
+							<h3>Milan Gokhale</h3>
+							<p>Social Media, Strategy</p>
+						</a>
 					</div>
 					
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ray.png" />
-						<h3>Ray Kao</h3>
-						<p>Web and mobile dev</p>
+						<a href="http://www.twitter.com/raykao">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ray.png" />
+							<h3>Ray Kao</h3>
+							<p>Web and mobile dev</p>
+						</a>
 					</div>
 					
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/lucia.png" />
-						<h3>Lucia Mariani-Vena</h3>
-						<p>Advisor</p>
+						<a href="http://www.twitter.com/feastinc">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/lucia.png" />
+							<h3>Lucia Mariani-Vena</h3>
+							<p>Advisor</p>
+						</a>
 					</div>
 					
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brenna.png" />
-						<h3>Brenna O'Brien</h3>
-						<p>Development</p>
+						<a href="http://www.twitter.com/brennaob">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brenna.png" />
+							<h3>Brenna O'Brien</h3>
+							<p>Development</p>
+						</a>
 					</div>
 
 					<div class="member with_heart">
 						<h4>With &lt;3 from</h4>
-						<h3>Vicki Laszlo</h3>
-						<p>Coffee fairy</p>
-						<h3>Kathleen Harris</h3>
-						<p>Videography</p>
+						<a href="">
+							<h3>Vicki Laszlo</h3>
+							<p>Coffee fairy</p>
+						</a>
+						<a href="">
+							<h3>Kathleen Harris</h3>
+							<p>Videography</p>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -92,7 +114,7 @@
 				
 					<div class="span3">
 						<div class="friend">
-							<a href="#" alt="People &amp; Code Inc." title="People &amp; Code Inc.">
+							<a href="http://peopleandcode.com" alt="People &amp; Code Inc." title="People &amp; Code Inc.">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/peopleandcode.png" alt="People &amp; Code" title="People & Code Inc." />
 							</a>
 							<p>The reason we got our team together in the first place was because these guys were ready to get building! Now both founders <a href="http://twitter.com/raykao" alt="Ray Kao" title="Ray Kao">Ray</a> and <a href="http://twitter.com/milang" alt="Milan Gokhale" title="Milan Gokhale">Milan</a> are on our team.</p>
@@ -110,7 +132,7 @@
 
 					<div class="span3">
 						<div class="friend">
-							<a href="http://http://www.ecentricarts.com/" alt="Ecentricarts" title="Ecentricarts">
+							<a href="http://www.ecentricarts.com/" alt="Ecentricarts" title="Ecentricarts">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/ecentricarts.png" alt="Ecentricarts" title="Ecentricarts" />
 							</a>
 							<p>Our other headquarters is at ecentricarts, who have a high percentage of female developers. If that isn’t endorsement, we don’t know what is.</p>
