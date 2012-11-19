@@ -26,64 +26,67 @@
 					</div>
 
 					<div class="member">
-						<a href="http://twitter.com/cassiemc" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/cassie.png" />
+						<a href="http://twitter.com/cassiemc" target="_blank" alt="Cassie McDaniel" title="Cassie McDaniel">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/cassie.png" alt="Cassie McDaniel" title="Cassie McDaniel" />
 							<h3>Cassie McDaniel</h3>
 							<p>Design, Copy, Vision</p>
 						</a>
 					</div>
 
 					<div class="member">
-						<a href="http://twitter.com/britburger" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/mark.png" />
+						<a href="http://twitter.com/britburger" target="_blank" alt="Mark Staplehurst" title="Mark Staplehurst">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/mark.png" alt="Mark Staplehurst" title="Mark Staplehurst" />
 							<h3>Mark Staplehurst</h3>
 							<p>Design and front-end</p>
 						</a>
 					</div>
 
 					<div class="member">
-						<a href="http://twitter.com/brttb" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brett.png" />
+						<a href="http://twitter.com/brttb" target="_blank" alt="Brett Bergmann" title="Brett Bergmann">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brett.png" alt="Brett Bergmann" title="Brett Bergmann" />
 							<h3>Brett Bergmann</h3>
 							<p>Backend dev</p>
 						</a>
 					</div>
 
 					<div class="member">
-						<a href="http://twitter.com/ivonnekn" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ivonne.png" />
+						<a href="http://twitter.com/ivonnekn" target="_blank" alt="Ivonne Karamoy" title="Ivonne Karamoy">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ivonne.png" alt="Ivonne Karamoy" title="Ivonne Karamoy" />
 							<h3>Ivonne Karamoy</h3>
 							<p>Illustration, Outreach</p>
 						</a>
 					</div>
 
 					<div class="member">
-						<a href="http://twitter.com/milang" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/milan.png" />
+						<a href="http://twitter.com/milang" target="_blank" alt="Milan Gokhale" title="Milan Gokhale">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/milan.png" alt="Milan Gokhale" title="Milan Gokhale" />
 							<h3>Milan Gokhale</h3>
 							<p>Social Media, Strategy</p>
 						</a>
 					</div>
 					
 					<div class="member">
-						<a href="http://twitter.com/raykao" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ray.png" />
+
+						<a href="http://twitter.com/raykao" target="_blank" alt="Ray Kao" title="Ray Kao">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ray.png" alt="Ray Kao" title="Ray Kao" />
 							<h3>Ray Kao</h3>
 							<p>Web and mobile dev</p>
 						</a>
 					</div>
 					
 					<div class="member">
-						<a href="http://twitter.com/feastinc" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/lucia.png" />
+
+						<a href="http://twitter.com/feastinc" target="_blank" alt="Lucia Mariani-Vena" title="Lucia Mariani-Vena">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/lucia.png" alt="Lucia Mariani-Vena" title="Lucia Mariani-Vena" />
 							<h3>Lucia Mariani-Vena</h3>
 							<p>Advisor</p>
 						</a>
 					</div>
 					
 					<div class="member">
-						<a href="http://twitter.com/brennaob" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brenna.png" />
+
+						<a href="http://twitter.com/brennaob" target="_blank" alt="Brenna O'Brien" title="Brenna O'Brien" >
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brenna.png" alt="Brenna O'Brien" title="Brenna O'Brien" />
 							<h3>Brenna O'Brien</h3>
 							<p>Development</p>
 						</a>
@@ -91,10 +94,14 @@
 
 					<div class="member with_heart">
 						<h4>With &lt;3 from</h4>
-						<h3>Vicki Laszlo</h3>
-						<p>Coffee fairy</p>
-						<h3>Kathleen Harris</h3>
-						<p>Videography</p>
+						<a href="https://twitter.com/vickilaszlo" target="_blank" alt="Vicki Laszlo" title="Vicki Laszlo">
+							<h3>Vicki Laszlo</h3>
+							<p>Coffee fairy</p>
+						</a>
+						<a href="http://twitter.com/unofficialvideo" target="_blank" alt="Kathleen Harris" title="Kathleen Harris">
+							<h3>Kathleen Harris</h3>
+							<p>Videography</p>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -110,25 +117,25 @@
 				
 					<div class="span3">
 						<div class="friend">
-							<a href="#" alt="People &amp; Code Inc." title="People &amp; Code Inc.">
+							<a href="http://peopleandcode.com" target="_blank" alt="People &amp; Code Inc." title="People &amp; Code Inc.">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/peopleandcode.png" alt="People &amp; Code" title="People & Code Inc." />
 							</a>
-							<p>The reason we got our team together in the first place was because these guys were ready to get building! Now both founders <a href="http://twitter.com/raykao" alt="Ray Kao" title="Ray Kao">Ray</a> and <a href="http://twitter.com/milang" alt="Milan Gokhale" title="Milan Gokhale">Milan</a> are on our team.</p>
+							<p>The reason we got our team together in the first place was because these guys were ready to get building! Now both founders <a href="http://twitter.com/raykao" target="_blank" alt="Ray Kao" title="Ray Kao">Ray</a> and <a href="http://twitter.com/milang" target="_blank" alt="Milan Gokhale" title="Milan Gokhale">Milan</a> are on our team.</p>
 						</div>
 					</div>
 
 					<div class="span3">
 						<div class="friend">
-							<a href="http://mycitylives.com" alt="My City Lives" title="My City Lives">
+							<a href="http://mycitylives.com" target="_blank" alt="My City Lives" title="My City Lives">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/mycitylives.png" alt="My City Lives" title="My City Lives" />
 							</a>
-							<p>My City Lives offered up their offices for us to meet in without hesitation. <a href="http://twitter.com/amirad" alt="Amira Dhalla" title="Amira Dhalla">Amira Dhalla</a>, cofounder, is one of the coolest women in tech we know.</p>
+							<p>My City Lives offered up their offices for us to meet in without hesitation. <a href="http://twitter.com/amirad" target="_blank" alt="Amira Dhalla" title="Amira Dhalla">Amira Dhalla</a>, cofounder, is one of the coolest women in tech we know.</p>
 						</div>
 					</div>
 
 					<div class="span3">
 						<div class="friend">
-							<a href="http://http://www.ecentricarts.com/" alt="Ecentricarts" title="Ecentricarts">
+							<a href="http://www.ecentricarts.com/" target="_blank" alt="Ecentricarts" title="Ecentricarts">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/ecentricarts.png" alt="Ecentricarts" title="Ecentricarts" />
 							</a>
 							<p>Our other headquarters is at ecentricarts, who have a high percentage of female developers. If that isn’t endorsement, we don’t know what is.</p>
@@ -146,7 +153,7 @@
 					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/volunteer.png"> We need volunteers with design or copyediting skills.</p>
 					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/photographers.png"> We need an occasional photographer.</p>
 					<span>
-						<p>Don’t hesitate to <a href="mailto:contact@womenandtech.com">reach out.</a></p>
+						<p>Don’t hesitate to <a href="mailto:contact@womenandtech.com" alt="Contact Women &amp;&amp; Tech" title="Contact Women &amp;&amp; Tech">reach out.</a></p>
 					</span>
 				</div>
 			</div>
@@ -157,7 +164,7 @@
 	<div id="interest">
 		<div class="row">
 			<div class="span12">
-				<p>If you are interested in sponsoring a future interview, <a href="mailto:" alt="Contact Us" title="Contact Us">contact us</a>.</p>
+				<p>If you are interested in sponsoring a future interview, <a href="mailto:contact@womenandtech.com" alt="Contact Us" title="Contact Us">contact us</a>.</p>
 			</div>
 		</div>
 	</div>

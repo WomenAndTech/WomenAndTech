@@ -31,29 +31,33 @@
   float: left;
   text-align: left;
 }
-.member a{
-  color: #333;
-  text-decoration: none;
-}
-.member a:hover{
-  color: #FF3818;
-}
 .member img {
   margin: 0px auto;
 }
-.member p {
+.member a {
+  text-decoration: none;
+  color: #333333;
+}
+.member a p {
   font-size: 0.9em;
   font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
 }
-.member h3 {
+.member a h3 {
   font-size: 1.2em;
   line-height: 1em;
   margin-bottom: 0px;
+  font-style: normal;
 }
-.member h4 {
+.member a h4 {
   font-family: 'Arvo', serif;
   color: #b2b2b2;
   letter-spacing: -0.04em;
+}
+.member a:hover {
+  color: #ff3818;
+  font-weight: bold;
 }
 
 .with_heart p {
@@ -81,7 +85,7 @@
   margin-bottom: 40px;
 }
 #friends .friend p {
-  text-align: left;
+  text-align: justify;
   font-size: 0.95em;
 }
 
