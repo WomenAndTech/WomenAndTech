@@ -117,25 +117,25 @@
 				
 					<div class="span3">
 						<div class="friend">
-							<a href="http://peopleandcode.com" alt="People &amp; Code Inc." title="People &amp; Code Inc.">
+							<a href="http://peopleandcode.com" target="_blank" alt="People &amp; Code Inc." title="People &amp; Code Inc.">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/peopleandcode.png" alt="People &amp; Code" title="People & Code Inc." />
 							</a>
-							<p>The reason we got our team together in the first place was because these guys were ready to get building! Now both founders <a href="http://twitter.com/raykao" alt="Ray Kao" title="Ray Kao">Ray</a> and <a href="http://twitter.com/milang" alt="Milan Gokhale" title="Milan Gokhale">Milan</a> are on our team.</p>
+							<p>The reason we got our team together in the first place was because these guys were ready to get building! Now both founders <a href="http://twitter.com/raykao" target="_blank" alt="Ray Kao" title="Ray Kao">Ray</a> and <a href="http://twitter.com/milang" target="_blank" alt="Milan Gokhale" title="Milan Gokhale">Milan</a> are on our team.</p>
 						</div>
 					</div>
 
 					<div class="span3">
 						<div class="friend">
-							<a href="http://mycitylives.com" alt="My City Lives" title="My City Lives">
+							<a href="http://mycitylives.com" target="_blank" alt="My City Lives" title="My City Lives">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/mycitylives.png" alt="My City Lives" title="My City Lives" />
 							</a>
-							<p>My City Lives offered up their offices for us to meet in without hesitation. <a href="http://twitter.com/amirad" alt="Amira Dhalla" title="Amira Dhalla">Amira Dhalla</a>, cofounder, is one of the coolest women in tech we know.</p>
+							<p>My City Lives offered up their offices for us to meet in without hesitation. <a href="http://twitter.com/amirad" target="_blank" alt="Amira Dhalla" title="Amira Dhalla">Amira Dhalla</a>, cofounder, is one of the coolest women in tech we know.</p>
 						</div>
 					</div>
 
 					<div class="span3">
 						<div class="friend">
-							<a href="http://www.ecentricarts.com/" alt="Ecentricarts" title="Ecentricarts">
+							<a href="http://www.ecentricarts.com/" target="_blank" alt="Ecentricarts" title="Ecentricarts">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/ecentricarts.png" alt="Ecentricarts" title="Ecentricarts" />
 							</a>
 							<p>Our other headquarters is at ecentricarts, who have a high percentage of female developers. If that isn’t endorsement, we don’t know what is.</p>
