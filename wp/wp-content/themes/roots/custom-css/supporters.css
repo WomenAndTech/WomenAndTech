@@ -31,13 +31,6 @@
   float: left;
   text-align: left;
 }
-.member a{
-  color: #333;
-  text-decoration: none;
-}
-.member a:hover{
-  color: #FF3818;
-}
 .member img {
   margin: 0px auto;
 }
@@ -63,7 +56,8 @@
   letter-spacing: -0.04em;
 }
 .member a:hover {
-  color: #b2b2b2;
+  color: #ff3818;
+  font-weight: bold;
 }
 
 .with_heart p {
@@ -91,7 +85,7 @@
   margin-bottom: 40px;
 }
 #friends .friend p {
-  text-align: left;
+  text-align: justify;
   font-size: 0.95em;
 }
 
