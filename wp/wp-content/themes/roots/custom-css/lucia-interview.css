@@ -1,5 +1,51 @@
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.curtains{
+    width: 100%;
+    z-index:1;
+    position:relative;
+    margin: 0;
+}
+
+.curtains>li{
+    -webkit-transform:translateZ(0);
+    background: white;
+    position: fixed;
+    display:block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index:1;
+
+    box-shadow:0 1px 15px 3px rgba(0,0,0,0.5);
+}
+.curtains>li.cover{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+.curtains>li.hidden{display:none;}
+.curtains>li:first-child{z-index:2;}
+
+
+
 /* --- Article #1 ---- */
 
+  .lucia-interview a {
+      -webkit-transition: color .25s ease-out;
+      -moz-transition: color .25s ease-out;
+      -o-transition: color .25s ease-out;
+      transition: color .25s ease-out;
+  }
   .lucia-interview a, .lucia-interview a:visited {
     text-decoration: none;
     font-weight:normal;
@@ -11,6 +57,69 @@
 	color: #888;
 	border-bottom: 1px solid #ffaea4;
   }
+
+  .container {
+
+  }
+
+
+.navbar-inner {
+    padding-bottom:50px;
+}
+
+#intro-wrap {
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+}
+#intro {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    background-color: #272425;
+    z-index: 10;
+}
+#intro-inner{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center center;
+    background-repeat:no-repeat;
+    position:relative;
+    height:100%;
+    z-index:10;
+    text-shadow:1px 1px 3px rgba(0,0,0,0.3)
+}
+.below-intro #intro-inner {
+    -webkit-background-size: auto;
+    background-size: auto;
+    display: none;
+}
+.caption {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+#enticer-wrap {
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    z-index: 10;
+}
+#enticer {
+    display: block;
+}
+.interview {
+    position:relative;
+}
+
+
 
 
   /* Article > Header */
@@ -130,21 +239,46 @@ section h2 {
 
   /* Article > #Opening */
 
-  #opening{
+  .fullscreen img {
+    width:100%;
+    min-height: 500px;
+    min-width: 748px;
+  }
+
+.fullscreen .arrow {
+    z-index: 1;
+}
+.fullscreen .info-panel {
+    width:370px;
+    top:50%;
+}
+
+  .opening{
     font-style: italic;
     background: #f3f3f3;
     font-size:1.2em;
     color:#444;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+      background-attachment:fixed;
+      background-position:center center;
+      background-repeat:no-repeat;
+      position:relative;
+      height:100%;
+      z-index:10;
   }
 
-  #opening figure{
+  .opening figure{
     display: inline-block;
     width:100%;
     margin:0;
     padding:0;
   }
 
-  #opening figure img{
+
+  .opening figure img{
     width:100%;
   }
 
@@ -185,6 +319,9 @@ section h2 {
     line-height: 1.7em;
   }
 
+.info-panel p.last, .notable-person p.last{
+    margin-bottom:0;
+}
   .notable-person h3, .info-panel h3{
     line-height:1.5em;
     margin-bottom:0.429em;
@@ -309,6 +446,7 @@ section h2 {
     margin:0;
     margin-bottom:0.75em;
     font-weight: normal;
+    font-weight: bold;
   }
   
   #neha-khera figure{
@@ -329,8 +467,10 @@ section h2 {
     /* pull quote should have 90px-ish margin (90/14 = ~6) */
     margin-bottom:6em;
     margin-top:4.5em; /* <p> has 1.5em bottom margin so this counteracts that */
-    background-color:#f3f3f3;
+    background-color:#FF3818;
     display:block;
+    overflow:hidden;
+    position: relative;
   }
   
   /* pull quote in the last row is followed by a new section */
@@ -341,11 +481,15 @@ section h2 {
     margin-bottom:3.5em;
 
   }
-  
-  .pull-quote .quote{
-    background-color:#f3f3f3;
-    width:94%; /* quote and quote mark must add to 100% */
+
+#profile-image {
     float:left;
+    width:125px;
+    position: relative;
+}
+
+  .pull-quote .quote{
+    width:100%;
   }
 
 
@@ -353,20 +497,19 @@ section h2 {
   .pull-quote .quote h2{
     margin:0;
     line-height:1.429em;
-    padding:0.714em;
+    padding:0.5em 0.714em 0.714em 0.714em;
+    background-color: #f3f3f3;
+    margin-right:50px;
   }
   
   .pull-quote .quote-mark{
     color:white;
     background-color:#FF3818;
-    height:8.571em;
-    margin-left:2%;
-    width:3%;  /* quote and quote mark must add to 100% */
-    float:left;
-    vertical-align: middle;
+    position:absolute;
     text-align: center;
-    padding:0 0.5%;
-    
+    padding:0;
+    top:0.5em;
+    right:7px;
   }
 
   .pull-quote .quote-mark img{
@@ -397,18 +540,18 @@ section h2 {
   }
   
   .callout-question .new-line{
-    clear:left;
     margin-left:0;
   }
 
   .callout-question #question-prompt{
     background-color:#FF3818;
-    padding:0.5em;
-    text-align: center;
+    padding:0.7em 1em 0.8em;
+    text-align: left;
   }
 
   #question-prompt h3{
     font-size:1.4em;
+      line-height: 1.4em;
     color:white;
     margin:0;
     font-weight:normal;
@@ -423,17 +566,30 @@ section h2 {
   }
 
   .callout-question h4 {
-    font-size: 2.1em;
-    margin-top: 1.1em;
-    line-height: 1.6em;
+    font-size: 1.857em;
+    margin-top: 1em;
+    line-height: 1.429em;
     position:relative;
-    left:-0.5em;
+    margin-right:70px;
   }
 
-  .callout-question #quote-mark{
+ callout-question {
+    position: relative;
+}
+.callout-question #quote-mark{
+    position: absolute;
+    top:1em;
+    right: 15px;
+    width:38px;
+    height:23px;
+    margin:0;
     font-size: 2.1em;
-    margin-top: 1.25em;
-  }
+}
+.callout-question #question-details {
+    position: relative;
+    clear:left;
+    overflow: hidden;
+}
   
   #call-to-action p{
     padding-top:1em;
@@ -454,83 +610,138 @@ section h2 {
     z-index: 2;
   }
 
-@media(min-width:768px) and (max-width:979px) {
+/* Portrait Tablet */
+
+@media(min-width:767px) and (max-width:979px) {
     .lucia-interview h1 {
+        position:relative;
+        top:0.286em;
         font-size:3em;
     }
-    section h2 {
-        font-size:1.5em;
+    .callout-question h4 {
+        font-size:1.8em;
+        line-height: 1.571em;
+    }
+
+
+}
+
+@media(min-width:1200px){
+    .callout-question h4 {
+        line-height: 1.6em;
+        font-size: 2em;
     }
 }
+
+/* Portrait Tablet */
 @media(max-width:767px){
+    .navbar {
+        padding-bottom: 0;
+    }
     .lucia-interview h1 {
-        font-size:1em;
+        font-size:3em;
+        position:relative;
+        top:0.286em;
+    }
+    .container {
+        -webkit-transition: none;
+        -moz-transition: none;
+        transition: none;
+    }
+    #opening {
+        margin:0 0 1.429em;
+    }
+    .container {
+        padding-left:0;
+    }
+
+
+    section#introduction {
+        margin:0 0 2em;
+    }
+    section, article header {
+        margin:0;
+        padding:0 2em;
+    }
+    article header.row {
+        margin-bottom:0;
     }
     section h2 {
-        font-size:1.429em;
+        font-size:1.786em;
     }
-}
-.navbar-inner {
-	padding-bottom:50px;
-}
+    section h3 {
+        line-height: 1.571em;
+        margin-bottom:1em;
+    }
+    #question-prompt h3 {
+        line-height: 1.357em;
+    }
+    .row {
+        margin: 0 0 2em;
+    }
+    #start-tag, #end-tag {
+        display:none;
+    }
+    .pull-quote {
+        margin:3em 0 2.571em;
+    }
 
-#logo {
-	position: fixed;
-	z-index: 1;
-	width: 100px;
-	height: 115px;
-	top: 0px;
-	left: 20px;
-}
-#intro-wrap {
-    min-height: 100%;
-    height: 100%;
-    position: relative;
-}
-#intro {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100%;
-    height: 100%;
-    background-color: #272425;
-    z-index: 10;
-}
-#intro-inner{
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	background-attachment:fixed;
-	background-position:center center;
-	background-repeat:no-repeat;
-	position:relative;
-	height:100%;
-	z-index:10;
-	text-shadow:1px 1px 3px rgba(0,0,0,0.3)
-}
-.below-intro #intro-inner {
-    -webkit-background-size: auto;
-    background-size: auto;
-    display: none;
-}
-.caption {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
-#enticer-wrap {
-    position: absolute;
-    bottom: -5px;
-    width: 100%;
-    z-index: 10;
-}
-#enticer {
-    display: block;
-}
-.interview {
-	position:relative;
-}
+    .callout-question h4 {
+        margin:1em 3em 1em 1em;
+        left:auto;
+        font-size:1.786em;
+        line-height: 1.429em;
+    }
+    .notable-person {
+        width:50%;
+        float:left;
+        overflow: hidden;
+    }
+    .notable-person figure, .info-panel aside{
+        position:relative;
+        width:auto;
+        top:auto;
+    }
+    .notable-person figure {
+        margin:0 2em 1em 0;
+        top:1.357em;
+    }
+    .interview-panel p {
+        margin-bottom:1.071em;
+        line-height: 1.857em;
+    }
+    .info-panel aside {
+        margin:1.429em 0 4.643em;
+    }
+    .info-panel p, .notable-person p {
+        font-size:1.143em;
+    }
+    .notable-person figcaption {
+        float: none;
+        width:100%;
+        margin:0;
+    }
+    .notable-person .arrow {
+        display: none;
+    }
+    .notable-person h3, .info-panel h3 {
+        font-size:1.286em;
+        line-height: 1.286em;
+        margin:0 0 0.357em;
+    }
+    .notable-person h4 {
+        font-size:1.143em;
+        line-height: 1.429em;
+        margin:0;
+        position: relative;
+        top: -0.214em;
+    }
+    .notable-person img {
+      width:100px;
+      margin: 0.357em 1.429em 0.714em 0;
+    }
+    .info-panel .arrow {
+        display:none;
+    }
 
+}
