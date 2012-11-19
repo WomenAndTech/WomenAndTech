@@ -22,7 +22,7 @@ if(is_home()||is_single()):
   else:
     $prev_image_url=get_template_directory_uri().'/assets/img/ftr-The-Plan-grey.png';
     $prev_url="the-plan";
-    $left_headline = "See Our Plan";
+    $left_headline = "The Plan";
   endif; //previous interview
 
 //Case 2:
