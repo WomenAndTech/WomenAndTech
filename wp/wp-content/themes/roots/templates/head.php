@@ -20,4 +20,7 @@
   <?php if (have_posts()) : ?>
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url() ?>/feed/">
   <?php endif; ?>
+
+  <?php get_template_part('templates/social-graph-meta'); ?>
+
 </head>
