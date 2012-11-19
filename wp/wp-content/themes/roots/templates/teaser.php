@@ -10,6 +10,7 @@
 */
 
 //Case 1:
+$left_headline = "Past Interviews";
 if(is_home()||is_single()):
   $post=get_adjacent_post(false,'',true,'interview');
   if($post):
@@ -19,8 +20,9 @@ if(is_home()||is_single()):
     $prev_url=get_permalink();
     wp_reset_postdata();
   else:
-    $prev_image_url=get_template_directory_uri().'/assets/img/no-previous-teaser.jpg';
-    $prev_url="#"; 
+    $prev_image_url=get_template_directory_uri().'/assets/img/ftr-The-Plan-grey.png';
+    $prev_url="the-plan";
+    $left_headline = "See Our Plan";
   endif; //previous interview
 
 //Case 2:
@@ -49,7 +51,7 @@ else:
 <?php
 
 //NEXT INTERVIEW
-$args = array( 'post_type' => 'interview', 'showposts' => 1, 'post__not_in' => $ids, 'post_status' => array('future') );
+$args = array( 'post_type' => 'interview', 'showposts' => 1, 'post__not_in' => $ids, 'post_status' => array('future'), 'orderby' => 'date', 'order' => 'ASC' );
 
 $loop = new WP_Query( $args ); ?>
 
@@ -70,7 +72,7 @@ $loop = new WP_Query( $args ); ?>
   
   <div class="span4" id='past-interviews-teaser'>
     <a href="<?php echo $prev_url; ?>">
-    <h3>Past Interviews</h3>
+    <h3><?php echo $left_headline; ?></h3>
     <div class="teaser-block">
       <img src="<?php echo $prev_image_url; ?>">
     </div>
