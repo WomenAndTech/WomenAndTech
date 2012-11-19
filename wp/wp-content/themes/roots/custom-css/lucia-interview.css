@@ -29,7 +29,6 @@ html{
     min-height: 100%;
     overflow: hidden;
     z-index:1;
-
     box-shadow:0 1px 15px 3px rgba(0,0,0,0.5);
 }
 .curtains>li.cover{
@@ -44,6 +43,9 @@ html{
 .curtains>li.curtain-hidden{display:none;}
 .curtains>li:first-child{z-index:2;}
 
+.interview-intro {
+    margin-top: 130px;
+}
 .table-of-contents {
     background-color:#f3f3f3;
     padding:0.5em 0;
@@ -95,15 +97,9 @@ html{
     padding-bottom: 0;
 }
 
-.navbar-inner {
-    padding-bottom:50px;
-}
-
 .interview {
     position:relative;
 }
-
-
 
 
   /* Article > Header */

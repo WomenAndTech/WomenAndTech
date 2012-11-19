@@ -1,17 +1,14 @@
-<header class="navbar" role="banner">
+<header class="navbar navbar-fixed-top" role="banner">
   <div class="navbar-inner">
-    <div class="container-fluid">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
+    <div class="container">
+
   <!-- /wp/wp-content/themes/roots/assets/ -->
-  <div id="logo">
-    <div id="womenandtech-logo" style="width: 228px; height: 115px"></div>
-  </div>
-      <a class="brand" href="<?php echo home_url(); ?>/">  
-	 	
+
+    <a class="brand" href="<?php echo home_url(); ?>/">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-womenandtech.png" alt="Women &amp;&amp; Tech">
+    </a>
+
+
       </a>      
       <div class="right">
         <div class="contact">
@@ -25,7 +22,7 @@
             </a>
           </p>
         </div>
-        <nav id="nav-main" class="nav-collapse" role="navigation">
+        <nav id="nav-main" role="navigation">
           <?php
             if (has_nav_menu('primary_navigation')) :
               wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav'));
