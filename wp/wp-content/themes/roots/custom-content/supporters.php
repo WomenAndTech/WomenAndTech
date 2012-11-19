@@ -18,57 +18,75 @@
 			<div class="span9">
 				<div id="members">
 					<div class="member">
+					<a href="#nomination-form" data-href="#nomination-form" data-toggle="modal">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/you.png" />
 						<h3>The Community</h3>
 						<p>Nominate someone</p>
+					</a>
 					</div>
 
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/cassie.png" />
-						<h3>Cassie McDaniel</h3>
-						<p>Design, Copy, Vision</p>
+						<a href="http://twitter.com/cassiemc" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/cassie.png" />
+							<h3>Cassie McDaniel</h3>
+							<p>Design, Copy, Vision</p>
+						</a>
 					</div>
 
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/mark.png" />
-						<h3>Mark Staplehurst</h3>
-						<p>Design and front-end</p>
+						<a href="http://twitter.com/britburger" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/mark.png" />
+							<h3>Mark Staplehurst</h3>
+							<p>Design and front-end</p>
+						</a>
 					</div>
 
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brett.png" />
-						<h3>Brett Bergmann</h3>
-						<p>Backend dev</p>
+						<a href="http://twitter.com/brttb" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brett.png" />
+							<h3>Brett Bergmann</h3>
+							<p>Backend dev</p>
+						</a>
 					</div>
 
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ivonne.png" />
-						<h3>Ivonne Karamoy</h3>
-						<p>Illustration, Outreach</p>
+						<a href="http://twitter.com/ivonnekn" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ivonne.png" />
+							<h3>Ivonne Karamoy</h3>
+							<p>Illustration, Outreach</p>
+						</a>
 					</div>
 
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/milan.png" />
-						<h3>Milan Gokhale</h3>
-						<p>Social Media, Strategy</p>
+						<a href="http://twitter.com/milang" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/milan.png" />
+							<h3>Milan Gokhale</h3>
+							<p>Social Media, Strategy</p>
+						</a>
 					</div>
 					
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ray.png" />
-						<h3>Ray Kao</h3>
-						<p>Web and mobile dev</p>
+						<a href="http://twitter.com/raykao" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ray.png" />
+							<h3>Ray Kao</h3>
+							<p>Web and mobile dev</p>
+						</a>
 					</div>
 					
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/lucia.png" />
-						<h3>Lucia Mariani-Vena</h3>
-						<p>Advisor</p>
+						<a href="http://twitter.com/feastinc" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/lucia.png" />
+							<h3>Lucia Mariani-Vena</h3>
+							<p>Advisor</p>
+						</a>
 					</div>
 					
 					<div class="member">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brenna.png" />
-						<h3>Brenna O'Brien</h3>
-						<p>Development</p>
+						<a href="http://twitter.com/brennaob" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brenna.png" />
+							<h3>Brenna O'Brien</h3>
+							<p>Development</p>
+						</a>
 					</div>
 
 					<div class="member with_heart">
