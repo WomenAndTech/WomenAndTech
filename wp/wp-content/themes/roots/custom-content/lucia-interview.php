@@ -1,6 +1,6 @@
 <ol class="curtains">
     <li>
-        <div class="container">
+        <div class="container interview-intro">
           <header class="row">
             <div class="span9">
               <div class="interview-number">1</div>

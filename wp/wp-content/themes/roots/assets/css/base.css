@@ -156,7 +156,6 @@ h4 {
 
 .navbar .nav{
   margin:0 0 0 0;
-  padding-top:10px;
   float: right;
 }
 
@@ -169,7 +168,7 @@ line-height: 2em
   color:#fff;
   font-size:20px;
   font-style:italic;
-  border-bottom:2px solid #fcb8ab;
+
   padding:0 3px;
   margin:0 0 0 20px;
   text-shadow:none;
@@ -177,6 +176,7 @@ line-height: 2em
 
 .navbar .nav > li > a:hover{
   color:#fcb8ab;
+    border-bottom:2px solid #fcb8ab;
 }
   /* overwrite bootstrap */
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
