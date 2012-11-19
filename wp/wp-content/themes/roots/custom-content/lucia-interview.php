@@ -1,5 +1,5 @@
 <ol class="curtains">
-    <li data-name="screen-1">
+    <li>
         <div class="container">
           <header class="row">
             <div class="span9">
@@ -27,8 +27,26 @@
 
         </div>
 
-    <div class="fullscreen">
+    <div id="portrait" class="fullscreen">
        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-vena-large.jpg" />
+    </div>
+    <div class="table-of-contents">
+        <div class="container">
+            <div class="row">
+                <div class="span4">
+                    <div class="row" id="coffee-time">
+                        <div class="span1">
+                            <div id="coffee-animation" style="width: 76px; height: 76px" class="swiffy"></div></div>
+                            <div class="span3"><p class="last">At 8:30pm, after Lucia puts her kids to bed, we meet for a coffee.</p></div>
+                        </div>
+                    </div>
+                <div class="span8">
+                    <div class="illustrations">
+                        <div id="table-of-contents-animation" style="width: 770px; height: 190px" class="swiffy"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="container">
       <section class="row">
@@ -68,20 +86,21 @@
       </section>
       </div>
 </li>
-<li data-name="screen-3">
+<li>
     <div class="fullscreen">
-        <div class="container">
-             <div class="info-panel parallax" rel="0.4">
-                 <aside>
-                     <div class="arrow"></div>
-                     <h3>Quarterly GIT events</h3>
-                     <p class="last">Girls in Tech, co-run by Lucia, provides a forum where women share projects they are passionate about. Helen Kula, shown here, works at MaRs innovation centre wrangling data for startups</p>
-                 </aside>
-             </div>
-         </div>
 
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-2.jpg" />
-
+        <div class="parallax">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-2.jpg" />
+            <div class="container">
+                             <div class="info-panel">
+                                 <aside>
+                                     <div class="arrow"></div>
+                                     <h3>Quarterly GIT events</h3>
+                                     <p class="last">Girls in Tech, co-run by Lucia, provides a forum where women share projects they are passionate about. Helen Kula, shown here, works at MaRs innovation centre wrangling data for startups</p>
+                                 </aside>
+                             </div>
+                         </div>
+        </div>
     </div>
 <!--
     <div id="opening" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-2.jpg')">
@@ -253,7 +272,17 @@
       </section>
 
       <section class="row">
-        <div class="span7 offset4 interview-panel">
+      <div class="span4 notable-person photo-callout">
+      <figure class="first-row">
+                  <div class="arrow"></div>
+                   <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/the-atlantic-why-women-still-cant-have-it-all.jpg" / ></a>
+                  <figcaption class="clear">
+                  <p class="last">In The Atlantic, Anne-Marie Slaughter takes issue with feminism's promise that women can have it all. <em>Photo credit: <a href="http://www.facebook.com/photo.php?fbid=10151061851508487&set=pb.29259828486.-2207520000.1353282766&type=3&theater">Facebook.com/The Atlantic</a></em></p>
+                  </figcaption>
+                  <div style="clear:both"></div>
+                </figure>
+              </div>
+        <div class="span7 interview-panel">
           <h3>
             Anne-Marie Slaughter’s
             <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/" target=_blank>article in The Atlantic</a>
@@ -291,7 +320,7 @@
         </div>
       </section>
 </li>
-<li data-name="screen-4">
+<li>
     <div class="fullscreen">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-photo-3.JPG" />
     </div>
@@ -368,7 +397,7 @@
       </div>
       </li>
 
-<li data-name="screen-6">
+<li>
     <!--
     <div id="opening" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-1.JPG')">
       <figure class='full_width'></figure>
@@ -435,15 +464,3 @@
     </div>
 </li>
 </ol>
-
-<script>
-    $(function(){
-       $('.curtains').curtain({
-           scrollSpeed: 300,
-           controls: '.menu',
-           curtainLinks: '.curtain-links',
-           nextSlide: function(){
-           }
-       });
-    });
-</script>
