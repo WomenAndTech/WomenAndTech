@@ -474,6 +474,7 @@
 
   .past-listing p{
     padding-bottom:1em;
+    margin-top:0;
   }
 
   .past-listing .title-block{
@@ -491,7 +492,7 @@
   .past-listing{
     font-size: 12px;
     width: 325px;
-    height: 40.5em;
+    height: 38.5em;
     line-height: 2em;
     margin-bottom:20px;
   }
@@ -506,7 +507,7 @@
 @media (min-width: 980px) and (max-width: 1199px) {
 
   .past-listing{
-    height: 40.5em;
+    height: 38em;
   }
 
   .past-listing h2{
