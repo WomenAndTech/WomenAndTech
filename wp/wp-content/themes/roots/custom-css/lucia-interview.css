@@ -2,6 +2,14 @@ html{
     height: 100%;
     overflow-x: hidden;
 }
+::selection {
+    background: #ffaea4; /* Safari */
+    color:#ffffff;
+}
+::-moz-selection {
+    background: #ffaea4; /* Firefox */
+    color:#ffffff;
+}
 
 .curtains{
     width: 100%;
@@ -33,12 +41,30 @@ html{
     background-position:center center;
     background-repeat:no-repeat;
 }
-.curtains>li.hidden{display:none;}
+.curtains>li.curtain-hidden{display:none;}
 .curtains>li:first-child{z-index:2;}
 
-
+.table-of-contents {
+    background-color:#f3f3f3;
+    padding:0.5em 0;
+}
+#coffee-time {
+    padding:3em 0;
+}
+#coffee-time p {
+    font-size: 1.214em;
+    line-height: 1.571em;
+    margin-right:1em;
+}
+#coffee-time p.last {
+    margin-bottom: 0;
+}
+.illustrations {
+    position: relative;
+}
 
 /* --- Article #1 ---- */
+
 
   .lucia-interview a {
       -webkit-transition: color .25s ease-out;
@@ -58,63 +84,21 @@ html{
 	border-bottom: 1px solid #ffaea4;
   }
 
-  .container {
-
-  }
-
+.lucia-interview footer a, .lucia-interview footer a:visited  {
+    color:#FCB8AB;
+    border-bottom: none;
+    padding-bottom: 0;
+   }
+.lucia-interview footer a:hover {
+    color:#FF3818;
+    border-bottom: none;
+    padding-bottom: 0;
+}
 
 .navbar-inner {
     padding-bottom:50px;
 }
 
-#intro-wrap {
-    min-height: 100%;
-    height: 100%;
-    position: relative;
-}
-#intro {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100%;
-    height: 100%;
-    background-color: #272425;
-    z-index: 10;
-}
-#intro-inner{
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-attachment:fixed;
-    background-position:center center;
-    background-repeat:no-repeat;
-    position:relative;
-    height:100%;
-    z-index:10;
-    text-shadow:1px 1px 3px rgba(0,0,0,0.3)
-}
-.below-intro #intro-inner {
-    -webkit-background-size: auto;
-    background-size: auto;
-    display: none;
-}
-.caption {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
-#enticer-wrap {
-    position: absolute;
-    bottom: -5px;
-    width: 100%;
-    z-index: 10;
-}
-#enticer {
-    display: block;
-}
 .interview {
     position:relative;
 }
@@ -248,9 +232,13 @@ section h2 {
 .fullscreen .arrow {
     z-index: 1;
 }
+.fullscreen .parallax {
+    position:relative;
+}
 .fullscreen .info-panel {
-    width:370px;
-    top:50%;
+    width: 370px;
+    top: 15%;
+    position: absolute;
 }
 
   .opening{
@@ -331,10 +319,14 @@ section h2 {
     font-family:'Arvo', serif;
   }
 
-  .notable-person a, .info-panel a{
-    text-decoration: underline;
-  }
 
+.lucia-interview .notable-person a, .lucia-interview .info-panel a, .lucia-interview .notable-person a:visited, .lucia-interview .info-panel a:visited, .lucia-interview .info-panel a:hover, .lucia-interview .info-panel a:hover {
+    border-bottom: none;
+}
+.lucia-interview .notable-person a:hover, .lucia-interview .info-panel a:hover, {
+    text-decoration: underline;
+
+}
 
   .arrow,
   .arrow:after {
@@ -595,7 +587,24 @@ section h2 {
     padding-top:1em;
     font-style:italic;
   }
-
+.photo-callout p {
+    font-style: italic;
+    font-size: 0.9em;
+    line-height:1.7em;
+}
+.photo-callout p em {
+    font-size: 0.9em;
+}
+.photo-callout img {
+    float:none;
+    width: 100%;
+}
+.photo-callout figcaption {
+    float: none;
+    width:100%;
+    padding-top:0.7em;
+    margin: 0;
+}
 /* End Tag */
   
   #end-tag{
@@ -618,25 +627,66 @@ section h2 {
         top:0.286em;
         font-size:3em;
     }
-    .callout-question h4 {
-        font-size:1.8em;
-        line-height: 1.571em;
-    }
 
 
 }
-
 @media(min-width:1200px){
     .callout-question h4 {
         line-height: 1.6em;
         font-size: 2em;
     }
+    #coffee-time p {
+        font-size: 1.429em;
+        line-height: 1.571em;
+    }
 }
+@media(max-width:979px){
 
-/* Portrait Tablet */
+    .table-of-contents {
+        padding-top:0;
+        margin-bottom: 2em;
+    }
+    .table-of-contents .container {
+        width:100%;
+    }
+    .table-of-contents .container .row {
+        margin-left:0;
+    }
+    .table-of-contents .span4, .table-of-contents .span4 .span1, .table-of-contents .span4 .span3, .table-of-contents .span8 {
+        display:block;
+        float:none;
+        width:100%;
+        margin-left:0;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+    .table-of-contents .span4 .span1 {
+        float: left;
+        margin: 0 2em;
+        width: 55px;
+    }
+    .table-of-contents .illustrations {
+        margin:0.5em 2em 1em;
+    }
+    .callout-question h4 {
+        font-size:1.8em;
+        line-height: 1.571em;
+    }
+    #coffee-time {
+        background-color:#ffffff;
+        border-top:3px solid #FFAEA4;
+        padding:0.5em 0 1em;
+    }
+    #coffee-time p {
+        font-size:1.3em;
+        margin:1em;
+    }
+    }
+/* Mobile Fluid */
 @media(max-width:767px){
     .navbar {
-        padding-bottom: 0;
+        padding: 0;
     }
     .lucia-interview h1 {
         font-size:3em;
@@ -716,10 +766,16 @@ section h2 {
     .info-panel p, .notable-person p {
         font-size:1.143em;
     }
-    .notable-person figcaption {
+    .notable-person figcaption, .photo-callout figcaption {
         float: none;
         width:100%;
         margin:0;
+    }
+    .photo-callout figcaption {
+        padding:0;
+    }
+    .photo-callout figcaption p {
+        font-size: 1em;
     }
     .notable-person .arrow {
         display: none;
@@ -736,12 +792,60 @@ section h2 {
         position: relative;
         top: -0.214em;
     }
-    .notable-person img {
+    .notable-person img, .photo-callout img {
       width:100px;
       margin: 0.357em 1.429em 0.714em 0;
     }
+    .photo-callout img {
+        float:left;
+    }
     .info-panel .arrow {
         display:none;
+    }
+    .curtains > li {
+        height:auto !important;
+        position: relative !important;
+        -webkit-transform:none !important;
+        box-shadow: none !important;
+        margin:0 !important;
+    }
+    .curtains > li.curtain-hidden {
+        display: block !important;
+    }
+    body {
+        height:auto !important;
+    }
+    .fullscreen .parallax {
+        position: relative;
+        height:500px;
+    }
+    .fullscreen .info-panel {
+        top:auto;
+        bottom:0;
+        width:100%;
+        display: block;
+        margin: 0;
+    }
+    .fullscreen .info-panel aside {
+        margin: 0;
+    }
+    .fullscreen .info-panel p {
+        font-size: 1em;
+    }
+    .fullscreen {
+        position: relative;
+        height:500px;
+        margin-bottom: 2em;
+    }
+    .fullscreen img {
+        position: absolute;
+        top:0;
+        left: 50%;
+        width:100%;
+        margin-left: -374px;
+    }
+    #portrait {
+        margin-bottom: 0;
     }
 
 }
