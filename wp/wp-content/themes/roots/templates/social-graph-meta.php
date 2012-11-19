@@ -34,3 +34,5 @@
 <meta name="twitter:image" value="<?php echo $twitter_image; ?>" />
 <meta name="twitter:site" value='<a href="http://twitter.com/womenandtech" target="_blank" rel="nofollow">@womenandtech</a>' />
 <meta name="twitter:creator" value="@womenandtech" />
+
+<meta name="description" content="<?php echo strip_tags($social_description[0]); ?>">
