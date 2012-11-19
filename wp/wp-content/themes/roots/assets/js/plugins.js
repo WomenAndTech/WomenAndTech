@@ -66,6 +66,66 @@ a.x+","+a.y+")";else if(l=this._target.currentStyle){c=d;d=-e;e=-c;c=l.filter;th
 k):k+" "+c;if(0===b||1===b)if(1===g&&0===d&&0===e&&1===i&&(!s||-1!==k.indexOf("Dx=0, Dy=0")))(!L.test(c)||100===parseFloat(RegExp.$1))&&this._style.removeAttribute("filter")}}if(this._classData)if(a=this._classData,1===b&&(this._tween._time===this._tween._duration||0===this._tween._time)){for(f=a.props.length;-1<--f;)this._style[a.props[f]]="";this._target.className=a.e}else this._target.className!==a.b&&(this._target.className=a.b)};u._kill=function(b){var a=b,g;if(b.autoAlpha||b.alpha){a={};for(g in b)a[g]=
 b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(this,a)};C.activate([m]);return m},!0)});window._gsDefine&&_gsQueue.pop()();
 
+/*
+ * jquery.inview
+*/
+(function(d){var p={},e,a,h=document,i=window,f=h.documentElement,j=d.expando;d.event.special.inview={add:function(a){p[a.guid+"-"+this[j]]={data:a,$element:d(this)}},remove:function(a){try{delete p[a.guid+"-"+this[j]]}catch(d){}}};d(i).bind("scroll resize",function(){e=a=null});!f.addEventListener&&f.attachEvent&&f.attachEvent("onfocusin",function(){a=null});setInterval(function(){var k=d(),j,n=0;d.each(p,function(a,b){var c=b.data.selector,d=b.$element;k=k.add(c?d.find(c):d)});if(j=k.length){var b;
+    if(!(b=e)){var g={height:i.innerHeight,width:i.innerWidth};if(!g.height&&((b=h.compatMode)||!d.support.boxModel))b="CSS1Compat"===b?f:h.body,g={height:b.clientHeight,width:b.clientWidth};b=g}e=b;for(a=a||{top:i.pageYOffset||f.scrollTop||h.body.scrollTop,left:i.pageXOffset||f.scrollLeft||h.body.scrollLeft};n<j;n++)if(d.contains(f,k[n])){b=d(k[n]);var l=b.height(),m=b.width(),c=b.offset(),g=b.data("inview");if(!a||!e)break;c.top+l>a.top&&c.top<a.top+e.height&&c.left+m>a.left&&c.left<a.left+e.width?
+        (m=a.left>c.left?"right":a.left+e.width<c.left+m?"left":"both",l=a.top>c.top?"bottom":a.top+e.height<c.top+l?"top":"both",c=m+"-"+l,(!g||g!==c)&&b.data("inview",c).trigger("inview",[!0,m,l])):g&&b.data("inview",!1).trigger("inview",[!1])}}},250)})(jQuery);
+
+
+
+(function($) {
+
+    $.fn.fitSwiffy = function() {
+
+        var div = document.createElement('div'),
+            ref = document.getElementsByTagName('base')[0] || document.getElementsByTagName('script')[0];
+
+        div.className = 'fit-swiffy-style';
+        div.innerHTML = '­<style> \
+        .fluid-width-swiffy-wrapper { \
+        width: 100%; \
+        position: relative; \
+        padding: 0; \
+        } \
+        \
+        .fluid-width-swiffy-wrapper > div { \
+            position: absolute; \
+            top: 0; \
+            left: 0; \
+            width: 100%; \
+            height: 100%; \
+            } \
+        </style>';
+
+        ref.parentNode.insertBefore(div, ref);
+
+        return this.each(function() {
+
+            var selectors = [".swiffy"];
+
+            var $allSwiffys = $(this)
+                .find(selectors.join(','));
+
+            $allSwiffys.each(function() {
+                var $this = $(this),
+                    height = $this.height(),
+                    aspectRatio = height / $this.width();
+                $this.wrap('<div class="fluid-width-swiffy-wrapper" />')
+                    .parent('.fluid-width-swiffy-wrapper')
+                    .css('padding-top', (aspectRatio * 100) + "%");
+                $this.removeAttr('height')
+                    .removeAttr('width')
+                .css({
+                        width: '',
+                        height: ''
+                    });;
+            });
+        });
+
+    }
+})(jQuery);
 
 /*
  * Curtain.js - Create an unique page transitioning system
@@ -111,7 +171,6 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
     Plugin.prototype = {
         init: function () {
             var self = this;
-
             // Cache element
             this.$element = $(this.element);
             this.$li = $(this.element).find('>li');
@@ -169,10 +228,12 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
 
                 if(!self.options.mobile){
                     if(self.$li.eq(1).length)
-                        self.$li.eq(1).nextAll().addClass('hidden');
+                        self.$li.eq(1).nextAll().addClass('curtain-hidden');
                 }
 
                 self.setEvents();
+                self.setDimensions();
+                self.scrollEvent();
                 self.setLinks();
                 self.isHashIsOnList(location.hash.substring(1));
             };
@@ -240,6 +301,8 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
             var self = this,
                 docTop = self.$document.scrollTop();
 
+             self.setCache();
+
             if(docTop < self.currentP && self.currentIndex > 0){
                 // Scroll to top
                 self._ignoreHashChange = true;
@@ -250,8 +313,8 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
                 self.$current
                     .removeClass('current')
                     .css( (self.webkit) ? {'-webkit-transform': 'translateY(0px) translateZ(0)'} : {marginTop: 0} )
-                    .nextAll().addClass('hidden').end()
-                    .prev().addClass('current').removeClass('hidden');
+                    .nextAll().addClass('curtain-hidden').end()
+                    .prev().addClass('current').removeClass('curtain-hidden');
 
                 self.setCache();
                 self.options.prevSlide();
@@ -319,8 +382,8 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
                     self.setHash(self.$current.next().attr('id'));
 
                 self.$current.removeClass('current')
-                    .addClass('hidden')
-                    .next('li').addClass('current').next('li').removeClass('hidden');
+                    .addClass('curtain-hidden')
+                    .next('li').addClass('current').next('li').removeClass('curtain-hidden');
 
                 self.setCache();
                 self.options.nextSlide();
@@ -357,7 +420,6 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
                 }
 
             } else {
-
                 // Scroll bottom
                 self._ignoreHashChange = true;
                 if(self.$current.next().attr('id'))
@@ -413,6 +475,7 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
                         .attr('data-height',height)
                         .attr('data-position',levelHeight);
 
+
                     self.$elDatas[$self.index()] = {
                         'data-height': parseInt(height, 10),
                         'data-position': parseInt(levelHeight, 10)
@@ -434,6 +497,7 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
 
             $(window).on('resize', function(){
                 self.setDimensions();
+                self.scrollEvent();
             });
 
             if(self.options.mobile) {
@@ -515,7 +579,6 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
         },
         setBodyHeight: function(){
             var h = 0;
-
             for (var key in this.$elDatas) {
                 var obj = this.$elDatas[key];
                 h += obj['data-height'];
