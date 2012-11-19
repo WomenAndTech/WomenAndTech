@@ -589,7 +589,7 @@ footer{
 
 
   .past-listing{
-   height: 40em;
+   height: 38em;
    background-color:#f3f3f3;
    margin-bottom:30px;
   }
@@ -622,10 +622,11 @@ footer{
 
   .past-listing > p{
     clear:both;
+    margin-top: 0.5em;
   }
 
   .past-listing .title-block{
-    height:9em;
+    /*height:7em;*/
   }
 
   .past-listing .author a{
