@@ -1,6 +1,6 @@
 <ol class="curtains">
     <li>
-        <div class="container interview-intro">
+        <div class="container">
           <header class="row">
             <div class="span9">
               <div class="interview-number">1</div>
@@ -12,7 +12,7 @@
                     An interview by
                     <a href="http://twitter.com/ivonnekn" rel="author" target="_blank"><strong>Ivonne Karamoy</strong></a>
                   </p>
-                  <p class='date'>November 20, 2012</p>
+                  <p class='date'>November 13, 2012</p>
                 </div>
               </address>
             </div>
@@ -51,18 +51,18 @@
     <div class="container">
       <section class="row">
         <div class="span4" id="start-tag">
-         <div id="start-animation" style="width: 300px; height: 90px"></div>
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/start-tag.png"/>
         </div>
         <div class="span7 interview-panel">
           <h3>Tell us a bit about yourself and how you got your start.</h3>
           <p>
-            I’ve been in the industry for about 10 years. I completed my Arts Management degree at the <a href="http://www.utoronto.ca/" title="University of Toronto official website">University of Toronto</a>. That was where I started in web design. They wanted someone with an artistic background who could learn to code on the fly. At the time, they were trying to get faculty members to publish their dissertations in electronic format so I started designing ebooks and educational websites. I eventually landed at St. George Campus working with the VP of Research doing web design and development to push out the exciting research that was happening at the university.
+            I’ve been in the industry for about 10 years. I completed my Arts Management degree at the University of Toronto. That was where I started in web design. They wanted someone with an artistic background who could learn to code on the fly. At the time, they were trying to get faculty members to publish their dissertations in electronic format so I started designing ebooks and educational websites. I eventually landed at St. George Campus working with the VP of Research doing web design and development to push out the exciting research that was happening at the university.
           </p>
           <p>
             I did my Masters in Information Systems part-time at U of T while I worked. That was an interesting program because it was funneled through the library program so you got to work with people from different disciplines like engineering, architecture, computer science and library science. We built prototypes for various interfaces and you had eight weeks to build something. It had an incubator kind of feel.
           </p>
           <p>
-            Around that time, I met my husband in an Intro to HTML class. Up to that point I had been hacking and learning everything on my own so I thought let’s go to college for a bit and learn some of the practical stuff. We now have two children together. When I took my leave at U of T, I jumped into his company, <a href="http://www.feastinteractive.com" title="Feast Interactive Inc.">Feast Interactive</a>. He had been doing a lot of web development for different brands and I thought he should really push the social media side of things, so I started doing digital strategy for him. Now I’m taking all of my experience and applying it to this company that we’re growing together.
+            Around that time, I met my husband in an Intro to HTML class. Up to that point I had been hacking and learning everything on my own so I thought let’s go to college for a bit and learn some of the practical stuff. We now have two children together. When I took my leave at U of T, I jumped into his company, Feast Interactive. He had been doing a lot of web development for different brands and I thought he should really push the social media side of things, so I started doing digital strategy for him. Now I’m taking all of my experience and applying it to this company that we’re growing together.
           </p>
         </div>
 
@@ -96,12 +96,17 @@
                                  <aside>
                                      <div class="arrow"></div>
                                      <h3>Quarterly GIT events</h3>
-                                     <p class="last">Girls in Tech, co-run by Lucia, provides a forum where women share projects they are passionate about. Helen Kula, shown here, works at MaRS innovation centre wrangling data for startups.</p>
+                                     <p class="last">Girls in Tech, co-run by Lucia, provides a forum where women share projects they are passionate about. Helen Kula, shown here, works at MaRs innovation centre wrangling data for startups</p>
                                  </aside>
                              </div>
                          </div>
         </div>
     </div>
+<!--
+    <div id="opening" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-2.jpg')">
+      <figure class='full_width'></figure>
+    </div>
+-->
 <div class="container">
       <section class="row">
 
@@ -127,7 +132,7 @@
             Not in Toronto. One late night I was looking for a group, a network of other women in tech to reach out to. I found this organization in the States: Girls in Tech, but I noticed there wasn’t a local chapter in Toronto. So I reached out to them and told them I’d be interested in starting one. At the same time, my partner Neha was also interested so we connected and decided to get it going.
           </p>
           <p>
-            We were seeing the same people saying the same things in conferences and we wanted to bring different people, different women to the table and give them an opportunity to showcase their work and present their ideas through Girls in Tech. It’s been about a year and a half and we’ve had six events so far. It’s really taken off. We have a good community and it keeps getting better.
+            We were seeing the same people saying the same things in conferences and we wanted to bring different people, different women to the table and give them an opportunity to showcase their work and present their ideas through Girls in Tech. It’s been about a year and we’ve had six events so far. It’s really taken off. We have a good community and it keeps getting better.
           </p>
         </div>
       </section>
@@ -153,7 +158,7 @@
               <a href="https://uwaterloo.ca/mechanical-mechatronics-engineering/people-profiles/mary-wells" target=_blank>
                 <h4>Mary Wells</h4>
               </a>
-              <p>University of Waterloo (one of Canada’s premier tech universities) Associate Dean, Outreach</p>
+              <p>University of Waterloo's Associate Dean, Outreach</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
@@ -280,7 +285,7 @@
         <div class="span7 interview-panel">
           <h3>
             Anne-Marie Slaughter’s
-            <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/" title="Why Women Can't Still Have It All by Anne-Marie Slaughter">article in The Atlantic</a>
+            <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/" target=_blank>article in The Atlantic</a>
             talks about how difficult it is for women to “have it all”.
             How have you been able to balance your career goals and your personal life?
           </h3>
@@ -303,7 +308,7 @@
         </div>
         <div class="span7 offset4 interview-panel">
           <p>
-            Now the kicker for me is my daughter was born with moderate hearing loss. She’s almost a year now. She wears hearing aids. So one parent has to take on that role of early educator. We have to train her brain to listen with the hearing aids. She’s pretty much learning the basics of language and breaking words down to the simplest sounds and then building on that. Somebody needs to be there with her to help her do that, which makes things more complicated.
+            Now the kicker for me is my daughter was born with moderate hearing loss. She’s seven months now. She wears hearing aids. So one parent has to take on that role of early educator. We have to train her brain to listen with the hearing aids. She’s pretty much learning the basics of language and breaking words down to the simplest sounds and then building on that. Somebody needs to be there with her to help her do that, which makes things more complicated.
           </p>
         </div>
 
@@ -319,6 +324,13 @@
     <div class="fullscreen">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-photo-3.JPG" />
     </div>
+<!--
+    <div id="opening" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-photo-3.JPG')">
+      <figure class='full_width'></figure>
+    </div>
+-->
+
+
     <div class="container">
 
       <section class="row">
@@ -355,7 +367,7 @@
             <p>
              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/paul-fraumeni.png"/>  “[Lucia] has a powerful ability to take complex research and make it easy to understand […]. To Lucia, the technology is simply a tool. Her talent is in helping people, real people, to understand the research being conducted at U of T and how it is about their lives."
             </p>
-            <p class="mentor last"><em>Paul Fraumeni,</em> Director, Research Communications, the University of Toronto</p>
+            <p class="mentor last"><em>Paul Fraumeni,</em> director, Research Communications, the University of Toronto</p>
           </aside>
         </div>
         <div class="span7 interview-panel">
@@ -386,6 +398,11 @@
       </li>
 
 <li>
+    <!--
+    <div id="opening" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-1.JPG')">
+      <figure class='full_width'></figure>
+    </div>
+    -->
     <div class="fullscreen">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-1.JPG" />
     </div>

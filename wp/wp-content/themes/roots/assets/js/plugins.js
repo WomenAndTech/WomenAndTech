@@ -221,7 +221,6 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
 
             // When all image is loaded
             var callbackImageLoaded = function(){
-                $("html,body").animate({ scrollTop: 0 }, "fast");
                 self.setDimensions();
                 self.$li.eq(0).addClass('current');
 
