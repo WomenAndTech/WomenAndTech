@@ -1,6 +1,9 @@
 <footer role="contentinfo">
   <div id='footer-background' class='visible-phone'></div>
   <div class="container">
+  	<?php if (is_page(48)) : // The Plan page ?>
+  		<div class="timeline-end"></div>
+  	<?php endif; ?>
     <?php get_template_part('templates/teaser'); ?>
     <?php get_template_part('templates/byline'); ?>
   </div>
