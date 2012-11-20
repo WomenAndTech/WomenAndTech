@@ -12,6 +12,11 @@
       </a>      
       <div class="right">
         <div class="contact">
+         <p class="nomination-link">
+           <a href="#nomination-form" data-href="#nomination-form" data-toggle="modal" class="hidden-phone hidden-tablet"> <i class="icon-pencil icon-white"></i>
+             Nominate
+           </a>
+          </p>
           <p class="follow">
             <a href="https://twitter.com/intent/user?screen_name=womenandtech" target="_blank" rel='tooltip' title="@womenandtech">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bird_white_16.png">Follow Us!</a>
