@@ -3,15 +3,11 @@
 /*
  * Custom RSS feed
  * 
- * with thanks to: 
- * http://www.456bereastreet.com/archive/201103/controlling_and_customising_rss_feeds_in_wordpress/
+ * NOTE: The RDF, RSS 1.0 and Atom feeds still 
+ * exist without custom content, we just don't
+ * link to them.
+ * 
  */
-
-// Disable automatic feeds
-remove_action( 'do_feed_rdf', 'do_feed_rdf', 10, 1 );
-remove_action( 'do_feed_rss', 'do_feed_rss', 10, 1 );
-remove_action( 'do_feed_rss2', 'do_feed_rss2', 10, 1 );
-remove_action( 'do_feed_atom', 'do_feed_atom', 10, 1 );
 
 /* 
 * If you're not removing feed links via lib/cleanup
@@ -21,33 +17,17 @@ remove_action( 'do_feed_atom', 'do_feed_atom', 10, 1 );
 //remove_action('wp_head', 'feed_links', 2);
 //remove_action('wp_head', 'feed_links_extra', 3);
 
-// Create custom feed from template
-function create_custom_feed() {
-    load_template( TEMPLATEPATH . '/feeds/feed-rss2.php');
+
+// Remove WP default RSS feed
+remove_all_actions( 'do_feed_rss2' );
+
+// Add our own custom RSS feed template in place
+add_action( 'do_feed_rss2', 'custom_content_feed', 10, 1 );
+
+function custom_content_feed( $for_comments ) {
+    $rss_template = get_template_directory() . '/feeds/feed-rss2.php';
+    if( file_exists( $rss_template ) )
+        load_template( $rss_template );
+    else
+        do_feed_rss2( $for_comments ); // Call default function
 }
-
-// Replace default feed rewrite rules
-function customise_feed_rules($rules) {
-    // Remove all feed related rules
-    function filterRules($rules) {
-       return !preg_match("/feed/i", $rule); 
-    }
-
-    $filtered_rules = array_filter($rules, 'filterRules');
-
-    // Add the rule(s) for your custom feed(s)
-    $new_rules = array(
-        'feed$' => 'index.php?feed=custom_feed'
-    );
-    return $new_rules + $filtered_rules;
-}
-
-// Add the custom feed and update rewrite rules
-function add_custom_feed() {
-    global $wp_rewrite;
-    add_action('do_feed_custom_feed', 'create_custom_feed', 10, 1);
-    add_filter('rewrite_rules_array','customise_feed_rules');
-    $wp_rewrite->flush_rules();
-}
-
-add_action('init', 'add_custom_feed');
