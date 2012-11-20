@@ -45,7 +45,7 @@
 						<a href="http://twitter.com/brttb" target="_blank" alt="Brett Bergmann" title="Brett Bergmann">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brett.png" alt="Brett Bergmann" title="Brett Bergmann" />
 							<h3>Brett Bergmann</h3>
-							<p>Backend dev</p>
+							<p>Front &amp; Backend dev</p>
 						</a>
 					</div>
 
@@ -88,7 +88,7 @@
 						<a href="http://twitter.com/brennaob" target="_blank" alt="Brenna O'Brien" title="Brenna O'Brien" >
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brenna.png" alt="Brenna O'Brien" title="Brenna O'Brien" />
 							<h3>Brenna O'Brien</h3>
-							<p>Development</p>
+							<p>Front &amp; back-end dev</p>
 						</a>
 					</div>
 
