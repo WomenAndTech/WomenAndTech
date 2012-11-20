@@ -60,7 +60,7 @@ $loop = new WP_Query( $args ); ?>
   <?php $teaser_image=get_field('teaser_image');
         $next_image_url=$teaser_image['url'];
         // $next_url=get_permalink();
-        $next_url="/archive";
+        $next_url=get_home_url()."/archive";
   ?>
   
 <?php endwhile; ?>
