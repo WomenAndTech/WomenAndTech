@@ -28,7 +28,7 @@
         </div>
 
     <div id="portrait" class="fullscreen">
-       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-vena-large.jpg" />
+       <img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-vena-large.jpg" />
     </div>
     <div class="table-of-contents">
         <div class="container">
@@ -73,7 +73,7 @@
             </h2>
           </aside>
                 <div class="quote-mark">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark.png"/>
+            <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png"/>
           </div>
         </div>
 
@@ -90,7 +90,7 @@
     <div class="fullscreen">
 
         <div class="parallax">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-2.jpg" />
+            <img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-2.jpg" />
             <div class="container">
                              <div class="info-panel">
                                  <aside>
@@ -109,7 +109,7 @@
           <figure class='first-row'>
             <div class="arrow"></div>
             <h3>Notable Person</h3>
-            <img src='<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/neha-khera.jpg'>
+            <img src='<?php echo get_home_url(); ?>/assets/img/lucia-interview/neha-khera.jpg'>
             <figcaption class="clear">
               <a href="http://ca.linkedin.com/in/nkhera" target=_blank>
                 <h4>Neha Khera</h4>
@@ -148,7 +148,7 @@
           <figure class="first-row">
             <div class="arrow"></div>
             <h3>Notable Person</h3>
-            <img src='<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/mary-wells.jpg'>
+            <img src='<?php echo get_home_url(); ?>/assets/img/lucia-interview/mary-wells.jpg'>
             <figcaption class="clear">
               <a href="https://uwaterloo.ca/mechanical-mechatronics-engineering/people-profiles/mary-wells" target=_blank>
                 <h4>Mary Wells</h4>
@@ -180,7 +180,7 @@
 </li>
 <li>
  <div class="fullscreen">
-     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-photo-2.jpg" />
+     <img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-photo-2.jpg" />
  </div>
     <div class="container">
 
@@ -207,7 +207,7 @@
             </h2>
           </aside>
           <div class="quote-mark">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark.png"/>
+            <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png"/>
           </div>
         </div>
       </section>
@@ -238,7 +238,7 @@
             <h3>Personal Testimony</h3>
             <p>
 
-             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/william-barek.png"/> “Lucia is one rare individual that [...] didn't have a strong technology background, but was savvy to embrace new digital technologies. Her tenacity to adopt and learn all aspects of multimedia, web and social media, [...] made her a perfect candidate to join our team.”
+             <img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/william-barek.png"/> “Lucia is one rare individual that [...] didn't have a strong technology background, but was savvy to embrace new digital technologies. Her tenacity to adopt and learn all aspects of multimedia, web and social media, [...] made her a perfect candidate to join our team.”
             </p>
             <p class="mentor last"><em>William Barek,</em> Former Director at Centre for Instructional Technology Development, University of Toronto at Scarborough</p>
           </aside>
@@ -270,7 +270,7 @@
       <div class="span4 notable-person photo-callout">
       <figure class="first-row">
                   <div class="arrow"></div>
-                   <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/the-atlantic-why-women-still-cant-have-it-all.jpg" / ></a>
+                   <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/the-atlantic-why-women-still-cant-have-it-all.jpg" / ></a>
                   <figcaption class="clear">
                   <p class="last">In The Atlantic, Anne-Marie Slaughter takes issue with feminism's promise that women can have it all. <em>Photo credit: <a href="http://www.facebook.com/photo.php?fbid=10151061851508487&set=pb.29259828486.-2207520000.1353282766&type=3&theater">Facebook.com/The Atlantic</a></em></p>
                   </figcaption>
@@ -298,7 +298,7 @@
             </h2>
           </aside>
                 <div class="quote-mark">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark.png"/>
+            <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png"/>
           </div>
         </div>
         <div class="span7 offset4 interview-panel">
@@ -317,7 +317,7 @@
 </li>
 <li>
     <div class="fullscreen">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-photo-3.JPG" />
+        <img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-photo-3.JPG" />
     </div>
     <div class="container">
 
@@ -337,7 +337,7 @@
             </h2>
           </aside>
                 <div class="quote-mark">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark.png"/>
+            <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png"/>
           </div>
         </div>
         <div class="span7 offset4  interview-panel">
@@ -353,7 +353,7 @@
             <div class="arrow"></div>
             <h3>Personal Testimony</h3>
             <p>
-             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/paul-fraumeni.png"/>  “[Lucia] has a powerful ability to take complex research and make it easy to understand […]. To Lucia, the technology is simply a tool. Her talent is in helping people, real people, to understand the research being conducted at U of T and how it is about their lives."
+             <img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/paul-fraumeni.png"/>  “[Lucia] has a powerful ability to take complex research and make it easy to understand […]. To Lucia, the technology is simply a tool. Her talent is in helping people, real people, to understand the research being conducted at U of T and how it is about their lives."
             </p>
             <p class="mentor last"><em>Paul Fraumeni,</em> Director, Research Communications, the University of Toronto</p>
           </aside>
@@ -378,7 +378,7 @@
             </h2>
           </aside>
                 <div class="quote-mark">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark.png"/>
+            <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png"/>
           </div>
         </div>
       </section>
@@ -387,7 +387,7 @@
 
 <li>
     <div class="fullscreen">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-1.JPG" />
+        <img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-1.JPG" />
     </div>
 <div class="container">
 
@@ -409,7 +409,7 @@
             With Girls in Tech, we’re starting to leverage the global network that we have access to. Toronto is very vibrant and active and there’s a lot of opportunity here. It took some time for the worldwide Girls in Tech community to notice Toronto because they want to see how dedicated you are at first. But now I feel like we’re in the same league as LA, New York, Paris.
           </p>
           <p>
-            With Feast Interactive, we’re filling a void. A lot of companies don’t want to manage social media marketing, they don’t know how, and we’re helping them with that. Right now, we’re working with a lot of startup brands in Canada which is really great because when they grow, we grow with them. We’re working with companies who believe in organic growth and doing it in an honest and real way. It’s been really exciting to be along for the ride. <span class="full-stop"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/full-stop.png" /></span>
+            With Feast Interactive, we’re filling a void. A lot of companies don’t want to manage social media marketing, they don’t know how, and we’re helping them with that. Right now, we’re working with a lot of startup brands in Canada which is really great because when they grow, we grow with them. We’re working with companies who believe in organic growth and doing it in an honest and real way. It’s been really exciting to be along for the ride. <span class="full-stop"><img src="<?php echo get_home_url(); ?>/assets/img/full-stop.png" /></span>
           </p>
         </div>
       </section>
@@ -422,11 +422,11 @@
             </div>
             <div id="question-details">
                 <div id="profile-image">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lucia-interview/lucia-square.jpg"/>
+                  <img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-square.jpg"/>
                 </div>
                 <h4>When will we see a female version of Steve Jobs or Mark Zuckerberg?</h4>
                 <div id='quote-mark'>
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quote-mark-small.png"/>
+                  <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png"/>
                 </div>
             </div>
           </div>
@@ -441,7 +441,7 @@
       <!-- END TAG!! -->
       <div class="row" id='end-tag'>
         <div class="span4">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/end-tag.png"/>
+          <img src="<?php echo get_home_url(); ?>/assets/img/end-tag.png"/>
         </div>
       </div>
     </div>
