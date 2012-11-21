@@ -11,7 +11,7 @@
 	endif;
 
 	if ($post->post_type == 'interview'):
-		$social_title = "Women &amp; &amp; Tech interviews ".$post->post_title;
+		$social_title = "Women &amp;&amp; Tech interviews ".$post->post_title;
 	else:
 		$social_title = $post->post_title." | Women &amp;&amp; Tech";
 	endif;
