@@ -62,6 +62,9 @@
     }
     #nav-main {
         text-align: center;
+        float:none;
+        clear:none;
+        margin:0 0 10px;
     }
     .navbar {
         height:auto;
