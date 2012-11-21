@@ -56,18 +56,30 @@
 }
 
 @media (max-width: 979px) {
+    body {
+        padding-top:0;
+    }
+    .navbar {
+        height:auto;
+        margin-left:0;
+        margin-right:0;
+    }
   .navbar .nav {
     float: left;
+  }
+  .navbar {
+    position: relative;
+  }
+  .navbar .brand {
+    display: block;
+    width:334px;
+    margin:0 auto;
   }
 }
 
 /*------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 979px) {
 
-
-  .navbar .right{
-    float:left;
-  }
 
   #menu-primary-navigation {
     float: left;
@@ -239,7 +251,15 @@
 
 
 @media (max-width: 767px) {
-
+  .navbar {
+    padding: 0;
+  }
+  .navbar .brand {
+    display: block;
+    width:445px;
+    margin:0 auto;
+    float:none;
+  }
   .teaser-block > img{
     height:inherit;
   }
