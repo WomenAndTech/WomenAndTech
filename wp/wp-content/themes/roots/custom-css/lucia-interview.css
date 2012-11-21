@@ -108,7 +108,7 @@ body {
   /* Article > Header */
 
   .lucia-interview h1 {
-    margin:0 0 0.25em;
+    margin:0 0 0.4em 0;
       font-size: 4.286em;
       letter-spacing: -0.018em;
 
@@ -697,6 +697,8 @@ section h2 {
         font-size:3em;
         position:relative;
         top:0.286em;
+        margin-left:1.9em;
+        word-wrap: break-word;
     }
     #opening {
         margin:0 0 1.429em;
