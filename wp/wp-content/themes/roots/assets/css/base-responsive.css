@@ -1,0 +1,545 @@
+/*------------------------------------------------*/
+/*------------------BASE STYLES-------------------*/
+/*------------------------------------------------*/
+
+@media (max-width: 480px) {
+  body{
+    font-size:12px;
+  }
+
+  h1{
+    font-size:3em;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}
+
+
+
+/*------------------------------------------------*/
+/*-------------------HEADER-----------------------*/
+/*------------------------------------------------*/
+
+@media (max-width: 480px) {
+  .navbar .right{
+    float:left;
+  }
+
+  #menu-primary-navigation {
+    float: left;
+  }
+
+  .navbar .nav li a {
+    float: left;
+    margin-bottom: 20px;
+  }
+}
+
+/*------------------------------------------------*/
+@media (max-width: 767px) {
+  .navbar .right{
+    float:left;
+  }
+
+  .navbar .nav li a {
+    float: left;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 979px) {
+    body {
+        padding-top:0;
+    }
+    .navbar {
+        height:auto;
+        margin-left:0;
+        margin-right:0;
+    }
+  .navbar .nav {
+    float: left;
+  }
+  .navbar {
+    position: relative;
+  }
+  .navbar .brand {
+    display: block;
+    width:334px;
+    margin:0 auto;
+  }
+}
+
+/*------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+  #menu-primary-navigation {
+    float: left;
+  }
+
+  .navbar .nav li a {
+    float: left;
+    margin-bottom: 20px;
+  }
+
+}
+
+
+/*------------------------------------------------*/
+/*-------------------FOOTER-----------------------*/
+/*------------------------------------------------*/
+
+
+@media (max-width: 385px) {
+  #the-team{
+    margin-top:-2em;
+  }
+  footer #contact-methods{
+    margin-top:2em;
+  }
+  footer #contact-methods p{
+    float:none;
+    margin-left:0;
+  }
+  footer #contact-methods a{
+    padding-left:0;
+  }
+
+  footer #follow{
+    margin-left:0;
+  }
+}
+
+
+@media (min-width: 386px) and (max-width: 500px){
+    footer #contact-methods a {
+    padding-left:15px;
+  }
+
+  footer #contact-methods #follow a {
+    padding-left:0;
+  }
+}
+
+@media (min-width: 386px) and (max-width: 767px){
+    footer #contact-methods {
+    float: none;
+    border-top: 2px solid #333;
+    margin-top: 1em;
+    display: block;
+    overflow: hidden;
+  }
+
+  footer #contact-methods p {
+    float: left;
+    margin:0;
+    margin-top:1em;
+  }
+}
+
+@media (max-width: 500px) {
+  
+  .row#teasers{
+    padding-top:2em;
+  }
+
+  .row#teasers .span4{
+    width:100%;
+    margin-top:0;
+    margin-bottom:2em;
+  }
+
+  .teaser-block #subscribe{
+    height:180px;
+  }
+
+  #subscribe input[type="email"], #subscribe input[type="text"]{
+    font-size:2em;
+    width:60%;
+  }
+  #subscribe #placeholder {
+    font-size:1em;
+    font-weight: bold;
+  }
+
+  #subscribe input[type="submit"]{
+    width:inherit;
+  }
+
+  footer #byline {
+    padding:0;
+  }
+  
+  #the-team{
+    width:100%;
+  }
+
+  #team-links{
+    display:block;
+    margin:0;
+    margin-left: -10px;
+    margin-top: 13px;
+    float:none;
+  }
+
+
+  /*#the-team a {
+    width: 41px;
+    height: 41px;
+    position: static;
+    margin-left:12px;
+  }*/
+
+
+}
+
+
+/*------------------------------------------------*/
+@media (min-width: 501px) and (max-width: 649px) {
+  .row#teasers .span4{
+    width:80%;
+    margin:0 10%;
+  }
+
+  #byline {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  footer #contact-methods a {
+    padding-left:15px;
+  }
+
+  footer #contact-methods #follow a {
+    padding-left:0;
+  }
+
+  
+}
+
+/*------------------------------------------------*/
+@media (min-width: 650px) and (max-width: 767px) {
+  .row#teasers .span4{
+    width:70%;
+    margin:0 15%;
+  }
+
+  #byline {
+    width: 70%;
+    margin: 0 auto;
+
+  }
+
+  footer #contact-methods a {
+    padding-left:35px;
+  }
+
+  footer #contact-methods #follow a {
+    padding-left:0;
+  }
+
+}
+
+
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .brand {
+    display: block;
+    width:445px;
+    margin:0 auto;
+    float:none;
+  }
+  .teaser-block > img{
+    height:inherit;
+  }
+  footer{
+    position:relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    height: auto;
+    display: block;
+  }
+
+  footer #byline {
+    position: relative;
+    padding: 3em 0 1.5em 0;
+  }
+
+
+  /*#team-links{
+    display:block;
+    margin-left: -10px;
+    margin-top: 13px;
+  }*/
+
+
+  footer #logo-black {
+    float: none;
+    position: absolute;
+    left: 0;
+    bottom:-1.5em;
+  }
+
+}
+
+
+/*------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+  .span4#past-interviews-teaser, .span4#up-next-teaser{
+    width: 352px;
+  }
+
+  .span4#get-updates-teaser{
+    width: 352px;
+  }
+
+  #teasers #byline-teaser{
+    background:transparent;
+
+  }
+
+  #teasers #byline-teaser, #teasers #get-updates-teaser{
+    margin-top:1.5em;
+  }
+
+  #byline-teaser #the-team, #byline-teaser #contact-methods{
+    width:100%;
+  }
+
+  #the-team i{
+    font-size:0.8em;
+  }
+
+  #byline-teaser #contact-methods a{
+    color:#FCB8AB;
+  }
+
+  #team-links{
+    display:block;
+    margin-left: -15px;
+    margin-top: 10px;
+  }
+
+  #the-team p{
+    color: white;
+    font-size: 1.5em;
+    margin-left: -0.5em;
+    line-height: 1.7em;
+  }
+
+  /*#the-team a {
+    width: 41px;
+    height: 41px;
+    position: static;
+    margin-left:12px;
+  }*/
+
+  /*#the-team a img {
+    width: 39px;
+    height: 39px;
+  }*/
+
+
+  footer #logo-black{
+    clear: right;
+    float: none;
+    position: absolute;
+    bottom: 3px;
+    left: 206px;
+  }
+
+  footer{
+    position:relative;
+    padding-bottom: 80px;
+  }
+
+  footer #contact-methods{
+    position: relative;
+    margin-top: 115px;
+  }
+
+  footer #contact-methods p {
+    float: none;
+    margin-left: 0;
+    clear:right;
+  }
+
+  footer #follow{
+    margin-left:0;
+  }
+
+  footer #follow img {
+    margin-right:0.4em;
+  }
+}
+
+/*------------------------------------------------*/
+@media (min-width: 980px) and (max-width: 1199px) {
+
+  .teaser-block > img, .teaser-block #subscribe{
+    width:100%;
+    height:150px;
+  }
+  
+
+  #subscribe .mc-field-group{
+    padding-top:10px;
+  }
+
+  #subscribe label {
+    width: 15%;
+  }
+
+  #subscribe input{
+    width:80%;
+  }
+
+  #subscribe #placeholder{
+    font-size: 1.1em;
+    padding-top:3px;
+  }
+
+  #subscribe input[type="submit"] {
+    right: 15px;
+    bottom: 15px;
+    width: 35%;
+    font-size: 1.0em
+  }
+  footer #byline{
+    font-size:0.8em;
+  }
+
+  footer #logo-black{
+    width:115px;
+  }
+
+  footer #contact-methods p {
+  margin-left: 0.5em;
+  }
+
+  footer #rss i, footer #email i {
+  margin-right: 0.4em;
+  }
+
+  footer #follow img{
+    margin-right:0.25em;
+  }
+
+}
+
+/*------------------------------------------------*/
+/*-----------ARCHIVE LISTING BLOCKS---------------*/
+/*------------------------------------------------*/
+
+
+
+@media (min-width:481px) and (max-width: 767px){
+  .archive .page-header{
+    text-align: center;
+  }
+  .archive h1{
+    font-size:4em;
+  }
+}
+
+
+/*------------------------------------------------*/
+@media (min-width: 501px) and (max-width: 649px) {
+  .past-listing{
+    width:80%;
+    margin: 0 auto;
+  }
+}
+
+/*------------------------------------------------*/
+@media (min-width: 650px) and (max-width: 767px) {
+
+
+  .past-listing{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+/*------------------------------------------------*/
+@media (max-width: 767px) {
+
+
+  .archive .page-header{
+    margin-left:0;
+    margin-bottom:1.5em;
+  }
+
+
+  .archive .interview-number {
+    margin-top: 1.5em;
+  }
+
+  .past-listing{
+    height:inherit;
+  }
+
+  .past-listing p{
+    padding-bottom:1em;
+    margin-top:0;
+  }
+
+  .past-listing .title-block{
+    height: inherit;
+  }
+  .title-block p{
+    padding-bottom:0.5em;
+  }
+}
+
+
+/*------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+  .past-listing{
+    font-size: 12px;
+    width: 325px;
+    height: 38.5em;
+    line-height: 2em;
+    margin-bottom:20px;
+  }
+
+  .archive .interview-number {
+    margin-top: 1.45em;
+  }
+
+}
+
+/*------------------------------------------------*/
+@media (min-width: 980px) and (max-width: 1199px) {
+
+  .past-listing{
+    height: 38em;
+  }
+
+  .past-listing h2{
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+  }
+
+  .archive .interview-number {
+    margin-top: 0.9em;
+  }
+
+}
+
+
+
