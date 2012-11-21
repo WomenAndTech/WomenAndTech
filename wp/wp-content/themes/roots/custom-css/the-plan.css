@@ -17,7 +17,7 @@
 
 .the-plan h1 {
 	font-size:56px;
-	line-height:70px;
+	line-height: 1.25;
 	margin:0 0 25px;
 }
 .the-plan h3 {
@@ -132,7 +132,7 @@
 /* PHASE 1 */
 
 #coffee {
-	padding:65px 0 0 0;
+	padding-top: 65px;
 }
 	#coffee .timeline {
 		padding-top:0;
@@ -231,15 +231,22 @@
 /*------------------------------------------------*/
 
 @media (max-width: 767px) {
+
+	.the-plan h1 {
+		font-size: 3.2em;
+	}
 	
-	
-/*	.the-plan .container, #coffee {
+	.the-plan .container {
 		padding:0 20px;
-	}*/
+	}
+
+	#coffee {padding-top: 25px;}
+	.the-plan .content-block {padding: 25px 0;}
 	
 	#grand-plan h3 {
 		margin:0 0 20px;
 	}
+
 	.timeline-entry {
 		padding:20px 0;
 	}
