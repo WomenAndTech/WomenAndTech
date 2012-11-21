@@ -2,9 +2,6 @@ html{
     height: 100%;
     overflow-x: hidden;
 }
-body {
-    padding-top:0;
-}
 ::selection {
     background: #ffaea4; /* Safari */
     color:#ffffff;
@@ -32,6 +29,7 @@ body {
     min-height: 100%;
     overflow: hidden;
     z-index:1;
+
     box-shadow:0 1px 15px 3px rgba(0,0,0,0.5);
 }
 .curtains>li.cover{
@@ -46,9 +44,6 @@ body {
 .curtains>li.curtain-hidden{display:none;}
 .curtains>li:first-child{z-index:2;}
 
-.interview-intro {
-    margin-top: 130px;
-}
 .table-of-contents {
     background-color:#f3f3f3;
     padding:0.5em 0;
@@ -100,9 +95,15 @@ body {
     padding-bottom: 0;
 }
 
+.navbar-inner {
+    padding-bottom:50px;
+}
+
 .interview {
     position:relative;
 }
+
+
 
 
   /* Article > Header */
@@ -618,7 +619,6 @@ section h2 {
     z-index: 2;
   }
 
-
 /* Portrait Tablet */
 
 @media(min-width:767px) and (max-width:979px) {
@@ -682,21 +682,21 @@ section h2 {
         font-size:1.3em;
         margin:1em;
     }
-    .interview-intro {
-        margin-top:170px;
-    }
     }
 /* Mobile Fluid */
 @media(max-width:767px){
-    .container {
-        -webkit-transition: none;
-        -moz-transition: none;
-        transition: none;
+    .navbar {
+        padding: 0;
     }
     .lucia-interview h1 {
         font-size:3em;
         position:relative;
         top:0.286em;
+    }
+    .container {
+        -webkit-transition: none;
+        -moz-transition: none;
+        transition: none;
     }
     #opening {
         margin:0 0 1.429em;
@@ -704,6 +704,8 @@ section h2 {
     .container {
         padding-left:0;
     }
+
+
     section#introduction {
         margin:0 0 2em;
     }
@@ -845,7 +847,5 @@ section h2 {
     #portrait {
         margin-bottom: 0;
     }
-    .interview-intro {
-        margin-top: 20px;
-    }
+
 }
