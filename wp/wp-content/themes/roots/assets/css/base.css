@@ -31,6 +31,7 @@ body{
   font-size: 14px;
   line-height: 2em;
   color:#333333;
+  padding-top:115px;
 }
 
 h1 {
@@ -64,6 +65,9 @@ i.icon-white{
   color:white;
 }
 
+i.icon-orange {
+  color:#FF3818;
+}
 
 
 a:hover{
@@ -122,12 +126,15 @@ h4 {
 
 .navbar{
   padding-bottom:35px;
+  height:80px;
 }
 
 .navbar .right{
   float:right;
 }
-
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+    border:none;
+}
 .navbar-inner{
   background-color:#FF3818;
   background-image:none;
@@ -152,13 +159,13 @@ h4 {
 .navbar .brand{
   padding:0.5em 0;
   margin:0 0 0 0;
+  width:228px;
 }
-
 .navbar .nav{
   margin:0 0 0 0;
-  padding-top:10px;
   float: right;
 }
+
 
 .navbar .nav > li {
 line-height: 2em
@@ -169,7 +176,7 @@ line-height: 2em
   color:#fff;
   font-size:20px;
   font-style:italic;
-  border-bottom:2px solid #fcb8ab;
+
   padding:0 3px;
   margin:0 0 0 20px;
   text-shadow:none;
@@ -177,9 +184,10 @@ line-height: 2em
 
 .navbar .nav > li > a:hover{
   color:#fcb8ab;
+    border-bottom:2px solid #fcb8ab;
 }
   /* overwrite bootstrap */
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > li > a:focus{
   
   background-color: transparent;
 
