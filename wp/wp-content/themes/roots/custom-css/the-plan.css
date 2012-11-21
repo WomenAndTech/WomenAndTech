@@ -184,7 +184,26 @@
 	padding-left:10px;
 }
 
+/* FOOTER */
 
+.the-plan footer {
+	margin-top: 0;
+}
+
+.the-plan footer .container {
+	position: relative;
+}
+
+.the-plan footer .timeline-end {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: 55px;
+	display: block;
+	width: 19px;
+	height: 32px;
+	background: url(../img/the-plan/ui-womenandtech.png) -143px -45px no-repeat;
+}
 
 
 
@@ -266,7 +285,10 @@
 		text-align:center;
 	}
 	
-
+	/*hide timeline end notch */
+	.the-plan footer .timeline-end {
+		display: none;
+	}
 
 }
 
@@ -313,7 +335,7 @@
 		width:290px;
 	}
 
-	f
+	
 
 
 

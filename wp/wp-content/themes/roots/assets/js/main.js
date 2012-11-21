@@ -45,6 +45,31 @@
     $(this).css('border-left', '');
   })
 
+  .ready(function(){
+
+    var $email_input=$('#mce-EMAIL'),
+      $email_submit=$('#mc-embedded-subscribe'),
+      timer;
+
+    var change_color=function(){
+      if($email_input.val()!=""){
+        //$email_submit.css("background-color","#FF3818").attr("disabled",false);
+        $email_submit.animate({backgroundColor: '#FF3818'}, 50).attr("disabled",false);
+      }
+      else{
+        $email_submit.css("background-color","").attr("disabled","disabled");
+      }
+    }
+    
+    $email_input.focus(function(){
+      timer=setInterval(change_color,100);
+    }).blur(function(){
+      clearInterval(timer);
+      change_color();
+    })
+
+  });
+
   // MARK: Commenting this bit out; it's not working //
   /*.ready(function() {
 
@@ -80,6 +105,8 @@
 
 	
   });*/
+
+  
   
 })(jQuery);
 
