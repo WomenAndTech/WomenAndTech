@@ -21,7 +21,7 @@ if(is_home()||is_single()):
     wp_reset_postdata();
   else:
     $prev_image_url=get_template_directory_uri().'/assets/img/ftr-The-Plan-grey.png';
-    $prev_url="the-plan";
+    $prev_url=get_home_url()."the-plan";
     $left_headline = "The Plan";
   endif; //previous interview
 
@@ -60,7 +60,7 @@ $loop = new WP_Query( $args ); ?>
   <?php $teaser_image=get_field('teaser_image');
         $next_image_url=$teaser_image['url'];
         // $next_url=get_permalink();
-        $next_url="#";
+        $next_url=get_home_url()."/archive";
   ?>
   
 <?php endwhile; ?>
