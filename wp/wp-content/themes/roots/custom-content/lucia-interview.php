@@ -51,7 +51,7 @@
     <div class="container">
       <section class="row">
         <div class="span4" id="start-tag">
-         <div id="start-animation" class="swiffy" style="width: 300px; height: 90px"></div>
+         <div id="start-animation" style="width: 300px; height: 90px" class="swiffy"></div>
         </div>
         <div class="span7 interview-panel">
           <h3>Tell us a bit about yourself and how you got your start.</h3>
@@ -153,7 +153,7 @@
               <a href="https://uwaterloo.ca/mechanical-mechatronics-engineering/people-profiles/mary-wells" target=_blank>
                 <h4>Mary Wells</h4>
               </a>
-              <p>University of Waterloo (one of Canada’s premier tech universities) Associate Dean, Outreach</p>
+              <p>University of Waterloo's Associate Dean, Outreach</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
