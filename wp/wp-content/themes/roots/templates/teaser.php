@@ -20,8 +20,8 @@ if(is_home()||is_single()):
     $prev_url=get_permalink();
     wp_reset_postdata();
   else:
-    $prev_image_url=get_template_directory_uri().'/assets/img/ftr-The-Plan-grey.png';
-    $prev_url=get_home_url()."the-plan";
+    $prev_image_url=get_home_url().'/assets/img/ftr-The-Plan-grey.png';
+    $prev_url=get_home_url()."/the-plan";
     $left_headline = "The Plan";
   endif; //previous interview
 
@@ -41,8 +41,9 @@ else:
       
     <?php endwhile; ?>
   <?php else:
-    $prev_image_url=get_template_directory_uri().'/assets/img/no-previous-teaser.jpg';
-    $prev_url="#"; 
+    $prev_image_url=get_home_url().'/assets/img/ftr-The-Plan-grey.png';
+    $prev_url=get_home_url()."/the-plan";
+    $left_headline = "The Plan";
   endif; ?>
 
   <?php wp_reset_query(); ?>
