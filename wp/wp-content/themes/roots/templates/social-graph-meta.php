@@ -15,8 +15,12 @@
 	else:
 		$social_title = $post->post_title." | Women &amp;&amp; Tech";
 	endif;
-
-	$social_url = get_permalink($post->ID);
+	
+	if (is_home()):
+		$social_url = get_home_url();
+	else:
+		$social_url = get_permalink($post->ID);
+	endif;
  ?>
 
 <meta property="og:title" content="<?php echo $social_title; ?>" />
