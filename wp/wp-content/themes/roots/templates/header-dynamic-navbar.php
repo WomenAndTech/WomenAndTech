@@ -1,19 +1,13 @@
 <header class="navbar navbar-fixed-top" role="banner">
   <div class="navbar-inner">
     <div class="container">
-
-  <!-- /wp/wp-content/themes/roots/assets/ -->
-
     <a class="brand" href="<?php echo home_url(); ?>/">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-womenandtech.png" alt="Women &amp;&amp; Tech">
     </a>
-
-
-      </a>      
       <div class="right">
         <div class="contact">
          <p class="nomination-link">
-           <a href="#nomination-form" data-href="#nomination-form" data-toggle="modal" class="hidden-phone hidden-tablet"> <i class="icon-pencil icon-white"></i>
+           <a href="#nomination-form" data-href="#nomination-form" data-toggle="modal" class="hidden-phone"> <i class="icon-pencil icon-white"></i>
              Nominate
            </a>
           </p>

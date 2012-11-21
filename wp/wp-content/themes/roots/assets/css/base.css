@@ -178,7 +178,7 @@ line-height: 2em
   font-style:italic;
 
   padding:0 3px;
-  margin:0 0 0 20px;
+  margin:0 0 0 25px;
   text-shadow:none;
 }
 
@@ -231,12 +231,15 @@ line-height: 2em
   }
 
   .navbar .follow{
-    padding-left:9px;
     padding-right:1.5em;
   }
 
   .navbar .follow img{
     margin-right:4px;
+  }
+
+  .navbar .nomination-link {
+      padding-right: 1.5em;
   }
 
 #nomination-form .modal-header{

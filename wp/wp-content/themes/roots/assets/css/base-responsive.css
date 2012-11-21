@@ -33,9 +33,6 @@
     float:left;
   }
 
-  #menu-primary-navigation {
-    float: left;
-  }
 
   .navbar .nav li a {
     float: left;
@@ -53,38 +50,69 @@
     float: left;
     margin-bottom: 20px;
   }
+    .navbar .nav li a:hover {
+        margin-bottom:18px;
+    }
+
 }
 
 @media (max-width: 979px) {
     body {
         padding-top:0;
     }
+    #nav-main {
+        text-align: center;
+    }
     .navbar {
         height:auto;
         margin-left:0;
         margin-right:0;
     }
-  .navbar .nav {
-    float: left;
-  }
-  .navbar {
-    position: relative;
-  }
-  .navbar .brand {
-    display: block;
-    width:334px;
-    margin:0 auto;
-  }
+    .navbar .right {
+        float:none;
+    }
+    .navbar .nav {
+        float: none;
+    }
+    .navbar .nav > li {
+        float:none;
+        display:inline;
+    }
+    .navbar .nav li a {
+        float:none;
+        display:inline;
+        margin:0;
+        padding:0 0.2em;
+    }
+    .navbar .contact {
+        float:none;
+        text-align: center;
+    }
+    .navbar {
+        position: relative;
+    }
+    .navbar .brand {
+        display: block;
+        width:279px;
+        margin:0 auto;
+    }
 }
 
 /*------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 979px) {
-
-
-  #menu-primary-navigation {
-    float: left;
+  .navbar .contact {
+      float:right;
+      margin-right:10px;
   }
-
+  .navbar .brand {
+      margin-left:10px;
+  }
+  #menu-primary-navigation {
+    float: right;
+  }
+  .navbar .nav {
+      margin-right:10px;
+  }
   .navbar .nav li a {
     float: left;
     margin-bottom: 20px;
@@ -256,7 +284,8 @@
   }
   .navbar .brand {
     display: block;
-    width:445px;
+    max-width:445px;
+    width:80%;
     margin:0 auto;
     float:none;
   }
