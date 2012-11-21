@@ -151,7 +151,10 @@ h4 {
   position:relative;
 }
 
-
+#nav-main {
+    float:right;
+    clear:right;
+}
 .navbar i{
   vertical-align:baseline;
 }
@@ -162,8 +165,9 @@ h4 {
   width:228px;
 }
 .navbar .nav{
-  margin:0 0 0 0;
+  margin:0;
   float: right;
+  overflow: hidden;
 }
 
 
@@ -172,7 +176,7 @@ line-height: 2em
 }
 
 .navbar .nav > li > a{
-  float:right;
+
   color:#fff;
   font-size:20px;
   font-style:italic;

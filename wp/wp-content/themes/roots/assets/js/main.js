@@ -7,7 +7,6 @@
   .on('click', 'a[href=#subscribe]', function(e){
     e.preventDefault();
 
-
     var $subscribe = $('#subscribe')
     , subscribe_pos=$subscribe.offset().top
 
@@ -70,44 +69,6 @@
 
   });
 
-  // MARK: Commenting this bit out; it's not working //
-  /*.ready(function() {
-
-  var logo = new swiffy.Stage(document.getElementById('womenandtech-logo'), womenandtech);
-	logo.start();
-
-	$(window).scroll(function () {
-		topper = $(window).scrollTop();
-		var gap = 115;
-		var headerY = $("header.navbar").position();
-		var headerH = $("header.navbar").height();
-		var photoY = $("#opening").position();
-		var photoH = $("#opening").height();
-	
-		if(topper > (headerY.top - gap) && topper < ((headerY.top + headerH))) {
-			logo.setFlashVars('Active=false');
-		} else {
-			logo.setFlashVars('Active=true');
-		}
-	
-		if(topper > (headerY.top - gap) && topper < ((headerY.top + headerH)) || topper > (photoY.top-gap) && topper < ((photoY.top-gap) + photoH +gap))
-		{
-			fillValue = "rgba(255,255,255,1)";
-			TweenLite.to($("#womenandtech-logo path"), .6, {css:{fill:fillValue, ease:Expo.easeOut}});
-		}
-		
-		else
-		{
-			fillValue = "rgba(48,48,47,1)";
-			TweenLite.to($("#womenandtech-logo path"), .6, {css:{fill:fillValue, ease:Expo.easeOut}});
-		}		
-	});
-
-	
-  });*/
-
-  
-  
 })(jQuery);
 
 
