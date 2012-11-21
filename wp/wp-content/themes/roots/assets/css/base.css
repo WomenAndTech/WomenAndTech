@@ -235,7 +235,8 @@ line-height: 2em
   }
 
   .navbar .follow{
-    padding-right:1.5em;
+    /*padding-right:1.5em;*/
+    padding-right:0;
   }
 
   .navbar .follow img{
@@ -678,7 +679,9 @@ footer{
   }
 
 
-
+.past-interviews h1 {
+    margin-top:35px;
+}
 
 /* Responsive styles moved to base-responsive.css */
 
