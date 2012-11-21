@@ -12,7 +12,7 @@
 			<div class="span3">
 				<div id="about_team">
 					<h2>The Team</h2>
-					<p>We each conduct interviews, produce content and shape the direction of W&&T. We still need help with design, photography and copyediting. If you can help, please <a href="mailto:contact@womenandtech.com">email us</a>.</p>
+					<p>We each conduct interviews, produce content and shape the direction of W&&T. We still need help with design, photography and copyediting. If you can help, <a href="mailto:contact@womenandtech.com">email us</a>.</p>
 				</div>
 			</div>
 			<div class="span9">
