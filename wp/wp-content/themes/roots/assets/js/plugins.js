@@ -152,7 +152,7 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
             scrollButtons: {},
             controls: null,
             curtainLinks: null,
-            enableKeys: true,
+            enableKeys: false,
             subscribeButton: true,
             easing: 'swing',
             disabled: false,
@@ -547,6 +547,7 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
             if(self.options.subscribeButton) {
                 $("a[href=#subscribe]").unbind().on('click', function(e){
                     self.scrollToPosition('bottom');
+
                 });
             }
 
