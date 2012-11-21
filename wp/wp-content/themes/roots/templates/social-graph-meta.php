@@ -2,7 +2,7 @@
 	if (is_home()||is_single()):
 		$social_image=wp_get_attachment_url(get_post_thumbnail_id( (int) $post->ID));
 	else:
-		$social_image="http://a0.twimg.com/profile_images/2324237500/qg0reltqkz0rpp1ntdxa.png"; 
+		$social_image="http://api.twitter.com/1/users/profile_image?screen_name=womenandtech&size=bigger"; 
 	endif;
 
 	$social_description=get_post_meta($post->ID, "archive_excerpt", false);
@@ -34,3 +34,5 @@
 <meta name="twitter:image" value="<?php echo $twitter_image; ?>" />
 <meta name="twitter:site" value='<a href="http://twitter.com/womenandtech" target="_blank" rel="nofollow">@womenandtech</a>' />
 <meta name="twitter:creator" value="@womenandtech" />
+
+<meta name="description" content="<?php echo strip_tags($social_description[0]); ?>">
