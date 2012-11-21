@@ -16,7 +16,6 @@
 .the-plan a:focus { outline: none!important }
 
 .the-plan h1 {
-	font-size:56px;
 	line-height: 1.25;
 	margin:0 0 25px;
 }
@@ -31,6 +30,11 @@
 	margin:0 0 20px;
 }
 
+.the-plan p {
+	font-size: 1.142em; /* 16px/14px */
+	line-height:1.9;
+}
+
 /* GLOBAL ELEMENTS */
 
 .modal {
@@ -40,7 +44,7 @@
 }
 
 .the-plan .content-block {
-	padding:65px 0;
+	padding: 45px 0;
 }
 
 .the-plan .larger-type {
@@ -50,6 +54,8 @@
 
 
 /* INTRO */
+
+#intro {padding-top: 30px;}
 
 #intro-icons {
 	margin:10px 0 0; 
@@ -99,7 +105,7 @@
 	}
 
 .timeline {
-	padding:65px 0;
+	padding: 55px 0;
 	background:transparent url(../img/the-plan/ui-womenandtech.png) repeat-y -310px 0;
 }
 	.timeline h2 {
@@ -132,7 +138,7 @@
 /* PHASE 1 */
 
 #coffee {
-	padding-top: 65px;
+	padding-top: 20px;
 }
 	#coffee .timeline {
 		padding-top:0;
@@ -235,12 +241,13 @@
 	.the-plan h1 {
 		font-size: 3.2em;
 	}
+
+	.the-plan p { font-size: 1em;}
 	
 	.the-plan .container {
 		padding:0 20px;
 	}
 
-	#coffee {padding-top: 25px;}
 	.the-plan .content-block {padding: 25px 0;}
 	
 	#grand-plan h3 {
@@ -309,8 +316,6 @@
 @media (min-width: 768px) and (max-width: 979px) {
 	body {
 		padding:0;
-		font-size:16px;
-		line-height:1.9;
 	}
 	h4 {
 		font-size:24px;
@@ -356,10 +361,6 @@
 /*------------------------------------------------*/
 
 @media (min-width: 1200px) {
-	h1 {
-		font-size:64px;
-		line-height:74px;
-	}
 	h3 {
 		font-size:38px;
 		line-height:50px;
