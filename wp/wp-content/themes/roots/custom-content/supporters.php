@@ -138,7 +138,7 @@
 							<a href="http://www.ecentricarts.com/" target="_blank" alt="Ecentricarts" title="Ecentricarts">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/ecentricarts.png" alt="Ecentricarts" title="Ecentricarts" />
 							</a>
-							<p>Our other headquarters is at ecentricarts, who have a high percentage of female developers. If that isn’t endorsement, we don’t know what is.</p>
+							<p>Our other headquarters is often at ecentricarts, where there is a high percentage of female developers. If that isn’t endorsement, we don’t know what is.</p>
 						</div>
 					</div>
 

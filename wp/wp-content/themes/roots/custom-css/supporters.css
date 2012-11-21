@@ -35,6 +35,9 @@
   width: 80%;
   margin: 0px auto;
 }
+.members .member h4 {
+    margin:12px 0 13px;
+}
 .member a {
   text-decoration: none;
   color: #333333;
@@ -62,7 +65,7 @@
 }
 
 .with_heart p {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 #friends {
@@ -86,8 +89,8 @@
   margin-bottom: 40px;
 }
 #friends .friend p {
-  text-align: justify;
-  font-size: 0.95em;
+  text-align: left;
+  font-size: 1em;
 }
 
 #help_us {
@@ -102,12 +105,13 @@
 #help_us p {
   text-align: left;
   display: block;
+
   min-height: 55px;
+    line-height:1.5em;
 }
 #help_us p img {
   float: left;
-  margin: 5px;
-  margin-right: 15px;
+  margin: 0 15px 5px 5px;
   display: inline-block;
 }
 #help_us span p {
