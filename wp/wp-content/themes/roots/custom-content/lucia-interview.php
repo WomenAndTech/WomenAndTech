@@ -51,7 +51,7 @@
     <div class="container">
       <section class="row">
         <div class="span4" id="start-tag">
-         <div id="start-animation" style="width: 300px; height: 90px"></div>
+         <div id="start-animation" class="swiffy" style="width: 300px; height: 90px"></div>
         </div>
         <div class="span7 interview-panel">
           <h3>Tell us a bit about yourself and how you got your start.</h3>
