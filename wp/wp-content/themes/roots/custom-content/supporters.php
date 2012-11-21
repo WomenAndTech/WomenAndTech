@@ -12,7 +12,7 @@
 			<div class="span3">
 				<div id="about_team">
 					<h2>The Team</h2>
-					<p>We each conduct interviews, produce content and shape the direction of W&&T. We still need help with design, photography and copyediting. If you can help, please <a href="mailto:contact@womenandtech.com">email us</a>.</p>
+					<p>We each conduct interviews, produce content and shape the direction of W&&T. We still need help with design, photography and copyediting. If you can help, <a href="mailto:contact@womenandtech.com">email us</a>.</p>
 				</div>
 			</div>
 			<div class="span9">
@@ -45,7 +45,7 @@
 						<a href="http://twitter.com/brttb" target="_blank" alt="Brett Bergmann" title="Brett Bergmann">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brett.png" alt="Brett Bergmann" title="Brett Bergmann" />
 							<h3>Brett Bergmann</h3>
-							<p>Backend dev</p>
+							<p>Front &amp; Backend dev</p>
 						</a>
 					</div>
 
@@ -88,12 +88,12 @@
 						<a href="http://twitter.com/brennaob" target="_blank" alt="Brenna O'Brien" title="Brenna O'Brien" >
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brenna.png" alt="Brenna O'Brien" title="Brenna O'Brien" />
 							<h3>Brenna O'Brien</h3>
-							<p>Development</p>
+							<p>Front &amp; back-end dev</p>
 						</a>
 					</div>
 
 					<div class="member with_heart">
-						<h4>With &lt;3 from</h4>
+						<h4>With <i class="icon-heart-empty icon-orange"></i> from</h4>
 						<a href="https://twitter.com/vickilaszlo" target="_blank" alt="Vicki Laszlo" title="Vicki Laszlo">
 							<h3>Vicki Laszlo</h3>
 							<p>Coffee fairy</p>
