@@ -146,7 +146,7 @@ b[g];a.opacity=1;a.autoAlpha&&(a.visibility=1)}return C.prototype._kill.call(thi
             scrollButtons: {},
             controls: null,
             curtainLinks: '.curtain-links',
-            enableKeys: true,
+            enableKeys: false,
             easing: 'swing',
             disabled: false,
             nextSlide: function() {},
