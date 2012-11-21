@@ -12,7 +12,7 @@
                     An interview by
                     <a href="http://twitter.com/ivonnekn" rel="author" target="_blank"><strong>Ivonne Karamoy</strong></a>
                   </p>
-                  <p class='date'>November 20, 2012</p>
+                  <p class='date'>November 21, 2012</p>
                 </div>
               </address>
             </div>
