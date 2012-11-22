@@ -190,7 +190,7 @@
             <div class="arrow"></div>
             <h3>Parental Leave in Canada</h3>
             <p class="last">
-              Mothers are allowed 15 weeks full-salary paid maternity leave. After that, they get half pay. Parents are allowed up to 35 weeks combined leave.
+              Mothers are allowed 15 weeks paid maternity leave. After that, parents are allowed up to 35 weeks combined paid leave. Pay is calculated at 55% of the parent's salary up to a maximum of $485 per week.
             </p>
           </aside>
         </div>
