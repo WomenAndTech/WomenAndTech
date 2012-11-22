@@ -16,16 +16,24 @@
  */
 
 function roots_scripts() {
-  wp_enqueue_style('roots_bootstrap', '/assets/css/bootstrap.css', false, null);
-  wp_enqueue_style('roots_bootstrap_responsive', '/assets/css/bootstrap-responsive.css', false, null);
-  
-  wp_enqueue_style('font_awesome', '/assets/css/font-awesome.css', false, null);
+  /* 
+  * $site_env is set in /index.php
+  */
+  global $site_env;
 
   wp_enqueue_style('roots_arvo_font', 'http://fonts.googleapis.com/css?family=Arvo:400,400italic|Open+Sans:400italic,600italic,400,600', false, null);
 
-  wp_enqueue_style('roots_base', '/assets/css/base.css', false, null);
-
-  wp_enqueue_style('roots_base_responsive', '/assets/css/base-responsive.css', false, null);
+  /*
+  * In production, W3 Total Cache concats the CSS files
+  * so don't let Wordpress queue them up
+  */
+  if ($site_env != 'production'):
+    wp_enqueue_style('roots_bootstrap', '/assets/css/bootstrap.css', false, null);
+    wp_enqueue_style('roots_bootstrap_responsive', '/assets/css/bootstrap-responsive.css', false, null);    
+    wp_enqueue_style('font_awesome', '/assets/css/font-awesome.css', false, null);
+    wp_enqueue_style('roots_base', '/assets/css/base.css', false, null);
+    wp_enqueue_style('roots_base_responsive', '/assets/css/base-responsive.css', false, null);
+  endif; // site env != production
 
 
 
@@ -39,28 +47,27 @@ function roots_scripts() {
   // It's kept in the header instead of footer to avoid conflicts with plugins.
   if (!is_admin()) {
     wp_deregister_script('jquery');
-    wp_register_script('jquery', '', '', '1.8.2', false);
+    wp_register_script('jquery', '', '', '1.8.2', true);
   }
 
   /*if (is_single() && comments_open() && get_option('thread_comments')) {
     wp_enqueue_script('comment-reply');
   }*/
 
-  wp_register_script('roots_plugins', '/assets/js/plugins.js', array('jquery'), null, false);
+  wp_register_script('roots_plugins', '/assets/js/plugins.js', array('jquery'), null, true);
   
-  wp_register_script('swiffy', '/assets/js/vendor/swiffy-4.9.0.min.js', array('jquery'), null, false);
+  wp_register_script('swiffy', '/assets/js/vendor/swiffy-4.9.0.min.js', array('jquery'), null, true);
   
   //Can load this in the footer:
   wp_register_script('jquery_color', 'http://code.jquery.com/color/jquery.color-git.js', array('jquery'), null, true);
   wp_register_script('roots_main', '/assets/js/main.js', array('jquery'), null, true);
 
-  wp_enqueue_script('swiffy');
-  wp_enqueue_script('roots_plugins');
-
-  //Loads in the footer:
-  wp_enqueue_script('jquery_color');
-  wp_enqueue_script('roots_main');
-
+    wp_enqueue_script('swiffy');
+    wp_enqueue_script('roots_plugins');
+    wp_enqueue_script('jquery_color');    
+    wp_enqueue_script('roots_main');
+  //Loads in the footer;
+  
 }
 
 add_action('wp_enqueue_scripts', 'roots_scripts', 100);
