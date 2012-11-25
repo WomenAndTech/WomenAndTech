@@ -13,31 +13,14 @@
   ?>
   
   <?php include roots_template_path(); ?>
-  
-  <!-- <div id="wrap" class="container" role="document">
-    <div id="content" class="row">
-      <div id="main" class="<?php echo roots_main_class(); ?>" role="main">
-        <?php //include roots_template_path(); ?>
-      </div> -->
-      <?php //if (roots_display_sidebar()) : ?>
-     <!--  <aside id="sidebar" class="<?php echo roots_sidebar_class(); ?>" role="complementary"> -->
-        <?php //get_template_part('templates/sidebar'); ?>
-      <!-- </aside> -->
-      <?php //endif; ?>
-    <!-- </div> --><!-- /#content -->
-  <!-- </div> --><!-- /#wrap -->
 
   <?php get_template_part('templates/footer'); ?>
 
 <div class="modal hide fade in" id="nomination-form">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal">×</button>
-    <p>&nbsp;</p>
   </div>
-  <!-- <div class="modal-body">
-  -->
   <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDRqNXdEZElvMjItbDItbGhrZTdHRmc6MQ" width="580" height="550" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-  <!-- </div>-->
 </div>
 
 </body>

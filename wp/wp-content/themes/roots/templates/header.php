@@ -2,7 +2,6 @@
           <div class="navbar-inner">
             <div class="container">
               <div id="social_buttons"></div>
-
               <a class="brand" href="/">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-womenandtech.png"></a>
               <nav>
