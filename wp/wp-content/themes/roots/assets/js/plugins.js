@@ -121,8 +121,15 @@
 
             // When all image is loaded
             var callbackImageLoaded = function(){
-                $("html,body").animate({ scrollTop: 0 }, "fast");
+                /* Don't do this */
+                //$("html,body").animate({ scrollTop: 0 }, "fast");
+
                 self.setDimensions();
+
+                
+                self.$element.addClass('drawn'); //Curtains has loaded, make sure we use its CSS rules
+                
+
                 self.$li.eq(0).addClass('current');
 
                 self.setCache();
@@ -137,6 +144,8 @@
                 self.scrollEvent();
                 self.setLinks();
                 self.isHashIsOnList(location.hash.substring(1));
+                self.$window.trigger('scroll'); //Trigger the scroll event so curtain places itself correctly.
+
             };
 
             if(self.$element.find('img').length)
