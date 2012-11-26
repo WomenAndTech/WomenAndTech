@@ -1,0 +1,54 @@
+ /* TEAM */
+	Designer, Copywriter, Visionary: Cassie McDaniel
+	Contact: knockknock [at] cassiemcdaniel.com
+	Twitter: @cassiemc
+	From:Orlando, Florida, United States of England
+
+	Designer, UI developer: Mark Staplehurst
+	Twitter: @britburger
+	From:Macclesfield, Cheshire, United States of England
+
+	UI developer, Wordpress Wrangler: Brett Bergmann
+	Twitter: @brttb
+	From:TDot, Ontario, Canada
+
+	Illustrator, Outreach: Ivonne Karamoy
+	Twitter: @ivonnekn
+	From:TDot, Ontario, Canada
+
+	Social Media Evangelist, Strategist: Milan Gokhale
+	Twitter: @milang
+	From:TDot, Ontario, Canada
+
+	Web Developer, Github Guru, Mobile Development: Raymond Kao
+	Twitter: @raykao
+	From:TDot, Ontario, Blame Canada
+
+	Advisor, Brave Guinea Pig: Lucia Mariani-Vena
+	Twitter: @feastinc
+	From:TDot, Ontario, Canada
+	
+	Web developer, Music Critic: Brenna O'Brien
+	Twitter: @brennaob
+	From:TDot, Ontario, Canada
+
+/* THANKS */
+
+	Coffee Fairy: Vicki Laszlo
+	Twitter: @vickilaszlo
+	From: TDot, Ontario, Canada
+
+	Videography: Kathleen Harris
+	Twitter: @unofficialvideo
+	From:TDot, Ontario, Canada
+
+	The Man Behind the Curtains: Victor Coulon
+	Twitter: @_victa
+	From: Paris, France
+
+/* SITE */
+	Last update:2012/11/25
+	Language:Canadian English, American English, British English, United States of English
+	Doctype:HTML5
+	IDE: Sublime Text, Webstorm, FileZilla, Photoshop, Flash (I can't believe it's not butter)
+	Social coding on GitHub

@@ -61,6 +61,10 @@ body {
     padding: 0.5em 0;
 }
 
+.no-svg #table-of-contents-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-table-of-contents.gif") no-repeat left top;
+}
+
 #coffee-time {
     padding: 3em 0;
 }
@@ -73,6 +77,10 @@ body {
 
 #coffee-time p.last {
     margin-bottom: 0;
+}
+
+.no-svg #coffee-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-coffee-cup.png") no-repeat left top;
 }
 
 .illustrations {
@@ -251,6 +259,10 @@ section h3 {
 /* Article > Start Tag */
 #start-tag {
     padding-top: 1em;
+}
+
+.no-svg #start-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
 }
 
 /* Article > Aside/Figure */
