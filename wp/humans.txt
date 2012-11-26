@@ -51,5 +51,5 @@
 	Language: Canadian English, American English, British English, United States of English
 	Doctype: HTML5
 	IDE: Sublime Text, Webstorm, FileZilla, Photoshop, Flash (I can't believe it's not butter)
-	Social coding on GitHub
+	Social coding: GitHub
 	Bedtime: You don't wanna know.
