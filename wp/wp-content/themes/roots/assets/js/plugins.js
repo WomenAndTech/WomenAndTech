@@ -126,7 +126,7 @@
 
                 self.setDimensions();
 
-                
+                var docTop=self.$document.scrollTop();
                 self.$element.addClass('drawn'); //Curtains has loaded, make sure we use its CSS rules
                 
 
@@ -144,8 +144,11 @@
                 self.scrollEvent();
                 self.setLinks();
                 self.isHashIsOnList(location.hash.substring(1));
-                self.$window.trigger('scroll'); //Trigger the scroll event so curtain places itself correctly.
-
+                
+                // Trigger the scroll event so curtain places itself correctly.
+                // EXPERIMENTAL!
+                self.$document.scrollTop(docTop+1);
+                self.$window.trigger('scroll'); 
             };
 
             if(self.$element.find('img').length)
