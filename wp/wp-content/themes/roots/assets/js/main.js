@@ -67,7 +67,7 @@
       change_color();
     })
 
-    var $share_buttons=$('#share_buttons');
+    var $share_buttons=$('.share_buttons');
 
     if ($share_buttons.length > 0) init_share_buttons($share_buttons);
 
@@ -76,29 +76,25 @@
   var init_share_buttons = function ($share_buttons){
     $share_buttons.sharrre({
       share: {
-        twitter: true
-        , facebook: true
-        , googleplus: true
-        , pinterest: true
-      }
-      , template: '<div class="box"><div class="left">Share</div><div class="middle"><a href="#" class="facebook">f</a><a href="#" class="twitter">t</a><a href="#" class="googleplus">+1</a><a href="#" class="pinterest">pin</a></div><div class="right">{total}</div></div>'
-      , enableHover: false
-      , enableTracking: true
-      , urlCurl: '/socialCounter.php'
-      , render: function(api, options){
-        $(api.element).on('click', '.twitter', function() {
-          api.openPopup('twitter');
-        });
-        $(api.element).on('click', '.facebook', function() {
-          api.openPopup('facebook');
-        });
-        $(api.element).on('click', '.googleplus', function() {
-          api.openPopup('googlePlus');
-        });
-        $(api.element).on('click', '.pinterest', function() {
-          api.openPopup('pinterest');
-        });
-      }
+        twitter: true,
+        facebook: true,
+        googlePlus: true
+      },
+      template: '<div class="box"><div class="left">Share</div><div class="middle"><a href="#" class="facebook">f</a><a href="#" class="twitter">t</a><a href="#" class="googleplus">+1</a></div><div class="right">{total}</div></div>',
+      enableHover: false,
+      enableTracking: true,
+      urlCurl: '/socialCounter.php',
+      render: function(api, options){
+      $(api.element).on('click', '.twitter', function() {
+        api.openPopup('twitter');
+      });
+      $(api.element).on('click', '.facebook', function() {
+        api.openPopup('facebook');
+      });
+      $(api.element).on('click', '.googleplus', function() {
+        api.openPopup('googlePlus');
+      });
+    }
     });
   }
 
