@@ -85,16 +85,16 @@
       enableTracking: true,
       urlCurl: '/socialCounter.php',
       render: function(api, options){
-      $(api.element).on('click', '.twitter', function() {
-        api.openPopup('twitter');
-      });
-      $(api.element).on('click', '.facebook', function() {
-        api.openPopup('facebook');
-      });
-      $(api.element).on('click', '.googleplus', function() {
-        api.openPopup('googlePlus');
-      });
-    }
+          $(api.element).on('click', '.twitter', function() {
+            api.openPopup('twitter');
+          });
+          $(api.element).on('click', '.facebook', function() {
+            api.openPopup('facebook');
+          });
+          $(api.element).on('click', '.googleplus', function() {
+            api.openPopup('googlePlus');
+          });
+      }
     });
   }
 
