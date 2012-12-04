@@ -62,7 +62,7 @@ function share_func($atts){
     $tweet = get_the_title()." -- via @womenandtech";
   endif;
 
- return "<div id='share_buttons' data-url='".get_permalink($post->ID)."' data-text='".$tweet."' style='float:".$float."; margin:".$margin."'></div><div style='clear:both'></div>";
+ return "<div class='share_buttons' data-url='".get_permalink($post->ID)."' data-text='".$tweet."' style='float:".$float."; margin:".$margin."'></div><div style='clear:both'></div>";
 }
 add_shortcode( 'share', 'share_func' );
 
