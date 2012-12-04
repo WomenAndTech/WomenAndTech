@@ -38,9 +38,9 @@ function homepage_gets_posts_interviews($query){
 
   if(is_single()):
       $post_status = array('publish');
-      if (is_admin()) $post_status = array('publish, future');
+      if (true) $post_status = array('publish', 'future');
       $query->set('post_status', $post_status);
-      $query->set('post_type', array('post','interview'));
+      // $query->set('post_type', array('post','interview', 'revision'));
   endif;
 }
 
