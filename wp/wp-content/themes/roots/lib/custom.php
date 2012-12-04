@@ -56,8 +56,13 @@ function share_func($atts){
   extract( shortcode_atts( array(
       'float' => '',
       'margin' => '',
+      'tweet' => ''
     ), $atts ) );
- return "<div id='share_buttons' data-url='".get_permalink($post->ID)."' data-text='".get_the_title()."' style='float:".$float."; margin:".$margin."'></div><div style='clear:both'></div>";
+  if (empty($tweet) || $tweet == ""):
+    $tweet = get_the_title()." -- via @womenandtech";
+  endif;
+
+ return "<div id='share_buttons' data-url='".get_permalink($post->ID)."' data-text='".$tweet."' style='float:".$float."; margin:".$margin."'></div><div style='clear:both'></div>";
 }
 add_shortcode( 'share', 'share_func' );
 
