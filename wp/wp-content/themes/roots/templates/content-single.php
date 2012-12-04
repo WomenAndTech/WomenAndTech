@@ -6,7 +6,7 @@ global $custom_content;
       <?php if (!$custom_content): ?>
         <header class="container">
           <div class="row">
-            <div class="span9">
+            <div class="span12">
               <?php get_template_part('templates/page', 'header'); ?>
             </div>
           </div>
@@ -14,10 +14,10 @@ global $custom_content;
         <div class="container">
           <div class="row">
             <div class="span12">
-          <?php the_content(); ?>
+              <?php the_content(); ?>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
         <?php else:
           get_template_part("custom-content/$custom_content");
       endif; ?>
