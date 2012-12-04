@@ -57,6 +57,7 @@ function roots_scripts() {
   wp_register_script('roots_plugins', '/assets/js/plugins.js', array('jquery'), null, true);
   
   wp_register_script('swiffy', '/assets/js/vendor/swiffy-4.9.0.min.js', array('jquery'), null, true);
+  wp_register_script('sharrre', '/assets/js/vendor/jquery.sharrre-1.3.4.min.js', array('jquery'), null, true);
   
   //Can load this in the footer:
   wp_register_script('jquery_color', 'http://code.jquery.com/color/jquery.color-git.js', array('jquery'), null, true);
@@ -64,7 +65,8 @@ function roots_scripts() {
 
     wp_enqueue_script('swiffy');
     wp_enqueue_script('roots_plugins');
-    wp_enqueue_script('jquery_color');    
+    wp_enqueue_script('jquery_color');
+    wp_enqueue_script('sharrre');    
     wp_enqueue_script('roots_main');
   //Loads in the footer;
   
