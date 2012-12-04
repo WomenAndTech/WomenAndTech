@@ -1,9 +1,9 @@
 <div class="container">
   <div class="row">
     <div class="span12 page-header">
-<?php get_template_part('templates/page', 'header'); ?>
-</div>
-</div>
+      <?php get_template_part('templates/page', 'header'); ?>
+    </div>
+  </div>
 </div>
 
 <div class="container">
