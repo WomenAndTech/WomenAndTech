@@ -8,8 +8,8 @@
         <div class="contact">
           <p class="nomination-link">
             <a href="#nomination-form" data-href="#nomination-form" data-toggle="modal" class="hidden-phone">
-              <i class="icon-pencil icon-white"></i> Nominate </a>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDRqNXdEZElvMjItbDItbGhrZTdHRmc6MQ" class="visible-phone visible-table" target="_blank"><i class="icon-pencil icon-white"></i> Nominate</a>
+              <i class="icon-pencil icon-white"></i> Nominate Someone</a>
+            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDRqNXdEZElvMjItbDItbGhrZTdHRmc6MQ" class="visible-phone visible-table" target="_blank"><i class="icon-pencil icon-white"></i> Nominate Someone</a>
           </p>
           <p class="follow">
             <a href="https://twitter.com/intent/user?screen_name=womenandtech" target="_blank" rel='tooltip' title="@womenandtech">
