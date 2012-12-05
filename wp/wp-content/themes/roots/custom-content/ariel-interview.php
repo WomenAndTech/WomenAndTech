@@ -170,11 +170,10 @@
         <p>I’m also a psychotherapist. I had a patient recently who said, “Numbers scare me. You say the word finance and I want to jump under the table over there.” And it was a process of moving aside her fear, seeing these things as neutral, allowing herself to open up to numbers so that she could spend time learning it without feeling anxiety and insecurity.</p>
         <p>Insecurity is definitely an issue when you are growing up. And when you do something that you don’t know the answer to, your response to not knowing will determine your ability to learn it.</p>
         <p>If your response to not knowing is, “I don’t know it, therefore I feel uncomfortable, therefore I want to run away because it makes me feel insecure,” then you’re not going to have the confidence, patience, willingness and openness to sit down and say, ‘I don’t know this but I'm not scared, I'm just going to sit here and figure it out.’ Your early responses and experiences will determine whether you go into a subject or not.</p>
-        <p>Numbers can be scary and weird, so if you don’t learn them at the beginning, you end up so far behind. By the time you get to Grade 3, it’s one of those things you’re not good at. And if it isn’t something you love, you don’t do as well at it until you de-identify yourself. </p>
       </div>
       <div class="span11 pull-quote">
         <aside class="quote">
-          <h2>I've never felt oppressed as a female. I've never felt that I have been withheld opportunity because of my gender.</h2>
+          <h2>when you do something that you don’t know the answer to, your response to not knowing will determine your ability to learn it.</h2>
         </aside>
         <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
@@ -190,7 +189,7 @@
       </div>
       <div class="span7 interview-panel">
         <h3>On whether there’s a difference between men and women in identifying with science:</h3>
-        <p>'m tempted to think that early on there was a misidentification about who was good at math and who wasn't. And as we break down those gender barriers, my guess would be that in classrooms now you see much less differentiation between number of males and females at a young age. There are so many girls who rock at math! Today, there are so many more female engineers in colleges and universities – to the point where they are the majority, in some cases.</p>
+        <p>'m tempted to think that early on there was a misidentification about who was good at math and who wasn't. And as we break down those gender barriers, my guess would be that in classrooms now you see much less differentiation between number of males and females at a young age. There are so many girls who rock at math!</p>
         <p>In my generation, to get into computational neuroscience you had to do computer science first. I think in 15 years, in places like computational neuroscience, where there are equal opportunities to learn computer science, or it becomes accessible for girls to sit in their basement and figure out code, we’ll see leveling off of males vs. females.</p>
       </div>
     </section>
