@@ -49,10 +49,26 @@
       <div class="span4" id="start-tag">
         <div id="start-animation" style="width: 300px; height: 90px" class="swiffy"></div>
       </div>
+
+
       <div class="span7 interview-panel">
         <h3>On what she does:</h3>
         <p>My name is Ariel Garten, I’m the CEO and co-founder of InteraXon. At InteraXon we create thought controlled computing products, applications and experiences. Thought-controlled computing is exactly what it sounds like – it’s the ability to interact with content and yourself. A sensor sits on your forehead, reads your brainwaves, and then lets you play games on your smartphone or tablet directly with your brain. It also lets you see your brain and engagement activity to improve your working memory, concentration, circulation, etc.</p>
         <p>My background spans arts, science and business. I was in real estate since I was a kid through my dad. My dad sent me to show the apartments. At university, I studied neuroscience and at the same time, I had a clothing line in high school. I sold to stores in Toronto, and I had a job in a research lab. So I’ve always been able to move back and forth between art and science, and I find both completely stimulating. When I graduated, I continued to work at the research lab and opened my own clothing store on College Street, expanding to sell my line to small boutiques across North America.</p>
+      </div>
+      <div class="span4 notable-person" id="steve-mann">
+        <figure class="first-row">
+          <div class="arrow"></div>
+          <h3>Notable Person</h3>
+          <img src='<?php echo get_home_url(); ?>/assets/img/ariel-interview/steve-mann.jpg'>
+          <figcaption class="clear">
+            <a href="http://en.wikipedia.org/wiki/Steve_Mann" title="Mary Wells' profile page on the University of Waterloo website" target="_blank"><h4>Steve Mann</h4></a>
+            <p>University of Toronto, Professor, Department of Electrical and Computer Engineering</p>
+          </figcaption>
+          <div style="clear:both"></div>
+        </figure>
+      </div>
+      <div class="span7 interview-panel">
         <p>I was ultimately looking for a way to talk about the self and understand the self from the scientific and artistic perspective. I started working with brainwaves in Steve Mann’s lab almost a decade ago. Ultimately we created a system that I took out of the lab and started to commercialize with my two co-founders, Trevor Colemen and Chris Aimone. That was the formation of InteraXon, which has existed for the last five years. Our first major project was the Vancouver 2010 Winter Olympics. As our kick off project, it wasn’t a bad one to do! Since then, we’ve worked with companies like Deutsche Telekom, brands like Wrigley’s and agencies like Aerospace Ontario to enable this technology across multiple domains.</p>
       </div>
       <!-- <div class="span11 pull-quote">
@@ -189,7 +205,7 @@
       </div>
       <div class="span7 interview-panel">
         <h3>On whether there’s a difference between men and women in identifying with science:</h3>
-        <p>'m tempted to think that early on there was a misidentification about who was good at math and who wasn't. And as we break down those gender barriers, my guess would be that in classrooms now you see much less differentiation between number of males and females at a young age. There are so many girls who rock at math!</p>
+        <p>I'm tempted to think that early on there was a misidentification about who was good at math and who wasn't. And as we break down those gender barriers, my guess would be that in classrooms now you see much less differentiation between number of males and females at a young age. There are so many girls who rock at math!</p>
         <p>In my generation, to get into computational neuroscience you had to do computer science first. I think in 15 years, in places like computational neuroscience, where there are equal opportunities to learn computer science, or it becomes accessible for girls to sit in their basement and figure out code, we’ll see leveling off of males vs. females.</p>
       </div>
     </section>
