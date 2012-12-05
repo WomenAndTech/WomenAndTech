@@ -1,0 +1,858 @@
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    padding-top: 0;
+}
+
+::selection {
+    background: #ffaea4;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #ffaea4;
+    color: #ffffff;
+}
+
+.curtains {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    margin: 0;
+}
+
+/*
+* Only make these properties apply when Curtains needs them.
+* Otherwise interface is trapped until images load, and that can be a while
+*/
+
+.curtains.drawn>li {
+    -webkit-transform: translateZ(0);
+    background: #FFFFFF;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 1px 15px 3px rgba(0, 0, 0, 0.5);
+}
+
+.curtains.drawn>li.curtain-hidden,.curtains>li.curtain-hidden {
+    display: none;
+}
+
+.curtains.drawn>li:first-child {
+    z-index: 2;
+}
+
+.interview-intro {
+    margin-top: 155px;
+}
+
+.table-of-contents {
+    background-color: #f3f3f3;
+    padding: 0.5em 0;
+}
+
+.no-svg #table-of-contents-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-table-of-contents.gif") no-repeat left top;
+}
+
+#coffee-time {
+    padding: 3em 0;
+}
+
+#coffee-time p {
+    font-size: 1.214em;
+    line-height: 1.571em;
+    margin-right: 1em;
+}
+
+#coffee-time p.last {
+    margin-bottom: 0;
+}
+
+.no-svg #coffee-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-coffee-cup.png") no-repeat left top;
+}
+
+.illustrations {
+    position: relative;
+}
+
+/* --- Article #1 ---- */
+
+.lucia-interview a {
+    -webkit-transition: color .25s ease-out;
+    -moz-transition: color .25s ease-out;
+    -o-transition: color .25s ease-out;
+    transition: color .25s ease-out;
+}
+
+.lucia-interview a, .lucia-interview a:visited {
+    text-decoration: none;
+    font-weight: normal;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #FF3818;
+}
+
+.lucia-interview a:hover {
+    color: #888;
+    border-bottom: 1px solid #ffaea4;
+}
+
+.lucia-interview footer a, .lucia-interview footer a:visited {
+    color: #FCB8AB;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.lucia-interview footer a:hover {
+    color: #FF3818;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.interview {
+    position: relative;
+}
+
+/* Article > Header */
+
+.lucia-interview h1 {
+    margin: 0 0 0.4em 0;
+    font-size: 4.286em;
+    letter-spacing: -0.018em;
+
+}
+
+.interview-number {
+    margin-top: 0.1em;
+    margin-right: 0.429em;
+    font-size: 2.5em;
+    padding: 0.4em 0.7em;
+}
+
+address {
+    font-weight: 100;
+    margin-left: 0.143em;
+    font-size: 1.4em;
+    line-height: 1.1em
+}
+
+address a, address a:visited, address a:active {
+    color: #000000;
+    font-weight: bold;
+}
+
+address p {
+    margin: 0;
+}
+
+address a:hover {
+    color: #FF3818;
+    text-decoration: none;
+}
+
+address .author-image {
+    display: inline-block;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+address #author-milang {
+    background: url('http://api.twitter.com/1/users/profile_image?screen_name=milang&size=bigger') center center no-repeat;
+    background-size: 110%;
+}
+
+address .author-info {
+    display: inline-block;
+    height: 35px;
+    padding-left: 5px;
+    top: -0.214em;
+    position: relative;
+}
+
+address .author-info .author {
+    font-size: 0.929em;
+    margin-bottom: 0.214em;
+}
+
+address .author-info p.author strong {
+    font-weight: 700;
+    font-size: 1em;
+    color: #333;
+}
+
+address .author-info p.author a {
+    border-bottom: none;
+}
+
+address .date {
+    font-size: 0.6em;
+    color: #555;
+}
+
+/* Article > Section */
+
+section {
+    margin: 2.5em 0;
+}
+
+section#introduction {
+    margin: 1.5em 0 4em -30px;
+}
+
+section h2 {
+    font-size: 2em;
+    line-height: 1.571em;
+    margin: 0;
+}
+
+section h2 a {
+    font-weight: normal;
+}
+
+section h3 {
+    font-size: 1.071em;
+    line-height: 1.8em;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 1.8em;
+
+}
+
+.new-line {
+    clear: left;
+}
+
+/* Article > #Opening */
+
+.fullscreen img {
+    width: 100%;
+    min-height: 500px;
+    min-width: 748px;
+}
+
+.fullscreen .arrow {
+    z-index: 1;
+}
+
+.fullscreen .parallax {
+    position: relative;
+}
+
+.fullscreen .info-panel {
+    width: 370px;
+    top: 15%;
+    position: absolute;
+}
+
+/* Article > Start Tag */
+#start-tag {
+    padding-top: 1em;
+}
+
+.no-svg #start-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
+}
+
+/* Article > Aside/Figure */
+
+aside, figure {
+    position: relative;
+    width: 75%;
+}
+
+.info-panel {
+    font-weight: bold;
+}
+
+.info-panel, .notable-person {
+    position: relative;
+}
+
+.info-panel p, .notable-person p {
+    font-size: 1.0em;
+    line-height: 1.7em;
+}
+
+.info-panel p.last, .notable-person p.last {
+    margin-bottom: 0;
+}
+
+.notable-person h3, .info-panel h3 {
+    line-height: 1.5em;
+    margin-bottom: 0.429em;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 1.429em;
+    font-family: 'Arvo', serif;
+}
+
+.lucia-interview .notable-person a, .lucia-interview .info-panel a, .lucia-interview .notable-person a:visited, .lucia-interview .info-panel a:visited, .lucia-interview .info-panel a:hover, .lucia-interview .info-panel a:hover {
+    border-bottom: none;
+}
+
+.lucia-interview .notable-person a:hover, .lucia-interview .info-panel a:hover {
+    text-decoration: underline;
+}
+
+.arrow,
+.arrow:after {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.arrow:after {
+    z-index: -1;
+    content: "";
+}
+
+.arrow {
+    top: 50%;
+    right: -15px;
+    margin-top: -10px;
+    border-width: 15px 0 15px 15px;
+}
+
+.arrow:after {
+    right: -1px;
+    bottom: -11px;
+    border-left-color: #000;
+    border-width: 16px 0 16px 16px;
+}
+
+/* Article > Aside > Info-Panel */
+
+.info-panel aside {
+    color: #FFFFFF;
+    background-color: #FF3818;
+    padding: 1em;
+    line-height: 1.5em;
+    text-align: left;
+    position: absolute;
+    top: 1em;
+
+}
+
+.info-panel aside h3 {
+    color: #FFFFFF;
+}
+
+.info-panel .arrow:after {
+    border-left-color: #FF3818;
+}
+
+/* Article > Aside > Personal-Testimony */
+
+.personal-testimony .mentor {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.personal-testimony .mentor em {
+    font-style: normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.personal-testimony p img {
+    float: left;
+    padding-right: 1em;
+}
+
+/* Article > Figure > Notable-Person */
+
+.notable-person figure {
+    color: #000000;
+    background-color: #f3f3f3;
+    padding: 1em;
+    margin: 0;
+    line-height: 1.5em;
+    text-align: left;
+    position: absolute;
+    top: 1em;
+}
+
+.notable-person .arrow:after {
+    border-left-color: #f3f3f3;
+}
+
+.notable-person img {
+    float: left;
+    width: 32%;
+}
+
+.notable-person figcaption {
+    float: left;
+    width: 63%;
+    margin-left: 5%;
+    padding-top: 0.2em;
+    line-height: 1.5em;
+}
+
+.notable-person h4 {
+    font-size: 1.071em;
+    line-height: 0.5em;
+    margin: 0 0 0.75em;
+    font-weight: bold;
+}
+
+/* Article > Aside > Pull-Quote */
+
+.pull-quote {
+    /* pull quote should have 90px-ish margin (90/14 = ~6) */
+    margin-bottom: 6em;
+    margin-top: 4.5em; /* <p> has 1.5em bottom margin so this counteracts that */
+    background-color: #FF3818;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+/* pull quote in the last row is followed by a new section */
+/* It must counteract .section's top margin of 2.5em */
+/* to give an even 6em whitespace */
+
+.pull-quote.last-row {
+    margin-bottom: 3.5em;
+
+}
+
+#profile-image {
+    float: left;
+    width: 125px;
+    position: relative;
+}
+
+.pull-quote .quote {
+    width: 100%;
+}
+
+.pull-quote .quote h2 {
+    margin: 0 50px 0 0;
+    line-height: 1.429em;
+    padding: 0.5em 0.714em 0.714em 0.714em;
+    background-color: #f3f3f3;
+}
+
+.pull-quote .quote-mark {
+    color: #FFFFFF;
+    background-color: #FF3818;
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    top: 0.5em;
+    right: 7px;
+}
+
+.pull-quote .quote-mark img {
+    padding-top: 1.143em;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+/* Article > Interview-Panel */
+
+.interview-panel {
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.interview-panel p {
+    margin-bottom: 1.5em;
+    color: #444;
+}
+
+/* Callout-Question */
+
+.callout-question {
+    background: #f3f3f3;
+}
+
+.callout-question .new-line {
+    margin-left: 0;
+}
+
+.callout-question #question-prompt {
+    background-color: #FF3818;
+    padding: 0.7em 1em 0.8em;
+    text-align: left;
+}
+
+#question-prompt h3 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: normal;
+}
+
+.callout-question #profile-image {
+    padding: 3%;
+}
+
+.callout-question #profile-image img {
+    border-radius: 50%;
+}
+
+.callout-question h4 {
+    font-size: 1.857em;
+    margin-top: 1em;
+    line-height: 1.429em;
+    position: relative;
+    margin-right: 70px;
+}
+
+callout-question {
+    position: relative;
+}
+
+.callout-question #quote-mark {
+    position: absolute;
+    top: 1em;
+    right: 15px;
+    width: 38px;
+    height: 23px;
+    margin: 0;
+    font-size: 2.1em;
+}
+
+.callout-question #question-details {
+    position: relative;
+    clear: left;
+    overflow: hidden;
+}
+
+#call-to-action p {
+    padding-top: 1em;
+    font-style: italic;
+}
+
+.photo-callout p {
+    font-style: italic;
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+
+.photo-callout p em {
+    font-size: 0.9em;
+}
+
+.photo-callout img {
+    float: none;
+    width: 100%;
+}
+
+.photo-callout figcaption {
+    float: none;
+    width: 100%;
+    padding-top: 0.7em;
+    margin: 0;
+}
+
+/* End Tag */
+
+#end-tag {
+    position: relative;
+    top: -103px;
+    margin-top: -1em; /* Moves the end tag up to counteract .section's bottom margin */
+    z-index: 1;
+}
+
+#end-tag img {
+    position: absolute;
+    z-index: 2;
+}
+
+/* Portrait Tablet */
+
+@media (min-width:767px) and (max-width:979px) {
+    .lucia-interview h1 {
+        position: relative;
+        top: 0.286em;
+        font-size: 3em;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .callout-question h4 {
+        line-height: 1.6em;
+        font-size: 2em;
+    }
+
+    #coffee-time p {
+        font-size: 1.429em;
+        line-height: 1.571em;
+    }
+}
+
+@media (max-width:979px) {
+
+    .table-of-contents {
+        padding-top: 0;
+        margin-bottom: 2em;
+    }
+
+    .table-of-contents .container {
+        width: 100%;
+    }
+
+    .table-of-contents .container .row {
+        margin-left: 0;
+    }
+
+    .table-of-contents .span4, .table-of-contents .span4 .span1, .table-of-contents .span4 .span3, .table-of-contents .span8 {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .table-of-contents .span4 .span1 {
+        float: left;
+        margin: 0 2em;
+        width: 55px;
+    }
+
+    .table-of-contents .illustrations {
+        margin: 0.5em 2em 1em;
+    }
+
+    .callout-question h4 {
+        font-size: 1.8em;
+        line-height: 1.571em;
+    }
+
+    #coffee-time {
+        background-color: #ffffff;
+        border-top: 3px solid #FFAEA4;
+        padding: 0.5em 0 1em;
+    }
+
+    #coffee-time p {
+        font-size: 1.3em;
+        margin: 1em;
+    }
+
+    .interview-intro {
+        margin-top: 170px;
+    }
+}
+
+/* Mobile Fluid */
+@media (max-width:767px) {
+
+    .lucia-interview h1 {
+        font-size: 3em;
+        position: relative;
+        top: 0.286em;
+        margin-left: 1.9em;
+        word-wrap: break-word;
+    }
+
+    #opening {
+        margin: 0 0 1.429em;
+    }
+
+    .container {
+        padding-left: 0;
+    }
+
+    section#introduction {
+        margin: 0 0 2em;
+    }
+
+    section, article header {
+        margin: 0;
+        padding: 0 2em;
+    }
+
+    article header.row {
+        margin-bottom: 0;
+    }
+
+    section h2 {
+        font-size: 1.786em;
+    }
+
+    section h3 {
+        line-height: 1.571em;
+        margin-bottom: 1em;
+    }
+
+    #question-prompt h3 {
+        line-height: 1.357em;
+    }
+
+    .row {
+        margin: 0 0 2em;
+    }
+
+    #start-tag, #end-tag {
+        display: none;
+    }
+
+    .pull-quote {
+        margin: 3em 0 2.571em;
+    }
+
+    .callout-question h4 {
+        margin: 1em 3em 1em 1em;
+        left: auto;
+        font-size: 1.786em;
+        line-height: 1.429em;
+    }
+
+    .notable-person {
+        width: 50%;
+        float: left;
+        overflow: hidden;
+    }
+
+    .notable-person figure, .info-panel aside {
+        position: relative;
+        width: auto;
+        top: auto;
+    }
+
+    .notable-person figure {
+        margin: 0 2em 1em 0;
+        top: 1.357em;
+    }
+
+    .interview-panel p {
+        margin-bottom: 1.071em;
+        line-height: 1.857em;
+    }
+
+    .info-panel aside {
+        margin: 1.429em 0 4.643em;
+    }
+
+    .info-panel p, .notable-person p {
+        font-size: 1.143em;
+    }
+
+    .notable-person figcaption, .photo-callout figcaption {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .photo-callout figcaption {
+        padding: 0;
+    }
+
+    .photo-callout figcaption p {
+        font-size: 1em;
+    }
+
+    .notable-person .arrow {
+        display: none;
+    }
+
+    .notable-person h3, .info-panel h3 {
+        font-size: 1.286em;
+        line-height: 1.286em;
+        margin: 0 0 0.357em;
+    }
+
+    .notable-person h4 {
+        font-size: 1.143em;
+        line-height: 1.429em;
+        margin: 0;
+        position: relative;
+        top: -0.214em;
+    }
+
+    .notable-person img, .photo-callout img {
+        width: 100px;
+        margin: 0.357em 1.429em 0.714em 0;
+    }
+
+    .photo-callout img {
+        float: left;
+    }
+
+    .info-panel .arrow {
+        display: none;
+    }
+
+    .curtains.drawn > li, .curtains > li {
+        height: auto !important;
+        position: relative !important;
+        -webkit-transform: none !important;
+        box-shadow: none !important;
+        margin: 0 !important;
+    }
+
+    .curtains.drawn > li.curtain-hidden, .curtains > li.curtain-hidden {
+        display: block !important;
+    }
+
+    body {
+        height: auto !important;
+    }
+
+    .fullscreen .parallax {
+        position: relative;
+        height: 500px;
+    }
+
+    .fullscreen .info-panel {
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    .fullscreen .info-panel aside {
+        margin: 0;
+    }
+
+    .fullscreen .info-panel p {
+        font-size: 1em;
+    }
+
+    .fullscreen {
+        position: relative;
+        height: 500px;
+        margin-bottom: 2em;
+    }
+
+    .fullscreen img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 100%;
+        margin-left: -374px;
+    }
+
+    #portrait {
+        margin-bottom: 0;
+    }
+
+    .interview-intro {
+        margin-top: 20px;
+    }
+}
