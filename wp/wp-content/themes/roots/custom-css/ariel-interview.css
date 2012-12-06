@@ -858,7 +858,7 @@ callout-question {
 }
 
 #past-question {
-    background: #F3F3F3;
+    background-color: #F3F3F3;
     display: block;
     width: 100%;
     height: auto;
@@ -880,7 +880,6 @@ callout-question {
 }
 
 #past-question #question h2 {
-    width: 70%;
     padding: 10%;
     float: right;
     font-size: 1em;
@@ -905,31 +904,75 @@ callout-question {
     float: left;
     display: inline-block;
     font-size: 1em;
+    padding: 2% 5%;
 }
 
-#answer div {
-    margin-top: 30px;
-    padding: 0px 10%;
-}
-
-#answer h3 {
+#answer .past-interviewee h3 {
     font-size: 0.6em;
+    width: 92%;
+    float right;
 }
 
-#answer img.prev-interviewee {
+#answer .past-interviewee img{
     vertical-align: middle;
-    width: 8%;
-    border-radius: 50px;
-    margin-right: 10px;
-}
-
-#answer p {
-    width: 80%;
     float: left;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
 }
 
-#answer img.current-interviewee {
-    width: 15%;
-    float: right;
+
+#answer .current-interviewee p {
+    width: 60%;
+    float: left;
+    clear: left;
+}
+
+#answer .current-interviewee img {
+    width: 150px;
+    float: left;
     border-radius: 100%;
+}
+
+@media (max-width: 767px) {
+    #past-question #question {
+        width: 100%;
+        padding: 0px;
+    }
+    #past-question #question aside{
+        padding: 0px;
+        margin: 0px;
+    }
+    #past-question #question h2 {
+        padding: 20px;
+        float: none;
+        font-size: 0.7em;
+    }
+    #question .arrow:after {
+        display: none;
+    }
+
+    #past-question #answer {
+        width: 100%;
+    }
+    .past-interviewee {
+        margin-bottom: 5%;
+    }
+    #past-question #answer .past-interviewee h3 {
+        font-size: 0.8em;
+    }
+    #past-question #answer .past-interviewee img {
+        width: 30%;
+    }
+    #past-question #answer .current-interviewee p {
+        font-size: 0.7em;
+        clear: left;
+        width: 55%;
+        margin-right: 5%;
+        float: left;
+    }
+    #past-question #answer .current-interviewee img {
+        width: 40%;
+        float: right;
+    }
 }
