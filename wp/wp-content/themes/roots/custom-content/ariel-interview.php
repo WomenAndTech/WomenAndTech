@@ -16,11 +16,13 @@
     </header>
     <section class="row" id="introduction">
       <div class="span12">
-        <h2>Ariel is an artist, scientist, and tech entrepreneur who has successfully bridged the gap between all three. She is the CEO of <a href="http://interaxon.ca" target="_blank" title="Interaxon" alt="Interaxon">Interaxon</a>, a company specialized in thought-controlled computing, and has raised $170,000 on Indie GoGo (so far) to produce <a href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="Interaxon Muse" alt="Interaxon Muse">Muse</a>, a brain-sensing headband.</h2>
+        <h2>Ariel is an artist, scientist, and tech entrepreneur who has bridged the gap between all three. She is th
+          e CEO of <a href="http://interaxon.ca" target="_blank" title="InteraXon" alt="InteraXon">InteraXon</a>, a company specialized in thought-controlled computing, and has raised $170,000 on Indiegogo to produce a <a href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="InteraXon Muse" alt="InteraXon Muse">brain-sensing headband</a>.</h2>
       </div>
     </section>
   </div>
-  <div id="portrait" class="fullscreen"><img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-header.png" /></div>
+  <div id="portrait" class="fullscreen"><img
+    src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-interaxon.jpg" /></div>
   <div class="table-of-contents">
     <div class="container">
       <div class="row">
@@ -51,7 +53,9 @@
 
       <div class="span7 interview-panel">
         <h3>Introduce yourself!</h3>
-        <p>My name is Ariel Garten, I’m the CEO and co-founder of InteraXon. At InteraXon we create thought controlled computing products, applications and experiences. Thought-controlled computing is exactly what it sounds like – it’s the ability to interact with content and yourself. A sensor sits on your forehead, reads your brainwaves, and then lets you play games on your smartphone or tablet directly with your brain. It also lets you see your brain and engagement activity to improve your working memory, concentration, circulation, etc.</p>
+        <p>My name is Ariel Garten, I’m the CEO and co-founder of <a href="http://interaxon.ca" target="_blank"
+          title="InteraXon" alt="InteraXon">InteraXon</a>. At InteraXon we create thought controlled computing products
+          , applications and experiences. Thought-controlled computing is exactly what it sounds like – it’s the ability to interact with content and yourself. A sensor sits on your forehead, reads your brainwaves, and then lets you play games on your smartphone or tablet directly with your brain. It also lets you see your brain and engagement activity to improve your working memory, concentration, circulation, etc.</p>
         <h3>Give us some background on your story.</h3>
         <p>My background spans arts, science and business. I was in real estate since I was a kid through my dad. My dad sent me to show the apartments. At university, I studied neuroscience and ran a clothing line that I had started in high school. I sold to stores in Toronto, and I had a job in a research lab. So I’ve always been able to move back and forth between art and science, and I find both completely stimulating. When I graduated, I continued to work at the research lab and opened my own clothing store on College Street, expanding to sell my line to small boutiques across North America.</p>
         </div>
@@ -86,13 +90,15 @@
 
   <div class="fullscreen">
     <div class="parallax">
-      <img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-2.jpg" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-mounties-banff.jpg" />
       <div class="container">
         <div class="info-panel">
           <aside>
             <div class="arrow"></div>
-            <h3>Quarterly GIT events</h3>
-            <p class="last">Girls in Tech, co-run by Lucia, provides a forum where women share projects they are passionate about. Helen Kula, shown here, works at MaRS innovation centre wrangling data for startups.</p>
+            <h3>Transmitting Brain Waves Across Canada</h3>
+            <p class="last">InteraXon's <em>Bright Ideas</em> experience at the Vancouver Winter Olympics
+              beamed visitors' digital brain signals 3000km accross Canada to control lightshows at Niagara Falls
+              as well as Ottawa’s Parliament building and the CN Tower.</p>
           </aside>
         </div>
       </div>
@@ -143,7 +149,8 @@
 </li>
 <li>
 
-  <div class="fullscreen"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-photo-2.jpg" /></div>
+  <div class="fullscreen"><img
+    src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-next-media.jpg" /></div>
 
   <div class="container">
     <section class="row">
@@ -213,7 +220,8 @@
   </div>
 </li>
 <li>
-  <div class="fullscreen"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-photo-3.JPG" /></div>
+  <div class="fullscreen"><img
+    src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-steve-wozniak.jpg" /></div>
   <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
@@ -239,18 +247,14 @@
   </div>
 </li>
 <li>
-  <div class="fullscreen"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-1.JPG" /></div>
-  <div id="past-question" class="row-fluid">
-    <section>
-      <aside id="question">
-        <div class="arrow"></div>
-        <h2>In our <a href="">last interview</a>, our interviewee <a href="http://twitter.com/feastinc">Lucia</a> asked a question without knowing who she was addressing.  Ariel answered.</h2>
-      </aside>
-      <div id="answer" class="span7 interview-panel">
-        <div>
-          
-          <h3><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-square.jpg" />When will we see the female version of Steve Jobs, Mark Zuckerberg?</h3>
-          <p>My cocky, 'masculine' answer would be me in five years [laughs]. I have no fucking idea! But my first thought was, ‘that could be me!’</p>
+  <div class="fullscreen"><img
+    src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-web2012.jpg" /></div>
+  <div class="container-fluid">
+    <section class="row-fluid">
+      <div class="span5">
+        <div id="past-question">
+
+
         </div>
       </div>
     </section>
@@ -259,7 +263,7 @@
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>Is there anything exciting that you’re working on that you want to tell us about?</h3>
-        <p>As of this writing, Interaxon’s Indiegogo campaign has raised $238,000 to produce <a href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="Interaxon Muse" alt="Interaxon Muse">Muse</a>, a brain-wave sensing headband. The campaign runs until December 7. <span class="full-stop"><img src="<?php echo get_home_url(); ?>/assets/img/full-stop.png" /></span></p>
+        <p>As of this writing, InteraXon’s Indiegogo campaign has raised $238,000 to produce <a href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="InteraXon Muse" alt="InteraXon Muse">Muse</a>. The campaign runs until December 7. <span class="full-stop"><img src="<?php echo get_home_url(); ?>/assets/img/full-stop.png" /></span></p>
       </div>
     </section>
     <section class="row">
