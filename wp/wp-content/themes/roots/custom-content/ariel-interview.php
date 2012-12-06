@@ -240,13 +240,21 @@
 </li>
 <li>
   <div class="fullscreen"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-1.JPG" /></div>
-  <div class="container">
-    <section class="row">
-      <div class="span7 offset4 interview-panel">
+  <div class="container-fluid">
+    <section class="row-fluid">
+      <div class="span5">
+        <div id="past-question">
+
+        </div>
+
+      </div>
+      <div class="span7 interview-panel">
         <h3>When will we see the female version of Steve Jobs, Mark Zuckerberg or a Bill Gates?</h3>
         <p>My cocky, 'masculine' answer would be me in five years [laughs]. I have no fucking idea! But my first thought was, ‘that could be me!’</p>
       </div>
     </section>
+  </div>
+  <div class="container-fluid">
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>Is there anything exciting that you’re working on that you want to tell us about?</h3>
