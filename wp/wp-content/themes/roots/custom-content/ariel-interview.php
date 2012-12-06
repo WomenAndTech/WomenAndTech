@@ -101,16 +101,19 @@
 
   <div class="container">
     <section class="row">
-      <div class="span7 offset4 interview-panel">
+
+      <div class="span4  info-panel">
+        <aside class="first-row">
+          <div class="arrow"></div>
+          <p class="last">As Ariel points out, technology defined in broad terms is the practical application of knowledge, especially in a particular area (Merriam-Webster Online). A more common usage places technology within the narrower scope of digital products and services.</p>
+        </aside>
+      </div>
+      
+      <div class="span7 interview-panel">
         <h3>How do you define ‘technology’?</h3>
         <p>Technology is an enabler. Anything is a technology; the glasses we wear are technology; there is technology in my shoes. The definition we use today is very specific and it tends to refer to digital or computational technologies that enable our lives in ways that weren’t possible two and a half decades ago.</p>
       </div>
-      <div class="span11 pull-quote">
-        <aside class="quote">
-          <h2>As Ariel points out, technology defined in broad terms is the practical application of knowledge, especially in a particular area (Merriam-Webster Online). A more common usage places technology within the narrower scope of digital products and services.</h2>
-        </aside>
-        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-      </div>
+
     </section>
     <section class="row">
       <div class="span7 offset4 interview-panel">
