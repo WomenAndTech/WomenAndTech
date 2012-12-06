@@ -249,6 +249,7 @@
 <li>
   <div class="fullscreen"><img
     src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-web2012.jpg" /></div>
+  </div>
   <div id="past-question" class="row-fluid">
     <section>
       <aside id="question">
@@ -258,8 +259,12 @@
       <div id="answer" class="span7 interview-panel">
         <div>
           
-          <h3><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-square.jpg" />When will we see the female version of Steve Jobs, Mark Zuckerberg?</h3>
+          <h3><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-square.jpg" class="prev-interviewee" alt="Lucia Mariani-Vena" title="Lucia Mariani-Vena" />When will we see the female version of Steve Jobs, Mark Zuckerberg?</h3>
           <p>My cocky, 'masculine' answer would be me in five years [laughs]. I have no fucking idea! But my first thought was, ‘that could be me!’</p>
+          <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.png" class="current-interviewee" alt="Ariel Garten" title="Ariel Garten"/>
+        </div>
+      </div>
+    </section>
   </div>
   <div class="container-fluid">
     <section class="row">

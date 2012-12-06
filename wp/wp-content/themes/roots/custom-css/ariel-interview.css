@@ -916,7 +916,7 @@ callout-question {
     font-size: 0.6em;
 }
 
-#answer h3 img {
+#answer img.prev-interviewee {
     vertical-align: middle;
     width: 8%;
     border-radius: 50px;
@@ -928,7 +928,8 @@ callout-question {
     float: left;
 }
 
-#answer img {
+#answer img.current-interviewee {
+    width: 15%;
     float: right;
-    width: 20%;
+    border-radius: 100%;
 }
