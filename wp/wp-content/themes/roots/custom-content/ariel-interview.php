@@ -240,17 +240,18 @@
 </li>
 <li>
   <div class="fullscreen"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-1.JPG" /></div>
-  <div class="container-fluid">
-    <section class="row-fluid">
-      <div class="span5">
-        <div id="past-question">
-
+  <div id="past-question" class="row-fluid">
+    <section>
+      <aside id="question">
+        <div class="arrow"></div>
+        <h2>In our <a href="">last interview</a>, our interviewee <a href="http://twitter.com/feastinc">Lucia</a> asked a question without knowing who she was addressing.  Ariel answered.</h2>
+      </aside>
+      <div id="answer" class="span7 interview-panel">
+        <div>
+          
+          <h3><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-square.jpg" />When will we see the female version of Steve Jobs, Mark Zuckerberg?</h3>
+          <p>My cocky, 'masculine' answer would be me in five years [laughs]. I have no fucking idea! But my first thought was, ‘that could be me!’</p>
         </div>
-
-      </div>
-      <div class="span7 interview-panel">
-        <h3>When will we see the female version of Steve Jobs, Mark Zuckerberg or a Bill Gates?</h3>
-        <p>My cocky, 'masculine' answer would be me in five years [laughs]. I have no fucking idea! But my first thought was, ‘that could be me!’</p>
       </div>
     </section>
   </div>
