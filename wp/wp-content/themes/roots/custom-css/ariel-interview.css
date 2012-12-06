@@ -856,3 +856,8 @@ callout-question {
         margin-top: 20px;
     }
 }
+
+#past-question {
+    background: #FF3818;
+    height: 100px;
+}
