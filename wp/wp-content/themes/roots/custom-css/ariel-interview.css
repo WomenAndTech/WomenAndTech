@@ -858,6 +858,77 @@ callout-question {
 }
 
 #past-question {
-    background: #FF3818;
-    height: 100px;
+    background: #F3F3F3;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#past-question section {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-size: 2em;
+}
+
+#past-question #question {
+    background-color: #FF3818;
+    width: 30%;
+    float: left;
+    font-family: 'Arvo', serif;
+    line-height: 1.75em;
+}
+
+#past-question #question h2 {
+    width: 70%;
+    padding: 10%;
+    float: right;
+    font-size: 1em;
+}
+
+#past-question #question a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#question .arrow {
+    z-index: 100;
+}
+
+#question .arrow:after {
+    border-left-color:#FF3818;
+}
+
+#past-question #answer {
+    width: 70%;
+    margin: 0px;
+    float: left;
+    display: inline-block;
+    font-size: 1em;
+}
+
+#answer div {
+    margin-top: 30px;
+    padding: 0px 10%;
+}
+
+#answer h3 {
+    font-size: 0.6em;
+}
+
+#answer h3 img {
+    vertical-align: middle;
+    width: 8%;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#answer p {
+    width: 80%;
+    float: left;
+}
+
+#answer img {
+    float: right;
+    width: 20%;
 }
