@@ -288,7 +288,7 @@
       <div class="span8 offset3">
         <div class="row-fluid callout-question">
           <div class="span12" id="question-prompt">
-            <h3>Without knowing who they are, please post a question for our next interviewee.</h3>
+            <h3>Without knowing who they are, please pose a question for our next interviewee.</h3>
           </div>
           <div id="question-details">
             <div id="profile-image"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-square.jpg" /></div>

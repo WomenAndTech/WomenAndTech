@@ -260,13 +260,13 @@
 </li>
 <li>
   <div class="fullscreen"><img
-    src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-web2012.jpg" /></div>
+    src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-web2012.jpg" />
   </div>
   <div id="past-question" class="row-fluid">
     <section>
       <aside id="question">
         <div class="arrow"></div>
-        <h2>In our <a href="">last interview</a>, our interviewee <a href="http://twitter.com/feastinc">Lucia</a> asked a question without knowing who she was addressing.  Ariel answered.</h2>
+        <h2>Without knowing who she would be, <a href="<?php echo get_home_url(); ?>/interview/lucia-mariani-vena/">Lucia Mariana-Vena</a> asked a question to our next interviewee. <br/>Ariel answered.</h2>
       </aside>
       
       <div id="answer" class="span7 interview-panel">
@@ -276,8 +276,11 @@
         </div>
 
         <div class="current-interviewee" >
+          <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small-beginning.png" alt="Ariel Garten" title="Ariel Garten" class="begininning-quote-mark"/>
+          <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.png" alt="Ariel Garten" title="Ariel Garten" class="current-interviewee-image"/>
+          
           <p>My cocky, 'masculine' answer would be me in five years [laughs]. I have no fucking idea! But my first thought was, ‘that could be me!’</p>
-          <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.png" alt="Ariel Garten" title="Ariel Garten"/>
+          
         </div>
       </div>
 
@@ -294,10 +297,10 @@
       <div class="span8 offset3">
         <div class="row-fluid callout-question">
           <div class="span12" id="question-prompt">
-            <h3>Pose a question for our next interviewee.</h3>
+            <h3>Without knowing who they are, please pose a question for our next interviewee.</h3>
           </div>
           <div id="question-details">
-            <div id="profile-image"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-square.jpg" /></div>
+            <div id="profile-image"><img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.png" /></div>
             <h4>What question about 'women in technology' do you find really annoying?</h4>
             <div id='quote-mark'><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
           </div>
