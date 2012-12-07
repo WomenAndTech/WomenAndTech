@@ -9,7 +9,7 @@
           <div class="author-image" id="author-milang"></div>
           <div class="author-info">
             <p class="author">An interview by <a href="http://twitter.com/milang" rel="author" target="_blank" title="Milan Gokhale's twitter profile"><strong>Milan Gokhale</strong></a></p>
-            <p class='date'>December 5th, 2012</p>
+            <p class='date'><?php the_date("F j, Y"); ?></p>
           </div>
         </address>
       </div>
