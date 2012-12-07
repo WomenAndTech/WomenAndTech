@@ -16,8 +16,10 @@
     </header>
     <section class="row" id="introduction">
       <div class="span12">
-        <h2>Ariel is an artist, scientist, and tech entrepreneur who has bridged the gap between all three. She is th
-          e CEO of <a href="http://interaxon.ca" target="_blank" title="InteraXon" alt="InteraXon">InteraXon</a>, a company specialized in thought-controlled computing, and has raised $170,000 on Indiegogo to produce a <a href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="InteraXon Muse" alt="InteraXon Muse">brain-sensing headband</a>.</h2>
+        <h2>Ariel is an artist, scientist, and tech entrepreneur who has bridged the gap between all three. She is
+          the CEO of <a href="http://interaxon.ca" target="_blank" title="InteraXon" alt="InteraXon">InteraXon</a>, a
+          company specialized in thought-controlled computing, and has raised $250,000 on Indiegogo to produce a <a
+            href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="InteraXon Muse" alt="InteraXon Muse">brain-sensing headband</a>.</h2>
       </div>
     </section>
   </div>
@@ -32,7 +34,8 @@
               <div id="coffee-animation" style="width: 76px; height: 76px" class="swiffy"></div>
             </div>
             <div class="span3">
-              <p class="last">On a Friday afternoon, we meet Ariel for a brief window before she flies to Paris.</p>
+              <p class="last">On a Friday afternoon, we met Ariel before she flew to Paris to
+                speak at LeWeb'12.</p>
             </div>
           </div>
         </div>
@@ -52,27 +55,30 @@
 
 
       <div class="span7 interview-panel">
-        <h3>Introduce yourself!</h3>
+        <h3>Please introduce yourself.</h3>
         <p>My name is Ariel Garten, I’m the CEO and co-founder of <a href="http://interaxon.ca" target="_blank"
-          title="InteraXon" alt="InteraXon">InteraXon</a>. At InteraXon we create thought controlled computing products
-          , applications and experiences. Thought-controlled computing is exactly what it sounds like – it’s the ability to interact with content and yourself. A sensor sits on your forehead, reads your brainwaves, and then lets you play games on your smartphone or tablet directly with your brain. It also lets you see your brain and engagement activity to improve your working memory, concentration, circulation, etc.</p>
-        <h3>Give us some background on your story.</h3>
-        <p>My background spans arts, science and business. I was in real estate since I was a kid through my dad. My dad sent me to show the apartments. At university, I studied neuroscience and ran a clothing line that I had started in high school. I sold to stores in Toronto, and I had a job in a research lab. So I’ve always been able to move back and forth between art and science, and I find both completely stimulating. When I graduated, I continued to work at the research lab and opened my own clothing store on College Street, expanding to sell my line to small boutiques across North America.</p>
+          title="InteraXon" alt="InteraXon">InteraXon</a>. At InteraXon we create thought controlled computing products, applications and experiences. Thought-controlled computing is exactly what it sounds like &mdash; it’s the ability to interact with content and yourself. A sensor sits on your forehead, reads your brainwaves, and then lets you play games on your smartphone or tablet directly with your brain. It also lets you see your brain and engagement activity to improve your working memory, concentration, circulation, etc.</p>
+        <h3>Tell us more about your background.</h3>
+        <p>My background spans arts, science and business. I was in real estate since I was a kid. My dad sent me to show the apartments. At university, I studied neuroscience and ran a clothing line that I had started in high school. I sold to stores in Toronto, and I had a job in a research lab. So I’ve always been able to move back and forth between art and science, and I find both completely stimulating. When I graduated, I continued to work at the research lab and opened my own clothing store on College Street, expanding to sell my line to small boutiques across North America.</p>
         </div>
       <div class="span4 notable-person" id="steve-mann">
         <figure class="first-row">
           <div class="arrow"></div>
           <h3>Notable Person</h3>
-          <img src='<?php echo get_home_url(); ?>/assets/img/ariel-interview/steve-mann.jpg'>
+          <a href="http://en.wikipedia.org/wiki/Steve_Mann"
+            title="Steve Mann's wikipedia entry"
+            target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/ariel-interview/steve-mann.jpg'></a>
           <figcaption class="clear">
-            <a href="http://en.wikipedia.org/wiki/Steve_Mann" title="Mary Wells' profile page on the University of Waterloo website" target="_blank"><h4>Steve Mann</h4></a>
+            <a href="http://en.wikipedia.org/wiki/Steve_Mann"
+              title="Steve Mann's wikipedia entry"
+              target="_blank"><h4>Steve Mann</h4></a>
             <p>University of Toronto, Professor, Department of Electrical and Computer Engineering</p>
           </figcaption>
           <div style="clear:both"></div>
         </figure>
       </div>
       <div class="span7 interview-panel">
-        <p>I was ultimately looking for a way to talk about the self and understand the self from the scientific and artistic perspective. I started working with brainwaves in Steve Mann’s lab almost a decade ago. Ultimately we created a system that I took out of the lab and started to commercialize with my two co-founders, Trevor Colemen and Chris Aimone. That was the formation of InteraXon, which has existed for the last five years. Our first major project was the Vancouver 2010 Winter Olympics. As our kick off project, it wasn’t a bad one to do! Since then, we’ve worked with companies like Deutsche Telekom, brands like Wrigley’s and agencies like Aerospace Ontario to enable this technology across multiple domains.</p>
+        <p>I was looking for a way to talk about the self and understand the self from the scientific and artistic perspective. I started working with brainwaves in Steve Mann’s lab almost a decade ago. Ultimately we created a system that I took out of the lab and started to commercialize with my two co-founders, Trevor Colemen and Chris Aimone. That was the formation of InteraXon, which has existed for the last five years. Our first major project was the Vancouver 2010 Winter Olympics. As our kick off project, it wasn’t a bad one to do! Since then, we’ve worked with companies like Deutsche Telekom, brands like Wrigley’s and agencies like the Ontario Aerospace Council to enable this technology across multiple domains.</p>
       </div>
       <!-- <div class="span11 pull-quote">
         <aside class="quote">
@@ -139,12 +145,7 @@
         <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
     </section>
-    <section class="row">
-      <div class="span7 offset4 interview-panel">
-        <h3>Were there family influences to explore science?</h3>
-        <p>There were no family or peers influencing me to go into science. My mother is an artist; my father is in real estate and construction. My mother is not connected to science or technology; she’s extraordinarily intelligent and inquisitive but she processes the world through a brush and through linguistics. And my dad isn’t scientific. He would still have a VCR if someone didn’t throw it out! The pursuit of science was just a line of inquiry to understand how the world works.</p>
-      </div>
-    </section>
+   
     </div>
 </li>
 <li>
@@ -153,6 +154,28 @@
     src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-next-media.jpg" /></div>
 
   <div class="container">
+   <section class="row">
+   	<div class="span4 notable-person" id="steve-mann">
+        <figure class="first-row">
+          <div class="arrow"></div>
+          <h3>Notable Person</h3>
+          <a href="http://en.wikipedia.org/wiki/Steve_Mann"
+            title="Vivian Reiss's wikipedia entry"
+            target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/ariel-interview/steve-mann.jpg'></a>
+          <figcaption class="clear">
+            <a href="http://en.wikipedia.org/wiki/Steve_Mann"
+              title="Steve Mann's wikipedia entry"
+              target="_blank"><h4>Vivian Reiss</h4></a>
+            <p>University of Toronto, Professor, Department of Electrical and Computer Engineering</p>
+          </figcaption>
+          <div style="clear:both"></div>
+        </figure>
+      </div>
+      <div class="span7 interview-panel">
+        <h3>Were there family influences to explore science?</h3>
+        <p>There were no family or peers influencing me to go into science. <a href="#">My mother is an artist</a>; my father is in real estate and construction. My mother is not connected to science or technology; she’s extraordinarily intelligent and inquisitive but she processes the world through a brush and through linguistics. And my dad isn’t scientific. He would still have a VCR if someone didn’t throw it out! The pursuit of science was just a line of inquiry to understand how the world works.</p>
+      </div>
+    </section>
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>At what point did science became an important influence?</h3>
@@ -180,12 +203,6 @@
       </div>
       <div class="span7 offset4 interview-panel">
         <p>If your response to not knowing is, “I don’t know it, therefore I feel uncomfortable, therefore I want to run away because it makes me feel insecure,” then you’re not going to have the confidence, patience, willingness and openness to sit down and say, ‘I don’t know this but I'm not scared, I'm just going to sit here and figure it out.’ Your early responses and experiences will determine whether you go into a subject or not.</p>
-      </div>
-      <div class="span11 pull-quote">
-        <aside class="quote">
-          <h2>when you do something that you don’t know the answer to, your response to not knowing will determine your ability to learn it.</h2>
-        </aside>
-        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
     </section>
     <section class="row">
@@ -225,7 +242,8 @@
   <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
-        <h3>Is there an ideal balance between male and female CEOs in 50 years, and if so, what is it?</h3>
+        <h3>Will we reach an ideal balance between male and female CEOs in the next 50 years, and if so,
+          what would it be?</h3>
         <p>I don't think there should be any natural order, unless not being that way leads to some sort of system of oppression. And I guess a feminist would argue that this kind of inequality is inherently systemic and self-perpetuating oppression. [Pauses] I can buy into that, but it's not naturally how I feel. I've never felt oppressed as a female. I've never felt that I have been withheld opportunity because of my gender. I have not been inspired to the deep feeling of belief that comes with those feminist feelings.</p>
       </div>
       <div class="span11 pull-quote">
