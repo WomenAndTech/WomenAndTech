@@ -62,7 +62,7 @@ body {
 }
 
 .no-svg #table-of-contents-animation {
-    background:transparent url("../img/lucia-interview/img-swiffy-table-of-contents.gif") no-repeat left top;
+    background:transparent url("../img/ariel-interview/img-swiffy-table-of-contents.gif") no-repeat left top;
 }
 
 #coffee-time {
@@ -242,7 +242,7 @@ section h3 {
 
 .fullscreen img {
     width: 100%;
-    min-height: 500px;
+    min-height: 420px;
     min-width: 748px;
 }
 
@@ -258,6 +258,10 @@ section h3 {
     width: 370px;
     top: 15%;
     position: absolute;
+}
+.fullscreen .info-panel#wozniak {
+	top:auto;
+	bottom:45%;
 }
 
 /* Article > Start Tag */
@@ -356,8 +360,43 @@ aside, figure {
     color: #FFFFFF;
 }
 
+.info-panel aside a, .info-panel aside a:visited {
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+.info-panel aside a:hover {
+	text-decoration:underline;
+}
+
 .info-panel .arrow:after {
     border-left-color: #FF3818;
+}
+
+.fullscreen {
+	position:relative;
+}
+
+.photo-credit {
+	position: absolute;
+	bottom: 0;
+	height: 22px;
+	z-index: 1;
+	display: block;
+	right: 0;
+	color:#ccc;
+	padding:3px 5px 3px 8px;
+	background-color:rgba(0,0,0,0.2);
+	font-style:italic;
+	font-size:0.9em;
+}
+
+.photo-credit a, .photo-credit a:visited {
+	text-decoration:none;
+	border-bottom:none;
+	color:#bcbcbc;
+}
+.photo-credit a:hover {
 }
 
 /* Article > Aside > Personal-Testimony */
@@ -829,6 +868,19 @@ callout-question {
         display: block;
         margin: 0;
     }
+	.fullscreen .info-panel#wozniak {
+		bottom:0;
+	}
+	.fullscreen #mounties .info-panel {
+		top: 0;
+		bottom: auto;
+		position: relative;
+		display: block;
+		z-index: 9;
+	}
+	.fullscreen #mounties img {
+		position:relative;
+	}
 
     .fullscreen .info-panel aside {
         margin: 0;
