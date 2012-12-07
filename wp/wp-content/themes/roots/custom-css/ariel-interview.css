@@ -327,7 +327,7 @@ aside, figure {
 
 .arrow {
     top: 50%;
-    right: -15px;
+    right: -14px;
     margin-top: -10px;
     border-width: 15px 0 15px 15px;
 }
@@ -861,11 +861,15 @@ callout-question {
     }
 }
 
+/* ----------------------------- */
+/* PAST QUESTION / ANSWER */
+
 #past-question {
     background-color: #F3F3F3;
     display: block;
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 #past-question section {
@@ -873,6 +877,10 @@ callout-question {
     margin: 0px;
     color: #fff;
     font-size: 2em;
+}
+
+#question, #answer{
+    height: 13.2em;
 }
 
 #past-question #question {
@@ -884,14 +892,21 @@ callout-question {
 }
 
 #past-question #question h2 {
-    padding: 10%;
-    float: right;
-    font-size: 1em;
+    padding: 1em 10%;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 0.75em;
 }
 
 #past-question #question a {
+    border-bottom: solid 1px #fff;
     color: #fff;
-    text-decoration: underline;
+    font-weight: bold;
+}
+
+#past-question #question a:hover {
+    color: #888;
+    border-bottom: 1px solid #FFAEA4;
 }
 
 #question .arrow {
@@ -906,15 +921,14 @@ callout-question {
     width: 70%;
     margin: 0px;
     float: left;
-    display: inline-block;
     font-size: 1em;
-    padding: 2% 5%;
+    padding: 1em 5%;
 }
 
 #answer .past-interviewee h3 {
     font-size: 0.6em;
-    width: 92%;
-    float right;
+    line-height: 3em;
+    margin-bottom: 1em;
 }
 
 #answer .past-interviewee img{
@@ -925,17 +939,35 @@ callout-question {
     margin-right: 20px;
 }
 
+#answer .current-interviewee {
 
-#answer .current-interviewee p {
-    width: 60%;
-    float: left;
-    clear: left;
+    overflow:hidden; _overflow:visible; zoom:1; /* media object clearfix */
 }
 
-#answer .current-interviewee img {
-    width: 150px;
-    float: left;
+
+#answer .current-interviewee p {
+    font-size: 1em;
+    line-height: 1.4;
+    padding-left: 1.1em;
+    display: block;
+    overflow:hidden; _overflow:visible; zoom:1; /* media object clearfix */
+}
+
+
+#answer .current-interviewee .current-interviewee-image {
+    width: 125px;
+    float: right;
+    display: block;
     border-radius: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+#answer .current-interviewee .begininning-quote-mark{
+    float: left;
+    margin-top: 0.6em;
 }
 
 @media (max-width: 767px) {
