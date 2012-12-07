@@ -8,7 +8,7 @@
         <address>
           <div class="author-image" id="author-ivonnekn"></div>
           <div class="author-info">
-            <p class="author">An interview by <a href="http://twitter.com/ivonnekn" rel="author" target="_blank" title="Ivonne Karamoy's twitter profile"><strong>Ivonne Karamoy</strong></a></p>
+            <p class="author">An interview with <a href="http://twitter.com/ivonnekn" rel="author" target="_blank" title="Ivonne Karamoy's twitter profile"><strong>Ivonne Karamoy</strong></a></p>
             <p class='date'>November 21, 2012</p>
           </div>
         </address>
