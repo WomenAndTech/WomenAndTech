@@ -87,34 +87,34 @@ body {
     position: relative;
 }
 
-/* --- Article #1 ---- */
+/* --- Interview specific styles ---- */
 
-.lucia-interview a {
+.interview a {
     -webkit-transition: color .25s ease-out;
     -moz-transition: color .25s ease-out;
     -o-transition: color .25s ease-out;
     transition: color .25s ease-out;
 }
 
-.lucia-interview a, .lucia-interview a:visited {
+.interview a, .interview a:visited {
     text-decoration: none;
     font-weight: normal;
     padding-bottom: 1px;
     border-bottom: 1px solid #FF3818;
 }
 
-.lucia-interview a:hover {
+.interview a:hover {
     color: #888;
     border-bottom: 1px solid #ffaea4;
 }
 
-.lucia-interview footer a, .lucia-interview footer a:visited {
+.interview footer a, .interview footer a:visited {
     color: #FCB8AB;
     border-bottom: none;
     padding-bottom: 0;
 }
 
-.lucia-interview footer a:hover {
+.interview footer a:hover {
     color: #FF3818;
     border-bottom: none;
     padding-bottom: 0;
@@ -126,7 +126,7 @@ body {
 
 /* Article > Header */
 
-.lucia-interview h1 {
+.interview h1 {
     margin: 0 0 0.4em 0;
     font-size: 4.286em;
     letter-spacing: -0.018em;
@@ -298,11 +298,11 @@ aside, figure {
     font-family: 'Arvo', serif;
 }
 
-.lucia-interview .notable-person a, .lucia-interview .info-panel a, .lucia-interview .notable-person a:visited, .lucia-interview .info-panel a:visited, .lucia-interview .info-panel a:hover, .lucia-interview .info-panel a:hover {
+.interview .notable-person a, .interview .info-panel a, .interview .notable-person a:visited, .interview .info-panel a:visited, .interview .info-panel a:hover, .interview .info-panel a:hover {
     border-bottom: none;
 }
 
-.lucia-interview .notable-person a:hover, .lucia-interview .info-panel a:hover {
+.interview .notable-person a:hover, .interview .info-panel a:hover {
     text-decoration: underline;
 }
 
@@ -582,7 +582,7 @@ callout-question {
 /* Portrait Tablet */
 
 @media (min-width:767px) and (max-width:979px) {
-    .lucia-interview h1 {
+    .interview h1 {
         position: relative;
         top: 0.286em;
         font-size: 3em;
@@ -661,7 +661,7 @@ callout-question {
 /* Mobile Fluid */
 @media (max-width:767px) {
 
-    .lucia-interview h1 {
+    .interview h1 {
         font-size: 3em;
         position: relative;
         top: 0.286em;
