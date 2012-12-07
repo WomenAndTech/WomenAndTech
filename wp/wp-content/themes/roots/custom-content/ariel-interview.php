@@ -282,10 +282,10 @@
       <div class="span8 offset3">
         <div class="row-fluid callout-question">
           <div class="span12" id="question-prompt">
-            <h3>Pose a question for our next interviewee.</h3>
+            <h3>Without knowing who they are, please pose a question for our next interviewee.</h3>
           </div>
           <div id="question-details">
-            <div id="profile-image"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-square.jpg" /></div>
+            <div id="profile-image"><img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.png" /></div>
             <h4>What question about 'women in technology' do you find really annoying?</h4>
             <div id='quote-mark'><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
           </div>
