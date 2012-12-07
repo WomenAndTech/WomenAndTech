@@ -891,7 +891,7 @@ callout-question {
 }
 
 #past-question #question h2 {
-    padding: 1em 10%;
+    padding: 1em 5%;
     font-family: 'Arvo', serif;
     font-weight: bold;
     font-size: 1.75em;
@@ -922,6 +922,7 @@ callout-question {
     float: left;
     font-size: 1em;
     padding: 1em 5%;
+    padding-right: 0;
 }
 
 #answer .past-interviewee h3 {
@@ -1008,5 +1009,69 @@ callout-question {
     #past-question #answer .current-interviewee img {
         width: 40%;
         float: right;
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:979px) {
+    #question, #answer{ /* Magical height */
+        height: 19em;
+    }
+
+    #past-question #question h2{
+        font-size: 1.5em;
+    }
+    #answer .past-interviewee h3{
+        font-size: 1em;
+    }
+    #answer .current-interviewee p{
+        font-size: 1.8em;
+    }
+
+
+    #answer .current-interviewee .current-interviewee-image {
+        width: 100px;
+        float: right;
+        display: block;
+        border-radius: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+    }
+}
+
+@media (min-width:768px) and (max-width:891px) {
+    #past-question #question h2{
+        font-size: 1.5em;
+    }
+    #answer .past-interviewee h3{
+        font-size: 1em;
+    }
+    #answer .current-interviewee p{
+        font-size: 1.7em;
+    }
+}
+
+@media (max-width: 1050px){
+    #past-question{
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width:1200px) {
+    #question, #answer{ /* Magical height */
+        height: 21em;
+    }
+
+    #past-question #question h2 {
+        padding: 1em 10%;
+        font-size: 1.75em;
+    }
+
+    #past-question #answer {
+        font-size: 1em;
+        padding: 1em 5%;
     }
 }
