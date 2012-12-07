@@ -292,7 +292,7 @@
         </div>
         <div class="row-fluid">
           <div class="span12" id="call-to-action">
-            <p>Be sure to check back next month (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Heather Payne's answer to this question.</p>
+            <p>Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Heather Payne's answer to this question.</p>
           </div>
         </div>
       </div>
