@@ -359,6 +359,9 @@ aside, figure {
 .info-panel aside h3 {
     color: #FFFFFF;
 }
+.info-panel aside a:hover {
+	color:#FFFFFF;
+}
 
 .info-panel aside a, .info-panel aside a:visited {
 	font-weight:bold;
@@ -397,8 +400,10 @@ aside, figure {
 	color:#bcbcbc;
 }
 .photo-credit a:hover {
+	color:#ccc;
+	text-decoration:none;
+	border:none;
 }
-
 /* Article > Aside > Personal-Testimony */
 
 .personal-testimony .mentor {
@@ -839,6 +844,14 @@ callout-question {
     .info-panel .arrow {
         display: none;
     }
+
+	.photo-credit.top {
+		bottom:auto;
+		top:0;
+	}
+	.photo-credit.dark {
+		background-color:rgba(0,0,0,0.5);
+	}
 
     .curtains.drawn > li, .curtains > li {
         height: auto !important;
