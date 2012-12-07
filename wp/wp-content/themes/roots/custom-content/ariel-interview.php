@@ -282,7 +282,9 @@
         </div>
 
         <div class="current-interviewee" >
-          <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.png" alt="Ariel Garten" title="Ariel Garten" id="current-interviewee-image"/>
+          <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small-beginning.png" alt="Ariel Garten" title="Ariel Garten" class="begininning-quote-mark"/>
+          <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.png" alt="Ariel Garten" title="Ariel Garten" class="current-interviewee-image"/>
+          
           <p>My cocky, 'masculine' answer would be me in five years [laughs]. I have no fucking idea! But my first thought was, ‘that could be me!’</p>
           
         </div>
