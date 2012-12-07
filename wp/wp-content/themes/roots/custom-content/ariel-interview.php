@@ -96,7 +96,6 @@
 
   <div class="fullscreen">
     <div class="parallax">
-      <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-mounties-banff.jpg" />
       <div class="container">
         <div class="info-panel">
           <aside>
@@ -108,20 +107,22 @@
           </aside>
         </div>
       </div>
+	  <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-mounties-banff.jpg" />
+      
     </div>
   </div>
 
   <div class="container">
     <section class="row">
 
-      <div class="span4  info-panel">
+      <div class="span4 info-panel push7">
         <aside class="first-row">
           <div class="arrow"></div>
           <p class="last">As Ariel points out, technology defined in broad terms is the practical application of knowledge, especially in a particular area (Merriam-Webster Online). A more common usage places technology within the narrower scope of digital products and services.</p>
         </aside>
       </div>
       
-      <div class="span7 interview-panel">
+      <div class="span7 pull4 interview-panel">
         <h3>How do you define ‘technology’?</h3>
         <p>Technology is an enabler. Anything is a technology; the glasses we wear are technology; there is technology in my shoes. The definition we use today is very specific and it tends to refer to digital or computational technologies that enable our lives in ways that weren’t possible two and a half decades ago.</p>
       </div>
@@ -158,16 +159,17 @@
    <div class="span4 notable-person photo-callout">
         <figure class="first-row">
           <div class="arrow"></div>
-          <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/" title="Vivian Reiss's wikipedia entry"><img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/vivian-reiss.jpg" /></a>
+		  <h3>Notable Person</h3>
+          <a href="http://en.wikipedia.org/wiki/Vivian_Reiss" title="Vivian Reiss's wikipedia entry"><img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/vivian-reiss.jpg" /></a>
           <figcaption class="clear">
-            <p class="last">In The Atlantic, Anne-Marie Slaughter takes issue with feminism's promise that women can have it all. <em>Photo credit: <a href="http://www.facebook.com/photo.php?fbid=10151061851508487&set=pb.29259828486.-2207520000.1353282766&type=3&theater" title="Photo source on the Atlantic facebook page">Facebook.com/The Atlantic</a></em></p>
+            <p class="last"><a href="http://en.wikipedia.org/wiki/Vivian_Reiss">Vivian Reiss</a> is a painter, architectural designer, urban gardener, gallery owner &amp; Ariel's mother. <em>Photo credit: <a href="http://kidwithcamera.com/" title="David Waldman's portfolio website">David Waldman aka Kid With Camera</a></em></p>
           </figcaption>
           <div style="clear:both"></div>
         </figure>
       </div>
       <div class="span7 interview-panel">
         <h3>Were there family influences to explore science?</h3>
-        <p>There were no family or peers influencing me to go into science. <a href="#">My mother is an artist</a>; my father is in real estate and construction. My mother is not connected to science or technology; she’s extraordinarily intelligent and inquisitive but she processes the world through a brush and through linguistics. And my dad isn’t scientific. He would still have a VCR if someone didn’t throw it out! The pursuit of science was just a line of inquiry to understand how the world works.</p>
+        <p>There were no family or peers influencing me to go into science. <a href="http://en.wikipedia.org/wiki/Vivian_Reiss">My mother is an artist</a>; my father is in real estate and construction. My mother is not connected to science or technology; she’s extraordinarily intelligent and inquisitive but she processes the world through a brush and through linguistics. And my dad isn’t scientific. He would still have a VCR if someone didn’t throw it out! The pursuit of science was just a line of inquiry to understand how the world works.</p>
       </div>
     </section>
     <section class="row">
@@ -231,13 +233,23 @@
   </div>
 </li>
 <li>
-  <div class="fullscreen"><img
-    src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-steve-wozniak.jpg" /></div>
+<div class="fullscreen">
+    <div class="parallax"><img
+    src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-steve-wozniak.jpg" />
+      <div class="container">
+        <div class="info-panel">
+          <aside>
+            <div class="arrow"></div>
+            <p class="last">Apple co-founder Steve Wozniak's brainwaves are read by  InteraXon's thought controlled computing technology at the OCE Discovery conference. Ariel commented that "he has such a relaxed mind, it's magnificent."</p>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
-        <h3>Will we reach an ideal balance between male and female CEOs in the next 50 years, and if so,
-          what would it be?</h3>
+        <h3>Will we reach an ideal balance between male and female CEOs in the next 50 years?</h3>
         <p>I don't think there should be any natural order, unless not being that way leads to some sort of system of oppression. And I guess a feminist would argue that this kind of inequality is inherently systemic and self-perpetuating oppression. [Pauses] I can buy into that, but it's not naturally how I feel. I've never felt oppressed as a female. I've never felt that I have been withheld opportunity because of my gender. I have not been inspired to the deep feeling of belief that comes with those feminist feelings.</p>
       </div>
       <div class="span11 pull-quote">
@@ -252,15 +264,25 @@
     </section>
     <section class="row">
       <div class="span7 offset4 interview-panel">
-        <h3>Some feminists may disagree with you here. What are your thoughts on feminist movements for women in technology?</h3>
+        <h3>What are your thoughts on feminist movements for women in technology?</h3>
         <p>There are two schools of thought. One is a school that says, 'Yes, we remember that there's a problem and we have to beat the drum in order to solve the problem.' The other says, ‘It’s not really much of a problem, and if we don’t make it a problem, you can do anything you put your mind to.’ And depending on your level of feminism, you could fall into either school.</p>
       </div>
     </section>
   </div>
 </li>
 <li>
-  <div class="fullscreen"><img
+<div class="fullscreen">
+    <div class="parallax"><img
     src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-web2012.jpg" />
+      <div class="container">
+        <div class="info-panel">
+          <aside>
+            <div class="arrow"></div>
+            <p class="last">Earlier this week Ariel spoke at LeWeb in Paris, Europe's largest annual tech conference. It's her third appearance in the speaker lineup and this year she demoed Muse, four wireless brainwave sensors disguised as a stylish wearable headband.</p>
+          </aside>
+        </div>
+      </div>
+    </div>
   </div>
   <div id="past-question" class="row-fluid">
     <section>
@@ -277,7 +299,7 @@
 
         <div class="current-interviewee" >
           <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small-beginning.png" alt="Ariel Garten" title="Ariel Garten" class="begininning-quote-mark"/>
-          <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.png" alt="Ariel Garten" title="Ariel Garten" class="current-interviewee-image"/>
+          <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.jpg" alt="Ariel Garten" title="Ariel Garten" class="current-interviewee-image"/>
           
           <p>My cocky, 'masculine' answer would be me in five years [laughs]. I have no fucking idea! But my first thought was, ‘that could be me!’</p>
           
@@ -290,7 +312,7 @@
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>Is there anything exciting that you’re working on that you want to tell us about?</h3>
-        <p>As of this writing, InteraXon’s Indiegogo campaign has raised $238,000 to produce <a href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="InteraXon Muse" alt="InteraXon Muse">Muse</a>. The campaign runs until December 7. <span class="full-stop"><img src="<?php echo get_home_url(); ?>/assets/img/full-stop.png" /></span></p>
+        <p>As of this writing, InteraXon’s Indiegogo campaign has raised $238,000 to produce <a href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="InteraXon Muse" alt="InteraXon Muse">Muse</a>. The campaign ends tonight at midnight. <span class="full-stop"><img src="<?php echo get_home_url(); ?>/assets/img/full-stop.png" /></span></p>
       </div>
     </section>
     <section class="row">
@@ -300,7 +322,7 @@
             <h3>Without knowing who they are, please pose a question for our next interviewee.</h3>
           </div>
           <div id="question-details">
-            <div id="profile-image"><img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.png" /></div>
+            <div id="profile-image"><img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.jpg" /></div>
             <h4>What question about 'women in technology' do you find really annoying?</h4>
             <div id='quote-mark'><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
           </div>
