@@ -857,11 +857,13 @@ callout-question {
     }
 }
 
+
 #past-question {
     background-color: #F3F3F3;
     display: block;
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 #past-question section {
@@ -869,6 +871,10 @@ callout-question {
     margin: 0px;
     color: #fff;
     font-size: 2em;
+}
+
+#question, #answer{
+    height: 13.2em;
 }
 
 #past-question #question {
@@ -880,14 +886,13 @@ callout-question {
 }
 
 #past-question #question h2 {
-    padding: 10%;
-    float: right;
+    padding: 1em 10%;
     font-size: 1em;
 }
 
 #past-question #question a {
-    color: #fff;
-    text-decoration: underline;
+    color: #000;
+    
 }
 
 #question .arrow {
@@ -902,15 +907,13 @@ callout-question {
     width: 70%;
     margin: 0px;
     float: left;
-    display: inline-block;
     font-size: 1em;
-    padding: 2% 5%;
+    padding: 1em 5%;
 }
 
 #answer .past-interviewee h3 {
     font-size: 0.6em;
-    width: 92%;
-    float right;
+    line-height: 3em;
 }
 
 #answer .past-interviewee img{
@@ -923,15 +926,16 @@ callout-question {
 
 
 #answer .current-interviewee p {
-    width: 60%;
-    float: left;
-    clear: left;
+    font-size: 1.3em;
 }
 
-#answer .current-interviewee img {
+#answer .current-interviewee #current-interviewee-image {
     width: 150px;
-    float: left;
+    float: right;
     border-radius: 100%;
+    margin-right: 5%;
+    margin-left: 0.5em;
+    margin-top: 0.85em;
 }
 
 @media (max-width: 767px) {
