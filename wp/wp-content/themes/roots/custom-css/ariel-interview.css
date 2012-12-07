@@ -918,6 +918,7 @@ callout-question {
 #answer .past-interviewee h3 {
     font-size: 0.6em;
     line-height: 3em;
+    margin-bottom: 1em;
 }
 
 #answer .past-interviewee img{
@@ -931,15 +932,20 @@ callout-question {
 
 #answer .current-interviewee p {
     font-size: 1.3em;
+    margin-left: 70px;
 }
 
-#answer .current-interviewee #current-interviewee-image {
+#answer .current-interviewee .current-interviewee-image {
     width: 150px;
     float: right;
     border-radius: 100%;
-    margin-right: 5%;
-    margin-left: 0.5em;
-    margin-top: 0.85em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+#answer .current-interviewee .begininning-quote-mark{
+    float: left;
+    margin-top: 0.6em;
 }
 
 @media (max-width: 767px) {
