@@ -78,7 +78,7 @@
         </figure>
       </div>
       <div class="span7 interview-panel">
-        <p>I was looking for a way to talk about the self and understand the self from the scientific and artistic perspective. I started working with brainwaves in Steve Mann’s lab almost a decade ago. Ultimately we created a system that I took out of the lab and started to commercialize with my two co-founders, Trevor Colemen and Chris Aimone. That was the formation of InteraXon, which has existed for the last five years. Our first major project was the Vancouver 2010 Winter Olympics. As our kick off project, it wasn’t a bad one to do! Since then, we’ve worked with companies like Deutsche Telekom, brands like Wrigley’s and agencies like the Ontario Aerospace Council to enable this technology across multiple domains.</p>
+        <p>I was looking for a way to talk about the self and understand the self from the scientific and artistic perspective. I started working with brainwaves in Steve Mann’s lab almost a decade ago. Ultimately we created a system that I took out of the lab and started to commercialize with my two co-founders, Trevor Colemen and Chris Aimone. That was the formation of InteraXon, which has existed for the last five years. <a href="http://www.youtube.com/watch?v=uJS8EJwGx3o">Our first major project</a> was the Vancouver 2010 Winter Olympics. As our kick off project, it wasn’t a bad one to do! Since then, we’ve worked with companies like Deutsche Telekom, brands like Wrigley’s and agencies like the Ontario Aerospace Council to enable this technology across multiple domains.</p>
       </div>
       <!-- <div class="span11 pull-quote">
         <aside class="quote">
@@ -155,18 +155,12 @@
 
   <div class="container">
    <section class="row">
-   	<div class="span4 notable-person" id="steve-mann">
+   <div class="span4 notable-person photo-callout">
         <figure class="first-row">
           <div class="arrow"></div>
-          <h3>Notable Person</h3>
-          <a href="http://en.wikipedia.org/wiki/Steve_Mann"
-            title="Vivian Reiss's wikipedia entry"
-            target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/ariel-interview/steve-mann.jpg'></a>
+          <a href="http://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/" title="Vivian Reiss's wikipedia entry"><img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/vivian-reiss.jpg" /></a>
           <figcaption class="clear">
-            <a href="http://en.wikipedia.org/wiki/Steve_Mann"
-              title="Steve Mann's wikipedia entry"
-              target="_blank"><h4>Vivian Reiss</h4></a>
-            <p>University of Toronto, Professor, Department of Electrical and Computer Engineering</p>
+            <p class="last">In The Atlantic, Anne-Marie Slaughter takes issue with feminism's promise that women can have it all. <em>Photo credit: <a href="http://www.facebook.com/photo.php?fbid=10151061851508487&set=pb.29259828486.-2207520000.1353282766&type=3&theater" title="Photo source on the Atlantic facebook page">Facebook.com/The Atlantic</a></em></p>
           </figcaption>
           <div style="clear:both"></div>
         </figure>
@@ -223,7 +217,7 @@
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>What about your role as a female tech entrepreneur.  Can you speak to that?</h3>
-        <p>Well, I'm definitely in the vast minority. For example, I was invited to a tech conference for the 50 brightest minds in technology. They flew us on a private jet to Hawaii, made it a big deal, it was pretty cool. There were 50 people – only 5 were women.</p>
+        <p>Well, I'm definitely in the vast minority. For example, I was invited to <a href="http://techcrunch.com/2012/05/28/f50/">a tech conference for the 50 brightest minds in technology</a>. They flew us on a private jet to Hawaii, made it a big deal, it was pretty cool. There were 50 people – only 5 were women.</p>
         <p>As a rare bird in this full nest, I have to say I don’t mind. I can work being female to my advantage. We joke that if our demo isn’t working at a conference, I can just wear the headset and smile and that would be enough.</p>
         <p>Everyone has their own advantages regardless of gender. I’m in a unique position at this point in time as a woman tech CEO.</p>
       </div>
@@ -259,7 +253,7 @@
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>Some feminists may disagree with you here. What are your thoughts on feminist movements for women in technology?</h3>
-        <p>There are two schools of thought. One is a school that says, <em>'Yes, we remember that there's a problem and we have to beat the drum in order to solve the problem.'</em> The other says, <em>‘It’s not really much of a problem, and if we don’t make it a problem, you can do anything you put your mind to.’</em> And depending on your level of feminism, you could fall into either school.</p>
+        <p>There are two schools of thought. One is a school that says, 'Yes, we remember that there's a problem and we have to beat the drum in order to solve the problem.' The other says, ‘It’s not really much of a problem, and if we don’t make it a problem, you can do anything you put your mind to.’ And depending on your level of feminism, you could fall into either school.</p>
       </div>
     </section>
   </div>
