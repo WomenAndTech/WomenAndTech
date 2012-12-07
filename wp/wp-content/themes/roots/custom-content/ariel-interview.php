@@ -9,7 +9,7 @@
           <div class="author-image" id="author-milang"></div>
           <div class="author-info">
             <p class="author">An interview by <a href="http://twitter.com/milang" rel="author" target="_blank" title="Milan Gokhale's twitter profile"><strong>Milan Gokhale</strong></a></p>
-            <p class='date'>December 5th, 2012</p>
+            <p class='date'><?php the_date("F j, Y"); ?></p>
           </div>
         </address>
       </div>
@@ -267,18 +267,26 @@
 <li>
   <div class="fullscreen"><img
     src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-web2012.jpg" /></div>
-  <div class="container-fluid">
-    <section class="row-fluid">
-      <div class="span5">
-        <div id="past-question">
-
+  </div>
+  <div id="past-question" class="row-fluid">
+    <section>
+      <aside id="question">
+        <div class="arrow"></div>
+        <h2>In our <a href="">last interview</a>, our interviewee <a href="http://twitter.com/feastinc">Lucia</a> asked a question without knowing who she was addressing.  Ariel answered.</h2>
+      </aside>
+      
+      <div id="answer" class="span7 interview-panel">
+        <div class="past-interviewee">
+          <img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-square.jpg" alt="Lucia Mariani-Vena" title="Lucia Mariani-Vena" />
+          <h3>When will we see the female version of Steve Jobs or Mark Zuckerberg?</h3>
         </div>
 
+        <div class="current-interviewee" >
+          <p>My cocky, 'masculine' answer would be me in five years [laughs]. I have no fucking idea! But my first thought was, ‘that could be me!’</p>
+          <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.png" alt="Ariel Garten" title="Ariel Garten"/>
+        </div>
       </div>
-      <div class="span7 interview-panel">
-        <h3>When will we see the female version of Steve Jobs, Mark Zuckerberg or a Bill Gates?</h3>
-        <p>My cocky, 'masculine' answer would be me in five years [laughs]. I have no fucking idea! But my first thought was, ‘that could be me!’</p>
-      </div>
+
     </section>
   </div>
   <div class="container-fluid">
@@ -302,7 +310,7 @@
         </div>
         <div class="row-fluid">
           <div class="span12" id="call-to-action">
-            <p>Be sure to check back next month (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Heather Payne's answer to this question.</p>
+            <p>Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Heather Payne's answer to this question.</p>
           </div>
         </div>
       </div>
