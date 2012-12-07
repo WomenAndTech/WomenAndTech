@@ -102,7 +102,7 @@
         </div>
       </div>
 	  <img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-mounties-banff.jpg" />
-	  <div class="photo-credit">Photo credit: <a href="http://www.flickr.com/photos/k-ideas/5835437178/" target="_blank" title="Ariel Garten, CEO interaxon">Kempton Lam</a></div>
+	  <div class="photo-credit dark">Photo credit: <a href="http://www.flickr.com/photos/k-ideas/5835437178/" target="_blank" title="Ariel Garten, CEO interaxon">Kempton Lam</a></div>
       
     </div>
   </div>
@@ -207,7 +207,7 @@
 	<div class="fullscreen">
     <div class="parallax"><img
     src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-steve-wozniak.jpg" />
-	<div class="photo-credit">Photo credit: <a href="http://www.anglemediagroup.com/interaxon-paving-the-way-with-your-brain/" title="Company blog post containing video: InteraXon: Paving the Way with Your Brain" target="_blank">Angle Media Group</a></div>
+	<div class="photo-credit dark top">Photo credit: <a href="http://www.anglemediagroup.com/interaxon-paving-the-way-with-your-brain/" title="Company blog post containing video: InteraXon: Paving the Way with Your Brain" target="_blank">Angle Media Group</a></div>
       <div class="container">
         <div class="info-panel" id="wozniak">
           <aside>
@@ -247,7 +247,7 @@
 <div class="fullscreen">
     <div class="parallax"><img
     src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-web2012.jpg" />
-	<div class="photo-credit">Photo credit: <a href="https://plus.google.com/u/1/photos/100261394308614575193/albums/5818092704713995425/5818092713913684722" target="_blank">Caroline Bindner</a></div>
+	<div class="photo-credit dark top">Photo credit: <a href="https://plus.google.com/u/1/photos/100261394308614575193/albums/5818092704713995425/5818092713913684722" target="_blank">Caroline Bindner</a></div>
       <div class="container">
         <div class="info-panel">
           <aside>
