@@ -861,6 +861,8 @@ callout-question {
     }
 }
 
+/* ----------------------------- */
+/* PAST QUESTION / ANSWER */
 
 #past-question {
     background-color: #F3F3F3;
@@ -931,7 +933,7 @@ callout-question {
 
 
 #answer .current-interviewee p {
-    font-size: 1.3em;
+    font-size: 1em;
     margin-left: 70px;
 }
 
