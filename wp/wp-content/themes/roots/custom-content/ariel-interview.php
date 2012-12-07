@@ -16,15 +16,15 @@
     </header>
     <section class="row" id="introduction">
       <div class="span12">
-        <h2>Ariel is an artist, scientist and tech entrepreneur who has bridged the gap between all three disciplines. She is the CEO of InteraXon, a
-          company specialized in thought-controlled computing, and has raised $266,000 on Indiegogo to produce a <a
+        <h2>Ariel is an artist, scientist and entrepreneur who has bridged the gap between all three disciplines. She is the CEO of InteraXon, a
+          company specialized in thought-controlled computing and has raised $270,000 on Indiegogo to produce a <a
             href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="InteraXon Muse" alt="InteraXon Muse">brain-sensing headband</a>.</h2>
       </div>
     </section>
   </div>
   <div id="portrait" class="fullscreen"><img
     src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-interaxon.jpg" />
-	<div class="photo-credit">Photo credit: <a href="http://glogger.mobi/userpub2.php?username=mann&imgTargetPrefix=2007_10_05_08_37_59" title"Quintist Ariel Garten performing with a live band at The Power Plant contemporary art gallery" target="_blank">Steve Mann</a></div></div>
+	<div class="photo-credit">Photo credit: <a href="http://glogger.mobi/userpub2.php?username=mann&imgTargetPrefix=2007_10_05_08_37_59" title="Quintist Ariel Garten performing with a live band at The Power Plant contemporary art gallery" target="_blank">Steve Mann</a></div></div>
   <div class="table-of-contents">
     <div class="container">
       <div class="row">
@@ -301,7 +301,7 @@
         </div>
         <div class="row-fluid">
           <div class="span12" id="call-to-action">
- <p>So far InteraXon’s Indiegogo campaign has raised $266,000 to produce <a href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="InteraXon Muse" alt="InteraXon Muse">Muse</a>. The campaign ends December 7th at 11:59pm. Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Heather Payne's answer to this question.</p>
+ <p>So far InteraXon’s Indiegogo campaign has raised $270,000 to produce <a href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="InteraXon Muse" alt="InteraXon Muse">Muse</a>. The campaign ends December 7th at 11:59pm. Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Heather Payne's answer to this question.</p>
           </div>
         </div>
       </div>
