@@ -36,6 +36,7 @@ if ( empty($withcomments) && !is_single() ) {
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 <?php wp_head(); ?>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/waat-pull-quote-tweet.js"></script>
 </head>
 <body <?php body_class(); ?>>
 <div id="page">
