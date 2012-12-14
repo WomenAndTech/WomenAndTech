@@ -19,7 +19,7 @@ jQuery(document).ready(function($){
 
 		quote = interviewee + ": " + quote;
 
-		$(this).find('h2').append('<p><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://WomenAndTech.com" data-text="'+ quote + '" data-via="' + via + '" >Tweet</a></p>');
+		$(this).find('h2').append('<p><a href="https://twitter.com/share" class="twitter-share-button" data-url="' + address + '" data-text="'+ quote + '" data-via="' + via + '" >Tweet</a></p>');
 	});
 
 	!function(d,s,id){
