@@ -1,5 +1,8 @@
 <?php get_template_part('templates/head'); ?>
-<body <?php body_class(); ?>>
+<?php global $post;
+$permalink = get_permalink($post->ID);
+?>
+<body <?php body_class(); ?> data-permalink="<?php echo $permalink; ?>" data-url-encoded-permalink="<?php echo urlencode($permalink); ?>">
 
   <!--[if lt IE 7]><div class="alert">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div><![endif]-->
 
