@@ -12,6 +12,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* ===== Primary Styles ========================================================
    Author: Mark Staplehurst / Brett Bergmann
    ========================================================================== */
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
 
 @font-face {
     font-family: 'Blanch Condensed';
@@ -31,8 +35,13 @@ body{
   font-size: 14px;
   line-height: 2em;
   color:#333333;
+  padding-top:0;
+}
+
+body.page{
   padding-top:115px;
 }
+
 
 ::selection {
     background: #ffaea4;
@@ -447,50 +456,6 @@ footer{
     margin-right:2px;
   }
 
-/*  footer #the-team a{
-    border-radius: 100%;
-    width: 37px;
-    height: 37px;
-    display: inline-block;
-    background: #eee;
-    padding-left: 2px;
-    padding-top: 2px;
-    text-decoration: none;
-    margin-left:10px;
-    position:relative;
-    top:-4px;
-  }*/
-
-/*  footer #the-team a:hover{
-    background: #F68A77;
-  }*/
-
-  /*footer #the-team a#border-color1{
-    background: #F68A77;
-   }
-  footer #the-team a#border-color2{
-    background: #F79280;
-   }
-  footer #the-team a#border-color3{
-    background: #F89988;
-   }
-  footer #the-team a#border-color4{
-    background: #F9A191;
-   }
-  footer #the-team a#border-color5{
-    background: #FAA899;
-   }
-  footer #the-team a#border-color6{
-    background: #FBB0A2;
-   }*/
-
-
-  
-/*  footer #the-team a img{
-    border-radius:50%;
-    width:35px;
-    height:35px
-  }*/
 
   /* contact section */
 
@@ -703,12 +668,6 @@ footer{
 
 .share_buttons .box{
     background:#FF3818;
-    /*background:-webkit-gradient(linear,left top,left bottom,color-stop(#6f838c,0),color-stop(#4d5e66,1));
-    background:-webkit-linear-gradient(top, #6f838c 0%, #4d5e66 100%);
-    background:-moz-linear-gradient(top, #6f838c 0%, #4d5e66 100%);
-    background:-o-linear-gradient(top, #6f838c 0%, #4d5e66 100%);
-    background:linear-gradient(top, #6f838c 0%, #4d5e66 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f838c', endColorstr='#4d5e66',GradientType=0 );*/
     -webkit-box-shadow:0 1px 1px #d3d3d3;
     -moz-box-shadow:0 1px 1px #d3d3d3;
     box-shadow:0 1px 1px #d3d3d3;
@@ -788,12 +747,6 @@ footer{
     line-height:22px;
     color:#4b5d61;
     background:#f1faf9;
-    /*background:-webkit-gradient(linear,left top,left bottom,color-stop(#f1faf9,0),color-stop(#bacfd2,1));
-    background:-webkit-linear-gradient(top, #f1faf9 0%, #bacfd2 100%);
-    background:-moz-linear-gradient(top, #f1faf9 0%, #bacfd2 100%);
-    background:-o-linear-gradient(top, #f1faf9 0%, #bacfd2 100%);
-    background:linear-gradient(top, #f1faf9 0%, #bacfd2 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1faf9', endColorstr='#bacfd2',GradientType=0 );*/
   }
   .share_buttons .box:hover{
     padding-right:130px;
@@ -804,6 +757,10 @@ footer{
   .share_buttons .box:hover .middle{
     width:90px;
   }
+
+
+
+
 
 
 
