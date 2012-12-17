@@ -1,27 +1,27 @@
 jQuery(document).ready(function($){
-	pullQuote = $('.pull-quote aside.quote');
-	
-	address = window.location.toString();
-	interviewee = $('header > div > h1').text();
-	
-	pullQuote.each(function(index){
-		via = "WomenAndTech";
-		var quote = $(this).find('h2').text();
 
-		combinedText = interviewee + ": " + quote + " " + address + " via @" + via;
+	var pullQuotes = $('.pull-quote aside.quote');
+	var pageURL = window.location.toString();
+	var intervieweeName = $('header > div > h1').text();
+	
+	pullQuotes.each(function(index){
+		var viaHandle = "WomenAndTech";
+		var quoteText = $(this).find('h2').text();
+		var combinedText = intervieweeName + ": " + quoteText + " " + pageURL + " via @" + viaHandle;
 
 		if (combinedText.length > 135) {
-			diff = Math.abs(combinedText.length - 135);
-			diff = Math.abs(quote.length - diff);
-			quote = quote.substr(0, diff);
-			quote = '&quot;' + quote + '...&quot;';
+			var diff = Math.abs(combinedText.length - 135);
+			diff = Math.abs(quoteText.length - diff);
+			quoteText = quoteText.substr(0, diff);
+			quoteText = '&quot;' + quoteText + '...&quot;';
 		}
 
-		quote = interviewee + ": " + quote;
+		quoteText = intervieweeName + ": " + quoteText;
 
-		$(this).find('h2').append('<p><a href="https://twitter.com/share" class="twitter-share-button" data-url="' + address + '" data-text="'+ quote + '" data-via="' + via + '" >Tweet</a></p>');
+		$(this).find('h2').append('<p><a href="https://twitter.com/share" class="twitter-share-button" data-url="' + pageURL + '" data-text="'+ quoteText + '" data-via="' + viaHandle + '" >Tweet</a></p>');
 	});
 
+	// unmodifed standard twitter tweet button
 	!function(d,s,id){
 		var js,fjs = d.getElementsByTagName(s)[0];
 		if(!d.getElementById(id)){
