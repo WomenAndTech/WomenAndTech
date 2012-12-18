@@ -33,6 +33,7 @@ function roots_scripts() {
     wp_enqueue_style('font_awesome', '/assets/css/font-awesome.css', false, null);
     wp_enqueue_style('roots_base', '/assets/css/base.css', false, null);
     wp_enqueue_style('roots_base_responsive', '/assets/css/base-responsive.css', false, null);
+    wp_enqueue_style('roots_interviews', '/assets/css/interviews.css', false, null);
   endif; // site env != production
 
 
