@@ -1,0 +1,270 @@
+.no-svg #table-of-contents-animation {
+    background:transparent url("../img/ariel-interview/img-swiffy-table-of-contents.gif") no-repeat left top;
+}
+
+.no-svg #coffee-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-coffee-cup.png") no-repeat left top;
+}
+
+/* Article > Header */
+
+.interview .interview-number {
+    padding: 0.4em 0.6em 0.4em 0.65em;
+}
+
+.interview address #author-milang {
+    background: url('http://api.twitter.com/1/users/profile_image?screen_name=milang&size=bigger') center center no-repeat;
+    background-size: 110%;
+}
+
+/* Article > #Opening */
+.fullscreen img {
+    min-height: 420px;
+    min-width: 748px;
+}
+
+.fullscreen .info-panel#wozniak {
+	top:auto;
+	bottom:45%;
+}
+
+/* Article > Start Tag */
+.no-svg #start-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
+}
+
+
+/* Mobile Fluid */
+@media (max-width:767px) {
+    
+    .fullscreen .info-panel#wozniak {
+        bottom:0;
+    }
+    .fullscreen #mounties .info-panel {
+        top: 0;
+        bottom: auto;
+        position: relative;
+        display: block;
+        z-index: 9;
+    }
+    .fullscreen #mounties img {
+        position:relative;
+    }
+}
+
+/* ------------Vestigial---------------- */
+/* ---------PAST QUESTION / ANSWER ------*/
+
+#past-question {
+    background-color: #F3F3F3;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#past-question section {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+
+#question, #answer{ /* Magical height */
+    height: 21em;
+}
+
+#past-question #question {
+    background-color: #FF3818;
+    width: 30%;
+    float: left;
+    font-family: 'Arvo', serif;
+    line-height: 1.75em;
+}
+
+#past-question #question h2 {
+    padding: 1em 5%;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+#past-question #question a {
+    border-bottom: solid 1px #fff;
+    color: #fff;
+    font-weight: bold;
+}
+
+#past-question #question a:hover {
+    color: #888;
+    border-bottom: 1px solid #FFAEA4;
+}
+
+#question .arrow {
+    z-index: 100;
+}
+
+#question .arrow:after {
+    border-left-color:#FF3818;
+}
+
+#past-question #answer {
+    width: 70%;
+    margin: 0px;
+    float: left;
+    font-size: 1em;
+    padding: 1em 5%;
+    padding-right: 0;
+}
+
+#answer .past-interviewee h3 {
+    font-size: 1.25em;
+    line-height: 3em;
+    margin-bottom: 1.25em;
+}
+
+#answer .past-interviewee img{
+    vertical-align: middle;
+    float: left;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+#answer .current-interviewee {
+    overflow:hidden; _overflow:visible; zoom:1; /* media object clearfix */
+}
+
+
+#answer .current-interviewee p {
+    font-size: 2em;
+    line-height: 1.4;
+    margin-left: 70px;
+    display: block;
+    overflow:hidden; _overflow:visible; zoom:1; /* media object clearfix */
+}
+
+
+#answer .current-interviewee .current-interviewee-image {
+    width: 125px;
+    float: right;
+    display: block;
+    border-radius: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+#answer .current-interviewee .begininning-quote-mark{
+    float: left;
+    margin-top: 0.5em;
+}
+
+
+
+@media (max-width: 767px) {
+    #past-question #question {
+        width: 100%;
+        padding: 0px;
+    }
+    #past-question #question aside{
+        padding: 0px;
+        margin: 0px;
+    }
+    #past-question #question h2 {
+        padding: 20px;
+        float: none;
+        font-size: 0.7em;
+    }
+    #question .arrow:after {
+        display: none;
+    }
+
+    #past-question #answer {
+        width: 100%;
+    }
+    .past-interviewee {
+        margin-bottom: 5%;
+    }
+    #past-question #answer .past-interviewee h3 {
+        font-size: 0.8em;
+    }
+    #past-question #answer .past-interviewee img {
+        width: 30%;
+    }
+    #past-question #answer .current-interviewee p {
+        font-size: 0.7em;
+        clear: left;
+        width: 55%;
+        margin-right: 5%;
+        float: left;
+    }
+    #past-question #answer .current-interviewee img {
+        width: 40%;
+        float: right;
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:979px) {
+    #question, #answer{ /* Magical height */
+        height: 19em;
+    }
+
+    #past-question #question h2{
+        font-size: 1.5em;
+    }
+    #answer .past-interviewee h3{
+        font-size: 1em;
+    }
+    #answer .current-interviewee p{
+        font-size: 1.8em;
+    }
+
+
+    #answer .current-interviewee .current-interviewee-image {
+        width: 100px;
+        float: right;
+        display: block;
+        border-radius: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+    }
+}
+
+@media (min-width:768px) and (max-width:891px) {
+    #past-question #question h2{
+        font-size: 1.5em;
+    }
+    #answer .past-interviewee h3{
+        font-size: 1em;
+    }
+    #answer .current-interviewee p{
+        font-size: 1.7em;
+    }
+}
+
+@media (max-width: 1050px){
+    #past-question{
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width:1200px) {
+    #question, #answer{ /* Magical height */
+        height: 21em;
+    }
+
+    #past-question #question h2 {
+        padding: 1em 10%;
+        font-size: 1.75em;
+    }
+
+    #past-question #answer {
+        font-size: 1em;
+        padding: 1em 5%;
+    }
+}
