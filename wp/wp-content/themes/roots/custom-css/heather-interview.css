@@ -1,5 +1,5 @@
 .no-svg #table-of-contents-animation {
-    background:transparent url("../img/ariel-interview/img-swiffy-table-of-contents.gif") no-repeat left top;
+    background:transparent url("../img/heather-interview/img-swiffy-table-of-contents.gif") no-repeat left top;
 }
 
 .no-svg #coffee-animation {
@@ -12,8 +12,8 @@
     padding: 0.4em 0.6em 0.4em 0.65em;
 }
 
-.interview address #author-milang {
-    background: url('http://api.twitter.com/1/users/profile_image?screen_name=milang&size=bigger') center center no-repeat;
+.interview address #author-cassiemc {
+    background: url('http://api.twitter.com/1/users/profile_image?screen_name=cassiemc&size=bigger') center center no-repeat;
     background-size: 110%;
 }
 
@@ -23,18 +23,25 @@
     min-width: 748px;
 }
 
+/*
 .fullscreen .info-panel#wozniak {
 	top:auto;
 	bottom:45%;
-}
+}*/
 
 /* Article > Start Tag */
 .no-svg #start-animation {
     background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
 }
 
+/* Article > Notable People */
 
-/* Mobile Fluid */
+.notable-person.double .first {
+    margin-bottom: 2em;
+}
+
+
+/* Mobile Fluid 
 @media (max-width:767px) {
     
     .fullscreen .info-panel#wozniak {
@@ -50,4 +57,4 @@
     .fullscreen #mounties img {
         position:relative;
     }
-}
+}*/
