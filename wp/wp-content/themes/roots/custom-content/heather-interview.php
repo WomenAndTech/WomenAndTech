@@ -95,7 +95,7 @@
           <h3>Notable Person</h3>
           <a href="http://blog.mozilla.org/press/bios/mark-surman/"
             title="Mark Surman's Bio"
-            target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/ariel-interview/mark-surman.jpg'></a>
+            target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/heather-interview/mark-surman.jpg'></a>
           <figcaption class="clear">
             <a href="http://blog.mozilla.org/press/bios/mark-surman/"
               title="Mark Surman's Bio"
@@ -203,7 +203,8 @@
         <aside class="first-row">
           <div class="arrow"></div>
           <h3>Early Decision Making</h3>
-          <p class="last">High school course choices determine eligibility for university programs in Canada (and some other places in the world such as the UK), so in grade 9 kids have to start thinking about their majors. STEM majors in Canadian Universities require high school prerequisites that are not mandatory to graduate high school.</p>
+          <p class="last">High school course choices determine eligibility for university programs in Canada (and some other places in the world such as the UK), so in grade 9 kids have to start thinking about their majors.</p> 
+          <p>STEM majors in Canadian Universities require high school prerequisites that are not mandatory to graduate high school.</p>
         </aside>
       </div>
 
@@ -243,7 +244,8 @@
         <aside class="first-row">
           <div class="arrow"></div>
           <h3>Women in Tech Allies</h3>
-          <p class="last">Women&amp;&amp;Tech put together a list of sister organizations and causes that share a similar mandate to support women in tech.Check out our list <a href="https://twitter.com/WomenAndTech/allies/members">here.</a></p>
+          <p>Women&amp;&amp;Tech put together a list of sister organizations and causes that share a similar mandate to support women in tech.<p>
+          <p class="last">Check out our list <a href="https://twitter.com/WomenAndTech/allies/members">here.</a></p>
         </aside>
       </div>
       <div class="span7 interview-panel">
@@ -252,24 +254,30 @@
     </section>
 
     <section class="row">
-      <div class="span4 notable-person" id="surman-and-dunford">
-        <figure class="first-row">
+      <div class="span4 notable-person double">
+        <figure>
           <div class="arrow"></div>
           <h3>Notable People</h3>
-          <a href="https://twitter.com/tonyasurman" title="Tonya Surman's twitter profile" target="_blank">
-            <img src='<?php echo get_home_url(); ?>/assets/img/ariel-interview/tonya-surman.jpg'>
-          </a>
-          <figcaption class="clear">
-            <a href="https://twitter.com/tonyasurman" title="Tonya Surman's twitter profile" target="_blank"><h4>Tonya Surman</h4></a>
-            <p>Founding executive director of the Centre for Social Innovation</p>
-          </figcaption>
-          <div style="clear:both"></div>
-          <img src='<?php echo get_home_url(); ?>/assets/img/ariel-interview/april-dunford.jpg'>
-          <figcaption class="clear">
-            <h4>April Dunford</h4>
-            <p>Marketing Executive at Rocket Launch Marketing and startup advisor to HackerYou, <a href="http://shoplocket.com" target="_blank">ShopLocket</a>, <a href="http://www.engag.io/" target="_blank">Engagio</a> and <a href="https://www.guardly.com/" target="_blank">Guardly</a></p>
-          </figcaption>
-          <div style="clear:both"></div>
+          <div id="tonya-surman" class="first">
+            <a href="https://twitter.com/tonyasurman" title="Tonya Surman's twitter profile" target="_blank">
+              <img src='<?php echo get_home_url(); ?>/assets/img/heather-interview/tonya-surman.jpg'>
+            </a>
+            <figcaption class="clear">
+              <a href="https://twitter.com/tonyasurman" title="Tonya Surman's twitter profile" target="_blank"><h4>Tonya Surman</h4></a>
+              <p>Founding executive director of the Centre for Social Innovation</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </div>
+          <div id="april-dunford">
+            <a href="https://twitter.com/aprildunford" title="April Dunford's twitter profile" target="_blank">
+              <img src='<?php echo get_home_url(); ?>/assets/img/heather-interview/april-dunford.jpg'>
+            </a>
+            <figcaption class="clear">
+              <a href="https://twitter.com/aprildunford" title="April Dunford's twitter profile" target="_blank"><h4>April Dunford</h4></a>
+              <p>Marketing Executive at Rocket Launch Marketing and startup advisor to HackerYou, <a href="http://shoplocket.com" target="_blank">ShopLocket</a>, <a href="http://www.engag.io/" target="_blank">Engagio</a> and <a href="https://www.guardly.com/" target="_blank">Guardly</a></p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </div>
         </figure>
       </div>
       <div class="span7 interview-panel">
@@ -298,7 +306,7 @@
       <div class="span4 notable-person photo-callout">
         <figure class="first-row">
           <div class="arrow"></div>
-          <a href="http://strengths.gallup.com/110440/About-StrengthsFinder-20.aspx" title="More about Strengths Finder 2.0"><img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/strengths-finder.jpg" /></a>
+          <a href="http://strengths.gallup.com/110440/About-StrengthsFinder-20.aspx" title="More about Strengths Finder 2.0"><img src="<?php echo get_home_url(); ?>/assets/img/heather-interview/strengths-finder.jpg" /></a>
           <figcaption class="clear">
             <p class="last"><a href="http://strengths.gallup.com/110440/About-StrengthsFinder-20.aspx" title="More about Strengths Finder 2.0">Strengths Finder 2.0</a> is a 2007 best-selling business book by Tom Rath that helps leaders identify why people follow their lead.</p>
           </figcaption>
@@ -342,7 +350,7 @@
             <h3>Without knowing who they are, please pose a question for our next interviewee.</h3>
           </div>
           <div id="question-details">
-            <div id="profile-image"><img src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-square.jpg" /></div>
+            <div id="profile-image"><img src="<?php echo get_home_url(); ?>/assets/img/heather-interview/heather-square.jpg" /></div>
             <h4>What are you doing to change the world?</h4>
             <div id='quote-mark'><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
           </div>
