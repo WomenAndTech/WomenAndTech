@@ -225,7 +225,7 @@
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>Very cool. Do you think that Women in Technology type groups – like ours, like yours – are important to the industry? Do you think they’ll be around forever?</h3>
-        <p>I only realized that Women in Tech groups are a little bit controversial when Ladies Learning Code first started. All I saw was that this could be positive. I had no idea that people see the issue of Women in Tech as polarizing, that creating a separate group for a specific group makes the whole industry less diverse.</p>
+        <p>I only realized that Women in Tech groups are <a href="http://www.huffingtonpost.ca/2012/04/26/ladies-learning-code_n_1456673.html#comments" target="_blank">a little bit controversial</a> when Ladies Learning Code first started. All I saw was that this could be positive. I had no idea that people see the issue of Women in Tech as polarizing, that creating a separate group for a specific group makes the whole industry less diverse.</p>
       </div>
       <div class="span11 pull-quote">
         <aside class="quote">
