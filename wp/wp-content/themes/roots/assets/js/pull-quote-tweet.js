@@ -29,7 +29,7 @@ jQuery(document).ready(function($){
 		
 		
 
-		$(this).find('h2').append('<p><a href="'+tweetURL+'"><img src="https://si0.twimg.com/images/dev/cms/intents/icons/retweet.png"></a></p>');
+		$(this).find('h2').append('<a href="'+tweetURL+'" style="padding-left: 0.5em; border:none"><img src="https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16_1.png"></a>');
 	});
 
 
