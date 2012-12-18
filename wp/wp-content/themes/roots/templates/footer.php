@@ -18,6 +18,5 @@
     s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
 <?php endif; ?>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/waat-pull-quote-tweet.js"></script>
 
 <?php wp_footer(); ?>

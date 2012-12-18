@@ -18,18 +18,8 @@ jQuery(document).ready(function($){
 
 		quoteText = intervieweeName + ": " + quoteText;
 
-		$(this).find('h2').append('<p><a href="https://twitter.com/share" class="twitter-share-button" data-url="' + pageURL + '" data-text="'+ quoteText + '" data-via="' + viaHandle + '" >Tweet</a></p>');
+		$(this).find('h2').append('<p><a href="https://twitter.com/share" class="twitter-share-button" data-url="' + pageURL + '" data-text="'+ quoteText + '" data-via="' + viaHandle + '" ><img src="https://si0.twimg.com/images/dev/cms/intents/icons/retweet.png"></a></p>');
 	});
 
-	// unmodifed standard twitter tweet button
-	!function(d,s,id){
-		var js,fjs = d.getElementsByTagName(s)[0];
-		if(!d.getElementById(id)){
-			js=d.createElement(s);
-			js.id=id;
-			js.src="//platform.twitter.com/widgets.js";
-			fjs.parentNode.insertBefore(js,fjs);
-		}
-	}(document,"script","twitter-wjs");
 
 });

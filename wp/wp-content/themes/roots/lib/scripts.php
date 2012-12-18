@@ -62,12 +62,14 @@ function roots_scripts() {
   //Can load this in the footer:
   wp_register_script('jquery_color', 'http://code.jquery.com/color/jquery.color-git.js', array('jquery'), null, true);
   wp_register_script('roots_main', '/assets/js/main.js', array('jquery'), null, true);
+  wp_register_script('pull_quote_tweet', '/assets/js/pull-quote-tweet.js', array('jquery'), null, true);
 
     wp_enqueue_script('swiffy');
     wp_enqueue_script('roots_plugins');
     wp_enqueue_script('jquery_color');
     wp_enqueue_script('sharrre');    
     wp_enqueue_script('roots_main');
+    wp_enqueue_script('pull_quote_tweet');
   //Loads in the footer;
   
 }
