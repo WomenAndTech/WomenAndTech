@@ -57,7 +57,7 @@
 
         <p>I spent my last semester of university on exchange in Hong Kong. I liked it so much that I decided to stay longer. I moved to the mainland and lived there for ten months. A lot of my time in China was spent learning how to code.</p>
 
-        <p>The first site I made while I was in China was called FitInTO.ca, a blog about fitness in Toronto. It never occurred to me to pay someone to do that for me, I just thought, “All right, let’s start Googling!” I used a self-hosted theme and hacked it to pieces, learning everything about domains, hosting, installing Wordpress – all the stuff that now I take for granted. When you know something well it’s easy to forget what it was like to just get by.</p>
+        <p>The first site I made while I was in China was called FitInTO.ca, a blog about fitness in Toronto. It never occurred to me to pay someone to do that for me, I just thought, “All right, let’s start Googling!” I installed a Wordpress theme and hacked it to pieces, learning everything about domains, hosting, installing Wordpress – all the stuff that now I take for granted. When you know something well it’s easy to forget what it was like to just get by.</p>
 
         <p>I had been a fitness instructor and personal trainer as a student, so I thought I’d do that again when I came back to Canada until I figured out what I really wanted to do. As it turned out, I ended up in a corporate marketing role. So I put up my site for “sale.” I say “sale” in quotes because I wasn’t going to be able to sell it for much, but I actually had a pretty big community with lots of comments and views.</p>
       </div>
@@ -85,7 +85,7 @@
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>So what happened next, after you sold your fitness site and came back from China?</h3>
-        <p>I spent a year in a corporate marketing role, then spent about five months at a startup [<a href="http://pinpointsocial.com/" target="_blank">Pinpoint Social</a>]. Ladies Learning Code began around the same time that I joined Pinpoint Social. The buzz was starting June 2011 and we had our first workshop in August. By the time we had run two workshops, I had a gut feeling that this could be something big if I could put in the time that it needed. </p>
+        <p>I spent a year in a corporate marketing role, then spent about five months at a startup [<a href="http://pinpointsocial.com/" target="_blank">Pinpoint Social</a>]. Ladies Learning Code began around the same time that I joined Pinpoint Social. The buzz started in June 2011 and we had our first workshop in August. By the time we had run two workshops, I had a gut feeling that this could be something big if I could put in the time that it needed. </p>
         <p>I spent the rest of last year as a full-time volunteer for Ladies Learning Code, trying to figure out how to make it into something. It is still not a full-time job – it probably never will be. Ladies Learning Code is a non-profit and a labour of love. That’s one of the reasons we decided to start <a href="http://hackeryou.com/" target="_blank">HackerYou</a> which is a way for us to use what we’ve learned through Ladies Learning Code to offer something innovative to the Toronto community, and hopefully still make a living and pay our rent.</p>
       </div>
 
@@ -116,7 +116,7 @@
         <h3>Do you participate in the Ladies Learning Code workshops?</h3>
         <p>As a learner? I usually don’t. Mostly because running the events and making sure everything goes smoothly takes time.</p>
 
-        <p>The whole reason I started Ladies Learning Code was so that I could learn how to code, but that has been taken off track in a big way. I usually can’t participate in the workshops I so badly wanted to exist when I started [Ladies Learning Code], but I’m learning so many other things I wasn’t expecting. I’m an entrepreneur at heart, and it’s giving me the chance to be an entrepreneur and practice turning a vision into reality.</p>
+        <p>The whole reason I started Ladies Learning Code was so that I could learn how to code, but that has been taken off track in a big way. [Although, Heather did code <a href="http://www.heatherpayne.ca" target="_blank">her own site</a>, recently.] I usually can’t participate in the workshops I so badly wanted to exist when I started [Ladies Learning Code], but I’m learning so many other things I wasn’t expecting. I’m an entrepreneur at heart, and it’s giving me the chance to be an entrepreneur and practice turning a vision into reality.</p>
       </div>
     </section>
     
@@ -190,12 +190,12 @@
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>So what are your ideas to fix it?</h3>
-        <p>Girls Learning Code is a really big part of our plan; the camp is so cool. It's all about creativity and making your ideas come to life. We try to come up with themes that resonate with youth, and in particular girls. We did a game design camp in August. The campers developed video games in teams. The most fascinating thing to me was that there was nothing about the games that suggested they were made by girls. There wasn’t a lot of pink, there were no unicorns or fairy dust. One of my favourite games was about a piece of bacon who had to avoid falling into a frying pan. It had little legs that were animated. Genius.</p>
+        <p>Girls Learning Code is a really big part of our plan; the camps and workshops are so cool. It's all about creativity and making your ideas come to life. We try to come up with themes that resonate with youth, and in particular girls. We did a game design camp in August. The campers developed video games in teams. The most fascinating thing to me was that there was nothing about the games that suggested they were made by girls. There wasn’t a lot of pink, there were no unicorns or fairy dust. One of my favourite games was about a piece of bacon who had to avoid falling into a frying pan. It had little legs that were animated. Genius.</p>
         <p>The girls think I look like Taylor Swift so that does me a lot of favors at camp ‘cause I’m like “Yeah! Keep studying Math!”</p>
 
-        <p>We also now have an 1100 square foot workshop space at the <a href="http://ladieslearningcode.com/about/#about_csi" target="_blank">Centre for Social Innovation</a> at Bloor and Bathurst. It has a 50-person classroom and a mini-maker space with a 3D printer, arduinos, and other hardware components. We hope the space will provide women and girls a place where they can learn about and gain some confidence with these new tools. Then, as their projects outgrow our space, we hope they’ll go off and join some of the other awesome maker spaces in the city.</p>
+        <p>We also now have an 1100 square foot workshop space at the <a href="http://ladieslearningcode.com/about/#about_csi" target="_blank">Centre for Social Innovation</a> at Bloor and Bathurst. It has a 50-person classroom and a mini-maker space with a 3D printer, arduinos, and other hardware components. We hope the space will provide women and girls a place where they can learn about and gain some confidence with these new tools. Then, as their projects outgrow our space, we hope they’ll go off and join some of the other awesome maker spaces in the city making those groups more diverse.</p>
 
-        <p><strong>Update: </strong><em>Heather and team are exploring the idea of a child-friendly co-working space with support from the Centre for Social Innovation. They are planning to host a community brainstorming session in mid-January to see if people are interested in the idea. They also held their first Girls Learning Code sleepover with ten girls and hope to host more in the future.</em></p>
+        <p><strong>Update: </strong><em>Heather and team are exploring the idea of a child-friendly co-working space with support from the Centre for Social Innovation. They are planning to host a community brainstorming session on January 15th to see if people are interested in the idea. They also held their first Girls Learning Code sleepover with ten girls and hope to host more in the future.</em></p>
       </div>
     </section>
 
@@ -298,9 +298,9 @@
         <h3>What’s the hardest thing you’ve done so far as a founder? And what’s the easiest?</h3>
         <p>One of the hardest things I’ve had to do is to step up and be a leader. When I started Ladies Learning Code my vision was for it to be a casual community group. When 19 people signed up for the brainstorming session, I knew I had something. And then when 85 people signed up for it, I had to close registrations because it wouldn’t be intimate enough.</p>
 
-        <p>I realized it would never reach its full potential unless I stopped up and brought together the right people to make that happen. Unfortunately, 20-person teams are unmanageable. And it was really tough for me to say, “Thanks for helping out over the past month, but for this to move forward, we have to go in a different direction.” Now our team is much smaller.</p> 
+        <p>I realized it would never reach its full potential unless I stepped up and brought together the right people to make that happen. Unfortunately, 20-person teams are unmanageable. And it was really tough for me to say, “Thanks for helping out over the past month, but for this to move forward, we have to go in a different direction.” Now our team is much smaller.</p> 
 
-        <p>Another hard thing is expansion into new cities [Ladies Learning Code now has chapters in Vancouver and Ottawa]. I’m a bit of a control freak, especially over the brand, and I like the events to be a certain way – where they are welcoming, collaborative, and fun. That’s one of the reasons Ladies Learning Code has worked, because of that culture.</p>
+        <p>Another hard thing is expansion into new cities [Ladies Learning Code now has chapters in Vancouver and Ottawa]. I’m a bit of a control freak, especially over the brand, and I like the events to be a certain way – where they are welcoming, collaborative, and fun. That’s one of the reasons Ladies Learning Code has worked, because of that culture. Luckily we're working with wonderful chapter leaders in Vancouver and Ottawa.</p>
 
         <p>I’ve never worked harder in my life; it’s just work and sleep. It’s hard to believe that these two organizations (Ladies Learning Code and HackerYou), could be this much work, but I don’t mind – I’m having so much fun. I’m so grateful that the Toronto tech community keeps supporting us. That keeps me humble. I recognize that it could all go away tomorrow.</p>
       </div>
