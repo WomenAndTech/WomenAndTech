@@ -5,6 +5,26 @@
 /* global interview styles added in here temporarily
  remove once CSS refactor has been pushed to production */
 
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    padding-top: 0;
+}
+
+::selection {
+    background: #ffaea4;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #ffaea4;
+    color: #ffffff;
+}
+
 .curtains {
     width: 100%;
     z-index: 1;
