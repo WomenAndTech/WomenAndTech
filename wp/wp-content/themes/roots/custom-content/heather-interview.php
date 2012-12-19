@@ -21,8 +21,8 @@
     </section>
   </div>
   <div id="portrait" class="fullscreen"><img
-    src="<?php echo get_home_url(); ?>/assets/img/ariel-interview/ariel-garten-interaxon.jpg" />
-	<div class="photo-credit">Photo credit: <a href="http://glogger.mobi/userpub2.php?username=mann&imgTargetPrefix=2007_10_05_08_37_59" title="Quintist Ariel Garten performing with a live band at The Power Plant contemporary art gallery" target="_blank">Steve Mann</a></div></div>
+    src="<?php echo get_home_url(); ?>/assets/img/heather-interview/heather-payne-ladies-learning-code.jpg" />
+	</div>
   <div class="table-of-contents">
     <div class="container">
       <div class="row">
@@ -53,7 +53,7 @@
 
       <div class="span7 interview-panel">
         <h3>Tell us a bit about yourself.</h3>
-        <p>I grew up in Brampton. My first job was at McDonald’s. I started as a crewmember, and became a manager when I was 16. From that point on, I worked a ton – about 30 hours a week, every week. I loved it. I put half of every paycheque I received into a separate bank account to help me pay for university. I graduated in 2009 from the <a href="http://www.ivey.uwo.ca/" target="_blank">Richard Ivey School of Business</a> at Western University in London [Ontario].</p>
+        <p>I grew up in Brampton. My first job was at McDonald’s. I started as a crewmember, and became a manager when I was 16. From that point on, I worked a ton – about 30 hours a week, every week. I loved it. I put half of every paycheque I received into a separate bank account to help me pay for university. I graduated in 2009 from the <a href="http://www.ivey.uwo.ca/" target="_blank" title="The Richard Ivey School of Business website">Richard Ivey School of Business</a> at Western University in London [Ontario].</p>
 
         <p>I spent my last semester of university on exchange in Hong Kong. I liked it so much that I decided to stay longer. I moved to the mainland and lived there for ten months. A lot of my time in China was spent learning how to code.</p>
 
@@ -67,7 +67,7 @@
         <h3>How much did you offer it for?</h3>
         <p>Not a lot. It was more that I didn’t want my work to disappear.</p>
 
-        <p>Two people offered to buy it. That was another thing I had to learn – how do you transfer ownership? It’s another crazy thing to go through, and I didn’t know anyone I could ask for help. Now, there are so many people I can ask. But it reminds me of how tough it is when you don’t have someone in your life to help you, which is one of the reasons I find <a href="http://ladieslearningcode.com" target="_blank">Ladies Learning Code</a> so cool.</p>
+        <p>Two people offered to buy it. That was another thing I had to learn – how do you transfer ownership? It’s another crazy thing to go through, and I didn’t know anyone I could ask for help. Now, there are so many people I can ask. But it reminds me of how tough it is when you don’t have someone in your life to help you, which is one of the reasons I find <a href="http://ladieslearningcode.com" target="_blank" title="Ladies Learning Code website">Ladies Learning Code</a> so cool.</p>
       </div>
 
       <div class="span11 pull-quote">
@@ -82,12 +82,36 @@
         <p>If you’re not in the technology world, if you don’t know any developers or designers, access is really tough. Where would you go to get help? Let’s say you don’t know anything about meetup groups. Forums can only help you so much. That’s what I love most about Ladies Learning Code, it’s in-person two-way communication with no time lapse.</p>
       </div>
     </section>
+	</div>
+</li>
+	<li>
+	
+	<div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/heather-interview/heather-payne-brooklyn-beta.jpg" />
+	  <div class="photo-credit top dark">Photo credit:  <a href="http://www.flickr.com/photos/jpk_spacemonkey/8097698611/" target="_blank" title="Heather Payne at Brooklyn Beta 2012">Jan Paul Koudstaal</a></div>
+      <div class="container">
+        <div class="info-panel">
+          <aside>
+            <div class="arrow"></div>
+           	<h3>Brooklyn Beta</h3>
+            <p class="last">During <a href="https://brooklynbeta.org/2012">Brooklyn Beta</a> in October, Heather shared how living in China (where she learned to code and planned her future) changed her life.</p>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+	
+
+  <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>So what happened next, after you sold your fitness site and came back from China?</h3>
         <p>I spent a year in a corporate marketing role, then spent about five months at a startup [<a href="http://pinpointsocial.com/" target="_blank">Pinpoint Social</a>]. Ladies Learning Code began around the same time that I joined Pinpoint Social. The buzz started in June 2011 and we had our first workshop in August. By the time we had run two workshops, I had a gut feeling that this could be something big if I could put in the time that it needed. </p>
         <p>I spent the rest of last year as a full-time volunteer for Ladies Learning Code, trying to figure out how to make it into something. It is still not a full-time job – it probably never will be. Ladies Learning Code is a non-profit and a labour of love. That’s one of the reasons we decided to start <a href="http://hackeryou.com/" target="_blank">HackerYou</a> which is a way for us to use what we’ve learned through Ladies Learning Code to offer something innovative to the Toronto community, and hopefully still make a living and pay our rent.</p>
       </div>
+	  
 
       <div class="span4 notable-person" id="mark-surman">
         <figure class="first-row">
@@ -110,6 +134,7 @@
         <p>I also work part-time for Mozilla. I connected with Mark Surman in October last year. He said, “We see what you’re doing for women in Toronto, do you think you could do the same thing for kids?”</p>
       </div>
     </section>
+	
    
     <section class="row">
       <div class="span7 offset4 interview-panel">
@@ -131,7 +156,7 @@
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>That's very respectable, and probably very humble as well. What would you say has been your training for your entrepreneurial skills?</h3>
-        <p>I do have a background in business but never realized how much I would have to learn on my own in order to make all the different things that I'm doing now work properly. It's been an incredible learning curve. I'm so lucky that I have <a href="http://ladieslearningcode.com/about/" target="_blank">Mel, Breanna and Laura</a> on my team because the four of us together are a really, really good team. As a result of working together at Ladies Learning Code we decided to become partners again in HackerYou.</p>
+        <p>I do have a background in business but never realized how much I would have to learn on my own in order to make all the different things that I'm doing now work properly. It's been an incredible learning curve. I'm so lucky that I have <a href="http://ladieslearningcode.com/about/" target="_blank" title="The about page of LadiesLearningCode.com">Mel, Breanna and Laura</a> on my team because the four of us together are a really, really good team. As a result of working together at Ladies Learning Code we decided to become partners again in HackerYou.</p>
       </div>
     </section>
 
@@ -141,7 +166,29 @@
         <p>Women's groups have always been a big part of my life. I was a Girl Guide forever; I was even a Brownie leader for a year in University. And then I was in a sorority at Western, and I credit my time in my sorority as one of the things that helped develop my skills as an entrepreneur. It’s like running a small business. We had to think about how we’d recruit the next group of Thetas, how we would manage our budget for the year.</p>
       </div>
     </section>
+</div>
+</li>
+	<li>
+	
+	<div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/heather-interview/heather-payne-sorority.jpg" />
+      <div class="container">
+        <div class="info-panel">
+          <aside>
+            <div class="arrow"></div>
+           	<h3>Kappa Alpha Theta</h3>
+            <p class="last">Heather credits the time she spent in her sorority as helping her to develop entrepreneurial skills</p>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+	
+	
 
+  <div class="container">
     <section class="row">      
       <div class="span7 offset4 interview-panel">
         <h3>Let's talk a little bit about the ‘women in tech’ issue. Who do you consider a woman in tech? What does a woman in tech do?</h3>
@@ -186,7 +233,28 @@
         <p>I think when puberty happens there starts to be a little bit of interesting friction between boys and girls. I remember suddenly feeling pressured to act dumb in math class. It takes a strong person to stand up to that pressure and say ‘No, forget it, I'm going to keep doing my thing.’ I think the same thing maybe happens with boys as well, in courses like English or art.</p>
       </div>
     </section>
+</div>
+</li>
+	<li>
+	
+	<div class="fullscreen">
+    <div class="parallax"><img
+		src="<?php echo get_home_url(); ?>/assets/img/heather-interview/heather-payne-girls-learning-code.jpg" />
+	<div class="photo-credit top dark">Photo credit:  <a href="http://jonlim.ca" target="_blank" title="Jon Lim's portfolio site">Jon Lim</a></div>
+      <div class="container">
+        <div class="info-panel" id="girls-learning-code">
+          <aside>
+            <div class="arrow"></div>
+			<h3>Girls Learning Code</h3>
+            <p class="last">An important part of Ladies Learning Code's mandate is to reach out to girls and introduce them to tech while they are young. Heather takes a hands-on approach during a summer workshop for 9 to 13-year-old girls.</p>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+	
 
+  <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3>So what are your ideas to fix it?</h3>
@@ -204,8 +272,8 @@
         <aside class="first-row">
           <div class="arrow"></div>
           <h3>Early Decision Making</h3>
-          <p class="last">High school course choices determine eligibility for university programs in Canada (and some other places in the world such as the UK), so in grade 9 kids have to start thinking about their majors.</p> 
-          <p>STEM majors in Canadian Universities require high school prerequisites that are not mandatory to graduate high school.</p>
+          <p>High school course choices determine eligibility for university programs in Canada (and some other places in the world such as the UK), so in grade 9 kids have to start thinking about their majors.</p> 
+          <p class="last">STEM majors in Canadian Universities require high school prerequisites that are not mandatory to graduate high school.</p>
         </aside>
       </div>
 
@@ -215,6 +283,7 @@
         <p>We’ll be following the girls who’ve come out to our workshops and Girls Learning Code. Maybe we’ll see a greater percentage of them than a control group going into STEM or STEM-related fields. It’s going to be very interesting to take a look at the numbers and the feedback. At some point, maybe we’ll be able to secure a few dollars for a formal study in order to dive in and ask, “What kind of impact is this making?” That would be really cool.</p>
       </div>
     </section>
+	
 
     <section class="row">
       <div class="span7 offset4 interview-panel">
@@ -252,6 +321,28 @@
         <p>Will we be around forever? No. I think once the industry is more equal, we’ll stop having the need for groups like Ladies Learning Code. And you never know, in the future there may have to be a Men Learning Code if we go too far the other way and need to fix it again. It’s not just about women. There are a lot of different groups that need to be incubated and I’m supportive of all that.</p>
       </div>
     </section>
+	</div>
+</li>
+	<li>
+	
+	<div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/heather-interview/heather-payne-ladies-learning-code-faces.jpg" />
+	  <div class="photo-credit dark top">All photos credited to:  <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a></div>
+      <div class="container">
+        <div class="info-panel">
+          <aside>
+            <div class="arrow"></div>
+			<h3>Faces of Women in Tech</h3>
+            <p class="last">All these different expressions have been captured during Ladies Learning Code workshops. The four women in the middle, including Heather, make up the core team behind the organization.</p>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
 
     <section class="row">
       <div class="span4 notable-person double">
