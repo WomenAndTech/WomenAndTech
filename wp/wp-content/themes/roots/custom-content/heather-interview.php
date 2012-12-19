@@ -32,7 +32,7 @@
               <div id="coffee-animation" style="width: 76px; height: 76px" class="swiffy"></div>
             </div>
             <div class="span3">
-              <p class="last">We met for a coffee downtown near King and Spadina.</p>
+              <p class="last">We met for a coffee after work downtown near King and Spadina.</p>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@
 
         <p>At Western I had made a website for my sorority using Blogger. It never occurred to me to pay someone to do that for me, I just thought, “All right, let’s start Googling!” I used a self-hosted theme and hacked it to pieces, learning everything about domains, hosting, installing Wordpress – all the stuff that now I take for granted. When you know something well it’s easy to forget what it was like to just get by.</p>
 
-        <p>I spent some time in China as part of my degree, in Hong Kong. I liked it so much that I decided to stay for an extra ten months on the mainland. Most of my time in China was spent learning how to code.</p>
+        <p>I spent some time in China as part of my degree, in Hong Kong. I liked it so much that I decided to stay for an extra ten months on the mainland. Most of my time in there was spent learning how to code.</p>
 
         <p>The site I made in China was called FitInTO.ca. I had been a personal trainer as a student, so I thought I’d do that again when I came back to Canada until I figured out what I really wanted to do. As it turned out, I ended up in a corporate marketing role. So I put up my site for “sale.” I say “sale” in quotes, but I actually had a pretty big community with lots of comments and views.</p>
       </div>
