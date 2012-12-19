@@ -357,7 +357,7 @@ aside, figure {
   z-index: 1;
   display: block;
   right: 0;
-  color:#ccc;
+  color:#bbb;
   padding:3px 5px 3px 8px;
   background-color:rgba(0,0,0,0.2);
   font-style:italic;
@@ -367,7 +367,7 @@ aside, figure {
 .photo-credit a, .photo-credit a:visited {
   text-decoration:none;
   border-bottom:none;
-  color:#bcbcbc;
+  color:#dddddd;
 }
 .photo-credit a:hover {
   color:#ccc;
@@ -407,9 +407,13 @@ aside, figure {
 
 .notable-person h4 {
     font-size: 1.071em;
-    line-height: 0.5em;
-    margin: 0 0 0.75em;
+    line-height: 1.3em;
+    margin: 0 0 0.25em;
     font-weight: bold;
+}
+
+#tonya-surman {
+	margin-bottom:10px;
 }
 
 /* Article > Aside > Pull-Quote */
@@ -917,11 +921,11 @@ HEATHER-SPECIFIC INTERVIEW STYLES
     min-width: 748px;
 }
 
-/*
-.fullscreen .info-panel#wozniak {
+
+.fullscreen .info-panel#girls-learning-code {
 	top:auto;
 	bottom:45%;
-}*/
+}
 
 /* Article > Start Tag */
 .no-svg #start-animation {
@@ -935,10 +939,10 @@ HEATHER-SPECIFIC INTERVIEW STYLES
 }
 
 
-/* Mobile Fluid 
+/* Mobile Fluid */
 @media (max-width:767px) {
     
-    .fullscreen .info-panel#wozniak {
+    .fullscreen .info-panel#girls-learning-code {
         bottom:0;
     }
     .fullscreen #mounties .info-panel {
@@ -951,4 +955,4 @@ HEATHER-SPECIFIC INTERVIEW STYLES
     .fullscreen #mounties img {
         position:relative;
     }
-}*/
+}
