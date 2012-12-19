@@ -357,7 +357,7 @@
         </div>
         <div class="row-fluid">
           <div class="span12" id="call-to-action">
-            <p>Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Ayla Newhouse's answer to this question.<br />Follow Heather at <a href="http://heatherpayne.ca" target="_blank">heatherpayne.ca</a> and on Twitter at <a href="http://twitter.com/heatherpayne" target="_blank">@heatherpayne.</a></p>
+            <p>Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Ayla Newhouse's answer to this question.</p>
           </div>
         </div>
       </div>
