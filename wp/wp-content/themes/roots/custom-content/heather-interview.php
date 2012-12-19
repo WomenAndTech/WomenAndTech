@@ -57,9 +57,9 @@
 
         <p>I spent my last semester of university on exchange in Hong Kong. I liked it so much that I decided to stay longer. I moved to the mainland and lived there for ten months. A lot of my time in China was spent learning how to code.</p>
 
-        <p>The first site I made while I was in China was called FitInTO.ca, a blog about fitness in Toronto. It never occurred to me to pay someone to do that for me, I just thought, “All right, let’s start Googling!” I installed a Wordpress theme and hacked it to pieces, learning everything about domains, hosting, installing Wordpress – all the stuff that now I take for granted. When you know something well it’s easy to forget what it was like to just get by.</p>
+        <p>The first site I made while I was in China was called FitInTO.ca, a blog about fitness in Toronto. I had been a fitness instructor and personal trainer as a student, so I thought I’d do that again when I came back to Canada until I figured out what I really wanted to do. It never occurred to me to pay someone to build a site for me, I just thought, “All right, let’s start Googling!” I used a WordPress theme and hacked it to pieces, learning everything about domains, hosting, installing Wordpress – all the stuff that now I take for granted. When you know something well it’s easy to forget what it was like to just get by.</p>
 
-        <p>I had been a fitness instructor and personal trainer as a student, so I thought I’d do that again when I came back to Canada until I figured out what I really wanted to do. As it turned out, I ended up in a corporate marketing role. So I put up my site for “sale.” I say “sale” in quotes because I wasn’t going to be able to sell it for much, but I actually had a pretty big community with lots of comments and views.</p>
+        <p>As it turned out, I ended up in a corporate marketing role. So I put up my site for “sale.” I say “sale” in quotes because I wasn’t going to be able to sell it for much, but I actually had a pretty big community with lots of comments and views.</p>
       </div>
     </section>
     <section class="row">
@@ -195,7 +195,7 @@
 
         <p>We also now have an 1100 square foot workshop space at the <a href="http://ladieslearningcode.com/about/#about_csi" target="_blank">Centre for Social Innovation</a> at Bloor and Bathurst. It has a 50-person classroom and a mini-maker space with a 3D printer, arduinos, and other hardware components. We hope the space will provide women and girls a place where they can learn about and gain some confidence with these new tools. Then, as their projects outgrow our space, we hope they’ll go off and join some of the other awesome maker spaces in the city making those groups more diverse.</p>
 
-        <p><strong>Update: </strong><em>Heather and team are exploring the idea of a child-friendly co-working space with support from the Centre for Social Innovation. They are planning to host a community brainstorming session on January 15th to see if people are interested in the idea. They also held their first Girls Learning Code sleepover with ten girls and hope to host more in the future.</em></p>
+        <p><strong>Update: </strong><em>Heather and team are exploring the idea of a child-friendly co-working space with support from the Centre for Social Innovation. They are planning to host a <a href="https://guestlistapp.com/events/140682" target="_blank">community brainstorming session</a> on January 15th to see if people are interested in the idea. They also held their first <a href="http://ladieslearningcode.com/2012/12/girls-learning-code-technology-slumber-party/" target="_blank">Girls Learning Code sleepover</a> with ten girls and hope to host more in the future.</em></p>
       </div>
     </section>
 
@@ -245,8 +245,7 @@
         <aside class="first-row">
           <div class="arrow"></div>
           <h3>Women in Tech Allies</h3>
-          <p>Women&amp;&amp;Tech put together a list of sister organizations and causes that share a similar mandate to support women in tech.<p>
-          <p class="last">Check out our list <a href="https://twitter.com/WomenAndTech/allies/members">here.</a></p>
+          <p class="last">Women&amp;&amp;Tech put together a list of sister organizations and causes that share a similar mandate to support women in tech. <a href="https://twitter.com/WomenAndTech/allies/members">Check out our list here.</a></p>
         </aside>
       </div>
       <div class="span7 interview-panel">
@@ -283,7 +282,7 @@
       </div>
       <div class="span7 interview-panel">
         <h3>Have you had any mentors that stand out?</h3>
-        <p><a href="https://twitter.com/tonyasurman" title="Tonya Surman's twitter profile" target="_blank">Tonya Surman</a> is the founder of the Centre for Social Innovation (CSI), and I emailed her for the first time in 2010 when I was living in China and I was like, ‘I want to work for you.’ It was sort of intense, but she replied and she was so lovely. And it’s really funny now that we work so closely with CSI and it’s a wonderful partner of ours. She’s really been more of a role model.</p>
+        <p><a href="https://twitter.com/tonyasurman" title="Tonya Surman's twitter profile" target="_blank">Tonya Surman</a> is the founder of the Centre for Social Innovation (CSI), and I emailed her for the first time in 2010 when I was living in China and I was like, ‘I want to work for you.’ It was sort of intense, but she replied and she was so lovely. And it’s really funny now that we work so closely with CSI and it’s a wonderful partner of ours. She’s really been more of a role model than a mentor.</p>
       </div>
     </section>
 
@@ -300,7 +299,7 @@
 
         <p>I realized it would never reach its full potential unless I stepped up and brought together the right people to make that happen. Unfortunately, 20-person teams are unmanageable. And it was really tough for me to say, “Thanks for helping out over the past month, but for this to move forward, we have to go in a different direction.” Now our team is much smaller.</p> 
 
-        <p>Another hard thing is expansion into new cities [Ladies Learning Code now has chapters in Vancouver and Ottawa]. I’m a bit of a control freak, especially over the brand, and I like the events to be a certain way – where they are welcoming, collaborative, and fun. That’s one of the reasons Ladies Learning Code has worked, because of that culture. Luckily we're working with wonderful chapter leaders in Vancouver and Ottawa.</p>
+        <p>Another hard thing is expansion into new cities [Ladies Learning Code now has chapters in Vancouver and Ottawa]. I’m a bit of a control freak, especially over the brand, and I like the events to be a certain way – where they are welcoming, collaborative, and fun. That’s one of the reasons Ladies Learning Code has worked, because of that culture. Luckily we're working with wonderful chapter leaders in Vancouver and Ottawa who totally get our vision.</p>
 
         <p>I’ve never worked harder in my life; it’s just work and sleep. It’s hard to believe that these two organizations (Ladies Learning Code and HackerYou), could be this much work, but I don’t mind – I’m having so much fun. I’m so grateful that the Toronto tech community keeps supporting us. That keeps me humble. I recognize that it could all go away tomorrow.</p>
       </div>
