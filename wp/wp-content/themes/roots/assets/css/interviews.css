@@ -263,7 +263,7 @@ aside, figure {
     margin-bottom: 0;
 }
 
-.notable-person h3, .info-panel h3 {
+.interview .notable-person h3, .interview .info-panel h3 {
     line-height: 1.5em;
     margin-bottom: 0.429em;
     margin-top: 0;

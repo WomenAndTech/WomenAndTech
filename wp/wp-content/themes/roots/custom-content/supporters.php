@@ -94,6 +94,10 @@
 
 					<div class="member with_heart">
 						<h4>With <i class="icon-heart-empty icon-orange"></i> from</h4>
+						<a href="http://twitter.com/kelzor" target="_blank" alt="Kathleen Harris" title="Kathleen Harris">
+							<h3>Kelly Seagram</h3>
+							<p>Editing</p>
+						</a>
 						<a href="https://twitter.com/vickilaszlo" target="_blank" alt="Vicki Laszlo" title="Vicki Laszlo">
 							<h3>Vicki Laszlo</h3>
 							<p>Coffee fairy</p>
@@ -101,10 +105,6 @@
 						<a href="http://twitter.com/unofficialvideo" target="_blank" alt="Kathleen Harris" title="Kathleen Harris">
 							<h3>Kathleen Harris</h3>
 							<p>Videography</p>
-						</a>
-						<a href="http://twitter.com/kelzor" target="_blank" alt="Kathleen Harris" title="Kathleen Harris">
-							<h3>Kelly Seagram</h3>
-							<p>Editing</p>
 						</a>
 					</div>
 				</div>
