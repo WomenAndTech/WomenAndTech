@@ -361,6 +361,7 @@ aside, figure {
   font-size:0.9em;
 }
 
+
 .photo-credit a, .photo-credit a:visited {
   text-decoration:none;
   border-bottom:none;
@@ -370,6 +371,19 @@ aside, figure {
   color:#ccc;
   text-decoration:none;
   border:none;
+}
+
+.photo-credit.dark{
+    color:#333;
+    background-color:rgba(255,255,255,0.2);
+}
+
+.photo-credit.dark a, .photo-credit.dark a:visited{
+    color:#222;
+}
+
+.photo-credit.dark a:hover {
+    color:#000;
 }
 
 /* Article > Figure > Notable-Person */
