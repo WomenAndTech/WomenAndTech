@@ -109,6 +109,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
           <h3>
             What did people back home think when you transfered to this “out there” creative program?
           </h3>
+          <a name='art-in-the-family'></a>
           <p>
             My Nanna is a potter so there’s art in my family. My parents weren’t totally surprised. I struggled a lot as a teenager, being awkward and artsy in a town full of athletes and outdoor enthusiasts. I used to beg my parents to let me stay home from the ski hill, lock myself in my bedroom for a weekend and design board games.
           </p>
@@ -151,7 +152,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
         <div class="span7 offset4 interview-panel">
           <h3>Have you had any influential mentors?</h3>
           <p>
-            Kelsey Blackwell, a graphic designer and my mentor at Emily Carr. She was the first person who showed me that there is a kind of design that involved words, that writing is a relevant way to approach design challenges. She always pushed me to pursue bigger and better things. She convinced me to apply for the grad school that I went to in Toronto.
+            Kelsey Blackwell, a graphic designer and my mentor at Emily Carr. She was the first person who showed me that there is a kind of design that involved words, that writing is a relevant way to approach design challenges. She always pushed me to pursue bigger and better things. She convinced me to apply for the <a href="#post-graduate-degree">grad school</a> that I went to in Toronto.
           </p>
         </div>
       </section>
@@ -208,6 +209,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
         <div class="span7 offset4 interview-panel">
+          <a name='asking-good-questions'></a>
           <p>
             When I call myself a designer, I’m not thinking about myself as a graphic designer or even an interaction designer. I think ‘designer’ deserves a much broader definition. I think of a designer as someone who can ask good questions, someone who really wants to understand a big picture perspective as well as the little details.
           </p>
@@ -259,7 +261,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
           </div>
           <div class="span7 offset4 interview-panel">
             <p>
-              I'm interested in how design and technology can improve human wellness. I think we get confused between "technology" and digital tools like smartphones, tablets, QR codes, etc. If someone develops a new technology, it’s as if they’ve developed a new raw material. It’s like a potter discovering a new type of clay and thinking
+              I'm interested in how design and technology can improve human wellness. I think we get confused between "technology" and digital tools like smartphones, tablets, QR codes, etc. If someone develops a new technology, it’s as if they’ve developed a new raw material. It’s like a <a href='#art-in-the-family' class='interview-ref'>potter</a> discovering a new type of clay and thinking
               <em>“I wonder what I can make with that!”</em>
               As a designer, I feel the same way: what can I do with these new tools and processes?
             </p>
@@ -309,7 +311,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             <p>
               Perspective. For example, I did a bunch of interviews when I first started working on this project and I talked to a guy who said he had spent 15,000 hours developing skills for his career. I asked him how long he’d spent developing his skills around relationships and he said,
               <em>“Maybe 15.”</em>
-              That’s amazing! We don’t spend time thinking about relationships as a skill. We’re not asking the right questions. To have better relationships we need to design them more intentionally.
+              That’s amazing! We don’t spend time thinking about relationships as a skill. We’re not <a href='#asking-good-questions' class='interview-ref'>asking the right questions.</a> To have better relationships we need to design them more intentionally.
             </p>
           </div>
         </section>
@@ -326,6 +328,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
         <section class="row">
           <div class="span7 offset4 interview-panel">
             <h3>How did you get into tech in general?</h3>
+            <a name='post-graduate-degree'></a>
             <p>
               I did a post graduate degree in Toronto at the Institute without Boundaries in Interdisciplinary Design. From there I was offered a job at a design studio in Toronto called Normative Design
               <http://normativedesign.com>
@@ -390,10 +393,37 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             </div>
           </section>
           <section class="row">
+            <div class="span4 notable-person photo-callout" id="kelsey-blackwell">
+              <figure class="first-row">
+                <div class="arrow"></div>
+                <a href="http://www.linkedin.com/pub/kelsey-blackwell/21/587/283"
+                title="Kelsey Blackwell's LinkedIn Profile"
+                target="_blank">
+                  <img src='http://upload.wikimedia.org/wikipedia/commons/f/f5/Florence_Machine_%28Florence_Welch%29.jpg'></a>
+                <figcaption class="clear">
+                  <a href="http://www.linkedin.com/pub/kelsey-blackwell/21/587/283"
+                  title="Steve Mann's wikipedia entry"
+                  target="_blank">
+                    <h4>Epic, Inspring Music</h4>
+                  </a>
+                  <p>Of all the people who inspire her, Ayla most wants to work with Florench Welch. "I imagine it would be a great adventure of a day to spend with her." OR "I'd want to work with her to design the ideal space to enjoy her music."</p>
+                </figcaption>
+                <div style="clear:both"></div>
+              </figure>
+            </div>
             <div class="span7 offset4 interview-panel">
               <h3>Who inspires you?</h3>
               <p>
-                So many people! Alain de Botton, who started the School of Life; Neal Stephenson, who writes about technology of the future; Sophie Calle, who is a performance artist -- she’s an everything artist, actually; Florence Welch of Florence and the Machine for making epic inspiring music. And that she’s like 26. Whoa; Barbara Kruger, for making words amazing; Carl Sagan, for inspiring my love of the universe and thinking about things from that massive perspective.
+                So many people! <a href="http://en.wikipedia.org/wiki/Alain_de_Botton" target="_blank" title="Alain de Botton's Wikipedia Entry">Alain de Botton</a>, who started the School of Life; <a href="http://en.wikipedia.org/wiki/Neal_Stephenson" target="_blank" title="Neal Stephenson's Wikipedia Entry">Neal Stephenson</a>, who writes about technology of the future; <a href="http://en.wikipedia.org/wiki/Sophie_Calle" target="_blank" title="Sophie Calle's Wikipedia Entry">Sophie Calle</a>, who is a performance artist -- she’s an everything artist, actually; <a href="http://en.wikipedia.org/wiki/Florence_Welch" target="_blank" title="Florence Welch's Wikipedia Entry">Florence Welch</a> of Florence and the Machine for making epic inspiring music. And that she’s like 26. Whoa; <a href="http://en.wikipedia.org/wiki/Barbara_Kruger" target="_blank" title="Barbara Kruger's Wikipedia Entry">Barbara Kruger</a>, for making words amazing; <a href="http://en.wikipedia.org/wiki/Carl_Sagan" target="_blank" title="Carl Sagan's Wikipedia Entry">Carl Sagan</a>, for inspiring my love of the universe and thinking about things from that massive perspective.
+              </p>
+            </div>
+          </section>
+          <section class="row">
+            <div class="span7 offset4 interview-panel">
+              <h3>
+                What's next for you?
+              </h3>
+              <p>I'd like to design a space. I feel like that's a natural evolution from designing on paper to interaction on the web. For the next step in interactivity, I think it would be even more cool to make spaces.</p>
               </p>
             </div>
           </section>
