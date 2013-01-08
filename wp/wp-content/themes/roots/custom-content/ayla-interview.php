@@ -421,15 +421,6 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
           <section class="row">
             <div class="span7 offset4 interview-panel">
               <h3>
-                What's next for you?
-              </h3>
-              <p>I'd like to design a space. I feel like that's a natural evolution from designing on paper to interaction on the web. For the next step in interactivity, I think it would be even more cool to make spaces.</p>
-              </p>
-            </div>
-          </section>
-          <section class="row">
-            <div class="span7 offset4 interview-panel">
-              <h3>
                 Without knowing who they are, please pose a question for our next interviewee.
               </h3>
               <p>
