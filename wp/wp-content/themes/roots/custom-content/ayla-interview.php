@@ -485,7 +485,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
                   <div id="profile-image">
                     <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-portrait-square.jpg" />
                   </div>
-                  <h4>What inspiring idea keeps you up at night?</h4>
+                  <h4>What wakes you up at night?</h4>
                   <div id='quote-mark'>
                     <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
                 </div>
