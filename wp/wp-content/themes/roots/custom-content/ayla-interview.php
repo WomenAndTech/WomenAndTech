@@ -50,7 +50,7 @@ href="http://1thingap.com" target="_blank" title="1THING iPhone App" alt="1THING
               </div>
               <div class="span3">
                 <p class="last">
-                  We met downtown near Queen and Dufferin. Ayla showed up with a stack of typed notes.
+                  We met downtown near Queen and Dufferin. Ayla arrived with a stack of typed notes.
                 </p>
               </div>
             </div>
