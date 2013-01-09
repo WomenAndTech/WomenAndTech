@@ -21,22 +21,15 @@
         </div>
       </header>
       <section class="row" id="introduction">
-        <div class="span12">
-          <h2>
-            Ayla is a
-            <a
-            href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" alt="Ayla Newhouse's Website">designer</a
->
-            and founder of
-            <a
-            href="http://eqschool.ca" target="_blank" title="EQ School Website" alt="EQ School Website">EQ School</a
->
-            and
-            <a
-            href="http://1thingap.com" target="_blank" title="1THING iPhone App" alt="1THING app website">1THING: The global gratitude journal</a
->
-            , projects that aim to change the way we think about our feelings. She’s continuing this ‘adventure research’ by writing a book exploring how the tools of design can make dating better.
-          </h2>
+<div class="span12">
+<h2>
+Ayla is a
+<a
+href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" alt="Ayla Newhouse's Website">communication designer</a> with a passion for transformation. Her projects, including
+<a
+href="http://1thingap.com" target="_blank" title="1THING iPhone App" alt="1THING app website">1THING</a
+> and <a href="http://datingbydesign.ca/" target="_blank" title="Dating by Design website" alt="Dating by Design website">Dating by Design</a>, explore the ways technology can positively change our emotions, relationships and well-being.
+</h2>
         </div>
       </section>
     </div>
@@ -86,6 +79,13 @@
         </div>
       </section>
       <section class="row">
+        <div class="span4 info-panel personal-testimony">
+            <aside>
+              <div class="arrow"></div>
+              <p class="last"><img src="http://2.bp.blogspot.com/_RqkZ-3TwUoA/TMlw6eUN-VI/AAAAAAAAEvI/JQr3Q_CeETw/s1600/amy12.jpg"/> An early reality tv show, Trading Spaces focused on the quick decisions of interior designers and carpenters tasked with completing a room re-design in 24 hours.</p>
+              
+            </aside>
+          </div>
         <div class="span7 offset4 interview-panel">
           <h3>Trading Spaces?</h3>
           <p>
@@ -127,7 +127,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
         </div>
       </section>
       <section class="row">
-        <div class="span4 notable-person photo-callout" id="kelsey-blackwell">
+        <div class="span4 notable-person" id="kelsey-blackwell">
           <figure class="first-row">
             <div class="arrow"></div>
             <h3>Notable Person</h3>
@@ -180,8 +180,8 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             <div class="info-panel">
               <aside>
                 <div class="arrow"></div>
-                <h3>Collage</h3>
-                <p class="last">Objects</p>
+                <h3>The Designer's Drawer</h3>
+                <p class="last">Tools, work, and memorabilia from Ayla's studio including a book designed to showcase her grandmother's pottery, Ayla's daily gratitude journal, and the all-important tower of sticky notes. </p>
               </aside>
             </div>
           </div>
@@ -393,20 +393,20 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             </div>
           </section>
           <section class="row">
-            <div class="span4 notable-person photo-callout" id="kelsey-blackwell">
+            <div class="span4 notable-person photo-callout" id="florence-welch">
               <figure class="first-row">
                 <div class="arrow"></div>
-                <a href="http://www.linkedin.com/pub/kelsey-blackwell/21/587/283"
-                title="Kelsey Blackwell's LinkedIn Profile"
+                <a href="http://en.wikipedia.org/wiki/Florence_Welch"
+                title="Florence Welch's Wikipedia entry"
                 target="_blank">
                   <img src='http://upload.wikimedia.org/wikipedia/commons/f/f5/Florence_Machine_%28Florence_Welch%29.jpg'></a>
                 <figcaption class="clear">
-                  <a href="http://www.linkedin.com/pub/kelsey-blackwell/21/587/283"
-                  title="Steve Mann's wikipedia entry"
+                  <a href="http://en.wikipedia.org/wiki/Florence_Welch"
+                  title="Florence Welch's Wikipedia entry"
                   target="_blank">
                     <h4>Epic, Inspring Music</h4>
                   </a>
-                  <p>Of all the people who inspire her, Ayla most wants to work with Florench Welch. "I imagine it would be a great adventure of a day to spend with her." OR "I'd want to work with her to design the ideal space to enjoy her music."</p>
+                  <p>Of all the people who inspire her, Ayla most wants to work with Florench Welch. "I'd want to work with her to design the ideal space to enjoy her music."</p>
                 </figcaption>
                 <div style="clear:both"></div>
               </figure>
