@@ -26,13 +26,12 @@
             Ayla is a
             <a
 href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" alt="Ayla Newhouse's Website">communication designer</a>
-            with a passion for social transformation. Her projects, including
+            who believes that applying the theories of design to emotion will transform our relationships and communities. Her recent projects,
             <a
 href="http://1thingap.com" target="_blank" title="1THING iPhone App" alt="1THING app website">1THING</a
 >
             and
-            <a href="http://datingbydesign.ca/" target="_blank" title="Dating by Design website" alt="Dating by Design website">Dating by Design</a>
-            , aim to use technology to positively change our emotions, relationships and well-being.
+            <a href="http://datingbydesign.ca/" target="_blank" title="Dating by Design website" alt="Dating by Design website">Dating by Design</a>, attempt to bridge the gap between technology and emotion.
           </h2>
         </div>
       </section>
@@ -160,8 +159,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
           <h3>Have you had any influential mentors?</h3>
           <p>
             Kelsey Blackwell, a graphic designer and my mentor at Emily Carr. She was the first person who showed me that there is a kind of design that involved words, that writing is a relevant way to approach design challenges. She always pushed me to pursue bigger and better things. She convinced me to apply for the
-            <a href="#post-graduate-degree">grad school</a>
-            that I went to in Toronto.
+            grad school that I went to in Toronto.
           </p>
         </div>
       </section>
@@ -191,16 +189,15 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
               <div class="arrow"></div>
               <h3>The Designer's Drawer</h3>
               <p class="last">
-                Tools, work, and memorabilia from Ayla's studio including a book designed to showcase her grandmother's pottery, Ayla's daily gratitude journal, and the all-important tower of sticky notes.
+                Tools, work and memorabilia from Ayla's studio including a book designed to showcase her grandmother's pottery, Ayla's daily gratitude journal and the all-important tower of sticky notes.
               </p>
             </aside>
           </div>
         </div>
-        <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/table-collage.jpg" />
+        <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-designer-grid.jpg" />
         <div class="photo-credit light">
           Photo credit:
           <a href="http://kidwithcamera.com" title="A collection of objects from Ayla Newhouse's studio" target="_blank">David "Kid With Camera" Waldman</a>
->>>>>>> 46ebbe6b63ab23182e6b5d7fa732dbdfcfd9ba75
         </div>
       </div>
     </div>
@@ -258,6 +255,28 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             <em>“a person’s emotional intelligence technology.”</em>
             What are those tools and process that help you have a higher emotional intelligence?
           </p>
+        </div>
+      </section>
+    </div>
+  </li>
+  <li>
+    <div class="fullscreen">
+      <div class="parallax" id='1thing-illustrations'>
+        <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-pechakucha.jpg" />
+      <div class="photo-credit dark top"><a href="http://blog.1thingapp.com/" target="_blank" title="1THING daily gratitude illustrations">Various artists</a></div>
+        <div class="container">
+          <div class="info-panel">
+            <aside>
+              <div class="arrow"></div>
+              <p class="last">Ayla presenting Dating By Design at Pecha Kucha</p>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
           <p>
             I recently visited the School of Life
             <http://www.schooloflife.com>
@@ -267,7 +286,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
           <div class="span11 pull-quote">
             <aside class="quote">
               <h2>
-                If someone develops a new technology, it’s as if they’ve developed a new raw material.
+                If someone develops a new technology, it’s as if they’ve developed a new raw material. As a designer [...] I think, I wonder what I can make with that!
               </h2>
             </aside>
             <div class="quote-mark">
@@ -275,11 +294,8 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
           </div>
           <div class="span7 offset4 interview-panel">
             <p>
-              I'm interested in how design and technology can improve human wellness. I think we get confused between "technology" and digital tools like smartphones, tablets, QR codes, etc. If someone develops a new technology, it’s as if they’ve developed a new raw material. It’s like a
-              <a href='#art-in-the-family' class='interview-ref'>potter</a>
-              discovering a new type of clay and thinking
-              <em>“I wonder what I can make with that!”</em>
-              As a designer, I feel the same way: what can I do with these new tools and processes?
+              I'm interested in how design and technology can improve human wellness. I think we get confused between "technology" and digital tools like smartphones, tablets, QR codes, etc. If someone develops a new technology, it’s as if they’ve developed a new raw material. It’s like a potter
+              discovering a new type of clay. As a designer, I feel the same way. I think: <em>“I wonder what I can make with that!”</em>
             </p>
           </div>
         </section>
@@ -318,15 +334,15 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
 	<li>
 	
 	<div class="fullscreen">
-    <div class="parallax">
+    <div class="parallax" id='1thing-illustrations'>
       <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-1thingapp-illustrations.jpg" />
-	  <div class="photo-credit dark top">All photos credited to:  <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a></div>
+	  <div class="photo-credit dark top"><a href="http://blog.1thingapp.com/" target="_blank" title="1THING daily gratitude illustrations">Various artists</a></div>
       <div class="container">
         <div class="info-panel">
           <aside>
             <div class="arrow"></div>
-			<h3>Faces of Women in Tech</h3>
-            <p class="last">All these different expressions have been captured during Ladies Learning Code workshops. The four women in the middle, including Heather, make up the core team behind the organization.</p>
+			       <h3>Gratitude Illustrated</h3>
+            <p class="last">Every month a new artist is invited to be the 1THING artist-in-residence. The artist <a href="http://blog.1thingapp.com/" target="_blank" title="1THING daily gratitude illustrations">illustrates one gratitude</a> per day chosen from the public feed.</p>
           </aside>
         </div>
       </div>
@@ -357,7 +373,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
               Perspective. For example, I did a bunch of interviews when I first started working on this project and I talked to a guy who said he had spent 15,000 hours developing skills for his career. I asked him how long he’d spent developing his skills around relationships and he said,
               <em>“Maybe 15.”</em>
               That’s amazing! We don’t spend time thinking about relationships as a skill. We’re not
-              <a href='#asking-good-questions' class='interview-ref'>asking the right questions.</a>
+              asking the right questions.
               To have better relationships we need to design them more intentionally.
             </p>
           </div>
@@ -376,8 +392,17 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
       </li>
       <li>
       <div class="fullscreen">
-        <div class="parallax" id="collage">
-          <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/1-thing-app-screenshots.jpg" />
+        <div class="parallax" id="1thing-screenshots">
+          <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-1thingapp.jpg" />
+          <div class="container">
+            <div class="info-panel">
+              <aside>
+                <div class="arrow"></div>
+                 <h3>A Human Touch</h3>
+                <p class="last">Touching someone else's gratitude triggers a blooming sun animation and adds a fingerprint beside the post.</p>
+              </aside>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container">
