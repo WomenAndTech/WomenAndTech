@@ -21,15 +21,19 @@
         </div>
       </header>
       <section class="row" id="introduction">
-<div class="span12">
-<h2>
-Ayla is a
-<a
-href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" alt="Ayla Newhouse's Website">communication designer</a> with a passion for transformation. Her projects, including
-<a
+        <div class="span12">
+          <h2>
+            Ayla is a
+            <a
+href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" alt="Ayla Newhouse's Website">communication designer</a>
+            with a passion for social transformation. Her projects, including
+            <a
 href="http://1thingap.com" target="_blank" title="1THING iPhone App" alt="1THING app website">1THING</a
-> and <a href="http://datingbydesign.ca/" target="_blank" title="Dating by Design website" alt="Dating by Design website">Dating by Design</a>, explore the ways technology can positively change our emotions, relationships and well-being.
-</h2>
+>
+            and
+            <a href="http://datingbydesign.ca/" target="_blank" title="Dating by Design website" alt="Dating by Design website">Dating by Design</a>
+            , aim to use technology to positively change our emotions, relationships and well-being.
+          </h2>
         </div>
       </section>
     </div>
@@ -80,12 +84,15 @@ href="http://1thingap.com" target="_blank" title="1THING iPhone App" alt="1THING
       </section>
       <section class="row">
         <div class="span4 info-panel personal-testimony">
-            <aside>
-              <div class="arrow"></div>
-              <p class="last"><img src="http://2.bp.blogspot.com/_RqkZ-3TwUoA/TMlw6eUN-VI/AAAAAAAAEvI/JQr3Q_CeETw/s1600/amy12.jpg"/> An early reality tv show, Trading Spaces focused on the quick decisions of interior designers and carpenters tasked with completing a room re-design in 24 hours.</p>
-              
-            </aside>
-          </div>
+          <aside>
+            <div class="arrow"></div>
+            <p class="last">
+              <img src="http://2.bp.blogspot.com/_RqkZ-3TwUoA/TMlw6eUN-VI/AAAAAAAAEvI/JQr3Q_CeETw/s1600/amy12.jpg"/>
+              An early reality tv show, Trading Spaces focused on the quick decisions of interior designers and carpenters tasked with completing a room re-design in 24 hours.
+            </p>
+
+          </aside>
+        </div>
         <div class="span7 offset4 interview-panel">
           <h3>Trading Spaces?</h3>
           <p>
@@ -152,7 +159,9 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
         <div class="span7 offset4 interview-panel">
           <h3>Have you had any influential mentors?</h3>
           <p>
-            Kelsey Blackwell, a graphic designer and my mentor at Emily Carr. She was the first person who showed me that there is a kind of design that involved words, that writing is a relevant way to approach design challenges. She always pushed me to pursue bigger and better things. She convinced me to apply for the <a href="#post-graduate-degree">grad school</a> that I went to in Toronto.
+            Kelsey Blackwell, a graphic designer and my mentor at Emily Carr. She was the first person who showed me that there is a kind of design that involved words, that writing is a relevant way to approach design challenges. She always pushed me to pursue bigger and better things. She convinced me to apply for the
+            <a href="#post-graduate-degree">grad school</a>
+            that I went to in Toronto.
           </p>
         </div>
       </section>
@@ -174,22 +183,26 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
     </div>
   </li>
   <li>
-      <div class="fullscreen">
-        <div class="parallax" id="collage">
-          <div class="container">
-            <div class="info-panel">
-              <aside>
-                <div class="arrow"></div>
-                <h3>The Designer's Drawer</h3>
-                <p class="last">Tools, work, and memorabilia from Ayla's studio including a book designed to showcase her grandmother's pottery, Ayla's daily gratitude journal, and the all-important tower of sticky notes. </p>
-              </aside>
-            </div>
+    <div class="fullscreen">
+      <div class="parallax" id="collage">
+        <div class="container">
+          <div class="info-panel">
+            <aside>
+              <div class="arrow"></div>
+              <h3>The Designer's Drawer</h3>
+              <p class="last">
+                Tools, work, and memorabilia from Ayla's studio including a book designed to showcase her grandmother's pottery, Ayla's daily gratitude journal, and the all-important tower of sticky notes.
+              </p>
+            </aside>
           </div>
+        </div>
         <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/table-collage.jpg" />
-        <div class="photo-credit light">Photo credit: <a href="http://kidwithcamera.com" title="A collection of objects from Ayla Newhouse's studio" target="_blank">David "Kid With Camera" Waldman</a></div>
-          
+        <div class="photo-credit light">
+          Photo credit:
+          <a href="http://kidwithcamera.com" title="A collection of objects from Ayla Newhouse's studio" target="_blank">David "Kid With Camera" Waldman</a>
         </div>
       </div>
+    </div>
 
     <div class="container">
       <section class="row">
@@ -261,7 +274,9 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
           </div>
           <div class="span7 offset4 interview-panel">
             <p>
-              I'm interested in how design and technology can improve human wellness. I think we get confused between "technology" and digital tools like smartphones, tablets, QR codes, etc. If someone develops a new technology, it’s as if they’ve developed a new raw material. It’s like a <a href='#art-in-the-family' class='interview-ref'>potter</a> discovering a new type of clay and thinking
+              I'm interested in how design and technology can improve human wellness. I think we get confused between "technology" and digital tools like smartphones, tablets, QR codes, etc. If someone develops a new technology, it’s as if they’ve developed a new raw material. It’s like a
+              <a href='#art-in-the-family' class='interview-ref'>potter</a>
+              discovering a new type of clay and thinking
               <em>“I wonder what I can make with that!”</em>
               As a designer, I feel the same way: what can I do with these new tools and processes?
             </p>
@@ -311,7 +326,9 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             <p>
               Perspective. For example, I did a bunch of interviews when I first started working on this project and I talked to a guy who said he had spent 15,000 hours developing skills for his career. I asked him how long he’d spent developing his skills around relationships and he said,
               <em>“Maybe 15.”</em>
-              That’s amazing! We don’t spend time thinking about relationships as a skill. We’re not <a href='#asking-good-questions' class='interview-ref'>asking the right questions.</a> To have better relationships we need to design them more intentionally.
+              That’s amazing! We don’t spend time thinking about relationships as a skill. We’re not
+              <a href='#asking-good-questions' class='interview-ref'>asking the right questions.</a>
+              To have better relationships we need to design them more intentionally.
             </p>
           </div>
         </section>
@@ -325,6 +342,15 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             </p>
           </div>
         </section>
+      </div>
+      </li>
+      <li>
+      <div class="fullscreen">
+        <div class="parallax" id="collage">
+          <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/1-thing-app-screenshots.jpg" />
+        </div>
+      </div>
+      <div class="container">
         <section class="row">
           <div class="span7 offset4 interview-panel">
             <h3>How did you get into tech in general?</h3>
@@ -406,7 +432,9 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
                   target="_blank">
                     <h4>Epic, Inspring Music</h4>
                   </a>
-                  <p>Of all the people who inspire her, Ayla most wants to work with Florench Welch. "I'd want to work with her to design the ideal space to enjoy her music."</p>
+                  <p>
+                    Of all the people who inspire her, Ayla most wants to work with Florench Welch. "I'd want to work with her to design the ideal space to enjoy her music."
+                  </p>
                 </figcaption>
                 <div style="clear:both"></div>
               </figure>
@@ -414,17 +442,19 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             <div class="span7 offset4 interview-panel">
               <h3>Who inspires you?</h3>
               <p>
-                So many people! <a href="http://en.wikipedia.org/wiki/Alain_de_Botton" target="_blank" title="Alain de Botton's Wikipedia Entry">Alain de Botton</a>, who started the School of Life; <a href="http://en.wikipedia.org/wiki/Neal_Stephenson" target="_blank" title="Neal Stephenson's Wikipedia Entry">Neal Stephenson</a>, who writes about technology of the future; <a href="http://en.wikipedia.org/wiki/Sophie_Calle" target="_blank" title="Sophie Calle's Wikipedia Entry">Sophie Calle</a>, who is a performance artist -- she’s an everything artist, actually; <a href="http://en.wikipedia.org/wiki/Florence_Welch" target="_blank" title="Florence Welch's Wikipedia Entry">Florence Welch</a> of Florence and the Machine for making epic inspiring music. And that she’s like 26. Whoa; <a href="http://en.wikipedia.org/wiki/Barbara_Kruger" target="_blank" title="Barbara Kruger's Wikipedia Entry">Barbara Kruger</a>, for making words amazing; <a href="http://en.wikipedia.org/wiki/Carl_Sagan" target="_blank" title="Carl Sagan's Wikipedia Entry">Carl Sagan</a>, for inspiring my love of the universe and thinking about things from that massive perspective.
-              </p>
-            </div>
-          </section>
-          <section class="row">
-            <div class="span7 offset4 interview-panel">
-              <h3>
-                Without knowing who they are, please pose a question for our next interviewee.
-              </h3>
-              <p>
-                I find I often get inspired in the middle of the night, and I have to get up and write down my thoughts. I know a lot of women in technology with very fast minds and I’m sure they’re all up at night thinking about something so I’d want to know what that was.
+                So many people!
+                <a href="http://en.wikipedia.org/wiki/Alain_de_Botton" target="_blank" title="Alain de Botton's Wikipedia Entry">Alain de Botton</a>
+                , who started the School of Life;
+                <a href="http://en.wikipedia.org/wiki/Neal_Stephenson" target="_blank" title="Neal Stephenson's Wikipedia Entry">Neal Stephenson</a>
+                , who writes about technology of the future;
+                <a href="http://en.wikipedia.org/wiki/Sophie_Calle" target="_blank" title="Sophie Calle's Wikipedia Entry">Sophie Calle</a>
+                , who is a performance artist -- she’s an everything artist, actually;
+                <a href="http://en.wikipedia.org/wiki/Florence_Welch" target="_blank" title="Florence Welch's Wikipedia Entry">Florence Welch</a>
+                of Florence and the Machine for making epic inspiring music. And that she’s like 26. Whoa;
+                <a href="http://en.wikipedia.org/wiki/Barbara_Kruger" target="_blank" title="Barbara Kruger's Wikipedia Entry">Barbara Kruger</a>
+                , for making words amazing;
+                <a href="http://en.wikipedia.org/wiki/Carl_Sagan" target="_blank" title="Carl Sagan's Wikipedia Entry">Carl Sagan</a>
+                , for inspiring my love of the universe and thinking about things from that massive perspective.
               </p>
             </div>
           </section>
@@ -453,8 +483,9 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
                 </div>
                 <div id="question-details">
                   <div id="profile-image">
-                    <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-portrait-square.jpg" /></div>
-                  <h4>What idea wakes you up in the middle of the night?</h4>
+                    <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-portrait-square.jpg" />
+                  </div>
+                  <h4>What inspiring idea keeps you up at night?</h4>
                   <div id='quote-mark'>
                     <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
                 </div>
