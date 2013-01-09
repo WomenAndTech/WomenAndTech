@@ -320,13 +320,13 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
 	<div class="fullscreen">
     <div class="parallax">
       <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-1thingapp-illustrations.jpg" />
-	  <div class="photo-credit dark top">All photos credited to:  <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a></div>
+	  <div class="photo-credit dark top">Illustration credits include <a href="http://mikellis.com/" target="_blank" title="Mike Ellis's porfolio site">Mike Ellis</a>, <a href="http://flaviapraline.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Flavia Lopez</a> and <a href="http://sarahelizabethcannon.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Sarah Cannon</a></div>
       <div class="container">
         <div class="info-panel">
           <aside>
             <div class="arrow"></div>
-			<h3>Faces of Women in Tech</h3>
-            <p class="last">All these different expressions have been captured during Ladies Learning Code workshops. The four women in the middle, including Heather, make up the core team behind the organization.</p>
+			<h3>Gratitude Illustrated Daily</h3>
+            <p class="last">Ayla commisions artists for month long residencies...</p>
           </aside>
         </div>
       </div>
