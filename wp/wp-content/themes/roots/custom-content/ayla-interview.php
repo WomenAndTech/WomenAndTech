@@ -27,15 +27,9 @@
             <a
             href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" alt="Ayla Newhouse's Website">designer</a
 >
-            and founder of
+            and co-founder of 
             <a
-            href="http://eqschool.ca" target="_blank" title="EQ School Website" alt="EQ School Website">EQ School</a
->
-            and
-            <a
-            href="http://1thingap.com" target="_blank" title="1THING iPhone App" alt="1THING app website">1THING: The global gratitude journal</a
->
-            , projects that aim to change the way we think about our feelings. She’s continuing this ‘adventure research’ by writing a book exploring how the tools of design can make dating better.
+            href="http://1thingapp.com" target="_blank" title="1THING iPhone App" alt="1THING app website">1THING: The global gratitude journal</a>, a project that aims to change the way we think about our feelings. She’s continuing this ‘adventure research’ by writing a book exploring how the tools of design can make dating better.
           </h2>
         </div>
       </section>
@@ -180,12 +174,12 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             <div class="info-panel">
               <aside>
                 <div class="arrow"></div>
-                <h3>Collage</h3>
-                <p class="last">Objects</p>
+                <h3>The Designer's Drawer</h3>
+                <p class="last">Tools, work and memorabilia from Ayla's studio including a book designed to showcase her grandmother's pottery, Ayla's daily gratitude journal and all-important tower of sticky notes.</p>
               </aside>
             </div>
           </div>
-        <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/table-collage.jpg" />
+        <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-designer-grid.jpg" />
         <div class="photo-credit light">Photo credit: <a href="http://kidwithcamera.com" title="A collection of objects from Ayla Newhouse's studio" target="_blank">David "Kid With Camera" Waldman</a></div>
           
         </div>
@@ -293,7 +287,36 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             <p>
               1THING is a gratitude journal at its core, but it’s also a sort of social network in that you can see what other people are thinking about, what they’re grateful for, and hopefully that inspires you to also be grateful for those things. Every day our artist in residence chooses one thing from the public feed of gratitude and draws it. And that’s cool because it creates a feedback loop.
             </p>
+			</div>
+			
+			
+			</section>
+	</div>
+</li>
+	<li>
+	
+	<div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-1thingapp-illustrations.jpg" />
+	  <div class="photo-credit dark top">All photos credited to:  <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a></div>
+      <div class="container">
+        <div class="info-panel">
+          <aside>
+            <div class="arrow"></div>
+			<h3>Faces of Women in Tech</h3>
+            <p class="last">All these different expressions have been captured during Ladies Learning Code workshops. The four women in the middle, including Heather, make up the core team behind the organization.</p>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
 
+
+  <div class="container">
+
+    <section class="row">
+			
+		<div class="span7 offset4 interview-panel">
             <p>
               I’m really interested in exploring how technology and human emotion come together. How can we make what we traditionally think of as technology be a bit more human?
             </p>
