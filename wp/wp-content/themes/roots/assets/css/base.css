@@ -286,7 +286,7 @@ line-height: 2em
     font-weight:100;
     text-align:center;
     line-height:1em;
-    padding:0.5em 0.8em 0.5em 0.75em;
+    /*padding:0.5em 0.8em 0.5em 0.75em;*/
     border-radius: 50%;
     font-style:italic;
   }
@@ -588,14 +588,17 @@ footer{
 /* ===== POST LISTING BLOCKS ===== */
 
 
-  .past-listing{
+  .interview.past-listing, .post.past-listing{
    height: 38em;
    background-color:#f3f3f3;
    margin-bottom:30px;
   }
 
+  .interview.past-listing a, .post.past-listing a, .interview.past-listing a:visited, .post.past-listing a:visited, .interview.past-listing a:hover, .post.past-listing a:hover{
+    border-bottom:none;
+  }
 
-  .past-listing h2{
+  .interview.past-listing h2, .post.past-listing h2{
     font-family: 'Arvo', serif;
     font-size: 2em;
     line-height: 1.6em;
@@ -603,54 +606,54 @@ footer{
     padding-bottom:0;
   }
 
-  .past-listing h2 a{
+  .interview.past-listing h2 a, .post.past-listing h2 a{
     text-decoration: none;
     color:#000;
+    border-bottom: none;
   }
   
-  .past-listing h2 a:hover {
+  .interview.past-listing h2 a:hover, .post.past-listing h2 a:hover {
     color:#FF3818;
+    border-bottom: none;
   }
 
-  .past-listing img{
+  .interview.past-listing img, .post.past-listing img{
     width:100%;
   }
 
-  .past-listing > p, .past-listing .title-block{
+  .interview.past-listing > p, .interview.past-listing .title-block, .post.past-listing > p, .post.past-listing .title-block{
     padding:0 1.1em;
   }
 
-  .past-listing > p{
+  .interview.past-listing > p, .post.past-listing > p{
     clear:both;
     margin-top: 0.5em;
   }
 
-  .past-listing .title-block{
-    /*height:7em;*/
-  }
 
-  .past-listing .author a{
+  .interview.past-listing .author a, .post.past-listing .author a{
     color:#333;
     text-decoration: none;
   }
 
-  .past-listing .author a:hover{
+  .interview.past-listing .author a:hover, .post.past-listing .author a:hover{
     color:#FF3818;
   }
 
-  .archive .interview-number{
+  .interview.past-listing .interview-number, .archive .interview .interview-number{
     font-size:1em;
     float: left;
     margin:0;
     margin-top:1.3em;
     margin-left:1em;
+    padding:0.5em 0.8em 0.5em 0.75em;
   }
   
-  .type-interview .title-block{
+  .interview.past-listing .title-block{
     padding-left:3.7em;
   }
   
-  .title-block p{
+  .interview.past-list .title-block p, .post.past-list .title-block p{
     line-height:1.5em;
     padding-left:0.2em;
   }
