@@ -268,7 +268,8 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
           <div class="info-panel">
             <aside>
               <div class="arrow"></div>
-              <p class="last">Ayla presenting Dating By Design at Pecha Kucha</p>
+              <h3>Presenting Dating By Design</h3>
+              <p class="last">"The idea is to make metaphors between the lexicon of design and the complexities of modern relationships."</p>
             </aside>
           </div>
         </div>
@@ -336,7 +337,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
 	<div class="fullscreen">
     <div class="parallax" id='1thing-illustrations'>
       <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-1thingapp-illustrations.jpg" />
-	  <div class="photo-credit dark top"><a href="http://blog.1thingapp.com/" target="_blank" title="1THING daily gratitude illustrations">Various artists</a></div>
+	  <div class="photo-credit light top">Illustration credits include <a href="http://mikellis.com/" target="_blank" title="Mike Ellis's porfolio site">Mike Ellis</a>, <a href="http://flaviapraline.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Flavia Lopez</a> and <a href="http://sarahelizabethcannon.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Sarah Cannon</a></div>
       <div class="container">
         <div class="info-panel">
           <aside>
