@@ -211,6 +211,15 @@
 
 /* Article > #Opening */
 
+.curtains.drawn > li .fullscreen{
+    margin-top:80px;
+}
+
+.curtains.drawn > li .fullscreen#portrait{
+    margin-top:0;
+}
+
+
 .fullscreen img {
     width: 100%;
     min-height: 500px;
