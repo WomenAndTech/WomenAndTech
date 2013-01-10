@@ -138,11 +138,16 @@
     }
 
     .interview address{
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     .interview address .author-info .author{
-        width: 75%;
+        margin-bottom:0.4em;
+    }
+
+    .interview address .date{
+        font-size: 0.9em;
+        color: #888;
     }
 
 }
