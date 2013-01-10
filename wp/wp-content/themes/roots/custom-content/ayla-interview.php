@@ -182,9 +182,9 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
   </li>
   <li>
     <div class="fullscreen">
-      <div class="parallax" id="collage">
+      <div class="parallax">
         <div class="container">
-          <div class="info-panel">
+          <div class="info-panel" id="collage">
             <aside>
               <div class="arrow"></div>
               <h3>The Designer's Drawer</h3>
@@ -261,9 +261,9 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
   </li>
   <li>
     <div class="fullscreen">
-      <div class="parallax" id='1thing-illustrations'>
+      <div class="parallax">
         <div class="container">
-          <div class="info-panel">
+          <div class="info-panel"  id='pecha-kucha'>
             <aside>
               <div class="arrow"></div>
               <h3>Presenting Dating By Design</h3>
@@ -272,7 +272,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
           </div>
         </div>
         <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-pechakucha.jpg" />
-      <div class="photo-credit dark top"><a href="http://blog.1thingapp.com/" target="_blank" title="1THING daily gratitude illustrations">Various artists</a></div>
+      <div class="photo-credit dark top">Photo Credit: <a href="http://blog.1thingapp.com/" target="_blank" title="1THING daily gratitude illustrations">Unknown</a></div>
 
       </div>
     </div>
@@ -336,9 +336,9 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
 	<li>
 	
 	<div class="fullscreen">
-    <div class="parallax" id='1thing-illustrations'>
+    <div class="parallax">
       <div class="container">
-        <div class="info-panel">
+        <div class="info-panel"  id='illustrations'>
           <aside>
             <div class="arrow"></div>
              <h3>Gratitude Illustrated</h3>
@@ -395,14 +395,14 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
       </li>
       <li>
       <div class="fullscreen">
-        <div class="parallax" id="1thing-screenshots">
+        <div class="parallax">
           <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-1thingapp.jpg" />
           <div class="container">
-            <div class="info-panel">
+            <div class="info-panel"  id="screenshots">
               <aside>
                 <div class="arrow"></div>
                  <h3>A Human Touch</h3>
-                <p class="last">Touching someone else's gratitude triggers a blooming sun animation and adds a fingerprint beside the post.</p>
+                <p class="last">Touching someone else's gratitude post in 1THING triggers a blooming sun animation and adds a fingerprint beside it.</p>
               </aside>
             </div>
           </div>
