@@ -23,15 +23,40 @@
     min-width: 748px;
 }
 
-.fullscreen .info-panel#wozniak {
-	top:auto;
-	bottom:45%;
+.fullscreen .info-panel#collage {
+	top:45%;
 }
 
+.fullscreen .info-panel#pecha-kucha {
+    top:auto;
+    bottom:30%;
+}
+
+.fullscreen .info-panel#illustrations {
+    top:25%
+}
+
+.fullscreen .info-panel#screenshots {
+    top:5%
+}
+
+.fullscreen .info-panel aside{
+   box-shadow: 2px 4px 5px rgba(0,0,0,0.5);
+   -moz-box-shadow: 2px 4px 5px rgba(0,0,0,0.5);
+}
 /* Article > Start Tag */
 .no-svg #start-animation {
     background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
 }
+
+.callout-question h4{
+    margin-top: 2em;
+}
+
+.callout-question #quote-mark{
+    top: 2em;
+}
+
 
 
 /* Mobile Fluid */
@@ -74,6 +99,44 @@
         top: inherit;
         position: static;
     }
+
+    .callout-question h4 {
+        margin-top: 1em;
+    }
+
+    .callout-question #quote-mark{
+        top: 2em;
+    }
+
+    .photo-callout img{
+        float: none;
+    }
+
+    .interview section#introduction {
+        margin-top: 1.5em;
+    }
+}
+
+@media (max-width:480px) {
+    .callout-question h4 {
+        margin-right: 10px;
+        margin-top: 1em;
+    }
+    .callout-question #quote-mark{
+        display: none;
+    }
+    .interview section#introduction {
+        margin-top: 2.5em;
+    }
+    .interview h1{
+        font-size: 2.5em;
+        margin-bottom: 0.8em;
+    }
+
+    .interview address{
+        font-size: 1.3em;
+    }
+
 }
 
 /* ------------Vestigial---------------- */
@@ -183,6 +246,7 @@
     float: left;
     margin-top: 0.5em;
 }
+
 
 
 
