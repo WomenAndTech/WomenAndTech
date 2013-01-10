@@ -262,8 +262,6 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
   <li>
     <div class="fullscreen">
       <div class="parallax" id='1thing-illustrations'>
-        <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-pechakucha.jpg" />
-      <div class="photo-credit dark top"><a href="http://blog.1thingapp.com/" target="_blank" title="1THING daily gratitude illustrations">Various artists</a></div>
         <div class="container">
           <div class="info-panel">
             <aside>
@@ -273,6 +271,9 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             </aside>
           </div>
         </div>
+        <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-pechakucha.jpg" />
+      <div class="photo-credit dark top"><a href="http://blog.1thingapp.com/" target="_blank" title="1THING daily gratitude illustrations">Various artists</a></div>
+
       </div>
     </div>
     <div class="container">
@@ -336,17 +337,18 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
 	
 	<div class="fullscreen">
     <div class="parallax" id='1thing-illustrations'>
-      <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-1thingapp-illustrations.jpg" />
-	  <div class="photo-credit light top">Illustration credits include <a href="http://mikellis.com/" target="_blank" title="Mike Ellis's porfolio site">Mike Ellis</a>, <a href="http://flaviapraline.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Flavia Lopez</a> and <a href="http://sarahelizabethcannon.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Sarah Cannon</a></div>
       <div class="container">
         <div class="info-panel">
           <aside>
             <div class="arrow"></div>
-			       <h3>Gratitude Illustrated</h3>
+             <h3>Gratitude Illustrated</h3>
             <p class="last">Every month a new artist is invited to be the 1THING artist-in-residence. The artist <a href="http://blog.1thingapp.com/" target="_blank" title="1THING daily gratitude illustrations">illustrates one gratitude</a> per day chosen from the public feed.</p>
           </aside>
         </div>
       </div>
+      <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-1thingapp-illustrations.jpg" />
+  	  <div class="photo-credit light top">Illustration credits include <a href="http://mikellis.com/" target="_blank" title="Mike Ellis's porfolio site">Mike Ellis</a>, <a href="http://flaviapraline.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Flavia Lopez</a> and <a href="http://sarahelizabethcannon.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Sarah Cannon</a></div>
+    
     </div>
   </div>
 
