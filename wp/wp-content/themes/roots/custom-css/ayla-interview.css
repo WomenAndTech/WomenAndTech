@@ -36,19 +36,43 @@
 
 /* Mobile Fluid */
 @media (max-width:767px) {
-    
-    .fullscreen .info-panel#wozniak {
-        bottom:0;
+
+    .curtains.drawn > li .fullscreen{
+        margin-top: 10px;
     }
-    .fullscreen #mounties .info-panel {
-        top: 0;
-        bottom: auto;
-        position: relative;
-        display: block;
-        z-index: 9;
+
+    .fullscreen {
+        height: inherit;
     }
-    .fullscreen #mounties img {
-        position:relative;
+    .fullscreen img {
+        min-height: inherit;
+        min-width: inherit;
+        position: static;
+        margin-left: inherit;
+        top: inherit;
+        left: inherit;
+    }
+
+    .photo-credit, .photo-credit.light, .photo-credit.dark{
+        position:static;
+        height: inherit;
+        color: #999;
+        background-color: transparent;
+    }
+
+    .photo-credit a, .photo-credit a:visited, .photo-credit.light a, .photo-credit.light a:visited, .photo-credit.dark a, .photo-credit.dark a:visited{
+        color: #888;
+    }
+
+    .fullscreen .parallax{
+        position: static;
+        height: inherit;
+    }
+
+    .fullscreen .info-panel{
+        width: inherit;
+        top: inherit;
+        position: static;
     }
 }
 
