@@ -57,6 +57,42 @@
     top: 2em;
 }
 
+.related a, .related a:hover, .related a:visited{
+    border-bottom: 0;
+    text-decoration: none;
+}
+
+.related i{
+    font-size: 0.6em;
+    position: relative;
+    line-height: 0;
+    top: -0.6em;
+}
+
+.related.potter i.icon-chevron-down{
+
+}
+
+.related.potter i.icon-chevron-up{
+
+}
+
+.related a, .related a:visited, .related:hover{
+    cursor: pointer;
+}
+
+.related.potter a, .related.potter a:visited, .related.potter:hover{
+    color: blue;
+}
+
+.related.questions a, .related.questions a:visited, .related.questions:hover{
+    color: red;
+}
+
+.related.grad a, .related.grad a:visited, .related.grad:hover{
+    color: green;
+}
+
 
 
 /* Mobile Fluid */
