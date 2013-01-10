@@ -117,7 +117,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
           </h3>
           <a name='art-in-the-family'></a>
           <p>
-            My Nanna is a potter so there’s art in my family. My parents weren’t totally surprised. I struggled a lot as a teenager, being awkward and artsy in a town full of athletes and outdoor enthusiasts. I used to beg my parents to let me stay home from the ski hill, lock myself in my bedroom for a weekend and design board games.
+            <span class="related potter"><a href="#"><i class="icon-chevron-down"></i></a> My Nanna is a potter so there’s art in my family.</span>  My parents weren’t totally surprised. I struggled a lot as a teenager, being awkward and artsy in a town full of athletes and outdoor enthusiasts. I used to beg my parents to let me stay home from the ski hill, lock myself in my bedroom for a weekend and design board games.
           </p>
         </div>
       </section>
@@ -158,8 +158,8 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
         <div class="span7 offset4 interview-panel">
           <h3>Have you had any influential mentors?</h3>
           <p>
-            Kelsey Blackwell, a graphic designer and my mentor at Emily Carr. She was the first person who showed me that there is a kind of design that involved words, that writing is a relevant way to approach design challenges. She always pushed me to pursue bigger and better things. She convinced me to apply for the
-            grad school that I went to in Toronto.
+            Kelsey Blackwell, a graphic designer and my mentor at Emily Carr. She was the first person who showed me that there is a kind of design that involved words, that writing is a relevant way to approach design challenges. She always pushed me to pursue bigger and better things.  <span class="related grad"><a href="#"><i class="icon-chevron-down"></i></a>She convinced me to apply for the
+            grad school that I went to in Toronto.</span>
           </p>
         </div>
       </section>
@@ -222,7 +222,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
         <div class="span7 offset4 interview-panel">
           <a name='asking-good-questions'></a>
           <p>
-            When I call myself a designer, I’m not thinking about myself as a graphic designer or even an interaction designer. I think ‘designer’ deserves a much broader definition. I think of a designer as someone who can ask good questions, someone who really wants to understand a big picture perspective as well as the little details.
+            When I call myself a designer, I’m not thinking about myself as a graphic designer or even an interaction designer. I think ‘designer’ deserves a much broader definition.  <span class="related questions"><a href="#"><i class="icon-chevron-down"></i></a>I think of a designer as someone who can ask good questions,</span> someone who really wants to understand a big picture perspective as well as the little details.
           </p>
           <p>
             If you engage with a designer at the beginning of a process they can help you not only design the cover of a book, for instance, but also understand why you’re putting it out, and who it might go to, why it matters.
@@ -296,8 +296,8 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
           </div>
           <div class="span7 offset4 interview-panel">
             <p>
-              I'm interested in how design and technology can improve human wellness. I think we get confused between "technology" and digital tools like smartphones, tablets, QR codes, etc. If someone develops a new technology, it’s as if they’ve developed a new raw material. It’s like a potter
-              discovering a new type of clay. As a designer, I feel the same way. I think: <em>“I wonder what I can make with that!”</em>
+              I'm interested in how design and technology can improve human wellness. I think we get confused between "technology" and digital tools like smartphones, tablets, QR codes, etc. If someone develops a new technology, it’s as if they’ve developed a new raw material. <span class="related potter"><a href="#"><i class="icon-chevron-up"></i></a>It’s like a potter
+              discovering a new type of clay.</span> As a designer, I feel the same way. I think: <em>“I wonder what I can make with that!”</em>
             </p>
           </div>
         </section>
@@ -375,8 +375,8 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             <p>
               Perspective. For example, I did a bunch of interviews when I first started working on this project and I talked to a guy who said he had spent 15,000 hours developing skills for his career. I asked him how long he’d spent developing his skills around relationships and he said,
               <em>“Maybe 15.”</em>
-              That’s amazing! We don’t spend time thinking about relationships as a skill. We’re not
-              asking the right questions.
+              That’s amazing! We don’t spend time thinking about relationships as a skill.  <span class="related questions"><a href="#"><i class="icon-chevron-up"></i></a> We’re not
+              asking the right questions.</span>
               To have better relationships we need to design them more intentionally.
             </p>
           </div>
@@ -414,7 +414,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             <h3>How did you get into tech in general?</h3>
             <a name='post-graduate-degree'></a>
             <p>
-              I did a post graduate degree in Toronto at the Institute without Boundaries in Interdisciplinary Design. From there I was offered a job at a design studio in Toronto called Normative Design
+               <span class="related grad"><a href="#"><i class="icon-chevron-up"></i></a>I did a post graduate degree in Toronto at the Institute without Boundaries in Interdisciplinary Design.</span> From there I was offered a job at a design studio in Toronto called Normative Design
               <http://normativedesign.com>
                 . That’s where I learned about how to design for the web, because before that I had only been taught print design. I wound up working with a lot of developers and learning their language.
               </p>
