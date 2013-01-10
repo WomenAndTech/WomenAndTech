@@ -142,17 +142,18 @@
 }
 
 .interview address .author-image {
-    display: inline-block;
+    float: left;
+    margin-left: 5px;
     border-radius: 50%;
     width: 44px;
     height: 44px;
 }
 
 .interview address .author-info {
-    display: inline-block;
+    
     height: 35px;
-    padding-left: 5px;
-    top: -0.214em;
+    margin-left: 67px;
+    top: 0.1em;
     position: relative;
 }
 
