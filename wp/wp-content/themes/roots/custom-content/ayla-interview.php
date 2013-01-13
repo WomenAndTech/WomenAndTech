@@ -26,7 +26,7 @@
             Ayla is a
             <a
 href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" alt="Ayla Newhouse's Website">communication designer</a>
-            who believes that applying the theories of design to emotion will transform our relationships and communities. Her recent projects, <a href="http://1thingapp.com" target="_blank" title="1THING iPhone App">1THING</a
+            who believes that applying the practice of design to our emotions will transform our relationships and communities. Her recent projects, <a href="http://1thingapp.com" target="_blank" title="1THING iPhone App">1THING</a
 > and <a href="http://datingbydesign.ca/" target="_blank" title="Dating by Design website">Dating by Design</a>, attempt to bridge the gap between technology and emotion.
           </h2>
         </div>
