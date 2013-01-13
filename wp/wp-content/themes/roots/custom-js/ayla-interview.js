@@ -48,8 +48,45 @@ $(function(){
     // Transfer footer
     $("footer[role=contentinfo]").appendTo("ol.curtains li:last");
 
+    $(document).on('click', '.related', function(){
+    	var $this = $(this);
+    	var currentClass = $this.attr('class').replace('related ', '');
+    	var sibling = $('.'+currentClass).not(this).eq(0);
+    	var newColor = sibling.find('i').css('color');
+  		sibling.animate({color: newColor},200).delay(1500).animate({color: '#444'}, 750);
+
+    })
+    var getTweetText = function (text){
+    	text = text.replace(/(^\s+|\s+$)/g,'');
+    	text = '"@aisforayla: '+text+'"';
+    	return encodeURI(text)
+    }
+
+    var getTweetURL = function(text){
+    	var quoteText = getTweetText(text)
+    	, src = "https://twitter.com/intent/tweet?",
+    	urlEncodedPermalink = $('body').data('url-encoded-permalink');
+    	src += 'text='+quoteText;
+    	src += '&';
+    	src += 'url='+urlEncodedPermalink;
+    	src += '&';
+    	src += 'via=WomenAndTech';
+    	return src;
+    }
+
+    $('.interview-panel').find('p').each(function(){
+    	var sentences = $(this).text().split('. ');
+    	var i = sentences.length;
+    	while(i > 0){
+    		i--;
+    		var tweetURL = getTweetURL(sentences[i])
+    		sentences[i] = "<a class='tweet-this' href='"+tweetURL+"'>"+sentences[i]+"</a>"
+    	}
+    	$(this).html(sentences.join('. '));
+    })
+
     // Initialize curtains
-    $('.curtains').curtain({scrollSpeed: 300});
+    $('.curtains').curtain({scrollSpeed: 300}); 
 
 
 });
