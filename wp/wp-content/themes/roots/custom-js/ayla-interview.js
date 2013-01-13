@@ -73,31 +73,39 @@ $(function(){
   		sibling.animate({color: newColor},200).delay(1500).animate({color: '#444'}, 750);
 
     })
+    var getTweetText = function (text){
+    	text = text.replace(/(^\s+|\s+$)/g,'');
+    	text = '"@aisforayla: '+text+'"';
+    	return encodeURI(text)
+    }
 
-    $('.interview-panel').eq(0).find('p').each(function(){
+    var getTweetURL = function(text){
+    	var quoteText = getTweetText(text);
+    	var src = "https://twitter.com/intent/tweet?";
+    	src += 'text='+quoteText
+    	return src;
+    }
+
+    $('.interview-panel').find('p').each(function(){
     	var sentences = $(this).text().split('.');
     	var i = sentences.length;
     	while(i > 0){
     		i--;
-    		sentences[i] = "<a class='tweet-this'>"+sentences[i]+"</a>"
+    		var tweetURL = getTweetURL(sentences[i])
+    		sentences[i] = "<a class='tweet-this' href='"+tweetURL+"'>"+sentences[i]+"</a>"
     	}
     	$(this).html(sentences.join('.'));
     })
-
-    $(document).on('mouseover','a.tweet-this', function(e){sentenceMouseOver(e)});
-    $(document).on('click', 'a.tweet-this', function(e) {sentenceClick(e)});
-
-    var sentenceClick = function(e){
-    	console.log ($(e.target).text().replace(/(^\s+|\s+$)/g,''))
-    }
+    
+    // $(document).on('mouseover','a.tweet-this', function(e){sentenceMouseOver(e)});
 
     var sentenceMouseOver = function(e){
-    		$(e.target).css('text-decoration', 'underline')
+    		$(e.target).css({backgroundColor:'#DDD', color: '#000'})
     		.on('mouseout', sentenceMouseOut)
     }
 
     var sentenceMouseOut = function(e){
-    	$(e.target).css('text-decoration', 'none')
+    	$(e.target).css({backgroundColor:'initial', color: 'initial'})
     	.off('mouseout', this);
     }
     
