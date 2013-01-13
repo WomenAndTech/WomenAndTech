@@ -57,43 +57,21 @@
     top: 2em;
 }
 
-.related a, .related a:hover, .related a:visited{
+
+a.tweet-this, a.tweet-this:hover{
+    cursor: pointer;
     border-bottom: 0;
     text-decoration: none;
 }
 
-.related i{
-    font-size: 0.6em;
-    position: relative;
-    line-height: 0;
-    top: -0.6em;
+a.tweet-this{
+    color: #444;
 }
 
-.related.potter i.icon-chevron-down{
-
+a.tweet-this:hover{
+    background:#FFB6AA;
+    color: #000;
 }
-
-.related.potter i.icon-chevron-up{
-
-}
-
-.related a, .related a:visited, .related:hover{
-    cursor: pointer;
-}
-
-.related.potter a, .related.potter a:visited, .related.potter:hover{
-    color: blue;
-}
-
-.related.questions a, .related.questions a:visited, .related.questions:hover{
-    color: red;
-}
-
-.related.grad a, .related.grad a:visited, .related.grad:hover{
-    color: green;
-}
-
-
 
 /* Mobile Fluid */
 @media (max-width:767px) {
