@@ -62,7 +62,15 @@ a.tweet-this, a.tweet-this:hover{
     cursor: pointer;
     border-bottom: 0;
     text-decoration: none;
-    color: inherit;
+}
+
+a.tweet-this{
+    color: #444;
+}
+
+a.tweet-this:hover{
+    background:#DDD;
+    color: #000;
 }
 
 a.related-anchor{
