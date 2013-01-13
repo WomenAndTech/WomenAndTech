@@ -154,21 +154,6 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
           </p>
         </div>
       </section>
-      <!-- <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>
-            Is there anyone in the Toronto community who inspired or influenced you?
-          </h3>
-          <p>
-            My previous boss at
-            <a href="http://normativedesign.com" target=_blank>Normative Design</a>
-            certainly taught me a ton about technology. His name is Matthew Milan, and he was the one who pushed me to pursue my own path when he could see that I was, as he put it, ‘dipping my toe in the water at the pool while everyone else was sitting on the deck chairs’. He was like, <em>“I see what you’re doing; I was there once. I wanted to go swimming and I was scared to – but don’t worry, there’s water in the pool. Just do it!”</em> 
-            He inspired me to pursue my passion project,
-            <a href="http://1thingapp.com" target=_blank>1THING</a>
-            , and make a leap of faith to quit my job.
-          </p>
-        </div>
-      </section> -->
     </div>
   </li>
   <li>
@@ -422,7 +407,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
                     <h4>Matthew Milan</h4>
                   </a>
                   <p>
-                    Interaction designer and founding partner at <a href="http://normativedesign.com" target="_blank" title="Normative Design website">Normative Design.</a>
+                    Interaction designer and founding partner at Normative Design.
                   </p>
                 </figcaption>
                 <div style="clear:both"></div>

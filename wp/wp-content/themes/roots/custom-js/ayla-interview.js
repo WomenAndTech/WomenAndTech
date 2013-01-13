@@ -43,7 +43,6 @@ $(function(){
 
         // Scale Swiffy SVG animations
         $("body").fitSwiffy();
-
     }
     // Transfer footer
     $("footer[role=contentinfo]").appendTo("ol.curtains li:last");
