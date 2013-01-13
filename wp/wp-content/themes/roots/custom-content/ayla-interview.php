@@ -91,15 +91,11 @@ href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" a
         <div class="span7 offset4 interview-panel">
           <h3>Trading Spaces?</h3>
           <p>
-            Yes, we did
-            <a href="http://en.wikipedia.org/wiki/Trading_Spaces" target=_blank title="Trading Spaces: Reality TV Show">Trading Spaces</a>
-            in our dorm rooms. And my friend said I was really good at it.
+            Yes, we did <a href="http://en.wikipedia.org/wiki/Trading_Spaces" target=_blank title="Trading Spaces: Reality TV Show">Trading Spaces</a> in our dorm rooms. And my friend said I was really good at it.
 She suggested that I apply to art school because she knew I wasn’t enjoying my time at university.
           </p>
           <p>
-            I went to the Emily Carr Institute website and I started reading about a program called
-            <a href="http://www.ecuad.ca/programs/undergrad/bdesign/communications" target=_blank>Communication Design</a>
-            . I thought, <em>‘You can do a program that’s about art and design and business? Wow!’</em> 
+            I went to the Emily Carr Institute website and I started reading about a program called <a href="http://www.ecuad.ca/programs/undergrad/bdesign/communications" target=_blank>Communication Design</a>. I thought, <em>‘You can do a program that’s about art and design and business? Wow!’</em> 
           </p>
           <p>
             Before then my creativity was considered a nice hobby. No one in Invermere really did design as a profession. The guidance counsellors at highschool never mentioned design to me. We didn’t have many art courses in high school. I don’t remember taking any.
