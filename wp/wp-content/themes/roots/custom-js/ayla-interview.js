@@ -50,7 +50,7 @@ $(function(){
 
 
     // Initialize curtains
-    // $('.curtains').curtain({scrollSpeed: 300});
+    $('.curtains').curtain({scrollSpeed: 300});
 
     // $('.related').each(function(){
     // 	$(this).data('top', $(this).offset().top)
@@ -80,35 +80,25 @@ $(function(){
     }
 
     var getTweetURL = function(text){
-    	var quoteText = getTweetText(text);
-    	var src = "https://twitter.com/intent/tweet?";
-    	src += 'text='+quoteText
+    	var quoteText = getTweetText(text)
+    	, src = "https://twitter.com/intent/tweet?",
+    	urlEncodedPermalink = $('body').data('url-encoded-permalink');
+    	src += 'text='+quoteText;
+    	src += '&';
+    	src += 'url='+urlEncodedPermalink;
     	return src;
     }
 
     $('.interview-panel').find('p').each(function(){
-    	var sentences = $(this).text().split('.');
+    	var sentences = $(this).text().split('. ');
     	var i = sentences.length;
     	while(i > 0){
     		i--;
     		var tweetURL = getTweetURL(sentences[i])
     		sentences[i] = "<a class='tweet-this' href='"+tweetURL+"'>"+sentences[i]+"</a>"
     	}
-    	$(this).html(sentences.join('.'));
-    })
-    
-    // $(document).on('mouseover','a.tweet-this', function(e){sentenceMouseOver(e)});
-
-    var sentenceMouseOver = function(e){
-    		$(e.target).css({backgroundColor:'#DDD', color: '#000'})
-    		.on('mouseout', sentenceMouseOut)
-    }
-
-    var sentenceMouseOut = function(e){
-    	$(e.target).css({backgroundColor:'initial', color: 'initial'})
-    	.off('mouseout', this);
-    }
-    
+    	$(this).html(sentences.join('. '));
+    })   
 
 
 });

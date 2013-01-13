@@ -69,7 +69,7 @@ a.tweet-this{
 }
 
 a.tweet-this:hover{
-    background:#DDD;
+    background:#FFB6AA;
     color: #000;
 }
 
@@ -92,15 +92,15 @@ a.related-anchor{
 }
 
 .related a i{
-    border-radius: 100%;
+    /*border-radius: 100%;*/
     /*border: 1px solid #444;*/
     line-height: 1.6em;
     font-size: 0.6em;
     margin: 0;
-    padding: 0em 0.2em 0 0.2em;
+    /*padding: 0em 0.2em 0 0.2em;*/
     position: relative;
     top: -0.25em;
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.5)
+    /*box-shadow: 1px 1px 2px rgba(0,0,0,0.5)*/
 }
 
 
