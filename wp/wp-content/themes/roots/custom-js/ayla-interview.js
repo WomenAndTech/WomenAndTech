@@ -48,14 +48,6 @@ $(function(){
     // Transfer footer
     $("footer[role=contentinfo]").appendTo("ol.curtains li:last");
 
-    $(document).on('click', '.related', function(){
-    	var $this = $(this);
-    	var currentClass = $this.attr('class').replace('related ', '');
-    	var sibling = $('.'+currentClass).not(this).eq(0);
-    	var newColor = sibling.find('i').css('color');
-  		sibling.animate({color: newColor},200).delay(1500).animate({color: '#444'}, 750);
-
-    })
     var getTweetText = function (text){
     	text = text.replace(/(^\s+|\s+$)/g,'');
     	text = '"@aisforayla: '+text+'"';
@@ -87,6 +79,5 @@ $(function(){
 
     // Initialize curtains
     $('.curtains').curtain({scrollSpeed: 300}); 
-
 
 });
