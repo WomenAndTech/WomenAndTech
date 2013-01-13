@@ -48,23 +48,6 @@ $(function(){
     // Transfer footer
     $("footer[role=contentinfo]").appendTo("ol.curtains li:last");
 
-
-    // Initialize curtains
-    $('.curtains').curtain({scrollSpeed: 300});
-
-    // $('.related').each(function(){
-    // 	$(this).data('top', $(this).offset().top)
-    // 	var currentClass = $(this).attr('class').replace('related ', '');
-    // 	var sibling = $('.'+currentClass).not(this).eq(0);
-    // 	$(this).data('sibling', sibling).data('siblingTop', sibling.offset().top)
-
-    // })
-
-
-    
-
-    
-
     $(document).on('click', '.related', function(){
     	var $this = $(this);
     	var currentClass = $this.attr('class').replace('related ', '');
@@ -86,6 +69,8 @@ $(function(){
     	src += 'text='+quoteText;
     	src += '&';
     	src += 'url='+urlEncodedPermalink;
+    	src += '&';
+    	src += 'via=WomenAndTech';
     	return src;
     }
 
@@ -98,7 +83,10 @@ $(function(){
     		sentences[i] = "<a class='tweet-this' href='"+tweetURL+"'>"+sentences[i]+"</a>"
     	}
     	$(this).html(sentences.join('. '));
-    })   
+    })
+
+    // Initialize curtains
+    $('.curtains').curtain({scrollSpeed: 300}); 
 
 
 });
