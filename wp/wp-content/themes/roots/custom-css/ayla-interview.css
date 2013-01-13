@@ -57,43 +57,75 @@
     top: 2em;
 }
 
-.related a, .related a:hover, .related a:visited{
-    border-bottom: 0;
-    text-decoration: none;
-}
 
-.related i{
-    font-size: 0.6em;
-    position: relative;
-    line-height: 0;
-    top: -0.6em;
-}
-
-.related.potter i.icon-chevron-down{
-
-}
-
-.related.potter i.icon-chevron-up{
-
-}
-
-.related a, .related a:visited, .related:hover{
+span.tweet-this:hover{
     cursor: pointer;
 }
 
-.related.potter a, .related.potter a:visited, .related.potter:hover{
-    color: blue;
-}
-
-.related.questions a, .related.questions a:visited, .related.questions:hover{
-    color: red;
-}
-
-.related.grad a, .related.grad a:visited, .related.grad:hover{
-    color: green;
+a.related-anchor{
+    position: relative;
+    top: -180px;
+    display:inline-block;
 }
 
 
+.related a{
+    text-decoration: none;
+    border-bottom: 0;
+    color: inherit;
+}
+
+.related a:hover{
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+.related a i{
+    border-radius: 100%;
+    /*border: 1px solid #444;*/
+    line-height: 1.6em;
+    font-size: 0.6em;
+    margin: 0;
+    padding: 0em 0.2em 0 0.2em;
+    position: relative;
+    top: -0.25em;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5)
+}
+
+
+.related.potter a i{
+    color: #14809F;
+    border-color: #14809F;
+}
+
+
+.related.potter a:hover{
+    color: #14809F;
+}
+
+
+.related.questions a i{
+    color: #12BD45;
+}
+
+.related.questions a:hover{
+    color: #12BD45;
+}
+.related.grad a i{
+    color: #D6146D;
+}
+
+.related.grad a:hover{
+    color: #D6146D;
+}
+
+.related.school-of-life a, .related.school-of-life a:visited, .related.school-of-life:hover{
+    color: #FF8D18;
+}
+
+.related.publishing a, .related.publishing a:visited, .related.publishing:hover{
+    color: #A61D08;
+}
 
 /* Mobile Fluid */
 @media (max-width:767px) {

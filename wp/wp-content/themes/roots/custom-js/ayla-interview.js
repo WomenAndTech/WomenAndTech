@@ -48,8 +48,59 @@ $(function(){
     // Transfer footer
     $("footer[role=contentinfo]").appendTo("ol.curtains li:last");
 
+
     // Initialize curtains
-    $('.curtains').curtain({scrollSpeed: 300});
+    // $('.curtains').curtain({scrollSpeed: 300});
+
+    // $('.related').each(function(){
+    // 	$(this).data('top', $(this).offset().top)
+    // 	var currentClass = $(this).attr('class').replace('related ', '');
+    // 	var sibling = $('.'+currentClass).not(this).eq(0);
+    // 	$(this).data('sibling', sibling).data('siblingTop', sibling.offset().top)
+
+    // })
+
+
+    
+
+    
+
+    $(document).on('click', '.related', function(){
+    	var $this = $(this);
+    	var currentClass = $this.attr('class').replace('related ', '');
+    	var sibling = $('.'+currentClass).not(this).eq(0);
+    	var newColor = sibling.find('i').css('color');
+  		sibling.animate({color: newColor},200).delay(1500).animate({color: '#444'}, 750);
+
+    })
+
+    $('.interview-panel').eq(0).find('p').each(function(){
+    	var sentences = $(this).text().split('.');
+    	var i = sentences.length;
+    	while(i > 0){
+    		i--;
+    		sentences[i] = "<a class='tweet-this'>"+sentences[i]+"</a>"
+    	}
+    	$(this).html(sentences.join('.'));
+    })
+
+    $(document).on('mouseover','a.tweet-this', function(e){sentenceMouseOver(e)});
+    $(document).on('click', 'a.tweet-this', function(e) {sentenceClick(e)});
+
+    var sentenceClick = function(e){
+    	console.log ($(e.target).text().replace(/(^\s+|\s+$)/g,''))
+    }
+
+    var sentenceMouseOver = function(e){
+    		$(e.target).css('text-decoration', 'underline')
+    		.on('mouseout', sentenceMouseOut)
+    }
+
+    var sentenceMouseOut = function(e){
+    	$(e.target).css('text-decoration', 'none')
+    	.off('mouseout', this);
+    }
+    
 
 
 });
