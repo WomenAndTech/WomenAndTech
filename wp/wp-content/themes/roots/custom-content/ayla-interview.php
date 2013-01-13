@@ -114,17 +114,6 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
         </div>
       </section>
       <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>What happened after you graduated?</h3>
-          <p>
-            I started a book publishing company, which obviously was a crazy idea when you look at the technology around self-publishing today. I was the art director and designer and had partners who took care of the business aspects.
-          </p>
-          <p>
-            I was excited about the opportunity to be part of a cultural movement of some sort. We were publishing art-related books, plays, poetry, short story anthologies. It was small-scale, but local and inspiring. It gave people an opportunity to publish when they may not have otherwise. I liked that aspect of it.
-          </p>
-        </div>
-      </section>
-      <section class="row">
         <div class="span4 notable-person" id="kelsey-blackwell">
           <figure class="first-row">
             <div class="arrow"></div>
@@ -135,20 +124,19 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
               <img src='<?php echo get_home_url(); ?>/assets/img/ayla-interview/kelsey-blackwell.jpg'></a>
             <figcaption class="clear">
               <a href="http://www.linkedin.com/pub/kelsey-blackwell/21/587/283"
-              title="Steve Mann's wikipedia entry"
+              title="Kelsey Blackwell's LinkedIn Profile"
               target="_blank">
                 <h4>Kelsey Blackwell</h4>
               </a>
               <p>
-                One of Canada’s leading book designers, Blackwell has previously worked at
-the Institute without Boundaries, Bruce Mau Design and Pentagram.
+                One of Canada’s leading book designers, Blackwell has previously worked at the Institute without Boundaries, Bruce Mau Design and Pentagram.
               </p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
         </div>
         <div class="span7 offset4 interview-panel">
-          <h3>Have you had any influential mentors?</h3>
+          <h3>Did you have any influential mentors?</h3>
           <p>
             Kelsey Blackwell, a graphic designer and my mentor at Emily Carr. She was the first person who showed me that there is a kind of design that involved words, that writing is a relevant way to approach design challenges. She always pushed me to pursue bigger and better things. She convinced me to apply for the
             grad school that I went to in Toronto.
@@ -156,6 +144,17 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
         </div>
       </section>
       <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>What happened after you graduated?</h3>
+          <p>
+            I started a book publishing company, which obviously was a crazy idea when you look at the technology around self-publishing today. I was the art director and designer and had partners who took care of the business aspects.
+          </p>
+          <p>
+            I was excited about the opportunity to be part of a cultural movement of some sort. We were publishing art-related books, plays, poetry, short story anthologies. It was small-scale, but local and inspiring. It gave people an opportunity to publish when they may not have otherwise. I liked that aspect of it.
+          </p>
+        </div>
+      </section>
+      <!-- <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>
             Is there anyone in the Toronto community who inspired or influenced you?
@@ -169,7 +168,7 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
             , and make a leap of faith to quit my job.
           </p>
         </div>
-      </section>
+      </section> -->
     </div>
   </li>
   <li>
@@ -407,6 +406,35 @@ the Institute without Boundaries, Bruce Mau Design and Pentagram.
               <http://normativedesign.com>
                 . That’s where I learned about how to design for the web, because before that I had only been taught print design. I wound up working with a lot of developers and learning their language.
               </p>
+            </div>
+            <div class="span4 notable-person" id="matthew-milan">
+              <figure class="first-row">
+                <div class="arrow"></div>
+                <h3>Notable Person</h3>
+                <a href="http://ca.linkedin.com/in/mmilan"
+                title="Matthew Milan's LinkedIn Profile"
+                target="_blank">
+                  <img src='<?php echo get_home_url(); ?>/assets/img/ayla-interview/matthew-milan.png'></a>
+                <figcaption class="clear">
+                  <a href="http://ca.linkedin.com/in/mmilan"
+                  title="Matthew Milan's LinkedIn Profile"
+                  target="_blank">
+                    <h4>Matthew Milan</h4>
+                  </a>
+                  <p>
+                    Interaction designer and founding partner at <a href="http://normativedesign.com" target="_blank" title="Normative Design website">Normative Design.</a>
+                  </p>
+                </figcaption>
+                <div style="clear:both"></div>
+              </figure>
+            </div>
+            <div class="span7 offset4 interview-panel">
+              My boss at
+            <a href="http://normativedesign.com" target="_blank" title="Normative Design website">Normative Design</a>, Matthew Milan,
+            certainly taught me a ton about technology. He was the one who pushed me to pursue my own path when he could see that I was, as he put it, ‘dipping my toe in the water at the pool while everyone else was sitting on the deck chairs’. He was like, <em>“I see what you’re doing; I was there once. I wanted to go swimming and I was scared to – but don’t worry, there’s water in the pool. Just do it!”</em> 
+            He inspired me to pursue my passion project,
+            <a href="http://1thingapp.com" target=_blank>1THING</a>
+            , and make a leap of faith to quit my job.
             </div>
           </section>
           <section class="row">
