@@ -69,7 +69,7 @@ a.tweet-this{
 }
 
 a.tweet-this:hover{
-    background:#FFB6AA;
+    background:rgba(255, 174, 164, 0.4);
     color: #000;
 }
 
