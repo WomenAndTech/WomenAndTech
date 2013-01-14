@@ -302,6 +302,10 @@ line-height: 2em
   border-bottom: none;
 }
 
+article.type-post{
+  padding-top: 110px;
+}
+
 /* Footer */
 
 footer{
