@@ -302,10 +302,6 @@ line-height: 2em
   border-bottom: none;
 }
 
-article.type-post{
-  padding-top: 160px;
-}
-
 /* Footer */
 
 footer{
@@ -592,17 +588,14 @@ footer{
 /* ===== POST LISTING BLOCKS ===== */
 
 
-  .interview.past-listing, .post.past-listing{
+  .past-listing{
    height: 38em;
    background-color:#f3f3f3;
    margin-bottom:30px;
   }
 
-  .interview.past-listing a, .post.past-listing a, .interview.past-listing a:visited, .post.past-listing a:visited, .interview.past-listing a:hover, .post.past-listing a:hover{
-    border-bottom:none;
-  }
 
-  .interview.past-listing h2, .post.past-listing h2{
+  .past-listing h2{
     font-family: 'Arvo', serif;
     font-size: 2em;
     line-height: 1.6em;
@@ -610,41 +603,42 @@ footer{
     padding-bottom:0;
   }
 
-  .interview.past-listing h2 a, .post.past-listing h2 a{
+  .past-listing h2 a{
     text-decoration: none;
     color:#000;
-    border-bottom: none;
   }
   
-  .interview.past-listing h2 a:hover, .post.past-listing h2 a:hover {
+  .past-listing h2 a:hover {
     color:#FF3818;
-    border-bottom: none;
   }
 
-  .interview.past-listing img, .post.past-listing img{
+  .past-listing img{
     width:100%;
   }
 
-  .interview.past-listing > p, .interview.past-listing .title-block, .post.past-listing > p, .post.past-listing .title-block{
+  .past-listing > p, .past-listing .title-block{
     padding:0 1.1em;
   }
 
-  .interview.past-listing > p, .post.past-listing > p{
+  .past-listing > p{
     clear:both;
     margin-top: 0.5em;
   }
 
+  .past-listing .title-block{
+    /*height:7em;*/
+  }
 
-  .interview.past-listing .author a, .post.past-listing .author a{
+  .past-listing .author a{
     color:#333;
     text-decoration: none;
   }
 
-  .interview.past-listing .author a:hover, .post.past-listing .author a:hover{
+  .past-listing .author a:hover{
     color:#FF3818;
   }
 
-  .interview.past-listing .interview-number, .archive .interview .interview-number{
+  .archive .interview-number{
     font-size:1em;
     float: left;
     margin:0;
@@ -653,19 +647,19 @@ footer{
     padding:0.5em 0.8em 0.5em 0.75em;
   }
   
-  .interview.past-listing .title-block{
+  .type-interview .title-block{
     padding-left:3.7em;
   }
   
-  .interview.past-list .title-block p, .post.past-list .title-block p{
+  .title-block p{
     line-height:1.5em;
     padding-left:0.2em;
   }
 
 
-.past-interviews h1 {
-    margin-top:35px;
-}
+  .past-interviews h1 {
+      margin-top:35px;
+  }
 
 /* Share Buttons */
 .share_buttons{
