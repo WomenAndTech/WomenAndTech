@@ -29,7 +29,7 @@
 
 .fullscreen .info-panel#pecha-kucha {
     top:auto;
-    bottom:30%;
+    bottom:50%;
 }
 
 .fullscreen .info-panel#illustrations {
@@ -41,22 +41,11 @@
 }
 
 .fullscreen .info-panel aside{
-   box-shadow: 2px 4px 5px rgba(0,0,0,0.5);
-   -moz-box-shadow: 2px 4px 5px rgba(0,0,0,0.5);
 }
 /* Article > Start Tag */
 .no-svg #start-animation {
     background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
 }
-
-.callout-question h4{
-    margin-top: 2em;
-}
-
-.callout-question #quote-mark{
-    top: 2em;
-}
-
 
 a.tweet-this, a.tweet-this:hover{
     cursor: pointer;
@@ -71,6 +60,20 @@ a.tweet-this{
 a.tweet-this:hover{
     background:rgba(255, 174, 164, 0.4);
     color: #000;
+}
+
+#kesley-blackwell {
+	margin-top:75px;
+}
+
+.notable-person h4 {
+	font-size: 1.071em;
+	line-height: 1.3em;
+	margin: 0 0 0.25em;
+	font-weight: bold;
+}
+.photo-credit.light {
+	background-color:rgba(255,255,255,0.4);
 }
 
 /* Mobile Fluid */
@@ -91,6 +94,7 @@ a.tweet-this:hover{
         top: inherit;
         left: inherit;
     }
+
 
     .photo-credit, .photo-credit.light, .photo-credit.dark{
         position:static;
@@ -129,6 +133,12 @@ a.tweet-this:hover{
     .interview section#introduction {
         margin-top: 1.5em;
     }
+	#kesley-blackwell {
+		margin-top:0;
+	}
+	.notable-person h4 {
+		line-height:1.5em;
+	}
 }
 
 @media (max-width:480px) {
@@ -163,6 +173,12 @@ a.tweet-this:hover{
         font-size: 0.9em;
         color: #888;
     }
+	#kesley-blackwell {
+		margin-top:0;
+	}
+	.notable-person h4 {
+		line-height:1.5em;
+	}
 
 }
 
