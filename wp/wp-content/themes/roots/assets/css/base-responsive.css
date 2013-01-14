@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 979px) {
-    body {
+    body, body.page {
         padding-top:0;
     }
     #nav-main {
