@@ -78,7 +78,8 @@ href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" a
         </div>
       </section>
       <section class="row">
-        <div class="span4 info-panel personal-testimony">
+        <!--
+		<div class="span4 info-panel personal-testimony">
           <aside>
             <div class="arrow"></div>
             <p class="last">
@@ -88,6 +89,7 @@ href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" a
 
           </aside>
         </div>
+		-->
         <div class="span7 offset4 interview-panel">
           <h3>Trading Spaces?</h3>
           <p>
@@ -95,7 +97,7 @@ href="http://aylanewhouse.com" target="_blank" title="Ayla Newhouse's Website" a
 She suggested that I apply to art school because she knew I wasn’t enjoying my time at university.
           </p>
           <p>
-            I went to the Emily Carr Institute website and I started reading about a program called <a href="http://www.ecuad.ca/programs/undergrad/bdesign/communications" target=_blank>Communication Design</a>. I thought, <em>‘You can do a program that’s about art and design and business? Wow!’</em> 
+            I went to the Emily Carr Institute website and I started reading about a program called <a href="http://www.ecuad.ca/programs/undergrad/bdesign/communications" target=_blank>Communication Design</a>. I thought, ‘You can do a program that’s about art and design and business? Wow!’ 
           </p>
           <p>
             Before then my creativity was considered a nice hobby. No one in Invermere really did design as a profession. The guidance counsellors at highschool never mentioned design to me. We didn’t have many art courses in high school. I don’t remember taking any.
@@ -103,7 +105,18 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
         </div>
       </section>
       <section class="row">
-        <div class="span7 offset4 interview-panel">
+	  <div class="span4 notable-person photo-callout">
+        <figure class="first-row">
+          <div class="arrow"></div>
+			  <h3>Notable Person</h3>
+			  <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/pauline-newhouse.jpg" />
+			  <figcaption class="clear">
+				<p class="last">Ayla's Nanna, Pauline Newhouse has been creating works of pottery for over 40 years.</p>
+			  </figcaption>
+          <div style="clear:both"></div>
+        </figure>
+      </div>
+        <div class="span7 interview-panel">
           <h3>
             What did people back home think when you transfered to this “out there” creative program?
           </h3>
@@ -114,11 +127,11 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
         </div>
       </section>
       <section class="row">
-        <div class="span4 notable-person" id="kelsey-blackwell">
-          <figure class="first-row">
-            <div class="arrow"></div>
-            <h3>Notable Person</h3>
-            <a href="http://www.linkedin.com/pub/kelsey-blackwell/21/587/283"
+        	<div class="span4 notable-person" id="kesley-blackwell">
+        <figure class="first-row">
+          <div class="arrow"></div>
+          <h3>Notable Person</h3>
+          <a href="http://www.linkedin.com/pub/kelsey-blackwell/21/587/283"
             title="Kelsey Blackwell's LinkedIn Profile"
             target="_blank">
               <img src='<?php echo get_home_url(); ?>/assets/img/ayla-interview/kelsey-blackwell.jpg'></a>
@@ -128,18 +141,17 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
               target="_blank">
                 <h4>Kelsey Blackwell</h4>
               </a>
-              <p>
-                One of Canada’s leading book designers, Blackwell has previously worked at the Institute without Boundaries, Bruce Mau Design and Pentagram.
+              <p>Owner of <a href="studioblackwell.com" target="_blank" title="Studio:Blackwell's website">Studio:Blackwell</a> and past instructor at the <a href="http://www.institutewithoutboundaries.com/" target="_blank" title="Institute without Boundaries wesbite">Institute without Boundaries</a>.
               </p>
             </figcaption>
-            <div style="clear:both"></div>
-          </figure>
-        </div>
-        <div class="span7 offset4 interview-panel">
+      </div>
+			
+			
+        <div class="span7 interview-panel">
           <h3>Did you have any influential mentors?</h3>
           <p>
             Kelsey Blackwell, a graphic designer and my mentor at Emily Carr. She was the first person who showed me that there is a kind of design that involved words, that writing is a relevant way to approach design challenges. She always pushed me to pursue bigger and better things. She convinced me to apply for the
-            grad school that I went to in Toronto.
+            <a href="http://www.institutewithoutboundaries.com/" target="_blank" title="Institute without Boundaries wesbite">grad school</a> that I went to in Toronto.
           </p>
         </div>
       </section>
@@ -183,7 +195,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
         <div class="span7 offset4 interview-panel">
           <h3>How do you think most people see designers?</h3>
           <p>
-            I think most people see designers as pixel pushers. I often get asked to just "make something look good." A lot of people think designers can create something in isolation – a logo here, a brochure there. I find that a comical notion because it doesn't acknowledge the interconnectivity of things. Designers think about content and meaning, as well as visuals.
+            I think most people see designers as pixel pushers. I often get asked to just "make something look good." A lot of people think designers can create something in isolation &mdash; a logo here, a brochure there. I find that a comical notion because it doesn't acknowledge the interconnectivity of things. Designers think about content and meaning, as well as visuals.
           </p>
         </div>
         <div class="span11 pull-quote">
@@ -243,12 +255,12 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
             <aside>
               <div class="arrow"></div>
               <h3>Presenting Dating By Design</h3>
-              <p class="last">"The idea is to make metaphors between the lexicon of design and the complexities of modern relationships."</p>
+              <p class="last">Ayla engages with the crowd at Toronto's monthly <a href="http://www.pechakucha.org/cities/toronto">PechaKucha</a> talk series. Dating by Design aims to make metaphors between the lexicon of design and the complexities of modern relationships.</p>
             </aside>
           </div>
         </div>
         <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-pechakucha.jpg" />
-      <div class="photo-credit dark top">Photo Credit: <a href="http://blog.1thingapp.com/" target="_blank" title="1THING daily gratitude illustrations">Unknown</a></div>
+      <div class="photo-credit dark top">Photo Credit: <a href="http://www.flickr.com/photos/68722229@N05/8197908457/" target="_blank" title="Ayla Newhouse presents Dating By Design at PechaKucha">Richard Cerezo</a></div>
 
       </div>
     </div>
@@ -256,8 +268,8 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <p>
-            I recently visited the School of Life
-              in London, UK, which teaches classes on topics like, “How to Have Better Conversations” or “How to Make Love Last”. What they are developing at <a href="http://www.schooloflife.com">The School of Life</a> is a new kind of curriculum which is actually a new technology.
+            I recently visited <a href="http://www.theschooloflife.com/" target="_blank" title="The School of Life Website">The School of Life</a>
+              in London, UK, which teaches classes on topics like, “How to Have Better Conversations” or “How to Make Love Last”. What they are developing at The School of Life is a new kind of curriculum which is actually a new technology.
             </p>
           </div>
           <div class="span11 pull-quote">
@@ -272,7 +284,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
           <div class="span7 offset4 interview-panel">
             <p>
               I'm interested in how design and technology can improve human wellness. I think we get confused between "technology" and digital tools like smartphones, tablets, QR codes, etc. If someone develops a new technology, it’s as if they’ve developed a new raw material. It’s like a potter
-              discovering a new type of clay. As a designer, I feel the same way. I think: <em>“I wonder what I can make with that!”</em>
+              discovering a new type of clay. As a designer, I feel the same way. I think: “I wonder what I can make with that!”
             </p>
           </div>
         </section>
@@ -322,7 +334,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
         </div>
       </div>
       <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-1thingapp-illustrations.jpg" />
-  	  <div class="photo-credit light top">Illustration credits include <a href="http://mikellis.com/" target="_blank" title="Mike Ellis's porfolio site">Mike Ellis</a>, <a href="http://flaviapraline.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Flavia Lopez</a> and <a href="http://sarahelizabethcannon.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Sarah Cannon</a></div>
+  	  <div class="photo-credit light top">Illustration credits include <a href="http://mikellis.com/" target="_blank" title="Mike Ellis's porfolio site">Mike Ellis</a>, <a href="http://flaviapraline.tumblr.com/" target="_blank" title="Flavia López's porfolio site">Flavia López</a> and <a href="http://sarahelizabethcannon.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Sarah Cannon</a></div>
     
     </div>
   </div>
@@ -338,9 +350,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
             </p>
 
             <p>
-              Right now I’m writing a book, Dating by Design
-              <http://datingbydesign.ca/>
-              . The idea is to take the technologies of design – the processes, methodologies and tools – and apply them to relationships. I’m looking at how we can build better relationships by looking at them through a lens that’s not so emotional.
+              Right now I’m writing a book, <a href="http://datingbydesign.ca/" target="_blank" title="Dating by Design website">Dating by Design</a>. The idea is to take the technologies of design &mdash; the processes, methodologies and tools &mdash; and apply them to relationships. I’m looking at how we can build better relationships by looking at them through a lens that’s not so emotional.
             </p>
           </div>
         </section>
@@ -360,7 +370,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
               Would you consider designing relationships between people to be one of your life goals?
             </h3>
             <p>
-              I think certainly helping people develop emotional intelligence is a big goal for me. Perhaps starting a school like the School of Life, that would be a major life accomplishment.
+              I think certainly helping people develop emotional intelligence is a big goal for me. Perhaps starting a school like <a href="http://www.theschooloflife.com/" target="_blank" title="The School of Life Website">The School of Life</a>, that would be a major life accomplishment.
             </p>
           </div>
         </section>
@@ -375,7 +385,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
               <aside>
                 <div class="arrow"></div>
                  <h3>A Human Touch</h3>
-                <p class="last">Touching someone else's gratitude post in 1THING triggers a blooming sun animation and adds a fingerprint beside it.</p>
+                <p class="last">Touching someone else's gratitude post in 1THING triggers a blooming sun animation and leaves a fingerprint impression beside it.</p>
               </aside>
             </div>
           </div>
@@ -399,7 +409,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
                 <a href="http://ca.linkedin.com/in/mmilan"
                 title="Matthew Milan's LinkedIn Profile"
                 target="_blank">
-                  <img src='<?php echo get_home_url(); ?>/assets/img/ayla-interview/matthew-milan.png'></a>
+                  <img src='<?php echo get_home_url(); ?>/assets/img/ayla-interview/matthew-milan.jpg'></a>
                 <figcaption class="clear">
                   <a href="http://ca.linkedin.com/in/mmilan"
                   title="Matthew Milan's LinkedIn Profile"
@@ -416,7 +426,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
             <div class="span7 offset4 interview-panel">
               My boss at
             <a href="http://normativedesign.com" target="_blank" title="Normative Design website">Normative Design</a>, Matthew Milan,
-            certainly taught me a ton about technology. He was the one who pushed me to pursue my own path when he could see that I was, as he put it, ‘dipping my toe in the water at the pool while everyone else was sitting on the deck chairs’. He was like, <em>“I see what you’re doing; I was there once. I wanted to go swimming and I was scared to – but don’t worry, there’s water in the pool. Just do it!”</em> 
+            certainly taught me a ton about technology. He was the one who pushed me to pursue my own path when he could see that I was, as he put it, ‘dipping my toe in the water at the pool while everyone else was sitting on the deck chairs’. He was like, “I see what you’re doing; I was there once. I wanted to go swimming and I was scared to &mdash; but don’t worry, there’s water in the pool. Just do it!” 
             He inspired me to pursue my passion project,
             <a href="http://1thingapp.com" target=_blank>1THING</a>
             , and make a leap of faith to quit my job.
@@ -545,7 +555,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
                   <div id="profile-image">
                     <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/ayla-newhouse-portrait-square.jpg" />
                   </div>
-                  <h4>What wakes you up at night?</h4>
+                  <h4>I find I often get inspired in the middle of the night, what wakes you up at night?</h4>
                   <div id='quote-mark'>
                     <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
                 </div>
