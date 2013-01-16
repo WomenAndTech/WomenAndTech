@@ -531,6 +531,11 @@
     height:inherit;
   }
 
+  .past-listing.post{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .past-listing p{
     padding-bottom:1em;
     margin-top:0;
