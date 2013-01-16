@@ -46,7 +46,7 @@ $(function(){
 
     }
     // Transfer footer
-    $("footer[role=contentinfo]").appendTo("ol.curtains li:last");
+    $("article").next("footer").appendTo("ol.curtains li:last");
 
     // Initialize curtains
     $('.curtains').curtain({scrollSpeed: 300});
