@@ -88,12 +88,17 @@
 
           <p>I was a Content Coordinator at a corporate financial company. But on the side I had been doing a little bit of freelance development and I thought, this is what I want to do – I don’t want to just push a button in a content management system and there, there’s a pdf. I wanted to be more creative and do more coding.</p>
 
-          <p>I ended up breaking into the agency world at a place called <a href="http://www.nurun.com/">Nurun</a> where I was hired as an Interface Developer/Frontend Developer. It was really great because they gave me a chance to actually flex and learn my development skills. So when I moved to this job I thought “Wait a minute, I’m a developer now!”. It was a really nice switch, but kind of scary at the same time.</p>
+          <p>I ended up breaking into the agency world at a place called <a href="http://www.nurun.com/"  target="_blank">Nurun</a> where I was hired as an Interface Developer/Frontend Developer. It was really great because they gave me a chance to actually flex and learn my development skills. So when I moved to this job I thought “Wait a minute, I’m a developer now!”. It was a really nice switch, but kind of scary at the same time.</p>
           
         </div>
-      </section>
 
-      <section class="row">
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>When I do something I always want to be good at it. I felt somewhat disadvantaged because I didn’t have a computer science background and a lot of the developers did.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+
         <div class="span7 offset4 interview-panel">
           <h3>What was scary about it?</h3>
 
@@ -129,9 +134,14 @@
           <p>It was at that point that I realized that my previous work environments were skewed from the norm. I think it shocked me a bit because I didn’t know that being a “female dev” was something weird. A project manager might ask, “What’s it like being a female dev?” as if it’s something unimaginable, and I’d say, “Well, what’s it like being a project manager?” To me, it’s an odd question because being a woman and a developer never seemed weird to me.</p>
           
         </div>
-      </section>
 
-      <section class="row">
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>I wear heels to work, I curl my hair every day. Then again I don't want to be stereotypically female either, so I focus on being who I am – this is my work, and this is who I am.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+
         <div class="span7 offset4 interview-panel">
           <h3>How do you think people view developers, and do you fit that mould?</h3>
 
@@ -142,17 +152,37 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>You mentioned in your <a href="http://www.teehanlax.com/blog/thats-what-she-said-thoughts-from-a-female-dev/">blog post</a> that your job is a perfect fit for you. What makes it such a perfect fit?</h3>
+          <h3>You mentioned in your <a href="http://www.teehanlax.com/blog/thats-what-she-said-thoughts-from-a-female-dev/" target="_blank">blog post</a> that your job is a perfect fit for you. What makes it such a perfect fit?</h3>
 
           <p>I like the fact that I get to have my creative moments, and then I get to use my logical side and build stuff. I can get creative with development, especially with CSS3. I can do so much with it, finding ways to make things work. I think that's why I'm more drawn to frontend development rather than backend. You get to see the output for yourself a bit better.</p>
 
           <p>Even if I want to pull my hair out after dealing with one too many bugs, when I’m done I get to say, “Look what I made!” I feel like I’ve accomplished something. I think itg balances the creative and the analytical sides of me.</p>
           
         </div>
-      </section>
+      
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>Growing up in a small city, there wasn’t a lot of cultural diversity, so I always felt like an outcast. I spent most of my early years trying to fit in and be like everyone else.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
 
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
+
+        <div class="span4 notable-person photo-callout">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <a href="http://en.wikipedia.org/wiki/Dial-up_Internet_access" title="Dial-up Internet Wikipedia entry">
+              <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/dial-up-modem.jpg" alt="Dial-up modem"/>
+              <h4>Back in the Day</h4>
+            </a>
+            <figcaption class="clear">
+              <p class="last">It's hard to remember a time without dedicated high-speed Internet connections now, but many of us have a special place in our hearts for 56K and it's familiar song, "kssssssh, bee-boo bee-boo bee-boo."</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+
+        <div class="span7 interview-panel">
           <h3>Were computers part of your life growing up?</h3>
 
           <p>I was the computer person in my family. I would help my dad fix things as a kid. Maybe that’s why I gravitated more towards “stuff that boys do”. I have three older sisters; it was a house full of girls and I was a bit of a tomboy.</p>
@@ -205,16 +235,40 @@
       </section>
 
       <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>We’d love to hear more about your <a href="http://www.teehanlax.com/labs/do-we-have-milk/">“Do We Have Milk”</a> experiment?  What is that and how did you come up with the idea?</h3>
+        <div class="span4 notable-person photo-callout">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <a href="http://www.arduino.cc/" title="About Arduino"><img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/arduino-board.jpg" alt="Arduino electronics board"/></a>
+            <figcaption class="clear">
+              <p class="last"><a href="http://www.arduino.cc/" title="About Arduino">Arduino</a> is an open-source system made up of simple hardware and easy to program software. Backed by an active community of tinkerers and enthusiasts, Arduino is an easy way for anyone to create input/output based electronic devices.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+        
+        <div class="span7 interview-panel">
 
-          <p>We came up with the idea in the Teehan+Lax labs to build an app that tracks how much milk you have left in the fridge. I hadn't had a lot of experience with technology “outside of the screen”, but I started brainstorming ideas independent of the technology. I love food and love organizing things. So from there we came up with the idea of using <a href="http://www.arduino.cc/">Arduino</a> to combine physical computing and food organization.</p>
+          <h3>We’d love to hear more about your <a href="http://www.teehanlax.com/labs/do-we-have-milk/" target="_blank">“Do We Have Milk”</a> experiment?  What is that and how did you come up with the idea?</h3>
+
+          <p>We came up with the idea in the Teehan+Lax labs to build an app that tracks how much milk you have left in the fridge. I hadn't had a lot of experience with technology “outside of the screen”, but I started brainstorming ideas independent of the technology. I love food and love organizing things. So from there we came up with the idea of using <a href="http://www.arduino.cc/" target="_blank">Arduino</a> to combine physical computing and food organization.</p>
 
           <p>But it wasn’t really just, "Let's track milk." It was an experiment to show people how technology can interact with our daily lives. It's funny, because the day we decided to run with the idea, I was at the store and was hit with the “Do We Have Milk?” question. I was thinking, "I could really use this app right now!" [laughs]</p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="span4 info-panel">
+          <aside class="first-row">
+            <div class="arrow"></div>
+            <h3>Advancing CSS</h3>
+            <p class="last"> <a href="http://lesscss.org/" target="_blank">LESS</a> is a <a href="http://www.vanseodesign.com/css/css-preprocessors/" target="_blank">CSS pre-processor</a>, a tool that allows web developers to extend the functionality of CSS with common programming constructs like variables and functions.</p>
+          </aside>
+        </div>
+
+        <div class="span7 interview-panel">
 
           <p>Are there any other new technologies or tools that really excite you, or that you're looking forward to working with?</p>
 
-          <p>Definitely. When I discovered <a href="http://lesscss.org/">LESS</a> – even though it is a simple tool – I thought “Why aren’t we using this all the time? Why isn’t this built into CSS already?”</p>
+          <p>Definitely. When I discovered <a href="http://lesscss.org/" target="_blank">LESS</a> – even though it is a simple tool – I thought “Why aren’t we using this all the time? Why isn’t this built into CSS already?”</p>
           
         </div>
       </section>
@@ -223,21 +277,27 @@
         <div class="span7 offset4 interview-panel">
           <h3>You've also been involved with responsive design, right?</h3>
 
-          <p>My first involvement with <a href="http://ladieslearningcode.com/">Ladies Learning Code</a> was to present a talk on <a href="http://alistapart.com/article/responsive-web-design">responsive design.</a> I've been pushing myself to think more about responsive techniques, mobile techniques, and how to incorporate that into my everyday workflow. It shouldn't be a second thought anymore; it should be how all websites work. I had an iPhone 3G for the longest time, and I hardly ever used the browser because it was so slow. Then when I got the 4S, I found I was always browsing on the phone and it started to really bother me when sites didn't even have a basic mobile web experience – including my own – so I've come to see the importance of including that.</p>
+          <p>My first involvement with <a href="http://ladieslearningcode.com/" target="_blank">Ladies Learning Code</a> was to present a talk on <a href="http://alistapart.com/article/responsive-web-design" target="_blank">responsive design.</a> I've been pushing myself to think more about responsive techniques, mobile techniques, and how to incorporate that into my everyday workflow. It shouldn't be a second thought anymore; it should be how all websites work. I had an iPhone 3G for the longest time, and I hardly ever used the browser because it was so slow. Then when I got the 4S, I found I was always browsing on the phone and it started to really bother me when sites didn't even have a basic mobile web experience – including my own – so I've come to see the importance of including that.</p>
           
         </div>
       </section>
 
       <section class="row">
+
         <div class="span7 offset4 interview-panel">
           <h3>How did you find out about Ladies Learning Code?</h3>
 
-          <p>I wrote a blog post for Teehan+Lax about being a woman in web development [<a href="http://www.teehanlax.com/blog/thats-what-she-said-thoughts-from-a-female-dev/">“That’s what she said: thoughts from a female dev”</a>]. And then <a href="http://womenandtech.com/interview/heather-payne/">Heather Payne</a> reached out to me by leaving a comment, telling me how they were going to start this group and it would be nice if I could help out in some way.</p>
+          <p>I wrote a blog post for Teehan+Lax about being a woman in web development [<a href="http://www.teehanlax.com/blog/thats-what-she-said-thoughts-from-a-female-dev/" target="_blank">“That’s what she said: thoughts from a female dev”</a>]. And then <a href="http://womenandtech.com/interview/heather-payne/">Heather Payne</a> reached out to me by leaving a comment, telling me how they were going to start this group and it would be nice if I could help out in some way.</p>
           
         </div>
-      </section>
 
-      <section class="row">
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>I always felt it was a little too awkward to just show up to tech meetups and code with people I didn’t know.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+
         <div class="span7 offset4 interview-panel">
           <h3>What convinced you to get involved?</h3>
 
@@ -296,7 +356,16 @@
       </section>
 
       <section class="row">
-        <div class="span7 offset4 interview-panel">
+        <div class="span4 info-panel">
+          <aside class="first-row">
+            <div class="arrow"></div>
+            <h3>Lack of Cultural Diversity</h3>
+            <p>Every year, A List Apart <a href="http://www.alistapart.com/articles/survey2011/" target="_blank" title="2011 A List Apart Survey Results">conducts a survey</a> of it's web industry readership. In 2011, 12.9% of all respondents identified with a visible minority, whereas the total number of female respondents was 18%.
+            </p> <p class="last">ALA also notes that while the percentage of women has risen slightly over the past five years, there has been no significant increase in the number of visible minorities.</p>
+          </aside>
+        </div>
+
+        <div class="span7 interview-panel">
           <h3>Do you think there should be more female developers or women in the tech industry in general?</h3>
 
           <p>I don’t know how to answer that! My main concern is that there are a lot of women out there who don’t feel the industry is inclusive or welcoming to women. I hear this from a lot of the students (and mentors) at Ladies Learning Code. If I can help other women feel like they can join this industry, then I’m all for it. If women want to join, then they should join!</p>
@@ -316,14 +385,32 @@
       </section>
 
       <section class="row">
-        <div class="span7 offset4 interview-panel">
+
+        <div class="span4 notable-person" id="NAME">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <h3>Notable Person</h3>
+            <a href="http://www.sazzy.co.uk/about/"
+              title="Sarah Parmenter's Bio"
+              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/chrsitina-interview/sarah-parmenter.jpg'></a>
+            <figcaption class="clear">
+              <a href="http://www.sazzy.co.uk/about/"
+                title="Sarah Parmenter's Bio"
+                target="_blank"><h4>Sarah Parementer</h4></a>
+              <p>Sarah Parementer is a web and iOS UI designer in the UK. In 2010 she participated in a Boagworld Show podcast that streamed live on the web and was met with numerous sexist comments. Her response to that experience can be found <a href="http://www.sazzy.co.uk/2010/02/dont-you-dare/">here.</a></p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+
+        <div class="span7 interview-panel">
           <h3>Are there any other designers or developers you admire?</h3>
 
-          <p><a href="https://twitter.com/chriscoyier">Chris Coyier</a>. I end up visiting his site, <a href="http://css-tricks.com/">CSS-Tricks</a>, a lot. I find – especially with teaching – he has so many great examples.</p>
+          <p><a href="https://twitter.com/chriscoyier" target="_blank">Chris Coyier</a>. I end up visiting his site, <a href="http://css-tricks.com/" target="_blank">CSS-Tricks</a>, a lot. I find – especially with teaching – he has so many great examples.</p>
 
-          <p>When I started research for my blog post about this idea of women designers and developers being kind of rare thing, I found <a href="https://twitter.com/sazzy">Sarah Parmenter</a>. She did a podcast and received a lot of negative comments about being a female in the industry and wrote this long blog post in response about how she worked really hard to get to where she is. I respect that and I like that she was able to gain recognition through hard work.</p>
+          <p>When I started research for my blog post about this idea of women designers and developers being kind of rare thing, I found <a href="https://twitter.com/sazzy" target="_blank">Sarah Parmenter</a>. She did a podcast and received a lot of negative comments about being a female in the industry and wrote this long blog post in response about how she worked really hard to get to where she is. I respect that and I like that she was able to gain recognition through hard work.</p>
 
-          <p>I think maybe I could get there too. This last year has been a whirlwind where I feel like I have been getting more recognition. Ladies Learning Code asked me to come out to Ottawa to lead their first workshop, and I ended up doing a <a href="http://www.cbc.ca/player/News/ID/2309065971/">short interview for CBC Ottawa</a> (which amazed me).</p>
+          <p>I think maybe I could get there too. This last year has been a whirlwind where I feel like I have been getting more recognition. Ladies Learning Code asked me to come out to Ottawa to lead their first workshop, and I ended up doing a <a href="http://www.cbc.ca/player/News/ID/2309065971/" target="_blank">short interview for CBC Ottawa</a> (which amazed me).</p>
           
         </div>
       </section>
@@ -366,7 +453,7 @@
             </div>
             <div id="question-details">
               <div id="profile-image">
-                <img src="<?php echo get_home_url(); ?>/assets/img/ayla-interview/christina-portrait-square.jpg" />
+                <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-portrait-square.jpg" />
               </div>
               <h4>How do you balance work and life?</h4>
               <div id='quote-mark'>
