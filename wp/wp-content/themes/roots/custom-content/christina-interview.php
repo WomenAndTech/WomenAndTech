@@ -159,14 +159,9 @@
           <p>Even if I want to pull my hair out after dealing with one too many bugs, when I’m done I get to say, “Look what I made!” I feel like I’ve accomplished something. I think itg balances the creative and the analytical sides of me.</p>
           
         </div>
-      
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>Growing up in a small city, there wasn’t a lot of cultural diversity, so I always felt like an outcast. I spent most of my early years trying to fit in and be like everyone else.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
+      </section>
 
+      <section class="row">
         <div class="span4 info-panel">
           <aside class="first-row">
             <div class="arrow"></div>
@@ -201,9 +196,14 @@
           <p>Since then I’ve always done things that maybe weren’t expected of me. I’m used to doing things my own way. Maybe that’s what helped me go into this career and not worry about whether or not it was normal.</p>
           
         </div>
-      </section>
 
-      <section class="row">
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>Growing up in a small city, there wasn’t a lot of cultural diversity, so I always felt like an outcast. I spent most of my early years trying to fit in and be like everyone else.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+        
         <div class="span7 offset4 interview-panel">
           <h3>Any examples of doing things that weren’t expected of you?</h3>
 
@@ -404,7 +404,7 @@
             <h3>Notable Person</h3>
             <a href="http://www.sazzy.co.uk/about/"
               title="Sarah Parmenter's Bio"
-              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/chrsitina-interview/sarah-parmenter.jpg'></a>
+              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/christina-interview/sarah-parmenter.jpg'></a>
             <figcaption class="clear">
               <a href="http://www.sazzy.co.uk/about/"
                 title="Sarah Parmenter's Bio"
