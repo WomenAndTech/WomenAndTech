@@ -171,7 +171,7 @@
           <aside class="first-row">
             <div class="arrow"></div>
             <h3>Back in the Day</h3>
-            <p class="last">It's hard to remember a time without dedicated high-speed Internet connections now, but many of us have a special place in our hearts for <a href="http://en.wikipedia.org/wiki/Dial-up_Internet_access" title="Dial-up Internet Wikipedia entry">56K</a> and it's familiar song, "kssssssh, bee-boo bee-boo bee-boo."</p>
+            <p class="last">It's hard to remember a time without dedicated high-speed Internet connections now, but many of us have a special place in our hearts for <a href="http://en.wikipedia.org/wiki/Dial-up_Internet_access" title="Dial-up Internet Wikipedia entry" target="_blank">56K</a> and it's familiar song, "kssssssh, bee-boo bee-boo bee-boo."</p>
           </aside>
         </div>
         <!--
