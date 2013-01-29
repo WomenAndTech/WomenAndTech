@@ -118,7 +118,7 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>At which point did you become aware of it?</h3>
+          <h3>At which point did you become aware of the gender imbalance?</h3>
 
           <p>At Teehan+Lax. I was the first female there and now I’m one of two.</p>
           
@@ -167,7 +167,14 @@
           <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
 
-
+        <div class="span4 info-panel">
+          <aside class="first-row">
+            <div class="arrow"></div>
+            <h3>Back in the Day</h3>
+            <p class="last">It's hard to remember a time without dedicated high-speed Internet connections now, but many of us have a special place in our hearts for <a href="http://en.wikipedia.org/wiki/Dial-up_Internet_access" title="Dial-up Internet Wikipedia entry">56K</a> and it's familiar song, "kssssssh, bee-boo bee-boo bee-boo."</p>
+          </aside>
+        </div>
+        <!--
         <div class="span4 notable-person photo-callout">
           <figure class="first-row">
             <div class="arrow"></div>
@@ -181,7 +188,7 @@
             <div style="clear:both"></div>
           </figure>
         </div>
-
+        -->
         <div class="span7 interview-panel">
           <h3>Were computers part of your life growing up?</h3>
 
@@ -266,7 +273,7 @@
 
         <div class="span7 interview-panel">
 
-          <p>Are there any other new technologies or tools that really excite you, or that you're looking forward to working with?</p>
+          <h3>Are there any other new technologies or tools that really excite you, or that you're looking forward to working with?</h3>
 
           <p>Definitely. When I discovered <a href="http://lesscss.org/" target="_blank">LESS</a> – even though it is a simple tool – I thought “Why aren’t we using this all the time? Why isn’t this built into CSS already?”</p>
           
@@ -360,7 +367,7 @@
           <aside class="first-row">
             <div class="arrow"></div>
             <h3>Lack of Cultural Diversity</h3>
-            <p>Every year, A List Apart <a href="http://www.alistapart.com/articles/survey2011/" target="_blank" title="2011 A List Apart Survey Results">conducts a survey</a> of it's web industry readership. In 2011, 12.9% of all respondents identified with a visible minority, whereas the total number of female respondents was 18%.
+            <p>Every year, <a href="http://alistapart.com/" target="_blank" title="A List Apart website">A List Apart</a> <a href="http://www.alistapart.com/articles/survey2011/" target="_blank" title="2011 A List Apart Survey Results">conducts a survey</a> of it's web industry readership. In 2011, 12.9% of all respondents identified with a visible minority, whereas the total number of female respondents was 18%.
             </p> <p class="last">ALA also notes that while the percentage of women has risen slightly over the past five years, there has been no significant increase in the number of visible minorities.</p>
           </aside>
         </div>
@@ -373,9 +380,14 @@
           <p>Personally, I feel like there’s a lack of cultural diversity. That affects me more than being a woman. Maybe it’s because there are a lot of women in other roles at my company, despite the numbers of actual female developers. If you look at the numbers in the latest A List Apart survey, the combined total of all the different ethnic groups is less than the number of women who respond. That’s something I would like to see change.</p>
           
         </div>
-      </section>
-
-      <section class="row">
+        
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>If [joining the web industry] is something that you really want to do, then just do it and don't worry about what other people think.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+        
         <div class="span7 offset4 interview-panel">
           <h3>If you could give one piece of advice to someone who is apprehensive or not sure about joining the industry, what would it be?</h3>
 
@@ -396,8 +408,9 @@
             <figcaption class="clear">
               <a href="http://www.sazzy.co.uk/about/"
                 title="Sarah Parmenter's Bio"
-                target="_blank"><h4>Sarah Parementer</h4></a>
-              <p>Sarah Parementer is a web and iOS UI designer in the UK. In 2010 she participated in a Boagworld Show podcast that streamed live on the web and was met with numerous sexist comments. Her response to that experience can be found <a href="http://www.sazzy.co.uk/2010/02/dont-you-dare/">here.</a></p>
+                target="_blank"><h4>Sarah Parmenter</h4></a>
+              <p>Sarah Parmenter is a web and iOS UI designer in the UK.</p> 
+              <p>In 2010 she participated in a Boagworld Show podcast that streamed live on the web and was met with numerous sexist comments. Her response to that experience can be found <a href="http://www.sazzy.co.uk/2010/02/dont-you-dare/">here.</a></p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
