@@ -21,7 +21,7 @@
       <section class="row" id="introduction">
         <div class="span12">
           <h2>
-            Christina spends her days coding at <a href="http://www.teehanlax.com" target="_blank" title="Teehan+Lax website">Teehan+Lax,</a> teaching frontend development at <a href="http://mediastudies.humber.ca/webdesignandinteractivemedia/" target="_blank" title="Web Design &amp; Interactive Media at Humber College">Humber College,</a> and forging her own path in the web industry. Christina confessed this was first in-depth interview, but we were excited to find out what makes her tick.
+            Christina spends her days coding at <a href="http://www.teehanlax.com" target="_blank" title="Teehan+Lax website">Teehan+Lax</a>, teaching frontend development at <a href="http://mediastudies.humber.ca/webdesignandinteractivemedia/" target="_blank" title="Web Design &amp; Interactive Media at Humber College">Humber College</a>, and forging her own path in the web industry. Christina confessed this was her first in-depth interview, but we were excited to find out what makes her tick.
           </h2>
         </div>
       </section>
@@ -156,7 +156,7 @@
 
           <p>I like the fact that I get to have my creative moments, and then I get to use my logical side and build stuff. I can get creative with development, especially with CSS3. I can do so much with it, finding ways to make things work. I think that's why I'm more drawn to frontend development rather than backend. You get to see the output for yourself a bit better.</p>
 
-          <p>Even if I want to pull my hair out after dealing with one too many bugs, when I’m done I get to say, “Look what I made!” I feel like I’ve accomplished something. I think itg balances the creative and the analytical sides of me.</p>
+          <p>Even if I want to pull my hair out after dealing with one too many bugs, when I’m done I get to say, “Look what I made!” I feel like I’ve accomplished something. I think it balances the creative and the analytical sides of me.</p>
           
         </div>
       </section>
