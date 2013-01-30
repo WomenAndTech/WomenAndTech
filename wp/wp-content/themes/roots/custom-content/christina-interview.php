@@ -466,7 +466,7 @@
             </div>
             <div id="question-details">
               <div id="profile-image">
-                <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-portrait-square.jpg" />
+                <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-portrait-square.jpg" />
               </div>
               <h4>How do you balance work and life?</h4>
               <div id='quote-mark'>
