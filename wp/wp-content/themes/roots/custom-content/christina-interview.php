@@ -1,3 +1,5 @@
+<ol class="curtains">
+<li>
     <div class="container interview-intro">
       <header class="row">
         <div class="span9">
@@ -21,13 +23,13 @@
       <section class="row" id="introduction">
         <div class="span12">
           <h2>
-            Christina spends her days coding at <a href="http://www.teehanlax.com" target="_blank" title="Teehan+Lax website">Teehan+Lax,</a> teaching frontend development at <a href="http://mediastudies.humber.ca/webdesignandinteractivemedia/" target="_blank" title="Web Design &amp; Interactive Media at Humber College">Humber College,</a> and forging her own path in the web industry. Christina confessed this was first in-depth interview, but we were excited to find out what makes her tick.
+            Christina spends her days coding at <a href="http://www.teehanlax.com" target="_blank" title="Teehan+Lax website">Teehan+Lax,</a> teaching frontend development at <a href="http://mediastudies.humber.ca/webdesignandinteractivemedia/" target="_blank" title="Web Design &amp; Interactive Media at Humber College">Humber College,</a> and forging her own path in the web industry. Christina confessed this was her first in-depth interview, but we were excited to find out what makes her tick.
           </h2>
         </div>
       </section>
     </div>
     <div id="portrait" class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/chrisitna-intervew/" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-coffee-shop-portrait.jpg" />
       <div class="photo-credit light">
         Photo credit:
         <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
@@ -123,8 +125,33 @@
           <p>At Teehan+Lax. I was the first female there and now I’m one of two.</p>
           
         </div>
-      </section>
+    </section>
+    </div>
+  </li>
+  <li>
+    <div class="fullscreen">
+      <div class="parallax">
+        <div class="container">
+          <div class="info-panel" id="teehanandlax">
+            <aside>
+              <div class="arrow"></div>
+              <h3>T+Ler</h3>
+              <p class="last">
+                Christina develops at Teehan+Lax, a Toronto-based digital agency well-known for their <a href="http://www.teehanlax.com/work" title="Teehan+Lax website" target="_blank">cutting edge interactive work</a> as well as their <a href="http://www.teehanlax.com/downloads/" title="Teehan+Lax free downloads page" target="_blank">free iPhone and iPad GUI templates</a>, “to help you pitch, design and build amazing software”.
+              </p>
+            </aside>
+          </div>
+        </div>
+        <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-teehan-and-lax.jpg" />
+        <div class="photo-credit light">
+          Photo credit:
+          <a href="http://www.flickr.com/photos/brendanlynch"
+            title="Brendan Lynch's flickr photostream" target="_blank">Brendan Lynch</a>
+        </div>
+      </div>
+    </div>
 
+    <div class="container">
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>How did it feel, coming from an environment that was balanced?</h3>
@@ -152,11 +179,13 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>You mentioned in your <a href="http://www.teehanlax.com/blog/thats-what-she-said-thoughts-from-a-female-dev/" target="_blank">blog post</a> that your job is a perfect fit for you. What makes it such a perfect fit?</h3>
+          <h3>You mentioned on the Teehan+Lax blog that your job is a perfect fit for you. What makes it such a
+            perfect
+            fit?</h3>
 
           <p>I like the fact that I get to have my creative moments, and then I get to use my logical side and build stuff. I can get creative with development, especially with CSS3. I can do so much with it, finding ways to make things work. I think that's why I'm more drawn to frontend development rather than backend. You get to see the output for yourself a bit better.</p>
 
-          <p>Even if I want to pull my hair out after dealing with one too many bugs, when I’m done I get to say, “Look what I made!” I feel like I’ve accomplished something. I think itg balances the creative and the analytical sides of me.</p>
+          <p>Even if I want to pull my hair out after dealing with one too many bugs, when I’m done I get to say, “Look what I made!” I feel like I’ve accomplished something. I think it balances the creative and the analytical sides of me.</p>
           
         </div>
       </section>
@@ -169,21 +198,6 @@
             <p class="last">It's hard to remember a time without dedicated high-speed Internet connections now, but many of us have a special place in our hearts for <a href="http://en.wikipedia.org/wiki/Dial-up_Internet_access" title="Dial-up Internet Wikipedia entry" target="_blank">56K</a> and it's familiar song, "kssssssh, bee-boo bee-boo bee-boo."</p>
           </aside>
         </div>
-        <!--
-        <div class="span4 notable-person photo-callout">
-          <figure class="first-row">
-            <div class="arrow"></div>
-            <a href="http://en.wikipedia.org/wiki/Dial-up_Internet_access" title="Dial-up Internet Wikipedia entry">
-              <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/dial-up-modem.jpg" alt="Dial-up modem"/>
-              <h4>Back in the Day</h4>
-            </a>
-            <figcaption class="clear">
-              <p class="last">It's hard to remember a time without dedicated high-speed Internet connections now, but many of us have a special place in our hearts for 56K and it's familiar song, "kssssssh, bee-boo bee-boo bee-boo."</p>
-            </figcaption>
-            <div style="clear:both"></div>
-          </figure>
-        </div>
-        -->
         <div class="span7 interview-panel">
           <h3>Were computers part of your life growing up?</h3>
 
@@ -203,7 +217,21 @@
           </aside>
           <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
-        
+        </section>
+    </div>
+  </li>
+<li>
+  <div class="fullscreen">
+      <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-subway.jpg" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="http://instagram.com/themiguelshow" title="Miguel Weston (themiguelshow) on Instagram" target="_blank">Miguel Weston</a>
+      </div>
+  </div>
+
+  <div class="container">
+        <section class="row">
+
         <div class="span7 offset4 interview-panel">
           <h3>Any examples of doing things that weren’t expected of you?</h3>
 
@@ -262,6 +290,31 @@
           <p>But it wasn’t really just, "Let's track milk." It was an experiment to show people how technology can interact with our daily lives. It's funny, because the day we decided to run with the idea, I was at the store and was hit with the “Do We Have Milk?” question. I was thinking, "I could really use this app right now!" [laughs]</p>
         </div>
       </section>
+    </div>
+  </li>
+<li>
+<div class="fullscreen">
+  <div class="parallax">
+    <div class="container">
+      <div class="info-panel" id="arduino">
+        <aside>
+          <div class="arrow"></div>
+          <h3>Get Milk!</h3>
+          <p class="last">
+            The <a href="http://www.teehanlax.com/labs/do-we-have-milk/" target="_blank">Do We Have Milk?</a> app helps you know when you’re running low on milk so you can pick some up on your way home. Christina helped develop and build the concept using Arduino technology.
+          </p>
+        </aside>
+      </div>
+    </div>
+    <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-get-milk.jpg" />
+    <div class="photo-credit light">
+      Photo credit:
+      <a href="https://vimeo.com/41917421" title="A still taken from Teehan+Lax's 'Do We Have Milk' experiment trailer" target="_blank">Teehan+Lax Labs</a>
+    </div>
+  </div>
+</div>
+
+  <div class="container">
       <section class="row">
         <div class="span4 info-panel">
           <aside class="first-row">
@@ -282,9 +335,9 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>You've also been involved with responsive design, right?</h3>
+          <h3>You've also been involved with <a href="http://alistapart.com/article/responsive-web-design" target="_blank">responsive design</a>, right?</h3>
 
-          <p>My first involvement with <a href="http://ladieslearningcode.com/" target="_blank">Ladies Learning Code</a> was to present a talk on <a href="http://alistapart.com/article/responsive-web-design" target="_blank">responsive design.</a> I've been pushing myself to think more about responsive techniques, mobile techniques, and how to incorporate that into my everyday workflow. It shouldn't be a second thought anymore; it should be how all websites work. I had an iPhone 3G for the longest time, and I hardly ever used the browser because it was so slow. Then when I got the 4S, I found I was always browsing on the phone and it started to really bother me when sites didn't even have a basic mobile web experience – including my own – so I've come to see the importance of including that.</p>
+          <p>My first involvement with <a href="http://ladieslearningcode.com/" target="_blank">Ladies Learning Code</a> was to present <a href="https://vimeo.com/27903221" target="_blank">a talk on responsive design.</a> I've been pushing myself to think more about responsive techniques, mobile techniques, and how to incorporate that into my everyday workflow. It shouldn't be a second thought anymore; it should be how all websites work. I had an iPhone 3G for the longest time, and I hardly ever used the browser because it was so slow. Then when I got the 4S, I found I was always browsing on the phone and it started to really bother me when sites didn't even have a basic mobile web experience – including my own – so I've come to see the importance of including that.</p>
           
         </div>
       </section>
@@ -352,7 +405,31 @@
           
         </div>
       </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <div class="container">
+        <div class="info-panel" id="collage">
+          <aside>
+            <div class="arrow"></div>
+			<h3>Creative Technology</h3>
+          <p class="last">
+            The <a href="http://www.teehanlax.com/labs/" target="_blank" title="Teehan+Lax Labs page">Teehan+Lax Labs</a> are an independent arm of the company where Christina and other employees foster an interest in technologies outside their day-to-day (like Arduino).
+          </p>
+          </aside>
+        </div>
+      </div>
+      <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-soldering-iron.jpg" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="https://vimeo.com/41917421" title="A still taken from Teehan+Lax's 'Do We Have Milk' experiment trailer" target="_blank">Teehan+Lax Labs</a>
+      </div>
+    </div>
+  </div>
 
+  <div class="container">
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>I’ve often heard the argument made that women don’t advance because they tend to undervalue themselves. Do you agree?</h3>
@@ -466,7 +543,8 @@
             </div>
             <div id="question-details">
               <div id="profile-image">
-                <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-portrait-square.jpg" />
+                <img
+                  src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-portrait-square.jpg" />
               </div>
               <h4>How do you balance work and life?</h4>
               <div id='quote-mark'>
@@ -488,5 +566,6 @@
         </div>
       </div>
 
-    </div><!-- container -->
+    </div><!-- container --> </li>
+</ol>
 
