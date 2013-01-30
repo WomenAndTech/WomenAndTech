@@ -64,8 +64,21 @@
   font-weight: bold;
 }
 
+.with_heart h4 {
+  margin-bottom: 0;
+}
+
 .with_heart p {
-  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 0.8em;
+}
+
+#sponsors .with_heart a {
+  font-style: normal;
+}
+
+.with_heart a em {
+  font-weight: normal;
 }
 
 #friends {
@@ -185,6 +198,18 @@
   }
 }
 @media (max-width: 480px) {
+  #team {margin-top: 30px;}
+  #about_team h2 {margin-bottom: 15px;}
+
+  #friends {margin-top: 40px;}
+  #friends h3 {
+    line-height: 1.2;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  #friends .friend {margin-bottom: 30px;}
+  #friends .friend img {margin: 0 0 10px 0;}
+
   .member {
     width: 50%;
   }
