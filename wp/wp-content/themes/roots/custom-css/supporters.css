@@ -64,8 +64,22 @@
   font-weight: bold;
 }
 
+.with_heart h4 {
+  margin-bottom: 0;
+}
+
 .with_heart p {
-  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 0.8em;
+}
+
+#sponsors .with_heart a {
+  font-style: normal;
+  font-weight: normal
+}
+
+.with_heart a em {
+  font-style: italic;
 }
 
 #friends {
