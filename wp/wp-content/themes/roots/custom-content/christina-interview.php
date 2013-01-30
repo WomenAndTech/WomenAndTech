@@ -11,7 +11,7 @@
             <div class="author-info">
               <p class="author">
                 An interview with
-                <a href="http://twitter.com/brennob" rel="author" target="_blank" title="Brenna O'Brien's twitter profile"> <strong>Brenna O'Brien</strong>
+                <a href="http://twitter.com/brennaob" rel="author" target="_blank" title="Brenna O'Brien's twitter profile"> <strong>Brenna O'Brien</strong>
                 </a>
               </p>
               <p class='date'>
