@@ -498,7 +498,7 @@
 
           <p><a href="https://twitter.com/chriscoyier" target="_blank">Chris Coyier</a>. I end up visiting his site, <a href="http://css-tricks.com/" target="_blank">CSS-Tricks</a>, a lot. I find – especially with teaching – he has so many great examples.</p>
 
-          <p>When I started research for my blog post about this idea of women designers and developers being kind of rare thing, I found <a href="https://twitter.com/sazzy" target="_blank">Sarah Parmenter</a>. She did a podcast and received a lot of negative comments about being a female in the industry and wrote this long <a href="http://www.sazzy.co.uk/2010/02/dont-you-dare/" title="Sarah Parmenter's 'Don't You Dare' blog post" target="_blank">blog post in response</a> about how she worked really hard to get to where she is. I respect that and I like that she was able to gain recognition through hard work.</p>
+          <p>When I started research for my blog post about this idea of women designers and developers being kind of rare thing, I found <a href="https://twitter.com/sazzy" target="_blank">Sarah Parmenter</a>. She did a podcast and received a lot of negative comments about being a female in the industry and wrote this long blog post in response about how she worked really hard to get to where she is. I respect that and I like that she was able to gain recognition through hard work.</p>
 
           <p>I think maybe I could get there too. This last year has been a whirlwind where I feel like I have been getting more recognition. Ladies Learning Code asked me to come out to Ottawa to lead their first workshop, and I ended up doing a <a href="http://www.cbc.ca/player/News/ID/2309065971/" target="_blank">short interview for CBC Ottawa</a> (which amazed me).</p>
           
