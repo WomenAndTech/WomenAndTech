@@ -99,7 +99,7 @@
 							<a href="http://twitter.com/vickilaszlo" target="_blank" title="Vicki Laszlo">Vicki Laszlo <em>Coffee Fairy</em>,</a>
 							<a href="http://twitter.com/KeithMLoo" target="_blank" title="Keith Loo">Keith Loo <em>Editing</em>,</a>
 							<a href="http://twitter.com/pamlau" target="_blank" title="Pam Lau">Pam Lau <em>Photographer</em>,</a>
-							<a href="http://twitter.com/rosabourin" target="_blank" title="Rachelle Sabourin">Rachelle Sabourin <em>Photographer</em>,</a>
+							<a href="http://www.flickr.com/people/intrachelle/" target="_blank" title="Rachelle Sabourin">Rachelle Sabourin <em>Photographer</em>,</a>
 							<a href="http://twitter.com/kidwithcamera" target="_blank" title="David Waldman ">David Waldman (Kid With Camera) <em>Photographer</em>,</a>
 							<a href="http://twitter.com/mel_in_media" target="_blank" title="Melanie Lang">Melanie Lang <em>Transcription</em>,</a>
 							<a href="http://twitter.com/kkeilhauer" target="_blank" title="Katrina Keilhauer">Katrina Keilhauer <em>Transciption</em>,</a>
