@@ -941,12 +941,24 @@ aside, figure {
     min-width: 748px;
 }
 
+.fullscreen .info-panel#teehanandlax {
+	right:0;
+	top:45%;
+}
+.fullscreen .info-panel#teehanandlax .arrow {
+	left:-14px;
+	border-width:15px 0 15px 15px;
+}
+.fullscreen .info-panel#teehanandlax .arrow:after {
+	border-width:16px 16px 16px 0;
+	border-right-color:#FF3818;
+	border-left-color:transparent;
+}
+
+
 /* CAPTION POSITIONS */
 /* uncomment and modify as needed */
 /*
-.fullscreen .info-panel#collage {
-	top:45%;
-}
 
 .fullscreen .info-panel#pecha-kucha {
     top:auto;
