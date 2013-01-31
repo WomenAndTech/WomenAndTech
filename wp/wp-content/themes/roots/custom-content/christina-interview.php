@@ -69,7 +69,7 @@
 
           <p>I studied Psychology and Communications in university, so I hadn’t planned to be in this industry when I was in school. It sort of just happened totally by accident.</p>
 
-          <p>I had a professor in one of my Communications classes who taught us how to use basic WYSIWYG DreamWeaver and I put together this really awful site. I just thought it was fun. I liked the idea that you could take a blank slate   make something out of it. After I graduated, I didn’t really know what to do with my degree. I ended up working at this temp job; I was an admin assistant but my duties were very far and few between.</p>
+          <p>I had a professor in one of my Communications classes who taught us how to use basic WYSIWYG DreamWeaver and I put together this really awful site. I just thought it was fun. I liked the idea that you could take a blank slate and make something out of it. After I graduated, I didn’t really know what to do with my degree. I ended up working at this temp job; I was an admin assistant but my duties were very far and few between.</p>
 
           <p>One day I was looking through the mail and there was a pamphlet for Seneca College. I looked at their Web Design program and I thought, “Hey! Why don’t I go back to school and give this a try?” It was four months long and gave me an introduction to everything: HTML, CSS, Photoshop, Flash, PHP and JavaScript.</p>
         </div>
@@ -90,7 +90,7 @@
 
           <p>I was a Content Coordinator at a corporate financial company. But on the side I had been doing a little bit of freelance development and I thought, this is what I want to do – I don’t want to just push a button in a content management system and there, there’s a pdf. I wanted to be more creative and do more coding.</p>
 
-          <p>I ended up breaking into the agency world at a place called <a href="http://www.nurun.com/"  target="_blank">Nurun</a> where I was hired as an Interface Developer/Frontend Developer. It was really great because they gave me a chance to actually flex and learn my development skills. So when I moved to this job I thought “Wait a minute, I’m a developer now!”. It was a really nice switch, but kind of scary at the same time.</p>
+          <p>I ended up breaking into the agency world at a place called <a href="http://www.nurun.com/"  target="_blank">Nurun</a> where I was hired as an Interface Developer/Frontend Developer. It was really great because they gave me a chance to actually flex and learn my development skills. So when I moved to this job I thought “Wait a minute, I’m a developer now!” It was a really nice switch, but kind of scary at the same time.</p>
           
         </div>
 
@@ -195,7 +195,7 @@
           <aside class="first-row">
             <div class="arrow"></div>
             <h3>Back in the Day</h3>
-            <p class="last">It's hard to remember a time without dedicated high-speed Internet connections now, but many of us have a special place in our hearts for <a href="http://en.wikipedia.org/wiki/Dial-up_Internet_access" title="Dial-up Internet Wikipedia entry" target="_blank">56K</a> and it's familiar song, "kssssssh, bee-boo bee-boo bee-boo."</p>
+            <p class="last">It's hard to remember a time without dedicated high-speed Internet connections now, but many of us have a special place in our hearts for <a href="http://en.wikipedia.org/wiki/Dial-up_Internet_access" title="Dial-up Internet Wikipedia entry" target="_blank">56K</a> and its familiar song, "kssssssh, bee-boo bee-boo bee-boo."</p>
           </aside>
         </div>
         <div class="span7 interview-panel">
@@ -205,7 +205,7 @@
 
           <p>As a teen, I was on the Internet all the time, keeping the phone line busy. The Internet was my way to see other parts of the world or connect with other people. I used to go on chat rooms and talk to people that lived in other cities.</p>
 
-          <p>Growing up in a small city, there wasn’t a lot of cultural diversity, so I always felt like an outcast. I spent most of my early years trying to fit in and be like everyone else, and then when I was about 14, 15 or so, I just said “Forget it!”. I kind of went the other route and said “I’m going to be different than everybody, or at least try to be.”</p>
+          <p>Growing up in a small city, there wasn’t a lot of cultural diversity, so I always felt like an outcast. I spent most of my early years trying to fit in and be like everyone else, and then when I was about 14, 15 or so, I just said “Forget it!” I kind of went the other route and said “I’m going to be different than everybody, or at least try to be.”</p>
 
           <p>Since then I’ve always done things that maybe weren’t expected of me. I’m used to doing things my own way. Maybe that’s what helped me go into this career and not worry about whether or not it was normal.</p>
           
@@ -444,7 +444,7 @@
           <aside class="first-row">
             <div class="arrow"></div>
             <h3>Lack of Cultural Diversity</h3>
-            <p>Every year, <a href="http://alistapart.com/" target="_blank" title="A List Apart website">A List Apart</a> <a href="http://www.alistapart.com/articles/survey2011/" target="_blank" title="2011 A List Apart Survey Results">conducts a survey</a> of it's web industry readership. In 2011, 12.9% of all respondents identified with a visible minority, whereas the total number of female respondents was 18%.
+            <p>Every year, <a href="http://alistapart.com/" target="_blank" title="A List Apart website">A List Apart</a> <a href="http://www.alistapart.com/articles/survey2011/" target="_blank" title="2011 A List Apart Survey Results">conducts a survey</a> of its web industry readership. In 2011, 12.9% of all respondents identified with a visible minority, whereas the total number of female respondents was 18%.
             </p> <p class="last">ALA also notes that while the percentage of women has risen slightly over the past five years, there has been no significant increase in the number of visible minorities.</p>
           </aside>
         </div>
