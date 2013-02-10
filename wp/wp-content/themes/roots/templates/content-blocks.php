@@ -16,7 +16,7 @@
         $permalink = $post->post_status == 'future' ? '' : get_permalink();
       ?>
 
-      <article class="span4 past-listing <?php echo implode(get_post_class(), " ")?>">
+      <article class="span4 past-listing <?php if ($post_type == "interview") echo "type-interview" ?>">
       <?php if (!$permalink == "" && !empty($permalink)): ?>
       <a href="<?php echo $permalink; ?>" alt="<?php the_title(); ?>">
       <?php endif;?>
