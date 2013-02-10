@@ -503,7 +503,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
                     <h4>Epic, Inspring Music</h4>
                   </a>
                   <p>
-                    Of all the people who inspire her, Ayla most wants to work with Florench Welch. "I'd want to work with her to design the ideal space to enjoy her music."
+                    Of all the people who inspire her, Ayla most wants to work with Florence Welch. "I'd want to work with her to design the ideal space to enjoy her music."
                   </p>
                 </figcaption>
                 <div style="clear:both"></div>
