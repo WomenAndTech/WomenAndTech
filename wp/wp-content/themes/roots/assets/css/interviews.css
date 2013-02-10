@@ -251,7 +251,8 @@
 
 /* Article > Aside/Figure */
 
-aside, figure {
+.interview aside, 
+.interview figure {
     position: relative;
     width: 75%;
 }
@@ -750,7 +751,7 @@ aside, figure {
         line-height: 1.357em;
     }
 
-    .row {
+    .interview .row {
         margin: 0 0 2em;
     }
 
