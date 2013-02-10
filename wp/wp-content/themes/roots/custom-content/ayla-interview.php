@@ -141,7 +141,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
               target="_blank">
                 <h4>Kelsey Blackwell</h4>
               </a>
-              <p>Owner of <a href="studioblackwell.com" target="_blank" title="Studio:Blackwell's website">Studio:Blackwell</a> and past instructor at the <a href="http://www.institutewithoutboundaries.com/" target="_blank" title="Institute without Boundaries wesbite">Institute without Boundaries</a>.
+              <p>Owner of <a href="http://www.studioblackwell.com" target="_blank" title="Studio:Blackwell's website">Studio:Blackwell</a> and past instructor at the <a href="http://www.institutewithoutboundaries.com/" target="_blank" title="Institute without Boundaries wesbite">Institute without Boundaries</a>.
               </p>
             </figcaption>
       </div>
