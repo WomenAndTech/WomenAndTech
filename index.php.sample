@@ -13,7 +13,7 @@
  */
 global $site_env;
 $site_env = 'dev';
-
+define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y
 define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */
