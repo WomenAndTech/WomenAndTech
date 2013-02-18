@@ -390,94 +390,103 @@
 </div>
 
   <div class="container">
+
       <section class="row">
-        <div class="span4 info-panel">
-          <aside class="first-row">
+
+        <div class="span7 offset4 interview-panel">
+          <h3>Do consumers have a role to play too?</h3>
+
+          <p>Yes. If we don’t at least demonstrate that we’re concerned about those things, how are we going to get the Privacy Commissioner to step in, or discussions within technology circles about better governance, better data responsibility and better data portability?</p>
+
+          <p>And it’s a funny thing. I think people care once it pinches them. It takes a canary in the coal mine moment.</p>
+
+          <p>Like, insurance companies in the U.S. are looking at a person’s Facebook profile to see, does this person have a lot of friends? Is this a person who drinks and smokes, and what should that mean for their insurance policy? Suddenly you realize, <em>Holy Hannah! Data that I thought was being used for one context is being used for something else.</em></p>      
+        </div>
+
+        <div class="span4 notable-person" id="helen-nissenbaum">
+          <figure class="first-row">
             <div class="arrow"></div>
-            <h3>Advancing CSS</h3>
-            <p class="last"> <a href="http://lesscss.org/" target="_blank">LESS</a> is a <a href="http://www.vanseodesign.com/css/css-preprocessors/" target="_blank">CSS pre-processor</a>, a tool that allows web developers to extend the functionality of CSS with common programming constructs like variables and functions.</p>
-          </aside>
+            <h3>Notable Person</h3>
+            <a href="http://www.nyu.edu/projects/nissenbaum/"
+                title="Helen Nissenbaum's NYU page"
+                target="_blank">
+              <img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/img-Helen-Nissenbaum.jpg'>
+            </a>
+            <figcaption class="clear">
+              <a href="http://www.nyu.edu/projects/nissenbaum/"
+                title="Helen Nissenbaum's NYU page"
+                target="_blank"><h4>Helen Nissenbaum</h4></a>
+              <p>Helen Nissenbaum is an NYU professor who holds a PhD in Philosophy from Stanford. She teaches and writes extensively on the subjects of ethics, politics, computer science and the social implications of digital technology.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
         </div>
 
-        <div class="span7 interview-panel">
+        <div class="span7 offset4 interview-panel">
+          <p>We don’t realize this stuff because we’re used to a certain sense of how privacy is managed. The legal theorist <a href="http://www.concurringopinions.com/archives/2010/01/bright-ideas-helen-nissenbaums-privacy-in-context-technology-policy-and-the-integrity-of-social-life.html" target="_blank">Helen Nissenbaum</a>, calls this the idea of “<a href="http://www.amazon.com/Privacy-Context-Technology-Integrity-Stanford/dp/0804752370" target="_blank">Privacy in Context</a>” – the way we as humans think about privacy is different than how privacy functions in technology.</p>
 
-          <h3>Are there any other new technologies or tools that really excite you, or that you're looking forward to working with?</h3>
-
-          <p>Definitely. When I discovered <a href="http://lesscss.org/" target="_blank">LESS</a> – even though it is a simple tool – I thought “Why aren’t we using this all the time? Why isn’t this built into CSS already?”</p>
-          
+          <p>Everyone has had those weird <a href="http://en.wikipedia.org/wiki/Uncanny_valley" target="_blank">uncanny</a> moments when Facebook suggests as a friend someone you know to be dead. Or when you realize the web browser you’re using is triggering all these assumptions, reflected in the advertising you’re shown. There are moments you know that it is going on, but only when it pops up in this uncanny way.</p>
         </div>
       </section>
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>You've also been involved with <a href="http://alistapart.com/article/responsive-web-design" target="_blank">responsive design</a>, right?</h3>
+          <h3>In your book you also draw a parallel between technology and yoga, saying both can be tools to get to know yourself better. How long have you been practicing yoga?</h3>
 
-          <p>My first involvement with <a href="http://ladieslearningcode.com/" target="_blank">Ladies Learning Code</a> was to present <a href="https://vimeo.com/27903221" target="_blank">a talk on responsive design.</a> I've been pushing myself to think more about responsive techniques, mobile techniques, and how to incorporate that into my everyday workflow. It shouldn't be a second thought anymore; it should be how all websites work. I had an iPhone 3G for the longest time, and I hardly ever used the browser because it was so slow. Then when I got the 4S, I found I was always browsing on the phone and it started to really bother me when sites didn't even have a basic mobile web experience – including my own – so I've come to see the importance of including that.</p>
-          
+          <p>I started in 1989, so a long time. There's something very powerful about being able to simply be aware of your body and mental state without, say, having an app that tracks it. </p>
+
+          <p>You can use a little monitor tracking things like your heart rate, or you can use reminders to check in and ask yourself, what's my mood right now, what's my anxiety level? You can glean insight about what triggers anxiety, for example. But those sorts of external monitors – I see them a little bit as training wheels.</p>
+
+          <p>Awareness of your own body and mental state allows you to have a greater degree of control. That's a very powerful tool of yoga, but it takes longer to get to that point.</p> 
+
+          <p>As I say in the book, there are ways that we can use these technologies to start to listen to our bodies more, to listen to our minds more. But they also do have a way of taking us outside of really residing and being fully, deeply present in the body.</p>
+
+          <p>It's part of contemporary technological life that we value the cerebral at the expense of the embodied. We tend to think about the body in the context of the gym, as a performing, functional machine, which is a limited way of looking at the intelligence that our body brings to us. If you listen to your body, it has a lot of intelligence that your mind doesn't always have access to.</p>
+
+          <p>I admit this sounds a little bit flaky but I believe pretty passionately in it.</p> 
         </div>
       </section>
 
       <section class="row">
-
-        <div class="span7 offset4 interview-panel">
-          <h3>How did you find out about Ladies Learning Code?</h3>
-
-          <p>I wrote a blog post for Teehan+Lax about being a woman in web development [<a href="http://www.teehanlax.com/blog/thats-what-she-said-thoughts-from-a-female-dev/" target="_blank">“That’s what she said: thoughts from a female dev”</a>]. And then <a href="http://womenandtech.com/interview/heather-payne/">Heather Payne</a> reached out to me by leaving a comment, telling me how they were going to start this group and it would be nice if I could help out in some way.</p>
-          
-        </div>
-
         <div class="span11 pull-quote">
           <aside class="quote">
-            <h2>I always felt it was a little too awkward to just show up to tech meetups and code with people I didn’t know.</h2>
+            <h2>Anyone going into journalism now should definitely learn to code, because you should be able to build apps that demonstrate what’s going on in your story, or design great data visualizations to accompany your story.</h2>
           </aside>
           <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
 
         <div class="span7 offset4 interview-panel">
-          <h3>What convinced you to get involved?</h3>
+          <h3>Have you given any thought to applying your accumulated knowledge of technology to something you create yourself?</h3>
 
-          <p>I always felt it was a little too awkward to just show up to tech meetups and code with people I didn’t know. In my mind it felt unnatural. But with this, Heather asked me to do a talk, so it felt more natural to go there and have a purpose instead of just showing up on my own.</p>
-          
+          <p>I have thought about it. Anyone going into journalism now should definitely learn to code, because you should be able to build apps that demonstrate what’s going on in your story, or design great data visualizations to accompany your story. I am definitely curious about it, but so far the time to do it has eluded me. It is something that I would like to try my hand at for sure.</p> 
         </div>
       </section>
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>You’re also a teacher at Humber College, what is it you like (or dislike) about teaching?</h3>
+          <h3>What upcoming projects are you excited about?</h3>
 
-          <p>I dislike marking. It takes so long!</p>
+          <p>As far as <em>Spark</em> goes, we want to do a lot more content for the web. I'm interested in exploring how we can create tools for our users, so that we're more than just a radio show, we're actually providing tools for people's lives. That's a goal I have for this year.</p>
 
-          <p>I like teaching because it actually makes me a better developer. When you're teaching, you can’t just do what you’re accustomed to doing. You have to think about why and you have to explain it. It makes me more careful about what I do and pushes me out of my comfort zone. It forces me to break out of my own routine.</p>
+          <p>I have some speaking engagements coming up that I'm really looking forward to. Being an introvert, I would never have thought I would like getting up in front of perfect strangers and talking, but I really do.</p>
 
-          <p>It's also nice to see other people enjoy the material the way I did when I first discovered it; hearing people say, “Wow!” or having that “Aha!” moment is great. Seeing the students get excited makes me want to go and build something for fun too.</p>
-          
+          <p>I'm excited about talking to the <a href="http://www.priv.gc.ca/index_e.asp" target="_blank">Office of the Privacy Commissioner</a> soon, they do such interesting work. Learning about how people in different areas intersect with technology, what their issues and concerns are, is really fascinating.</p> 
         </div>
       </section>
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>What are some of those “Aha!” moments?</h3>
+          <h3>In your career and personal life, have you ever had any experiences where you felt discrimination because you are a woman?</h3>
 
-          <p>The thing that always blows their minds is being able to “View source.” That gets them every time. “What, you can see everything?” And the second question is almost always, “But how do you hide your stuff? How do you keep people from seeing it?” But, you can’t! I vaguely remember feeling that way too, thinking, “I don’t want people to take my stuff or see my code.”</p>
-          
+          <p>I’ve had the general consumer experience where people assume that you don’t know what you’re talking about in relation to consumer technology. Professionally, I have been really, really assertive in my view that my take on technology is my take on technology, and just because I’m not talking about product specs doesn’t make it less legitimate as a journalistic perspective than any other. Maybe I’m just so confident, I’m not aware of any kind of bias, but I wouldn’t say I’ve experienced it in my professional life.</p> 
         </div>
       </section>
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>Is there anything that you hope to inspire in your students?</h3>
+          <h3>Is that confidence something you’ve developed over time or were you born with it?</h3>
 
-          <p>I think a lot of times we get stuck thinking, “What can I do to get a job that makes good money?” instead of, “What can I do that I enjoy doing?” So I hope to not only teach them the technical ins and outs of HTML and CSS but to show them that it's interesting and it's fun and it's not just a way to make money. Development is something you can actually enjoy and want to do, whether you're getting paid or not.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>What are some of the challenges you face working and teaching in this industry?</h3>
-
-          <p>I think always feeling that you don’t know enough. As soon as you learn a new skill, something else comes up. Keeping up with trends is tough in this industry.</p>
-          
+          <p>I definitely wasn’t born with it. My interest in technology goes back to graduate school. So, it’s developed in virtue of having done this for a long time, and from being good at seeing where technology is going. I think that it is a talent I have – so I have a strength of confidence in that vision.</p> 
         </div>
       </section>
   </div>
@@ -485,21 +494,10 @@
 <li>
   <div class="fullscreen">
     <div class="parallax">
-      <div class="container">
-        <div class="info-panel" id="collage">
-          <aside>
-            <div class="arrow"></div>
-			<h3>Creative Technology</h3>
-          <p class="last">
-            The <a href="http://www.teehanlax.com/labs/" target="_blank" title="Teehan+Lax Labs page">Teehan+Lax Labs</a> are an independent arm of the company where Christina and other employees foster an interest in technologies outside their day-to-day (like Arduino).
-          </p>
-          </aside>
-        </div>
-      </div>
-      <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-soldering-iron.jpg" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/05-Interview.jpg" alt="Nora Young being interviewed by Cassie McDaniel"/>
       <div class="photo-credit light">
         Photo credit:
-        <a href="https://vimeo.com/41917421" title="A still taken from Teehan+Lax's 'Do We Have Milk' experiment trailer" target="_blank">Teehan+Lax Labs</a>
+        <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
       </div>
     </div>
   </div>
@@ -507,103 +505,11 @@
   <div class="container">
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>I’ve often heard the argument made that women don’t advance because they tend to undervalue themselves. Do you agree?</h3>
+          <h3>How can we help promote women in tech, or in journalism?</h3>
 
-          <p>I have read that women generally aren’t as boastful or willing to talk about themselves. And it totally made sense. My personal site used to say, “Hi, I’m Christina and I’m a web developer and I like shoes and food.” Then it hit me – why don’t I talk about what I do? Now my bio says, “I’ve worked with brands such as Bell and Virgin...” Because that’s what I do.</p>
-          
-        </div>
-      </section>
+          <p>On my show it is a challenge every week to find even a remote gender balance with men and women. What I’m most interested in is people who are thinking creatively about technology or designing things that are different technologically. I know there are women out there doing interesting projects, so for me the challenge is in working harder at finding them.</p>
 
-      <section class="row">
-        <div class="span4 info-panel">
-          <aside class="first-row">
-            <div class="arrow"></div>
-            <h3>Lack of Cultural Diversity</h3>
-            <p>Every year, <a href="http://alistapart.com/" target="_blank" title="A List Apart website">A List Apart</a> <a href="http://www.alistapart.com/articles/survey2011/" target="_blank" title="2011 A List Apart Survey Results">conducts a survey</a> of its web industry readership. In 2011, 12.9% of all respondents identified with a visible minority, whereas the total number of female respondents was 18%.
-            </p> <p class="last">ALA also notes that while the percentage of women has risen slightly over the past five years, there has been no significant increase in the number of visible minorities.</p>
-          </aside>
-        </div>
-
-        <div class="span7 interview-panel">
-          <h3>Do you think there should be more female developers or women in the tech industry in general?</h3>
-
-          <p>I don’t know how to answer that! My main concern is that there are a lot of women out there who don’t feel the industry is inclusive or welcoming to women. I hear this from a lot of the students (and mentors) at Ladies Learning Code. If I can help other women feel like they can join this industry, then I’m all for it. If women want to join, then they should join!</p>
-
-          <p>Personally, I feel like there’s a lack of cultural diversity. That affects me more than being a woman. Maybe it’s because there are a lot of women in other roles at my company, despite the numbers of actual female developers. If you look at the numbers in the latest A List Apart survey, the combined total of all the different ethnic groups is less than the number of women who respond. That’s something I would like to see change.</p>
-          
-        </div>
-        
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>If [joining the web industry] is something that you really want to do, then just do it and don't worry about what other people think.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
-        
-        <div class="span7 offset4 interview-panel">
-          <h3>If you could give one piece of advice to someone who is apprehensive or not sure about joining the industry, what would it be?</h3>
-
-          <p>I would say if this is something that you really want to do, then just do it and don't worry about what other people think. If you’re good at it, your work will speak for itself.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-
-        <div class="span4 notable-person" id="NAME">
-          <figure class="first-row">
-            <div class="arrow"></div>
-            <h3>Notable Person</h3>
-            <a href="http://www.sazzy.co.uk/about/"
-              title="Sarah Parmenter's Bio"
-              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/christina-interview/sarah-parmenter.jpg'></a>
-            <figcaption class="clear">
-              <a href="http://www.sazzy.co.uk/about/"
-                title="Sarah Parmenter's Bio"
-                target="_blank"><h4>Sarah Parmenter</h4></a>
-              <p>Sarah Parmenter is a web and iOS UI designer in the UK.</p> 
-              <p>In 2010 she participated in a Boagworld Show podcast that streamed live on the web and was met with numerous sexist comments. Her response to that experience can be found <a href="http://www.sazzy.co.uk/2010/02/dont-you-dare/" target="_blank">here.</a></p>
-            </figcaption>
-            <div style="clear:both"></div>
-          </figure>
-        </div>
-
-        <div class="span7 interview-panel">
-          <h3>Are there any other designers or developers you admire?</h3>
-
-          <p><a href="https://twitter.com/chriscoyier" target="_blank">Chris Coyier</a>. I end up visiting his site, <a href="http://css-tricks.com/" target="_blank">CSS-Tricks</a>, a lot. I find – especially with teaching – he has so many great examples.</p>
-
-          <p>When I started research for my blog post about this idea of women designers and developers being kind of rare thing, I found <a href="https://twitter.com/sazzy" target="_blank">Sarah Parmenter</a>. She did a podcast and received a lot of negative comments about being a female in the industry and wrote this long blog post in response about how she worked really hard to get to where she is. I respect that and I like that she was able to gain recognition through hard work.</p>
-
-          <p>I think maybe I could get there too. This last year has been a whirlwind where I feel like I have been getting more recognition. Ladies Learning Code asked me to come out to Ottawa to lead their first workshop, and I ended up doing a <a href="http://www.cbc.ca/player/News/ID/2309065971/" target="_blank">short interview for CBC Ottawa</a> (which amazed me).</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>How do you think you have gotten to this point where you are starting to get recognized?</h3>
-
-          <p>It depends on the day you ask me. Sometimes I feel like I’ve been in the right place at the right time. Other times, I know I still had to be the one to do something with that right place and right time. It think it feels unexpected because I don’t do what I do for the recognition.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>Any future plans or goals that you are working towards?</h3>
-
-          <p>When I was in school, I thought you had to know how to use all these different technologies and I struggled with that for a while, thinking I have to know how to do everything. But at this point I’ve realized that I just want to focus on what I like doing and get better at that.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>In our last interview, <a href="http://womenandtech.com/interview/ayla-newhouse/">Ayla Newhouse</a> asked, “I find I often get inspired in the middle of the night, what wakes you up at night?”</h3>
-
-          <p>I am up at night thinking about everything. The wheels are always turning. Sometimes it’s inspiration, sometimes I am just thinking about what I have to do the next day. I could be thinking about anything... except sleeping!
-          <span class="full-stop"><img src="<?php echo get_home_url(); ?>/assets/img/full-stop.png" /></span></p>
+          <p>If there were only five interesting technologists, then should two and half of them be women? I think diversity of perspective is a better answer than insisting there must be equal numbers of men and women. I trawl through conference websites all the time, looking for guests, and the number of times I have seen an incredible lack of diversity at conferences is really amazing. Because presumably, those events are not exclusively looking for coders, but for any people who have insight.</p>
           
         </div>
       </section>
@@ -619,9 +525,9 @@
             <div id="question-details">
               <div id="profile-image">
                 <img
-                  src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-portrait-square.jpg" />
+                  src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-portrait-squre.jpg" />
               </div>
-              <h4>How do you balance work and life?</h4>
+              <h4>What technologies that you use allow you to best express who you really are?</h4>
               <div id='quote-mark'>
                 <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
             </div>
@@ -629,7 +535,7 @@
           <div class="row-fluid">
             <div class="span12" id="call-to-action">
               <p>
-                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Nora Young's answer to this question.
+                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Dessie answer to this question.
               </p>
             </div>
           </div>
