@@ -17,9 +17,9 @@
 
 function roots_scripts() {
   /* 
-  * $site_env is set in /index.php
+  * SITE_ENV is set in /index.php
   */
-  global $site_env;
+
 
   wp_enqueue_style('roots_arvo_font', 'http://fonts.googleapis.com/css?family=Arvo:400,400italic|Open+Sans:400italic,600italic,400,600', false, null);
 
@@ -27,7 +27,7 @@ function roots_scripts() {
   * In production, W3 Total Cache concats the CSS files
   * so don't let Wordpress queue them up
   */
-  if ($site_env != 'production'):
+  if (SITE_ENV != 'production'):
     wp_enqueue_style('roots_bootstrap', '/assets/css/bootstrap.css', false, null);
     wp_enqueue_style('roots_bootstrap_responsive', '/assets/css/bootstrap-responsive.css', false, null);    
     wp_enqueue_style('font_awesome', '/assets/css/font-awesome.css', false, null);
