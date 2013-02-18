@@ -26,6 +26,7 @@
     overflow: hidden;
     z-index: 1;
     box-shadow: 0 1px 15px 3px rgba(0, 0, 0, 0.5);
+    padding-bottom: 1em;
 }
 
 .curtains.drawn>li.curtain-hidden,.curtains>li.curtain-hidden {
@@ -319,6 +320,19 @@ aside, figure {
     border-width: 16px 0 16px 16px;
 }
 
+.arrow.left{
+    left: -14px;
+    border-width: 15px 15px 15px 0;
+
+}
+
+.arrow.left:after{
+    left: -1px;
+    border-right-color: #000;
+    border-width: 16px 16px 16px 0;
+}
+
+
 /* Article > Aside > Info-Panel */
 
 .info-panel aside {
@@ -350,6 +364,10 @@ aside, figure {
 
 .info-panel .arrow:after {
     border-left-color: #FF3818;
+}
+
+.info-panel .arrow.left:after {
+    border-right-color: #FF3818;
 }
 
 
@@ -453,6 +471,8 @@ aside, figure {
     margin-bottom: 3.5em;
 
 }
+
+
 
 #profile-image {
     float: left;

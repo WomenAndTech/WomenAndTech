@@ -30,6 +30,7 @@ Interview.css
     overflow: hidden;
     z-index: 1;
     box-shadow: 0 1px 15px 3px rgba(0, 0, 0, 0.5);
+    padding-bottom: 1em;
 }
 
 .curtains.drawn>li.curtain-hidden,.curtains>li.curtain-hidden {
@@ -323,6 +324,18 @@ aside, figure {
     border-width: 16px 0 16px 16px;
 }
 
+.arrow.left{
+    left: -14px;
+    border-width: 15px 15px 15px 0;
+
+}
+
+.arrow.left:after{
+    left: -1px;
+    border-right-color: #000;
+    border-width: 16px 16px 16px 0;
+}
+
 /* Article > Aside > Info-Panel */
 
 .info-panel aside {
@@ -354,6 +367,10 @@ aside, figure {
 
 .info-panel .arrow:after {
     border-left-color: #FF3818;
+}
+
+.info-panel .arrow.left:after {
+    border-right-color: #FF3818;
 }
 
 
@@ -983,20 +1000,6 @@ aside, figure {
     background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
 }
 
-a.tweet-this, a.tweet-this:hover{
-    cursor: pointer;
-    border-bottom: 0;
-    text-decoration: none;
-}
-
-a.tweet-this{
-    color: #444;
-}
-
-a.tweet-this:hover{
-    background:rgba(255, 174, 164, 0.4);
-    color: #000;
-}
 
 #jane-mcgonigal {
 	margin-top:25px;
@@ -1010,6 +1013,12 @@ a.tweet-this:hover{
 }
 .photo-credit.light {
 	background-color:rgba(255,255,255,0.4);
+}
+
+.fullscreen .info-panel#creative-mornings {
+    top:auto;
+    bottom:55%;
+    right: 0;
 }
 
 /* Mobile Fluid */
@@ -1069,7 +1078,7 @@ a.tweet-this:hover{
     .interview section#introduction {
         margin-top: 1.5em;
     }
-	#kesley-blackwell {
+	#jane-mcgonigal {
 		margin-top:0;
 	}
 	.notable-person h4 {

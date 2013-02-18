@@ -29,10 +29,10 @@
       </section>
     </div>
     <div id="portrait" class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-coffee-shop-portrait.jpg" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/01-Mic.jpg" alt="Nora Young in an audio booth at CBC"/>
       <div class="photo-credit light">
         Photo credit:
-        <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
+        <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
       </div>
     </div>
     <!-- <div class="table-of-contents">
@@ -106,7 +106,7 @@
         </div>
       </section>
 
-      <section class="row clearfix">
+      <section class="row">
         <div class="span11 pull-quote">
           <aside class="quote">
             <h2>I'm not a gear hound; I'm more interested in the philosophical aspect of technology than the gear. I think most journalists are generalists, and too much the magpie sort of people to be totally geeky.</h2>
@@ -121,11 +121,11 @@
         </div>
       </section>
 
-      <section class="row">
+      <section class="row clearfix">
         <div class="span4 notable-person photo-callout">
           <figure class="first-row">
             <div class="arrow"></div>
-            <a href="http://cbc.radio-canada.ca/en/explore/who-we-are-what-we-do/" title="Information about The Canadian Broadcasting Corporation"><img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/cbc_radio_logo.jpg" alt="CBC Radio Logo"/></a>
+            <a href="http://cbc.radio-canada.ca/en/explore/who-we-are-what-we-do/" title="Information about The Canadian Broadcasting Corporation"><img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/img-CBC-Radio-logo.jpg" alt="CBC Radio Logo"/></a>
             <figcaption class="clear">
               <p>The Canadian Broadcasting Corporation (CBC), has been operating since July 1, 1927. At the time, American broadcasting was increasing in popularity and beginning to flood Canadian airwaves. In response, the Canadian government created a nationally-owned corporation to help preserve Canada's national identity.</p>
 
@@ -139,15 +139,6 @@
           <h3>Why CBC then?</h3>
           <p>CBC is just who popped up. It's certainly not the only place to be able to explore the questions that Spark does, but it's a pretty wonderful place to be able to explore them, particularly some of the deeper, softer questions around technology and human relationships, rather than covering the new iPhone or the latest business story about technology – all of which are completely reasonable stories to do about technology, but they're done a lot; we don't need to be doing that. I would say that CBC has given us a lot of freedom in that respect.</p>
         </div>
-      </section>
-
-      <section class="row">
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>My stance towards technology is engaged; it's critical but not fearful. </h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
 
         <div class="span7 offset4 interview-panel">
           <h3>On your CBC bio, it says you have a ‘love-hate relationship’ with technology. What do you love about technology and what do you hate about it?</h3>
@@ -156,31 +147,38 @@
 
           <p>There's something specifically lovable about seeing somebody doing something really, really smart on the Web. Human ingenuity and creativity is a source of delight, and I have an almost endless appetite for it. It makes me hopeful that this incredibly open dynamic platform can be used to do some amazing things.</p>
 
+        </div>
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>My stance towards technology is engaged; it's critical but not fearful. </h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+
+        <div class="span7 offset4 interview-panel">
+
           <p>The hate, I think, comes partly from the irritation everyone feels when something is badly designed or is controlling in ways that you don't want to be controlled.</p>  
         </div>
       </section>
-
-
-  </li>
+</li>
   <li>
     <div class="fullscreen">
       <div class="parallax">
         <div class="container">
-          <div class="info-panel" id="teehanandlax">
-            <aside>
+          <div class="info-panel">
+            <!-- <aside>
               <div class="arrow"></div>
               <h3>T+Ler</h3>
               <p class="last">
                 Christina develops at Teehan+Lax, a Toronto-based digital agency well-known for their <a href="http://www.teehanlax.com/work" title="Teehan+Lax website" target="_blank">cutting edge interactive work</a> as well as their <a href="http://www.teehanlax.com/downloads/" title="Teehan+Lax free downloads page" target="_blank">free iPhone and iPad GUI templates</a>, “to help you pitch, design and build amazing software”.
               </p>
-            </aside>
+            </aside> -->
           </div>
         </div>
-        <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-teehan-and-lax.jpg" />
+        <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/02-Nora-in-Studio.jpg" alt="Nora Young smiling in front of a mixing board at CBC" />
         <div class="photo-credit light">
           Photo credit:
-          <a href="http://www.flickr.com/photos/brendanlynch"
-            title="Brendan Lynch's flickr photostream" target="_blank">Brendan Lynch</a>
+          <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
         </div>
       </div>
     </div>
@@ -254,7 +252,7 @@
             <h3>Notable Person</h3>
             <a href="http://en.wikipedia.org/wiki/Linda_Stone"
               title="Linda Stone's wikipedia entry"
-              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/linda-stone.jpg'></a>
+              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/img-Linda-Stone.jpg'></a>
             <figcaption class="clear">
               <a href="http://en.wikipedia.org/wiki/Linda_Stone"
                 title="Linda Stone's wikipedia entry"
@@ -277,7 +275,7 @@
             <h3>Notable Person</h3>
             <a href="http://en.wikipedia.org/wiki/Jane_McGonigal"
               title="Jane McGonigal's wikipedia entry"
-              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/jane-mcgonigal.jpg'></a>
+              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/img-Jane-McGonigal.jpg'></a>
             <figcaption class="clear">
               <a href="http://en.wikipedia.org/wiki/Jane_McGonigal"
                 title="Jane McGonigal's wikipedia entry"
@@ -322,72 +320,50 @@
   </li>
 <li>
   <div class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-subway.jpg" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/03-Book.jpg" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="http://instagram.com/themiguelshow" title="Miguel Weston (themiguelshow) on Instagram" target="_blank">Miguel Weston</a>
+        <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
       </div>
   </div>
 
   <div class="container">
-        <section class="row">
-
-        <div class="span7 offset4 interview-panel">
-          <h3>Any examples of doing things that weren’t expected of you?</h3>
-
-          <p>Well, I think a couple people who might read this interview are going to be surprised that I’m married, because I don’t wear a ring. I didn’t really tell anybody. We got married and a couple of close friends and family know. If it comes up in conversation I tell people, but I didn’t make any formal announcement. We just had a small ceremony. There’s the idea that all women want big weddings. I bought a brown dress, we got married at city hall, and we don’t wear rings – but we’re happy. As I got older, I learned, “I don’t have to do what anybody expects.” I just do what I want.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>How did you and your husband meet?</h3>
-
-          <p>Actually, funny story about my husband and how the Internet changed my life. While I was working at my first job, I started an anonymous personal blog just for fun. He left a comment on my very first blog post. And I looked at his blog and thought, “Hey, this guy’s funny.”</p>
-
-          <p>We were just reading each other’s blogs and then in about six months or so, he emailed me saying he was going to be in Toronto for his birthday and suggested we meet up. When we met in person, we clicked. My life would be very different without the Internet!</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>Definitely! How does technology fit into your life now? Do you think the current proliferation of tech enriches our lives or are there certain cautions that should come with it?</h3>
-
-          <p>I think it definitely enriches our lives and makes it easier to manage our day-to-day lives. But I do think that it can't replace human interaction, real human interaction. Take books for example; as much as it's really handy to have a Kobo or some kind of e-reader with 50 books on it, I personally still like the tactile feeling of a book. I like how it smells, I like how it feels, I like flipping through it. I think that you have to find a balance.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>Is there any challenge to finding that balance, given that you work with tech on a daily basis?</h3>
-
-          <p>When you really enjoy your work, it obviously spills into your life, so turning off the computer and putting your phone down can be hard to do. There are times when I just want to text somebody because I know if I call them, we're going to be on the phone for three hours and I don't have that kind of time. But then I realize maybe there is a reason that we would be on the phone for three hours, that we need that time to interact and connect.</p>
-          
-        </div>
-      </section>
-
       <section class="row">
         <div class="span4 notable-person photo-callout">
           <figure class="first-row">
             <div class="arrow"></div>
-            <a href="http://www.arduino.cc/" title="About Arduino"><img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/arduino-board.jpg" alt="Arduino electronics board"/></a>
+            <a href="http://www.amazon.ca/The-Virtual-Self-Digital-Altering/dp/0771070640" title="Amazon's listing for The Virtual Self"><img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/img-The-Virtual-Self.jpg" alt="Cover of Nora Young's book 'The Virtual Self'"/></a>
             <figcaption class="clear">
-              <p class="last"><a href="http://www.arduino.cc/" title="About Arduino">Arduino</a> is an open-source system made up of simple hardware and easy to program software. Backed by an active community of tinkerers and enthusiasts, Arduino is an easy way for anyone to create input/output based electronic devices.</p>
+              <p>The Virtual Self is Nora's first book, published in spring of 2012. In the book she discusses the implications of self-tracking on society and our personal lives.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
         </div>
-        
-        <div class="span7 interview-panel">
+        <div class="span7 offset4 interview-panel">
+          <h3>One of the issues you raise in your book, The Virtual Self, is what is public and what is private, what belongs to us as individuals vs. what is ours collectively. Can you draw a line between them?</h3>
 
-          <h3>We’d love to hear more about your <a href="http://www.teehanlax.com/labs/do-we-have-milk/" target="_blank">“Do We Have Milk”</a> experiment?  What is that and how did you come up with the idea?</h3>
+          <p>No I don’t think you can, or it is challenging to do that.</p>
 
-          <p>We came up with the idea in the Teehan+Lax labs to build an app that tracks how much milk you have left in the fridge. I hadn't had a lot of experience with technology “outside of the screen”, but I started brainstorming ideas independent of the technology. I love food and love organizing things. So from there we came up with the idea of using <a href="http://www.arduino.cc/" target="_blank">Arduino</a> to combine physical computing and food organization.</p>
+          <p>One of the things you are referring to is the idea that as individuals we may want to hold onto our data, but there are also ways that collectively sharing our data and being open about our data can be useful to us as a community.</p>
 
-          <p>But it wasn’t really just, "Let's track milk." It was an experiment to show people how technology can interact with our daily lives. It's funny, because the day we decided to run with the idea, I was at the store and was hit with the “Do We Have Milk?” question. I was thinking, "I could really use this app right now!" [laughs]</p>
+          <p>The question is, do we have a responsibility with our data? As an individual, I don’t just control my data, I might have a responsibility to share my data with other people. But it’s tricky, because though I believe there is value in our data in the aggregate, you can’t force people to share. So I don’t have an easy answer to that.</p>
+
+          <p>It’s partly whether people feel that there’s a sense of security, guardianship, trusteeship over their data. Is there transparency and consistency in terms of why you’re collecting the data versus how the data is actually used? </p>
+
+          <p>And there’s also a role for fun and play. In researching the book I realized that there is a sense in which we enjoy tracking and sharing. As often as it can be annoying when people send out their Twitter stream of “I just ran five kilometers!” there’s a whole other part that allows us to be connected to the people we’re in social relationships with.</p>   
+        </div>
+      </section>
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>You have an activist sensibility that comes out in <em>The Virtual Self</em> in regards to protecting personal data. What inspired that?</h3>
+
+          <p>I would never be able to do this job if I didn’t think there was a point to talking about these issues. Some eras are characterized by technological change, and we’re going through one right now. There’s a school of thought that suggests humans have the most power in the early stages of any new technology. When you look back at the early days of the car, for instance, all the stuff that we now take as normal for the system of the car was at one time up for grabs and capable of being discussed. But at a certain point, the system was established and now there’s much less flexibility. </p>
+
+          <p>We’re in the relatively early stages of digital culture now. At the same time, new technologies are more broadly distributed than in the past, and we’re not as encouraged to be engaged in thinking about how those technologies are meant to be used, or how they could be used. So we accept the biases of technology without asking questions about it.</p>
+
+          <p>One example we’re all familiar with is Facebook. How you present yourself to the world is as the high school you went to, and the television shows and bands you like. But is that really what defines you as a person? I’m not particularly bashing Facebook, but that’s not how you would describe yourself if you were writing your blog. There is an assumption about what a person’s autobiography means that is baked into how that information is displayed. Is it good for us, or is it good for somebody’s business model? It’s certainly good for Facebook’s <a href="https://www.facebook.com/about/graphsearch" target="_blank">graph search</a>, but there’s a whole lot of other things it doesn’t suit. </p>
+
+          <p>Now, it might be completely reasonable for us to say “Yes, it suits how I want to use Facebook.” But if you don’t ask questions and bring critical thinking to it, what gets left out? If creative technologists and journalists aren’t asking those questions, you can’t fault people who are designing businesses for not asking those questions. It’s incumbent on technologists, designers and journalists to do that.</p>
         </div>
       </section>
     </div>
@@ -396,20 +372,19 @@
 <div class="fullscreen">
   <div class="parallax">
     <div class="container">
-      <div class="info-panel" id="arduino">
+      <div class="info-panel" id="creative-mornings">
         <aside>
-          <div class="arrow"></div>
-          <h3>Get Milk!</h3>
+          <div class="arrow left"></div>
           <p class="last">
-            The <a href="http://www.teehanlax.com/labs/do-we-have-milk/" target="_blank">Do We Have Milk?</a> app helps you know when you’re running low on milk so you can pick some up on your way home. Christina helped develop and build the concept using Arduino technology.
+            Nora Young spoke at <a href="http://creativemorningstoronto.tumblr.com/" target="_blank">CreativeMornings Toronto</a> last November, raising questions about privacy and our responsibility as makers to ensure the wealth of data being created by online participants is used for good.
           </p>
         </aside>
       </div>
     </div>
-    <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-get-milk.jpg" />
+    <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/04-CreativeMornings.jpg" />
     <div class="photo-credit light">
       Photo credit:
-      <a href="https://vimeo.com/41917421" title="A still taken from Teehan+Lax's 'Do We Have Milk' experiment trailer" target="_blank">Teehan+Lax Labs</a>
+      <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
     </div>
   </div>
 </div>
