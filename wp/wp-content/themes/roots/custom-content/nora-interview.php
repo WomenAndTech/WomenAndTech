@@ -65,68 +65,102 @@
           <div id="start-animation" style="width: 300px; height: 90px" class="swiffy"></div>
         </div>
         <div class="span7 interview-panel">
-          <h3>How did you get started as a developer?</h3>
+          <h3>What is your background?</h3>
 
-          <p>I studied Psychology and Communications in university, so I hadn’t planned to be in this industry when I was in school. It sort of just happened totally by accident.</p>
+          <p>I have a long history of being interested in technology, particularly the intersection of technology and culture, and technology and society. It goes back to doing my Masters degree in Political Science at <a href="http://www.mcgill.ca/" target="_blank">McGill</a>, where I focused on Technology and Political Philosophy. It was such a long time ago that people would sometimes ask me things that no one would ask now, like, "What does technology have to do with politics?"</p>
 
-          <p>I had a professor in one of my Communications classes who taught us how to use basic WYSIWYG DreamWeaver and I put together this really awful site. I just thought it was fun. I liked the idea that you could take a blank slate and make something out of it. After I graduated, I didn’t really know what to do with my degree. I ended up working at this temp job; I was an admin assistant but my duties were very far and few between.</p>
-
-          <p>One day I was looking through the mail and there was a pamphlet for Seneca College. I looked at their Web Design program and I thought, “Hey! Why don’t I go back to school and give this a try?” It was four months long and gave me an introduction to everything: HTML, CSS, Photoshop, Flash, PHP and JavaScript.</p>
+          <p>I was really engaged with the topic, and I'm not even solely interested in new technologies; I'm interested in the history of technology as well. I also knew that I wanted to be a journalist.</p>
         </div>
       </section>
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>What challenges did you face early in your career?</h3>
+          <h3>How did you know?</h3>
 
-          <p>My program was so short. It was an intro to everything so I didn’t exactly understand the difference between a Web Designer, a Web Developer, Frontend Developer or Backend Developer. It was all the same to me, and I thought you were supposed to know how to do all those things, all at once.</p>
+          <p>I knew from a really early age, like from my teens. My father had been a journalist. I'm a curious person by nature, and it struck me as a way to explore my interests without getting into too much of a rut; you could do a lot of different things as a journalist. So I started working for CBC, and I was initially doing more arts and pop culture journalism, but I always did it with an eye towards things like new media and technology-related subjects.</p>
+
+          <p>My siblings were very arty. My oldest brother was a jazz musician, my sister is very musical and artistic, my other brother is very artistic. As the youngest kid, in a way, I saw art as the natural path that people in my family followed.</p>
+
+          <p>If I were going to go back and change things, I probably would have wanted to be an architect. I think that speaks to a similar idea of being curious about how things are built and how they work and architecture as a system. I am interested in systems and systems thinking, so that would have been something I would have found fulfilling. </p>
           
         </div>
       </section>
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>What was your first job in the industry like?</h3>
+          <h3>So did you get into journalism through audio, or maybe through writing?</h3>
 
-          <p>I was a Content Coordinator at a corporate financial company. But on the side I had been doing a little bit of freelance development and I thought, this is what I want to do – I don’t want to just push a button in a content management system and there, there’s a pdf. I wanted to be more creative and do more coding.</p>
+          <p>I initially approached it as a print journalist. Radio happened sort of by accident. I answered a want ad in the back of NOW Magazine for a show on CBC Radio called Brand X [now known as <a href="http://en.wikipedia.org/wiki/Definitely_Not_the_Opera" target="_blank">Definitely Not the Opera</a>].</p>
 
-          <p>I ended up breaking into the agency world at a place called <a href="http://www.nurun.com/"  target="_blank">Nurun</a> where I was hired as an Interface Developer/Frontend Developer. It was really great because they gave me a chance to actually flex and learn my development skills. So when I moved to this job I thought “Wait a minute, I’m a developer now!” It was a really nice switch, but kind of scary at the same time.</p>
+          <p>Radio is an amazing medium; it's so quicksilver, easy to manipulate and cheap. Now with podcasting you don't even need broadcast technology to do it. Compared to the amount of hierarchy and coordination that you need to do television, radio is a very freeing medium to work in as a journalist and as a, I hope, creative person.</p>
           
         </div>
+      </section>
 
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>You seem reticent to call yourself a creative person. </h3>
+
+          <p>I suppose that, because I interview a lot people who I think of as really really creative, I am a little hesitant to apply that label to myself. That said, one of the great advantages of Spark is that it is creative. I love that it's not just about facts and arguments but also about the pleasure of exploring story.</p>
+          
+        </div>
+      </section>
+
+      <section class="row clearfix">
         <div class="span11 pull-quote">
           <aside class="quote">
-            <h2>When I do something I always want to be good at it. I felt somewhat disadvantaged because I didn’t have a computer science background and a lot of the developers did.</h2>
+            <h2>I'm not a gear hound; I'm more interested in the philosophical aspect of technology than the gear. I think most journalists are generalists, and too much the magpie sort of people to be totally geeky.</h2>
           </aside>
           <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
 
         <div class="span7 offset4 interview-panel">
-          <h3>What was scary about it?</h3>
+          <h3>Do you identify as a geek?</h3>
 
-          <p>When I do something I always want to be good at it. I felt somewhat disadvantaged because I didn’t have a computer science background and a lot of the developers did. I had technically been in the industry for three years at that point, but didn’t actually have a lot of frontend experience.</p>
-          
+          <p>I do, in the sense that I am curious about the way that things work, and I can get fixated on certain topics. I'm not a gear hound; I'm more interested in the philosophical aspect of technology than the gear. I think most journalists are generalists, and too much the magpie sort of people to be totally geeky. But I can definitely go down some pretty nerdy wormholes with guests, as far as passionate interests go.</p>  
         </div>
       </section>
 
       <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>How did you overcome that?</h3>
+        <div class="span4 notable-person photo-callout">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <a href="http://cbc.radio-canada.ca/en/explore/who-we-are-what-we-do/" title="Information about The Canadian Broadcasting Corporation"><img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/cbc_radio_logo.jpg" alt="CBC Radio Logo"/></a>
+            <figcaption class="clear">
+              <p>The Canadian Broadcasting Corporation (CBC), has been operating since July 1, 1927. At the time, American broadcasting was increasing in popularity and beginning to flood Canadian airwaves. In response, the Canadian government created a nationally-owned corporation to help preserve Canada's national identity.</p>
 
-          <p>All the other developers at Nurun were really helpful. I came in as a junior and they were really good at helping me get better. It’s funny because this whole idea of women in tech – I never felt that was an issue while I was there because there were a lot of female developers (both at Nurun and at my previous job). At one point I think there were even more female than male developers. I never noticed there to be an imbalance.</p>
-          
+              <p>Since then, the CBC has become one of the strongest cultural institutions of Canada. It broadcasts from coast to coast, has 14 foreign bureaus and almost 9000 employees, and receives nearly a billion dollars a year in government funding.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+        
+        <div class="span7 offset4 interview-panel">
+          <h3>Why CBC then?</h3>
+          <p>CBC is just who popped up. It's certainly not the only place to be able to explore the questions that Spark does, but it's a pretty wonderful place to be able to explore them, particularly some of the deeper, softer questions around technology and human relationships, rather than covering the new iPhone or the latest business story about technology – all of which are completely reasonable stories to do about technology, but they're done a lot; we don't need to be doing that. I would say that CBC has given us a lot of freedom in that respect.</p>
         </div>
       </section>
 
       <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>At which point did you become aware of the gender imbalance?</h3>
-
-          <p>At Teehan+Lax. I was the first female there and now I’m one of two.</p>
-          
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>My stance towards technology is engaged; it's critical but not fearful. </h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
-    </section>
-    </div>
+
+        <div class="span7 offset4 interview-panel">
+          <h3>On your CBC bio, it says you have a ‘love-hate relationship’ with technology. What do you love about technology and what do you hate about it?</h3>
+
+          <p>My stance towards technology is engaged; it's critical but not fearful.</p>
+
+          <p>There's something specifically lovable about seeing somebody doing something really, really smart on the Web. Human ingenuity and creativity is a source of delight, and I have an almost endless appetite for it. It makes me hopeful that this incredibly open dynamic platform can be used to do some amazing things.</p>
+
+          <p>The hate, I think, comes partly from the irritation everyone feels when something is badly designed or is controlling in ways that you don't want to be controlled.</p>  
+        </div>
+      </section>
+
+
   </li>
   <li>
     <div class="fullscreen">
@@ -154,70 +188,136 @@
     <div class="container">
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>How did it feel, coming from an environment that was balanced?</h3>
+          <h3>I’m curious about the genesis of <em>Spark</em> and how you may have seen things change over the years.</h3>
 
-          <p>I didn’t feel any different. I was just more aware of the imbalance because people were saying, “There is a new girl coming and she’s a dev.” They didn’t make me feel uncomfortable at all, but I knew that this was an anomaly. They had only ever had one female applicant before.</p>
-
-          <p>It was at that point that I realized that my previous work environments were skewed from the norm. I think it shocked me a bit because I didn’t know that being a “female dev” was something weird. A project manager might ask, “What’s it like being a female dev?” as if it’s something unimaginable, and I’d say, “Well, what’s it like being a project manager?” To me, it’s an odd question because being a woman and a developer never seemed weird to me.</p>
+          <p>I had floated a few ideas with CBC about doing shows that featured a lot of social media content, and that could start to break down the walls in between broadcasting, social media and audience. When I first suggested it, I think it was a little bit too early.</p>
           
-        </div>
-
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>I wear heels to work, I curl my hair every day. Then again I don't want to be stereotypically female either, so I focus on being who I am – this is my work, and this is who I am.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
-
-        <div class="span7 offset4 interview-panel">
-          <h3>How do you think people view developers, and do you fit that mould?</h3>
-
-          <p>I don’t think I do. There definitely is a stereotype of being really geeky and nerdy, and I purposely don’t try to be one of the guys or feel like I have to fit the stereotype. I wear heels to work, I curl my hair every day. Then again I don't want to be stereotypically female either, so I focus on being who I am – this is my work, and this is who I am. And I definitely want other women to see that you can be yourself. At the end of the day you should be comfortable with yourself.</p>
+          <p>In the spring of 2006, I thought of doing a show about technology that's not really about technology, but about all the interstitial aspects of human relationships: about the worlds of work, education, dating, and social relationships, seen through the filtering lens of technology. There was something really powerful about that. I think the timing was right, and I pitched it, and my bosses immediately thought, "That makes a lot of sense, I understand that." That was the origin of Spark. </p>
           
+          <p>There was a lot going on at the time in the Internet space. YouTube and Facebook had already arrived, but in some ways, the fetishizing of our relationship with consumer technology has grown a lot since Spark went on the air. One thing we've returned to look at again is the way consumer technologies give us a lot of capabilities, but we don't really understand how any of them work. That’s an ongoing tension in our relationship with consumer tools.</p>
         </div>
       </section>
-
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>You mentioned on the Teehan+Lax blog that your job is a perfect fit for you. What makes it such a
-            perfect
-            fit?</h3>
+          <h3>How many people are on the <em>Spark</em> team?</h3>
 
-          <p>I like the fact that I get to have my creative moments, and then I get to use my logical side and build stuff. I can get creative with development, especially with CSS3. I can do so much with it, finding ways to make things work. I think that's why I'm more drawn to frontend development rather than backend. You get to see the output for yourself a bit better.</p>
-
-          <p>Even if I want to pull my hair out after dealing with one too many bugs, when I’m done I get to say, “Look what I made!” I feel like I’ve accomplished something. I think it balances the creative and the analytical sides of me.</p>
-          
+          <p>There are four of us, but we don't all work full-time. <a href="http://misener.org/" target="_blank">Dan Misener</a> is just back on the show, he also does a technology column two days a week. I work on Spark four days a week. <a href="http://www.cbc.ca/spark/about.html" target="_blank">Kent Hoffman and Michelle Parise</a> work on the show full time. Kent does most of the mixing and Michelle does all of the fielding, the pitches from freelancers, paying the bills, coordinating everything and making sure things get on the air. We all pitch stories, we all produce stories, we all do the social media side of Spark.</p>
         </div>
       </section>
-
       <section class="row">
-        <div class="span4 info-panel">
-          <aside class="first-row">
+        <div class="span7 offset4 interview-panel">
+          <h3>How long would you say a single episode takes to produce?</h3>
+
+          <p>It’s hard to say, because we work on it in bits and pieces. In general an episode takes a full week.</p> 
+
+          <p>There are lot of things behind the scenes that you don't think about, like you've got to send a version to Australia and to Vermont. There's a different version that re-airs on Sundays. Another version airs on Wednesday. So there are a lot of little steps in addition to packaging the show. </p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>Have people started to copy your strategy of talking about the softer side of tech, or do you feel you still have a special spot in journalism?</h3>
+
+          <p>I think we still have a special spot in tech journalism, but what I've seen happen is that a lot of the kind of stories that Spark used to cover are now just cultural stories. They're stories that may find a home on <a href="http://www.cbc.ca/q/" target="_blank">Q</a> or <a href="http://www.cbc.ca/thecurrent/" target="_blank">The Current</a>. Because it's no longer seen as Technology, with a capital “T,” it's seen as part of life. You now see more Spark stories in journalism in general. But the tech sector still is overwhelmingly wedded to products and business. That's still the bias of the media, partly because that's what pays the bills.</p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>Would you like to see that change?</h3>
+
+          <p>I think there is more room for more types of stories. The Verge does interesting technology stories, and Slate, and The Atlantic as well, so it's not that it's not happening, but it could open up more, for sure.</p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>As part of the CBC, how do you see <em>Spark’s</em> role in creating Canadian cultural identity? </h3>
+
+          <p>People have a lot more choices now, and you have to think of the audience and subject matter more globally than nationally. I obviously hope the show is of particular relevance to Canadians, but technology as a subject crosses borders so much that you have to think about it as being international, which is, in itself, a very Canadian value. We see ourselves as nesting in the global community.</p>
+
+          <p><a href="http://www.cbc.ca/radio/" target="_blank">CBC Radio</a> in particular is going through a really fantastic period. Maybe ten years ago there was a question as to how relevant it was to people’s lives, but the best podcasts that CBC Radio puts out right now would measure up against the best in the world. </p>
+
+          <p>The level of engagement that people have between social media and CBC Radio is amazing. The challenge of trying to keep connected with people is greater than ever, because people are living such diverse lives. To speak to all the communities in Canada is really, really challenging.</p>
+
+        </div>
+      </section>
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>What would you say are the best CBC podcasts?</h3>
+
+          <p>I really like the <a href="http://www.cbc.ca/ideas/" target="_blank">Ideas</a> podcast, it’s very interesting and engaging. I’ve contributed to Ideas in the past. I like Spark. (Laughs) I also like <a href="http://www.cbc.ca/undertheinfluence/" target="_blank">Terry O’Reilly’s show</a>, I think it’s a really great show too.</p>
+
+        </div>
+      </section>
+      <section class="row">
+        <div class="span4 notable-person" id="linda-stone">
+          <figure class="first-row">
             <div class="arrow"></div>
-            <h3>Back in the Day</h3>
-            <p class="last">It's hard to remember a time without dedicated high-speed Internet connections now, but many of us have a special place in our hearts for <a href="http://en.wikipedia.org/wiki/Dial-up_Internet_access" title="Dial-up Internet Wikipedia entry" target="_blank">56K</a> and its familiar song, "kssssssh, bee-boo bee-boo bee-boo."</p>
-          </aside>
-        </div>
-        <div class="span7 interview-panel">
-          <h3>Were computers part of your life growing up?</h3>
-
-          <p>I was the computer person in my family. I would help my dad fix things as a kid. Maybe that’s why I gravitated more towards “stuff that boys do”. I have three older sisters; it was a house full of girls and I was a bit of a tomboy.</p>
-
-          <p>As a teen, I was on the Internet all the time, keeping the phone line busy. The Internet was my way to see other parts of the world or connect with other people. I used to go on chat rooms and talk to people that lived in other cities.</p>
-
-          <p>Growing up in a small city, there wasn’t a lot of cultural diversity, so I always felt like an outcast. I spent most of my early years trying to fit in and be like everyone else, and then when I was about 14, 15 or so, I just said “Forget it!” I kind of went the other route and said “I’m going to be different than everybody, or at least try to be.”</p>
-
-          <p>Since then I’ve always done things that maybe weren’t expected of me. I’m used to doing things my own way. Maybe that’s what helped me go into this career and not worry about whether or not it was normal.</p>
-          
+            <h3>Notable Person</h3>
+            <a href="http://en.wikipedia.org/wiki/Linda_Stone"
+              title="Linda Stone's wikipedia entry"
+              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/linda-stone.jpg'></a>
+            <figcaption class="clear">
+              <a href="http://en.wikipedia.org/wiki/Linda_Stone"
+                title="Linda Stone's wikipedia entry"
+                target="_blank"><h4>Linda Stone</h4></a>
+              <p>Linda Stone, a write and consultant, has worked for both Apple and Microsoft over the course of her career. She's written for Wired, New York Times and Forbes.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
         </div>
 
+        <div class="span7 offset4 interview-panel">
+          <h3>Have you had any mentors in your career?</h3>
+
+          <p>The executive producer on DNTO, Bill Smith was an early mentor of mine in terms of creative techniques and story telling. <a href="http://w3.stu.ca/stu/news/news_view.aspx?id=148069" target=_"blank">Bernie Lucht</a>, who was until recently the Executive Producer of Ideas, has certainly been a real mentor to me in terms of narrative and story.</p>
+        </div>
+
+        <div class="span4 notable-person" id="jane-mcgonigal">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <h3>Notable Person</h3>
+            <a href="http://en.wikipedia.org/wiki/Jane_McGonigal"
+              title="Jane McGonigal's wikipedia entry"
+              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/jane-mcgonigal.jpg'></a>
+            <figcaption class="clear">
+              <a href="http://en.wikipedia.org/wiki/Jane_McGonigal"
+                title="Jane McGonigal's wikipedia entry"
+                target="_blank"><h4>Jane McGonigal</h4></a>
+              <p>Jane McGonigal is a game designer whose first book, Reality Is Broken: Why Games Make us Better and How they Can Change the World, was published in 2011 to mixed reviews. </p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+
+        <div class="span7 offset4 interview-panel">
+          <p>There are people at a greater distance whom I really admire. I admire Linda Stone as somebody who has followed her intellectual passion, and I admire the game designer Jane McGonigal for similar reasons – for having a real vision and not being afraid to be outside of the norm in order to pursue it, because that’s what it takes.</p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>How do you meet the people you work with?</h3>
+
+          <p>I know that networking is an important thing to do but I am just the world's worst networker. I'm a bit of an introvert, so I tend not to. I’ll say I'm going to go to this function or party because I should be networking, but my idea of hell is going to those things! So I do have some problems in that regard.</p>
+
+          <p>More than anything, I look for people who I feel sympatico with, who are interested in the same kinds of questions as I am. I call it "happy collaboration." I really like working with people in small non-hierarchical teams. It’s hard to find somebody that shares your intellectual interests and also has a passion for creative storytelling. When I meet somebody like that, I tend to really sink my teeth into them.</p>
+
+        </div>
+      </section>
+      <section class="row">
         <div class="span11 pull-quote">
           <aside class="quote">
-            <h2>Growing up in a small city, there wasn’t a lot of cultural diversity, so I always felt like an outcast. I spent most of my early years trying to fit in and be like everyone else.</h2>
+            <h2>In journalism especially, that's such a gift, to have somebody who's not really promoting an agenda, not message-tracking or bullshitting you, just talking about what they're passionately interested in. </h2>
           </aside>
           <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
-        </section>
+        <div class="span7 offset4 interview-panel">
+          <h3>It’s interesting that you say you're the world's worst networker, because you have so many conversations with different people in the work you do.</h3>
+
+          <p>It's true, but it's easy to have conversations with the people on Spark. First of all, you're mostly listening. Second, – and this is the amazing thing about making a show like Spark – the people that we have as guests tend to be really passionate about what they're doing. Either they're artists or technologists or bloggers or geeks or academics, and they just want to tell you what they think.</p>
+
+          <p>In journalism especially, that's such a gift, to have somebody who's not really promoting an agenda, not message-tracking or bullshitting you, just talking about what they're passionately interested in. </p>
+
+        </div>
+      </section>
     </div>
   </li>
 <li>
