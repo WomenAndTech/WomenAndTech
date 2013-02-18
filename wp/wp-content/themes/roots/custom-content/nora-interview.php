@@ -101,7 +101,7 @@
         <div class="span7 offset4 interview-panel">
           <h3>You seem reticent to call yourself a creative person. </h3>
 
-          <p>I suppose that, because I interview a lot people who I think of as really really creative, I am a little hesitant to apply that label to myself. That said, one of the great advantages of Spark is that it is creative. I love that it's not just about facts and arguments but also about the pleasure of exploring story.</p>
+          <p>I suppose that, because I interview a lot people who I think of as really really creative, I am a little hesitant to apply that label to myself. That said, one of the great advantages of <em>Spark</em> is that it is creative. I love that it's not just about facts and arguments but also about the pleasure of exploring story.</p>
           
         </div>
       </section>
@@ -137,7 +137,7 @@
         
         <div class="span7 offset4 interview-panel">
           <h3>Why CBC then?</h3>
-          <p>CBC is just who popped up. It's certainly not the only place to be able to explore the questions that Spark does, but it's a pretty wonderful place to be able to explore them, particularly some of the deeper, softer questions around technology and human relationships, rather than covering the new iPhone or the latest business story about technology – all of which are completely reasonable stories to do about technology, but they're done a lot; we don't need to be doing that. I would say that CBC has given us a lot of freedom in that respect.</p>
+          <p>CBC is just who popped up. It's certainly not the only place to be able to explore the questions that <em>Spark</em> does, but it's a pretty wonderful place to be able to explore them, particularly some of the deeper, softer questions around technology and human relationships, rather than covering the new iPhone or the latest business story about technology – all of which are completely reasonable stories to do about technology, but they're done a lot; we don't need to be doing that. I would say that CBC has given us a lot of freedom in that respect.</p>
         </div>
 
         <div class="span7 offset4 interview-panel">
@@ -190,16 +190,16 @@
 
           <p>I had floated a few ideas with CBC about doing shows that featured a lot of social media content, and that could start to break down the walls in between broadcasting, social media and audience. When I first suggested it, I think it was a little bit too early.</p>
           
-          <p>In the spring of 2006, I thought of doing a show about technology that's not really about technology, but about all the interstitial aspects of human relationships: about the worlds of work, education, dating, and social relationships, seen through the filtering lens of technology. There was something really powerful about that. I think the timing was right, and I pitched it, and my bosses immediately thought, "That makes a lot of sense, I understand that." That was the origin of Spark. </p>
+          <p>In the spring of 2006, I thought of doing a show about technology that's not really about technology, but about all the interstitial aspects of human relationships: about the worlds of work, education, dating, and social relationships, seen through the filtering lens of technology. There was something really powerful about that. I think the timing was right, and I pitched it, and my bosses immediately thought, "That makes a lot of sense, I understand that." That was the origin of <em>Spark</em>.</p>
           
-          <p>There was a lot going on at the time in the Internet space. YouTube and Facebook had already arrived, but in some ways, the fetishizing of our relationship with consumer technology has grown a lot since Spark went on the air. One thing we've returned to look at again is the way consumer technologies give us a lot of capabilities, but we don't really understand how any of them work. That’s an ongoing tension in our relationship with consumer tools.</p>
+          <p>There was a lot going on at the time in the Internet space. YouTube and Facebook had already arrived, but in some ways, the fetishizing of our relationship with consumer technology has grown a lot since <em>Spark</em> went on the air. One thing we've returned to look at again is the way consumer technologies give us a lot of capabilities, but we don't really understand how any of them work. That’s an ongoing tension in our relationship with consumer tools.</p>
         </div>
       </section>
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>How many people are on the <em>Spark</em> team?</h3>
 
-          <p>There are four of us, but we don't all work full-time. <a href="http://misener.org/" target="_blank">Dan Misener</a> is just back on the show, he also does a technology column two days a week. I work on Spark four days a week. <a href="http://www.cbc.ca/spark/about.html" target="_blank">Kent Hoffman and Michelle Parise</a> work on the show full time. Kent does most of the mixing and Michelle does all of the fielding, the pitches from freelancers, paying the bills, coordinating everything and making sure things get on the air. We all pitch stories, we all produce stories, we all do the social media side of Spark.</p>
+          <p>There are four of us, but we don't all work full-time. <a href="http://misener.org/" target="_blank">Dan Misener</a> is just back on the show, he also does a technology column two days a week. I work on <em>Spark</em> four days a week. <a href="http://www.cbc.ca/spark/about.html" target="_blank">Kent Hoffman and Michelle Parise</a> work on the show full time. Kent does most of the mixing and Michelle does all of the fielding, the pitches from freelancers, paying the bills, coordinating everything and making sure things get on the air. We all pitch stories, we all produce stories, we all do the social media side of <em>Spark</em>.</p>
         </div>
       </section>
       <section class="row">
@@ -215,7 +215,7 @@
         <div class="span7 offset4 interview-panel">
           <h3>Have people started to copy your strategy of talking about the softer side of tech, or do you feel you still have a special spot in journalism?</h3>
 
-          <p>I think we still have a special spot in tech journalism, but what I've seen happen is that a lot of the kind of stories that Spark used to cover are now just cultural stories. They're stories that may find a home on <a href="http://www.cbc.ca/q/" target="_blank">Q</a> or <a href="http://www.cbc.ca/thecurrent/" target="_blank">The Current</a>. Because it's no longer seen as Technology, with a capital “T,” it's seen as part of life. You now see more Spark stories in journalism in general. But the tech sector still is overwhelmingly wedded to products and business. That's still the bias of the media, partly because that's what pays the bills.</p>
+          <p>I think we still have a special spot in tech journalism, but what I've seen happen is that a lot of the kind of stories that <em>Spark</em> used to cover are now just cultural stories. They're stories that may find a home on <a href="http://www.cbc.ca/q/" target="_blank">Q</a> or <a href="http://www.cbc.ca/thecurrent/" target="_blank">The Current</a>. Because it's no longer seen as Technology, with a capital “T,” it's seen as part of life. You now see more <em>Spark</em> stories in journalism in general. But the tech sector still is overwhelmingly wedded to products and business. That's still the bias of the media, partly because that's what pays the bills.</p>
         </div>
       </section>
       <section class="row">
@@ -241,7 +241,7 @@
         <div class="span7 offset4 interview-panel">
           <h3>What would you say are the best CBC podcasts?</h3>
 
-          <p>I really like the <a href="http://www.cbc.ca/ideas/" target="_blank">Ideas</a> podcast, it’s very interesting and engaging. I’ve contributed to Ideas in the past. I like Spark. (Laughs) I also like <a href="http://www.cbc.ca/undertheinfluence/" target="_blank">Terry O’Reilly’s show</a>, I think it’s a really great show too.</p>
+          <p>I really like the <a href="http://www.cbc.ca/ideas/" target="_blank">Ideas</a> podcast, it’s very interesting and engaging. I’ve contributed to Ideas in the past. I like <em>Spark</em>. (Laughs) I also like <a href="http://www.cbc.ca/undertheinfluence/" target="_blank">Terry O’Reilly’s show</a>, I think it’s a really great show too.</p>
 
         </div>
       </section>
@@ -310,7 +310,7 @@
         <div class="span7 offset4 interview-panel">
           <h3>It’s interesting that you say you're the world's worst networker, because you have so many conversations with different people in the work you do.</h3>
 
-          <p>It's true, but it's easy to have conversations with the people on Spark. First of all, you're mostly listening. Second, – and this is the amazing thing about making a show like Spark – the people that we have as guests tend to be really passionate about what they're doing. Either they're artists or technologists or bloggers or geeks or academics, and they just want to tell you what they think.</p>
+          <p>It's true, but it's easy to have conversations with the people on <em>Spark</em>. First of all, you're mostly listening. Second, – and this is the amazing thing about making a show like <em>Spark</em> – the people that we have as guests tend to be really passionate about what they're doing. Either they're artists or technologists or bloggers or geeks or academics, and they just want to tell you what they think.</p>
 
           <p>In journalism especially, that's such a gift, to have somebody who's not really promoting an agenda, not message-tracking or bullshitting you, just talking about what they're passionately interested in. </p>
 
@@ -502,15 +502,62 @@
     </div>
   </div>
 
-  <div class="container">
+    <div class="container">
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>How can we help promote women in tech, or in journalism?</h3>
 
           <p>On my show it is a challenge every week to find even a remote gender balance with men and women. What I’m most interested in is people who are thinking creatively about technology or designing things that are different technologically. I know there are women out there doing interesting projects, so for me the challenge is in working harder at finding them.</p>
 
-          <p>If there were only five interesting technologists, then should two and half of them be women? I think diversity of perspective is a better answer than insisting there must be equal numbers of men and women. I trawl through conference websites all the time, looking for guests, and the number of times I have seen an incredible lack of diversity at conferences is really amazing. Because presumably, those events are not exclusively looking for coders, but for any people who have insight.</p>
-          
+          <p>If there were only five interesting technologists, then should two and half of them be women? I think diversity of perspective is a better answer than insisting there must be equal numbers of men and women. I trawl through conference websites all the time, looking for guests, and the number of times I have seen an incredible lack of diversity at conferences is really amazing. Because presumably, those events are not exclusively looking for coders, but for any people who have insight.</p>    
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>Not that I was any good at it, but if I had advice based on having not put my hand up, putting your hand up is much better.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+        <div class="span7 offset4 interview-panel">
+          <h3>Any advice for young women just starting their careers?</h3>
+
+          <p>Figure out what it is that you are most passionate about that you can grow with. I’ve been working in more or less the same area for nearly twenty years, and I am still really passionate about the subject. When I first started in radio, people were cutting physical tapes with razor blades. It’s going to continue to change. The part that I’m passionate about is the subject itself and its creative exploration.</p>
+
+          <p>It’s a generalization, but as women it’s important to not be afraid to put yourself out there. Not that I was any good at it, but if I had advice based on having not put my hand up, putting your hand up is much better.</p>    
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>It’s weird to have a big chunk of your career rest on something you have absolutely no control over. Aside from not pouring battery acid down my throat, there’s not a lot I can do about my voice. </h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+        <div class="span7 offset4 interview-panel">
+          <h3>One last question of my own: About your voice – have you done any voice training?</h3>
+
+          <p>No, but I’ve learned not to do certain things. My natural tendency is to go on and on and have my voice trail off, it’s how I naturally speak. I’ve had to learn not to do that, because it’s actually really annoying when someone does that.</p>
+
+          <p>It’s weird to have a big chunk of your career rest on something you have absolutely no control over. Aside from not pouring battery acid down my throat, there’s not a lot I can do about my voice. I have come to be thankful because it’s a helpful instrument for doing the job. </p>    
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>Our previous interviewee, <a href="http://womenandtech.com/interview/christina-truong/">Christina Truong</a>, asked a question for the next interviewee without knowing who they are. Her question was, how do you balance work and life?</h3>
+
+          <p>[Laughs] I've just decided that this will be the year I figure that out. I'm not necessarily that great at it. Having just said all that stuff about yoga, I don't always give myself the opportunity to savor the things that are going on in my life.</p>
+
+          <p>Maybe this is one reason why I'm so drawn to yoga, because it forces you to be present in what's going right now. I've become an advocate of the old idea, "You can have it all, but just not all at the same time."</p>
+
+          <p>This fall was very busy for me, and there wasn’t a lot of time for my life. But then in December there was this fallow period. I think you have to nourish the fallow periods, and use those as an opportunity for seeing what’s essential to who you are as a creative person. So I’m trying to get better at enjoying the fallow time while it lasts instead of reverting to, “What’s the next thing I have to do?”</p>
+
+          <p>But I'm not very good at the work life balance thing. And part of that is a good thing because I love my job. I used to be someone who said, “You love your job? Come on, you like your job.” But I really love my job.</p>
+
+          <p>So there's a good side of the lack of work life balance too, which is that if you're doing work that you really like, it naturally fills up a lot of your life.</p>
         </div>
       </section>
 
@@ -546,7 +593,7 @@
           <img src="<?php echo get_home_url(); ?>/assets/img/end-tag.png" />
         </div>
       </div>
-
-    </div><!-- container --> </li>
+    </div><!-- container -->
+  </li>
 </ol>
 
