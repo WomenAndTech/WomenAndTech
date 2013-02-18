@@ -11,10 +11,11 @@
  *
  * @var bool
  */
-global $site_env;
-$site_env = 'dev';
-define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y
+
 define('WP_USE_THEMES', true);
+
+define('SITE_ENV', 'dev'); //Environment variable
+define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y
 
 /** Loads the WordPress Environment and Template */
 require('./wp/wp-blog-header.php');
