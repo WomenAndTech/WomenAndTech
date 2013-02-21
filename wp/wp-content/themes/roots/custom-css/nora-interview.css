@@ -1000,9 +1000,12 @@ aside, figure {
     background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
 }
 
+.notable-person.double .first {
+    margin-bottom: 10px;
+}
 
 #jane-mcgonigal {
-	margin-top:25px;
+	margin:0;
 }
 
 .notable-person h4 {
@@ -1017,7 +1020,7 @@ aside, figure {
 
 .fullscreen .info-panel#creative-mornings {
     top:auto;
-    bottom:55%;
+    bottom:45%;
     right: 0;
 }
 
