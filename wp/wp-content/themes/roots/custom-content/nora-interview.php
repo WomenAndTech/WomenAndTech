@@ -560,7 +560,7 @@
             <div id="question-details">
               <div id="profile-image">
                 <img
-                  src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-portrait-squre.jpg" />
+                  src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-portrait-square.jpg" />
               </div>
               <h4>What technologies that you use allow you to best express who you really are?</h4>
               <div id='quote-mark'>
