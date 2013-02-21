@@ -1,5 +1,4 @@
 <?php global $post;
-	global $site_env;
 	if (is_home()||is_single()):
 		$social_image=wp_get_attachment_url(get_post_thumbnail_id( (int) $post->ID));
 	else:
@@ -42,4 +41,4 @@
 
 <meta name="description" content="<?php echo strip_tags($social_description[0]); ?>">
 
-<!-- Site Environment: <?php echo $site_env; ?> -->
+<!-- Site Environment: <?php echo SITE_ENV; ?> -->
