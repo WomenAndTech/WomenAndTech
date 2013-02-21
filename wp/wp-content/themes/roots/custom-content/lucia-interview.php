@@ -225,7 +225,7 @@
     </div>
 </li>
 <li>
-  <div class="fullscreen"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-photo-3.JPG" /></div>
+  <div class="fullscreen"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-photo-3.jpg" /></div>
   <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
@@ -269,7 +269,7 @@
   </div>
 </li>
 <li>
-  <div class="fullscreen"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-1.JPG" /></div>
+  <div class="fullscreen"><img src="<?php echo get_home_url(); ?>/assets/img/lucia-interview/lucia-mariani-girls-in-tech-1.jpg" /></div>
   <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
