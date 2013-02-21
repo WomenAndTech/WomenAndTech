@@ -503,7 +503,9 @@
 
           <p>No, but I’ve learned not to do certain things. My natural tendency is to go on and on and have my voice trail off, it’s how I naturally speak. I’ve had to learn not to do that, because it’s actually really annoying when someone does that.</p>
 
-          <p>It’s weird to have a big chunk of your career rest on something you have absolutely no control over. Aside from not pouring battery acid down my throat, there’s not a lot I can do about my voice. I have come to be thankful because it’s a helpful instrument for doing the job. </p>    
+          <p>It’s weird to have a big chunk of your career rest on something you have absolutely no control over. Aside from not pouring battery acid down my throat, there’s not a lot I can do about my voice. I have come to be thankful because it’s a helpful instrument for doing the job. </p> 
+
+          <p>[Editor’s note: Listen to <a href="http://www.cbc.ca/spark/episodes/2013/01/04/spark-202-ethical-sales-ethical-internet/" target="_blank">one of our favorite Spark episodes</a> in which Nora speaks to <a href="https://twitter.com/DanielPink" target="_blank">Daniel Pink</a> about what it means to “sell”.]</p>   
         </div>
       </section>
 
