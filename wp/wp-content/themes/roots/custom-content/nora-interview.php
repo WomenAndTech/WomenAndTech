@@ -125,11 +125,9 @@
         <div class="span4 notable-person photo-callout">
           <figure class="first-row">
             <div class="arrow"></div>
-            <a href="http://cbc.radio-canada.ca/en/explore/who-we-are-what-we-do/" title="Information about The Canadian Broadcasting Corporation"><img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/img-CBC-Radio-logo.jpg" alt="CBC Radio Logo"/></a>
+            <a href="http://cbc.radio-canada.ca/en/explore/who-we-are-what-we-do/" title="Information about The Canadian Broadcasting Corporation"><img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/cbc_logo.png" alt="CBC Logo"/></a>
             <figcaption class="clear">
-              <p>The Canadian Broadcasting Corporation (CBC), has been operating since July 1, 1927. At the time, American broadcasting was increasing in popularity and beginning to flood Canadian airwaves. In response, the Canadian government created a nationally-owned corporation to help preserve Canada's national identity.</p>
-
-              <p>Since then, the CBC has become one of the strongest cultural institutions of Canada. It broadcasts from coast to coast, has 14 foreign bureaus and almost 9000 employees, and receives nearly a billion dollars a year in government funding.</p>
+              <p>The Canadian Broadcasting Corporation (CBC) was formed in 1927 to help protect Canada's cultural identity from American broadcasting flooding the airwaves. The CBC now broadcasts from coast to coast, has 14 foreign bureaus and almost 9000 employees, and receives nearly a billion dollars a year in government funding.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
@@ -164,17 +162,6 @@
   <li>
     <div class="fullscreen">
       <div class="parallax">
-        <div class="container">
-          <div class="info-panel">
-            <!-- <aside>
-              <div class="arrow"></div>
-              <h3>T+Ler</h3>
-              <p class="last">
-                Christina develops at Teehan+Lax, a Toronto-based digital agency well-known for their <a href="http://www.teehanlax.com/work" title="Teehan+Lax website" target="_blank">cutting edge interactive work</a> as well as their <a href="http://www.teehanlax.com/downloads/" title="Teehan+Lax free downloads page" target="_blank">free iPhone and iPad GUI templates</a>, “to help you pitch, design and build amazing software”.
-              </p>
-            </aside> -->
-          </div>
-        </div>
         <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/02-Nora-in-Studio.jpg" alt="Nora Young smiling in front of a mixing board at CBC" />
         <div class="photo-credit light">
           Photo credit:
@@ -257,7 +244,7 @@
               <a href="http://en.wikipedia.org/wiki/Linda_Stone"
                 title="Linda Stone's wikipedia entry"
                 target="_blank"><h4>Linda Stone</h4></a>
-              <p>Linda Stone, a write and consultant, has worked for both Apple and Microsoft over the course of her career. She's written for Wired, New York Times and Forbes.</p>
+              <p>Linda Stone, a writer and consultant, has worked for both Apple and Microsoft over the course of her career. She's written for Wired, New York Times and Forbes.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
@@ -509,7 +496,8 @@
 
           <p>On my show it is a challenge every week to find even a remote gender balance with men and women. What I’m most interested in is people who are thinking creatively about technology or designing things that are different technologically. I know there are women out there doing interesting projects, so for me the challenge is in working harder at finding them.</p>
 
-          <p>If there were only five interesting technologists, then should two and half of them be women? I think diversity of perspective is a better answer than insisting there must be equal numbers of men and women. I trawl through conference websites all the time, looking for guests, and the number of times I have seen an incredible lack of diversity at conferences is really amazing. Because presumably, those events are not exclusively looking for coders, but for any people who have insight.</p>    
+          <p>If there were only five interesting technologists, then should two and half of them be women? I think diversity of perspective is a better answer than insisting there must be equal numbers of men and women. I trawl through conference websites all the time, looking for guests, and the number of times I have seen an incredible lack of diversity at conferences is really amazing. Because presumably, those events are not exclusively looking for coders, but for any people who have insight.</p>
+		  <p>The problem isn’t that you can't find enough interesting or qualified people. To talk about quotas or no quotas sort of misses the mark. There are lots of people doing interesting work. Full stop. And we know diversity of perspective is a good thing, not just from a do-gooder point of view, but from a results point of view. So, diversity all around (gender, ethnicity, class, etc.) is a good idea.</p>    
         </div>
       </section>
 
