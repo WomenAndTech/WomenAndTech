@@ -29,36 +29,12 @@
       </section>
     </div>
     <div id="portrait" class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/01-Mic.jpg" alt="Nora Young in an audio booth at CBC"/>
+      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-young-in-the-cbc-studio.jpg" alt="Nora Young in an audio booth at CBC"/>
       <div class="photo-credit light">
         Photo credit:
         <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
       </div>
     </div>
-    <!-- <div class="table-of-contents">
-      <div class="container">
-        <div class="row">
-          <div class="span4">
-            <div class="row" id="coffee-time">
-              <div class="span1">
-                <div id="coffee-animation" style="width: 76px; height: 76px" class="swiffy"></div>
-              </div>
-              <div class="span3">
-                <p class="last">
-                  We met for coffee after work on a rainy evening in Liberty Village.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="span8">
-            <div class="illustrations">
-              <div id="table-of-contents-animation" style="width: 770px; height: 190px" class="swiffy"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <div class="container">
       <section class="row">
         <div class="span4" id="start-tag">
@@ -127,7 +103,7 @@
             <div class="arrow"></div>
             <a href="http://cbc.radio-canada.ca/en/explore/who-we-are-what-we-do/" title="Information about The Canadian Broadcasting Corporation"><img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/cbc_logo.png" alt="CBC Logo"/></a>
             <figcaption class="clear">
-              <p>The Canadian Broadcasting Corporation (CBC) was formed in 1927 to help protect Canada's cultural identity from American broadcasting flooding the airwaves. The CBC now broadcasts from coast to coast, has 14 foreign bureaus and almost 9000 employees, and receives nearly a billion dollars a year in government funding.</p>
+              <p>The <a href="http://en.wikipedia.org/wiki/Canadian_Broadcasting_Corporation" title="Wikipedia article on Canadian Broadcasting Corporation" target="_blank">Canadian Broadcasting Corporation (CBC)</a> was formed in 1927 to help protect Canada's cultural identity from American broadcasting flooding the airwaves. The CBC now broadcasts from coast to coast, has 14 foreign bureaus and almost 9000 employees, and receives nearly a billion dollars a year in government funding.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
@@ -162,7 +138,7 @@
   <li>
     <div class="fullscreen">
       <div class="parallax">
-        <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/02-Nora-in-Studio.jpg" alt="Nora Young smiling in front of a mixing board at CBC" />
+        <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-young-mixing-board.jpg" alt="Nora Young smiling in front of a mixing board at CBC" />
         <div class="photo-credit light">
           Photo credit:
           <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
@@ -233,11 +209,12 @@
         </div>
       </section>
       <section class="row">
-        <div class="span4 notable-person" id="linda-stone">
+        <div class="span4 notable-person double" id="linda-stone">
           <figure class="first-row">
             <div class="arrow"></div>
-            <h3>Notable Person</h3>
-            <a href="http://en.wikipedia.org/wiki/Linda_Stone"
+            <h3>Notable People</h3>
+            <div id="linda-stone" class="first">
+			<a href="http://en.wikipedia.org/wiki/Linda_Stone"
               title="Linda Stone's wikipedia entry"
               target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/img-Linda-Stone.jpg'></a>
             <figcaption class="clear">
@@ -247,20 +224,9 @@
               <p>Linda Stone, a writer and consultant, has worked for both Apple and Microsoft over the course of her career. She's written for Wired, New York Times and Forbes.</p>
             </figcaption>
             <div style="clear:both"></div>
-          </figure>
-        </div>
-
-        <div class="span7 offset4 interview-panel">
-          <h3>Have you had any mentors in your career?</h3>
-
-          <p>The executive producer on DNTO, Bill Smith was an early mentor of mine in terms of creative techniques and story telling. <a href="http://w3.stu.ca/stu/news/news_view.aspx?id=148069" target=_"blank">Bernie Lucht</a>, who was until recently the Executive Producer of Ideas, has certainly been a real mentor to me in terms of narrative and story.</p>
-        </div>
-
-        <div class="span4 notable-person" id="jane-mcgonigal">
-          <figure class="first-row">
-            <div class="arrow"></div>
-            <h3>Notable Person</h3>
-            <a href="http://en.wikipedia.org/wiki/Jane_McGonigal"
+			</div>
+			<div id="jane-mcgonigal">
+			<a href="http://en.wikipedia.org/wiki/Jane_McGonigal"
               title="Jane McGonigal's wikipedia entry"
               target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/img-Jane-McGonigal.jpg'></a>
             <figcaption class="clear">
@@ -270,8 +236,16 @@
               <p>Jane McGonigal is a game designer whose first book, Reality Is Broken: Why Games Make us Better and How they Can Change the World, was published in 2011 to mixed reviews. </p>
             </figcaption>
             <div style="clear:both"></div>
+			</div>
           </figure>
         </div>
+
+        <div class="span7 offset4 interview-panel">
+          <h3>Have you had any mentors in your career?</h3>
+
+          <p>The executive producer on DNTO, Bill Smith was an early mentor of mine in terms of creative techniques and story telling. <a href="http://w3.stu.ca/stu/news/news_view.aspx?id=148069" target=_"blank">Bernie Lucht</a>, who was until recently the Executive Producer of Ideas, has certainly been a real mentor to me in terms of narrative and story.</p>
+        </div>
+
 
         <div class="span7 offset4 interview-panel">
           <p>There are people at a greater distance whom I really admire. I admire Linda Stone as somebody who has followed her intellectual passion, and I admire the game designer Jane McGonigal for similar reasons – for having a real vision and not being afraid to be outside of the norm in order to pursue it, because that’s what it takes.</p>
@@ -307,7 +281,7 @@
   </li>
 <li>
   <div class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/03-Book.jpg" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-young-the-virtual-self.jpg" />
       <div class="photo-credit light">
         Photo credit:
         <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
@@ -321,7 +295,7 @@
             <div class="arrow"></div>
             <a href="http://www.amazon.ca/The-Virtual-Self-Digital-Altering/dp/0771070640" title="Amazon's listing for The Virtual Self"><img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/img-The-Virtual-Self.jpg" alt="Cover of Nora Young's book 'The Virtual Self'"/></a>
             <figcaption class="clear">
-              <p>The Virtual Self is Nora's first book, published in spring of 2012. In the book she discusses the implications of self-tracking on society and our personal lives.</p>
+              <p><a href="http://www.amazon.ca/The-Virtual-Self-Digital-Altering/dp/0771070640" title="Amazon's listing for The Virtual Self" target="_blank">The Virtual Self</a> is Nora's first book, published in spring of 2012. In the book she discusses the implications of self-tracking on society and our personal lives.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
@@ -368,7 +342,7 @@
         </aside>
       </div>
     </div>
-    <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/04-CreativeMornings.jpg" />
+    <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-young-creative-mornings.jpg" />
     <div class="photo-credit light">
       Photo credit:
       <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
@@ -481,7 +455,7 @@
 <li>
   <div class="fullscreen">
     <div class="parallax">
-      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/05-Interview.jpg" alt="Nora Young being interviewed by Cassie McDaniel"/>
+      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-and-cassie.jpg" alt="Nora Young being interviewed by Cassie McDaniel"/>
       <div class="photo-credit light">
         Photo credit:
         <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
