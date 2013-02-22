@@ -41,4 +41,9 @@
 
 <meta name="description" content="<?php echo strip_tags($social_description[0]); ?>">
 
-<!-- Site Environment: <?php echo SITE_ENV; ?> -->
+<?php
+	global $SITE_ENV;
+	global $GOOGLE_ANALYTICS_ID;
+?>
+<!-- ID: <?php echo $GOOGLE_ANALYTICS_ID; ?> -->
+<!-- Site Environment: <?php echo $SITE_ENV; ?> -->
