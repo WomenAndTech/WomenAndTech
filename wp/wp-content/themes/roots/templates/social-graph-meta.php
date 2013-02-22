@@ -44,6 +44,9 @@
 <?php
 	global $SITE_ENV;
 	global $GOOGLE_ANALYTICS_ID;
+
 ?>
 <!-- ID: <?php echo $GOOGLE_ANALYTICS_ID; ?> -->
 <!-- Site Environment: <?php echo $SITE_ENV; ?> -->
+
+<!-- <?php var_dump($GLOBALS); ?> -->
