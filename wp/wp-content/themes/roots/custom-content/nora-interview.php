@@ -204,7 +204,7 @@
         <div class="span7 offset4 interview-panel">
           <h3>What would you say are the best CBC podcasts?</h3>
 
-          <p>I really like the <a href="http://www.cbc.ca/ideas/" target="_blank">Ideas</a> podcast, it’s very interesting and engaging. I’ve contributed to Ideas in the past. I like <em>Spark</em>. (Laughs) I also like <a href="http://www.cbc.ca/undertheinfluence/" target="_blank">Terry O’Reilly’s show</a>, I think it’s a really great show too.</p>
+          <p>I really like the <a href="http://www.cbc.ca/ideas/" target="_blank">Ideas</a> podcast, it’s very interesting and engaging. I’ve contributed to Ideas in the past. I like <em>Spark</em>. [Laughs] I also like <a href="http://www.cbc.ca/undertheinfluence/" target="_blank">Terry O’Reilly’s show</a>, I think it’s a really great show too.</p>
 
         </div>
       </section>
@@ -511,7 +511,7 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>Our previous interviewee, <a href="http://womenandtech.com/interview/christina-truong/">Christina Truong</a>, asked a question for the next interviewee without knowing who they are. Her question was, how do you balance work and life?</h3>
+          <h3>In our last interview, <a href="http://womenandtech.com/interview/christina-truong/">Christina Truong</a>, asked, "How do you balance work and life?"</h3>
 
           <p>[Laughs] I've just decided that this will be the year I figure that out. I'm not necessarily that great at it. Having just said all that stuff about yoga, I don't always give myself the opportunity to savor the things that are going on in my life.</p>
 
@@ -546,7 +546,7 @@
           <div class="row-fluid">
             <div class="span12" id="call-to-action">
               <p>
-                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Dessie answer to this question.
+                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Dessy's answer to this question.
               </p>
             </div>
           </div>
