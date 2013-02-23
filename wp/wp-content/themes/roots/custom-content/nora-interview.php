@@ -511,7 +511,7 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>In our last interview, <a href="http://womenandtech.com/interview/christina-truong/">Christina Truong</a>, asked, "How do you balance work and life?"</h3>
+          <h3>In our last interview, <a href="http://womenandtech.com/interview/christina-truong/">Christina Truong</a> asked, "How do you balance work and life?"</h3>
 
           <p>[Laughs] I've just decided that this will be the year I figure that out. I'm not necessarily that great at it. Having just said all that stuff about yoga, I don't always give myself the opportunity to savor the things that are going on in my life.</p>
 
