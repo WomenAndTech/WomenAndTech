@@ -1,3 +1,7 @@
+/*=============================
+Interview.css
+=============================*/
+
 /*-----------------------------------------------------*/
 /*-----------------------INTERVIEW STYLES--------------*/
 /*-----------------------------------------------------*/
@@ -332,7 +336,6 @@ aside, figure {
     border-width: 16px 16px 16px 0;
 }
 
-
 /* Article > Aside > Info-Panel */
 
 .info-panel aside {
@@ -471,8 +474,6 @@ aside, figure {
     margin-bottom: 3.5em;
 
 }
-
-
 
 #profile-image {
     float: left;
@@ -927,12 +928,17 @@ aside, figure {
     }
 }
 
+
+/*=============================
+=============================*/
+
+
 .no-svg #table-of-contents-animation {
-    background:transparent url("../img/ariel-interview/img-swiffy-table-of-contents.gif") no-repeat left top;
+    /*background:transparent url("../img/christina-interview/img-swiffy-table-of-contents.gif") no-repeat left top;*/
 }
 
 .no-svg #coffee-animation {
-    background:transparent url("../img/lucia-interview/img-swiffy-coffee-cup.png") no-repeat left top;
+    /*background:transparent url("../img/lucia-interview/img-swiffy-coffee-cup.png") no-repeat left top;*/
 }
 
 /* Article > Header */
@@ -941,8 +947,8 @@ aside, figure {
     padding: 0.4em 0.6em 0.4em 0.65em;
 }
 
-.interview address #author-milang {
-    background: url('http://api.twitter.com/1/users/profile_image?screen_name=milang&size=bigger') center center no-repeat;
+.interview address .author-image{
+    background: url('http://api.twitter.com/1/users/profile_image?screen_name=cassiemc&size=bigger') center center no-repeat;
     background-size: 110%;
 }
 
@@ -952,33 +958,176 @@ aside, figure {
     min-width: 748px;
 }
 
-.fullscreen .info-panel#wozniak {
-	top:auto;
-	bottom:45%;
+.fullscreen .info-panel#teehanandlax {
+	right:0;
+	top:45%;
 }
+.fullscreen .info-panel#teehanandlax .arrow {
+	left:-14px;
+	border-width:15px 0 15px 15px;
+}
+.fullscreen .info-panel#teehanandlax .arrow:after {
+	border-width:16px 16px 16px 0;
+	border-right-color:#FF3818;
+	border-left-color:transparent;
+}
+
+
+/* CAPTION POSITIONS */
+/* uncomment and modify as needed */
+/*
+
+.fullscreen .info-panel#pecha-kucha {
+    top:auto;
+    bottom:50%;
+}
+
+.fullscreen .info-panel#illustrations {
+    top:25%
+}
+
+.fullscreen .info-panel#screenshots {
+    top:5%
+}
+
+.fullscreen .info-panel aside{
+}
+*/
+
 
 /* Article > Start Tag */
 .no-svg #start-animation {
     background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
 }
 
+.notable-person.double .first {
+    margin-bottom: 10px;
+}
+
+#jane-mcgonigal {
+	margin:0;
+}
+
+.notable-person h4 {
+	font-size: 1.071em;
+	line-height: 1.3em;
+	margin: 0 0 0.25em;
+	font-weight: bold;
+}
+.photo-credit.light {
+	background-color:rgba(255,255,255,0.4);
+}
+
+.fullscreen .info-panel#creative-mornings {
+    top:auto;
+    bottom:45%;
+    right: 0;
+}
 
 /* Mobile Fluid */
 @media (max-width:767px) {
-    
-    .fullscreen .info-panel#wozniak {
-        bottom:0;
+
+    .curtains.drawn > li .fullscreen{
+        margin-top: 10px;
     }
-    .fullscreen #mounties .info-panel {
-        top: 0;
-        bottom: auto;
-        position: relative;
-        display: block;
-        z-index: 9;
+
+    .fullscreen {
+        height: inherit;
     }
-    .fullscreen #mounties img {
-        position:relative;
+    .fullscreen img {
+        min-height: inherit;
+        min-width: inherit;
+        position: static;
+        margin-left: inherit;
+        top: inherit;
+        left: inherit;
     }
+
+
+    .photo-credit, .photo-credit.light, .photo-credit.dark{
+        position:static;
+        height: inherit;
+        color: #999;
+        background-color: transparent;
+    }
+
+    .photo-credit a, .photo-credit a:visited, .photo-credit.light a, .photo-credit.light a:visited, .photo-credit.dark a, .photo-credit.dark a:visited{
+        color: #888;
+    }
+
+    .fullscreen .parallax{
+        position: static;
+        height: inherit;
+    }
+
+    .fullscreen .info-panel{
+        width: inherit;
+        top: inherit;
+        position: static;
+    }
+
+    .callout-question h4 {
+        margin-top: 1em;
+    }
+
+    .callout-question #quote-mark{
+        top: 2em;
+    }
+
+    .photo-callout img{
+        float: none;
+    }
+
+    .interview section#introduction {
+        margin-top: 1.5em;
+    }
+	#jane-mcgonigal {
+		margin-top:0;
+	}
+	.notable-person h4 {
+		line-height:1.5em;
+	}
+}
+
+@media (max-width:480px) {
+    .callout-question h4 {
+        margin-right: 10px;
+        margin-top: 1em;
+    }
+    .callout-question #quote-mark{
+        display: none;
+    }
+    .interview section#introduction {
+        margin-top: 2.5em;
+    }
+    .interview .interview-number{
+        margin-top: 0.2em;
+    }
+    .interview h1{
+        font-size: 2.2em;
+        margin-bottom: 0.7em;
+        top: 0.6em;
+    }
+
+    .interview address{
+        font-size: 1em;
+    }
+
+    .interview address .author-info .author{
+        margin-bottom:0.4em;
+    }
+
+    .interview address .date{
+        font-size: 0.9em;
+        color: #888;
+    }
+	#kesley-blackwell {
+		margin-top:0;
+	}
+	.notable-person h4 {
+		line-height:1.5em;
+	}
+
 }
 
 /* ------------Vestigial---------------- */
@@ -1088,6 +1237,7 @@ aside, figure {
     float: left;
     margin-top: 0.5em;
 }
+
 
 
 
