@@ -722,6 +722,11 @@
 
 /* Mobile Fluid */
 @media (max-width:767px) {
+
+    .curtains.drawn > li .fullscreen{
+        margin-top: 0;
+    }
+
     .fullscreen .info-panel {
         top: auto;
         bottom: 0;
