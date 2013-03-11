@@ -722,6 +722,11 @@
 
 /* Mobile Fluid */
 @media (max-width:767px) {
+
+    .curtains.drawn > li .fullscreen{
+        margin-top: 0;
+    }
+
     .fullscreen .info-panel {
         top: auto;
         bottom: 0;
@@ -746,7 +751,7 @@
     }
 
     .interview section#introduction {
-        margin: 0 0 2em;
+        margin: 1.5em 0 2em;
     }
 
     .interview section, article.interview  header {
@@ -925,5 +930,43 @@
 
     .interview-intro {
         margin-top: 20px;
+    }
+}
+
+@media (max-width:480px) {
+    .callout-question h4 {
+        margin-right: 10px;
+        margin-top: 1em;
+    }
+    .callout-question #quote-mark{
+        display: none;
+    }
+    .interview section#introduction {
+        margin-top: 2.5em;
+    }
+    .interview .interview-number{
+        margin-top: 0.2em;
+    }
+    .interview h1{
+        font-size: 2.2em;
+        margin-bottom: 0.7em;
+        top: 0.6em;
+    }
+
+    .interview address{
+        font-size: 1em;
+    }
+
+    .interview address .author-info .author{
+        margin-bottom:0.4em;
+    }
+
+    .interview address .date{
+        font-size: 0.9em;
+        color: #888;
+    }
+
+    .notable-person h4 {
+        line-height:1.5em;
     }
 }
