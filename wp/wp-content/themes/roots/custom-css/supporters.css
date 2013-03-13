@@ -103,11 +103,22 @@
   background: #f3f3f3;
   padding-top: 2.7em;
   padding-bottom: 2.7em;
+  overflow: hidden; /*media object clearfix*/
+}
+
+.featured-sponsor-logo {
+  float: left;
+  padding: 0 2em 1em 4em;
+  text-align: center;
 }
 
 .featured-sponsor-logo a {
   display: block;
-  padding: 0 2em 1em 5em;
+  max-width: 230px;
+}
+
+.featured-sponsor-about {
+  overflow: hidden; /*media object clearfix*/
 }
 
 .featured-sponsor-about p {
@@ -193,6 +204,14 @@
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+  .featured-sponsor-logo {
+    padding: 0 0 1em 2em;
+  }
+
+  .featured-sponsor-logo a {
+    max-width: 180px;
+  }
+
   #about_team h2 {
     font-size: 2em;
   }
@@ -244,6 +263,19 @@
     width: 72%;
   }
 }
+
+@media (max-width: 700px) {
+  .featured-sponsor-logo {
+    float: none;
+    padding: 0 0 2em;
+  }
+
+  .featured-sponsor-logo a {
+    margin: 0 auto;
+  }
+
+}
+
 @media (max-width: 480px) {
   #team {margin-top: 30px;}
   #about_team h2 {margin-bottom: 15px;}

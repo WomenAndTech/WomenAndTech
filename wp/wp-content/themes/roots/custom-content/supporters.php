@@ -15,16 +15,14 @@
 		</div>
 		<div class="row">
 			<div class="span12 featured-sponsor">
-				<div class="row">
-					<div class="span4 featured-sponsor-logo">
-						<a href="http://camptech.ca/" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/camp-tech.png" alt="Camp Tech logo"/>
-						</a>
-					</div>
-					<div class="span8 featured-sponsor-about">
-						<p>Avery Swartz, founder of <a href="http://camptech.ca/" target="_blank">Camp Tech,</a> says, “One of my fave parts of running my own biz – getting to choose who I support.” We reciprocate the sentiment! Avery is one of our earliest supporters and challengers (the best), offering critical feedback on our infographic about <a href="infographic-paid-maternity-leave/">maternity leave</a> that made it 100x better and more accurate. </p>
-						<p>We love what the Camp Tech series stands for – fun, accessible opportunities to learn technology skills. The world needs more of that for sure. So check out one of <a href="http://camptech.ca/classes" target="_blank">Camp Tech’s</a> classes and go make something amazing!</p>
-					</div>
+				<div class="featured-sponsor-logo">
+					<a href="http://camptech.ca/" target="_blank">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/camp-tech.png" alt="Camp Tech logo"/>
+					</a>
+				</div>
+				<div class="featured-sponsor-about">
+					<p>Avery Swartz, founder of <a href="http://camptech.ca/" target="_blank">Camp Tech,</a> says, “One of my fave parts of running my own biz – getting to choose who I support.” We reciprocate the sentiment! Avery is one of our earliest supporters and challengers (the best), offering critical feedback on our infographic about <a href="infographic-paid-maternity-leave/">maternity leave</a> that made it 100x better and more accurate. </p>
+					<p>We love what the Camp Tech series stands for – fun, accessible opportunities to learn technology skills. The world needs more of that for sure. So check out one of <a href="http://camptech.ca/classes" target="_blank">Camp Tech’s classes</a> and go make something amazing!</p>
 				</div>
 			</div><!-- featured-sponsor -->
 		</div>
