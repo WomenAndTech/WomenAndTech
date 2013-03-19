@@ -44,7 +44,7 @@
         <div class="span7 interview-panel">
           <h3>What do you do?</h3>
 
-          <p>I am the CTO and co-founder of <a href=https://www.greengagemobile.com/"" alt="Greengage Mobile website" target="_blank">Greengage Mobile</a>, along with Lindsey Goodchild, CEO. We sell our software platform to large companies to help them create awareness, engage employees and measure the impact of their sustainability initiatives.</p>
+          <p>I am the CTO and co-founder of <a href="https://www.greengagemobile.com/" alt="Greengage Mobile website" target="_blank">Greengage Mobile</a>, along with Lindsey Goodchild, CEO. We sell our software platform to large companies to help them create awareness, engage employees and measure the impact of their sustainability initiatives.</p>
         </div>
 
 
