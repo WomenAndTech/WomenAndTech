@@ -1,4 +1,3 @@
-<?php var_dump(SITE_ENV); ?>
 <ol class="curtains">
 <li>
     <div class="container interview-intro">
@@ -41,470 +40,269 @@
         <div class="span4" id="start-tag">
           <div id="start-animation" style="width: 300px; height: 90px" class="swiffy"></div>
         </div>
-        <div class="span7 interview-panel">
-          <h3>How did you get started as a developer?</h3>
-
-          <p>I studied Psychology and Communications in university, so I hadn’t planned to be in this industry when I was in school. It sort of just happened totally by accident.</p>
-
-          <p>I had a professor in one of my Communications classes who taught us how to use basic WYSIWYG DreamWeaver and I put together this really awful site. I just thought it was fun. I liked the idea that you could take a blank slate and make something out of it. After I graduated, I didn’t really know what to do with my degree. I ended up working at this temp job; I was an admin assistant but my duties were very far and few between.</p>
-
-          <p>One day I was looking through the mail and there was a pamphlet for Seneca College. I looked at their Web Design program and I thought, “Hey! Why don’t I go back to school and give this a try?” It was four months long and gave me an introduction to everything: HTML, CSS, Photoshop, Flash, PHP and JavaScript.</p>
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>What challenges did you face early in your career?</h3>
-
-          <p>My program was so short. It was an intro to everything so I didn’t exactly understand the difference between a Web Designer, a Web Developer, Frontend Developer or Backend Developer. It was all the same to me, and I thought you were supposed to know how to do all those things, all at once.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>What was your first job in the industry like?</h3>
-
-          <p>I was a Content Coordinator at a corporate financial company. But on the side I had been doing a little bit of freelance development and I thought, this is what I want to do – I don’t want to just push a button in a content management system and there, there’s a pdf. I wanted to be more creative and do more coding.</p>
-
-          <p>I ended up breaking into the agency world at a place called <a href="http://www.nurun.com/"  target="_blank">Nurun</a> where I was hired as an Interface Developer/Frontend Developer. It was really great because they gave me a chance to actually flex and learn my development skills. So when I moved to this job I thought “Wait a minute, I’m a developer now!” It was a really nice switch, but kind of scary at the same time.</p>
-          
-        </div>
-
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>When I do something I always want to be good at it. I felt somewhat disadvantaged because I didn’t have a computer science background and a lot of the developers did.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
-
-        <div class="span7 offset4 interview-panel">
-          <h3>What was scary about it?</h3>
-
-          <p>When I do something I always want to be good at it. I felt somewhat disadvantaged because I didn’t have a computer science background and a lot of the developers did. I had technically been in the industry for three years at that point, but didn’t actually have a lot of frontend experience.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>How did you overcome that?</h3>
-
-          <p>All the other developers at Nurun were really helpful. I came in as a junior and they were really good at helping me get better. It’s funny because this whole idea of women in tech – I never felt that was an issue while I was there because there were a lot of female developers (both at Nurun and at my previous job). At one point I think there were even more female than male developers. I never noticed there to be an imbalance.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>At which point did you become aware of the gender imbalance?</h3>
-
-          <p>At Teehan+Lax. I was the first female there and now I’m one of two.</p>
-          
-        </div>
-    </section>
-    </div>
-  </li>
-  <li>
-    <div class="fullscreen">
-      <div class="parallax">
-        <div class="container">
-          <div class="info-panel" id="teehanandlax">
-            <aside>
-              <div class="arrow"></div>
-              <h3>T+Ler</h3>
-              <p class="last">
-                Christina develops at Teehan+Lax, a Toronto-based digital agency well-known for their <a href="http://www.teehanlax.com/work" title="Teehan+Lax website" target="_blank">cutting edge interactive work</a> as well as their <a href="http://www.teehanlax.com/downloads/" title="Teehan+Lax free downloads page" target="_blank">free iPhone and iPad GUI templates</a>, “to help you pitch, design and build amazing software”.
-              </p>
-            </aside>
-          </div>
-        </div>
-        <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-teehan-and-lax.jpg" />
-        <div class="photo-credit light">
-          Photo credit:
-          <a href="http://www.flickr.com/photos/brendanlynch"
-            title="Brendan Lynch's flickr photostream" target="_blank">Brendan Lynch</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>How did it feel, coming from an environment that was balanced?</h3>
-
-          <p>I didn’t feel any different. I was just more aware of the imbalance because people were saying, “There is a new girl coming and she’s a dev.” They didn’t make me feel uncomfortable at all, but I knew that this was an anomaly. They had only ever had one female applicant before.</p>
-
-          <p>It was at that point that I realized that my previous work environments were skewed from the norm. I think it shocked me a bit because I didn’t know that being a “female dev” was something weird. A project manager might ask, “What’s it like being a female dev?” as if it’s something unimaginable, and I’d say, “Well, what’s it like being a project manager?” To me, it’s an odd question because being a woman and a developer never seemed weird to me.</p>
-          
-        </div>
-
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>I wear heels to work, I curl my hair every day. Then again I don't want to be stereotypically female either, so I focus on being who I am – this is my work, and this is who I am.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
-
-        <div class="span7 offset4 interview-panel">
-          <h3>How do you think people view developers, and do you fit that mould?</h3>
-
-          <p>I don’t think I do. There definitely is a stereotype of being really geeky and nerdy, and I purposely don’t try to be one of the guys or feel like I have to fit the stereotype. I wear heels to work, I curl my hair every day. Then again I don't want to be stereotypically female either, so I focus on being who I am – this is my work, and this is who I am. And I definitely want other women to see that you can be yourself. At the end of the day you should be comfortable with yourself.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>You mentioned on the Teehan+Lax blog that your job is a perfect fit for you. What makes it such a
-            perfect
-            fit?</h3>
-
-          <p>I like the fact that I get to have my creative moments, and then I get to use my logical side and build stuff. I can get creative with development, especially with CSS3. I can do so much with it, finding ways to make things work. I think that's why I'm more drawn to frontend development rather than backend. You get to see the output for yourself a bit better.</p>
-
-          <p>Even if I want to pull my hair out after dealing with one too many bugs, when I’m done I get to say, “Look what I made!” I feel like I’ve accomplished something. I think it balances the creative and the analytical sides of me.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span4 info-panel">
-          <aside class="first-row">
-            <div class="arrow"></div>
-            <h3>Back in the Day</h3>
-            <p class="last">It's hard to remember a time without dedicated high-speed Internet connections now, but many of us have a special place in our hearts for <a href="http://en.wikipedia.org/wiki/Dial-up_Internet_access" title="Dial-up Internet Wikipedia entry" target="_blank">56K</a> and its familiar song, "kssssssh, bee-boo bee-boo bee-boo."</p>
-          </aside>
-        </div>
-        <div class="span7 interview-panel">
-          <h3>Were computers part of your life growing up?</h3>
-
-          <p>I was the computer person in my family. I would help my dad fix things as a kid. Maybe that’s why I gravitated more towards “stuff that boys do”. I have three older sisters; it was a house full of girls and I was a bit of a tomboy.</p>
-
-          <p>As a teen, I was on the Internet all the time, keeping the phone line busy. The Internet was my way to see other parts of the world or connect with other people. I used to go on chat rooms and talk to people that lived in other cities.</p>
-
-          <p>Growing up in a small city, there wasn’t a lot of cultural diversity, so I always felt like an outcast. I spent most of my early years trying to fit in and be like everyone else, and then when I was about 14, 15 or so, I just said “Forget it!” I kind of went the other route and said “I’m going to be different than everybody, or at least try to be.”</p>
-
-          <p>Since then I’ve always done things that maybe weren’t expected of me. I’m used to doing things my own way. Maybe that’s what helped me go into this career and not worry about whether or not it was normal.</p>
-          
-        </div>
-
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>Growing up in a small city, there wasn’t a lot of cultural diversity, so I always felt like an outcast. I spent most of my early years trying to fit in and be like everyone else.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
-        </section>
-    </div>
-  </li>
-<li>
-  <div class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-subway.jpg" />
-      <div class="photo-credit light">
-        Photo credit:
-        <a href="http://instagram.com/themiguelshow" title="Miguel Weston (themiguelshow) on Instagram" target="_blank">Miguel Weston</a>
-      </div>
-  </div>
-
-  <div class="container">
-        <section class="row">
-
-        <div class="span7 offset4 interview-panel">
-          <h3>Any examples of doing things that weren’t expected of you?</h3>
-
-          <p>Well, I think a couple people who might read this interview are going to be surprised that I’m married, because I don’t wear a ring. I didn’t really tell anybody. We got married and a couple of close friends and family know. If it comes up in conversation I tell people, but I didn’t make any formal announcement. We just had a small ceremony. There’s the idea that all women want big weddings. I bought a brown dress, we got married at city hall, and we don’t wear rings – but we’re happy. As I got older, I learned, “I don’t have to do what anybody expects.” I just do what I want.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>How did you and your husband meet?</h3>
-
-          <p>Actually, funny story about my husband and how the Internet changed my life. While I was working at my first job, I started an anonymous personal blog just for fun. He left a comment on my very first blog post. And I looked at his blog and thought, “Hey, this guy’s funny.”</p>
-
-          <p>We were just reading each other’s blogs and then in about six months or so, he emailed me saying he was going to be in Toronto for his birthday and suggested we meet up. When we met in person, we clicked. My life would be very different without the Internet!</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>Definitely! How does technology fit into your life now? Do you think the current proliferation of tech enriches our lives or are there certain cautions that should come with it?</h3>
-
-          <p>I think it definitely enriches our lives and makes it easier to manage our day-to-day lives. But I do think that it can't replace human interaction, real human interaction. Take books for example; as much as it's really handy to have a Kobo or some kind of e-reader with 50 books on it, I personally still like the tactile feeling of a book. I like how it smells, I like how it feels, I like flipping through it. I think that you have to find a balance.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>Is there any challenge to finding that balance, given that you work with tech on a daily basis?</h3>
-
-          <p>When you really enjoy your work, it obviously spills into your life, so turning off the computer and putting your phone down can be hard to do. There are times when I just want to text somebody because I know if I call them, we're going to be on the phone for three hours and I don't have that kind of time. But then I realize maybe there is a reason that we would be on the phone for three hours, that we need that time to interact and connect.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span4 notable-person photo-callout">
-          <figure class="first-row">
-            <div class="arrow"></div>
-            <a href="http://www.arduino.cc/" title="About Arduino"><img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/arduino-board.jpg" alt="Arduino electronics board"/></a>
-            <figcaption class="clear">
-              <p class="last"><a href="http://www.arduino.cc/" title="About Arduino">Arduino</a> is an open-source system made up of simple hardware and easy to program software. Backed by an active community of tinkerers and enthusiasts, Arduino is an easy way for anyone to create input/output based electronic devices.</p>
-            </figcaption>
-            <div style="clear:both"></div>
-          </figure>
-        </div>
-        
-        <div class="span7 interview-panel">
-
-          <h3>We’d love to hear more about your <a href="http://www.teehanlax.com/labs/do-we-have-milk/" target="_blank">“Do We Have Milk”</a> experiment?  What is that and how did you come up with the idea?</h3>
-
-          <p>We came up with the idea in the Teehan+Lax labs to build an app that tracks how much milk you have left in the fridge. I hadn't had a lot of experience with technology “outside of the screen”, but I started brainstorming ideas independent of the technology. I love food and love organizing things. So from there we came up with the idea of using <a href="http://www.arduino.cc/" target="_blank">Arduino</a> to combine physical computing and food organization.</p>
-
-          <p>But it wasn’t really just, "Let's track milk." It was an experiment to show people how technology can interact with our daily lives. It's funny, because the day we decided to run with the idea, I was at the store and was hit with the “Do We Have Milk?” question. I was thinking, "I could really use this app right now!" [laughs]</p>
-        </div>
-      </section>
-    </div>
-  </li>
-<li>
-<div class="fullscreen">
-  <div class="parallax">
-    <div class="container">
-      <div class="info-panel" id="arduino">
-        <aside>
-          <div class="arrow"></div>
-          <h3>Get Milk!</h3>
-          <p class="last">
-            The <a href="http://www.teehanlax.com/labs/do-we-have-milk/" target="_blank">Do We Have Milk?</a> app helps you know when you’re running low on milk so you can pick some up on your way home. Christina helped develop and build the concept using Arduino technology.
-          </p>
-        </aside>
-      </div>
-    </div>
-    <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-get-milk.jpg" />
-    <div class="photo-credit light">
-      Photo credit:
-      <a href="https://vimeo.com/41917421" title="A still taken from Teehan+Lax's 'Do We Have Milk' experiment trailer" target="_blank">Teehan+Lax Labs</a>
-    </div>
-  </div>
-</div>
-
-  <div class="container">
-      <section class="row">
-        <div class="span4 info-panel">
-          <aside class="first-row">
-            <div class="arrow"></div>
-            <h3>Advancing CSS</h3>
-            <p class="last"> <a href="http://lesscss.org/" target="_blank">LESS</a> is a <a href="http://www.vanseodesign.com/css/css-preprocessors/" target="_blank">CSS pre-processor</a>, a tool that allows web developers to extend the functionality of CSS with common programming constructs like variables and functions.</p>
-          </aside>
-        </div>
 
         <div class="span7 interview-panel">
+          <h3>What do you do?</h3>
 
-          <h3>Are there any other new technologies or tools that really excite you, or that you're looking forward to working with?</h3>
-
-          <p>Definitely. When I discovered <a href="http://lesscss.org/" target="_blank">LESS</a> – even though it is a simple tool – I thought “Why aren’t we using this all the time? Why isn’t this built into CSS already?”</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>You've also been involved with <a href="http://alistapart.com/article/responsive-web-design" target="_blank">responsive design</a>, right?</h3>
-
-          <p>My first involvement with <a href="http://ladieslearningcode.com/" target="_blank">Ladies Learning Code</a> was to present <a href="https://vimeo.com/27903221" target="_blank">a talk on responsive design.</a> I've been pushing myself to think more about responsive techniques, mobile techniques, and how to incorporate that into my everyday workflow. It shouldn't be a second thought anymore; it should be how all websites work. I had an iPhone 3G for the longest time, and I hardly ever used the browser because it was so slow. Then when I got the 4S, I found I was always browsing on the phone and it started to really bother me when sites didn't even have a basic mobile web experience – including my own – so I've come to see the importance of including that.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-
-        <div class="span7 offset4 interview-panel">
-          <h3>How did you find out about Ladies Learning Code?</h3>
-
-          <p>I wrote a blog post for Teehan+Lax about being a woman in web development [<a href="http://www.teehanlax.com/blog/thats-what-she-said-thoughts-from-a-female-dev/" target="_blank">“That’s what she said: thoughts from a female dev”</a>]. And then <a href="http://womenandtech.com/interview/heather-payne/">Heather Payne</a> reached out to me by leaving a comment, telling me how they were going to start this group and it would be nice if I could help out in some way.</p>
-          
+          <p>I am the CTO and co-founder of <a href=https://www.greengagemobile.com/"" alt="Greengage Mobile website" target="_blank">Greengage Mobile</a>, along with Lindsey Goodchild, CEO. We sell our software platform to large companies to help them create awareness, engage employees and measure the impact of their sustainability initiatives.</p>
         </div>
 
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>I always felt it was a little too awkward to just show up to tech meetups and code with people I didn’t know.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
 
-        <div class="span7 offset4 interview-panel">
-          <h3>What convinced you to get involved?</h3>
-
-          <p>I always felt it was a little too awkward to just show up to tech meetups and code with people I didn’t know. In my mind it felt unnatural. But with this, Heather asked me to do a talk, so it felt more natural to go there and have a purpose instead of just showing up on my own.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>You’re also a teacher at Humber College, what is it you like (or dislike) about teaching?</h3>
-
-          <p>I dislike marking. It takes so long!</p>
-
-          <p>I like teaching because it actually makes me a better developer. When you're teaching, you can’t just do what you’re accustomed to doing. You have to think about why and you have to explain it. It makes me more careful about what I do and pushes me out of my comfort zone. It forces me to break out of my own routine.</p>
-
-          <p>It's also nice to see other people enjoy the material the way I did when I first discovered it; hearing people say, “Wow!” or having that “Aha!” moment is great. Seeing the students get excited makes me want to go and build something for fun too.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>What are some of those “Aha!” moments?</h3>
-
-          <p>The thing that always blows their minds is being able to “View source.” That gets them every time. “What, you can see everything?” And the second question is almost always, “But how do you hide your stuff? How do you keep people from seeing it?” But, you can’t! I vaguely remember feeling that way too, thinking, “I don’t want people to take my stuff or see my code.”</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>Is there anything that you hope to inspire in your students?</h3>
-
-          <p>I think a lot of times we get stuck thinking, “What can I do to get a job that makes good money?” instead of, “What can I do that I enjoy doing?” So I hope to not only teach them the technical ins and outs of HTML and CSS but to show them that it's interesting and it's fun and it's not just a way to make money. Development is something you can actually enjoy and want to do, whether you're getting paid or not.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>What are some of the challenges you face working and teaching in this industry?</h3>
-
-          <p>I think always feeling that you don’t know enough. As soon as you learn a new skill, something else comes up. Keeping up with trends is tough in this industry.</p>
-          
-        </div>
-      </section>
-  </div>
-</li>
-<li>
-  <div class="fullscreen">
-    <div class="parallax">
-      <div class="container">
-        <div class="info-panel" id="collage">
-          <aside>
-            <div class="arrow"></div>
-			<h3>Creative Technology</h3>
-          <p class="last">
-            The <a href="http://www.teehanlax.com/labs/" target="_blank" title="Teehan+Lax Labs page">Teehan+Lax Labs</a> are an independent arm of the company where Christina and other employees foster an interest in technologies outside their day-to-day (like Arduino).
-          </p>
-          </aside>
-        </div>
-      </div>
-      <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-soldering-iron.jpg" />
-      <div class="photo-credit light">
-        Photo credit:
-        <a href="https://vimeo.com/41917421" title="A still taken from Teehan+Lax's 'Do We Have Milk' experiment trailer" target="_blank">Teehan+Lax Labs</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>I’ve often heard the argument made that women don’t advance because they tend to undervalue themselves. Do you agree?</h3>
-
-          <p>I have read that women generally aren’t as boastful or willing to talk about themselves. And it totally made sense. My personal site used to say, “Hi, I’m Christina and I’m a web developer and I like shoes and food.” Then it hit me – why don’t I talk about what I do? Now my bio says, “I’ve worked with brands such as Bell and Virgin...” Because that’s what I do.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="span4 info-panel">
-          <aside class="first-row">
-            <div class="arrow"></div>
-            <h3>Lack of Cultural Diversity</h3>
-            <p>Every year, <a href="http://alistapart.com/" target="_blank" title="A List Apart website">A List Apart</a> <a href="http://www.alistapart.com/articles/survey2011/" target="_blank" title="2011 A List Apart Survey Results">conducts a survey</a> of its web industry readership. In 2011, 12.9% of all respondents identified with a visible minority, whereas the total number of female respondents was 18%.
-            </p> <p class="last">ALA also notes that while the percentage of women has risen slightly over the past five years, there has been no significant increase in the number of visible minorities.</p>
-          </aside>
-        </div>
-
-        <div class="span7 interview-panel">
-          <h3>Do you think there should be more female developers or women in the tech industry in general?</h3>
-
-          <p>I don’t know how to answer that! My main concern is that there are a lot of women out there who don’t feel the industry is inclusive or welcoming to women. I hear this from a lot of the students (and mentors) at Ladies Learning Code. If I can help other women feel like they can join this industry, then I’m all for it. If women want to join, then they should join!</p>
-
-          <p>Personally, I feel like there’s a lack of cultural diversity. That affects me more than being a woman. Maybe it’s because there are a lot of women in other roles at my company, despite the numbers of actual female developers. If you look at the numbers in the latest A List Apart survey, the combined total of all the different ethnic groups is less than the number of women who respond. That’s something I would like to see change.</p>
-          
-        </div>
-        
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>If [joining the web industry] is something that you really want to do, then just do it and don't worry about what other people think.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
-        
-        <div class="span7 offset4 interview-panel">
-          <h3>If you could give one piece of advice to someone who is apprehensive or not sure about joining the industry, what would it be?</h3>
-
-          <p>I would say if this is something that you really want to do, then just do it and don't worry about what other people think. If you’re good at it, your work will speak for itself.</p>
-          
-        </div>
-      </section>
-
-      <section class="row">
-
-        <div class="span4 notable-person" id="NAME">
+        <div class="span4 notable-person" id="lindsey-goodchild">
           <figure class="first-row">
             <div class="arrow"></div>
             <h3>Notable Person</h3>
-            <a href="http://www.sazzy.co.uk/about/"
-              title="Sarah Parmenter's Bio"
-              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/christina-interview/sarah-parmenter.jpg'></a>
+            <a href="http://ca.linkedin.com/pub/lindsey-goodchild/18/298/20"
+              title="Lindsey Goodchild's Bio"
+              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/dessy-interview/lindsey-goodchild-square.png'></a>
             <figcaption class="clear">
-              <a href="http://www.sazzy.co.uk/about/"
-                title="Sarah Parmenter's Bio"
-                target="_blank"><h4>Sarah Parmenter</h4></a>
-              <p>Sarah Parmenter is a web and iOS UI designer in the UK.</p> 
-              <p>In 2010 she participated in a Boagworld Show podcast that streamed live on the web and was met with numerous sexist comments. Her response to that experience can be found <a href="http://www.sazzy.co.uk/2010/02/dont-you-dare/" target="_blank">here.</a></p>
+              <a href="http://ca.linkedin.com/pub/lindsey-goodchild/18/298/20"
+                title="Lindsey Goodchild's Bio"
+                target="_blank"><h4>Lindsey Goodchild</h4></a>
+              <p>Lindsey Goodchild, founder and CEO of Greengage Mobile, graduated from Ryerson University with a degree in Sustainability and Corporate Responsibility.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
         </div>
 
+        <div class="span7 offset4 interview-panel">
+
+          <p>My co-founder came up with the idea for Greengage Mobile while she was a sustainability consultant. She spent time doing market interviews to validate the idea, before deciding to pursue the opportunity full-time in late 2011. I joined her in January 2012, a little over a year ago.</p>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>How did you two form your partnership?</h3>
+
+          <p>Lindsey came to <a href="http://www.theworkinggroup.ca/" title="The Working Group website" target="_blank">The Working Group</a> – where I was a developer at the time – with her idea and a few clients lined up that wanted to try the software. At that time, I was beginning to look for opportunities to branch out on my own as an entrepreneur. The Working Group was very supportive, and they also knew she was looking for a technical co-founder, so they put us in a room together to see what happened!</p>
+          
+          <p>Lindsey and I had a few beer dates (we joke about this all the time), and eventually we decided to partner up. We finished our first prototype in March 2012 and launched with our first clients last fall.</p>
+        </div>
+      </section>
+
+      <section class="row">
+
+        <div class="span4 notable-person photo-callout">
+            <figure class="first-row">
+              <div class="arrow"></div>
+              <a href="http://en.wikipedia.org/wiki/Ask.com#History" title="Ask.com Wikipedia entry">
+                <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/ask-jeeves.jpg" alt="Cover of P.G. Wodehouse's book 'Carry on Jeeves'"/>
+              </a>
+              <figcaption class="clear">
+                <p><a href="http://ask.com" target=_blank title="Ask.com website">Ask Jeeves</a> (now Ask.com) was founded in 1996 as a search engine that used natural language to seek and find. It got its name from a character in the writing of P.G. Wodehouse – Bertie Wooster's valet, Jeeves.</p>
+              </figcaption>
+              <div style="clear:both"></div>
+            </figure>
+          </div>
+
         <div class="span7 interview-panel">
-          <h3>Are there any other designers or developers you admire?</h3>
+          <h3>Did you have any early experiences with technology that have influenced your career?</h3>
 
-          <p><a href="https://twitter.com/chriscoyier" target="_blank">Chris Coyier</a>. I end up visiting his site, <a href="http://css-tricks.com/" target="_blank">CSS-Tricks</a>, a lot. I find – especially with teaching – he has so many great examples.</p>
+          <p>When I was younger, my parents – especially my dad – were always showing me cool tech stuff. I remember the day my dad first showed me Google’s search engine. Back then people were still using Ask Jeeves. When Dad showed me Google, he also told me about the two guys who started it, <a href="http://en.wikipedia.org/wiki/Larry_Page" title="Larry Page's Wikipedia entry" target=_blank>Larry</a> and <a href="http://en.wikipedia.org/wiki/Sergey_Brin" title="Sergey Brin's Wikipedia entry" target=_blank>Sergey</a>. They were able to scale it up and build this huge company. He told me how amazing it was in this country to have the ability to start from nothing, to build a big company and influence the world with it. I was very young when he was telling me these things.</p>
+        </div>
 
-          <p>When I started research for my blog post about this idea of women designers and developers being kind of rare thing, I found <a href="https://twitter.com/sazzy" target="_blank">Sarah Parmenter</a>. She did a podcast and received a lot of negative comments about being a female in the industry and wrote this long blog post in response about how she worked really hard to get to where she is. I respect that and I like that she was able to gain recognition through hard work.</p>
+        <div class="span7 offset4 interview-panel">
+          <h3>Do you have any siblings?</h3>
 
-          <p>I think maybe I could get there too. This last year has been a whirlwind where I feel like I have been getting more recognition. Ladies Learning Code asked me to come out to Ottawa to lead their first workshop, and I ended up doing a <a href="http://www.cbc.ca/player/News/ID/2309065971/" target="_blank">short interview for CBC Ottawa</a> (which amazed me).</p>
+          <p>Yes, I have a brother; he’s a year younger than me. He too is a developer-entrepreneur. He’s working with a friend on a start-up.</p>
           
         </div>
       </section>
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>How do you think you have gotten to this point where you are starting to get recognized?</h3>
+          <h3>Did you grow up in the Toronto area?</h3>
 
-          <p>It depends on the day you ask me. Sometimes I feel like I’ve been in the right place at the right time. Other times, I know I still had to be the one to do something with that right place and right time. It think it feels unexpected because I don’t do what I do for the recognition.</p>
+          <p>I was born in Bulgaria and lived there until I was seven. When I was born, Bulgaria was a communist country in which educated people were given limited opportunities to grow professionally. The way my parents tell the story is that the minute the Berlin Wall came down, all these changes started happening and they were eventually allowed to leave. My dad went to every single embassy looking for ways to move to another country.</p>
+
+          <p>I can put his story into perspective now; my parents were in their 30s when they first left the country in which they were born. We moved here in 1994. We lived in Richmond Hill and the Oak Ridges area until I went to <a href="http://queensu.ca/" title="Queen’s University website" target=_blank>Queen’s University</a> to pursue my Bachelor in Engineering.</p>
+          
+        </div>
+      </section>
+
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2>The whole university society makes you feel like you are part of something bigger, even though you happen to be in class with more men than women.</h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+      </div>
+
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>What was your experience like as an undergrad student at Queen’s?</h3>
+
+          <p>In Engineering at Queens, about twenty percent of the students were women. However, the whole university society makes you feel like you are part of something bigger, even though you happen to be in class with more men than women. There were a lot of guys at events too, but at that age guys want to have girls around, so they don’t make you feel like you don’t belong. I had really great friends, and two of my closest girlfriends today I met in the program.</p>
+
+          <p>I remember feeling more intimidated when I started working in the corporate space. It wasn’t anything specific that anyone did to make me feel that way; I think I felt intimidated because everyone was so much older. I was 18 and working in an engineering office with all men 50 and older. I laugh about it now. </p>
+          
+        </div>
+      </section>
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>What inspires you? Who inspires you?</h3>
+
+          <p>My parents, the friends I’ve made in tech who have accomplished so much, and my co-founder. Even though she didn’t begin her career in tech, she recognized a need and set out to meet it using technology. It takes a lot of courage to step out of your comfort zone and pursue something new.</p>
+
+          <p>It inspires me that we even have the opportunity to do be entrepreneurs. So many people in the world could never quit their job and go off and work on their own thing. Since I was born in Bulgaria and I go back often, I see how hard it is to start a business there. I’m really inspired by the opportunity that we have. It’s amazing. </p>          
+        </div>
+
+
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>Be inspired by what the future holds. Make a name for yourself. Start volunteering. Do things on the side.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+
+        <div class="span7 offset4 interview-panel">
+          <h3>How would you inspire new immigrants skilled in tech who are coming to Canada looking for jobs?</h3>
+
+          <p>I moved here young. My parents were educated – Mom and Dad both studied Math in university and my dad has a Master’s in Computer Science – but Mom worked in a donut shop and Dad worked in a pizza place when they came to this country. They had to do tough stuff in the beginning, got their feet on the ground. After five years in Canada, they were much better off than where they came from. The lesson there is to establish your foundation and then take advantage of opportunity. Be inspired by what the future holds. Make a name for yourself. Start volunteering. Do things on the side. </p>
           
         </div>
       </section>
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>Any future plans or goals that you are working towards?</h3>
+          <h3>Why do you work in tech?</h3>
 
-          <p>When I was in school, I thought you had to know how to use all these different technologies and I struggled with that for a while, thinking I have to know how to do everything. But at this point I’ve realized that I just want to focus on what I like doing and get better at that.</p>
+          <p>Software is one of those fields where, with very little resources, you are able to build a platform that can affect many people. You have the ability to make a huge difference in the world with software; it’s so scalable.</p>
           
         </div>
       </section>
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>In our last interview, <a href="http://womenandtech.com/interview/ayla-newhouse/">Ayla Newhouse</a> asked, “I find I often get inspired in the middle of the night, what wakes you up at night?”</h3>
+          <h3>What challenges, if any, do you face being a woman in technology? How do you attempt to overcome them?</h3>
 
-          <p>I am up at night thinking about everything. The wheels are always turning. Sometimes it’s inspiration, sometimes I am just thinking about what I have to do the next day. I could be thinking about anything... except sleeping!
+          <p>I have to give my parents a lot of credit for treating my brother and me the same. My mother never told me that math, science and tech were easy, but the most important thing she did was tell me I could do it. As long as you think it’s possible, you just don’t worry so much. That was huge.</p> 
+        </div>
+      </section>
+       
+      <section class="row">
+        <div class="span4 notable-person double">
+            <figure class="first-row">
+              <div class="arrow"></div>
+              <h3>Notable People</h3>
+              <div id="linda-stone" class="first">
+                <a href="http://alexisohanian.com/"
+              title="Alexis Ohanian's website"
+              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/dessy-interview/alexis-ohanian.jpg'></a>
+              <figcaption class="clear">
+                <a href="http://alexisohanian.com/"
+                  title="Alexis Ohanian's website"
+                  target="_blank"><h4>Alexis Ohanian</h4></a>
+                <p>Alexis Ohanian is an entrepreneur and activist, having launched Reddit in 2005 and Hipmunk in 2010. Other interests include microfinancing, the open Internet, and supporting women in tech (he even gave Women && Tech a shout out once). His first book, <a href="http://withouttheirpermission.com/" title="Website for Alexis Ohanian's book 'Without Their Permission'" target=_blank>Without Their Permission</a>, comes out in October 2013.</p>
+              </figcaption>
+              <div style="clear:both"></div>
+            </div>
+              <!-- <div id="jane-mcgonigal">
+                <a href="http://en.wikipedia.org/wiki/Jane_McGonigal"
+              title="Jane McGonigal's wikipedia entry"
+              target="_blank">
+                  <img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/img-Jane-McGonigal.jpg'></a>
+                <figcaption class="clear">
+                  <a href="http://en.wikipedia.org/wiki/Jane_McGonigal"
+                title="Jane McGonigal's wikipedia entry"
+                target="_blank">
+                    <h4>Jane McGonigal</h4>
+                  </a>
+                  <p>
+                    Jane McGonigal is a game designer whose first book, Reality Is Broken: Why Games Make us Better and How they Can Change the World, was published in 2011 to mixed reviews.
+                  </p>
+                </figcaption>
+                <div style="clear:both"></div>
+              </div> -->
+            </figure>
+          </div>
+
+
+        <div class="span7 interview-panel">
+          <h3>Do you have any role models in tech?</h3>
+
+          <p>The founder of Reddit [Alexis Ohanian]. He’s a huge supporter of <a href="http://www.women2.com/ycombinator-alexis-ohanian-pitch-nyc-2012-competition-judge/" target=_blank>women in tech</a> and the <a href="http://www.nytimes.com/2012/01/27/technology/victory-on-antipiracy-issue-buoys-internet-lobby.html?_r=0" target=_blank>open Internet</a>. He made a lot of money and <a href="http://breadpig.com/pages/about-us" target=_blank>uses it for good causes.</a> I look up to him immensely.</p>
+
+          <p>Steve Wozniak, the other founder of Apple, seems like the most incredible guy. He made a ton of money but now spends his time as a teacher. He <a href="http://www.easyreadernews.com/60128/steve-wozniak/">taught at a public school for eight years</a> and ended up funding his local region’s school computer program. He has such a passion for this stuff. He is a builder himself and wants to inspire young people.</p>
+          
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>How do you describe your role in tech, and do you view your role differently from your male counterparts?</h3>
+
+          <p>I describe my role as lead developer, but I also have the responsibility of managing and building a really solid, cohesive development team. Another role is listening to clients, ensuring we properly incorporate the feedback we get from them into the system.</p>
+
+          <p>My role focuses on three areas: coding, listening to users and clients, and ensuring the team works well together. Many men are good at all three, so I don’t see any difference with my male counterparts.</p>
+          
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>What project or initiative are you most excited about in 2013?</h3>
+
+          <p>A year in the start-up world is like ten years in a large enterprise. So much happens in a year, so many changes! I hope our team grows, our product evolves, and we acquire more clients. That should be very exciting.</p>
+
+          <p>I’m also interested in teaching and hopefully will do more of that. I’m currently a mentor for HackerYou, and will be teaching Ruby to sixth graders in April. They’re so young, yet so receptive to learning at that age.</p>
+          
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>What are your challenges in the industry?</h3>
+
+          <p>We’re building on our fourth platform, so there are lots of balls in the air in terms of technology. Sometimes you have to prioritize and say no to things. Deciding whether to take on an opportunity for the business is challenging, because those so-called opportunities can be distracting.</p>      
+        </div>
+      </section>
+
+      <section class="row">
+        
+        <div class="span7 offset4 interview-panel">
+
+          <h3>What is your impression of developer culture? How do you think most people see developers?</h3>
+
+          <p>When I started working full-time, I remember telling a male friend I had a hard time talking to the guys at work. They’d talk about video games, and because I don’t play video games, I would just tune out. My friend, who was in finance, told me he wished his co-workers would talk about video games – all they talked about was sports.  </p>
+
+          <p>At the end of the day, stereotypes are never 100% true. It might be true that some developers like video games and some people in finance like sports, but they all also have many other, diverse interests. After getting to know them, I developed friendships with some of the people I originally found it difficult to connect with.</p>
+        </div>
+      </section>
+
+      <section class="row">
+
+        <div class="span7 offset4 interview-panel">
+
+          <h3>Where do you think technology might be failing women?</h3>
+
+          <p>I’ve spent a lot of time reading essays by Paul Graham  from Y Combinator [a prestigious, competitive accelerator in San Francisco]. They are always thought-provoking essays. He says the best start-ups are the ones that see just ahead of the curve, to what technology is capable of doing in the future.</p>
+
+          <p>I think a field that has yet to be explored is natural language processing. If you think about the types of things you can ask Google – it’s not like talking to a person, there are still certain questions it can’t answer. For example, when I google “best brunch spots in Toronto,” I get tons of articles from Toronto Life. But what if I want a cute brunch spot to bring my parents to, and I don’t want it to be too crazy, and it should have a nice modern atmosphere and a patio. In that case, Google still doesn't replace talking to a friend of mine that knows me and my interests.</p>
+
+          <p>There’s an emotional element I’m looking for, a feeling, that Google doesn’t have. I can’t attach emotion or intent to my search. It’s hard to express feelings using traditional search engines.</p>
+          
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>What do you hope to achieve in your career? What are your short- and long-term goals?</h3>
+
+          <p>Short-term, I want us to build Greengage Mobile into a lasting business. I want it to make a big impact in the world and change sustainability strategies. Lindsey and I are also passionate about making sustainability easy and exciting for the individual.</p>
+
+          <p>Long-term, I want to continue to build things and hopefully spend more time teaching. Twenty years from now, it would be great to say that we built this thing and it had a positive impact in the world. </p>
+          
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>In our last interview, <a href="http://womenandtech.com/interview/nora-young/">Nora Young</a> asked, “What technologies that you use allow you to best express who you really are?”</h3>
+          
+          <p>When you're working on a small team and you're the one building the software, you have a lot of control over how it's built, how it looks, and how the user interacts with it. Of course, it's a great idea to pull in talented designers to craft that experience with you, but developers can express themselves not only by changing the way something looks to a user, but by creating a clean workflow and designing beautiful code. These decisions can be very personal to a developer. No two people will build a feature the same way.</p>
+
+          <p>After you've worked with a small development team for a long time, you start to recognize each developer's style, and get to the point where you can almost look at a piece of code and know who wrote it.
           <span class="full-stop"><img src="<?php echo get_home_url(); ?>/assets/img/full-stop.png" /></span></p>
           
         </div>
@@ -523,7 +321,7 @@
                 <img
                   src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-portrait-square.jpg" />
               </div>
-              <h4>How do you balance work and life?</h4>
+              <h4>How are you changing the status quo, and what are you doing to change the things you don't like about the world?</h4>
               <div id='quote-mark'>
                 <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
             </div>
@@ -531,7 +329,7 @@
           <div class="row-fluid">
             <div class="span12" id="call-to-action">
               <p>
-                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Nora Young's answer to this question.
+                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Martha's answer to this question.
               </p>
             </div>
           </div>

@@ -554,7 +554,7 @@
           <div class="row-fluid">
             <div class="span12" id="call-to-action">
               <p>
-                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Nora Young's answer to this question.
+                Check out <a href="http://womenandtech.com/interview/nora-young/">Nora Young's answer</a> to this question and <a href="#subscribe" title="Subscribe form">subscribe below</a>.
               </p>
             </div>
           </div>
