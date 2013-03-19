@@ -29,7 +29,7 @@
       </section>
     </div>
     <div id="portrait" class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-coffee-shop-portrait.jpg" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-1.jpg" />
       <div class="photo-credit light">
         Photo credit:
         <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
@@ -80,9 +80,30 @@
           <p>Lindsey and I had a few beer dates (we joke about this all the time), and eventually we decided to partner up. We finished our first prototype in March 2012 and launched with our first clients last fall.</p>
         </div>
       </section>
-
+</li>
+<li>
+<div class="fullscreen">
+  <div class="parallax">
+    <div class="container">
+      <div class="info-panel" id="on-stage">
+        <aside>
+          <div class="arrow left"></div>
+          <h3>Caption!</h3>
+          <p class="last">
+            Text about this image!
+          </p>
+        </aside>
+      </div>
+    </div>
+    <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-2.jpg" />
+    <div class="photo-credit light">
+      Photo credit:
+      <a href="" title="" target="_blank">Unknown Photographer</a>
+    </div>
+  </div>
+</div>
+      <div class="container">
       <section class="row">
-
         <div class="span4 notable-person photo-callout">
             <figure class="first-row">
               <div class="arrow"></div>
@@ -121,13 +142,6 @@
         </div>
       </section>
 
-      <div class="span11 pull-quote">
-        <aside class="quote">
-          <h2>The whole university society makes you feel like you are part of something bigger, even though you happen to be in class with more men than women.</h2>
-        </aside>
-        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-      </div>
-
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>What was your experience like as an undergrad student at Queen’s?</h3>
@@ -147,7 +161,31 @@
           <p>It inspires me that we even have the opportunity to do be entrepreneurs. So many people in the world could never quit their job and go off and work on their own thing. Since I was born in Bulgaria and I go back often, I see how hard it is to start a business there. I’m really inspired by the opportunity that we have. It’s amazing. </p>          
         </div>
 
-
+      </section>
+</li>
+<li>
+<div class="fullscreen">
+  <div class="parallax">
+    <div class="container">
+      <div class="info-panel" id="teaching">
+        <aside>
+          <div class="arrow left"></div>
+          <h3>Caption!</h3>
+          <p class="last">
+            Text about this image!
+          </p>
+        </aside>
+      </div>
+    </div>
+    <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-3.jpg" />
+    <div class="photo-credit light">
+      Photo credit:
+      <a href="" title="" target="_blank">Unknown Photographer</a>
+    </div>
+  </div>
+</div>
+      <div class="container">
+      <section class="row">
         <div class="span11 pull-quote">
           <aside class="quote">
             <h2>Be inspired by what the future holds. Make a name for yourself. Start volunteering. Do things on the side.</h2>
@@ -197,23 +235,23 @@
               </figcaption>
               <div style="clear:both"></div>
             </div>
-              <!-- <div id="jane-mcgonigal">
-                <a href="http://en.wikipedia.org/wiki/Jane_McGonigal"
-              title="Jane McGonigal's wikipedia entry"
+              <div id="steve-wozniak">
+                <a href="http://en.wikipedia.org/wiki/Steve_Wozniak"
+              title="Steve Wozniak's wikipedia entry"
               target="_blank">
-                  <img src='<?php echo get_home_url(); ?>/assets/img/nora-interview/img-Jane-McGonigal.jpg'></a>
+                  <img src='<?php echo get_home_url(); ?>/assets/img/dessy-interview/steve-wozniak.jpg'></a>
                 <figcaption class="clear">
-                  <a href="http://en.wikipedia.org/wiki/Jane_McGonigal"
-                title="Jane McGonigal's wikipedia entry"
+                  <a href="http://en.wikipedia.org/wiki/Steve_Wozniak"
+                title="Steve Wozniak's wikipedia entry"
                 target="_blank">
-                    <h4>Jane McGonigal</h4>
+                    <h4>Steve Wozniak</h4>
                   </a>
                   <p>
-                    Jane McGonigal is a game designer whose first book, Reality Is Broken: Why Games Make us Better and How they Can Change the World, was published in 2011 to mixed reviews.
+                    An admirer of Steve Wozniak, Dessy recently planned a trip to Montreal, noting Steve would be visiting. She sent him an email asking for a meet-up, and he agreed; they met for a coffee in February. Dessy says, "It was incredible to chat about technology with a man who had such a strong influence on the personal computer revolution."
                   </p>
                 </figcaption>
                 <div style="clear:both"></div>
-              </div> -->
+              </div>
             </figure>
           </div>
 
@@ -250,6 +288,31 @@
         </div>
       </section>
 
+      </li>
+      <li>
+      <div class="fullscreen">
+        <div class="parallax">
+          <div class="container">
+            <div class="info-panel" id="girls">
+              <aside>
+                <div class="arrow"></div>
+                <h3>Caption!</h3>
+                <p class="last">
+                  Text about this image!
+                </p>
+              </aside>
+            </div>
+          </div>
+          <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-4.jpg" />
+          <div class="photo-credit light">
+            Photo credit:
+            <a href="" title="" target="_blank">Unknown Photographer</a>
+          </div>
+        </div>
+      </div>
+    
+
+    <div class="container">
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>What are your challenges in the industry?</h3>
@@ -276,7 +339,7 @@
 
           <h3>Where do you think technology might be failing women?</h3>
 
-          <p>I’ve spent a lot of time reading essays by Paul Graham  from Y Combinator [a prestigious, competitive accelerator in San Francisco]. They are always thought-provoking essays. He says the best start-ups are the ones that see just ahead of the curve, to what technology is capable of doing in the future.</p>
+          <p>I’ve spent a lot of time reading essays by <a href="http://www.paulgraham.com/articles.html" title="Paul Graham's writing' target=_blank">Paul Graham</a> from <a href="http://ycombinator.com/" title="Y Combinator's website" title=_blank>Y Combinator</a> [a prestigious, competitive accelerator in San Francisco]. They are always thought-provoking essays. He says the best start-ups are the ones that see just ahead of the curve, to what technology is capable of doing in the future.</p>
 
           <p>I think a field that has yet to be explored is natural language processing. If you think about the types of things you can ask Google – it’s not like talking to a person, there are still certain questions it can’t answer. For example, when I google “best brunch spots in Toronto,” I get tons of articles from Toronto Life. But what if I want a cute brunch spot to bring my parents to, and I don’t want it to be too crazy, and it should have a nice modern atmosphere and a patio. In that case, Google still doesn't replace talking to a friend of mine that knows me and my interests.</p>
 
@@ -285,7 +348,41 @@
         </div>
       </section>
 
+</li>
+      <li>
+      <div class="fullscreen">
+        <div class="parallax">
+          <div class="container">
+            <div class="info-panel" id="hackeryou">
+              <aside>
+                <div class="arrow"></div>
+                <h3>Caption!</h3>
+                <p class="last">
+                  Text about this image!
+                </p>
+              </aside>
+            </div>
+          </div>
+          <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-5.jpg" />
+          <div class="photo-credit light">
+            Photo credit:
+            <a href="" title="" target="_blank">Unknown Photographer</a>
+          </div>
+        </div>
+      </div>
+    
+
+    <div class="container">
+
       <section class="row">
+
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>Twenty years from now, it would be great to say that we built this thing and it had a positive impact in the world.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+
         <div class="span7 offset4 interview-panel">
           <h3>What do you hope to achieve in your career? What are your short- and long-term goals?</h3>
 
@@ -319,7 +416,7 @@
             <div id="question-details">
               <div id="profile-image">
                 <img
-                  src="<?php echo get_home_url(); ?>/assets/img/christina-interview/christina-truong-portrait-square.jpg" />
+                  src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-portrait-square.jpg" />
               </div>
               <h4>How are you changing the status quo, and what are you doing to change the things you don't like about the world?</h4>
               <div id='quote-mark'>
