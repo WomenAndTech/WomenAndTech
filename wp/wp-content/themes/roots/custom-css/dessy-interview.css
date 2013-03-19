@@ -80,7 +80,7 @@ Desssy Interview Specific Styles
     right: 0%;
 }
 
-.fullscreen .info-panel#girls{
+.fullscreen .info-panel#girls, .fullscreen .info-panel#hackeryou{
     top:auto;
     bottom:20%;
 }
@@ -89,6 +89,8 @@ Desssy Interview Specific Styles
 
 /* Mobile Fluid */
 @media (min-width:767px) and (max-width:979px) {
+
+    /* Forces the h4 text to the right instead of wrapping around the profile image */
     .callout-question #profile-image {
         margin-bottom: 75px;
     }
