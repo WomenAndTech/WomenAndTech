@@ -32,7 +32,7 @@
       <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-1.jpg" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
+        <a href="" target="_blank">Unknown Photographer</a>
       </div>
     </div>
     <div class="container">
