@@ -9,7 +9,7 @@ Desssy Interview Specific Styles
 }
 
 .interview address .author-image{
-    background: url('http://api.twitter.com/1/users/profile_image?screen_name=feastinc&size=bigger') center center no-repeat;
+    background: url('http://womenandtech.com/assets/img/lucia-interview/lucia-square.jpg') center center no-repeat;
     background-size: 110%;
 }
 
@@ -68,8 +68,33 @@ Desssy Interview Specific Styles
     background-color:rgba(255,255,255,0.4);
 }
 
+.fullscreen .info-panel#on-stage  {
+    top:auto;
+    bottom:50%;
+    right: 0%;
+}
+
+.fullscreen .info-panel#teaching{
+    top:auto;
+    bottom:40%;
+    right: 0%;
+}
+
+.fullscreen .info-panel#girls{
+    top:auto;
+    bottom:20%;
+}
+
+
 
 /* Mobile Fluid */
+@media (min-width:767px) and (max-width:979px) {
+    .callout-question #profile-image {
+        margin-bottom: 75px;
+    }
+
+}
+
 @media (max-width:767px) {
 
     .curtains.drawn > li .fullscreen{
