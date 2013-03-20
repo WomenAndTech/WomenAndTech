@@ -32,7 +32,7 @@
       <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-1.jpg" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="" target="_blank">Unknown Photographer</a>
+        <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a>
       </div>
     </div>
     <div class="container">
@@ -88,9 +88,8 @@
       <div class="info-panel" id="on-stage">
         <aside>
           <div class="arrow left"></div>
-          <h3>Caption!</h3>
           <p class="last">
-            Text about this image!
+            Dessy, along with Lindsey Goodchild, CEO of Greengage Mobile, pitched their company to a full-house at <a href="http://jolt.marsdd.com/" title="MaRS JOLT's webpage" target=_blank>JOLT's</a> first ever Demo Day held October 25th, 2012. JOLT is an early-stage startup program.
           </p>
         </aside>
       </div>
@@ -98,7 +97,7 @@
     <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-2.jpg" />
     <div class="photo-credit light">
       Photo credit:
-      <a href="" title="" target="_blank">Unknown Photographer</a>
+      <a href="http://www.marsdd.com/" title="MaRS' Website" target="_blank">MaRS Media</a>
     </div>
   </div>
 </div>
@@ -170,9 +169,8 @@
       <div class="info-panel" id="teaching">
         <aside>
           <div class="arrow left"></div>
-          <h3>Caption!</h3>
           <p class="last">
-            Text about this image!
+            A regular mentor and instructor with <a href="http://ladieslearningcode.com/" title="Ladies Learning Code website" target=_blank>Ladies Learning Code</a>, Dessy taught an Intro to Ruby workshop to aspiring developers last October. 
           </p>
         </aside>
       </div>
@@ -180,7 +178,7 @@
     <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-3.jpg" />
     <div class="photo-credit light">
       Photo credit:
-      <a href="" title="" target="_blank">Unknown Photographer</a>
+      <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a>
     </div>
   </div>
 </div>
@@ -296,9 +294,8 @@
             <div class="info-panel" id="girls">
               <aside>
                 <div class="arrow"></div>
-                <h3>Caption!</h3>
                 <p class="last">
-                  Text about this image!
+                  Young participants of a <a href="http://girlslearningcode.com/" title="Girls Learning Code website" target=_blank>Girls Learning Code</a> Ruby workshop, where Dessy helped teach, hold up their favourite programming word. 
                 </p>
               </aside>
             </div>
@@ -306,7 +303,7 @@
           <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-4.jpg" />
           <div class="photo-credit light">
             Photo credit:
-            <a href="" title="" target="_blank">Unknown Photographer</a>
+            <a href="https://twitter.com/Hannah_DNA" title="Hannah Allen Twitter profile" target="_blank">Hannah Allen</a>
           </div>
         </div>
       </div>
@@ -352,21 +349,10 @@
       <li>
       <div class="fullscreen">
         <div class="parallax">
-          <div class="container">
-            <div class="info-panel" id="hackeryou">
-              <aside>
-                <div class="arrow"></div>
-                <h3>Caption!</h3>
-                <p class="last">
-                  Text about this image!
-                </p>
-              </aside>
-            </div>
-          </div>
           <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-5.jpg" />
           <div class="photo-credit light">
             Photo credit:
-            <a href="" title="" target="_blank">Unknown Photographer</a>
+            <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a>
           </div>
         </div>
       </div>
