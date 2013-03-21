@@ -11,9 +11,7 @@
             <div class="author-image"></div>
             <div class="author-info">
               <p class="author">
-                An interview with
-                <a href="http://twitter.com/feastinc" rel="author" target="_blank" title="<?php echo get_the_author(); ?>
-                  's twitter profile"> <strong><?php echo get_the_author(); ?></strong>
+                An interview with <a href="http://twitter.com/feastinc" rel="author" target="_blank" title="<?php echo get_the_author(); ?>'s twitter profile"> <strong><?php echo get_the_author(); ?></strong>
                 </a>
               </p>
               <p class='date'>
@@ -46,9 +44,7 @@
           <h3>What do you do?</h3>
 
           <p>
-            I am the CTO and co-founder of
-            <a href="https://www.greengagemobile.com/" alt="Greengage Mobile website" target="_blank">Greengage Mobile</a>
-            , along with Lindsey Goodchild, CEO. We sell our software platform to large companies to help them create awareness, engage employees and measure the impact of their sustainability initiatives.
+            I am the CTO and co-founder of <a href="https://www.greengagemobile.com/" alt="Greengage Mobile website" target="_blank">Greengage Mobile</a>, along with Lindsey Goodchild, CEO. We sell our software platform to large companies to help them create awareness, engage employees and measure the impact of their sustainability initiatives.
           </p>
         </div>
 
@@ -87,9 +83,7 @@
           <h3>How did you two form your partnership?</h3>
 
           <p>
-            Lindsey came to
-            <a href="http://www.theworkinggroup.ca/" title="The Working Group website" target="_blank">The Working Group</a>
-            – where I was a developer at the time – with her idea and a few clients lined up that wanted to try the software. At that time, I was beginning to look for opportunities to branch out on my own as an entrepreneur. The Working Group was very supportive, and they also knew she was looking for a technical co-founder, so they put us in a room together to see what happened!
+            Lindsey came to <a href="http://www.theworkinggroup.ca/" title="The Working Group website" target="_blank">The Working Group</a> – where I was a developer at the time – with her idea and a few clients lined up that wanted to try the software. At that time, I was beginning to look for opportunities to branch out on my own as an entrepreneur. The Working Group was very supportive, and they also knew she was looking for a technical co-founder, so they put us in a room together to see what happened!
           </p>
 
           <p>
@@ -107,9 +101,7 @@
             <aside>
               <div class="arrow left"></div>
               <p class="last">
-                Dessy, along with Lindsey Goodchild, CEO of Greengage Mobile, pitched their company to a full-house at
-                <a href="http://jolt.marsdd.com/" title="MaRS JOLT's webpage" target=_blank>JOLT's</a>
-                first ever Demo Day held October 25th, 2012. JOLT is an early-stage startup program.
+                Dessy, along with Lindsey Goodchild, CEO of Greengage Mobile, pitched their company to a full-house at <a href="http://jolt.marsdd.com/" title="MaRS JOLT's webpage" target=_blank>JOLT's</a> first ever Demo Day held October 25th, 2012. JOLT is an early-stage startup program.
               </p>
             </aside>
           </div>
@@ -130,8 +122,7 @@
               <?php get_image("dessy-interview/ask-jeeves.jpg", "Cover of P.G. Wodehouse's book 'Carry on Jeeves'"); ?></a>
             <figcaption class="clear">
               <p>
-                <a href="http://ask.com" target=_blank title="Ask.com website">Ask Jeeves</a>
-                (now Ask.com) was founded in 1996 as a search engine that used natural language to seek and find. It got its name from a character in the writing of P.G. Wodehouse – Bertie Wooster's valet, Jeeves.
+                <a href="http://ask.com" target=_blank title="Ask.com website">Ask Jeeves</a> (now Ask.com) was founded in 1996 as a search engine that used natural language to seek and find. It got its name from a character in the writing of P.G. Wodehouse – Bertie Wooster's valet, Jeeves.
               </p>
             </figcaption>
             <div style="clear:both"></div>
@@ -144,11 +135,7 @@
           </h3>
 
           <p>
-            When I was younger, my parents – especially my dad – were always showing me cool tech stuff. I remember the day my dad first showed me Google’s search engine. Back then people were still using Ask Jeeves. When Dad showed me Google, he also told me about the two guys who started it,
-            <a href="http://en.wikipedia.org/wiki/Larry_Page" title="Larry Page's Wikipedia entry" target=_blank>Larry</a>
-            and
-            <a href="http://en.wikipedia.org/wiki/Sergey_Brin" title="Sergey Brin's Wikipedia entry" target=_blank>Sergey</a>
-            . They were able to scale it up and build this huge company. He told me how amazing it was in this country to have the ability to start from nothing, to build a big company and influence the world with it. I was very young when he was telling me these things.
+            When I was younger, my parents – especially my dad – were always showing me cool tech stuff. I remember the day my dad first showed me Google’s search engine. Back then people were still using Ask Jeeves. When Dad showed me Google, he also told me about the two guys who started it, <a href="http://en.wikipedia.org/wiki/Larry_Page" title="Larry Page's Wikipedia entry" target=_blank>Larry</a> and <a href="http://en.wikipedia.org/wiki/Sergey_Brin" title="Sergey Brin's Wikipedia entry" target=_blank>Sergey</a>. They were able to scale it up and build this huge company. He told me how amazing it was in this country to have the ability to start from nothing, to build a big company and influence the world with it. I was very young when he was telling me these things.
           </p>
         </div>
 
@@ -171,9 +158,7 @@
           </p>
 
           <p>
-            I can put his story into perspective now; my parents were in their 30s when they first left the country in which they were born. We moved here in 1994. We lived in Richmond Hill and the Oak Ridges area until I went to
-            <a href="http://queensu.ca/" title="Queen’s University website" target=_blank>Queen’s University</a>
-            to pursue my Bachelor in Engineering.
+            I can put his story into perspective now; my parents were in their 30s when they first left the country in which they were born. We moved here in 1994. We lived in Richmond Hill and the Oak Ridges area until I went to <a href="http://queensu.ca/" title="Queen’s University website" target=_blank>Queen’s University</a> to pursue my Bachelor in Engineering.
           </p>
 
         </div>
@@ -218,9 +203,7 @@
             <aside>
               <div class="arrow left"></div>
               <p class="last">
-                A regular mentor and instructor with
-                <a href="http://ladieslearningcode.com/" title="Ladies Learning Code website" target=_blank>Ladies Learning Code</a>
-                , Dessy taught an Intro to Ruby workshop to aspiring developers last October.
+                A regular mentor and instructor with <a href="http://ladieslearningcode.com/" title="Ladies Learning Code website" target=_blank>Ladies Learning Code</a>, Dessy taught an Intro to Ruby workshop to aspiring developers last October.
               </p>
             </aside>
           </div>
@@ -296,8 +279,7 @@
                   <h4>Alexis Ohanian</h4>
                 </a>
                 <p>
-                  Alexis Ohanian is an entrepreneur (Reddit, Hipmunk) and activist for microfinancing, the open Internet, and women in tech (he even gave Women && Tech <a href="http://alexisohanian.com/womenandtechcom-i-wholeheartedly-approve-of-t" title="Alexis Ohanian (kn0thing) likes Women And Tech">a shout out</a>). His first book,
-                  <a href="http://withouttheirpermission.com/" title="Website for Alexis Ohanian's book 'Without Their Permission'" target=_blank>Without Their Permission</a>, comes out in October 2013.
+                  Alexis Ohanian is an entrepreneur (Reddit, Hipmunk) and activist for microfinancing, the open Internet, and women in tech (he even gave Women && Tech <a href="http://alexisohanian.com/womenandtechcom-i-wholeheartedly-approve-of-t" title="Alexis Ohanian (kn0thing) likes Women And Tech">a shout out</a>). His first book, <a href="http://withouttheirpermission.com/" title="Website for Alexis Ohanian's book 'Without Their Permission'" target=_blank>Without Their Permission</a>, comes out in October 2013.
                 </p>
               </figcaption>
               <div style="clear:both"></div>
@@ -326,19 +308,12 @@
           <h3>Do you have any role models in tech?</h3>
 
           <p>
-            The founder of Reddit [Alexis Ohanian]. He’s a huge supporter of
-            <a href="http://www.women2.com/ycombinator-alexis-ohanian-pitch-nyc-2012-competition-judge/" target=_blank>women in tech</a>
-            and the
-            <a href="http://www.nytimes.com/2012/01/27/technology/victory-on-antipiracy-issue-buoys-internet-lobby.html?_r=0" target=_blank>open Internet</a>
-            . He made a lot of money and
-            <a href="http://breadpig.com/pages/about-us" target=_blank>uses it for good causes.</a>
-            I look up to him immensely.
+            The founder of Reddit [Alexis Ohanian]. He’s a huge supporter of <a href="http://www.women2.com/ycombinator-alexis-ohanian-pitch-nyc-2012-competition-judge/" target=_blank>women in tech</a> and the <a href="http://www.nytimes.com/2012/01/27/technology/victory-on-antipiracy-issue-buoys-internet-lobby.html?_r=0" target=_blank>open Internet</a>. He made a lot of money and
+            <a href="http://breadpig.com/pages/about-us" target=_blank>uses it for good causes.</a> I look up to him immensely.
           </p>
 
           <p>
-            Steve Wozniak, the other founder of Apple, seems like the most incredible guy. He made a ton of money but now spends his time as a teacher. He
-            <a href="http://www.easyreadernews.com/60128/steve-wozniak/">taught at a public school for eight years</a>
-            and ended up funding his local region’s school computer program. He has such a passion for this stuff. He is a builder himself and wants to inspire young people.
+            Steve Wozniak, the other founder of Apple, seems like the most incredible guy. He made a ton of money but now spends his time as a teacher. He <a href="http://www.easyreadernews.com/60128/steve-wozniak/">taught at a public school for eight years</a> and ended up funding his local region’s school computer program. He has such a passion for this stuff. He is a builder himself and wants to inspire young people.
           </p>
 
         </div>
@@ -387,9 +362,7 @@
             <aside>
               <div class="arrow"></div>
               <p class="last">
-                Young participants of a
-                <a href="http://girlslearningcode.com/" title="Girls Learning Code website" target=_blank>Girls Learning Code</a>
-                Ruby workshop, where Dessy helped teach, hold up their favourite programming word.
+                Young participants of a <a href="http://girlslearningcode.com/" title="Girls Learning Code website" target=_blank>Girls Learning Code</a> Ruby workshop, where Dessy helped teach, hold up their favourite programming word.
               </p>
             </aside>
           </div>
@@ -438,11 +411,7 @@
           <h3>Where do you think technology might be failing women?</h3>
 
           <p>
-            I’ve spent a lot of time reading essays by
-            <a href="http://www.paulgraham.com/articles.html" title="Paul Graham's writing' target=_blank">Paul Graham</a>
-            from
-            <a href="http://ycombinator.com/" title="Y Combinator's website" title=_blank>Y Combinator</a>
-            [a prestigious, competitive accelerator in San Francisco]. They are always thought-provoking essays. He says the best start-ups are the ones that see just ahead of the curve, to what technology is capable of doing in the future.
+            I’ve spent a lot of time reading essays by <a href="http://www.paulgraham.com/articles.html" title="Paul Graham's writing' target=_blank">Paul Graham</a> from <a href="http://ycombinator.com/" title="Y Combinator's website" title=_blank>Y Combinator</a> [a prestigious, competitive accelerator in San Francisco]. They are always thought-provoking essays. He says the best start-ups are the ones that see just ahead of the curve, to what technology is capable of doing in the future.
           </p>
 
           <p>
@@ -480,7 +449,7 @@
             </h2>
           </aside>
           <div class="quote-mark">
-            <?php get_image("quote-mark"); ?></div>
+            <?php get_image("quote-mark.png"); ?></div>
         </div>
 
         <div class="span7 offset4 interview-panel">
@@ -502,9 +471,7 @@
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>
-            In our last interview,
-            <a href="http://womenandtech.com/interview/nora-young/">Nora Young</a>
-            asked, “What technologies that you use allow you to best express who you really are?”
+            In our last interview, <a href="http://womenandtech.com/interview/nora-young/">Nora Young</a> asked, “What technologies that you use allow you to best express who you really are?”
           </h3>
 
           <p>
@@ -541,9 +508,7 @@
           <div class="row-fluid">
             <div class="span12" id="call-to-action">
               <p>
-                Be sure to check back next time (or
-                <a href="#subscribe" title="Subscribe form">subscribe below</a>
-                ) for Martha's answer to this question.
+                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Martha's answer to this question.
               </p>
             </div>
           </div>
