@@ -29,7 +29,7 @@
       </section>
     </div>
     <div id="portrait" class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-1.jpg" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-daskalov-teaching-portrait-women-and-tech" />
       <div class="photo-credit light">
         Photo credit:
         <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a>
@@ -94,7 +94,7 @@
         </aside>
       </div>
     </div>
-    <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-2.jpg" />
+    <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-daskalov-mars-demo-day-women-and-tech.jpg" />
     <div class="photo-credit light">
       Photo credit:
       <a href="http://www.marsdd.com/" title="MaRS' Website" target="_blank">MaRS Media</a>
@@ -157,7 +157,7 @@
 
           <p>My parents, the friends I’ve made in tech who have accomplished so much, and my co-founder. Even though she didn’t begin her career in tech, she recognized a need and set out to meet it using technology. It takes a lot of courage to step out of your comfort zone and pursue something new.</p>
 
-          <p>It inspires me that we even have the opportunity to do be entrepreneurs. So many people in the world could never quit their job and go off and work on their own thing. Since I was born in Bulgaria and I go back often, I see how hard it is to start a business there. I’m really inspired by the opportunity that we have. It’s amazing. </p>          
+          <p>It inspires me that we even have the opportunity to be entrepreneurs. So many people in the world could never quit their job and go off and work on their own thing. Since I was born in Bulgaria and I go back often, I see how hard it is to start a business there. I’m really inspired by the opportunity that we have. It’s amazing. </p>          
         </div>
 
       </section>
@@ -175,7 +175,7 @@
         </aside>
       </div>
     </div>
-    <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-3.jpg" />
+    <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-daskalov-mentoring-at-ladies-learning-code-women-and-tech.jpg" />
     <div class="photo-credit light">
       Photo credit:
       <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a>
@@ -217,13 +217,13 @@
       </section>
        
       <section class="row">
-        <div class="span4 notable-person double">
+        <div class="span4 notable-person double" id='ohanian-wozniak'>
             <figure class="first-row">
               <div class="arrow"></div>
               <h3>Notable People</h3>
-              <div id="linda-stone" class="first">
+              <div id="alexis-ohanian" class="first">
                 <a href="http://alexisohanian.com/"
-              title="Alexis Ohanian's website"
+              title="`anian's website"
               target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/dessy-interview/alexis-ohanian.jpg'></a>
               <figcaption class="clear">
                 <a href="http://alexisohanian.com/"
@@ -300,7 +300,7 @@
               </aside>
             </div>
           </div>
-          <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-4.jpg" />
+          <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-daskalov-girls-learning-code-women-and-tech.jpg" />
           <div class="photo-credit light">
             Photo credit:
             <a href="https://twitter.com/Hannah_DNA" title="Hannah Allen Twitter profile" target="_blank">Hannah Allen</a>
@@ -349,7 +349,7 @@
       <li>
       <div class="fullscreen">
         <div class="parallax">
-          <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-img-5.jpg" />
+          <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-daskalov-with-microphone-women-and-tech.jpg" />
           <div class="photo-credit light">
             Photo credit:
             <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a>
