@@ -115,11 +115,12 @@
     </div>
     <div class="container">
       <section class="row">
-        <div class="span4 notable-person photo-callout">
+        <div class="span4 notable-person photo-callout id='jeeves'">
           <figure class="first-row">
             <div class="arrow"></div>
             <a href="http://en.wikipedia.org/wiki/Ask.com#History" title="Ask.com Wikipedia entry">
-              <?php get_image("dessy-interview/ask-jeeves.jpg", "Cover of P.G. Wodehouse's book 'Carry on Jeeves'"); ?></a>
+              <?php get_image("dessy-interview/ask-jeeves.jpg", "Cover of P.G. Wodehouse's book 'Carry on Jeeves'"); ?>
+            </a>
             <figcaption class="clear">
               <p>
                 <a href="http://ask.com" target=_blank title="Ask.com website">Ask Jeeves</a> (now Ask.com) was founded in 1996 as a search engine that used natural language to seek and find. It got its name from a character in the writing of P.G. Wodehouse – Bertie Wooster's valet, Jeeves.

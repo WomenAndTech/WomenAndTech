@@ -100,6 +100,7 @@ Desssy Interview Specific Styles
 
 }
 
+
 @media (max-width:767px) {
 
     .curtains.drawn > li .fullscreen{
@@ -152,5 +153,9 @@ Desssy Interview Specific Styles
 
     .notable-person h4 {
         line-height:1.5em;
+    }
+
+    .notable-person#jeeves img, .photo-callout#jeeves img {
+        width: 100%;
     }
 }
