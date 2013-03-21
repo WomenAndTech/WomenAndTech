@@ -159,3 +159,9 @@ Desssy Interview Specific Styles
         width: 100%;
     }
 }
+
+@media (max-width:480px) {
+    .notable-person#lindsey-goodchild{
+        margin-top: 0;
+    }
+}
