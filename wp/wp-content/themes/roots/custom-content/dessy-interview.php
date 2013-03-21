@@ -29,7 +29,7 @@
       </section>
     </div>
     <div id="portrait" class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-daskalov-teaching-portrait-women-and-tech" />
+      <?php get_image("dessy-interview/dessy-daskalov-teaching-portrait-women-and-tech.jpg"); ?>
       <div class="photo-credit light">
         Photo credit:
         <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a>
@@ -54,7 +54,7 @@
             <h3>Notable Person</h3>
             <a href="http://ca.linkedin.com/pub/lindsey-goodchild/18/298/20"
               title="Lindsey Goodchild's Bio"
-              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/dessy-interview/lindsey-goodchild-square.png'></a>
+              target="_blank"><?php get_image("dessy-interview/lindsey-goodchild-square.png"); ?></a>
             <figcaption class="clear">
               <a href="http://ca.linkedin.com/pub/lindsey-goodchild/18/298/20"
                 title="Lindsey Goodchild's Bio"
@@ -80,6 +80,7 @@
           <p>Lindsey and I had a few beer dates (we joke about this all the time), and eventually we decided to partner up. We finished our first prototype in March 2012 and launched with our first clients last fall.</p>
         </div>
       </section>
+    </div>
 </li>
 <li>
 <div class="fullscreen">
@@ -94,7 +95,7 @@
         </aside>
       </div>
     </div>
-    <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-daskalov-mars-demo-day-women-and-tech.jpg" />
+    <?php get_image("dessy-interview/dessy-daskalov-mars-demo-day-women-and-tech.jpg"); ?>
     <div class="photo-credit light">
       Photo credit:
       <a href="http://www.marsdd.com/" title="MaRS' Website" target="_blank">MaRS Media</a>
@@ -107,7 +108,7 @@
             <figure class="first-row">
               <div class="arrow"></div>
               <a href="http://en.wikipedia.org/wiki/Ask.com#History" title="Ask.com Wikipedia entry">
-                <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/ask-jeeves.jpg" alt="Cover of P.G. Wodehouse's book 'Carry on Jeeves'"/>
+                <?php get_image("dessy-interview/ask-jeeves.jpg", "Cover of P.G. Wodehouse's book 'Carry on Jeeves'"); ?>
               </a>
               <figcaption class="clear">
                 <p><a href="http://ask.com" target=_blank title="Ask.com website">Ask Jeeves</a> (now Ask.com) was founded in 1996 as a search engine that used natural language to seek and find. It got its name from a character in the writing of P.G. Wodehouse – Bertie Wooster's valet, Jeeves.</p>
@@ -159,8 +160,8 @@
 
           <p>It inspires me that we even have the opportunity to be entrepreneurs. So many people in the world could never quit their job and go off and work on their own thing. Since I was born in Bulgaria and I go back often, I see how hard it is to start a business there. I’m really inspired by the opportunity that we have. It’s amazing. </p>          
         </div>
-
       </section>
+      </div>
 </li>
 <li>
 <div class="fullscreen">
@@ -175,7 +176,7 @@
         </aside>
       </div>
     </div>
-    <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-daskalov-mentoring-at-ladies-learning-code-women-and-tech.jpg" />
+    <?php get_image("dessy-interview/dessy-daskalov-mentoring-at-ladies-learning-code-women-and-tech.jpg"); ?>
     <div class="photo-credit light">
       Photo credit:
       <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a>
@@ -188,7 +189,7 @@
           <aside class="quote">
             <h2>Be inspired by what the future holds. Make a name for yourself. Start volunteering. Do things on the side.</h2>
           </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          <div class="quote-mark"><?php get_image("quote-mark.png"); ?></div>
         </div>
 
         <div class="span7 offset4 interview-panel">
@@ -224,7 +225,7 @@
               <div id="alexis-ohanian" class="first">
                 <a href="http://alexisohanian.com/"
               title="`anian's website"
-              target="_blank"><img src='<?php echo get_home_url(); ?>/assets/img/dessy-interview/alexis-ohanian.jpg'></a>
+              target="_blank"><?php get_image("dessy-interview/alexis-ohanian.jpg"); ?></a>
               <figcaption class="clear">
                 <a href="http://alexisohanian.com/"
                   title="Alexis Ohanian's website"
@@ -237,7 +238,8 @@
                 <a href="http://en.wikipedia.org/wiki/Steve_Wozniak"
               title="Steve Wozniak's wikipedia entry"
               target="_blank">
-                  <img src='<?php echo get_home_url(); ?>/assets/img/dessy-interview/steve-wozniak.jpg'></a>
+                  <?php get_image("dessy-interview/steve-wozniak.jpg"); ?>
+                </a>
                 <figcaption class="clear">
                   <a href="http://en.wikipedia.org/wiki/Steve_Wozniak"
                 title="Steve Wozniak's wikipedia entry"
@@ -285,7 +287,7 @@
           
         </div>
       </section>
-
+    </div>
       </li>
       <li>
       <div class="fullscreen">
@@ -300,7 +302,7 @@
               </aside>
             </div>
           </div>
-          <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-daskalov-girls-learning-code-women-and-tech.jpg" />
+          <?php get_image("dessy-interview/dessy-daskalov-girls-learning-code-women-and-tech.jpg"); ?>
           <div class="photo-credit light">
             Photo credit:
             <a href="https://twitter.com/Hannah_DNA" title="Hannah Allen Twitter profile" target="_blank">Hannah Allen</a>
@@ -344,12 +346,13 @@
           
         </div>
       </section>
+    </div>
 
 </li>
-      <li>
+<li>
       <div class="fullscreen">
         <div class="parallax">
-          <img src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-daskalov-with-microphone-women-and-tech.jpg" />
+          <?php get_image("dessy-interview/dessy-daskalov-with-microphone-women-and-tech.jpg") ?>
           <div class="photo-credit light">
             Photo credit:
             <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a>
@@ -366,7 +369,7 @@
           <aside class="quote">
             <h2>Twenty years from now, it would be great to say that we built this thing and it had a positive impact in the world.</h2>
           </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          <div class="quote-mark"><?php get_image("quote-mark"); ?></div>
         </div>
 
         <div class="span7 offset4 interview-panel">
@@ -386,7 +389,7 @@
           <p>When you're working on a small team and you're the one building the software, you have a lot of control over how it's built, how it looks, and how the user interacts with it. Of course, it's a great idea to pull in talented designers to craft that experience with you, but developers can express themselves not only by changing the way something looks to a user, but by creating a clean workflow and designing beautiful code. These decisions can be very personal to a developer. No two people will build a feature the same way.</p>
 
           <p>After you've worked with a small development team for a long time, you start to recognize each developer's style, and get to the point where you can almost look at a piece of code and know who wrote it.
-          <span class="full-stop"><img src="<?php echo get_home_url(); ?>/assets/img/full-stop.png" /></span></p>
+          <span class="full-stop"><?php get_image("full-stop.png"); ?></span></p>
           
         </div>
       </section>
@@ -401,12 +404,11 @@
             </div>
             <div id="question-details">
               <div id="profile-image">
-                <img
-                  src="<?php echo get_home_url(); ?>/assets/img/dessy-interview/dessy-portrait-square.jpg" />
+                <?php get_image("dessy-interview/dessy-portrait-square.jpg") ?>
               </div>
               <h4>How are you changing the status quo, and what are you doing to change the things you don't like about the world?</h4>
               <div id='quote-mark'>
-                <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
+                <?php get_image("quote-mark-small.png"); ?></div>
             </div>
           </div>
           <div class="row-fluid">
@@ -420,10 +422,11 @@
       </section>
       <div class="row" id='end-tag'>
         <div class="span4">
-          <img src="<?php echo get_home_url(); ?>/assets/img/end-tag.png" />
+          <?php get_image("end-tag.png"); ?>
         </div>
       </div>
 
-    </div><!-- container --> </li>
+    </div><!-- container -->
+  </li>
 </ol>
 
