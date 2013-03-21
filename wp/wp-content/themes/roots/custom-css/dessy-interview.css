@@ -60,7 +60,7 @@ Desssy Interview Specific Styles
 }
 
 .notable-person#lindsey-goodchild{
-    margin-top: -70px;
+    margin-top: -4.45em;
 }
 
 #ohanian-wozniak .arrow{
@@ -160,7 +160,7 @@ Desssy Interview Specific Styles
     }
 }
 
-@media (max-width:480px) {
+@media (max-width:700px) {
     .notable-person#lindsey-goodchild{
         margin-top: -0.75em;
     }
