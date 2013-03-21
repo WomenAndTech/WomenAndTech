@@ -1,13 +1,14 @@
 /*=============================
+Nora Interview Specific Styles
 =============================*/
 
 
 .no-svg #table-of-contents-animation {
-    background:transparent url("../img/ayla-interview/img-swiffy-table-of-contents.gif") no-repeat left top;
+    /*background:transparent url("../img/christina-interview/img-swiffy-table-of-contents.gif") no-repeat left top;*/
 }
 
 .no-svg #coffee-animation {
-    background:transparent url("../img/lucia-interview/img-swiffy-coffee-cup.png") no-repeat left top;
+    /*background:transparent url("../img/lucia-interview/img-swiffy-coffee-cup.png") no-repeat left top;*/
 }
 
 /* Article > Header */
@@ -16,8 +17,8 @@
     padding: 0.4em 0.6em 0.4em 0.65em;
 }
 
-.interview address #author-brttb {
-    background: url('http://api.twitter.com/1/users/profile_image?screen_name=brttb&size=bigger') center center no-repeat;
+.interview address .author-image{
+    background: url('http://api.twitter.com/1/users/profile_image?screen_name=cassiemc&size=bigger') center center no-repeat;
     background-size: 110%;
 }
 
@@ -27,9 +28,10 @@
     min-width: 748px;
 }
 
-.fullscreen .info-panel#collage {
-	top:45%;
-}
+
+/* CAPTION POSITIONS */
+/* uncomment and modify as needed */
+/*
 
 .fullscreen .info-panel#pecha-kucha {
     top:auto;
@@ -46,28 +48,20 @@
 
 .fullscreen .info-panel aside{
 }
+*/
+
+
 /* Article > Start Tag */
 .no-svg #start-animation {
     background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
 }
 
-a.tweet-this, a.tweet-this:hover{
-    cursor: pointer;
-    border-bottom: 0;
-    text-decoration: none;
+.notable-person.double .first {
+    margin-bottom: 10px;
 }
 
-a.tweet-this{
-    color: #444;
-}
-
-a.tweet-this:hover{
-    background:rgba(255, 174, 164, 0.4);
-    color: #000;
-}
-
-#kesley-blackwell {
-	margin-top:75px;
+#jane-mcgonigal {
+	margin:0;
 }
 
 .notable-person h4 {
@@ -78,6 +72,12 @@ a.tweet-this:hover{
 }
 .photo-credit.light {
 	background-color:rgba(255,255,255,0.4);
+}
+
+.fullscreen .info-panel#creative-mornings {
+    top:auto;
+    bottom:45%;
+    right: 0;
 }
 
 /* Mobile Fluid */
@@ -122,6 +122,7 @@ a.tweet-this:hover{
         position: static;
     }
 
+
     .callout-question #quote-mark{
         top: 2em;
     }
@@ -130,17 +131,10 @@ a.tweet-this:hover{
         float: none;
     }
 
-	#kesley-blackwell {
+	#jane-mcgonigal {
 		margin-top:0;
 	}
 	.notable-person h4 {
 		line-height:1.5em;
 	}
-}
-
-
-@media (max-width:480px) {
-    #kesley-blackwell {
-        margin-top:0;
-    }
 }

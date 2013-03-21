@@ -40,5 +40,3 @@
 <meta name="twitter:creator" value="@womenandtech" />
 
 <meta name="description" content="<?php echo strip_tags($social_description[0]); ?>">
-
-<!-- Site Environment: <?php echo SITE_ENV; ?> -->
