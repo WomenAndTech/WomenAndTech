@@ -66,5 +66,10 @@ function share_func($atts){
 }
 add_shortcode( 'share', 'share_func' );
 
+function get_image($img, $alt = "") {
+  $root = get_home_url();
+  $path = '/assets/img/';
+  echo "<img src='$root$path$img' alt='$alt'>";
+}
 
 ?>
