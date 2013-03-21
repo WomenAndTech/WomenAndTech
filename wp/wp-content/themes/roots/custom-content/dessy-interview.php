@@ -296,9 +296,8 @@
                   <h4>Alexis Ohanian</h4>
                 </a>
                 <p>
-                  Alexis Ohanian is an entrepreneur and activist, having launched Reddit in 2005 and Hipmunk in 2010. Other interests include microfinancing, the open Internet, and supporting women in tech (he even gave Women && Tech a shout out once). His first book,
-                  <a href="http://withouttheirpermission.com/" title="Website for Alexis Ohanian's book 'Without Their Permission'" target=_blank>Without Their Permission</a>
-                  , comes out in October 2013.
+                  Alexis Ohanian is an entrepreneur (Reddit, Hipmunk) and activist for microfinancing, the open Internet, and women in tech (he even gave Women && Tech a shout out). His first book,
+                  <a href="http://withouttheirpermission.com/" title="Website for Alexis Ohanian's book 'Without Their Permission'" target=_blank>Without Their Permission</a>, comes out in October 2013.
                 </p>
               </figcaption>
               <div style="clear:both"></div>
@@ -315,7 +314,7 @@
                   <h4>Steve Wozniak</h4>
                 </a>
                 <p>
-                  An admirer of Steve Wozniak, Dessy recently planned a trip to Montreal, noting Steve would be visiting. She sent him an email asking for a meet-up, and he agreed; they met for a coffee in February. Dessy says, "It was incredible to chat about technology with a man who had such a strong influence on the personal computer revolution."
+                  When Wozniak was in Montreal, Dessy emailed asking for a meet-up; he agreed and they met for a coffee. Dessy says, <em>"It was incredible to chat about technology with a man who had such a strong influence on the personal computer revolution."</em>
                 </p>
               </figcaption>
               <div style="clear:both"></div>
