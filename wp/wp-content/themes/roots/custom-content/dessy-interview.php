@@ -296,7 +296,7 @@
                   <h4>Alexis Ohanian</h4>
                 </a>
                 <p>
-                  Alexis Ohanian is an entrepreneur (Reddit, Hipmunk) and activist for microfinancing, the open Internet, and women in tech (he even gave Women && Tech a shout out). His first book,
+                  Alexis Ohanian is an entrepreneur (Reddit, Hipmunk) and activist for microfinancing, the open Internet, and women in tech (he even gave Women && Tech <a href="http://alexisohanian.com/womenandtechcom-i-wholeheartedly-approve-of-t" title="Alexis Ohanian (kn0thing) likes Women And Tech">a shout out</a>). His first book,
                   <a href="http://withouttheirpermission.com/" title="Website for Alexis Ohanian's book 'Without Their Permission'" target=_blank>Without Their Permission</a>, comes out in October 2013.
                 </p>
               </figcaption>
