@@ -521,7 +521,7 @@
 
           <p>But I'm not very good at the work life balance thing. And part of that is a good thing because I love my job. I used to be someone who said, “You love your job? Come on, you like your job.” But I really love my job.</p>
 
-          <p>So there's a good side of the lack of work life balance too, which is that if you're doing work that you really like, it naturally fills up a lot of your life.</p>
+          <p>So there's a good side of the lack of work life balance too, which is that if you're doing work that you really like, it naturally fills up a lot of your life. <span class="full-stop"><img src="<?php echo get_home_url(); ?>/assets/img/full-stop.png" /></span></p>
         </div>
       </section>
 
