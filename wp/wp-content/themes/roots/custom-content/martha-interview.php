@@ -42,7 +42,7 @@
         </div>
         <div class="span7 interview-panel">
           <h3>Martha, your career path has had so many twists and turns that I barely know where to start, so perhaps I should begin by asking you what you're up to at the moment?</h3>
-          <p>At the moment, and for some time now, I have been working in academia. I worked in industry for a long time, but when the tech bubble burst in 2001 I lost a big job that I had left the UK to take up. I was back in Canada, I had two kids to support and I thought to myself, <em>'You know what? It's time that I taught some of the things that I know.'</em> I had already done some teaching in England at the University of the West of England (UWE) and it was actually one of my friends, Bill Buxton, who suggested that if I were to go back to where I had gone to school and tell them that I was around, he was willing to bet they’d have something they'd like me to teach.</p>
+          <p>At the moment, and for some time now, I have been working in academia. I worked in industry for a long time, but when the tech bubble burst in 2001 I lost a big job that I had left the UK to take up. I was back in Canada, I had two kids to support and I thought to myself, <em>'You know what? It's time that I taught some of the things that I know.'</em> I had already done some teaching in England at the <a href="http://www.uwe.ac.uk">University of the West of England</a> (UWE) and it was actually one of my friends, Bill Buxton, who suggested that if I were to go back to where I had gone to school and tell them that I was around, he was willing to bet they’d have something they'd like me to teach.</p>
           <p>Well sure enough, I walked in the door at OCAD University (formerly the Ontario College of Art and Design) and was introduced to Steve Quinlan, the Chair of Graphic Design, and Lenore Richards, the Dean, who offered me a teaching job there and then. This was fantastic, and it helped that I was talking to the right people! They were looking for someone with ideas and experience to teach new media (which was still a very young subject) and technology to design students. My industry perspective and experience with Peter Gabriel's Real World projects, and having helped to set up the New Media program at UWE in the UK, were just what was needed.</p>
         </div>
       </section>
@@ -61,6 +61,20 @@
           <p>I run three research projects out of our lab that are funded in various ways. One is working on mobile technology for elders, helping to scaffold memory by allowing families and elders to collaboratively recreate shared memories and engage in sharing family stories together. Another is with the Centre for Information Visualization and Data Driven Design which is looking at the sonification of data – how to make data available through sound and how to search it through spoken word. We are working with an amazing data set – 20 years of CBC NewsWorld video that will allow you to choose a day from the past then review and search the news stories On This Day. The third is a project with Canadian Women In Communication helping women in the TMT [Technology, Media and Telecommunications] industries who are trying to move their careers into the full potential of the digital realm. We've just completed three in-person seminars in Toronto, Montreal and Vancouver, which we're now building into a series of online learning modules.</p>
         </div>
       </section>
+      </li>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/martha-interview/martha-ladly-ocad.jpg" alt="Martha and the Muffins" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="http://www.facebook.com/peter.noble.39" target="_blank">Peter Noble</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
@@ -120,24 +134,17 @@
         </div>
 
       </section>
-</li>
-  <li>
-    <div class="fullscreen">
-      <div class="parallax">
-        <img src="<?php echo get_home_url(); ?>/assets/img/martha-interview/martha-and-the-muffins.jpg" alt="Martha and the Muffins" />
-        <div class="photo-credit light">
-          Photo credit:
-          <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>It’s interesting because it feels like the tech industry is finally beginning to acknowledge the role of women in technology. Has academia done a better job at highlighting this topic?</h3>
           <p>One of my committee members, Jennifer Jenson, and one of my colleagues, Emma Westecott, are doing a lot of very interesting work on women and games. And I think there have been a lot of good studies in this area for quite a while. It’s an important area because it's a way in. How many guys do you know who are working in technology found their way in through a love for video games? Well guess what: video games for a long time were not that appealing to girls. Some girls love first person shooters but lots of girls really don't. They often prefer collaborative and narrative games. And there aren't nearly so many of those available, and very few have been designed by women.</p>
           <p>There aren't many studies on how to get more women into technology, so I wanted to add my perspective as a woman who has been working in technology for the last three decades. It's become clear to me that things haven't really progressed, and that it's not just a bit of a problem – it has actually become a bit of a crisis.</p>
+        </div>
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>Some girls love first person shooters but lots of girls really don't. They often prefer collaborative and narrative games. And there aren't nearly so many of those available, and very few have been designed by women.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
       </section>
       <section class="row">
@@ -147,6 +154,20 @@
           <p>But I’d been working with computers a long time before that. I'd been working with computers since I was about 19.</p>
         </div>
       </section>
+
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/martha-interview/martha-and-the-muffins.jpg" alt="Martha and the Muffins" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="http://www.facebook.com/peter.noble.39" target="_blank">Peter Noble</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>So you had a start in technology before recording your first album. Looking back at your career, I had the impression your successes in music, design and technology were all distinct periods of your life, but perhaps they were more interwoven than I had imagined.</h3>
@@ -162,6 +183,12 @@
           <p>Both my daughters now work in technological fields too, but no, not really. I mean, I had an artistic and musical family, but you know, this was before technology was really a thing. I do remember taking one of those aptitude tests, and for some reason mine said I should be a mechanic [laughs]. I always did like making things, taking things apart and putting them back together.</p>
           <p>For me, the way in to technology was not through science and math, it was through making. It was through art, it was through design. I was just really privileged to be able to mess around and play with technology without feeling scared by it. I never felt like I couldn’t do this.</p>
         </div>
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>For me, the way in to technology was not through science and math, it was through making. It was through art, it was through design.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
       </section>
       <section class="row">
         <div class="span7 offset4 interview-panel">
@@ -175,7 +202,24 @@
           <h3>It was experimenting and collaborating with your friends at OCAD that lead to a successful music career with Martha and the Muffins. How did the band end up leaving Canada for the UK?</h3>
           <p>At the time when I was in Martha and the Muffins you couldn't actually be anybody In Canadian music until you were somebody somewhere else. The Canadian music industry just couldn’t believe that you could come from the suburbs of Toronto and be world class musicians. So the band went to the UK and that's where we made it. We still have a following over there.</p>
         </div>
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>At the time when I was in Martha and the Muffins you couldn't actually be anybody In Canadian music until you were somebody somewhere else.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
       </section>
+  </li>
+<li>
+  <div class="fullscreen">
+    <img src="<?php echo get_home_url(); ?>/assets/img/martha-interview/martha-and-the-muffins-at-the-edge.jpg" />
+    <div class="photo-credit light">
+      Photo credit:
+      <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
+    </div>
+  </div>
+
+  <div class="container">
       <section class="row">
         <div class="span4 notable-person double" id="linda-stone">
           <figure class="first-row">
@@ -229,12 +273,6 @@
         </div>
       </section>
       <section class="row">
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>At the time when I was in Martha and the Muffins you couldn't actually be anybody In Canadian music until you were somebody somewhere else.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
         <div class="span7 offset4 interview-panel">
           <h3>It's becoming more and more of a trend in technology companies, especially within startups, to put design at the core of business. With a background in both technology and design, how do you see design’s influence on technology?</h3>
           <p>It's one of the founding ideologies of OCAD University that making through art and design is a way of thinking. Design brings great insights to concepts, ideas, materials, and visualising ways of bringing those concepts into the world through technology. It isn't something that is laid on top like a skin. If you don't think from a design point of view about how you're going to make an aesthetically pleasurable, delightful and highly useful product, then it's never going to be any of those things.</p>
@@ -245,7 +283,7 @@
   </li>
 <li>
   <div class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-young-the-virtual-self.jpg" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/martha-interview/martha-ladly-selected-works.jpg" />
       <div class="photo-credit light">
         Photo credit:
         <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
@@ -278,30 +316,6 @@
           <p>The next logical step was to do all of the design work in-house, so we formed a department with a really talented group of young designers that took over the work for all of Peter's and the Real World Records artist's album sleeves. Peter had artists coming through the studio all the time who needed record sleeves and needed design. It was lots of fun.</p>
         </div>
       </section>
-    </div>
-  </li>
-<li>
-<div class="fullscreen">
-  <div class="parallax">
-    <div class="container">
-      <div class="info-panel" id="creative-mornings">
-        <aside>
-          <div class="arrow left"></div>
-          <p class="last">
-            Nora Young spoke at <a href="http://creativemorningstoronto.tumblr.com/" target="_blank">CreativeMornings Toronto</a> last November, raising questions about privacy and our responsibility as makers to ensure the wealth of data being created by online participants is used for good.
-          </p>
-        </aside>
-      </div>
-    </div>
-    <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-young-creative-mornings.jpg" />
-    <div class="photo-credit light">
-      Photo credit:
-      <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
-    </div>
-  </div>
-</div>
-
-  <div class="container">
 
       <section class="row">
 
@@ -310,7 +324,12 @@
           <p>It wasn't just about being a woman or a mother; having a career in technology whether you’re a woman or a man – there's so much you need to do to keep up, even if it's just in your particular area of technoculture. In the beginning, we were on the edge; we were a part of creating the revolution in information, communication, and entertainment technologies. Things were happening fast, and they are now moving and accelerating all the time and the stuff that I don't know about my field is now much, much larger than the stuff that I do know. But it's okay, because I don't think you have to know everything about everything to understand your field and to make an impact in it.</p>
 
         </div>
-
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>We were on the edge; we were a part of creating the revolution in information, communication, and entertainment technologies.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
         <div class="span4 notable-person" id="helen-nissenbaum">
           <figure class="first-row">
             <div class="arrow"></div>
@@ -353,7 +372,7 @@
 <li>
   <div class="fullscreen">
     <div class="parallax">
-      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-and-cassie.jpg" alt="Nora Young being interviewed by Cassie McDaniel"/>
+      <img src="<?php echo get_home_url(); ?>/assets/img/martha-interview/martha-ladly-daughters.jpg" alt="Martha Ladly's Daughters"/>
       <div class="photo-credit light">
         Photo credit:
         <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
@@ -363,12 +382,7 @@
 
     <div class="container">
       <section class="row">
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>Anyone going into journalism now should definitely learn to code, because you should be able to build apps that demonstrate what’s going on in your story, or design great data visualizations to accompany your story.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
+
 
         <div class="span7 offset4 interview-panel">
           <h3>Do you have any advice on how women can balance the demands of a career in technology and motherhood?</h3>
@@ -377,6 +391,12 @@
           <p>From the women I have interviewed for my thesis, it’s clear that mobile technology has really helped us balance our demands because it allows us to be more flexible with our work schedule. But it also means that we don't have that wall around our professional lives. The professional and personal merge a lot more now, and so again you have to be really quite disciplined with yourself. It can really pull and push you in different directions. ‘Should I be working now or should I be spending more time with my family or should I be getting to bed early because I've got to be up early tomorrow?’</p>
           <p>These decisions are difficult for everybody but I think that they're more difficult for women because we still seem to have to take on the majority of the responsibilities with caring for children and the home. Despite the fact that men are pitching in way more than they used to, when it comes right down to it women often take the lead and do most of the work, even if they have big, full time, professional responsibilities.</p>
           <p>Women need to learn how to let go of this, to expect to share parenting and caring responsibilities, and let men help them carry the load. That will make the working world more tolerable and more equitable, and better for women, for men, and for children too. This has to change, it is way overdue, and it will be an improvement for everyone.</p>
+        </div>
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>[Women need] to expect to share parenting and caring responsibilities, and let men help them carry the load. That will make the working world more tolerable and more equitable.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
       </section>
 
