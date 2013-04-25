@@ -7,9 +7,11 @@ global $custom_content;
   <?php the_ID(); ?>
   ">
   <?php if (!$custom_content): ?>
-  <?php get_template_part('templates/page', 'header'); ?>
   <div class="container">
     <div class="row">
+      <div class="span12">
+        <?php get_template_part('templates/page', 'header'); ?>
+      </div>
       <div class="span12">
         <?php the_content(); ?>
       </div>
