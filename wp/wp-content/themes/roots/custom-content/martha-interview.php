@@ -55,7 +55,7 @@
               <a href="http://en.wikipedia.org/wiki/Bill_Buxton"
                 title="Bill Buxton's Wikipedia Page"
                 target="_blank">
-                <img src='<?php echo get_home_url(); ?>/assets/img/martha-interview/img-Bill-Buxton.jpg'>
+                <img src='<?php echo get_home_url(); ?>/assets/img/martha-interview/img-bill-buxton.jpg'>
               </a>
               <figcaption class="clear">
                 <a href="http://en.wikipedia.org/wiki/Bill_Buxton"
@@ -80,7 +80,7 @@
             <a href="http://www.ocadu.ca/about_ocad/governance/board_governors/sara_diamond.htm"
               title="Sara Diamond on OCAD's Board of Governors page"
               target="_blank">
-              <img src='<?php echo get_home_url(); ?>/assets/img/martha-interview/img-Sara-Diamond.jpg'>
+              <img src='<?php echo get_home_url(); ?>/assets/img/martha-interview/img-sara-diamond.jpg'>
             </a>
             <figcaption class="clear">
               <a href="http://www.ocadu.ca/about_ocad/governance/board_governors/sara_diamond.htm"
@@ -312,7 +312,7 @@
           <a href="http://en.wikipedia.org/wiki/Peter_Saville_(graphic_designer)"
             title="Peter Saville's Wikipedia page"
             target="_blank">
-            <img src='<?php echo get_home_url(); ?>/assets/img/martha-interview/img-Peter-Saville.jpg'>
+            <img src='<?php echo get_home_url(); ?>/assets/img/martha-interview/img-peter-saville.jpg'>
           </a>
           <figcaption class="clear">
             <a href="http://en.wikipedia.org/wiki/Peter_Saville_(graphic_designer)"
@@ -389,7 +389,7 @@
             <a href="http://en.wikipedia.org/wiki/Peter_gabriel"
               title="Peter Gabriel's Wikipedia page"
               target="_blank">
-              <img src='<?php echo get_home_url(); ?>/assets/img/martha-interview/img-Peter-Gabriel.jpg'>
+              <img src='<?php echo get_home_url(); ?>/assets/img/martha-interview/img-peter-gabriel.jpg'>
             </a>
             <figcaption class="clear">
               <a href="http://en.wikipedia.org/wiki/Peter_gabriel"
