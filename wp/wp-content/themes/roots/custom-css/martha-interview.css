@@ -60,8 +60,29 @@ Nora Interview Specific Styles
     margin-bottom: 10px;
 }
 
-#jane-mcgonigal {
-	margin:0;
+.interview section.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.interview section.no-margin-top {
+    margin-top: 0;
+}
+#bill-buxton {
+	margin-top:140px;
+}
+
+.fullscreen .info-panel.right-anchor {
+    right:0;
+    top:45%;
+}
+.fullscreen .info-panel.right-anchor .arrow {
+    left:-14px;
+    border-width:15px 0 15px 15px;
+}
+.fullscreen .info-panel.right-anchor .arrow:after {
+    border-width:16px 16px 16px 0;
+    border-right-color:#FF3818;
+    border-left-color:transparent;
 }
 
 .notable-person h4 {
@@ -82,7 +103,15 @@ Nora Interview Specific Styles
 
 /* Mobile Fluid */
 @media (max-width:767px) {
-
+    #start-tag {
+        display:inherit;
+    }
+    #start-tag .fluid-width-swiffy-wrapper {
+        display:none;
+    }
+    .notable-person.photo-callout img {
+        float:left;
+    }
     .curtains.drawn > li .fullscreen{
         margin-top: 10px;
     }
@@ -131,7 +160,7 @@ Nora Interview Specific Styles
         float: none;
     }
 
-	#jane-mcgonigal {
+	#bill-buxton {
 		margin-top:0;
 	}
 	.notable-person h4 {
