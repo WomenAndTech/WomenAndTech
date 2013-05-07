@@ -286,7 +286,7 @@ line-height: 2em
     font-weight:100;
     text-align:center;
     line-height:1em;
-    padding:0.5em 0.8em 0.5em 0.75em;
+    /*padding:0.5em 0.8em 0.5em 0.75em;*/
     border-radius: 50%;
     font-style:italic;
   }
@@ -644,6 +644,7 @@ footer{
     margin:0;
     margin-top:1.3em;
     margin-left:1em;
+    padding:0.5em 0.8em 0.5em 0.75em;
   }
   
   .type-interview .title-block{
@@ -656,9 +657,9 @@ footer{
   }
 
 
-.past-interviews h1 {
-    margin-top:35px;
-}
+  .past-interviews h1 {
+      margin-top:35px;
+  }
 
 /* Share Buttons */
 .share_buttons{

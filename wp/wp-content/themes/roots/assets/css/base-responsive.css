@@ -62,8 +62,11 @@
 }
 
 @media (max-width: 979px) {
-    body {
+    body, body.page {
         padding-top:0;
+    }
+    article.type-post{
+      padding-top:0px;
     }
     #nav-main {
         text-align: center;
@@ -526,6 +529,11 @@
 
   .past-listing{
     height:inherit;
+  }
+
+  .past-listing.post{
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .past-listing p{

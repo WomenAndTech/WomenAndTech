@@ -8,7 +8,7 @@
     e.preventDefault();
 
     var $subscribe = $('#subscribe')
-    , subscribe_pos=$subscribe.offset().top
+    , subscribe_pos = $subscribe.offset().top
 
     //Callback for when we're done scrolling    
     , flash_color = function(){

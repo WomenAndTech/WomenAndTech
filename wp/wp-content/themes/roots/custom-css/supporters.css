@@ -64,29 +64,92 @@
   font-weight: bold;
 }
 
-.with_heart p {
-  margin-bottom: 15px;
+.with_heart h4 {
+  margin-bottom: 0;
 }
 
-#friends {
-  margin-top: 90px;
-  text-align: center;
+.with_heart p {
+  line-height: 1.5;
+  font-size: 0.8em;
 }
+
+#sponsors .with_heart a {
+  font-style: normal;
+}
+
+.with_heart a em {
+  font-weight: normal;
+}
+
+#featured-sponsor {
+  margin-top: 50px;
+}
+
+#featured-sponsor h3,
 #friends h3 {
-  font-size: 2em;
   font-family: 'Arvo', serif;
   font-weight: normal;
   text-align: left;
-  color: #b2b2b2;
   font-style: italic;
-  letter-spacing: -0.04em;
 }
+
+#featured-sponsor h3 {
+  font-size: 2em;
+  color: #cbcbcb;
+  margin-bottom: 1.1em;
+}
+
+.featured-sponsor {
+  background: #f3f3f3;
+  padding-top: 2.7em;
+  padding-bottom: 2.7em;
+  overflow: hidden; /*media object clearfix*/
+}
+
+.featured-sponsor-logo {
+  float: left;
+  padding: 0 2em 1em 4em;
+  text-align: center;
+}
+
+.featured-sponsor-logo a {
+  display: block;
+  max-width: 230px;
+}
+
+.featured-sponsor-about {
+  overflow: hidden; /*media object clearfix*/
+}
+
+.featured-sponsor-about p {
+  margin-bottom: 0;
+  padding: 0 2em;
+  font-size: 1.3em;
+  line-height: 1.9;
+  text-align: left;  
+  color: #666;
+}
+
+.featured-sponsor-about p + p {
+  text-indent: 1.7em;
+}
+
+#friends {
+  margin-top: 70px;
+  text-align: center;
+}
+
+#friends h3 {
+  font-size: 1.7em;
+  color: #c3c3c3;
+}
+
 #friends .friend {
   padding: 0px 5px;
 }
 #friends .friend img {
-  margin-top: 35px;
-  margin-bottom: 40px;
+  margin-top: 5px;
+  margin-bottom: 27px;
 }
 #friends .friend p {
   text-align: left;
@@ -139,7 +202,16 @@
     margin-left: 0px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 979px) {
+  .featured-sponsor-logo {
+    padding: 0 0 1em 2em;
+  }
+
+  .featured-sponsor-logo a {
+    max-width: 180px;
+  }
+
   #about_team h2 {
     font-size: 2em;
   }
@@ -153,6 +225,10 @@
     min-height: 245px;
   }
   .member img {
+    width: 100%;
+  }
+
+  .member.with_heart {
     width: 100%;
   }
 }
@@ -183,9 +259,38 @@
     margin: 0px 1%;
     min-height: 230px;
   }
+  .member.with_heart {
+    width: 72%;
+  }
 }
+
+@media (max-width: 700px) {
+  .featured-sponsor-logo {
+    float: none;
+    padding: 0 0 2em;
+  }
+
+  .featured-sponsor-logo a {
+    margin: 0 auto;
+  }
+
+}
+
 @media (max-width: 480px) {
+  #team {margin-top: 30px;}
+  #about_team h2 {margin-bottom: 15px;}
+
+  #friends {margin-top: 40px;}
+  #friends h3 {
+    line-height: 1.2;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  #friends .friend {margin-bottom: 30px;}
+  #friends .friend img {margin: 0 0 10px 0;}
+
   .member {
     width: 50%;
   }
+
 }

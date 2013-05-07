@@ -26,6 +26,7 @@
     overflow: hidden;
     z-index: 1;
     box-shadow: 0 1px 15px 3px rgba(0, 0, 0, 0.5);
+    padding-bottom: 1em;
 }
 
 .curtains.drawn>li.curtain-hidden,.curtains>li.curtain-hidden {
@@ -66,10 +67,10 @@
 /* --- Interview specific styles ---- */
 
 .interview a {
-    -webkit-transition: color .25s ease-out;
-    -moz-transition: color .25s ease-out;
-    -o-transition: color .25s ease-out;
-    transition: color .25s ease-out;
+    -webkit-transition: .25s ease-out;
+    -moz-transition: .25s ease-out;
+    -o-transition: .25s ease-out;
+    transition: .25s ease-out;
 }
 
 
@@ -142,17 +143,18 @@
 }
 
 .interview address .author-image {
-    display: inline-block;
+    float: left;
+    margin-left: 5px;
     border-radius: 50%;
     width: 44px;
     height: 44px;
 }
 
 .interview address .author-info {
-    display: inline-block;
+    
     height: 35px;
-    padding-left: 5px;
-    top: -0.214em;
+    margin-left: 67px;
+    top: 0.1em;
     position: relative;
 }
 
@@ -211,6 +213,15 @@
 
 /* Article > #Opening */
 
+.curtains.drawn > li .fullscreen{
+    margin-top:80px;
+}
+
+.curtains.drawn > li .fullscreen#portrait{
+    margin-top:0;
+}
+
+
 .fullscreen img {
     width: 100%;
     min-height: 500px;
@@ -241,7 +252,8 @@
 
 /* Article > Aside/Figure */
 
-aside, figure {
+.interview aside, 
+.interview figure {
     position: relative;
     width: 75%;
 }
@@ -263,7 +275,7 @@ aside, figure {
     margin-bottom: 0;
 }
 
-.notable-person h3, .info-panel h3 {
+.interview .notable-person h3, .interview .info-panel h3 {
     line-height: 1.5em;
     margin-bottom: 0.429em;
     margin-top: 0;
@@ -309,6 +321,19 @@ aside, figure {
     border-width: 16px 0 16px 16px;
 }
 
+.arrow.left{
+    left: -14px;
+    border-width: 15px 15px 15px 0;
+
+}
+
+.arrow.left:after{
+    left: -1px;
+    border-right-color: #000;
+    border-width: 16px 16px 16px 0;
+}
+
+
 /* Article > Aside > Info-Panel */
 
 .info-panel aside {
@@ -342,6 +367,10 @@ aside, figure {
     border-left-color: #FF3818;
 }
 
+.info-panel .arrow.left:after {
+    border-right-color: #FF3818;
+}
+
 
 .fullscreen {
   position:relative;
@@ -361,6 +390,7 @@ aside, figure {
   font-size:0.9em;
 }
 
+
 .photo-credit a, .photo-credit a:visited {
   text-decoration:none;
   border-bottom:none;
@@ -370,6 +400,19 @@ aside, figure {
   color:#ccc;
   text-decoration:none;
   border:none;
+}
+
+.photo-credit.light{
+    color:#333;
+    background-color:rgba(255,255,255,0.2);
+}
+
+.photo-credit.light a, .photo-credit.light a:visited{
+    color:#222;
+}
+
+.photo-credit.light a:hover {
+    color:#000;
 }
 
 /* Article > Figure > Notable-Person */
@@ -429,6 +472,8 @@ aside, figure {
     margin-bottom: 3.5em;
 
 }
+
+
 
 #profile-image {
     float: left;
@@ -530,7 +575,7 @@ aside, figure {
 
 .callout-question h4 {
     font-size: 1.857em;
-    margin-top: 1em;
+    margin-top: 3%;
     line-height: 1.429em;
     position: relative;
     margin-right: 70px;
@@ -677,6 +722,11 @@ aside, figure {
 
 /* Mobile Fluid */
 @media (max-width:767px) {
+
+    .curtains.drawn > li .fullscreen{
+        margin-top: 0;
+    }
+
     .fullscreen .info-panel {
         top: auto;
         bottom: 0;
@@ -701,7 +751,7 @@ aside, figure {
     }
 
     .interview section#introduction {
-        margin: 0 0 2em;
+        margin: 1.5em 0 2em;
     }
 
     .interview section, article.interview  header {
@@ -726,7 +776,7 @@ aside, figure {
         line-height: 1.357em;
     }
 
-    .row {
+    .interview .row {
         margin: 0 0 2em;
     }
 
@@ -880,5 +930,43 @@ aside, figure {
 
     .interview-intro {
         margin-top: 20px;
+    }
+}
+
+@media (max-width:480px) {
+    .callout-question h4 {
+        margin-right: 10px;
+        margin-top: 1em;
+    }
+    .callout-question #quote-mark{
+        display: none;
+    }
+    .interview section#introduction {
+        margin-top: 2.5em;
+    }
+    .interview .interview-number{
+        margin-top: 0.2em;
+    }
+    .interview h1{
+        font-size: 2.2em;
+        margin-bottom: 0.7em;
+        top: 0.6em;
+    }
+
+    .interview address{
+        font-size: 1em;
+    }
+
+    .interview address .author-info .author{
+        margin-bottom:0.4em;
+    }
+
+    .interview address .date{
+        font-size: 0.9em;
+        color: #888;
+    }
+
+    .notable-person h4 {
+        line-height:1.5em;
     }
 }

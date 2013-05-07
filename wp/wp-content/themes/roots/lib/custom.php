@@ -54,17 +54,22 @@ add_filter('request', 'myfeed_request');
 //[share]
 function share_func($atts){
   extract( shortcode_atts( array(
-      'float' => '',
-      'margin' => '',
-      'tweet' => ''
+      'float' => "",
+      'margin' => "",
+      'tweet' => ""
     ), $atts ) );
   if (empty($tweet) || $tweet == ""):
     $tweet = get_the_title()." -- via @womenandtech";
   endif;
 
- return "<div class='share_buttons' data-url='".get_permalink($post->ID)."' data-text='".$tweet."' style='float:".$float."; margin:".$margin."'></div><div style='clear:both'></div>";
+ return '<div class="share_buttons" data-url="'.get_permalink($post->ID).'" data-text="'.$tweet.'" style="float:'.$float.'; margin:'.$margin.'"></div><div style="clear:both"></div>';
 }
 add_shortcode( 'share', 'share_func' );
 
+function get_image($img, $alt = "") {
+  $root = get_home_url();
+  $path = '/assets/img/';
+  echo "<img src='$root$path$img' alt='$alt'>";
+}
 
 ?>

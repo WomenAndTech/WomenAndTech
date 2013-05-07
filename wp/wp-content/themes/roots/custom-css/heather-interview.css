@@ -1,0 +1,66 @@
+/************************************
+
+HEATHER-SPECIFIC INTERVIEW STYLES
+
+*************************************/
+
+.no-svg #table-of-contents-animation {
+    background:transparent url("../img/heather-interview/img-swiffy-table-of-contents.gif") no-repeat left top;
+}
+
+.no-svg #coffee-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-coffee-cup.png") no-repeat left top;
+}
+
+/* Article > Header */
+
+.interview .interview-number {
+    padding: 0.4em 0.6em 0.4em 0.65em;
+}
+
+.interview address #author-cassiemc {
+    background: url('http://api.twitter.com/1/users/profile_image?screen_name=cassiemc&size=bigger') center center no-repeat;
+    background-size: 110%;
+}
+
+/* Article > #Opening */
+.fullscreen img {
+    min-height: 420px;
+    min-width: 748px;
+}
+
+
+.fullscreen .info-panel#girls-learning-code {
+	top:auto;
+	bottom:45%;
+}
+
+/* Article > Start Tag */
+.no-svg #start-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
+}
+
+/* Article > Notable People */
+
+.notable-person.double .first {
+    margin-bottom: 0.2em;
+}
+
+
+/* Mobile Fluid */
+@media (max-width:767px) {
+    
+    .fullscreen .info-panel#girls-learning-code {
+        bottom:0;
+    }
+    .fullscreen #mounties .info-panel {
+        top: 0;
+        bottom: auto;
+        position: relative;
+        display: block;
+        z-index: 9;
+    }
+    .fullscreen #mounties img {
+        position:relative;
+    }
+}
