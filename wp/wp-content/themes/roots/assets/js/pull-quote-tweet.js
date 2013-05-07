@@ -3,7 +3,8 @@ jQuery(document).ready(function($){
 	var pullQuotes = $('.pull-quote aside.quote')
 		, permalink = $('body').data('permalink')
 		, urlEncodedPermalink = $('body').data('url-encoded-permalink')
-		, intervieweeName = $('body').data('interviewee') || $('article header h1').text().replace(/^\s+/,"")
+		, twitterHandle = $('#twitter-handle').data('twitter-handle') ? "." + $('#twitter-handle').data('twitter-handle') : null
+		, intervieweeName = twitterHandle || $('body').data('interviewee') || $('article header h1').text().replace(/^\s+/,"")
 		, viaHandle = "WomenAndTech"
 		, maxLength = 110
 		, buttonDiv
