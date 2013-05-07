@@ -526,7 +526,8 @@
 }
 
  .tweet-button a:hover{
-    background:#FF3818;
+    background: #ffaea4;
+    border: none;
  }
 
  .tweet-button img{
