@@ -6,6 +6,7 @@ jQuery(document).ready(function($){
 		, intervieweeName = $('body').data('interviewee') || $('article header h1').text().replace(/^\s+/,"")
 		, viaHandle = "WomenAndTech"
 		, maxLength = 117
+		, buttonDiv
 		;
 	
 	pullQuotes.each(function(index){
@@ -28,8 +29,21 @@ jQuery(document).ready(function($){
 		tweetURL += 'url=' + urlEncodedPermalink;
 		tweetURL += '&';
 		tweetURL += 'via=' + viaHandle;
-
-		$(this).find('h2').append('<a href="'+tweetURL+'" style="padding-left: 0.5em; border:none"><img src="https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16_1.png"></a>');
+		// <a href="'+tweetURL+'" class="tweet-button"><img src="'+$('body').data('tweet-button')+'"></a>
+		buttonDiv = $('<div/>')
+							.addClass('tweet-button')
+							.append('<a/>')
+							.find('a')
+							.attr('href', tweetURL)
+							.attr('title', 'Tweet this quote')
+							.append('<img/>')
+							.find('img')
+							.attr('src', $('body').data('tweet-button'))
+							.attr('title', 'Tweet this quote')
+							.attr('alt', 'Tweet this quote')
+							.end()
+							.end()
+		$(this).prepend(buttonDiv);
 	});
 
 
