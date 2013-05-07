@@ -17,11 +17,11 @@ jQuery(document).ready(function($){
 			, combinedText = intervieweeName + ": " + quoteText + " via @" + viaHandle
 			;
 
-		if (combinedText.length > maxLength) {
-			var diff = Math.abs(combinedText.length - maxLength);
-			diff = Math.abs(quoteText.length - diff);
-			quoteText = quoteText.substr(0, diff) + '...' ;
-		}
+		// if (combinedText.length > maxLength) {
+		// 	var diff = Math.abs(combinedText.length - maxLength);
+		// 	diff = Math.abs(quoteText.length - diff);
+		// 	quoteText = quoteText.substr(0, diff) + '...' ;
+		// }
 
 		quoteText = intervieweeName + ": " + quoteText;
 		tweetURL += 'text=' + encodeURIComponent(quoteText);
