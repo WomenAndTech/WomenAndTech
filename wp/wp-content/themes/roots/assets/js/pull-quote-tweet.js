@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
 		, urlEncodedPermalink = $('body').data('url-encoded-permalink')
 		, intervieweeName = $('body').data('interviewee') || $('article header h1').text().replace(/^\s+/,"")
 		, viaHandle = "WomenAndTech"
-		, maxLength = 117
+		, maxLength = 110
 		, buttonDiv
 		;
 	
