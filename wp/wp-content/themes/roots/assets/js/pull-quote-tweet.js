@@ -1,9 +1,10 @@
 jQuery(document).ready(function($){
-
 	var pullQuotes = $('.pull-quote aside.quote')
 		, permalink = $('body').data('permalink')
 		, urlEncodedPermalink = $('body').data('url-encoded-permalink')
-		, twitterHandle = $('#twitter-handle').data('twitter-handle') ? "." + $('#twitter-handle').data('twitter-handle') : null
+		, twitterHandle = $('#twitter-handle').data('twitter-handle')
+		// If twitter handle is set, check to see if it's an "@" name. If not, add the @, then add the '.', otherwise just add the '.'
+		, twitterHandle = twitterHandle ? '.' + (twitterHandle.match(/@/) ? twitterHandle : '@' + twitterHandle) : null
 		, intervieweeName = twitterHandle || $('body').data('interviewee') || $('article header h1').text().replace(/^\s+/,"")
 		, viaHandle = "WomenAndTech"
 		, maxLength = 110
