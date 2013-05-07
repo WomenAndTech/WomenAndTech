@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
 		var quoteText 
 			, combinedText
 			, tweetURL = "https://twitter.com/intent/tweet?"
-			, quoteText = $(this).data('tweet') || $(this).find('h2').text().replace(/^\s+/,"")
+			, quoteText = $(this).data('tweet') || $(this).data('quote') || $(this).children().data('tweet') || $(this).children().data('quote') || $(this).find('h2').text().replace(/^\s+/,"")
 			, combinedText = intervieweeName + ": " + quoteText + " via @" + viaHandle
 			;
 

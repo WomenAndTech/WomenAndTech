@@ -4,7 +4,7 @@
       <header class="row">
         <div class="span9">
           <div class="interview-number"><?php echo get_field('interview_number')?></div>
-          <h1 class="clearfix">
+          <h1 class="clearfix" id="twitter-handle" data-twitter-handle="@nora3000">
             <?php the_title() ?></h1>
           <address>
             <div class="author-image"></div>
@@ -84,7 +84,7 @@
 
       <section class="row">
         <div class="span11 pull-quote">
-          <aside class="quote">
+          <aside class="quote" data-quote="I'm not a gear hound; I'm more interested in the philosophical aspect of technology.">
             <h2>I'm not a gear hound; I'm more interested in the philosophical aspect of technology than the gear. I think most journalists are generalists, and too much the magpie sort of people to be totally geeky.</h2>
           </aside>
           <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
