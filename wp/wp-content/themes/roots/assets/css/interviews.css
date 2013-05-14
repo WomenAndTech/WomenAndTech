@@ -517,23 +517,23 @@
     height: 48px;
     
 }
+
 .tweet-button a{
-    background: #e2e2e2;
+    background: #ebebeb;
     border-radius: 50%;
     display: block;
     border: none;
-    box-shadow: 0px 1px 1px rgba(0,0,0,0.1)
 }
 
  .tweet-button a:hover{
-    background: #ffaea4;
+    background: #FF3818;
     border: none;
  }
 
  .tweet-button img{
-    max-width: 92%;
-    width: 92%;
-    padding: 2.5% 0 0 5%;
+    margin-left:2%;
+    margin-top: 5%;
+    width:100%;
  }
 
 /* Article > Aside > Personal-Testimony */
@@ -962,6 +962,30 @@
 }
 
 @media (max-width:480px) {
+    .tweet-button{
+        position: absolute;
+        top: inherit;
+        bottom: 0.1em;
+        left: inherit;
+        right: 5px;
+        margin-top: -30px;
+        width: 40px;
+        height: 40px;
+    }
+    .tweet-button a, .tweet-button a:hover{
+        background: #FF3818;
+    }
+
+    .tweet-button img{
+        padding:0;
+        margin-left:3%;
+        margin-top: 5%;
+        width:100%;
+    }
+
+    .pull-quote .quote h2{
+        padding-left: 0.75em;
+    }
     .callout-question h4 {
         margin-right: 10px;
         margin-top: 1em;
