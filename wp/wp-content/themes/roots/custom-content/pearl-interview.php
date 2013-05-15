@@ -478,9 +478,7 @@
                 title="Addy Osmani - Articles for Developers"
                 target="_blank"><h4>Addy Osmani</h4></a>
 
-              <p> Addy Osmani is a Developer on the Chrome team
-              at Google. He is a respected figure in the JavaScript community for his writing
-              and contributions to open-source projects like Modernizr, jQuery and Yeoman.</p>
+              <p>Addy Osmani is a Developer on the Chrome team at Google and a respected figure in the JavaScript community. He has contributed to open-source Modernizr, jQuery and Yeoman</p>
 
             </figcaption>
             <div style="clear:both"></div>
