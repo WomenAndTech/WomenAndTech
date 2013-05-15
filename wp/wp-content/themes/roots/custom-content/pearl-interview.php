@@ -251,9 +251,9 @@
           corporate culture to more of a startup culture. They created a <a href="http://web.telus.com/blog">lab</a> to redesign
           all of their web properties and this was almost exactly what I was looking for –
           web development and programming but also team building. From a technology
-          standpoint, I’ve implemented some <a href="http://theleanstartup.com">Lean</a> methodologies, somewhat based on an
-          <a href="http://en.wikipedia.org/wiki/Agile_software_development">Agile</a>
-          workflow, and we’re training the other employees to think like a startup and
+          standpoint, I’ve implemented some <a href="http://theleanstartup.com">Lean methodologies</a>, somewhat based on an
+          <a href="http://en.wikipedia.org/wiki/Agile_software_development">Agile
+          workflow</a>, and we’re training the other employees to think like a startup and
           execute on ideas really quickly.  </p>
         </div>
       </section>
@@ -334,8 +334,8 @@
 
           <p>Yeah, I'm into a lot of things. Part of that may be that a lot of
           technology doesn't exist for very long. When I was programming with Flash – and everyone kind
-          of knows what the story is with <a
-          href="http://www.apple.com/hotnews/thoughts-on-flash/">Flash</a> – I realized that the web was moving away
+          of knows what the <a
+          href="http://www.apple.com/hotnews/thoughts-on-flash/">story</a> is with Flash – I realized that the web was moving away
           from it and that I really should get back to see what was happening with
           JavaScript. </p>
 
@@ -369,7 +369,7 @@
             <div class="arrow"></div>
             <img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/img-nokia-6131.jpg" alt="Nokia 6131"/>
             <figcaption class="clear">
-              <p>The Nokia 6131 clamshell phone released in February 2006 was the first phone to be produced with NFC capability.</p>
+              <p>The Nokia 6131 clamshell phone released in February 2006 was the first phone to be produced with <a href="http://www.nearfieldcommunication.org/">NFC</a> capability.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
@@ -379,7 +379,7 @@
           <h3>Do you have much mobile development experience?</h3>
           <p>I have very niche knowledge of <a
           href="http://www.android.com">Android</a> from the external hardware integration
-          side. That includes NFC [Near Field Communication], which is about interacting
+          side. That includes NFC [<a href="http://www.nearfieldcommunication.org/">Near Field Communication</a>], which is about interacting
           with things in the real world, and <a href="http://www.arduino.cc">Arduino</a>,
           which combines my previous electronics background. I can only do some specific
           things with Android development. For example, I could integrate a web app with
@@ -422,7 +422,7 @@
       <section class="row">
         <div class="span7 offset4 interview-panel">
 
-          <h3>Your <a href="https://plus.google.com/108076675731922659261/about">Google+</a> bio, where you are pretty active, says you are an Android enthusiast.
+          <h3>Your <a href="https://plus.google.com/108076675731922659261/about">Google+</a> account, where you are pretty active, says you are an Android enthusiast.
           Do you have a conscious preference toward open products as opposed to
           proprietary? </h3>
 
@@ -432,8 +432,8 @@
           externally. For example, if I have a twitter application and there is a post I
           want to share via email, there would be a popup that would ask me where I wanted
           to share this tweet to. The Android intent can route my share request to
-          multiple places, not just my email, like my favourite todo app, Dropbox,
-          Evernote, or another app I have installed. The way apps behave with each other
+          multiple places, not just my email, like my favourite todo app, <a href="http://www.dropbox.com">Dropbox</a>,
+          <a href="http:/www.evernote.com">Evernote</a>, or another app I have installed. The way apps behave with each other
           is very open. </p>
 
           <p>iPhone is like a walled garden; you go into an app, do your thing, and you
@@ -544,7 +544,7 @@
           coordinator. I had a professional relationship with the organizers since the
           conference began. </p>
 
-          <p>A couple of years ago they asked if I wanted to do a talk for SCREENS [a
+          <p>A couple of years ago they asked if I wanted to do a talk for <a href="http://fitc.ca/event/screens2012/">SCREENS</a> [a
           conference held by FITC with a focus on mobile, tablet and device development].
           I submitted a talk but it was a little too avant-garde for them. I don’t
           remember what it was about but it was something weird, and I didn’t get in. The
@@ -578,8 +578,7 @@
 
           <p>   I didn’t notice it so much at conferences, but I have noticed through
           Ladies Learning Code, who spend a lot of time trying to get half the instructors
-          to be female. I remember when <a href="http://womenandtech.com/interview
-          /heather-payne/">Heather</a> was trying to collect names for lead instructors it
+          to be female. I remember when <a href="http://womenandtech.com/interview/heather-payne/">Heather</a> was trying to collect names for lead instructors it
           was the guys who would say, “Yeah, for sure, I’ll be a lead instructor,” and the
           women would say, “Maybe after mentoring a class.” Rarely will women jump in to
           lead a class or talk at a conference without having attended first. I do notice
@@ -684,7 +683,7 @@
           that does not yet exist and you were going to particularly as a woman
           design/develop it for other women, what might it be?”</h3>
 
-          <p>   Hmm... Probably wearables. The reason I like wearables is because they’re
+          <p>   Hmm... Probably <a href="http://en.wikipedia.org/wiki/Wearable_computer">wearables</a>. The reason I like wearables is because they’re
           about personal space and communication, communicating not through words but
           through clothing or touch or heat. We shouldn’t fixate on technology as a <em>thing</em>,
           but we should think about how we use technology. Technology should be more of
