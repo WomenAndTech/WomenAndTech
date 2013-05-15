@@ -67,9 +67,16 @@ Nora Interview Specific Styles
 .interview section.no-margin-top {
     margin-top: 0;
 }
-#bill-buxton {
-  margin-top:140px;
+
+
+#norman-white .arrow{
+    top: 10%;
 }
+
+#fitc .arrow{
+    top: 30%;
+}
+
 
 .fullscreen .info-panel.right-anchor {
     right:0;

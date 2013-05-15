@@ -57,10 +57,17 @@
           <p>I was fairly tomboyish; I played sports all through elementary and high school. I played basketball on a
           co-ed team. I learned that when you want to do something, it shouldn’t matter who you’re doing it with. Just do what you
           want to do. </p>
+        </div>
 
-          <p>We were a stereotypical prairie Chinese family <em>[Editor’s note: The Canadian
-          prairies cover the south of the provinces of Alberta, Manitoba and Saskatchewan
-          and is characterized as flat, rural, wheat and oil producing land.]</em> We owned a
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2>Technology is something you can actually control; you can have it do anything, or make something out of nothing.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+
+        <div class="span7 offset4 interview-panel">
+          <p>We were a stereotypical prairie Chinese family <em>[The Canadian prairies stretch over Alberta, Manitoba and Saskatchewan.]</em> We owned a
           Chinese restaurant. I worked there from when I was twelve. When it wasn’t busy I
           would read. We had a library half a block away, and if I was interested in
           something I would clear out that section and read whatever was there. I remember
@@ -71,13 +78,10 @@
 
         </div>
 
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2>Technology is something you can actually control; you can have it do anything, or make something out of nothing.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
+      </section>
 
+
+      <section class="row">
         <div class="span7 offset4 interview-panel">
 
           <h3>Did your family read a lot when you were growing up?</h3>
@@ -92,33 +96,9 @@
           that I was actually a pretty good writer, a creative writer.</p>
 
         </div>
+      </section>
 
-        <div class="span4 notable-person" id="norman-white">
-          <figure class="first-row">
-            <div class="arrow"></div>
-            <h3>Notable Person</h3>
-            <a href="http://www.normill.ca/artpage.html"
-              title="Norman White – But I would prefer that it sneaks in through some back door"
-              target="_blank">
-              <img src='<?php echo get_home_url(); ?>/assets/img/pearl-interview/img-norman-white.jpg'>
-            </a>
-            <figcaption class="clear">
-              <a href="http://www.normill.ca/artpage.html"
-                title="Norman White – But I would prefer that it sneaks in through some back door"
-                target="_blank"><h4>Norman White</h4></a>
-
-              <p>Norman White is one of the most influential media artists. He has trained
-              hundreds of artists and began teaching at the Ontario College of Art and Design
-              (OCAD) from 1978 until he retired in 2003. His installations covers a variety of
-              His media art includes everything from light installations, robotics, and
-              electronic and interactive art . In 2003, he came out of retirement and has
-              continued to teach New Media at the School of Image Arts at Ryerson University.</p>
-
-            </figcaption>
-            <div style="clear:both"></div>
-          </figure>
-        </div>
-
+      <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>I saw in my research you contributed to an
             <a href="http://www.wrox.com/WileyCDA/WroxTitle/Professional-Android-Sensor-Programming.productCd-1118183487.html" target="_blank">Android programming book</a>
@@ -135,16 +115,40 @@
           installations, which were fairly new at the time. That meant learning how to use
           electronics to sense when people were in rooms or to react to people. It was so
           different from anything else that I knew.</p>
+        </div>
 
+        <div class="span4 notable-person" id="norman-white">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <h3>Notable Person</h3>
+            <a href="http://www.normill.ca/artpage.html"
+              title="Norman White"
+              target="_blank">
+              <img src='<?php echo get_home_url(); ?>/assets/img/pearl-interview/img-norman-white.jpg'>
+            </a>
+            <figcaption class="clear">
+              <a href="http://www.normill.ca/artpage.html"
+                title="Norman White"
+                target="_blank"><h4>Norman White</h4></a>
+
+              <p>Norman White is a New Media artist specializing in electronic and interactive art. He began teaching at OCAD in 1978 and currently teaches New Media at Ryerson University.</p>
+
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+
+        <div class="span7 interview-panel">
           <p>My electronics teacher at that time, <a href="http://en.wikipedia.org/wiki/Norman_White">Norman White</a>
           (Ryerson got him to come out
           of retirement to come and teach), was awesome because he was so good at
           encouraging people, and he listened. He took my class to the engineering
           department where they actually had a 3D printer, before 3D printers were all the
           rage. It was an eye opener to see that this kind of technology existed.</p>
-
         </div>
+      </section>
 
+      <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>What did you do after you graduated?</h3>
 
@@ -158,7 +162,6 @@
           <p>That was really good for me as a learning experience because I
           didn’t get pushed into a narrow job description. At night I would still do
           physical art installations or other projects like that.</p>
-
         </div>
       </section>
     </div>
@@ -192,7 +195,6 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-
           <h3>You spent some time at the <a href="http://www.youtube.com/watch?v=eFaefKNtvYU">CFC (Canadian Film Centre) Media Lab</a>. How did that come about?</h3>
 
           <p>After working at the startup I was looking for a change. And an
@@ -209,7 +211,11 @@
           themselves. If they weren't technically savvy enough to want to do it on their
           own, or if time was short, then I would either work on their project or hire a
           contractor and manage them. </p>
+        </div>
+      </section>
 
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
           <h3>You’ve recently started a project called <a href="http://codehuddle.org">Code Huddle</a>. Tell us about that.</h3>
 
           <p>For every new course I want to teach, I have to make the curriculum from
@@ -225,7 +231,11 @@
           use it, and something will come of it. I was hoping to have a beta out for
           people to try early this year, but I started working full-time so I haven’t had
           a lot of time to focus on side projects.</p>
+        </div>
+      </section>
 
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
           <h3>What are you working on now?</h3>
 
           <p>I’m working with <a href="http://nascentdigital.com/">Nascent Digital</a> to help TELUS change their
@@ -236,18 +246,10 @@
           <a href="http://en.wikipedia.org/wiki/Agile_software_development">Agile</a>
           workflow, and we’re training the other employees to think like a startup and
           execute on ideas really quickly.  </p>
-
-          <h3>How did you start teaching and why do you do it?</h3>
-
-          <p>In 2008, Shawn Pucknell who runs <a href="http://fitc.ca/">FITC</a> events
-          reached out to me and asked if I wanted to teach electronics workshops. I
-          thought, I don’t know what to teach! He said to just pick a project then work on
-          that during the class, so I agreed. My first class was making LED solar
-          lanterns, and I had six people turn up. It was basic electronics. I actually
-          hired one of those students a year later.</p>
-
         </div>
-
+      </section>
+      
+      <section class="row">
         <div class="span4 notable-person" id="shawn-pucknell">
           <figure class="first-row">
             <div class="arrow"></div>
@@ -271,6 +273,19 @@
             <div style="clear:both"></div>
           </figure>
         </div>
+
+        <div class="span7 interview-panel">
+          <h3>How did you start teaching and why do you do it?</h3>
+
+          <p>In 2008, Shawn Pucknell who runs <a href="http://fitc.ca/">FITC</a> events
+          reached out to me and asked if I wanted to teach electronics workshops. I
+          thought, I don’t know what to teach! He said to just pick a project then work on
+          that during the class, so I agreed. My first class was making LED solar
+          lanterns, and I had six people turn up. It was basic electronics. I actually
+          hired one of those students a year later.</p>
+
+        </div>
+
 
         <div class="span7 offset4 interview-panel">
 
@@ -300,31 +315,18 @@
           </aside>
           <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
+      </section>
 
+      <section class="row">
         <div class="span7 offset4 interview-panel">
 
           <h3>A lot of technologists focus on one area, be it front-end development or
             hardware, but you seem to know and do a lot of things. How do you manage all
             of that?</h3>
 
-        </div>
-
-        <div class="span4 notable-person photo-callout">
-          <figure class="first-row">
-            <div class="arrow"></div>
-            <a href="XXX" title="Story fo Flash" target="_blank"><img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/img-space-invaders.jpg" alt="XXX"/></a>
-            <figcaption class="clear">
-              <p>Everyone kind of knows what the story is with Flash WIP.....</p>
-            </figcaption>
-            <div style="clear:both"></div>
-          </figure>
-        </div>
-
-        <div class="span7 offset4 interview-panel">
-
-          <p>   Yeah, I'm into a lot of things. Part of that may be that a lot of
+          <p>Yeah, I'm into a lot of things. Part of that may be that a lot of
           technology doesn't exist for very long. When I was programming with <a
-          href="http://en.wikipedia.org/wiki/Adobe_Flash">Flash</a>  – and everyone kind
+          href="http://www.apple.com/hotnews/thoughts-on-flash/">Flash</a>  – and everyone kind
           of knows what the story is with Flash – I realized that the web was moving away
           from it and that I really should get back to see what was happening with
           JavaScript. </p>
@@ -350,24 +352,23 @@
           could have the experience if they spent a weekend to learn some of these things,
           but most people are busy. Maybe having the time to learn these new tools is what
           seems impressive. </p>
-
-          <h3>Do you have much mobile development experience?</h3>
-
         </div>
+      </section>
 
-        <div class="span4 notable-person photo-callout">
+      <section class="row">
+        <div class="span4 notable-person photo-callout" id='nokia'>
           <figure class="first-row">
             <div class="arrow"></div>
-            <a href="XXX" title="Nokia" target="_blank"><img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/img-nokia-6131.jpg" alt="Nokia 6131"/></a>
+            <img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/img-nokia-6131.jpg" alt="Nokia 6131"/>
             <figcaption class="clear">
-              <p>The Nokia 6131 clamshell phone released in February 2006 was the first phone ever produced with NFC capability.</p>
+              <p>The Nokia 6131 clamshell phone released in February 2006 was the first phone to be produced with NFC capability.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
         </div>
 
-        <div class="span7 offset4 interview-panel">
-
+        <div class="span7 interview-panel">
+          <h3>Do you have much mobile development experience?</h3>
           <p>I have very niche knowledge of <a
           href="http://www.android.com">Android</a> from the external hardware integration
           side. That includes NFC [Near Field Communication], which is about interacting
@@ -413,8 +414,7 @@
       <section class="row">
         <div class="span7 offset4 interview-panel">
 
-          <h3>Your <a href="https://plus.google.com/108076675731922659261/about">Google
-          Plus</a> bio, where you are pretty active, says you are an Android enthusiast.
+          <h3>Your <a href="https://plus.google.com/108076675731922659261/about">Google+</a> bio, where you are pretty active, says you are an Android enthusiast.
           Do you have a conscious preference toward open products as opposed to
           proprietary? </h3>
 
@@ -453,6 +453,8 @@
           <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
 
+      </section>
+      <section class="row">
         <div class="span7 offset4 interview-panel">
 
           <h3>How do you keep up in the industry?</h3>
@@ -495,7 +497,11 @@
           he's very good at explaining technology. I find that if you have to stay up-to-
           date with one source for web development, just follow Addy and everything he
           says. </p>
+        </div>
+      </section>
 
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
           <h3>   You do quite a bit of teaching through your <a href="http://karma-
           laboratory.com">Karma Laboratory</a> workshops, at conferences and with non-
           profits like <a href="http://www.makerkids.ca">Maker Kids</a>. Is code literacy
@@ -506,12 +512,13 @@
           know enough code to put up their own web page or to fix something. So much of
           our future is going to be around computers, so I think knowing how to code will
           be an advantage for people. </p>
-
-          <h3>How did you start speaking at events?</h3>
-
         </div>
+      </section>
 
-        <div class="span4 notable-person photo-callout">
+
+      
+      <section class="row">
+        <div class="span4 notable-person photo-callout" id="fitc">
           <figure class="first-row">
             <div class="arrow"></div>
             <a href="http://fitc.ca/event/to13/" title="FITC Toronto" target="_blank"><img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/img-fitc-logo.jpg" alt="FITC Toronto"/></a>
@@ -527,8 +534,8 @@
           </figure>
         </div>
 
-        <div class="span7 offset4 interview-panel">
-
+        <div class="span7 interview-panel">
+          <h3>How did you start speaking at events?</h3>
           <p>I got involved with FITC (a big creative technology conference that
           originated in Toronto) as a volunteer, then a stage manager, then volunteer
           coordinator. I had a professional relationship with the organizers since the
@@ -601,12 +608,9 @@
 
           <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
         </div>
+      </section>
 
-        <div class="span7 offset4 interview-panel">
-
-          <h3>Any advice for women looking to start speaking?</h3>
-
-        </div>
+      <section class="row">
 
         <div class="span4 notable-person" id="ana-serano">
           <figure class="first-row">
@@ -633,8 +637,8 @@
           </figure>
         </div>
 
-        <div class="span7 offset4 interview-panel">
-
+        <div class="span7 interview-panel">
+          <h3>Any advice for women looking to start speaking?</h3>
           <p>If you feel uncomfortable standing and talking for an hour, there are
           various speaking formats you can do at conferences. You can present a topic
           yoursel,f or maybe moderate a panel. <a href="http://www.xmedialab.com/mentor
@@ -642,6 +646,11 @@
           conferences all over the place and one thing that I’ve seen her do is instead of
           talking for an hour, she’ll talk for ten minutes and then do break-out sessions.
           </p>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
 
           <h3>What are your favorite tools for development, design, process, etc.?</h3>
 
@@ -666,7 +675,12 @@
           editor. It’s just so clean and easy to use. It’s like a lifesaver after using
           Dreamweaver for so many years. My computer, a really good keyboard, a good
           trackpad – and I’m good to go. </p>
+        </div>
+      </section>
 
+      
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
           <h3>Are you satisfied in the work that you’re doing now?</h3>
 
           <p> Even times when I didn’t think I would be a programmer, I still came back to
@@ -675,7 +689,11 @@
           continue as a developer. At this point I’m much happier being a team lead where
           I’m developing as well as leading a team, versus being very hands-off. So far
           I’m really happy with where I am. I don’t have any complaints. </p>
-
+        </div>
+      </section>
+      
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
           <h3>   In our last interview <a href="http://womenandtech.com/interview/martha-
           ladly/">Martha Ladly</a> asked, “If you were able to think about a technology
           that does not yet exist and you were going to particularly as a woman
@@ -685,10 +703,11 @@
           about personal space and communication, communicating not through words but
           through clothing or touch or heat. We shouldn’t fixate on technology as a thing,
           but we should think about how we use technology. Technology should be more of
-          something that augments us, not controls us.<span class="full-stop"><?php get_image("full-stop.png"); ?></span></p>
-
+          something that augments us, not controls us <span class="full-stop"><?php get_image("full-stop.png"); ?></span></p>
         </div>
+      </section>
 
+      <section class="row">
         <div class="span8 offset3">
           <div class="row-fluid callout-question">
             <div class="span12" id="question-prompt">
