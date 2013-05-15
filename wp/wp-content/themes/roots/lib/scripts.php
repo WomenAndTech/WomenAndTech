@@ -64,6 +64,8 @@ function roots_scripts() {
   wp_register_script('jquery_color', 'http://code.jquery.com/color/jquery.color-git.js', array('jquery'), null, true);
   // wp_register_script('twitter_widgets', 'https://platform.twitter.com/widgets.js', null, null, true);
   wp_register_script('roots_main', '/assets/js/main.js', array('jquery'), null, true);
+  wp_register_script('twitter_widgets', 'https://platform.twitter.com/widgets.js', null, null, true);
+  wp_register_script('pull_quote_tweet', '/assets/js/pull-quote-tweet.js', array('jquery', 'twitter_widgets'), null, true);
 
     wp_enqueue_script('swiffy');
     wp_enqueue_script('roots_plugins');
@@ -71,6 +73,8 @@ function roots_scripts() {
     wp_enqueue_script('sharrre');
     // wp_enqueue_script('twitter_widgets');   
     wp_enqueue_script('roots_main');
+    wp_enqueue_script('twitter_widgets');
+    wp_enqueue_script('pull_quote_tweet');
   //Loads in the footer;
   
 }
