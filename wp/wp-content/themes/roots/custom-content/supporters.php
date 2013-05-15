@@ -163,7 +163,6 @@
 							<p>Advisor</p>
 						</a>
 					</div>
-					
 					<div class="member">
 
 						<a href="http://twitter.com/brennaob" target="_blank" alt="Brenna O'Brien" title="Brenna O'Brien" >
@@ -172,6 +171,16 @@
 							<p>Front and back-end dev</p>
 						</a>
 					</div>
+					
+					<div class="member">
+
+						<a href="http://twitter.com/CassKaiser" target="_blank" alt="Cassie Kaiser" title="Cassie Kaiser" >
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/cassiek.png" alt="Cassie Kaiser" title="Cassie Kaiser" />
+							<h3>Cassie Kaiser</h3>
+							<p>Volunteer Coordinator</p>
+						</a>
+					</div>
+
 
 					<div class="member with_heart">
 						<h4>With <i class="icon-heart-empty icon-orange"></i> from</h4>
@@ -184,7 +193,6 @@
 							<a href="http://twitter.com/kidwithcamera" target="_blank" title="David Waldman ">David Waldman (Kid With Camera) <em>Photographer</em>,</a>
 							<a href="http://twitter.com/mel_in_media" target="_blank" title="Melanie Lang">Melanie Lang <em>Transcription</em>,</a>
 							<a href="http://twitter.com/kkeilhauer" target="_blank" title="Katrina Keilhauer">Katrina Keilhauer <em>Transciption</em>,</a>
-							<a href="http://twitter.com/CassKaiser" target="_blank" title="Cassaundra Kaiser">Cassaundra Kaiser <em>Volunteer Coordinator</em>,</a>
 							<a href="https://twitter.com/mauriciojcalero" target="_blank" title="Cassaundra Kaiser">Mauricio J Calero <em>Photographer</em></a>
 						</a>
 						</p>
