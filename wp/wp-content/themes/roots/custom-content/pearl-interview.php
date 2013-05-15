@@ -32,7 +32,7 @@
       <img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/pearl-chen-profile.jpg" alt="Pearl Chen Profile"/>
       <div class="photo-credit light">
         Photo credit:
-        <a href="www.mjcphotography.ca" target="_blank">Mauricio Calero</a>
+        <a href="http://www.mjcphotography.ca" target="_blank">Mauricio Calero</a>
       </div>
     </div>
     <div class="container">
@@ -216,7 +216,7 @@
       <img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/pearl-chen-new-media-installation.jpg" alt="New Media Installation" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="www.longexposure.ca" target="_blank">Trevor Haldenby</a>
+        <a href="http://www.longexposure.ca" target="_blank">Trevor Haldenby</a>
       </div>
     </div>
   </div>
@@ -412,7 +412,7 @@
       <img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/pearl-chen-android.jpg" alt="Android" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="www.mjcphotography.ca" target="_blank">Mauricio Calero</a>
+        <a href="http://www.mjcphotography.ca" target="_blank">Mauricio Calero</a>
       </div>
     </div>
   </div>
