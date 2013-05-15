@@ -565,22 +565,7 @@
 <li>
   <div class="fullscreen">
     <div class="parallax">
-      <div class="container">
-        <div class="info-panel" id="pearl-speaking">
-          <aside>
-            <div class="arrow right"></div>
-            <h3>Speaker and Educator</h3>
-            <p class="last">
-              A frequent conference speaker and educator, Pearl has <a href="https://speakerdeck.com/pearlchen">spoken</a> about AngularJS, Arduino, NFC and Android.
-            </p>
-          </aside>
-        </div>
-      </div>
       <img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/pearl-chen-speaking.jpg" alt="Android" />
-      <div class="photo-credit light">
-        Photo credit:
-        <a href="XXX" target="_blank">XXX</a>
-      </div>
     </div>
   </div>
 
