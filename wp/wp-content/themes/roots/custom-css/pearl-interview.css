@@ -31,12 +31,11 @@ Nora Interview Specific Styles
 
 /* CAPTION POSITIONS */
 /* uncomment and modify as needed */
-/*
 
-.fullscreen .info-panel#pecha-kucha {
-    top:auto;
-    bottom:50%;
+.fullscreen .info-panel#pearl-speaking {
+    top:42%;
 }
+/*
 
 .fullscreen .info-panel#illustrations {
     top:25%

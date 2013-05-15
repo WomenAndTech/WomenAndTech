@@ -178,7 +178,7 @@
           <h3>You spent some time at the CFC (Canadian Film Centre) Media Lab. How did that come about?</h3>
 
           <p>After working at the startup I was looking for a change. And an
-          opportunity came up to go to <a href="http://www.youtube.com/watch?v=eFaefKNtvYU">CFC Media Lab</a> on a full scholarship for a five
+          opportunity came up to go to <a href="http://welcome.cfcmedialab.com">CFC Media Lab</a> on a full scholarship for a five
           month intensive post-graduate program. The program brought in experts to teach
           day or one week sessions with a couple key faculty members. Within two and a
           half months you were supposed to form a group and execute a prototype. </p>
@@ -507,8 +507,7 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>   You do quite a bit of teaching through your <a href="http://karma-
-          laboratory.com">Karma Laboratory</a> workshops, at conferences and with non-profits like <a href="http://www.makerkids.ca">Maker Kids</a>. Is code literacy
+          <h3>   You do quite a bit of teaching through your <a href="http://karma-laboratory.com">Karma Laboratory</a> workshops, at conferences and with non-profits like <a href="http://www.makerkids.ca">Maker Kids</a>. Is code literacy
           important to you? </h3>
 
           <p>We’re moving into an age where everything is technology-enabled and
@@ -696,8 +695,7 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>   In our last interview <a href="http://womenandtech.com/interview/martha-
-          ladly/">Martha Ladly</a> asked, “If you were able to think about a technology
+          <h3>   In our last interview <a href="http://womenandtech.com/interview/martha-ladly/">Martha Ladly</a> asked, “If you were able to think about a technology
           that does not yet exist and you were going to particularly as a woman
           design/develop it for other women, what might it be?”</h3>
 
