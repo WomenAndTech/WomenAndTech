@@ -100,9 +100,7 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>I saw in my research you contributed to an
-            <a href="http://www.wrox.com/WileyCDA/WroxTitle/Professional-Android-Sensor-Programming.productCd-1118183487.html" target="_blank">Android programming book</a>
-            . How did you come to combine your interests in writing with computing?
+          <h3>I saw in my research you contributed to an <a href="http://www.wrox.com/WileyCDA/WroxTitle/Professional-Android-Sensor-Programming.productCd-1118183487.html" target="_blank">Android programming book</a>. How did you come to combine your interests in writing with computing?
           </h3>
 
           <p>I left Regina to go to the University of Ottawa. I started out in marketing but
@@ -195,10 +193,10 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>You spent some time at the <a href="http://www.youtube.com/watch?v=eFaefKNtvYU">CFC (Canadian Film Centre) Media Lab</a>. How did that come about?</h3>
+          <h3>You spent some time at the CFC (Canadian Film Centre) Media Lab. How did that come about?</h3>
 
           <p>After working at the startup I was looking for a change. And an
-          opportunity came up to go to CFC Media Lab on a full scholarship for a five
+          opportunity came up to go to <a href="http://www.youtube.com/watch?v=eFaefKNtvYU">CFC Media Lab</a> on a full scholarship for a five
           month intensive post-graduate program. The program brought in experts to teach
           day or one week sessions with a couple key faculty members. Within two and a
           half months you were supposed to form a group and execute a prototype. </p>
@@ -216,10 +214,10 @@
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
-          <h3>You’ve recently started a project called <a href="http://codehuddle.org">Code Huddle</a>. Tell us about that.</h3>
+          <h3>You’ve recently started a project called Code Huddle. Tell us about that.</h3>
 
           <p>For every new course I want to teach, I have to make the curriculum from
-          scratch. I thought that seemed really stupid. The idea behind Code Huddle is
+          scratch. I thought that seemed really stupid. The idea behind <a href="http://codehuddle.org">Code Huddle</a> is
           that I can make curriculum material that someone else can remix, or if I have a
           new course to teach I can remix other people’s material.</p>
 
