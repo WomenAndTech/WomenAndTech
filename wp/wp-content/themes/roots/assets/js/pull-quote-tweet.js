@@ -45,7 +45,7 @@ jQuery(document).ready(function($){
 							.attr('alt', 'Tweet this quote')
 							.end()
 							.end()
-		//$(this).prepend(buttonDiv);
+		$(this).prepend(buttonDiv);
 	});
 
 
