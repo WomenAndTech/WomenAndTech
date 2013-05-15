@@ -433,7 +433,7 @@
           want to share via email, there would be a popup that would ask me where I wanted
           to share this tweet to. The Android intent can route my share request to
           multiple places, not just my email, like my favourite todo app, <a href="http://www.dropbox.com">Dropbox</a>,
-          <a href="http:/www.evernote.com">Evernote</a>, or another app I have installed. The way apps behave with each other
+          <a href="http://www.evernote.com">Evernote</a>, or another app I have installed. The way apps behave with each other
           is very open. </p>
 
           <p>iPhone is like a walled garden; you go into an app, do your thing, and you
