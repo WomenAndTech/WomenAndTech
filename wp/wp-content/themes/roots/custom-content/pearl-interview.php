@@ -99,9 +99,19 @@
       </section>
 
       <section class="row">
+        <div class="span4 notable-person photo-callout" id='android-programming-book'>
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/img-android-programming.jpg" alt="Android Programming"/>
+            <figcaption class="clear">
+              <p>Pearl contributed the NFC and Open Accessory API chapters to <a href="http://www.wrox.com/WileyCDA/WroxTitle/Professional-Android-Sensor-Programming.productCd-1118183487.html">Professional Android Sensor Programming</a> published by Wrox.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+
         <div class="span7 offset4 interview-panel">
-          <h3>I saw in my research you contributed to an <a href="http://www.wrox.com/WileyCDA/WroxTitle/Professional-Android-Sensor-Programming.productCd-1118183487.html" target="_blank">Android programming book</a>. How did you come to combine your interests in writing with computing?
-          </h3>
+          <h3>I saw in my research you contributed to an Android programming book. How did you come to combine your interests in writing with computing?</h3>
 
           <p>I left Regina to go to the University of Ottawa. I started out in marketing but
           I didn’t like it, so I switched to computer science. Although I loved those
@@ -162,6 +172,28 @@
           physical art installations or other projects like that.</p>
         </div>
       </section>
+
+      <section class="row">
+        <div class="span7 offset4 interview-panel">
+          <h3>You spent some time at the CFC (Canadian Film Centre) Media Lab. How did that come about?</h3>
+
+          <p>After working at the startup I was looking for a change. And an
+          opportunity came up to go to <a href="http://www.youtube.com/watch?v=eFaefKNtvYU">CFC Media Lab</a> on a full scholarship for a five
+          month intensive post-graduate program. The program brought in experts to teach
+          day or one week sessions with a couple key faculty members. Within two and a
+          half months you were supposed to form a group and execute a prototype. </p>
+
+          <p>After that I did a bit of freelance work, and then I returned to
+          the CFC to work full-time as the research and technology manager. I was the
+          point person for technical questions and resources. Students might come to me
+          and say, “I want to make an interactive project with brain reading technology,
+          where do I start?” Then I would help them research it and learn how to build it
+          themselves. If they weren't technically savvy enough to want to do it on their
+          own, or if time was short, then I would either work on their project or hire a
+          contractor and manage them. </p>
+
+        </div>
+      </section>
     </div>
 </li>
 <li>
@@ -190,27 +222,6 @@
   </div>
 
   <div class="container">
-
-      <section class="row">
-        <div class="span7 offset4 interview-panel">
-          <h3>You spent some time at the CFC (Canadian Film Centre) Media Lab. How did that come about?</h3>
-
-          <p>After working at the startup I was looking for a change. And an
-          opportunity came up to go to <a href="http://www.youtube.com/watch?v=eFaefKNtvYU">CFC Media Lab</a> on a full scholarship for a five
-          month intensive post-graduate program. The program brought in experts to teach
-          day or one week sessions with a couple key faculty members. Within two and a
-          half months you were supposed to form a group and execute a prototype. </p>
-
-          <p>After that I did a bit of freelance work, and then I returned to
-          the CFC to work full-time as the research and technology manager. I was the
-          point person for technical questions and resources. Students might come to me
-          and say, “I want to make an interactive project with brain reading technology,
-          where do I start?” Then I would help them research it and learn how to build it
-          themselves. If they weren't technically savvy enough to want to do it on their
-          own, or if time was short, then I would either work on their project or hire a
-          contractor and manage them. </p>
-        </div>
-      </section>
 
       <section class="row">
         <div class="span7 offset4 interview-panel">
@@ -246,7 +257,7 @@
           execute on ideas really quickly.  </p>
         </div>
       </section>
-      
+
       <section class="row">
         <div class="span4 notable-person" id="shawn-pucknell">
           <figure class="first-row">
@@ -264,8 +275,7 @@
 
               <p>Shawn Pucknell is the Founding Director of FITC, a worldwide design and
               technology event. He is a successful entrepreneur and respected figure in the
-              new media industry. In 2009, he was inducted into Algonquin College's Media Hall
-              of Fame. </p>
+              new media industry.</p>
 
             </figcaption>
             <div style="clear:both"></div>
@@ -323,9 +333,9 @@
             of that?</h3>
 
           <p>Yeah, I'm into a lot of things. Part of that may be that a lot of
-          technology doesn't exist for very long. When I was programming with <a
-          href="http://www.apple.com/hotnews/thoughts-on-flash/">Flash</a>  – and everyone kind
-          of knows what the story is with Flash – I realized that the web was moving away
+          technology doesn't exist for very long. When I was programming with Flash – and everyone kind
+          of knows what the story is with <a
+          href="http://www.apple.com/hotnews/thoughts-on-flash/">Flash</a> – I realized that the web was moving away
           from it and that I really should get back to see what was happening with
           JavaScript. </p>
 
@@ -392,9 +402,9 @@
         <div class="info-panel" id="pearl-android">
           <aside>
             <div class="arrow right"></div>
-            <h3>Android</h3>
+            <h3>Android Enthusiast</h3>
             <p class="last">
-              TODO: Captions go here XXX
+              Pearl’s home studio is filled with knick-knacks and hardware from Arduino kits to LED lights and circuit boards to Android Robots.
             </p>
           </aside>
         </div>
@@ -418,7 +428,7 @@
 
           <p>When Android started off I liked it because it was the first open source
           mobile operating that had mass appeal. Each application can execute what they
-          call and Android intent, and that’s how apps message each other, internally or
+          call an Android intent, and that’s how apps message each other, internally or
           externally. For example, if I have a twitter application and there is a post I
           want to share via email, there would be a popup that would ask me where I wanted
           to share this tweet to. The Android intent can route my share request to
@@ -490,8 +500,7 @@
           web development so anything he says is more or less gold. When he says, "Oh we
           should try this" or "Have you considered this?" – you listen. He cuts through
           all the crap, and he is a really good teacher. He's a developer advocate, so
-          he's very good at explaining technology. I find that if you have to stay up-to-
-          date with one source for web development, just follow Addy and everything he
+          he's very good at explaining technology. I find that if you have to stay up-to-date with one source for web development, just follow Addy and everything he
           says. </p>
         </div>
       </section>
@@ -499,8 +508,7 @@
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>   You do quite a bit of teaching through your <a href="http://karma-
-          laboratory.com">Karma Laboratory</a> workshops, at conferences and with non-
-          profits like <a href="http://www.makerkids.ca">Maker Kids</a>. Is code literacy
+          laboratory.com">Karma Laboratory</a> workshops, at conferences and with non-profits like <a href="http://www.makerkids.ca">Maker Kids</a>. Is code literacy
           important to you? </h3>
 
           <p>We’re moving into an age where everything is technology-enabled and
@@ -512,7 +520,7 @@
       </section>
 
 
-      
+
       <section class="row">
         <div class="span4 notable-person photo-callout" id="fitc">
           <figure class="first-row">
@@ -562,9 +570,9 @@
         <div class="info-panel" id="pearl-speaking">
           <aside>
             <div class="arrow right"></div>
-            <h3>Pearl speaking at conference</h3>
+            <h3>Speaker and Educator</h3>
             <p class="last">
-              TODO: Captions go here XXX
+              A frequent conference speaker and educator, Pearl has <a href="https://speakerdeck.com/pearlchen">spoken</a> about AngularJS, Arduino, NFC and Android.
             </p>
           </aside>
         </div>
@@ -592,14 +600,14 @@
           women would say, “Maybe after mentoring a class.” Rarely will women jump in to
           lead a class or talk at a conference without having attended first. I do notice
           sometimes when I’m at an evening event, I look around and there are not that
-          many females. I try to speak at more conferences,knowing that fact. I don’t want
+          many females. I try to speak at more conferences, knowing that fact. I don’t want
           to be the token woman speaking at a conference, but I do want to be a woman
           speaking at a conference to show other women it’s not scary. </p>
         </div>
 
         <div class="span11 pull-quote">
           <aside class="quote" data-quote="I don't want to be the token woman speaking at a conference, but I do want to be a woman speaking at a conference.">
-            <h2>I don’t want to be the token woman speaking at a conference, but I do want to be a woman speaking at a conference to show other women it’s not scary.</h2>
+            <h2>I don’t want to be the token woman speaking at a conference, but I do want to be <em>a</em> woman speaking at a conference to show other women it’s not scary.</h2>
           </aside>
 
           <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
@@ -608,25 +616,23 @@
 
       <section class="row">
 
-        <div class="span4 notable-person" id="ana-serano">
+        <div class="span4 notable-person" id="ana-serrano">
           <figure class="first-row">
             <div class="arrow"></div>
             <h3>Notable Person</h3>
             <a href="http://www.xmedialab.com/mentor/ana-serrano"
-              title="Ana Serano - Director of the CFC Media Lab (Toronto)"
+              title="Ana Serrano - Director of the CFC Media Lab (Toronto)"
               target="_blank">
-              <img src='<?php echo get_home_url(); ?>/assets/img/pearl-interview/img-ana-serano.jpg'>
+              <img src='<?php echo get_home_url(); ?>/assets/img/pearl-interview/img-ana-serrano.jpg'>
             </a>
             <figcaption class="clear">
               <a href="http://www.xmedialab.com/mentor/ana-serrano"
-                title="Ana Serano - Director of the CFC Media Lab (Toronto)"
-                target="_blank"><h4>Ana Serano</h4></a>
+                title="Ana Serrano - Director of the CFC Media Lab (Toronto)"
+                target="_blank"><h4>Ana Serrano</h4></a>
 
               <p>Ana Serrano is the Founding Director of CFC
               Media Lab. Her work in storytelling and entertainment has influenced other
               digital storytelling projects around the world.</p>
-
-              <p>(Photo Credit: <a href="www.longexposure.ca">Trevor Haldenby</a>)</p>
 
             </figcaption>
             <div style="clear:both"></div>
@@ -637,8 +643,8 @@
           <h3>Any advice for women looking to start speaking?</h3>
           <p>If you feel uncomfortable standing and talking for an hour, there are
           various speaking formats you can do at conferences. You can present a topic
-          yoursel,f or maybe moderate a panel. <a href="http://www.xmedialab.com/mentor
-          /ana-serrano">Ana Serano</a>, who was my director at the CFC Media Lab, flies to
+          yourself or maybe moderate a panel. <a href="http://www.xmedialab.com/mentor
+          /ana-serrano">Ana Serrano</a>, who was my director at the CFC Media Lab, flies to
           conferences all over the place and one thing that I’ve seen her do is instead of
           talking for an hour, she’ll talk for ten minutes and then do break-out sessions.
           </p>
@@ -674,7 +680,7 @@
         </div>
       </section>
 
-      
+
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>Are you satisfied in the work that you’re doing now?</h3>
@@ -687,7 +693,7 @@
           I’m really happy with where I am. I don’t have any complaints. </p>
         </div>
       </section>
-      
+
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3>   In our last interview <a href="http://womenandtech.com/interview/martha-
@@ -697,7 +703,7 @@
 
           <p>   Hmm... Probably wearables. The reason I like wearables is because they’re
           about personal space and communication, communicating not through words but
-          through clothing or touch or heat. We shouldn’t fixate on technology as a thing,
+          through clothing or touch or heat. We shouldn’t fixate on technology as a <em>thing</em>,
           but we should think about how we use technology. Technology should be more of
           something that augments us, not controls us <span class="full-stop"><?php get_image("full-stop.png"); ?></span></p>
         </div>
