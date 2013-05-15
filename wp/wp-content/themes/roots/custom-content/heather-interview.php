@@ -4,7 +4,7 @@
     <header class="row">
       <div class="span9">
         <div class="interview-number"><?php the_field('interview_number') ?></div>
-        <h1 class="clearfix"><?php the_title(); ?></h1>
+        <h1 class="clearfix" id="twitter-handle" data-twitter-handle="@heatherpayne"><?php the_title(); ?></h1>
         <address>
           <div class="author-image" id="author-cassiemc"></div>
           <div class="author-info">
