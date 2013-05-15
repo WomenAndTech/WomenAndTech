@@ -91,7 +91,7 @@
           Mr. Smith. He had a creative writing and reading curriculum that was atypical of
           most other Grade 6 programs. We read and did creative writing exercises every
           day with him. Up until that point, it seemed predestined that I was going to be
-          some kind of doctor or scientist, like every typical, Chinese immigrant dream!
+          some kind of doctor or scientist, like every typical, Chinese immigrant's dream!
           The thought of having a creative career didn’t cross my mind until I realized
           that I was actually a pretty good writer, a creative writer.</p>
 
@@ -178,7 +178,7 @@
               While at the CFC Media Lab, Pearl was technical lead on several
               new media installations including this one, entitled Alone
               Together, which was projected onto the front of the Bata Shoe
-              Museum.
+              Museum in downtown Toronto.
             </p>
           </aside>
         </div>
@@ -342,8 +342,8 @@
           when you want to execute an idea, and it's not too complex, you can do
           everything from the front-end to the back-end. It's nice to be a full-stack
           developer. Nowadays it's easier because you can actually create a database with
-          JavaScript using <a href="http://www.mongodb.org/">MongoDB</a> , and then the
-          backend or the server can be <a href="http://nodejs.org/">Node.js</a> . It's
+          JavaScript using <a href="http://www.mongodb.org/">MongoDB</a>, and then the
+          backend or the server can be <a href="http://nodejs.org/">Node.js</a>. It's
           becoming easier to do it all just knowing Javascript. </p>
 
           <p>I know Java. I know nothing about Ruby, and I know only slightly more than
@@ -718,7 +718,7 @@
                 <img
                   src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/pearl-chen-square.jpg" />
               </div>
-              <h4>What's one thing that has happened to you (either as a child or as an adult) that completely changed your life??</h4>
+              <h4>What's one thing that has happened to you (either as a child or as an adult) that completely changed your life?</h4>
               <div id='quote-mark'>
                 <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
             </div>
@@ -726,7 +726,7 @@
           <div class="row-fluid">
             <div class="span12" id="call-to-action">
               <p>
-                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Pearl's answer to this question.
+                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Amber's answer to this question.
               </p>
             </div>
           </div>
