@@ -4,14 +4,14 @@
       <header class="row">
         <div class="span9">
           <div class="interview-number"><?php echo get_field('interview_number')?></div>
-          <h1 class="clearfix" id="twitter-handle" data-twitter-handle="@PearlChen">>
+          <h1 class="clearfix" id="twitter-handle" data-twitter-handle="@PearlChen">
             <?php the_title() ?></h1>
           <address>
             <div class="author-image"></div>
             <div class="author-info">
               <p class="author">
                 An interview with
-                <a href="http://twitter.com/britburger" rel="author" target="_blank" title="<?php echo get_the_author(); ?>'s twitter profile"> <strong><?php echo get_the_author(); ?></strong>
+                <a href="http://twitter.com/ivonnekn" rel="author" target="_blank" title="<?php echo get_the_author(); ?>'s twitter profile"> <strong><?php echo get_the_author(); ?></strong>
                 </a>
               </p>
               <p class='date'>
