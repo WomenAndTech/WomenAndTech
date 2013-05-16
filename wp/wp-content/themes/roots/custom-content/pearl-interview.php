@@ -696,7 +696,7 @@
           <div class="row-fluid callout-question">
             <div class="span12" id="question-prompt">
               <h3>
-                Without knowing who the are, please pose a question for our next interviewee.
+                Without knowing who they are, please pose a question for our next interviewee.
               </h3>
             </div>
             <div id="question-details">
