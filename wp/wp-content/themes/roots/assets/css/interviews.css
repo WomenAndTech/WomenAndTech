@@ -682,6 +682,16 @@
 
 .credits a:hover {color: #FF3818;}
 
+.credits-panel .tools a {
+    color: #333;
+    border-bottom-color: transparent;
+}
+
+.credits-panel .tools a:hover {
+    border-bottom-color: #ffaea4;
+}
+
+
 /* End Tag */
 
 #end-tag {

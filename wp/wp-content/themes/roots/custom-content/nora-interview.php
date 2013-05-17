@@ -553,48 +553,6 @@
           </div>
         </div>
       </section>
-      <section class="row">
-        <div class="span8 offset3 credits-panel">
-          <h4>Credits</h4>
-          <p>This interview is thanks to the hard work on many volunteers. Can you help with the next one? <a href="mailto:volunteer@womenandtech.com">Email us.</a></p>
-          <div class="credits">
-            <p>
-              <strong>Interview</strong><em> by</em>
-              <a href="http://twitter.com/cassiemc" target="_blank">Cassie McDaneil</a>
-            </p>
-            <p>
-              <strong>Photography</strong><em> by</em>
-              <a href="http://www.flickr.com/people/intrachelle/" target="_blank">Rachelle Sabourin</a><em> and </em>
-              <a href="http://twitter.com/pamlau" target="_blank">Pam Lau</a>
-            </p>
-            <p>
-              <strong>Editing</strong><em> by</em>
-              <a href="http://twitter.com/cassiemc" target="_blank">Cassie McDaneil</a><em> and</em>
-              <a href="http://twitter.com/kelzor" target="_blank">Kelly Seagram</a>
-            </p>
-            <p>
-              <strong>Art Direction</strong><em> by</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a>
-            </p>
-            <p>
-              <strong>Design</strong><em> by</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a>
-            </p>
-            <p>
-              <strong>Development</strong><em> by</em>
-              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a>
-            </p>
-            <p>
-              <strong>Transcriptions</strong><em> by</em>
-              <a href="#" target="_blank">Medina Kade</a>,
-              <a href="#" target="_blank">Ivana Setiawan</a>,
-              <a href="#" target="_blank">Smith Schwartz</a><em> and</em>
-              <a href="#" target="_blank">Melanie Lang</a>
-            </p>
-          </div>
-          <p class="tools">This site uses Lost Type's Blanch by Atipus, Steve Matteson's Open Sans, Twitter Bootstrap, WordPress, Roots Theme, jQuery, Curtains, Modernizr, Github, Swiffy, Cloudflare, and Microsoft Azure.</p>
-        </div>
-      </section>
       <div class="row" id='end-tag'>
         <div class="span4" >
           <img src="<?php echo get_home_url(); ?>/assets/img/end-tag.png" />
