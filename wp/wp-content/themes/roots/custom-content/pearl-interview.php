@@ -734,7 +734,7 @@
             </p>
             <p>
               <strong>Editing</strong><em> by</em>
-              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaneil</a><em> and</em>
+              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaniel</a><em> and</em>
               <a href="http://commuterlit.com/" target="_blank">Nancy Kay Clark</a>
             </p>
             <p>
