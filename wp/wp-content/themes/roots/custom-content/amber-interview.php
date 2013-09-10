@@ -66,11 +66,11 @@
           <p>When I was at CBC as a general assignment reporter, I was really young and I knew that I needed some type of expertise, and I didn't want to just do daily news because it was too depressing, and that wasn't my personality. [Laughs] </p>
 
           <div class="span11 pull-quote">
-          <aside class="quote">
-
-          <h2>I was excited about people being able to build things online, that one person in their basement could reach a million people around the world.</p>
-
-          <p></pullquote></p>
+            <aside class="quote">
+              <h2>I was excited about people being able to build things online, that one person in their basement could reach a million people around the world.</h2>
+            </aside>
+            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          </div>
 
           <p>I moved out to San Francisco, and I'd always been interested in online journalism and content creation on the Web, so I started to work in that space, building and creating content for websites, doing information architecture and web usability. After working in that area for a while, I just knew it was my passion. I was excited about people being able to build things online, that one person in their basement could reach a million people around the world, or it could be even bigger than that. </p>
 
@@ -131,12 +131,11 @@
           <p>Of course it’s challenging to be a mom running my own business, but fortunately my partner Chris is also working for himself; he’s at home and in our home office with me, and he's a huge help.</p>
 
           <div class="span11 pull-quote">
-          <aside class="quote">
-
-          <h2>I'm not trying to be Supermom. I've had a nanny since my son was five months old.</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
+            <aside class="quote">
+              <h2>I'm not trying to be Supermom. I've had a nanny since my son was five months old.</h2>
+            </aside>
+            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          </div>
 
           <p>And I'm not trying to be Supermom. I've had a nanny since my son Connor was five months old. She lives out, and we have her only forty hours a week, but that's been enough to stay afloat. I think anyone who tries to do it without help is going to be in big trouble when it comes to managing family and work. </p>
 
@@ -147,11 +146,11 @@
           <p>I think that I realized very early on that I wasn't going to be the person who would be on the technical side as far as editing or shooting my own video and building websites. I needed a strong team around me. </p>
 
           <div class="span11 pull-quote">
-          <aside class="quote">
-
-          <h2>I almost don't want to know how to do some of the technical things, because I think it's better to stay in your own lane, so to speak. </p>
-
-          <p></pullquote></p>
+            <aside class="quote">
+              <h2>I almost don't want to know how to do some of the technical things, because I think it's better to stay in your own lane, so to speak. </h2>
+            </aside>
+            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          </div>
 
           <p>I know that what I'm really great at is networking and finding new opportunities, and I've always been more involved in new business and creating those opportunities. To be honest with you, I almost don't want to know how to do some of the technical things, because I think it's better to stay in your own lane, so to speak. It would be too much if I tried to get involved on the technical side. </p>
 
@@ -184,11 +183,11 @@
           <p>I think it's not my decision to make. It’s part of respecting him as a human being beyond being an extension of me. I'll be supportive of him wanting to do stuff online, I’ll just make sure that he maintains his privacy as much as possible. I think you can be online in a really active way and still have your privacy. You'll never see me tweet where I live, or images of Connor, or anything like that. You just have to be smart and draw certain lines in your life. </p>
 
           <div class="span11 pull-quote">
-          <aside class="quote">
-
-          <h2>I think you can be online in a really active way and still have your privacy. You'll never see me tweet where I live, or images of Connor, or anything like that.</p>
-
-          <p></pullquote></p>
+            <aside class="quote">
+              <h2>I think you can be online in a really active way and still have your privacy. You'll never see me tweet where I live, or images of Connor, or anything like that.</h2>
+            </aside>
+            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          </div>
 
           <p>I also don't get political online. I try not to offend anyone, which is unfortunate because I do have strong views, but on the other hand I feel like it could hurt my business, so I'm just a little quieter. </p>
 
@@ -209,11 +208,11 @@
           <p>But there are just too many devices in general, sometimes it's really hard to keep up!</p>
 
           <div class="span11 pull-quote">
-          <aside class="quote">
-
-          <h2>I think if I had to pick one device that I really missed, it would be the BlackBerry Pearl. [...] It was the first smartphone I ever used where I felt it was actually designed for a woman.</p>
-
-          <p></pullquote></p>
+            <aside class="quote">
+              <h2>I think if I had to pick one device that I really missed, it would be the BlackBerry Pearl. [...] It was the first smartphone I ever used where I felt it was actually designed for a woman.</h2>
+            </aside>
+            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          </div>
 
     </section>
     <section class="row">
@@ -222,11 +221,11 @@
           <p>I don't think I've ever had a career vision! Maybe that’s a bit of an issue because some people like to have five-year plans or ten-year plans, but my ambition has always been to survive. [Laughs] </p>
 
           <div class="span11 pull-quote">
-          <aside class="quote">
-
-          <h2>My ambition has always been to survive.</p>
-
-          <p></pullquote></p>
+            <aside class="quote">
+              <h2>My ambition has always been to survive.</h2>
+            </aside>
+            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          </div>
 
           <p>What that means is I've always thought I need to take on as many projects as possible and secure any type of business relationship for my future to make sure that I can continue to do what I want to do and have the freedom to run my own business. </p>
 
@@ -244,11 +243,11 @@
           <p>I definitely ran into a lot of obstacles. I always felt like I had to earn respect – it wasn't given to me right away. So I studied my technology notes harder than anyone I know. I would stay up all night before going on air to do national news segments, because I felt like, immediately people thought I wasn't credible because I was a woman covering tech. </p>
 
           <div class="span11 pull-quote">
-          <aside class="quote">
-
-          <h2>I would stay up all night before going on air to do national news segments because I felt people thought I wasn't credible because I was a woman covering tech. </p>
-
-          <p></pullquote></p>
+            <aside class="quote">
+              <h2>I would stay up all night before going on air to do national news segments because I felt people thought I wasn't credible because I was a woman covering tech.</h2>
+            </aside>
+            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          </div>
 
           <p>I think it's changed SO much. It's so exciting now, some of the most amazing women I know are in some type of social media or tech, and that's just been fantastic. There are a lot more mentors for all of us than there have ever been before. I definitely think I've not 'paid my dues', but definitely it was a bit of a struggle the first couple of years. Fortunately I just focused more on studying and knowing my stuff above anything, and it's paid off. </p>
 
@@ -259,11 +258,11 @@
           <p>Oh yeah. I started with Leo in 2005 when I was doing Call for Help with him on G4TechTV. He became a mentor for me right away, because he told me literally from the first moment I started working with him that I just needed to know my stuff and I didn't need to worry about anything else. I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me. </p>
 
           <div class="span11 pull-quote">
-          <aside class="quote">
-
-          <h2>I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me. </p>
-
-          <p></pullquote></p>
+            <aside class="quote">
+              <h2>I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me.</h2>
+            </aside>
+            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          </div>
 
           <p>He's also been a big role model because, like me, he has straddled mainstream media and entrepreneurship. He's been hugely successful with <a target="_blank" href="http://twit.tv/">TWiT</a>.</p>
 
@@ -271,7 +270,7 @@
 
     </section>
     <section class="row">
-        <h3  id="haveyoubeenamentortoanyotherpeople">Have you been a mentor to any other people?</h3>
+        <h3 id="haveyoubeenamentortoanyotherpeople">Have you been a mentor to any other people?</h3>
 
           <p>What I've tried over the past couple years to do is to inspire other people to go out and do their own thing; I think there are quite a few people that I've met with and helped along the way. </p>
 
@@ -280,11 +279,11 @@
           <p>Also, <a target="_blank" href="http://nichm.com">Nicholas Montgomery</a> who was Marilyn Denis's tech guy. I first met him and got him to come on air with me when he was twelve years old. We’ve kept in touch, and I still do stuff with him. I'm a big fan of supporting really young people. I think you can make a big impact in their lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
 
           <div class="span11 pull-quote">
-          <aside class="quote">
-
-          <h2>I think you can make a big impact in [young peoples’] lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
-
-          <p></pullquote></p>
+            <aside class="quote">
+              <h2>I think you can make a big impact in [young peoples’] lives just by being there and saying they can do it. It can change the way that they do things forever.</h2>
+            </aside>
+            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+          </div>
 
     </section>
     <section class="row">
