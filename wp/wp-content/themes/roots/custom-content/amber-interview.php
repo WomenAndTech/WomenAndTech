@@ -288,6 +288,94 @@
 
           <p>When I was in kindergarten I came second in a colouring contest and had my picture taken for the local paper on PEI.  When I look back at that photo I definitely had a first place smile, which reminds me how thrilled I was just to be part of the competition. I've held this philosophy close to my heart through my working years, reminding myself that even if I don't come first at everything, showing up and giving it my all is reward enough.</p>
     </section>
+    <section class="row">
+        <div class="span8 offset3">
+          <div class="row-fluid callout-question">
+            <div class="span12" id="question-prompt">
+              <h3>
+                Without knowing who they are, please pose a question for our next interviewee.
+              </h3>
+            </div>
+            <div id="question-details">
+              <div id="profile-image">
+                <img
+                  src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/pearl-chen-square.jpg" />
+              </div>
+              <h4>What's one thing that has happened to you (either as a child or as an adult) that completely changed your life?</h4>
+              <div id='quote-mark'>
+                <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span12" id="call-to-action">
+              <p>
+                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Amber's answer to this question.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <div class="span8 offset3 credits-panel">
+          <h4>Credits</h4>
+          <p>This interview is thanks to the hard work on many volunteers. Can you help with the next one? <a href="mailto:volunteer@womenandtech.com">Email us.</a></p>
+          <div class="credits">
+            <p>
+              <strong>Interview</strong><em> by</em>
+              <a href="http://www.ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a>
+            </p>
+            <p>
+              <strong>Photography</strong><em> by</em>
+              <a href="http://mjcphotography.ca" target="_blank">Mauricio Calero</a>
+            </p>
+            <p>
+              <strong>Editing</strong><em> by</em>
+              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaniel</a><em> and</em>
+              <a href="http://commuterlit.com/" target="_blank">Nancy Kay Clark</a>
+            </p>
+            <p>
+              <strong>Art Direction</strong><em> by</em>
+              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a><em> and</em>
+              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a>
+            </p>
+            <p>
+              <strong>Design</strong><em> by</em>
+              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>
+            </p>
+            <p>
+              <strong>Development</strong><em> by</em>
+              <a href="http://twitter.com/MartianMoose" target="_blank">Audrey Kuo</a>, 
+              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a><em>, and</em>
+              <a href="http://twitter.com/raykao" target="_blank">Ray Kao</a>
+            </p>
+            <p>
+              <strong>Transcriptions</strong><em> by</em>
+              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>, 
+              <a href="http://twitter.com/smithschwartz" target="_blank">Smith Schwartz</a><em>, and</em>
+              <a href="http://www.ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a>
+            </p>
+          </div>
+          <p class="tools">This site uses 
+            <a href="http://www.losttype.com/font/?name=blanch" target="_blank">Lost Type's Blanch by Atipus</a>, 
+            <a href="http://www.google.com/fonts/specimen/Open+Sans" target="_blank">Steve Matteson's Open Sans</a>, 
+            <a href="http://twitter.github.io/bootstrap/" target="_blank">Twitter Bootstrap,</a> 
+            <a href="http://wordpress.org/" target="_blank">WordPress</a>, 
+            <a href="http://www.rootstheme.com/" target="_blank">Roots Theme</a>, 
+            <a href="http://jquery.com/" target="_blank">jQuery</a>, 
+            <a href="https://github.com/victa/curtain.js" target="_blank">Curtains</a>, 
+            <a href="http://modernizr.com/" target="_blank">Modernizr</a>, 
+            <a href="https://github.com/" target="_blank">Github</a>, 
+            <a href="https://www.google.com/doubleclick/studio/swiffy/" target="_blank">Swiffy</a>, 
+            <a href="https://www.cloudflare.com/" target="_blank">Cloudflare</a>, and
+            <a href="http://www.windowsazure.com/en-us/" target="_blank">Windows Azure</a>.
+          </p>
+        </div>
+      </section>
+      <div class="row" id='end-tag'>
+        <div class="span4">
+          <img src="<?php echo get_home_url(); ?>/assets/img/end-tag.png" />
+        </div>
+      </div>
     </div><!-- container -->
   </li>
 </ol>
