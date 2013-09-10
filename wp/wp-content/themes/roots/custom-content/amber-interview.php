@@ -3,7 +3,7 @@
   <div class="container interview-intro">
     <header class="row">
       <div class="span9">
-        <div class="interview-number"><?php echo get_field('interview_number')?></div>
+        <div class="interview-number double-digits"><?php echo get_field('interview_number')?></div>
         <h1 class="clearfix" id="twitter-handle" data-twitter-handle="@ambermac">
           <?php the_title() ?></h1>
         <address>
