@@ -60,15 +60,15 @@
 
           <p>About a year later I started podcasting. That was exciting; it was the first time I really knew that I could step out and create content on my own — that I didn’t need to be attached to a broadcaster. I created <a target="_blank" href="http://www.commandn.tv">Command-N</a>, a technology podcast in, I guess, 2006. About that same time I started hosting a podcast with Leo called Net at Night and worked at CityTV as a New Media Specialist. After a year of that, I started <a target="_blank" href="http://konnektnow.com/">my own company</a> and haven't looked back.</p>
 
-    </section>
-    <section class="row">
+
       <h3 id="whendidyoustarttospecializeintechnologyjournalism">When did you start to specialize in technology journalism?</h3>
 
           <p>When I was at CBC as a general assignment reporter, I was really young and I knew that I needed some type of expertise, and I didn't want to just do daily news because it was too depressing, and that wasn't my personality. [Laughs] </p>
 
-          <p><pullquote></p>
+          <div class="span11 pull-quote">
+          <aside class="quote">
 
-          <p>I was excited about people being able to build things online, that one person in their basement could reach a million people around the world.</p>
+          <h2>I was excited about people being able to build things online, that one person in their basement could reach a million people around the world.</p>
 
           <p></pullquote></p>
 
@@ -81,6 +81,9 @@
           <p>The biggest hurdle was in 2007 when I <a target="_blank" href="http://www.blogto.com/city/2008/01/amber_macarthur_gone_from_citytv/">stepped away</a> from a regular job at CityTV. It was a very secure job, with a bright future, but I knew that I didn't want to be in an office environment full-time. That's not where I'm creative. So the biggest hurdle was probably the year after I left CityTV, figuring out how I was going to feed myself.</p>
 
           <p>Fortunately things went well, and I am so happy I made that choice because it definitely suits my personality to be an entrepreneur. </p>
+
+    </section>
+    <section class="row">
 
           <p><notableperson></p>
 
@@ -95,8 +98,6 @@
           <p>Amber wrote Power Friending in 2010 to help guide individuals and businesses understand the social web.</p>
 
           <p></callout></p>
-    </section>
-    <section class="row">
           <h3>You have so much going on. What are your current projects?</h3>
 
           <p>As CTV’s Marilyn Denis once told me, you should always have multiple jobs in case you get fired from one. [Laughs] I am a big fan of that mantra. </p>
@@ -129,11 +130,13 @@
 
           <p>Of course it’s challenging to be a mom running my own business, but fortunately my partner Chris is also working for himself; he’s at home and in our home office with me, and he's a huge help.</p>
 
-          <p><pullquote></p>
+          <div class="span11 pull-quote">
+          <aside class="quote">
 
-          <p>I'm not trying to be Supermom. I've had a nanny since my son was five months old.</p>
-
-          <p></pullquote></p>
+          <h2>I'm not trying to be Supermom. I've had a nanny since my son was five months old.</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
 
           <p>And I'm not trying to be Supermom. I've had a nanny since my son Connor was five months old. She lives out, and we have her only forty hours a week, but that's been enough to stay afloat. I think anyone who tries to do it without help is going to be in big trouble when it comes to managing family and work. </p>
 
@@ -143,9 +146,10 @@
 
           <p>I think that I realized very early on that I wasn't going to be the person who would be on the technical side as far as editing or shooting my own video and building websites. I needed a strong team around me. </p>
 
-          <p><pullquote></p>
+          <div class="span11 pull-quote">
+          <aside class="quote">
 
-          <p>I almost don't want to know how to do some of the technical things, because I think it's better to stay in your own lane, so to speak. </p>
+          <h2>I almost don't want to know how to do some of the technical things, because I think it's better to stay in your own lane, so to speak. </p>
 
           <p></pullquote></p>
 
@@ -179,9 +183,10 @@
 
           <p>I think it's not my decision to make. It’s part of respecting him as a human being beyond being an extension of me. I'll be supportive of him wanting to do stuff online, I’ll just make sure that he maintains his privacy as much as possible. I think you can be online in a really active way and still have your privacy. You'll never see me tweet where I live, or images of Connor, or anything like that. You just have to be smart and draw certain lines in your life. </p>
 
-          <p><pullquote></p>
+          <div class="span11 pull-quote">
+          <aside class="quote">
 
-          <p>I think you can be online in a really active way and still have your privacy. You'll never see me tweet where I live, or images of Connor, or anything like that.</p>
+          <h2>I think you can be online in a really active way and still have your privacy. You'll never see me tweet where I live, or images of Connor, or anything like that.</p>
 
           <p></pullquote></p>
 
@@ -203,9 +208,10 @@
 
           <p>But there are just too many devices in general, sometimes it's really hard to keep up!</p>
 
-          <p><pullquote></p>
+          <div class="span11 pull-quote">
+          <aside class="quote">
 
-          <p>I think if I had to pick one device that I really missed, it would be the BlackBerry Pearl. [...] It was the first smartphone I ever used where I felt it was actually designed for a woman.</p>
+          <h2>I think if I had to pick one device that I really missed, it would be the BlackBerry Pearl. [...] It was the first smartphone I ever used where I felt it was actually designed for a woman.</p>
 
           <p></pullquote></p>
 
@@ -215,9 +221,10 @@
 
           <p>I don't think I've ever had a career vision! Maybe that’s a bit of an issue because some people like to have five-year plans or ten-year plans, but my ambition has always been to survive. [Laughs] </p>
 
-          <p><pullquote></p>
+          <div class="span11 pull-quote">
+          <aside class="quote">
 
-          <p>My ambition has always been to survive.</p>
+          <h2>My ambition has always been to survive.</p>
 
           <p></pullquote></p>
 
@@ -236,9 +243,10 @@
 
           <p>I definitely ran into a lot of obstacles. I always felt like I had to earn respect – it wasn't given to me right away. So I studied my technology notes harder than anyone I know. I would stay up all night before going on air to do national news segments, because I felt like, immediately people thought I wasn't credible because I was a woman covering tech. </p>
 
-          <p><pullquote></p>
+          <div class="span11 pull-quote">
+          <aside class="quote">
 
-          <p>I would stay up all night before going on air to do national news segments because I felt people thought I wasn't credible because I was a woman covering tech. </p>
+          <h2>I would stay up all night before going on air to do national news segments because I felt people thought I wasn't credible because I was a woman covering tech. </p>
 
           <p></pullquote></p>
 
@@ -250,9 +258,10 @@
 
           <p>Oh yeah. I started with Leo in 2005 when I was doing Call for Help with him on G4TechTV. He became a mentor for me right away, because he told me literally from the first moment I started working with him that I just needed to know my stuff and I didn't need to worry about anything else. I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me. </p>
 
-          <p><pullquote></p>
+          <div class="span11 pull-quote">
+          <aside class="quote">
 
-          <p>I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me. </p>
+          <h2>I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me. </p>
 
           <p></pullquote></p>
 
@@ -270,11 +279,12 @@
 
           <p>Also, <a target="_blank" href="http://nichm.com">Nicholas Montgomery</a> who was Marilyn Denis's tech guy. I first met him and got him to come on air with me when he was twelve years old. We’ve kept in touch, and I still do stuff with him. I'm a big fan of supporting really young people. I think you can make a big impact in their lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
 
-          <p><pullquote></p>
+          <div class="span11 pull-quote">
+          <aside class="quote">
 
-          <p>I think you can make a big impact in [young peoples’] lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
+          <h2>I think you can make a big impact in [young peoples’] lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
 
-          <p><pullquote></p>
+          <p></pullquote></p>
 
     </section>
     <section class="row">
