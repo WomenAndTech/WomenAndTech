@@ -103,7 +103,7 @@
           <p></notableperson></p>
         </div>
 
-        <div class="span-4 photo-callout"
+        <div class="span-4 photo-callout">
           <p><callout></p>
 
           <p>Amber wrote Power Friending in 2010 to help guide individuals and businesses understand the social web.</p>
