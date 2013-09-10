@@ -44,19 +44,23 @@
       <div class="span7 interview-panel">
         <h3 id="giveusaquickrundownofthebeginningofyourcareerandhowyoutransitionedfrompodcastingintobroadcasting">Give us a quick rundown of the beginning of your career and how you transitioned from podcasting into broadcasting.</h3>
       </div>
+
     </section>
-    <section class="row">
-      <div class="span4 notable-person">
-        <p><notableperson></p>
-
-        <h4 id="leolaportehttpleovillecom"><a target="_blank" href="http://leoville.com">Leo Laporte</a></h4>
-
-        <p>Leo Laporte is a broadcaster, author and entrepreneur. He is founder and owner of the <a target="_blank" href="http://twit.tv/">TWiT Netcast Network</a> which he launched in 2005 and hosts the popular tech talk podcast, <a target="_blank" href="http://www.techguylabs.com/">The Tech Guy</a>.</p>
-
-        <p></notableperson></p>
-
+    <section class="row no-margin-top">
+      <div class="span4 notable-person" id="leo-laporte">
+        <figure class="first-row">
+          <div class="arrow"></div>
+          <h3>Notable Person</h3>
+          <a href="http://leoville.com" target="_blank">
+            <img src='<?php echo get_home_url(); ?>/assets/img/amber-interview/leo-laporte.jpg'>
+          </a>
+          <figcaption class="clear">
+            <h4 id="leolaportehttpleovillecom"><a target="_blank" href="http://leoville.com">Leo Laporte</a></h4>
+            <p>Leo Laporte is a broadcaster, author and entrepreneur. He is founder and owner of the <a target="_blank" href="http://twit.tv/">TWiT Netcast Network</a> which he launched in 2005 and hosts the popular tech talk podcast, <a target="_blank" href="http://www.techguylabs.com/">The Tech Guy</a>.</p>
+          </figcaption>
+          <div style="clear:both"></div>
+        </figure>
       </div>  
-
       <div class="span7 interview-panel">
         <p>Sure! I did a post-graduate degree in journalism at University of King's College in Halifax and shortly thereafter went to work for CBC in Charlottetown for three or four months as a daily news reporter. I absolutely hated the routine, the grind of working in a large corporation. I felt like I needed more experience, so I moved out to San Francisco and worked in the dot-com industry for three years. Then I came back to Toronto and worked at Microsoft for a year, and then I got a job at G4 Tech TV hosting a show with tech guru Leo Laporte. </p>
 
@@ -93,36 +97,65 @@
 
     </section>
     <section class="row">
-      <div class="span4 notable-person">
-          <p><notableperson></p>
+      <div class="span4">
+        <div class="notable-person" id="marilyn-dennis">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <h3>Notable Person</h3>
+            <a href="https://twitter.com/MarilynDenisCTV" target="_blank">
+              <img src='<?php echo get_home_url(); ?>/assets/img/amber-interview/marilyn-dennis.jpg'>
+            </a>
+            <figcaption class="clear">
+              <h4 id="marilyndenishttpstwittercommarilyndenisctv"><a href="https://twitter.com/MarilynDenisCTV">Marilyn Denis</a></h4>
 
-          <h4 id="marilyndenishttpstwittercommarilyndenisctv"><a href="https://twitter.com/MarilynDenisCTV">Marilyn Denis</a></h4>
+              <p>Marilyn Denis, has been a fixture in Canadian broadcasting since 1986. She is co-host of the long running morning show <a target="_blank" href="http://www.chumfm.com/Shows/Shows/Roger-Darren-and-Marilyn">Roger, Darren and Marilyn</a> and hosts the lifestyle show, <a href="http://marilyn.ca" target="_blank">The Marilyn Denis Show</a> on CTV.</p>
 
-          <p>Marilyn Denis, has been a fixture in Canadian broadcasting since 1986. She is co-host of the long running morning show <a target="_blank" href="http://www.chumfm.com/Shows/Shows/Roger-Darren-and-Marilyn">Roger, Darren and Marilyn</a> and hosts the lifestyle show, The Marilyn Denis Show (http://www.marilyn.ca) on CTV.</p>
-
-          <p></notableperson></p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
         </div>
 
-        <div class="span4 photo-callout">
-          <p><callout></p>
-
-          <p>Amber wrote Power Friending in 2010 to help guide individuals and businesses understand the social web.</p>
-
-          <p></callout></p>
+        <div class="photo-callout notable-person">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <a href="http://powerfriending.org"><img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/power-friending.jpg" alt="Cover of Amber MacArthur's book 'Power Freinding'"/></a>
+            <figcaption class="clear">
+              <p>Amber wrote Power Friending in 2010 to help guide individuals and businesses understand the social web.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
         </div>
-        <div class="span7 offset4 interview-panel">
-          <h3>You have so much going on. What are your current projects?</h3>
+      </div>
 
-          <p>As CTV’s Marilyn Denis once told me, you should always have multiple jobs in case you get fired from one. [Laughs] I am a big fan of that mantra. </p>
 
-          <p>Right now I have six or seven jobs; I'll name a few. I'm President and Co-founder of <a target="_blank" href="http://konnektnow.com">Konnect</a>, which I started with my brother, and my partner Chris is also involved. Konnekt is a social media digital marketing agency, we do a lot of work with clients. I host <a target="_blank" href="http://www.ctv.ca/AppCentral.aspx">App Central</a> for CTV and I also write for <a target="_blank" href="http://www.fastcompany.com/user/amber-mac">Fast Company</a> magazine about digital productivity and trends in digital marketing. I wrote a book a couple of years ago called <a target="_blank" href="http://powerfriending.org">Power Friending</a>. I have a podcast, <a target="_blank" href="http://twit.tv/tsh">The Social Hour</a>, on Twit.tv as well as CommandN.tv; I've been doing that for a while. </p>
+      <div class="span7 offset4 interview-panel">
+        <h3>You have so much going on. What are your current projects?</h3>
 
-          <p>I have a bunch of new projects in the works, but those are what I’m doing right now. </p>
-        </div>
+        <p>As CTV’s Marilyn Denis once told me, you should always have multiple jobs in case you get fired from one. [Laughs] I am a big fan of that mantra. </p>
+
+        <p>Right now I have six or seven jobs; I'll name a few. I'm President and Co-founder of <a target="_blank" href="http://konnektnow.com">Konnect</a>, which I started with my brother, and my partner Chris is also involved. Konnekt is a social media digital marketing agency, we do a lot of work with clients. I host <a target="_blank" href="http://www.ctv.ca/AppCentral.aspx">App Central</a> for CTV and I also write for <a target="_blank" href="http://www.fastcompany.com/user/amber-mac">Fast Company</a> magazine about digital productivity and trends in digital marketing. I wrote a book a couple of years ago called <a target="_blank" href="http://powerfriending.org">Power Friending</a>. I have a podcast, <a target="_blank" href="http://twit.tv/tsh">The Social Hour</a>, on Twit.tv as well as CommandN.tv; I've been doing that for a while. </p>
+
+        <p>I have a bunch of new projects in the works, but those are what I’m doing right now. </p>
+      </div>
 
     </section>
     <section class="row">
-      <div class="span7 offset4 interview-panel">
+      <div class="span4 notable-person" id="seth-godin">
+        <figure class="first-row">
+          <div class="arrow"></div>
+          <h3>Notable Person</h3>
+          <a href="http://www.sethgodin.com/" target="_blank">
+            <img src='<?php echo get_home_url(); ?>/assets/img/amber-interview/seth-godin.jpg'>
+          </a>
+          <figcaption class="clear">
+            <h4><a target="_blank" href="http://www.sethgodin.com/">Seth Godin</a></h4>
+            <p>Seth Godin is an author, entrepreneur, marketer and public speaker. He pioneered the use of <a href="http://sethgodin.typepad.com/seths_blog/2008/01/permission-mark.html" target="_blank">permission marketing</a>, which promotes the ethical use of direct mail online. He’s written fourteen bestselling books and writes and speaks about marketing, leadership, ideas and life choices. </p>
+          </figcaption>
+          <div style="clear:both"></div>
+        </figure>
+      </div>
+
+      <div class="span7 interview-panel">
         <h3 id="eachofthosedifferentthingshasadifferentproductionscheduleanddifferenttimelinesomearemonthlysomeareweeklydoyouhaveanystrategiesformanagingyourridiculousschedule">Each of those different things has a different production schedule and different timeline – some are monthly, some are weekly. Do you have any strategies for managing your ridiculous schedule?</h3>
 
           <p>I finally met someone recently who maybe has the same strategy as me: <a target="_blank" href="http://www.sethgodin.com/sg/">Seth Godin</a>. He's better known than I am, very popular online for all of his digital marketing work. I asked him how he was able to manage everything that he did, and he described it like this: Number one, he works for himself, so actually he can be way more productive in an eight- or ten-hour workday. When you're in your home office, you can get a lot done because you're not in meetings.</p>
@@ -155,7 +188,7 @@
         </aside>
         <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
-      <div>
+      <div class="span7 offset4 interview-panel">
         <p>And I'm not trying to be Supermom. I've had a nanny since my son Connor was five months old. She lives out, and we have her only forty hours a week, but that's been enough to stay afloat. I think anyone who tries to do it without help is going to be in big trouble when it comes to managing family and work. </p>
       </div>
 
@@ -382,37 +415,35 @@
           <div class="credits">
             <p>
               <strong>Interview</strong><em> by</em>
-              <a href="http://www.ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a>
+              <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>
             </p>
             <p>
               <strong>Photography</strong><em> by</em>
-              <a href="http://mjcphotography.ca" target="_blank">Mauricio Calero</a>
+              <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>
             </p>
             <p>
               <strong>Editing</strong><em> by</em>
-              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaniel</a><em> and</em>
-              <a href="http://commuterlit.com/" target="_blank">Nancy Kay Clark</a>
+              <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>,
+              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaniel</a>,<em> and</em>
+              <a href="http://ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a>
             </p>
             <p>
               <strong>Art Direction</strong><em> by</em>
-              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a><em> and</em>
               <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a>
             </p>
             <p>
               <strong>Design</strong><em> by</em>
-              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>
+              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a><em> and</em> 
+              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a>
             </p>
             <p>
               <strong>Development</strong><em> by</em>
-              <a href="http://twitter.com/MartianMoose" target="_blank">Audrey Kuo</a>, 
-              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a><em>, and</em>
-              <a href="http://twitter.com/raykao" target="_blank">Ray Kao</a>
+              <a href="http://brennaobrien.com" target="_blank">Brenna O'Brien</a><em> and</em> 
+              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a>
             </p>
             <p>
               <strong>Transcriptions</strong><em> by</em>
-              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>, 
-              <a href="http://twitter.com/smithschwartz" target="_blank">Smith Schwartz</a><em>, and</em>
-              <a href="http://www.ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a>
+              <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>
             </p>
           </div>
           <p class="tools">This site uses 
