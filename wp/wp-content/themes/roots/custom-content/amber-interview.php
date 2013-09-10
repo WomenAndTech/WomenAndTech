@@ -253,20 +253,22 @@
         <h3  id="whenyoustartedoutinjournalismyouwerentsurewhatyourspecialtywouldbehaveyourambitionschangedovertimedoyoustillhavethesamecareervisionforyourselfthatyouvealwayshad">When you started out in journalism you weren’t sure what your specialty would be. Have your ambitions changed over time? Do you still have the same career vision for yourself that you've always had?</h3>
 
           <p>I don't think I've ever had a career vision! Maybe that’s a bit of an issue because some people like to have five-year plans or ten-year plans, but my ambition has always been to survive. [Laughs] </p>
+      </div>
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2>My ambition has always been to survive.</h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+      </div>
 
-          <div class="span11 pull-quote">
-            <aside class="quote">
-              <h2>My ambition has always been to survive.</h2>
-            </aside>
-            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-          </div>
+      <div class="span7 offset4 interview-panel">
+        <p>What that means is I've always thought I need to take on as many projects as possible and secure any type of business relationship for my future to make sure that I can continue to do what I want to do and have the freedom to run my own business. </p>
 
-          <p>What that means is I've always thought I need to take on as many projects as possible and secure any type of business relationship for my future to make sure that I can continue to do what I want to do and have the freedom to run my own business. </p>
+        <p>I don't know if my ambition has changed much. I'm pretty honest about the fact that I like making money and I love the freedom that gives me, and I like working for myself. I've always wanted to do those two things, and that's what I've been doing now for five years, more or less. That's really as ambitious as I get. </p>
 
-          <p>I don't know if my ambition has changed much. I'm pretty honest about the fact that I like making money and I love the freedom that gives me, and I like working for myself. I've always wanted to do those two things, and that's what I've been doing now for five years, more or less. That's really as ambitious as I get. </p>
-
-          <p>I wanted to write a book a couple of years ago; I did that, and now I kind of never want to write a book again, so I'll just find new things I want to do. [Laughs]</p>
-        </div>
+        <p>I wanted to write a book a couple of years ago; I did that, and now I kind of never want to write a book again, so I'll just find new things I want to do. [Laughs]</p>
+      </div>
+        
 
 
     </section>
