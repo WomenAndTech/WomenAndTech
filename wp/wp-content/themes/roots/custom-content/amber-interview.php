@@ -93,7 +93,7 @@
 
     </section>
     <section class="row">
-      <div class="span-4 notable-person">
+      <div class="span4 notable-person">
           <p><notableperson></p>
 
           <h4 id="marilyndenishttpstwittercommarilyndenisctv"><a href="https://twitter.com/MarilynDenisCTV">Marilyn Denis</a></h4>
@@ -103,7 +103,7 @@
           <p></notableperson></p>
         </div>
 
-        <div class="span-4 photo-callout">
+        <div class="span4 photo-callout">
           <p><callout></p>
 
           <p>Amber wrote Power Friending in 2010 to help guide individuals and businesses understand the social web.</p>
