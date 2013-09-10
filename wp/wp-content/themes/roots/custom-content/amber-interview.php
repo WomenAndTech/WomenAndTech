@@ -1,3 +1,41 @@
+<ol class="curtains">
+<li>
+  <div class="container interview-intro">
+    <header class="row">
+      <div class="span9">
+        <div class="interview-number"><?php echo get_field('interview_number')?></div>
+        <h1 class="clearfix" id="twitter-handle" data-twitter-handle="@ambermac">
+          <?php the_title() ?></h1>
+        <address>
+          <div class="author-image"></div>
+          <div class="author-info">
+            <p class="author">
+              An interview with
+              <a href="http://twitter.com/kelzor" rel="author" target="_blank" title="<?php echo get_the_author(); ?>'s twitter profile"> <strong><?php echo get_the_author(); ?></strong>
+              </a>
+            </p>
+            <p class='date'>
+              <?php the_date("F j, Y"); ?></p>
+          </div>
+        </address>
+      </div>
+    </header>
+    <section class="row" id="introduction">
+      <div class="span12">
+        <h2>
+          <?php echo get_field('archive_excerpt'); ?>
+        </h2>
+      </div>
+    </section>
+  </div><!-- interview-intro -->
+  <div id="portrait" class="fullscreen">
+    <img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/amber-macarthur-profile.jpg" alt="Amber MacArthur Profile"/>
+    <div class="photo-credit light">
+      Photo credit:
+      <a href="LINK HERE" target="_blank">NAME HERE</a>
+    </div>
+  </div>
+  <div class="container">
           <p><notableperson></p>
 
           <h4 id="leolaportehttpleovillecom"><a href="http://leoville.com">Leo Laporte</a></h4>
@@ -153,3 +191,7 @@
           <p>I don't know if my ambition has changed much. I'm pretty honest about the fact that I like making money and I love the freedom that gives me, and I like working for myself. I've always wanted to do those two things, and that's what I've been doing now for five years, more or less. That's really as ambitious as I get. </p>
 
           <p>I wanted to write a book a couple of years ago; I did that, and now I kind of never want to write a book again, so I'll just find new things I want to do. [Laughs]</p>
+          
+    </div><!-- container -->
+  </li>
+</ol>
