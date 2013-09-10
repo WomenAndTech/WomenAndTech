@@ -148,36 +148,36 @@
           <h3  id="asamomwithafamilywhatsortofsupportdoyouhavebothprofessionallyandinyourpersonallife">As a mom with a family, what sort of support do you have, both professionally and in your personal life?</h3>
 
           <p>Of course it’s challenging to be a mom running my own business, but fortunately my partner Chris is also working for himself; he’s at home and in our home office with me, and he's a huge help.</p>
-
-          <div class="span11 pull-quote">
-            <aside class="quote">
-              <h2>I'm not trying to be Supermom. I've had a nanny since my son was five months old.</h2>
-            </aside>
-            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-          </div>
-
-          <p>And I'm not trying to be Supermom. I've had a nanny since my son Connor was five months old. She lives out, and we have her only forty hours a week, but that's been enough to stay afloat. I think anyone who tries to do it without help is going to be in big trouble when it comes to managing family and work. </p>
-        </div>
+      </div>
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2>I'm not trying to be Supermom. I've had a nanny since my son was five months old.</h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+      </div>
+      <div>
+        <p>And I'm not trying to be Supermom. I've had a nanny since my son Connor was five months old. She lives out, and we have her only forty hours a week, but that's been enough to stay afloat. I think anyone who tries to do it without help is going to be in big trouble when it comes to managing family and work. </p>
+      </div>
 
     </section>
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3  id="asamediaentrepreneurwhattechnicalbusinessorjournalisticskillshaveyouhadtopickupandwhatskillswouldyouliketoacquire">As a media entrepreneur, what technical, business, or journalistic skills have you had to pick up and what skills would you like to acquire?</h3>
 
-          <p>I think that I realized very early on that I wasn't going to be the person who would be on the technical side as far as editing or shooting my own video and building websites. I needed a strong team around me. </p>
+        <p>I think that I realized very early on that I wasn't going to be the person who would be on the technical side as far as editing or shooting my own video and building websites. I needed a strong team around me. </p>
+      </div>
 
-          <div class="span11 pull-quote">
-            <aside class="quote">
-              <h2>I almost don't want to know how to do some of the technical things, because I think it's better to stay in your own lane, so to speak. </h2>
-            </aside>
-            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-          </div>
-
-          <p>I know that what I'm really great at is networking and finding new opportunities, and I've always been more involved in new business and creating those opportunities. To be honest with you, I almost don't want to know how to do some of the technical things, because I think it's better to stay in your own lane, so to speak. It would be too much if I tried to get involved on the technical side. </p>
-        </div>
-
-      </section>
-      <section class="row">
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2>I almost don't want to know how to do some of the technical things, because I think it's better to stay in your own lane, so to speak. </h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+      </div>
+      <div class="span7 offset4 interview-panel">
+        <p>I know that what I'm really great at is networking and finding new opportunities, and I've always been more involved in new business and creating those opportunities. To be honest with you, I almost don't want to know how to do some of the technical things, because I think it's better to stay in your own lane, so to speak. It would be too much if I tried to get involved on the technical side. </p>
+      </div>
+    </section>
+    <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3  id="throughallofyourdifferentprojectsyouverevealedasortofgeniuswhenitcomestofindingpartnershipssponsorshipsandcollaborationsdoyouhaveanyadviceforindependentmediacreatorsthatarelookingtoreachalargeraudienceperhapsthroughsponsorships">Through all of your different projects you’ve revealed a sort of genius when it comes to finding partnerships, sponsorships and collaborations. Do you have any advice for independent media creators that are looking to reach a larger audience, perhaps through sponsorships?</h3>
 
@@ -268,7 +268,7 @@
 
         <p>I wanted to write a book a couple of years ago; I did that, and now I kind of never want to write a book again, so I'll just find new things I want to do. [Laughs]</p>
       </div>
-        
+
 
 
     </section>
