@@ -31,8 +31,16 @@
         </a>
       <?php endif; ?>
         <?php if ($post_type == 'interview'): ?>
-          <div class="interview-number interview-number-<?php echo get_field('interview_number')?>">
-            <?php echo get_field('interview_number')?>
+
+          <?php
+            $additional_classes = array();
+            $interview_number = get_field('interview_number');
+            if ( (int)$interview_number > 9):
+              array_push($additional_classes, 'double-digits');
+            endif;
+          ?>
+          <div class="interview-number interview-number-<?php echo $interview_number ?> <?php echo join(" ", $additional_classes) ?>">
+            <?php echo $interview_number ?>
           </div>
         <?php endif; ?>
         <div class='title-block clear clearfix'>
