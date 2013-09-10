@@ -55,7 +55,7 @@
             <img src='<?php echo get_home_url(); ?>/assets/img/amber-interview/leo-laporte.jpg'>
           </a>
           <figcaption class="clear">
-            <h4 id="leolaportehttpleovillecom"><a target="_blank" href="http://leoville.com">Leo Laporte</a></h4>
+            <h4><a target="_blank" href="http://leoville.com">Leo Laporte</a></h4>
             <p>Leo Laporte is a broadcaster, author and entrepreneur. He is founder and owner of the <a target="_blank" href="http://twit.tv/">TWiT Netcast Network</a> which he launched in 2005 and hosts the popular tech talk podcast, <a target="_blank" href="http://www.techguylabs.com/">The Tech Guy</a>.</p>
           </figcaption>
           <div style="clear:both"></div>

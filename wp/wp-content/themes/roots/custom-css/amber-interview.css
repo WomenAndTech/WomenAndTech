@@ -13,9 +13,6 @@ Amber Interview Specific Styles
 
 /* Article > Header */
 
-.interview .interview-number {
-    padding: 0.4em 0.6em 0.4em 0.65em;
-}
 
 .interview address .author-image{
     background: url('http://api.twitter.com/1/users/profile_image?screen_name=ivonnekn&size=bigger') center top no-repeat;
@@ -67,13 +64,8 @@ Amber Interview Specific Styles
     margin-top: 0;
 }
 
-
-#norman-white .arrow{
-    top: 10%;
-}
-
-#fitc .arrow{
-    top: 30%;
+#leo-laporte {
+    margin-top: 2em;
 }
 
 
