@@ -191,6 +191,57 @@
           <p>I don't know if my ambition has changed much. I'm pretty honest about the fact that I like making money and I love the freedom that gives me, and I like working for myself. I've always wanted to do those two things, and that's what I've been doing now for five years, more or less. That's really as ambitious as I get. </p>
 
           <p>I wanted to write a book a couple of years ago; I did that, and now I kind of never want to write a book again, so I'll just find new things I want to do. [Laughs]</p>
+
+
+          <h3 id="in2009youhostedashowforthexboxliveplatformcalledgirlsgogeekhttpwwwyoutubecomusergirlsgogeekyouvehadaprettylongcareeralreadyinthewebandtechnologyhowhaveyouseentherolesofwomenchangeinthoseindustrieshaveyoueverexperiencedobstaclesparticipatinginthatsphere">In 2009 you hosted a show for the XBox Live platform called <a href="http://www.youtube.com/user/GirlsGoGeek">Girls Go Geek!</a>. You've had a pretty long career already in the Web and technology. How have you seen the roles of women change in those industries? Have you ever experienced obstacles participating in that sphere?</h3>
+
+          <p>When I started at G4TechTV in 2005, just as a guest (before I started hosting with them), I really didn't know of any other women, at least in Canada, who were covering technology as a journalist or host. There were very few women. </p>
+
+          <p>I definitely ran into a lot of obstacles. I always felt like I had to earn respect – it wasn't given to me right away. So I studied my technology notes harder than anyone I know. I would stay up all night before going on air to do national news segments, because I felt like, immediately people thought I wasn't credible because I was a woman covering tech. </p>
+
+          <p><pullquote></p>
+
+          <p>I would stay up all night before going on air to do national news segments because I felt people thought I wasn't credible because I was a woman covering tech. </p>
+
+          <p></pullquote></p>
+
+          <p>I think it's changed SO much. It's so exciting now, some of the most amazing women I know are in some type of social media or tech, and that's just been fantastic. There are a lot more mentors for all of us than there have ever been before. I definitely think I've not 'paid my dues', but definitely it was a bit of a struggle the first couple of years. Fortunately I just focused more on studying and knowing my stuff above anything, and it's paid off. </p>
+
+          <h3 id="awesomeyoumentionedthatyoustartedoffwithleolaportehashebeenamentorfigureforyou">Awesome. You mentioned that you started off with Leo Laporte. Has he been a mentor figure for you?</h3>
+
+          <p>Oh yeah. I started with Leo in 2005 when I was doing Call for Help with him on G4TechTV. He became a mentor for me right away, because he told me literally from the first moment I started working with him that I just needed to know my stuff and I didn't need to worry about anything else. I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me. </p>
+
+          <p><pullquote></p>
+
+          <p>I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me. </p>
+
+          <p></pullquote></p>
+
+          <p>He's also been a big role model because, like me, he has straddled mainstream media and entrepreneurship. He's been hugely successful with <a href="http://twit.tv/">TWiT</a>.</p>
+
+          <p>I’ve always looked up to him; he was a fantastic person to work with, especially from a broadcast perspective because he's very talented and was always his own person. I don't feel like he ever sold out, and he still hasn't. </p>
+
+          <h3 id="haveyoubeenamentortoanyotherpeople">Have you been a mentor to any other people?</h3>
+
+          <p>What I've tried over the past couple years to do is to inspire other people to go out and do their own thing; I think there are quite a few people that I've met with and helped along the way. </p>
+
+          <p>One person in particular – I hope he considers me somewhat of a mentor – is <a href="http://winstonsih.com">Winston Sih</a>. He now does stuff for CityTV. When he was 16 years old, he wrote me an email and basically said that he wanted to come on WebNation, the show I was doing for CP24. Everyone was like, ‘You can't have a sixteen year-old on, that's ridiculous!’ But I looked at his website, and he was doing more than anyone I'd ever seen in terms of creating his own personal brand. We had him on, and now he is doing really well, he's only a few years older. </p>
+
+          <p>Also, <a href="http://nichm.com">Nicholas Montgomery</a> who was Marilyn Denis's tech guy. I first met him and got him to come on air with me when he was twelve years old. We’ve kept in touch, and I still do stuff with him. I'm a big fan of supporting really young people. I think you can make a big impact in their lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
+
+          <p><pullquote></p>
+
+          <p>I think you can make a big impact in [young peoples’] lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
+
+          <p><pullquote></p>
+
+          <h3 id="andtheirselfperception">And their self-perception.</h3>
+
+          <p>Definitely. Just to be able to give them the confidence that they need, and to keep them out of trouble. Put them to work when they're young! [Laughs] </p>
+
+          <h3 id="inourlastinterviewpearlchenhttpwomenandtechcominterviewpearlchenaskedwhatsonethingthathashappenedtoyoueitherasachildorasanadultthatcompletelychangedyourlife">In our last interview <a href="http://womenandtech.com/interview/pearl-chen/">Pearl Chen</a> asked, “What’s one thing that has happened to you (either as a child or as an adult) that completely changed your life?”</h3>
+
+          <p>When I was in kindergarten I came second in a colouring contest and had my picture taken for the local paper on PEI.  When I look back at that photo I definitely had a first place smile, which reminds me how thrilled I was just to be part of the competition. I've held this philosophy close to my heart through my working years, reminding myself that even if I don't come first at everything, showing up and giving it my all is reward enough.</p>
           
     </div><!-- container -->
   </li>
