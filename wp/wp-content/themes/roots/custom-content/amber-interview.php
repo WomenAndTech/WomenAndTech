@@ -11,7 +11,7 @@
           <div class="author-info">
             <p class="author">
               An interview with
-              <a href="http://twitter.com/kelzor" rel="author" target="_blank" title="<?php echo get_the_author(); ?>'s twitter profile"> <strong><?php echo get_the_author(); ?></strong>
+              <a target="_blank" href="http://twitter.com/kelzor" rel="author" target="_blank" title="<?php echo get_the_author(); ?>'s twitter profile"> <strong><?php echo get_the_author(); ?></strong>
               </a>
             </p>
             <p class='date'>
@@ -38,9 +38,9 @@
   <div class="container">
           <p><notableperson></p>
 
-          <h4 id="leolaportehttpleovillecom"><a href="http://leoville.com">Leo Laporte</a></h4>
+          <h4 id="leolaportehttpleovillecom"><a target="_blank" href="http://leoville.com">Leo Laporte</a></h4>
 
-          <p>Leo Laporte is a broadcaster, author and entrepreneur. He is founder and owner of the <a href="http://twit.tv/">TWiT Netcast Network</a> which he launched in 2005 and hosts the popular tech talk podcast, <a href="http://www.techguylabs.com/">The Tech Guy</a>.</p>
+          <p>Leo Laporte is a broadcaster, author and entrepreneur. He is founder and owner of the <a target="_blank" href="http://twit.tv/">TWiT Netcast Network</a> which he launched in 2005 and hosts the popular tech talk podcast, <a target="_blank" href="http://www.techguylabs.com/">The Tech Guy</a>.</p>
 
           <p></notableperson></p>
 
@@ -48,7 +48,7 @@
 
           <p>Sure! I did a post-graduate degree in journalism at University of King's College in Halifax and shortly thereafter went to work for CBC in Charlottetown for three or four months as a daily news reporter. I absolutely hated the routine, the grind of working in a large corporation. I felt like I needed more experience, so I moved out to San Francisco and worked in the dot-com industry for three years. Then I came back to Toronto and worked at Microsoft for a year, and then I got a job at G4 Tech TV hosting a show with tech guru Leo Laporte. </p>
 
-          <p>About a year later I started podcasting. That was exciting; it was the first time I really knew that I could step out and create content on my own — that I didn’t need to be attached to a broadcaster. I created <a href="http://www.commandn.tv">Command-N</a>, a technology podcast in, I guess, 2006. About that same time I started hosting a podcast with Leo called Net at Night and worked at CityTV as a New Media Specialist. After a year of that, I started <a href="http://konnektnow.com/">my own company</a> and haven't looked back.</p>
+          <p>About a year later I started podcasting. That was exciting; it was the first time I really knew that I could step out and create content on my own — that I didn’t need to be attached to a broadcaster. I created <a target="_blank" href="http://www.commandn.tv">Command-N</a>, a technology podcast in, I guess, 2006. About that same time I started hosting a podcast with Leo called Net at Night and worked at CityTV as a New Media Specialist. After a year of that, I started <a target="_blank" href="http://konnektnow.com/">my own company</a> and haven't looked back.</p>
 
           <h3 id="whendidyoustarttospecializeintechnologyjournalism">When did you start to specialize in technology journalism?</h3>
 
@@ -64,7 +64,7 @@
 
           <h3 id="intermsofdevelopingyourcareerwhatdoyouthinkhasbeenthebiggesthurdleyouvehadtogetoverinallthosetransitions">In terms of developing your career, what do you think has been the biggest hurdle you've had to get over in all those transitions?</h3>
 
-          <p>The biggest hurdle was in 2007 when I <a href="http://www.blogto.com/city/2008/01/amber_macarthur_gone_from_citytv/">stepped away</a> from a regular job at CityTV. It was a very secure job, with a bright future, but I knew that I didn't want to be in an office environment full-time. That's not where I'm creative. So the biggest hurdle was probably the year after I left CityTV, figuring out how I was going to feed myself.</p>
+          <p>The biggest hurdle was in 2007 when I <a target="_blank" href="http://www.blogto.com/city/2008/01/amber_macarthur_gone_from_citytv/">stepped away</a> from a regular job at CityTV. It was a very secure job, with a bright future, but I knew that I didn't want to be in an office environment full-time. That's not where I'm creative. So the biggest hurdle was probably the year after I left CityTV, figuring out how I was going to feed myself.</p>
 
           <p>Fortunately things went well, and I am so happy I made that choice because it definitely suits my personality to be an entrepreneur. </p>
 
@@ -72,7 +72,7 @@
 
           <h4 id="marilyndenishttpstwittercommarilyndenisctv"><a href="https://twitter.com/MarilynDenisCTV">Marilyn Denis</a></h4>
 
-          <p>Marilyn Denis, has been a fixture in Canadian broadcasting since 1986. She is co-host of the long running morning show <a href="http://www.chumfm.com/Shows/Shows/Roger-Darren-and-Marilyn">Roger, Darren and Marilyn</a> and hosts the lifestyle show, The Marilyn Denis Show (http://www.marilyn.ca) on CTV.</p>
+          <p>Marilyn Denis, has been a fixture in Canadian broadcasting since 1986. She is co-host of the long running morning show <a target="_blank" href="http://www.chumfm.com/Shows/Shows/Roger-Darren-and-Marilyn">Roger, Darren and Marilyn</a> and hosts the lifestyle show, The Marilyn Denis Show (http://www.marilyn.ca) on CTV.</p>
 
           <p></notableperson></p>
 
@@ -86,13 +86,13 @@
 
           <p>As CTV’s Marilyn Denis once told me, you should always have multiple jobs in case you get fired from one. [Laughs] I am a big fan of that mantra. </p>
 
-          <p>Right now I have six or seven jobs; I'll name a few. I'm President and Co-founder of <a href="http://konnektnow.com">Konnect</a>, which I started with my brother, and my partner Chris is also involved. Konnekt is a social media digital marketing agency, we do a lot of work with clients. I host <a href="http://www.ctv.ca/AppCentral.aspx">App Central</a> for CTV and I also write for <a href="http://www.fastcompany.com/user/amber-mac">Fast Company</a> magazine about digital productivity and trends in digital marketing. I wrote a book a couple of years ago called <a href="http://powerfriending.org">Power Friending</a>. I have a podcast, <a href="http://twit.tv/tsh">The Social Hour</a>, on Twit.tv as well as CommandN.tv; I've been doing that for a while. </p>
+          <p>Right now I have six or seven jobs; I'll name a few. I'm President and Co-founder of <a target="_blank" href="http://konnektnow.com">Konnect</a>, which I started with my brother, and my partner Chris is also involved. Konnekt is a social media digital marketing agency, we do a lot of work with clients. I host <a target="_blank" href="http://www.ctv.ca/AppCentral.aspx">App Central</a> for CTV and I also write for <a target="_blank" href="http://www.fastcompany.com/user/amber-mac">Fast Company</a> magazine about digital productivity and trends in digital marketing. I wrote a book a couple of years ago called <a target="_blank" href="http://powerfriending.org">Power Friending</a>. I have a podcast, <a target="_blank" href="http://twit.tv/tsh">The Social Hour</a>, on Twit.tv as well as CommandN.tv; I've been doing that for a while. </p>
 
           <p>I have a bunch of new projects in the works, but those are what I’m doing right now. </p>
 
           <h3 id="eachofthosedifferentthingshasadifferentproductionscheduleanddifferenttimelinesomearemonthlysomeareweeklydoyouhaveanystrategiesformanagingyourridiculousschedule">Each of those different things has a different production schedule and different timeline – some are monthly, some are weekly. Do you have any strategies for managing your ridiculous schedule?</h3>
 
-          <p>I finally met someone recently who maybe has the same strategy as me: <a href="http://www.sethgodin.com/sg/">Seth Godin</a>. He's better known than I am, very popular online for all of his digital marketing work. I asked him how he was able to manage everything that he did, and he described it like this: Number one, he works for himself, so actually he can be way more productive in an eight- or ten-hour workday. When you're in your home office, you can get a lot done because you're not in meetings.</p>
+          <p>I finally met someone recently who maybe has the same strategy as me: <a target="_blank" href="http://www.sethgodin.com/sg/">Seth Godin</a>. He's better known than I am, very popular online for all of his digital marketing work. I asked him how he was able to manage everything that he did, and he described it like this: Number one, he works for himself, so actually he can be way more productive in an eight- or ten-hour workday. When you're in your home office, you can get a lot done because you're not in meetings.</p>
 
           <p>I think that would be pretty much the number one thing for me as well – I don't go out to a lot of meetings. Number two, like Seth, I don't watch a lot of television. That can be a huge time-sucker, and just there I feel like I get an extra twenty-five hours a week. </p>
 
@@ -193,7 +193,7 @@
           <p>I wanted to write a book a couple of years ago; I did that, and now I kind of never want to write a book again, so I'll just find new things I want to do. [Laughs]</p>
 
 
-          <h3 id="in2009youhostedashowforthexboxliveplatformcalledgirlsgogeekhttpwwwyoutubecomusergirlsgogeekyouvehadaprettylongcareeralreadyinthewebandtechnologyhowhaveyouseentherolesofwomenchangeinthoseindustrieshaveyoueverexperiencedobstaclesparticipatinginthatsphere">In 2009 you hosted a show for the XBox Live platform called <a href="http://www.youtube.com/user/GirlsGoGeek">Girls Go Geek!</a>. You've had a pretty long career already in the Web and technology. How have you seen the roles of women change in those industries? Have you ever experienced obstacles participating in that sphere?</h3>
+          <h3 id="in2009youhostedashowforthexboxliveplatformcalledgirlsgogeekhttpwwwyoutubecomusergirlsgogeekyouvehadaprettylongcareeralreadyinthewebandtechnologyhowhaveyouseentherolesofwomenchangeinthoseindustrieshaveyoueverexperiencedobstaclesparticipatinginthatsphere">In 2009 you hosted a show for the XBox Live platform called <a target="_blank" href="http://www.youtube.com/user/GirlsGoGeek">Girls Go Geek!</a>. You've had a pretty long career already in the Web and technology. How have you seen the roles of women change in those industries? Have you ever experienced obstacles participating in that sphere?</h3>
 
           <p>When I started at G4TechTV in 2005, just as a guest (before I started hosting with them), I really didn't know of any other women, at least in Canada, who were covering technology as a journalist or host. There were very few women. </p>
 
@@ -217,7 +217,7 @@
 
           <p></pullquote></p>
 
-          <p>He's also been a big role model because, like me, he has straddled mainstream media and entrepreneurship. He's been hugely successful with <a href="http://twit.tv/">TWiT</a>.</p>
+          <p>He's also been a big role model because, like me, he has straddled mainstream media and entrepreneurship. He's been hugely successful with <a target="_blank" href="http://twit.tv/">TWiT</a>.</p>
 
           <p>I’ve always looked up to him; he was a fantastic person to work with, especially from a broadcast perspective because he's very talented and was always his own person. I don't feel like he ever sold out, and he still hasn't. </p>
 
@@ -225,9 +225,9 @@
 
           <p>What I've tried over the past couple years to do is to inspire other people to go out and do their own thing; I think there are quite a few people that I've met with and helped along the way. </p>
 
-          <p>One person in particular – I hope he considers me somewhat of a mentor – is <a href="http://winstonsih.com">Winston Sih</a>. He now does stuff for CityTV. When he was 16 years old, he wrote me an email and basically said that he wanted to come on WebNation, the show I was doing for CP24. Everyone was like, ‘You can't have a sixteen year-old on, that's ridiculous!’ But I looked at his website, and he was doing more than anyone I'd ever seen in terms of creating his own personal brand. We had him on, and now he is doing really well, he's only a few years older. </p>
+          <p>One person in particular – I hope he considers me somewhat of a mentor – is <a target="_blank" href="http://winstonsih.com">Winston Sih</a>. He now does stuff for CityTV. When he was 16 years old, he wrote me an email and basically said that he wanted to come on WebNation, the show I was doing for CP24. Everyone was like, ‘You can't have a sixteen year-old on, that's ridiculous!’ But I looked at his website, and he was doing more than anyone I'd ever seen in terms of creating his own personal brand. We had him on, and now he is doing really well, he's only a few years older. </p>
 
-          <p>Also, <a href="http://nichm.com">Nicholas Montgomery</a> who was Marilyn Denis's tech guy. I first met him and got him to come on air with me when he was twelve years old. We’ve kept in touch, and I still do stuff with him. I'm a big fan of supporting really young people. I think you can make a big impact in their lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
+          <p>Also, <a target="_blank" href="http://nichm.com">Nicholas Montgomery</a> who was Marilyn Denis's tech guy. I first met him and got him to come on air with me when he was twelve years old. We’ve kept in touch, and I still do stuff with him. I'm a big fan of supporting really young people. I think you can make a big impact in their lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
 
           <p><pullquote></p>
 
