@@ -101,16 +101,6 @@
           </figure>
         </div>
 
-        <div class="photo-callout notable-person">
-          <figure class="first-row">
-            <div class="arrow"></div>
-            <a href="http://powerfriending.org"><img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/power-friending.jpg" alt="Cover of Amber MacArthur's book 'Power Freinding'"/></a>
-            <figcaption class="clear">
-              <p>Amber wrote Power Friending in 2010 to help guide individuals and businesses understand the social web.</p>
-            </figcaption>
-            <div style="clear:both"></div>
-          </figure>
-        </div>
       </div>
 
 
@@ -280,7 +270,19 @@
         <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
 
-      <div class="span7 offset4 interview-panel">
+      <div class="span4">
+        <div class="photo-callout notable-person">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <a href="http://powerfriending.org"><img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/power-friending.jpg" alt="Cover of Amber MacArthur's book 'Power Freinding'"/></a>
+            <figcaption class="clear">
+              <p>Amber wrote Power Friending in 2010 to help guide individuals and businesses understand the social web.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="span7 interview-panel">
         <p>What that means is I've always thought I need to take on as many projects as possible and secure any type of business relationship for my future to make sure that I can continue to do what I want to do and have the freedom to run my own business. </p>
 
         <p>I don't know if my ambition has changed much. I'm pretty honest about the fact that I like making money and I love the freedom that gives me, and I like working for myself. I've always wanted to do those two things, and that's what I've been doing now for five years, more or less. That's really as ambitious as I get. </p>
