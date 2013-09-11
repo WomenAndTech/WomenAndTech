@@ -29,7 +29,7 @@
     </section>
   </div><!-- interview-intro -->
   <div id="portrait" class="fullscreen">
-    <img src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/amber-macarthur-profile.jpg" alt="Amber MacArthur Profile"/>
+    <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-portrait.jpg" alt="Amber MacArthur Profile"/>
     <div class="photo-credit light">
       Photo credit:
       <a href="LINK HERE" target="_blank">NAME HERE</a>
