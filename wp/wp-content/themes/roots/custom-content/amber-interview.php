@@ -30,9 +30,9 @@
   </div><!-- interview-intro -->
   <div id="portrait" class="fullscreen">
     <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-portrait.jpg" alt="Amber MacArthur Profile"/>
-    <div class="photo-credit light">
+    <div class="photo-credit">
       Photo credit:
-      <a href="http://www.flickr.com/photos/globalhermit/sets/" target="_blank">Sean Carruthers</a>
+      <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>
     </div>
   </div>
   <div class="container">
@@ -103,7 +103,7 @@
             <div class="arrow"></div>
             <h3>Notable Person</h3>
             <a href="https://twitter.com/MarilynDenisCTV" target="_blank">
-              <img src='<?php echo get_home_url(); ?>/assets/img/amber-interview/marilyn-dennis.jpg'>
+              <img src='<?php echo get_home_url(); ?>/assets/img/amber-interview/marilyn-denis.jpg'>
             </a>
             <figcaption class="clear">
               <a href="https://twitter.com/MarilynDenisCTV"><h4 id="marilyndenishttpstwittercommarilyndenisctv">Marilyn Denis</h4></a>
@@ -288,9 +288,20 @@
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3  id="whenyoustartedoutinjournalismyouwerentsurewhatyourspecialtywouldbehaveyourambitionschangedovertimedoyoustillhavethesamecareervisionforyourselfthatyouvealwayshad">When you started out in journalism you weren’t sure what your specialty would be. Have your ambitions changed over time? Do you still have the same career vision for yourself that you've always had?</h3>
-
           <p>I don't think I've ever had a career vision! Maybe that’s a bit of an issue because some people like to have five-year plans or ten-year plans, but my ambition has always been to survive. [Laughs] </p>
       </div>
+    </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-guy-kawasaki.jpg" alt="Amber Mac" />
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="row">
       <div class="span11 pull-quote">
         <aside class="quote">
           <h2>My ambition has always been to survive.</h2>
@@ -318,19 +329,7 @@
         <p>I wanted to write a book a couple of years ago; I did that, and now I kind of never want to write a book again, so I'll just find new things I want to do. [Laughs]</p>
       </div>
 
-
-
     </section>
-  </div>
-</li>
-<li>
-  <div class="fullscreen">
-    <div class="parallax">
-      <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-guy-kawasaki.jpg" alt="Amber Mac" />
-    </div>
-  </div>
-
-  <div class="container">
 
     <section class="row">
       <div class="span7 offset4 interview-panel">
@@ -395,8 +394,8 @@
     <div class="parallax">
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-leo-laporte.jpg" alt="Amber Mac" />
       <div class="photo-credit light">
-        Photo credit:
-        <a href="http://www.flickr.com/photos/globalhermit/sets/" target="_blank">Sean Carruthers</a>
+        All Photos credited to:
+        <a href="http://www.flickr.com/photos/globalhermit/sets/" target="_blank">Sean Carruthers</a> (<a target="_blank" href="https://twitter.com/globalhermit">@globalhermit</a>)
       </div>
     </div>
   </div>
@@ -434,7 +433,7 @@
       <div class="span7 offset4 interview-panel">
           <h3  id="inourlastinterviewpearlchenhttpwomenandtechcominterviewpearlchenaskedwhatsonethingthathashappenedtoyoueitherasachildorasanadultthatcompletelychangedyourlife">In our last interview <a href="http://womenandtech.com/interview/pearl-chen/">Pearl Chen</a> asked, “What’s one thing that has happened to you (either as a child or as an adult) that completely changed your life?”</h3>
 
-          <p>When I was in kindergarten I came second in a colouring contest and had my picture taken for the local paper on PEI.  When I look back at that photo I definitely had a first place smile, which reminds me how thrilled I was just to be part of the competition. I've held this philosophy close to my heart through my working years, reminding myself that even if I don't come first at everything, showing up and giving it my all is reward enough.</p>
+          <p>When I was in kindergarten I came second in a colouring contest and had my picture taken for the local paper on PEI.  When I look back at that photo I definitely had a first place smile, which reminds me how thrilled I was just to be part of the competition. I've held this philosophy close to my heart through my working years, reminding myself that even if I don't come first at everything, showing up and giving it my all is reward enough. <span class="full-stop"><img src="http://womenandtech.com/assets/img/full-stop.png" /></span></p>
       </div>
     </section>
     <section class="row">
