@@ -7,3 +7,4 @@ wp/.htaccess
 wp/wp-config.php
 index.php
 wp/db/women_and_tech.sql
+.idea/*
