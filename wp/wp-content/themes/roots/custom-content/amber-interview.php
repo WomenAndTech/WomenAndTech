@@ -166,20 +166,7 @@
         </div>
 
     </section>
-  </div>
-</li>
-<li>
-  <div class="fullscreen">
-    <div class="parallax">
-      <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-on-set.jpg" alt="Amber Mac" />
-      <div class="photo-credit light">
-        Photo credit:
-        <a href="http://bamcat.com" target="_blank">Brian McKechnie</a>
-      </div>
-    </div>
-  </div>
 
-  <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
           <h3  id="asamomwithafamilywhatsortofsupportdoyouhavebothprofessionallyandinyourpersonallife">As a mom with a family, what sort of support do you have, both professionally and in your personal life?</h3>
@@ -224,6 +211,20 @@
         </div>
 
       </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-on-set.jpg" alt="Amber Mac" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="http://bamcat.com" target="_blank">Brian McKechnie</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
       <section class="row">
         <div class="span7 offset4 interview-panel">
           <h3  id="whenitcomestocontentcreationdoyoueverfeelyouhavetomakecompromisesbecauseofdifferentaffiliationsyouvehadwithsponsors">When it comes to content creation, do you ever feel you have to make compromises because of different affiliations you've had with sponsors?</h3>
