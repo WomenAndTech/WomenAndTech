@@ -31,6 +31,11 @@
   float: left;
   text-align: left;
 }
+.member.with_heart {
+  width: 100%;
+  min-height: auto;
+  margin-top: 10px;
+}
 .member img {
   width: 80%;
   margin: 0px auto;
@@ -47,6 +52,8 @@
   font-style: italic;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
+  line-height: 1;
+  margin-top: 7px;
 }
 .member a h3 {
   font-size: 1.2em;
@@ -229,7 +236,8 @@
   }
 
   .member.with_heart {
-    width: 100%;
+    width: 60%;
+    margin: 2%;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -260,9 +268,11 @@
     min-height: 230px;
   }
   .member.with_heart {
-    width: 72%;
+    width: 48%;
+    margin-top: 0;
   }
 }
+
 
 @media (max-width: 700px) {
   .featured-sponsor-logo {
@@ -293,4 +303,9 @@
     width: 50%;
   }
 
+  .member.with_heart {margin-top: 0;}
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
+  .member {min-height: 230px;}
 }

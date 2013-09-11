@@ -2,7 +2,7 @@
 	if (is_home()||is_single()):
 		$social_image=wp_get_attachment_url(get_post_thumbnail_id( (int) $post->ID));
 	else:
-		$social_image="http://api.twitter.com/1/users/profile_image?screen_name=womenandtech&size=bigger"; 
+		$social_image="http://api.twitter.com/1/users/profile_image?screen_name=womenandtech&size=original"; 
 	endif;
 
 	$social_description=get_post_meta($post->ID, "archive_excerpt", false);
