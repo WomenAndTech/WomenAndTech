@@ -47,22 +47,8 @@
 
     </section>
     <section class="row no-margin-top">
-      <div class="span4 notable-person" id="leo-laporte">
-        <figure class="first-row">
-          <div class="arrow"></div>
-          <h3>Notable Person</h3>
-          <a href="http://leoville.com" target="_blank">
-            <img src='<?php echo get_home_url(); ?>/assets/img/amber-interview/leo-laporte.jpg'>
-          </a>
-          <figcaption class="clear">
-            <h4><a target="_blank" href="http://leoville.com">Leo Laporte</a></h4>
-            <p>Leo Laporte is a broadcaster, author and entrepreneur. He is founder and owner of the <a target="_blank" href="http://twit.tv/">TWiT Netcast Network</a> which he launched in 2005 and hosts the popular tech talk podcast, <a target="_blank" href="http://www.techguylabs.com/">The Tech Guy</a>.</p>
-          </figcaption>
-          <div style="clear:both"></div>
-        </figure>
-      </div>  
-      <div class="span7 interview-panel">
-        <p>Sure! I did a post-graduate degree in journalism at University of King's College in Halifax and shortly thereafter went to work for CBC in Charlottetown for three or four months as a daily news reporter. I absolutely hated the routine, the grind of working in a large corporation. I felt like I needed more experience, so I moved out to San Francisco and worked in the dot-com industry for three years. Then I came back to Toronto and worked at Microsoft for a year, and then I got a job at G4 Tech TV hosting a show with tech guru Leo Laporte. </p>
+      <div class="span7 offset4 interview-panel">
+        <p>Sure! I did a post-graduate degree in journalism at University of King's College in Halifax and shortly thereafter went to work for CBC in Charlottetown for three or four months as a daily news reporter. I absolutely hated the routine, the grind of working in a large corporation. I felt like I needed more experience, so I moved out to San Francisco and worked in the dot-com industry for three years. Then I came back to Toronto and worked at Microsoft for a year, and then I got a job at G4 Tech TV hosting a show with tech guru <a target="_blank" title="Leo Laporte's Personal Website" href="http://www.leoville.com">Leo Laporte</a>.</p>
 
         <p>About a year later I started podcasting. That was exciting; it was the first time I really knew that I could step out and create content on my own — that I didn’t need to be attached to a broadcaster. I created <a target="_blank" href="http://www.commandn.tv">Command-N</a>, a technology podcast in, I guess, 2006. About that same time I started hosting a podcast with Leo called Net at Night and worked at CityTV as a New Media Specialist. After a year of that, I started <a target="_blank" href="http://konnektnow.com/">my own company</a> and haven't looked back.</p>
       </div>
@@ -106,7 +92,7 @@
               <img src='<?php echo get_home_url(); ?>/assets/img/amber-interview/marilyn-dennis.jpg'>
             </a>
             <figcaption class="clear">
-              <h4 id="marilyndenishttpstwittercommarilyndenisctv"><a href="https://twitter.com/MarilynDenisCTV">Marilyn Denis</a></h4>
+              <a href="https://twitter.com/MarilynDenisCTV"><h4 id="marilyndenishttpstwittercommarilyndenisctv">Marilyn Denis</h4></a>
 
               <p>Marilyn Denis, has been a fixture in Canadian broadcasting since 1986. She is co-host of the long running morning show <a target="_blank" href="http://www.chumfm.com/Shows/Shows/Roger-Darren-and-Marilyn">Roger, Darren and Marilyn</a> and hosts the lifestyle show, <a href="http://marilyn.ca" target="_blank">The Marilyn Denis Show</a> on CTV.</p>
 
@@ -148,8 +134,8 @@
             <img src='<?php echo get_home_url(); ?>/assets/img/amber-interview/seth-godin.jpg'>
           </a>
           <figcaption class="clear">
-            <h4><a target="_blank" href="http://www.sethgodin.com/">Seth Godin</a></h4>
-            <p>Seth Godin is an author, entrepreneur, marketer and public speaker. He pioneered the use of <a href="http://sethgodin.typepad.com/seths_blog/2008/01/permission-mark.html" target="_blank">permission marketing</a>, which promotes the ethical use of direct mail online. He’s written fourteen bestselling books and writes and speaks about marketing, leadership, ideas and life choices. </p>
+            <a target="_blank" href="http://www.sethgodin.com/"><h4>Seth Godin</h4></a>
+            <p>Seth Godin is an author, entrepreneur, marketer and public speaker. He has written <a target="_blank" title="Amazon's biography and book list for Seth Godin" href="http://www.amazon.com/Seth-Godin/e/B000AP9EH0">fifteen bestselling books</a> and writes and speaks about marketing, leadership, ideas and life choices.</p>
           </figcaption>
           <div style="clear:both"></div>
         </figure>
@@ -158,7 +144,7 @@
       <div class="span7 interview-panel">
         <h3 id="eachofthosedifferentthingshasadifferentproductionscheduleanddifferenttimelinesomearemonthlysomeareweeklydoyouhaveanystrategiesformanagingyourridiculousschedule">Each of those different things has a different production schedule and different timeline – some are monthly, some are weekly. Do you have any strategies for managing your ridiculous schedule?</h3>
 
-          <p>I finally met someone recently who maybe has the same strategy as me: <a target="_blank" href="http://www.sethgodin.com/sg/">Seth Godin</a>. He's better known than I am, very popular online for all of his digital marketing work. I asked him how he was able to manage everything that he did, and he described it like this: Number one, he works for himself, so actually he can be way more productive in an eight- or ten-hour workday. When you're in your home office, you can get a lot done because you're not in meetings.</p>
+          <p>I finally met someone recently who maybe has the same strategy as me: Seth Godin. He's better known than I am, very popular online for all of his digital marketing work. I asked him how he was able to manage everything that he did, and he described it like this: Number one, he works for himself, so actually he can be way more productive in an eight- or ten-hour workday. When you're in your home office, you can get a lot done because you're not in meetings.</p>
 
           <p>I think that would be pretty much the number one thing for me as well – I don't go out to a lot of meetings. Number two, like Seth, I don't watch a lot of television. That can be a huge time-sucker, and just there I feel like I get an extra twenty-five hours a week. </p>
 
@@ -228,7 +214,7 @@
 
           <p>I just did a shoot recently with a pretty big company, and they were asking me questions about my career. I felt I was censoring myself the whole way, because I didn't want to potentially insult any of the brands they had on board as sponsors. </p>
 
-          <p>I think people have to be much more aware of their alignment with different brands than they've ever had to be before. Some people may not like that. There are people like Bob Lefsetz – I read his letter and love him, he's a great commentator on the music industry. He hates it when brands and artists get together and do anything. But I think it's just the world we live in, and quite frankly, I have to feed my kid. [Laughs] </p>
+          <p>I think people have to be much more aware of their alignment with different brands than they've ever had to be before. Some people may not like that. There are people like <a target="_blank" href="https://twitter.com/Lefsetz">Bob Lefsetz</a> – I read <a target="_blank" href="http://lefsetz.com/">his letter</a> and love him, he's a great commentator on the music industry. He hates it when brands and artists get together and do anything. But I think it's just the world we live in, and quite frankly, I have to feed my kid. [Laughs] </p>
 
           <p>It’s more acceptable these days as long as you're transparent about it and don't try to do anything sneaky. I won't ever tweet about client work without putting "Client" in brackets beside the tweet, or making it otherwise very clear that I'm working with a certain company. </p>
         </div>
@@ -256,7 +242,7 @@
     </section>
     <section class="row">
       <div class="span7 offset4 interview-panel">
-        <h3  id="onarelatednoteyourfacewasrecentlyonbussheltersalloverthecityforthegovernmentsgetcybersafecampaignwhatisyourconnectionwiththatcause">On a related note, your face was recently on bus shelters all over the city for the government's "Get Cyber Safe” campaign. What is your connection with that cause?</h3>
+        <h3  id="onarelatednoteyourfacewasrecentlyonbussheltersalloverthecityforthegovernmentsgetcybersafecampaignwhatisyourconnectionwiththatcause">On a related note, your face was recently on bus shelters all over the city for the government's "<a target="_blank" href="https://twitter.com/GetCyberSafe/">Get Cyber Safe</a>” campaign. What is your connection with that cause?</h3>
 
           <p>They approached me to be an advocate for safety online. Basically I appear on bus shelters [Laughs] and I do interviews on news and talk shows on different channels promoting how to be safe online, which means safety in social networking, being smart about online shopping, and not sharing too much financial information. It's an overall approach to make sure Canadians are being safe on the Web. </p>
 
@@ -327,8 +313,22 @@
 
     </section>
     <section class="row">
-      <div class="span7 offset4 interview-panel">
-        <h3  id="awesomeyoumentionedthatyoustartedoffwithleolaportehashebeenamentorfigureforyou">Awesome. You mentioned that you started off with Leo Laporte. Has he been a mentor figure for you?</h3>
+      <div class="span4 notable-person" id="leo-laporte">
+        <figure class="first-row">
+          <div class="arrow"></div>
+          <h3>Notable Person</h3>
+          <a href="http://leoville.com" target="_blank">
+            <img src='<?php echo get_home_url(); ?>/assets/img/amber-interview/leo-laporte.jpg'>
+          </a>
+          <figcaption class="clear">
+            <a target="_blank" href="https://twitter.com/leolaporte"><h4>Leo Laporte</h4></a>
+            <p>Leo Laporte is a broadcaster, author and entrepreneur. He is founder and owner of the <a target="_blank" href="http://twit.tv/">TWiT Netcast Network</a>, launched in 2005, and hosts the popular tech talk podcast, "<a target="_blank" href="http://www.techguylabs.com/">The Tech Guy</a>".</p>
+          </figcaption>
+          <div style="clear:both"></div>
+        </figure>
+      </div>
+      <div class="span7 interview-panel">
+        <h3 id="awesomeyoumentionedthatyoustartedoffwithleolaportehashebeenamentorfigureforyou">Awesome. You mentioned that you started off with Leo Laporte. Has he been a mentor figure for you?</h3>
 
         <p>Oh yeah. I started with Leo in 2005 when I was doing Call for Help with him on G4TechTV. He became a mentor for me right away, because he told me literally from the first moment I started working with him that I just needed to know my stuff and I didn't need to worry about anything else. I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me. </p>
       </div>
@@ -438,8 +438,9 @@
             </p>
             <p>
               <strong>Development</strong><em> by</em>
-              <a href="http://brennaobrien.com" target="_blank">Brenna O'Brien</a><em> and</em> 
-              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a>
+              <a href="http://brennaobrien.com" target="_blank">Brenna O'Brien</a>,
+              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a>, <em> and</em>
+              <a href="http://twitter.com/raykao" target="_blank">Ray Kao</a>
             </p>
             <p>
               <strong>Transcriptions</strong><em> by</em>
