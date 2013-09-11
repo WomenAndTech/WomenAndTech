@@ -80,7 +80,7 @@
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-camera.jpg" alt="Amber Mac" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="http://www.longexposure.ca" target="_blank">Trevor Haldenby</a>
+        <a href="LINK HERE" target="_blank">Name Here</a>
       </div>
     </div>
   </div>
@@ -319,6 +319,21 @@
 
 
     </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-guy-kawasaki.jpg" alt="Amber Mac" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="LINK HERE" target="_blank">Name Here</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3  id="in2009youhostedashowforthexboxliveplatformcalledgirlsgogeekhttpwwwyoutubecomusergirlsgogeekyouvehadaprettylongcareeralreadyinthewebandtechnologyhowhaveyouseentherolesofwomenchangeinthoseindustrieshaveyoueverexperiencedobstaclesparticipatinginthatsphere">In 2009 you hosted a show for the XBox Live platform called <a target="_blank" href="http://www.youtube.com/user/GirlsGoGeek">Girls Go Geek!</a>. You've had a pretty long career already in the Web and technology. How have you seen the roles of women change in those industries? Have you ever experienced obstacles participating in that sphere?</h3>
@@ -375,6 +390,21 @@
       </div>
 
     </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-leo-laporte.jpg" alt="Amber Mac" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="LINK HERE" target="_blank">Name Here</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3 id="haveyoubeenamentortoanyotherpeople">Have you been a mentor to any other people?</h3>
