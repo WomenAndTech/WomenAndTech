@@ -86,6 +86,20 @@
       </div>
 
     </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-camera.jpg" alt="Amber Mac" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="http://www.longexposure.ca" target="_blank">Trevor Haldenby</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3 id="intermsofdevelopingyourcareerwhatdoyouthinkhasbeenthebiggesthurdleyouvehadtogetoverinallthosetransitions">In terms of developing your career, what do you think has been the biggest hurdle you've had to get over in all those transitions?</h3>
@@ -176,6 +190,20 @@
         </div>
 
     </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-on-set.jpg" alt="Amber Mac" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="http://bamcat.com" target="_blank">Brian McKechnie</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
           <h3  id="asamomwithafamilywhatsortofsupportdoyouhavebothprofessionallyandinyourpersonallife">As a mom with a family, what sort of support do you have, both professionally and in your personal life?</h3>
