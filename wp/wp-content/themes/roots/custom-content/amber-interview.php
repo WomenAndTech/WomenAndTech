@@ -32,7 +32,7 @@
     <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-portrait.jpg" alt="Amber MacArthur Profile"/>
     <div class="photo-credit light">
       Photo credit:
-      <a href="LINK HERE" target="_blank">NAME HERE</a>
+      <a href="http://www.flickr.com/photos/globalhermit/sets/" target="_blank">Sean Carruthers</a>
     </div>
   </div>
   <div class="container">
@@ -80,7 +80,7 @@
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-camera.jpg" alt="Amber Mac" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="LINK HERE" target="_blank">Name Here</a>
+        <a href="http://bamcat.com" target="_blank">Brian McKechnie</a>
       </div>
     </div>
   </div>
@@ -325,10 +325,6 @@
   <div class="fullscreen">
     <div class="parallax">
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-guy-kawasaki.jpg" alt="Amber Mac" />
-      <div class="photo-credit light">
-        Photo credit:
-        <a href="LINK HERE" target="_blank">Name Here</a>
-      </div>
     </div>
   </div>
 
@@ -398,7 +394,7 @@
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-leo-laporte.jpg" alt="Amber Mac" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="LINK HERE" target="_blank">Name Here</a>
+        <a href="http://www.flickr.com/photos/globalhermit/sets/" target="_blank">Sean Carruthers</a>
       </div>
     </div>
   </div>
