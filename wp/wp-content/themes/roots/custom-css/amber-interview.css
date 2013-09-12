@@ -29,14 +29,21 @@ Amber Interview Specific Styles
 /* CAPTION POSITIONS */
 /* uncomment and modify as needed */
 
-.fullscreen .info-panel#pearl-speaking {
-    top:42%;
+.fullscreen .info-panel#podcasts {
+    top: 50%;
 }
-/*
 
-.fullscreen .info-panel#illustrations {
-    top:25%
+
+.fullscreen .info-panel#appcentral {
+    right: 0;
+    top: 40%;
 }
+
+.fullscreen .info-panel#guy-kawasaki {
+    top: 60%;
+}
+
+/*
 
 .fullscreen .info-panel#screenshots {
     top:5%

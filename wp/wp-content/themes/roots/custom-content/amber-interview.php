@@ -77,6 +77,16 @@
 <li>
   <div class="fullscreen">
     <div class="parallax">
+      <div class="container">
+        <div class="info-panel" id="podcasts">
+          <aside>
+            <div class="arrow right"></div>
+            <p class="last">
+              Amber has produced and co-hosted two successful podcasts, The Social Hour on San Francisco’s TWiT.tv network and commandN.tv. Both shows have been featured in Wired Magazine and have won a number of podcast awards.
+            </p>
+          </aside>
+        </div>      
+      </div>      
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-camera.jpg" alt="Amber Mac" />
       <div class="photo-credit light">
         Photo credit:
@@ -216,6 +226,16 @@
 <li>
   <div class="fullscreen">
     <div class="parallax">
+      <div class="container">
+        <div class="info-panel" id="appcentral">
+          <aside>
+            <div class="arrow left"></div>
+            <p class="last">
+              Amber on the set of Appcentral, a show that explores the growing culture and business of apps for Smartphones and tablets.
+            </p>
+          </aside>
+        </div>      
+      </div>
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-on-set.jpg" alt="Amber Mac" />
       <div class="photo-credit light">
         Photo credit:
@@ -297,6 +317,16 @@
 <li>
   <div class="fullscreen">
     <div class="parallax">
+      <div class="container">
+        <div class="info-panel" id="guy-kawasaki">
+          <aside>
+            <div class="arrow right"></div>
+            <p class="last">
+              Amber with Guy Kawasaki on the set of App Central. 
+            </p>
+          </aside>
+        </div>      
+      </div>      
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-guy-kawasaki.jpg" alt="Amber Mac" />
     </div>
   </div>
@@ -393,6 +423,16 @@
 <li>
   <div class="fullscreen">
     <div class="parallax">
+      <div class="container">
+        <div class="info-panel" id="call-for-help">
+          <aside>
+            <div class="arrow right"></div>
+            <p class="last">
+              Amber spent two years as tech guru Leo Laporte’s co-host on G4TechTV, anchoring more than 500 episodes of a popular technology call-in show, Call for Help (among other programs).
+            </p>
+          </aside>
+        </div>      
+      </div> 
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-leo-laporte.jpg" alt="Amber Mac" />
       <div class="photo-credit light">
         All Photos credited to:
@@ -448,7 +488,7 @@
             <div id="question-details">
               <div id="profile-image">
                 <img
-                  src="<?php echo get_home_url(); ?>/assets/img/pearl-interview/pearl-chen-square.jpg" />
+                  src="<?php echo get_home_url(); ?>/assets/img/amber-interview/img-square-amber.jpg" />
               </div>
               <h4>What's one thing that has happened to you (either as a child or as an adult) that completely changed your life?</h4>
               <div id='quote-mark'>
