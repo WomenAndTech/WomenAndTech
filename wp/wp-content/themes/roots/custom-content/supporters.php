@@ -154,15 +154,7 @@
 							<p>Web and mobile dev</p>
 						</a>
 					</div>
-					
-					<div class="member">
 
-						<a href="http://twitter.com/feastinc" target="_blank" alt="Lucia Mariani-Vena" title="Lucia Mariani-Vena">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/lucia.png" alt="Lucia Mariani-Vena" title="Lucia Mariani-Vena" />
-							<h3>Lucia Mariani-Vena</h3>
-							<p>Advisor</p>
-						</a>
-					</div>
 					<div class="member">
 
 						<a href="http://twitter.com/brennaob" target="_blank" alt="Brenna O'Brien" title="Brenna O'Brien" >
