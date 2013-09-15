@@ -490,7 +490,7 @@
                 <img
                   src="<?php echo get_home_url(); ?>/assets/img/amber-interview/img-square-amber.jpg" />
               </div>
-              <h4>What's one thing that has happened to you (either as a child or as an adult) that completely changed your life?</h4>
+              <h4>How can we encourage a younger generation of women to care more about brains than beauty when they're bombarded with images such as Miley Cyrus twerking?</h4>
               <div id='quote-mark'>
                 <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
             </div>
