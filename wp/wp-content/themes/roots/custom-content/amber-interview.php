@@ -50,7 +50,7 @@
       <div class="span7 offset4 interview-panel">
         <p>Sure! I did a post-graduate degree in journalism at University of King's College in Halifax and shortly thereafter went to work for CBC in Charlottetown for three or four months as a daily news reporter. I absolutely hated the routine, the grind of working in a large corporation. I felt like I needed more experience, so I moved out to San Francisco and worked in the dot-com industry for three years. Then I came back to Toronto and worked at Microsoft for a year, and then I got a job at G4 Tech TV hosting a show with tech guru <a target="_blank" title="Leo Laporte's Personal Website" href="http://www.leoville.com">Leo Laporte</a>.</p>
 
-        <p>About a year later I started podcasting. That was exciting; it was the first time I really knew that I could step out and create content on my own — that I didn’t need to be attached to a broadcaster. I created <a target="_blank" href="http://www.commandn.tv">Command-N</a>, a technology podcast in, I guess, 2006. About that same time I started hosting a podcast with Leo called Net at Night and worked at CityTV as a New Media Specialist. After a year of that, I started <a target="_blank" href="http://konnektnow.com/">my own company</a> and haven't looked back.</p>
+        <p>About a year later I started podcasting. That was exciting; it was the first time I really knew that I could step out and create content on my own — that I didn’t need to be attached to a broadcaster. I created <a target="_blank" href="http://www.commandn.tv">commandN</a>, a technology podcast in, I guess, 2006. About that same time I started hosting a podcast with Leo called Net at Night and worked at CityTV as a New Media Specialist. After a year of that, I started <a target="_blank" href="http://konnektnow.com/">my own company</a> and haven't looked back.</p>
       </div>
     </section>
     <section class="row">
@@ -81,8 +81,9 @@
         <div class="info-panel" id="podcasts">
           <aside>
             <div class="arrow right"></div>
+            <h3>Commanding Attention</h3>
             <p class="last">
-              Amber has produced and co-hosted two successful podcasts, The Social Hour on San Francisco’s TWiT.tv network and commandN.tv. Both shows have been featured in Wired Magazine and have won a number of podcast awards.
+              Amber has produced and co-hosted two successful podcast series, "The Social Hour" on San Francisco’s TWiT.tv network and her own tech news video show commandN. Both shows have been featured in <em>Wired Magazine</em> and in March 2006 commandN appeared in <a href="http://www.commandn.tv/commandn-in-adventures-of-superman/">issue 648 of Adventures of Superman</a>.
             </p>
           </aside>
         </div>      
@@ -133,7 +134,7 @@
 
         <p>As CTV’s Marilyn Denis once told me, you should always have multiple jobs in case you get fired from one. [Laughs] I am a big fan of that mantra. </p>
 
-        <p>Right now I have six or seven jobs; I'll name a few. I'm President and Co-founder of <a target="_blank" href="http://konnektnow.com">Konnect</a>, which I started with my brother, and my partner Chris is also involved. Konnekt is a social media digital marketing agency, we do a lot of work with clients. I host <a target="_blank" href="http://www.ctv.ca/AppCentral.aspx">App Central</a> for CTV and I also write for <a target="_blank" href="http://www.fastcompany.com/user/amber-mac">Fast Company</a> magazine about digital productivity and trends in digital marketing. I wrote a book a couple of years ago called <a target="_blank" href="http://powerfriending.org">Power Friending</a>. I have a podcast, <a target="_blank" href="http://twit.tv/tsh">The Social Hour</a>, on Twit.tv as well as CommandN.tv; I've been doing that for a while. </p>
+        <p>Right now I have six or seven jobs; I'll name a few. I'm President and Co-founder of <a target="_blank" href="http://konnektnow.com">Konnect</a>, which I started with my brother, and my partner Chris is also involved. Konnekt is a social media digital marketing agency, we do a lot of work with clients. I host <a target="_blank" href="http://www.ctv.ca/AppCentral.aspx">App Central</a> for CTV and I also write for <a target="_blank" href="http://www.fastcompany.com/user/amber-mac">Fast Company</a> magazine about digital productivity and trends in digital marketing. I wrote a book a couple of years ago called <a target="_blank" href="http://powerfriending.org">Power Friending</a>. I have a podcast, <a target="_blank" href="http://twit.tv/tsh">The Social Hour</a>, on Twit.tv as well as commandN.tv; I've been doing that for a while. </p>
 
         <p>I have a bunch of new projects in the works, but those are what I’m doing right now. </p>
       </div>
@@ -230,9 +231,9 @@
         <div class="info-panel" id="appcentral">
           <aside>
             <div class="arrow left"></div>
-            <p class="last">
-              Amber on the set of Appcentral, a show that explores the growing culture and business of apps for Smartphones and tablets.
-            </p>
+            <h3>Social Media Star</h3>
+           <p class="last">
+             In December 2010, Canadian Business Magazine named Amber Canada's top social media expert. She currently has 1.6 million Google+ subscribers and over 90,000 Twitter followers.</p>
           </aside>
         </div>      
       </div>
@@ -321,8 +322,9 @@
         <div class="info-panel" id="guy-kawasaki">
           <aside>
             <div class="arrow right"></div>
+            <h3>A Mac Moment with Guy Kawasaki</h3>
             <p class="last">
-              Amber with Guy Kawasaki on the set of App Central. 
+              Amber with former Apple chief evangelist Guy Kawasaki on the set of App Central. Guy was instrumental in <a href="http://www.youtube.com/watch?v=2zfqw8nhUwA" target="_blank">marketing the Macintosh in 1984</a> and is now a well-known blogger and Silicon Valley venture capitalist.
             </p>
           </aside>
         </div>      
@@ -333,13 +335,6 @@
 
   <div class="container">
     <section class="row">
-      <div class="span11 pull-quote">
-        <aside class="quote">
-          <h2>My ambition has always been to survive.</h2>
-        </aside>
-        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-      </div>
-
       <div class="span4">
         <div class="photo-callout notable-person">
           <figure class="first-row">
@@ -401,7 +396,7 @@
       <div class="span7 interview-panel">
         <h3 id="awesomeyoumentionedthatyoustartedoffwithleolaportehashebeenamentorfigureforyou">Awesome. You mentioned that you started off with Leo Laporte. Has he been a mentor figure for you?</h3>
 
-        <p>Oh yeah. I started with Leo in 2005 when I was doing Call for Help with him on G4TechTV. He became a mentor for me right away, because he told me literally from the first moment I started working with him that I just needed to know my stuff and I didn't need to worry about anything else. I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me. </p>
+        <p>Oh yeah. I started with Leo in 2005 when I was doing "Call for Help" with him on G4TechTV. He became a mentor for me right away, because he told me literally from <a href="https://www.youtube.com/watch?v=0b0L95r4L7E" target="_blank">the first moment I started working with him</a> that I just needed to know my stuff and I didn't need to worry about anything else. I didn't need to 'sex it up' when I was on TV. I should never appear ditzy. I should never play into that role. I should just really know what I was talking about, and people would respect me. </p>
       </div>
 
       <div class="span11 pull-quote">
@@ -427,8 +422,9 @@
         <div class="info-panel" id="call-for-help">
           <aside>
             <div class="arrow right"></div>
+            <h3>Number One Mentor</h3>
             <p class="last">
-              Amber spent two years as tech guru Leo Laporte’s co-host on G4TechTV, anchoring more than 500 episodes of a popular technology call-in show, Call for Help (among other programs).
+              Amber spent two years as tech guru Leo Laporte’s co-host on G4TechTV, anchoring more than 500 episodes of a popular technology call-in show, "Call for Help". Amber credits working alongside the broadcaster as <a href="http://www.ambermac.com/archives/3599/the-big-shout-out-leo-laporte/">being a big influence on her career</a>.
             </p>
           </aside>
         </div>      
