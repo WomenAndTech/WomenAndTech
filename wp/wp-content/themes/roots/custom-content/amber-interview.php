@@ -157,7 +157,7 @@
       </div>
 
       <div class="span7 interview-panel">
-        <h3 id="eachofthosedifferentthingshasadifferentproductionscheduleanddifferenttimelinesomearemonthlysomeareweeklydoyouhaveanystrategiesformanagingyourridiculousschedule">Each of those different things has a different production schedule and different timeline – some are monthly, some are weekly. Do you have any strategies for managing your ridiculous schedule?</h3>
+        <h3 id="eachofthosedifferentthingshasadifferentproductionscheduleanddifferenttimelinesomearemonthlysomeareweeklydoyouhaveanystrategiesformanagingyourridiculousschedule">Each of those different things has a different production schedule and different timeline — some are monthly, some are weekly. Do you have any strategies for managing your ridiculous schedule?</h3>
 
           <p>I finally met someone recently who maybe has the same strategy as me: Seth Godin. He's better known than I am, very popular online for all of his digital marketing work. I asked him how he was able to manage everything that he did, and he described it like this: Number one, he works for himself, so actually he can be way more productive in an eight- or ten-hour workday. When you're in your home office, you can get a lot done because you're not in meetings.</p>
 
@@ -486,7 +486,7 @@
                 <img
                   src="<?php echo get_home_url(); ?>/assets/img/amber-interview/img-square-amber.jpg" />
               </div>
-              <h4>What's one thing that has happened to you (either as a child or as an adult) that completely changed your life?</h4>
+              <h4>How can we encourage a younger generation of women to care more about brains than beauty when they're bombarded with images such as Miley Cyrus twerking?</h4>
               <div id='quote-mark'>
                 <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
             </div>
