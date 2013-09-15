@@ -76,9 +76,9 @@
 				<div id="help_us">
 					<h3>Want to help?</h3>
 
-					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/camera.png"> We need video and microphone equipment.</p>
-					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/volunteer.png"> We need volunteers with design or copyediting skills.</p>
-					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/photographers.png"> We need an occasional photographer.</p>
+					<!-- <p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/camera.png"> We need video and microphone equipment.</p> -->
+					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/volunteer.png">We need volunteers experienced with editing.</p>
+					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/photographers.png">We’re looking for local photographers to partner with on future interviews.</p>
 					<span>
 						<p>Don’t hesitate to <a href="mailto:volunteer@womenandtech.com" alt="Contact Women &amp;&amp; Tech" title="Contact Women &amp;&amp; Tech">reach out.</a></p>
 					</span>
