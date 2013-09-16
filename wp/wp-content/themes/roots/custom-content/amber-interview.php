@@ -83,7 +83,7 @@
             <div class="arrow right"></div>
             <h3>Commanding Attention</h3>
             <p class="last">
-              Amber has produced and co-hosted two successful podcast series, "The Social Hour" on San Francisco’s TWiT.tv network and her own tech news video show commandN. Both shows have been featured in <em>Wired Magazine</em> and in March 2006 commandN appeared in <a href="http://www.commandn.tv/commandn-in-adventures-of-superman/">issue 648 of Adventures of Superman</a>.
+              Amber has produced and co-hosted two successful podcast series, "The Social Hour" on San Francisco’s TWiT.tv network and her own tech news video show commandN. Both shows have been featured in <em>Wired Magazine</em> and in March 2006, commandN appeared in <a href="http://www.commandn.tv/commandn-in-adventures-of-superman/">issue 648 of Adventures of Superman</a>.
             </p>
           </aside>
         </div>      
@@ -233,7 +233,7 @@
             <div class="arrow left"></div>
             <h3>Social Media Star</h3>
            <p class="last">
-             In December 2010, Canadian Business Magazine named Amber Canada's top social media expert. She currently has 1.6 million Google+ subscribers and over 90,000 Twitter followers.</p>
+             In December 2010, Canadian Business Magazine named Amber the country's top social media expert. She currently has 1.6 million Google+ subscribers and over 90,000 Twitter followers.</p>
           </aside>
         </div>      
       </div>
@@ -254,12 +254,12 @@
 
           <p>I just did a shoot recently with a pretty big company, and they were asking me questions about my career. I felt I was censoring myself the whole way, because I didn't want to potentially insult any of the brands they had on board as sponsors. </p>
 
-          <p>I think people have to be much more aware of their alignment with different brands than they've ever had to be before. Some people may not like that. There are people like <a target="_blank" href="https://twitter.com/Lefsetz">Bob Lefsetz</a> – I read <a target="_blank" href="http://lefsetz.com/">his letter</a> and love him, he's a great commentator on the music industry. He hates it when brands and artists get together and do anything. But I think it's just the world we live in, and quite frankly, I have to feed my kid. [Laughs] </p>
+          <p>I think people have to be much more aware of their alignment with different brands than they've ever had to be before. Some people may not like that. There are people like <a target="_blank" href="https://twitter.com/Lefsetz">Bob Lefsetz</a> – I read <a target="_blank" href="http://lefsetz.com/">his letter</a> and love him, he's a great commentator on the music industry. He hates it when brands and artists get together and do anything. But I think it's just the world we live in, and quite frankly, I have to feed my kid.</p>
 
           <p>It’s more acceptable these days as long as you're transparent about it and don't try to do anything sneaky. I won't ever tweet about client work without putting "Client" in brackets beside the tweet, or making it otherwise very clear that I'm working with a certain company. </p>
         </div>
     </section>
-    <section class="row">
+    <section class="row no-margin-bottom">
       <div class="span7 offset4 interview-panel">
         <h3  id="whenyoursonisoldenoughtoengageinsocialmediawhatkindofattitudewillyoutaketowardhisinvolvement">When your son is old enough to engage in social media, what kind of attitude will you take toward his involvement?</h3>
 
@@ -268,33 +268,31 @@
           <p>I think it's not my decision to make. It’s part of respecting him as a human being beyond being an extension of me. I'll be supportive of him wanting to do stuff online, I’ll just make sure that he maintains his privacy as much as possible. I think you can be online in a really active way and still have your privacy. You'll never see me tweet where I live, or images of Connor, or anything like that. You just have to be smart and draw certain lines in your life. </p>
         </div>
 
-          <div class="span11 pull-quote">
-            <aside class="quote">
-              <h2>I think you can be online in a really active way and still have your privacy. You'll never see me tweet where I live, or images of Connor, or anything like that.</h2>
-            </aside>
-            <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-          </div>
-
         <div class="span7 offset4 interview-panel">
           <p>I also don't get political online. I try not to offend anyone, which is unfortunate because I do have strong views, but on the other hand I feel like it could hurt my business, so I'm just a little quieter. </p>
         </div>
 
     </section>
-    <section class="row">
+    <section class="row no-margin-top">
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2>I try not to offend anyone, which is unfortunate because I do have strong views, but on the other hand I feel like it could hurt my business, so I'm just a little quieter.</h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+      </div>
       <div class="span7 offset4 interview-panel">
         <h3  id="onarelatednoteyourfacewasrecentlyonbussheltersalloverthecityforthegovernmentsgetcybersafecampaignwhatisyourconnectionwiththatcause">On a related note, your face was recently on bus shelters all over the city for the government's "<a target="_blank" href="https://twitter.com/GetCyberSafe/">Get Cyber Safe</a>” campaign. What is your connection with that cause?</h3>
 
-          <p>They approached me to be an advocate for safety online. Basically I appear on bus shelters [Laughs] and I do interviews on news and talk shows on different channels promoting how to be safe online, which means safety in social networking, being smart about online shopping, and not sharing too much financial information. It's an overall approach to make sure Canadians are being safe on the Web. </p>
-
-          <p>It's been fun to be involved, although I have seen my face on bus shelters, and that’s a little strange. [Laughs]</p>
+          <p>They approached me to be an advocate for safety online. Basically I appear on bus shelters and I do interviews on news and talk shows on different channels promoting how to be safe online, which means safety in social networking, being smart about online shopping, and not sharing too much financial information. It's an overall approach to make sure Canadians are being safe on the Web. </p>
+          <p>It's been fun to be involved, although seeing my face on bus shelters has been a little strange.</p>
         </div>
 
     </section>
-    <section class="row">
+    <section class="row no-margin-bottom">
       <div class="span7 offset4 interview-panel">
         <h3  id="youvehadaflurryofdevicesyouvetestedandusedthroughoutyourcareerwhatnowobsoletedeviceareyoumostnostalgicfor">You've had a flurry of devices you've tested and used throughout your career. What now-obsolete device are you most nostalgic for?</h3>
 
-        <p>I think if I had to pick one device that I really missed, it would be the BlackBerry Pearl. It’s a much smaller smartphone they made a few years ago, and they may still make it. It was the first smartphone I ever used where I felt it was actually designed for a woman, even though it wasn't. You could put it in your pocket and not look absurd. [Laughs] Mostly I miss that it wasn't touch-screen but had the QWERTY keyboard, doubled up, so it was much smaller. I could literally type on the Pearl without ever looking at the keyboard. I'm a little nostalgic about that. </p>
+        <p>I think if I had to pick one device that I really missed, it would be the BlackBerry Pearl. It’s a much smaller smartphone they made a few years ago, and they may still make it. It was the first smartphone I ever used where I felt it was actually designed for a woman, even though it wasn't. You could put it in your pocket and not look absurd. Mostly I miss that it wasn't touch-screen but had the QWERTY keyboard, doubled up, so it was much smaller. I could literally type on the Pearl without ever looking at the keyboard. I'm a little nostalgic about that. </p>
 
         <p>But there are just too many devices in general, sometimes it's really hard to keep up!</p>
       </div>
@@ -307,7 +305,7 @@
       </div>
 
     </section>
-    <section class="row">
+    <section class="row no-margin-top">
       <div class="span7 offset4 interview-panel">
         <h3  id="whenyoustartedoutinjournalismyouwerentsurewhatyourspecialtywouldbehaveyourambitionschangedovertimedoyoustillhavethesamecareervisionforyourselfthatyouvealwayshad">When you started out in journalism you weren’t sure what your specialty would be. Have your ambitions changed over time? Do you still have the same career vision for yourself that you've always had?</h3>
           <p>I don't think I've ever had a career vision! Maybe that’s a bit of an issue because some people like to have five-year plans or ten-year plans, but my ambition has always been to survive. [Laughs] </p>
@@ -341,7 +339,7 @@
             <div class="arrow"></div>
             <a href="http://powerfriending.org"><img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/power-friending.jpg" alt="Cover of Amber MacArthur's book 'Power Freinding'"/></a>
             <figcaption class="clear">
-              <p>Amber wrote Power Friending in 2010 to help guide individuals and businesses understand the social web.</p>
+              <p>Amber wrote <em>Power Friending</em> in 2010 to help guide individuals and businesses understand the social web.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
@@ -439,15 +437,15 @@
 
   <div class="container">
 
-    <section class="row">
+    <section class="row no-margin-bottom">
       <div class="span7 offset4 interview-panel">
-        <h3 id="haveyoubeenamentortoanyotherpeople">Have you been a mentor to any other people?</h3>
+        <h3 id="haveyoubeenamentortoanyotherpeople">Have you been a mentor to anyone?</h3>
 
         <p>What I've tried over the past couple years to do is to inspire other people to go out and do their own thing; I think there are quite a few people that I've met with and helped along the way. </p>
 
         <p>One person in particular – I hope he considers me somewhat of a mentor – is <a target="_blank" href="http://winstonsih.com">Winston Sih</a>. He now does stuff for CityTV. When he was 16 years old, he wrote me an email and basically said that he wanted to come on WebNation, the show I was doing for CP24. Everyone was like, ‘You can't have a sixteen year-old on, that's ridiculous!’ But I looked at his website, and he was doing more than anyone I'd ever seen in terms of creating his own personal brand. We had him on, and now he is doing really well, he's only a few years older. </p>
 
-        <p>Also, <a target="_blank" href="http://nichm.com">Nicholas Montgomery</a> who was Marilyn Denis's tech guy. I first met him and got him to come on air with me when he was twelve years old. We’ve kept in touch, and I still do stuff with him. I'm a big fan of supporting really young people. I think you can make a big impact in their lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
+        <p>Also, <a target="_blank" href="http://nichm.com">Nicholas Montgomery</a>, who was Marilyn Denis's tech guy. I first met him and got him to come on air with me when he was twelve years old. We’ve kept in touch, and I still do stuff with him. I'm a big fan of supporting really young people. I think you can make a big impact in their lives just by being there and saying they can do it. It can change the way that they do things forever. </p>
       </div>
 
       <div class="span11 pull-quote">
@@ -458,7 +456,7 @@
       </div>
 
     </section>
-    <section class="row">
+    <section class="row no-margin-top">
       <div class="span7 offset4 interview-panel">
           <h3  id="andtheirselfperception">And their self-perception.</h3>
 
@@ -470,7 +468,7 @@
       <div class="span7 offset4 interview-panel">
           <h3  id="inourlastinterviewpearlchenhttpwomenandtechcominterviewpearlchenaskedwhatsonethingthathashappenedtoyoueitherasachildorasanadultthatcompletelychangedyourlife">In our last interview <a href="http://womenandtech.com/interview/pearl-chen/">Pearl Chen</a> asked, “What’s one thing that has happened to you (either as a child or as an adult) that completely changed your life?”</h3>
 
-          <p>When I was in kindergarten I came second in a colouring contest and had my picture taken for the local paper on PEI.  When I look back at that photo I definitely had a first place smile, which reminds me how thrilled I was just to be part of the competition. I've held this philosophy close to my heart through my working years, reminding myself that even if I don't come first at everything, showing up and giving it my all is reward enough. <span class="full-stop"><img src="http://womenandtech.com/assets/img/full-stop.png" /></span></p>
+          <p>When I was in kindergarten I came second in a colouring contest and had my picture taken for the local paper on Prince Edward Island. When I look back at that photo I definitely had a first place smile, which reminds me how thrilled I was just to be part of the competition. I've held this philosophy close to my heart through my working years, reminding myself that even if I don't come first at everything, showing up and giving it my all is reward enough. <span class="full-stop"><img src="http://womenandtech.com/assets/img/full-stop.png" /></span></p>
       </div>
     </section>
     <section class="row">
@@ -494,7 +492,7 @@
           <div class="row-fluid">
             <div class="span12" id="call-to-action">
               <p>
-                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Amber's answer to this question.
+                Be sure to check back next time (or <a href="#subscribe" title="Subscribe form">subscribe below</a>) for Melissa’s answer to this question.
               </p>
             </div>
           </div>

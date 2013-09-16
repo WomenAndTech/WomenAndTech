@@ -30,7 +30,7 @@ Amber Interview Specific Styles
 /* uncomment and modify as needed */
 
 .fullscreen .info-panel#podcasts {
-    top: 50%;
+    top: 45%;
 }
 
 
@@ -40,7 +40,12 @@ Amber Interview Specific Styles
 }
 
 .fullscreen .info-panel#guy-kawasaki {
-    top: 60%;
+    top: 48%;
+}
+
+
+.fullscreen .info-panel#call-for-help {
+    top:20%;
 }
 
 /*
