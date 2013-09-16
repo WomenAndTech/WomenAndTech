@@ -653,6 +653,45 @@
     margin: 0;
 }
 
+/* Credits */
+.credits-panel {
+    border-top: solid 1px #bbb;
+    padding-top: 20px;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.credits-panel h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.credits {
+    margin: 25px 0;
+}
+
+.credits strong {
+    color: #555;
+}
+
+.credits a {
+    text-transform: uppercase;
+    border-bottom-color: transparent;
+}
+
+.credits a:hover {color: #FF3818;}
+
+.credits-panel .tools a {
+    color: #333;
+    border-bottom-color: transparent;
+}
+
+.credits-panel .tools a:hover {
+    border-bottom-color: #ffaea4;
+}
+
+
 /* End Tag */
 
 #end-tag {

@@ -1,5 +1,5 @@
 <ol class="curtains">
-<li>
+  <li>
     <div class="container interview-intro">
       <header class="row">
         <div class="span9">
@@ -134,8 +134,9 @@
           <p>The hate, I think, comes partly from the irritation everyone feels when something is badly designed or is controlling in ways that you don't want to be controlled.</p>  
         </div>
       </section>
-</li>
-  <li>
+    </div>
+ </li>
+ <li>
     <div class="fullscreen">
       <div class="parallax">
         <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-young-mixing-board.jpg" alt="Nora Young smiling in front of a mixing board at CBC" />
@@ -279,7 +280,7 @@
       </section>
     </div>
   </li>
-<li>
+  <li>
   <div class="fullscreen">
       <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-young-the-virtual-self.jpg" />
       <div class="photo-credit light">
@@ -329,28 +330,28 @@
       </section>
     </div>
   </li>
-<li>
-<div class="fullscreen">
-  <div class="parallax">
-    <div class="container">
-      <div class="info-panel" id="creative-mornings">
-        <aside>
-          <div class="arrow left"></div>
-          <p class="last">
-            Nora Young spoke at <a href="http://creativemorningstoronto.tumblr.com/" target="_blank">CreativeMornings Toronto</a> last November, raising questions about privacy and our responsibility as makers to ensure the wealth of data being created by online participants is used for good.
-          </p>
-        </aside>
+  <li>
+    <div class="fullscreen">
+      <div class="parallax">
+        <div class="container">
+          <div class="info-panel" id="creative-mornings">
+            <aside>
+              <div class="arrow left"></div>
+              <p class="last">
+                Nora Young spoke at <a href="http://creativemorningstoronto.tumblr.com/" target="_blank">CreativeMornings Toronto</a> last November, raising questions about privacy and our responsibility as makers to ensure the wealth of data being created by online participants is used for good.
+              </p>
+            </aside>
+          </div>
+        </div>
+        <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-young-creative-mornings.jpg" />
+        <div class="photo-credit light">
+          Photo credit:
+          <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
+        </div>
       </div>
     </div>
-    <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-young-creative-mornings.jpg" />
-    <div class="photo-credit light">
-      Photo credit:
-      <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
-    </div>
-  </div>
-</div>
 
-  <div class="container">
+    <div class="container">
 
       <section class="row">
 
@@ -450,18 +451,18 @@
           <p>I definitely wasn’t born with it. My interest in technology goes back to graduate school. So, it’s developed in virtue of having done this for a long time, and from being good at seeing where technology is going. I think that it is a talent I have – so I have a strength of confidence in that vision.</p> 
         </div>
       </section>
-  </div>
-</li>
-<li>
-  <div class="fullscreen">
-    <div class="parallax">
-      <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-and-cassie.jpg" alt="Nora Young being interviewed by Cassie McDaniel"/>
-      <div class="photo-credit light">
-        Photo credit:
-        <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
+    </div>
+  </li>
+  <li>
+    <div class="fullscreen">
+      <div class="parallax">
+        <img src="<?php echo get_home_url(); ?>/assets/img/nora-interview/nora-and-cassie.jpg" alt="Nora Young being interviewed by Cassie McDaniel"/>
+        <div class="photo-credit light">
+          Photo credit:
+          <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
+        </div>
       </div>
     </div>
-  </div>
 
     <div class="container">
       <section class="row">
@@ -471,7 +472,7 @@
           <p>On my show it is a challenge every week to find even a remote gender balance with men and women. What I’m most interested in is people who are thinking creatively about technology or designing things that are different technologically. I know there are women out there doing interesting projects, so for me the challenge is in working harder at finding them.</p>
 
           <p>If there were only five interesting technologists, then should two and half of them be women? I think diversity of perspective is a better answer than insisting there must be equal numbers of men and women. I trawl through conference websites all the time, looking for guests, and the number of times I have seen an incredible lack of diversity at conferences is really amazing. Because presumably, those events are not exclusively looking for coders, but for any people who have insight.</p>
-		  <p>The problem isn’t that you can't find enough interesting or qualified people. To talk about quotas or no quotas sort of misses the mark. There are lots of people doing interesting work. Full stop. And we know diversity of perspective is a good thing, not just from a do-gooder point of view, but from a results point of view. So, diversity all around (gender, ethnicity, class, etc.) is a good idea.</p>    
+		      <p>The problem isn’t that you can't find enough interesting or qualified people. To talk about quotas or no quotas sort of misses the mark. There are lots of people doing interesting work. Full stop. And we know diversity of perspective is a good thing, not just from a do-gooder point of view, but from a results point of view. So, diversity all around (gender, ethnicity, class, etc.) is a good idea.</p>    
         </div>
       </section>
 
@@ -553,7 +554,7 @@
         </div>
       </section>
       <div class="row" id='end-tag'>
-        <div class="span4">
+        <div class="span4" >
           <img src="<?php echo get_home_url(); ?>/assets/img/end-tag.png" />
         </div>
       </div>
