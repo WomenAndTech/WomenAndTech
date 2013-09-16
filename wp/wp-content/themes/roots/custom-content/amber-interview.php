@@ -240,7 +240,7 @@
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-on-set.jpg" alt="Amber Mac" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="http://bamcat.com" target="_blank">Brian McKechnie</a>
+        <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>
       </div>
     </div>
   </div>
