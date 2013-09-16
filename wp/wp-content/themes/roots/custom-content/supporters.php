@@ -7,7 +7,7 @@
 		</div>
 	</div>
 
-	<div id="featured-sponsor">
+	<!-- <div id="featured-sponsor">
 		<div class="row">
 			<div class="span12">
 				<h3>This month's featured sponsor</h3>
@@ -24,7 +24,7 @@
 					<p>Avery Swartz, founder of <a href="http://camptech.ca/" target="_blank">Camp Tech,</a> says, “One of my fave parts of running my own biz – getting to choose who I support.” We reciprocate the sentiment! Avery is one of our earliest supporters and challengers (the best), offering critical feedback on our infographic about <a href="infographic-paid-maternity-leave/">maternity leave</a> that made it 100x better and more accurate. </p>
 					<p>We love what the Camp Tech series stands for – fun, accessible opportunities to learn technology skills. The world needs more of that for sure. So check out one of <a href="http://camptech.ca/classes" target="_blank">Camp Tech’s classes</a> and go make something amazing!</p>
 				</div>
-			</div><!-- featured-sponsor -->
+			</div> <!-- featured-sponsor
 		</div>
 	</div><!-- #sponsors -->
 	<div id="friends">
@@ -76,9 +76,9 @@
 				<div id="help_us">
 					<h3>Want to help?</h3>
 
-					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/camera.png"> We need video and microphone equipment.</p>
-					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/volunteer.png"> We need volunteers with design or copyediting skills.</p>
-					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/photographers.png"> We need an occasional photographer.</p>
+					<!-- <p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/camera.png"> We need video and microphone equipment.</p> -->
+					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/volunteer.png">We need volunteers experienced with editing.</p>
+					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/help/photographers.png">We’re looking for local photographers to partner with on future interviews.</p>
 					<span>
 						<p>Don’t hesitate to <a href="mailto:volunteer@womenandtech.com" alt="Contact Women &amp;&amp; Tech" title="Contact Women &amp;&amp; Tech">reach out.</a></p>
 					</span>
@@ -93,7 +93,7 @@
 			<div class="span3">
 				<div id="about_team">
 					<h2>The Team</h2>
-					<p>We each conduct interviews, produce content and shape the direction of W&&T. We still need help with design, photography and copyediting. If you can help, <a href="mailto:contact@womenandtech.com">email us</a>.</p>
+					<p>We founded this project to help make a difference for women working in tech. All of us conduct interviews, produce content and shape the direction of W&&T. If you have ideas about how you can help, <a href="mailto:contact@womenandtech.com">email us</a>.</p>
 				</div>
 			</div>
 			<div class="span9">
@@ -154,15 +154,7 @@
 							<p>Web and mobile dev</p>
 						</a>
 					</div>
-					
-					<div class="member">
 
-						<a href="http://twitter.com/feastinc" target="_blank" alt="Lucia Mariani-Vena" title="Lucia Mariani-Vena">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/lucia.png" alt="Lucia Mariani-Vena" title="Lucia Mariani-Vena" />
-							<h3>Lucia Mariani-Vena</h3>
-							<p>Advisor</p>
-						</a>
-					</div>
 					<div class="member">
 
 						<a href="http://twitter.com/brennaob" target="_blank" alt="Brenna O'Brien" title="Brenna O'Brien" >

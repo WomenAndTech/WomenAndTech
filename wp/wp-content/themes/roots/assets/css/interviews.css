@@ -121,6 +121,11 @@
     padding: 0.4em 0.6em 0.4em 0.65em;
 }
 
+.interview .interview-number.double-digits{
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+}
+
 .interview address {
     font-weight: 100;
     margin-left: 0.143em;
@@ -1055,6 +1060,17 @@
     .interview address .date{
         font-size: 0.9em;
         color: #888;
+    }
+
+    .notable-person {
+        width: 100%;
+        float: none;
+        overflow: hidden;
+        margin: 3em 0 2.571em;
+    }
+
+    .notable-person figure{
+        margin-right:0;
     }
 
     .notable-person h4 {
