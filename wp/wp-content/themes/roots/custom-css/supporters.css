@@ -31,6 +31,11 @@
   float: left;
   text-align: left;
 }
+
+.member:nth-child(6){
+  margin-left:20%;
+}
+
 .member.with_heart {
   width: 100%;
   min-height: auto;
@@ -207,6 +212,12 @@
   }
   #featured_sponsor #box #sponsor_callout {
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 980px){
+  .member:nth-child(6){
+    margin-left:0;
   }
 }
 

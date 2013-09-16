@@ -29,14 +29,26 @@ Amber Interview Specific Styles
 /* CAPTION POSITIONS */
 /* uncomment and modify as needed */
 
-.fullscreen .info-panel#pearl-speaking {
-    top:42%;
+.fullscreen .info-panel#podcasts {
+    top: 45%;
 }
-/*
 
-.fullscreen .info-panel#illustrations {
-    top:25%
+
+.fullscreen .info-panel#appcentral {
+    right: 0;
+    top: 40%;
 }
+
+.fullscreen .info-panel#guy-kawasaki {
+    top: 48%;
+}
+
+
+.fullscreen .info-panel#call-for-help {
+    top:20%;
+}
+
+/*
 
 .fullscreen .info-panel#screenshots {
     top:5%
@@ -93,6 +105,59 @@ Amber Interview Specific Styles
     top:auto;
     bottom:45%;
     right: 0;
+}
+
+.callout-question #profile-image{
+    padding-top:4em;
+    padding-bottom: 1.5em;
+}
+
+@media (max-width: 1200px) {
+    .callout-question #profile-image{
+        padding-bottom: 2em;
+    }
+}
+
+@media (max-width: 980px) {
+    .callout-question #profile-image{
+        padding-top:7em;
+        padding-bottom: 7.5em;
+    }
+}
+
+@media (max-width: 767px) {
+    .callout-question #profile-image{
+        padding-top:3.5em;
+        padding-bottom: 0em;
+    }
+}
+
+@media (max-width: 698px) {
+    .callout-question #profile-image{
+        padding-top:5.5em;
+        padding-bottom: 4.5em;
+    }
+}
+
+@media (max-width: 580px) {
+    .callout-question #profile-image{
+        padding-top:6.5em;
+        padding-bottom: 6.5em;
+    }
+}
+
+@media (max-width: 530px) {
+    .callout-question #profile-image{
+        padding-top:9em;
+        padding-bottom: 14em;
+    }
+}
+
+@media (max-width: 481px) {
+    .callout-question #profile-image{
+        padding-top:3%;
+        padding-bottom: 0em;
+    }
 }
 
 /* Mobile Fluid */
