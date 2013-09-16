@@ -31,7 +31,7 @@
         </a>
       <?php endif; ?>
         <?php if ($post_type == 'interview'): ?>
-          <div class="interview-number">
+          <div class="interview-number interview-number-<?php echo get_field('interview_number')?>">
             <?php echo get_field('interview_number')?>
           </div>
         <?php endif; ?>

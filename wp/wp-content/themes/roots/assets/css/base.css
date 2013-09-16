@@ -646,6 +646,11 @@ footer{
     margin-left:1em;
     padding:0.5em 0.8em 0.5em 0.75em;
   }
+
+  .archive .interview-number.interview-number-10{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
   
   .type-interview .title-block{
     padding-left:3.7em;

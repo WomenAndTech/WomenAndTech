@@ -1,6 +1,15 @@
 /*=============================
-Desssy Interview Specific Styles
+Nora Interview Specific Styles
 =============================*/
+
+
+.no-svg #table-of-contents-animation {
+    /*background:transparent url("../img/christina-interview/img-swiffy-table-of-contents.gif") no-repeat left top;*/
+}
+
+.no-svg #coffee-animation {
+    /*background:transparent url("../img/lucia-interview/img-swiffy-coffee-cup.png") no-repeat left top;*/
+}
 
 /* Article > Header */
 
@@ -9,7 +18,7 @@ Desssy Interview Specific Styles
 }
 
 .interview address .author-image{
-    background: url('http://womenandtech.com/assets/img/lucia-interview/lucia-square.jpg') center center no-repeat;
+    background: url('http://api.twitter.com/1/users/profile_image?screen_name=ivonnekn&size=bigger') center top no-repeat;
     background-size: 110%;
 }
 
@@ -22,12 +31,11 @@ Desssy Interview Specific Styles
 
 /* CAPTION POSITIONS */
 /* uncomment and modify as needed */
-/*
 
-.fullscreen .info-panel#pecha-kucha {
-    top:auto;
-    bottom:50%;
+.fullscreen .info-panel#pearl-speaking {
+    top:42%;
 }
+/*
 
 .fullscreen .info-panel#illustrations {
     top:25%
@@ -51,58 +59,65 @@ Desssy Interview Specific Styles
     margin-bottom: 10px;
 }
 
+.interview section.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.interview section.no-margin-top {
+    margin-top: 0;
+}
+
+
+#norman-white .arrow{
+    top: 10%;
+}
+
+#fitc .arrow{
+    top: 30%;
+}
+
+
+.fullscreen .info-panel.right-anchor {
+    right:0;
+    top:45%;
+}
+.fullscreen .info-panel.right-anchor .arrow {
+    left:-14px;
+    border-width:15px 0 15px 15px;
+}
+.fullscreen .info-panel.right-anchor .arrow:after {
+    border-width:16px 16px 16px 0;
+    border-right-color:#FF3818;
+    border-left-color:transparent;
+}
 
 .notable-person h4 {
-    font-size: 1.071em;
-    line-height: 1.3em;
-    margin: 0 0 0.25em;
-    font-weight: bold;
+  font-size: 1.071em;
+  line-height: 1.3em;
+  margin: 0 0 0.25em;
+  font-weight: bold;
 }
-
-.notable-person#lindsey-goodchild{
-    margin-top: -4.45em;
-}
-
-#ohanian-wozniak .arrow{
-    top: 43%;
-}
-
 .photo-credit.light {
-    background-color:rgba(255,255,255,0.4);
+  background-color:rgba(255,255,255,0.4);
 }
 
-.fullscreen .info-panel#on-stage  {
+.fullscreen .info-panel#creative-mornings {
     top:auto;
-    bottom:50%;
-    right: 0%;
+    bottom:45%;
+    right: 0;
 }
-
-.fullscreen .info-panel#teaching{
-    top:auto;
-    bottom:40%;
-    right: 0%;
-}
-
-.fullscreen .info-panel#girls, .fullscreen .info-panel#hackeryou{
-    top:auto;
-    bottom:20%;
-}
-
-
 
 /* Mobile Fluid */
-@media (min-width:767px) and (max-width:979px) {
-
-    /* Forces the h4 text to the right instead of wrapping around the profile image */
-    .callout-question #profile-image {
-        margin-bottom: 75px;
-    }
-
-}
-
-
 @media (max-width:767px) {
-
+    #start-tag {
+        display:inherit;
+    }
+    #start-tag .fluid-width-swiffy-wrapper {
+        display:none;
+    }
+    .notable-person.photo-callout img {
+        float:left;
+    }
     .curtains.drawn > li .fullscreen{
         margin-top: 10px;
     }
@@ -151,17 +166,10 @@ Desssy Interview Specific Styles
         float: none;
     }
 
-    .notable-person h4 {
-        line-height:1.5em;
-    }
-
-    .notable-person#jeeves img, .photo-callout#jeeves img {
-        width: 100%;
-    }
-}
-
-@media (max-width:700px) {
-    .notable-person#lindsey-goodchild{
-        margin-top: -0.75em;
-    }
+  #bill-buxton {
+    margin-top:0;
+  }
+  .notable-person h4 {
+    line-height:1.5em;
+  }
 }

@@ -72,9 +72,7 @@
 
         <div class="span7 offset4 interview-panel">
 
-          <p>
-            My co-founder came up with the idea for Greengage Mobile while she was a sustainability consultant. She spent time doing market interviews to validate the idea, before deciding to pursue the opportunity full-time in late 2011. I joined her in January 2012, a little over a year ago.
-          </p>
+          <p>My co-founder came up with the idea for Greengage Mobile while she was a sustainability consultant. She spent time doing market interviews to validate the idea, before deciding to pursue the opportunity full-time in late 2011. I joined her in January 2012, a little over a year ago.</p>
         </div>
       </section>
 
