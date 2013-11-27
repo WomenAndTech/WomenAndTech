@@ -58,8 +58,16 @@
         <p>One purpose is to foster a sense of connection and belonging amongst women engineers. As I’m sure you know, we're a minority, and it can feel lonely. We want to make sure that nobody feels too alone, so we have social events.</p>
 
         <p>My personal mission is outreach towards young girls. We’ve had a series of events where we invite a group of middle school or high school girls to come into the office, and say “Hey, this is what a career in technology can be. Look how awesome it is, we get taken care of really well.” We don't talk about the money, although I do tell them that women in technology tend to have a much smaller pay gap. Even in traditional professional fields, like law and accounting, there’s still a large pay gap, but in computer science and engineering it's really small. The gap still exists, which is a bummer, but it's more like ninety-eight cents on the dollar instead of seventy.</p>
+      </div>
 
-        <h2 id="my-personal-mission-is-outreach-towards-young-girls-to-show-them-this-is-what-a-career-in-technology-can-be">My personal mission is outreach towards young girls [to show them] this is what a career in technology can be.</h2>
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2 id="my-personal-mission-is-outreach-towards-young-girls-to-show-them-this-is-what-a-career-in-technology-can-be">My personal mission is outreach towards young girls [to show them] this is what a career in technology can be.</h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+      </div>
+
+      <div class="span7 offset4 interview-panel">
 
         <h3 id="describe-some-of-the-outreach-efforts-of-google-women-engineers">Describe some of the outreach efforts of Google Women Engineers.</h3>
 
@@ -73,18 +81,66 @@
          <p>You're very poor, you make no money and you work so hard all the time. I did the math at one point, and if you actually divide your income by the hours that you work, you make just a small fraction of minimum wage—and that's in Computer Science, which is one of the better-paid graduate programs, because you actually get a stipend. In some Humanities programs, you work just as hard and end up paying, which is horrifying.</p>
          <p>I’ve found the gender ratio in grad school to be more balanced than in the industry. I've always been comfortable with guys, so I don't really have a problem with it and it's not something I notice a whole lot—although right now on my team, I've got three amazing women and it’s really fun! There's a different kind of joking. In grad school, I didn't experience any real difficulties related to being female. I really enjoyed it and hated it at the same time, as everyone does—I mean, I don't think you finish a Ph.D. until you want to kill something. [Laughs]</p>
 
-         <h2 id="i-found-grad-school-to-be-a-very-painful-kind-of-fun-laughs">I found grad school to be a very painful kind of fun. [Laughs]</h2>
+        </div>
+        
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2 id="i-found-grad-school-to-be-a-very-painful-kind-of-fun-laughs">I found grad school to be a very painful kind of fun. [Laughs]</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+
+        <div class="span7 offset4 interview-panel">
+
+         
           
          <h3 id="how-was-your-experience-making-the-transition-to-professional-practice">How was your experience making the transition to professional practice?</h3>
 
          <p>I thought I was going to be a professor, but over the course of my post-doc I realized, this isn't actually the life I want. </p>
          <p>In making the transition to professional practice, I kind of took a leap of faith. I got married as I was finishing my post-doc, and my husband had a fantastic job offer in Chicago that was right in line with his dissertation work. I didn’t really know what I wanted to do at the time, but I knew I had very marketable skills, so I said, “Let's just go! I'll find a job when we get there.” And I did. I applied for a bunch of stuff, and it took a couple months, but I ended up getting a pretty good job, and it worked out.</p>
-          
+      </div>
+    </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <div class="container">
+        <div class="info-panel" id="uofr">
+          <aside>
+            <div class="arrow right"></div>
+            <h3>University of Rochester</h3>
+            <p class="last">
+            </p>
+          </aside>
+        </div>      
+      </div>      
+      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/university-of-rochester.jpg" alt="University of Rochester" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="http://commons.wikimedia.org/wiki/File:URRushRhees.jpg" target="_blank">Wikimedia</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="row">
+      <div class="span7 offset4 interview-panel">
          <h3 id="was-that-first-job-a-practical-role-within-software-engineering">Was that first job a practical role within software engineering?</h3>
 
          <p>Yeah, I worked for a financial risk management software company for a couple years. It was a combination of software and consulting. I was on the software side, obviously, not the financial consulting side! [Laughs]</p>
+      </div>
+      
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2 id="one-skill-to-have-as-a-software-engineer-is-a-desire-to-solve-problems-do-you-like-to-take-things-apart-and-put-them-together-i-like-to-knit-which-is-a-form-of-problem-solving">One [skill to have as a software engineer] is a desire to solve problems. Do you like to take things apart and put them together? I like to knit, which is a form of problem-solving.</h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+      </div>
 
-         <h2 id="one-skill-to-have-as-a-software-engineer-is-a-desire-to-solve-problems-do-you-like-to-take-things-apart-and-put-them-together-i-like-to-knit-which-is-a-form-of-problem-solving">One [skill to have as a software engineer] is a desire to solve problems. Do you like to take things apart and put them together? I like to knit, which is a form of problem-solving.</h2>
+      <div class="span7 offset4 interview-panel">
+
+         
           
         <h3 id="aside-from-the-obvious-technical-skills-are-there-any-other-skills-that-are-important-to-have-if-youre-interested-in-becoming-a-software-engineer">Aside from the obvious technical skills, are there any other skills that are important to have if you’re interested in becoming a software engineer?</h3>
 
@@ -99,7 +155,18 @@
 
         <p>On the other hand, for women that are in the industry now, we have to deal with the system as it is today. I'm always very pragmatic. I’m not saying it’s anyone’s fault, but there's a certain amount of the world that we just have to deal with. You can choose to take things personally, take offense at things and be hurt, or you can take a step back and say, “Okay, that sucked. What can I do to do better next time? Was this just a one-off?”</p>
 
-        <h2 id="there-are-millions-of-people-who-use-my-code-every-day-how-cool-is-that">There are millions of people who use my code every day! How cool is that!?</h2>
+      </div>
+      
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2 id="there-are-millions-of-people-who-use-my-code-every-day-how-cool-is-that">There are millions of people who use my code every day! How cool is that!?</h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+      </div>
+
+      <div class="span7 offset4 interview-panel">
+
+        
 
         <h3 id="how-long-have-you-been-at-google">How long have you been at Google?</h3>
         <p>Two years now.</p>
@@ -108,13 +175,47 @@
         <p>Throughout my career, the people I work with have been the most important thing to me. I can work on something I don't really care about, and the people I work with will make it worth going to work every day. On the other hand, I could be working on something that's super cool, but if I'm working with a bunch of jerks, it doesn't matter! (Laughs) The people I'm working with right now are awesome.</p>
 
         <p>But also, I'm working on <a href="https://mail.google.com/intl/en/mail/help/about.html">Gmail</a>! There are millions of people who use my code every day! How cool is that!? I’m making something that people actually use, and it's amazing. After working on something that only a hundred banks use, this is way better. [Laughs]</p>
+      </div>
+    </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <div class="container">
+        <div class="info-panel" id="knitting">
+          <aside>
+            <div class="arrow right"></div>
+            <h3>Knitter Extraordinaire</h3>
+            <p class="last">Melissa attributes knitting as helping her develop the problem solving skills needed as an engineer.
+            </p>
+          </aside>
+        </div>      
+      </div>      
+      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/knitting2.jpg" alt="Knitted Sock" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="https://plus.google.com/114152066748412767096/posts" target="_blank">Melissa Dominguez</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="row">
+      <div class="span7 offset4 interview-panel">
 
         <h3 id="do-you-have-any-passionate-interests-outside-of-technology">Do you have any passionate interests outside of technology?</h3>
 
         <p>I'm a mother, I have two small girls, a two year-old and a four year-old, so obviously they're pretty awesome. They're sweet and beautiful and loving and smart.</p>
         <p>And I'm also a knitter, I’ve actually published a few knitting designs. One came out in <a href="http://www.creativeknittingmagazine.com">Creative Knitting Magazine</a> last fall, which was really exciting!</p>
 
-        <h2 id="make-sure-that-when-we-talk-to-young-girls-we-dont-focus-on-their-appearance-next-time-you-meet-a-girl-between-the-ages-of-two-and-eighteen-as-her-instead-about-her-interests">Make sure that when we talk to young girls, we don’t focus on their appearance [...] Next time you meet a girl between the ages of two and eighteen, as her instead about her interests</h2>
+      </div>
+      
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2 id="make-sure-that-when-we-talk-to-young-girls-we-dont-focus-on-their-appearance-next-time-you-meet-a-girl-between-the-ages-of-two-and-eighteen-as-her-instead-about-her-interests">Make sure that when we talk to young girls, we don’t focus on their appearance [...] Next time you meet a girl between the ages of two and eighteen, as her instead about her interests</h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
     </section>
 
