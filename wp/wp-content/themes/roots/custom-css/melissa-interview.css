@@ -85,7 +85,7 @@ Melissa Interview Specific Styles
     right: 0;
 }
 
-.callout-question #profile-image{
+/*.callout-question #profile-image{
     padding-top:4em;
     padding-bottom: 1.5em;
 }
@@ -136,7 +136,7 @@ Melissa Interview Specific Styles
         padding-top:3%;
         padding-bottom: 0em;
     }
-}
+}*/
 
 /* Mobile Fluid */
 @media (max-width:767px) {
