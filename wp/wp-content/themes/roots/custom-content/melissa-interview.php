@@ -52,7 +52,19 @@
       </div>
     </section>
     <section class="row">
-      <div class="span7 offset4 interview-panel">
+      <div class="span4">
+        <div class="photo-callout notable-person">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/google-women-logo.png" alt="Women@Google Logo"/>
+            <figcaption class="clear">
+              <p>Google Women in Engineering and Women@Google are two of the most active employee groups at Google and provides courses, mentorships and summits to support career growth and development for women.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="span7 interview-panel">
         <h3 id="whats-the-purpose-and-function-of-google-women-engineers">What’s the purpose and function of Google Women Engineers?</h3>
 
         <p>One purpose is to foster a sense of connection and belonging amongst women engineers. As I’m sure you know, we're a minority, and it can feel lonely. We want to make sure that nobody feels too alone, so we have social events.</p>
@@ -67,7 +79,19 @@
         <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
 
-      <div class="span7 offset4 interview-panel">
+      <div class="span4">
+        <div class="photo-callout notable-person" id="pathways-kitchener">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <figcaption class="clear">
+              <p>The Pathways program in Kitchener have helped under-represented and at-risk youth stay in and succeed in school since it began in September 2007.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+      </div>
+
+      <div class="span7 interview-panel">
 
         <h3 id="describe-some-of-the-outreach-efforts-of-google-women-engineers">Describe some of the outreach efforts of Google Women Engineers.</h3>
 
@@ -109,8 +133,8 @@
         <div class="info-panel" id="uofr">
           <aside>
             <div class="arrow right"></div>
-            <h3>University of Rochester</h3>
-            <p class="last">
+            <h3>Doctorate in Computer Science</h3>
+            <p class="last">Melissa graduated with a PhD in Computer Science from the University of Rochester.
             </p>
           </aside>
         </div>      
@@ -202,7 +226,19 @@
 
   <div class="container">
     <section class="row">
-      <div class="span7 offset4 interview-panel">
+      <div class="span4">
+        <div class="photo-callout notable-person" id='creative-knitting'>
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/creativeknitting.jpg" alt="Creative Knitting Magazine Cover"/>
+            <figcaption class="clear">
+              <p>Creative Knitting magazine was the first all-knitting magazine and continues to be one of the most popular print-and-digital knitting magazines on the market.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
+        </div>
+      </div>
+      <div class="span7 interview-panel">
 
         <h3 id="do-you-have-any-passionate-interests-outside-of-technology">Do you have any passionate interests outside of technology?</h3>
 

@@ -79,10 +79,20 @@ Melissa Interview Specific Styles
   background-color:rgba(255,255,255,0.4);
 }
 
-.fullscreen .info-panel#creative-mornings {
-    top:auto;
-    bottom:45%;
-    right: 0;
+.notable-person#pathways-kitchener{
+    margin-top: 4em;
+}
+
+/* #creative-knitting */
+.photo-callout#creative-knitting img{
+    float: left;
+    width: 32%;
+    padding-right: 7%;
+}
+
+.photo-callout#creative-knitting figcaption{
+    padding-top: 0;
+    display: inline;
 }
 
 /*.callout-question #profile-image{
