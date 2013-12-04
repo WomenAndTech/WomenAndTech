@@ -25,6 +25,11 @@ Melissa Interview Specific Styles
     min-width: 748px;
 }
 
+.interview .interview-number.double-digits{
+    padding-right: 0.55em;
+    padding-left: 0.45em;
+}
+
 
 /* CAPTION POSITIONS */
 /* uncomment and modify as needed */
