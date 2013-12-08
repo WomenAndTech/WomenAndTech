@@ -99,29 +99,6 @@
 
         <p>And then I’ll have a panel with five or six engineers. If it's an all-girls event, I try to have all-women or almost-all-women on the panel saying “This is us, we exist! Ask us any questions.” The goal is to foster open give-and-take of ideas and share their paths to getting here. We have a lot of people who have backgrounds in math, physics, or electrical engineering, and we want to make young people aware that there are multiple paths you can take, but you do have to work hard to get here.</p>
 
-        <h3 id="you-have-a-phd-in-computer-science-tell-me-about-your-experience-as-a-woman-in-those-programs-in-the-graduate-and-post-graduate-environment">You have a Ph.D. in Computer Science. Tell me about your experience as a woman in those programs, in the graduate and post-graduate environment.</h3>
-
-         <p>I found grad school to be a very painful kind of fun. [Laughs]</p>
-         <p>You're very poor, you make no money and you work so hard all the time. I did the math at one point, and if you actually divide your income by the hours that you work, you make just a small fraction of minimum wage—and that's in Computer Science, which is one of the better-paid graduate programs, because you actually get a stipend. In some Humanities programs, you work just as hard and end up paying, which is horrifying.</p>
-         <p>I’ve found the gender ratio in grad school to be more balanced than in the industry. I've always been comfortable with guys, so I don't really have a problem with it and it's not something I notice a whole lot—although right now on my team, I've got three amazing women and it’s really fun! There's a different kind of joking. In grad school, I didn't experience any real difficulties related to being female. I really enjoyed it and hated it at the same time, as everyone does—I mean, I don't think you finish a Ph.D. until you want to kill something. [Laughs]</p>
-
-        </div>
-        
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2 id="i-found-grad-school-to-be-a-very-painful-kind-of-fun-laughs">I found grad school to be a very painful kind of fun. [Laughs]</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
-
-        <div class="span7 offset4 interview-panel">
-
-         
-          
-         <h3 id="how-was-your-experience-making-the-transition-to-professional-practice">How was your experience making the transition to professional practice?</h3>
-
-         <p>I thought I was going to be a professor, but over the course of my post-doc I realized, this isn't actually the life I want. </p>
-         <p>In making the transition to professional practice, I kind of took a leap of faith. I got married as I was finishing my post-doc, and my husband had a fantastic job offer in Chicago that was right in line with his dissertation work. I didn’t really know what I wanted to do at the time, but I knew I had very marketable skills, so I said, “Let's just go! I'll find a job when we get there.” And I did. I applied for a bunch of stuff, and it took a couple months, but I ended up getting a pretty good job, and it worked out.</p>
       </div>
     </section>
   </div>
@@ -150,10 +127,63 @@
   <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
-         <h3 id="was-that-first-job-a-practical-role-within-software-engineering">Was that first job a practical role within software engineering?</h3>
+        <h3 id="you-have-a-phd-in-computer-science-tell-me-about-your-experience-as-a-woman-in-those-programs-in-the-graduate-and-post-graduate-environment">You have a Ph.D. in Computer Science. Tell me about your experience as a woman in those programs, in the graduate and post-graduate environment.</h3>
 
-         <p>Yeah, I worked for a financial risk management software company for a couple years. It was a combination of software and consulting. I was on the software side, obviously, not the financial consulting side! [Laughs]</p>
+         <p>I found grad school to be a very painful kind of fun. [Laughs]</p>
+         <p>You're very poor, you make no money and you work so hard all the time. I did the math at one point, and if you actually divide your income by the hours that you work, you make just a small fraction of minimum wage—and that's in Computer Science, which is one of the better-paid graduate programs, because you actually get a stipend. In some Humanities programs, you work just as hard and end up paying, which is horrifying.</p>
+         <p>I’ve found the gender ratio in grad school to be more balanced than in the industry. I've always been comfortable with guys, so I don't really have a problem with it and it's not something I notice a whole lot—although right now on my team, I've got three amazing women and it’s really fun! There's a different kind of joking. In grad school, I didn't experience any real difficulties related to being female. I really enjoyed it and hated it at the same time, as everyone does—I mean, I don't think you finish a Ph.D. until you want to kill something. [Laughs]</p>
+
+        </div>
+        
+        <div class="span11 pull-quote">
+          <aside class="quote">
+            <h2 id="i-found-grad-school-to-be-a-very-painful-kind-of-fun-laughs">I found grad school to be a very painful kind of fun. [Laughs]</h2>
+          </aside>
+          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+        </div>
+
+        <div class="span7 offset4 interview-panel">
+          
+         <h3 id="how-was-your-experience-making-the-transition-to-professional-practice">How was your experience making the transition to professional practice?</h3>
+
+         <p>I thought I was going to be a professor, but over the course of my post-doc I realized, this isn't actually the life I want. </p>
+         <p>In making the transition to professional practice, I kind of took a leap of faith. I got married as I was finishing my post-doc, and my husband had a fantastic job offer in Chicago that was right in line with his dissertation work. I didn’t really know what I wanted to do at the time, but I knew I had very marketable skills, so I said, “Let's just go! I'll find a job when we get there.” And I did. I applied for a bunch of stuff, and it took a couple months, but I ended up getting a pretty good job, and it worked out.</p>
+
+
       </div>
+    </section>
+   
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <div class="container">
+        <div class="info-panel" id="gmail">
+          <aside>
+            <div class="arrow right"></div>
+            <h3>You’ve got mail</h3>
+            <p class="last">Gmail iOS easily allows users to navigate their inbox from their phone - all thanks to Melissa and her team’s code. As the tech lead she’s able to execute big ideas, and then watch as millions of people use them every day to stay connected.</p>
+          </aside>
+        </div>      
+      </div>      
+      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/gmail_collage.jpg" alt="Collage of Gmail mobile app screeshots" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="https://plus.google.com/114152066748412767096/posts" target="_blank">Melissa Dominguez</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="row">
+      <div class="span7 offset4 interview-panel">
+        <h3 id="was-that-first-job-a-practical-role-within-software-engineering">Was that first job a practical role within software engineering?</h3>
+
+        <p>Yeah, I worked for a financial risk management software company for a couple years. It was a combination of software and consulting. I was on the software side, obviously, not the financial consulting side! [Laughs]</p>
+    </section>
+    
+    <section class="row">
       
       <div class="span11 pull-quote">
         <aside class="quote">
@@ -174,30 +204,7 @@
         <p>There's been a conversation going on around here, about how do we hire more women? Google gets so many resumes that there are false negatives, which means we say no to people who are totally qualified. People who are more easily discouraged by that rejection are going to be less likely to try again in a year or two. There are a few different things to consider when re-applying, one is you might have been a false negative in the first place, and another is, you might have actually gotten better since you first applied. Maybe you weren't quite above the bar last year, but maybe since then you’ve done an amazing project and learned so much, and now you can do it.</p>
       </div>
     </section>
-  </div>
-</li>
-<li>
-  <div class="fullscreen">
-    <div class="parallax">
-      <div class="container">
-        <div class="info-panel" id="knitting">
-          <aside>
-            <div class="arrow right"></div>
-            <h3>Knitter Extraordinaire</h3>
-            <p class="last">Melissa attributes knitting as helping her develop the problem solving skills needed as an engineer.
-            </p>
-          </aside>
-        </div>      
-      </div>      
-      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/knitting2.jpg" alt="Knitted Sock" />
-      <div class="photo-credit light">
-        Photo credit:
-        <a href="https://plus.google.com/114152066748412767096/posts" target="_blank">Melissa Dominguez</a>
-      </div>
-    </div>
-  </div>
 
-  <div class="container">
     <section class="row">
       <div class="span7 offset4 interview-panel">
         <h3 id="when-it-comes-to-bridging-the-gender-ratio-difference-between-education-and-professional-practice-youre-putting-a-bit-of-the-onus-on-women-themselves-its-not-just-about-companies-making-sure-they-hire-women-its-also-about-women-making-sure-that-they-get-themselves-hired-we-have-to-keep-trying-and-not-give-up">When it comes to bridging the gender-ratio difference between education and professional practice, you're putting a bit of the onus on women themselves. It’s not just about companies making sure they hire women, it's also about women making sure that they get themselves hired, we have to keep trying and not give up.</h3>
@@ -234,15 +241,16 @@
   <div class="fullscreen">
     <div class="parallax">
       <div class="container">
-        <div class="info-panel" id="gmail">
+        <div class="info-panel" id="knitting">
           <aside>
             <div class="arrow right"></div>
-            <h3>You’ve got mail</h3>
-            <p class="last">Gmail iOS easily allows users to navigate their inbox from their phone - all thanks to Melissa and her team’s code. As the tech lead she’s able to execute big ideas, and then watch as millions of people use them every day to stay connected.</p>
+            <h3>Knitter Extraordinaire</h3>
+            <p class="last">Melissa attributes knitting as helping her develop the problem solving skills needed as an engineer.
+            </p>
           </aside>
         </div>      
       </div>      
-      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/gmail_collage.jpg" alt="Collage of Gmail mobile app screeshots" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/knitting2.jpg" alt="Knitted Sock" />
       <div class="photo-credit light">
         Photo credit:
         <a href="https://plus.google.com/114152066748412767096/posts" target="_blank">Melissa Dominguez</a>
