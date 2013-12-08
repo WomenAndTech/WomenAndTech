@@ -133,8 +133,8 @@
         <div class="info-panel" id="uofr">
           <aside>
             <div class="arrow right"></div>
-            <h3>Doctorate in Computer Science</h3>
-            <p class="last">Melissa graduated with a PhD in Computer Science from the University of Rochester.
+            <h3>A Painful Kind of Fun</h3>
+            <p class="last">Melissa graduated with a PhD in Computer Science from the University of Rochester. In her work with middle and high school students, she’s taught young people that many areas of study (including physics and math) lend themselves to a career in technology.
             </p>
           </aside>
         </div>      
@@ -172,7 +172,34 @@
 
         <p>And the other, which I think women in particular are socialized against, is being willing to handle rejection without taking it personally. I’ve found this from my own experience, and I've heard it from other women as well: If I applied to Google and got rejected, what are the chances I would apply again?</p>
         <p>There's been a conversation going on around here, about how do we hire more women? Google gets so many resumes that there are false negatives, which means we say no to people who are totally qualified. People who are more easily discouraged by that rejection are going to be less likely to try again in a year or two. There are a few different things to consider when re-applying, one is you might have been a false negative in the first place, and another is, you might have actually gotten better since you first applied. Maybe you weren't quite above the bar last year, but maybe since then you’ve done an amazing project and learned so much, and now you can do it.</p>
-          
+      </div>
+    </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <div class="container">
+        <div class="info-panel" id="knitting">
+          <aside>
+            <div class="arrow right"></div>
+            <h3>Knitter Extraordinaire</h3>
+            <p class="last">Melissa attributes knitting as helping her develop the problem solving skills needed as an engineer.
+            </p>
+          </aside>
+        </div>      
+      </div>      
+      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/knitting2.jpg" alt="Knitted Sock" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="https://plus.google.com/114152066748412767096/posts" target="_blank">Melissa Dominguez</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="row">
+      <div class="span7 offset4 interview-panel">
         <h3 id="when-it-comes-to-bridging-the-gender-ratio-difference-between-education-and-professional-practice-youre-putting-a-bit-of-the-onus-on-women-themselves-its-not-just-about-companies-making-sure-they-hire-women-its-also-about-women-making-sure-that-they-get-themselves-hired-we-have-to-keep-trying-and-not-give-up">When it comes to bridging the gender-ratio difference between education and professional practice, you're putting a bit of the onus on women themselves. It’s not just about companies making sure they hire women, it's also about women making sure that they get themselves hired, we have to keep trying and not give up.</h3>
 
         <p>I do think it's important that, as an industry, we make the effort to be more inclusive and to recognize discrimination when it happens.</p>
@@ -207,16 +234,15 @@
   <div class="fullscreen">
     <div class="parallax">
       <div class="container">
-        <div class="info-panel" id="knitting">
+        <div class="info-panel" id="gmail">
           <aside>
             <div class="arrow right"></div>
-            <h3>Knitter Extraordinaire</h3>
-            <p class="last">Melissa attributes knitting as helping her develop the problem solving skills needed as an engineer.
-            </p>
+            <h3>You’ve got mail</h3>
+            <p class="last">Gmail iOS easily allows users to navigate their inbox from their phone - all thanks to Melissa and her team’s code. As the tech lead she’s able to execute big ideas, and then watch as millions of people use them every day to stay connected.</p>
           </aside>
         </div>      
       </div>      
-      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/knitting2.jpg" alt="Knitted Sock" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/gmail_collage.jpg" alt="Collage of Gmail mobile app screeshots" />
       <div class="photo-credit light">
         Photo credit:
         <a href="https://plus.google.com/114152066748412767096/posts" target="_blank">Melissa Dominguez</a>
