@@ -335,28 +335,25 @@
             </p>
             <p>
               <strong>Photography</strong><em> by</em>
-              <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>
+              <a href="http://kidwithcamera.com/" target="_blank">David Waldman</a>
             </p>
             <p>
               <strong>Editing</strong><em> by</em>
-              <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>,
-              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaniel</a>,<em> and</em>
+              <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a> <em> and</em>
               <a href="http://ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a>
             </p>
             <p>
               <strong>Art Direction</strong><em> by</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a>
+              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>
             </p>
             <p>
               <strong>Design</strong><em> by</em>
               <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a><em> and</em> 
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a>
+              <a href="http://ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a>
             </p>
             <p>
               <strong>Development</strong><em> by</em>
-              <a href="http://brennaobrien.com" target="_blank">Brenna O'Brien</a>,
-              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a>, <em> and</em>
-              <a href="http://twitter.com/raykao" target="_blank">Ray Kao</a>
+              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a>
             </p>
             <p>
               <strong>Transcriptions</strong><em> by</em>
