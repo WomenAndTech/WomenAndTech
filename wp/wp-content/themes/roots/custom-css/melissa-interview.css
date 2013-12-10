@@ -39,6 +39,21 @@ Melissa Interview Specific Styles
     top: 40%;
 }
 
+.fullscreen#gmail{
+}
+
+.fullscreen#gmail .info-panel {
+    top: auto;
+    bottom: 50%;
+    right: 0%;
+    z-index: 2;
+}
+
+.fullscreen#gmail aside {
+    box-shadow: 0px 0px 100px rgba(0,0,0,0.3);
+}
+
+
 
 
 /* Article > Start Tag */

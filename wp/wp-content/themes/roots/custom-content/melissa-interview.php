@@ -56,7 +56,7 @@
         <div class="photo-callout notable-person">
           <figure class="first-row">
             <div class="arrow"></div>
-            <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/google-women-logo.png" alt="Women@Google Logo"/>
+            <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/google-women-logo.jpg" alt="Women@Google Logo"/>
             <figcaption class="clear">
               <p>Google Women in Engineering and Women@Google are two of the most active employee groups at Google and provides courses, mentorships and summits to support career growth and development for women.</p>
             </figcaption>
@@ -156,21 +156,21 @@
   </div>
 </li>
 <li>
-  <div class="fullscreen">
+  <div class="fullscreen" id="gmail">
     <div class="parallax">
       <div class="container">
-        <div class="info-panel" id="gmail">
+        <div class="info-panel">
           <aside>
-            <div class="arrow right"></div>
+            <div class="arrow left"></div>
             <h3>You’ve got mail</h3>
             <p class="last">Gmail iOS easily allows users to navigate their inbox from their phone - all thanks to Melissa and her team’s code. As the tech lead she’s able to execute big ideas, and then watch as millions of people use them every day to stay connected.</p>
           </aside>
         </div>      
       </div>      
-      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/gmail_collage.jpg" alt="Collage of Gmail mobile app screeshots" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/gmail_collage.jpg" alt="Collage of Gmail mobile app screeshots" class="fullscreen-image"/>
       <div class="photo-credit light">
         Photo credit:
-        <a href="https://plus.google.com/114152066748412767096/posts" target="_blank">Melissa Dominguez</a>
+        <a href="http://gmailblog.blogspot.ca/2013/11/a-new-look-for-gmail-app-on-ipad.html" target="_blank">Gmail blog</a>
       </div>
     </div>
   </div>
@@ -245,8 +245,7 @@
           <aside>
             <div class="arrow right"></div>
             <h3>Knitter Extraordinaire</h3>
-            <p class="last">Melissa attributes knitting as helping her develop the problem solving skills needed as an engineer.
-            </p>
+            <p class="last">An avid knitter, Melissa says her favourite hobby has helped her to develop the problem solving skills needed as an engineer.</p>
           </aside>
         </div>      
       </div>      
@@ -339,8 +338,9 @@
             </p>
             <p>
               <strong>Editing</strong><em> by</em>
-              <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a> <em> and</em>
-              <a href="http://ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a>
+              <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>,
+              <a href="http://ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a> <em>and</em>
+              <a href="https://twitter.com/tkmars" target="_blank">Taylor Marsden</a>
             </p>
             <p>
               <strong>Art Direction</strong><em> by</em>
