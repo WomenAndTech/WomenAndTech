@@ -290,7 +290,7 @@
 
     <section class="row">
       <div class="span7 offset4 interview-panel">
-        <h3 id="in-our-last-interview-amber-macarthur-asked-how-can-we-encourage-a-younger-generation-of-women-to-care-more-about-brains-than-beauty-when-theyre-bombarded-with-images-such-as-miley-cyrus-twerking">In our last interview, <a href="http://womenandtech.com/interview/amber-macarthur/">Amber Macarthur</a> asked: How can we encourage a younger generation of women to care more about brains than beauty when they’re bombarded with images such as Miley Cyrus twerking?</h3>
+        <h3 id="in-our-last-interview-amber-macarthur-asked-how-can-we-encourage-a-younger-generation-of-women-to-care-more-about-brains-than-beauty-when-theyre-bombarded-with-images-such-as-miley-cyrus-twerking">In our last interview, <a href="http://womenandtech.com/interview/amber-macarthur/">Amber MacArthur</a> asked: How can we encourage a younger generation of women to care more about brains than beauty when they’re bombarded with images such as Miley Cyrus twerking?</h3>
 
         <p>On an individual level, one of the most important things we can do is to make sure that when we talk to young girls, we don't focus on their appearance as the topic of conversation. Every time we meet a little girl and say, "Oh, aren't you the cutest! What a pretty dress!" we’re reinforcing the idea that her appearance is the most important thing about her.</p>
 
