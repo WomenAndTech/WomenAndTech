@@ -282,7 +282,7 @@
       
       <div class="span11 pull-quote">
         <aside class="quote">
-          <h2 id="make-sure-that-when-we-talk-to-young-girls-we-dont-focus-on-their-appearance-next-time-you-meet-a-girl-between-the-ages-of-two-and-eighteen-as-her-instead-about-her-interests">Make sure that when we talk to young girls, we don’t focus on their appearance [...] Next time you meet a girl between the ages of two and eighteen, as her instead about her interests</h2>
+          <h2 id="make-sure-that-when-we-talk-to-young-girls-we-dont-focus-on-their-appearance-next-time-you-meet-a-girl-between-the-ages-of-two-and-eighteen-as-her-instead-about-her-interests">Make sure that when we talk to young girls, we don’t focus on their appearance [...] Next time you meet a girl between the ages of two and eighteen, ask her instead about her interests</h2>
         </aside>
         <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
