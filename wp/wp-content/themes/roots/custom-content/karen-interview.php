@@ -4,7 +4,7 @@
     <header class="row">
       <div class="span9">
         <div class="interview-number double-digits interview-number-<?php echo get_field('interview_number') ?>"><?php echo get_field('interview_number')?></div>
-        <h1 class="clearfix" id="twitter-handle" data-twitter-handle="">
+        <h1 class="clearfix" id="twitter-handle" data-twitter-handle="karensd">
           <?php the_title() ?></h1>
         <address>
           <div class="author-image"></div>
@@ -29,7 +29,7 @@
     </section>
   </div><!-- interview-intro -->
   <div id="portrait" class="fullscreen">
-    <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/melissa-intro.jpg" alt="Melissa Dominguez Profile"/>
+    <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/karen-schulmandupuis-portrait.jpg" alt="Karen Schulman Dupuis Profile"/>
     <div class="photo-credit">
       Photo credit:
       <a href="http://kidwithcamera.com/" target="_blank">David Waldman</a>
@@ -42,13 +42,16 @@
         <div id="start-animation" style="width: 300px; height: 90px" class="swiffy"></div>
       </div>
       <div class="span7 interview-panel">
-       <h3 id="so-you-are-the-tech-lead-on-gmail-for-ios-here-at-google-and-you-are-a-software-engineer-">So, you are the tech lead on Gmail for iOS here at Google, and you are a software engineer --</h3>
+       <h3 id="tell-me-about-your-role-at-mars">Tell me about your role at MaRS.</h3>
       </div>
 
     </section>
     <section class="row no-margin-top">
       <div class="span7 offset4 interview-panel">
-        <p>Yes, and I’m also the leader of Google Women Engineers in Waterloo.</p>
+        <p>I’m Manager of Business Development for the ICE practice – Information Technology, Communications, Entertainment – at <a href="http://www.marsdd.com/">MaRS Discovery District</a> [a Toronto hub dedicated to supporting entrepreneurs]. My role is about building connections. I make sure MaRS is present at community events and help connect with talent, looking for high-potential, high-growth startups that are beyond the idea stage that are kind of “forming and storming” is what I call it; they’re beyond initial development–they’re accelerating and evolving.</p>
+
+        <p>Obviously anybody who’s doing great stuff we want to be able to work with and talk to. We help introduce companies that are beyond minimum viable products to the investor community. That’s what we’re here to do.</p>
+
       </div>
     </section>
     <section class="row">
@@ -56,25 +59,24 @@
         <div class="photo-callout notable-person">
           <figure class="first-row">
             <div class="arrow"></div>
-            <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/google-women-logo.jpg" alt="Women@Google Logo"/>
+            <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/callout-symphony.jpg" alt="Symphony screenshot"/>
             <figcaption class="clear">
-              <p>Google Women in Engineering and Women@Google are two of the most active employee groups at Google and provides courses, mentorships and summits to support career growth and development for women.</p>
+              <p>Looking back at the DOS-based computer systems of the 80s, Symphony was a precursor to today's Microsoft Office and Google Docs.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
         </div>
       </div>
       <div class="span7 interview-panel">
-        <h3 id="whats-the-purpose-and-function-of-google-women-engineers">What’s the purpose and function of Google Women Engineers?</h3>
-
-        <p>One purpose is to foster a sense of connection and belonging amongst women engineers. As I’m sure you know, we're a minority, and it can feel lonely. We want to make sure that nobody feels too alone, so we have social events.</p>
-
-        <p>My personal mission is outreach towards young girls. We’ve had a series of events where we invite a group of middle school or high school girls to come into the office, and say “Hey, this is what a career in technology can be. Look how awesome it is, we get taken care of really well.” We don't talk about the money, although I do tell them that women in technology tend to have a much smaller pay gap. Even in traditional professional fields, like law and accounting, there’s still a large pay gap, but in computer science and engineering it's really small. The gap still exists, which is a bummer, but it's more like ninety-eight cents on the dollar instead of seventy.</p>
+        <h3>Is your background more technical- or communications-based?</h3>
+        <p>A blend of both actually.</p>
+        <p>I always found opportunities to engage with technology wherever I could. I was self taught in voice, data and internet technology, which eventually led me to teaching those subjects at the enterprise level. I was also programming with my gifted classes in grade five, before I even knew that I could actually study computer science as an option. My mom was one of the first women I ever knew who was learning DOS and <a href="http://www.techrepublic.com/pictures/dinosaur-sightings-lotus-symphony-30/1/">Symphony</a>. So I guess I got a little bit of that taste from her. I've also always been able to take very dense, seemingly boring electronics and data technology and communicate it so that people could understand its importance.
+        People think learning is black and white, that there's one way to write a line of code, for example, and that's the way you do it. There is a way to do it, but there are a whole bunch of creative methods. There is a lot of grey in the world. I love living in the grey, and explaining things through that grey filter.</p>
       </div>
 
       <div class="span11 pull-quote">
         <aside class="quote">
-          <h2 id="my-personal-mission-is-outreach-towards-young-girls-to-show-them-this-is-what-a-career-in-technology-can-be">My personal mission is outreach towards young girls [to show them] this is what a career in technology can be.</h2>
+          <h2>I think that for me, literacy is about understanding how technology has impacted the human experience throughout history.</h2>
         </aside>
         <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
@@ -84,7 +86,8 @@
           <figure class="first-row">
             <div class="arrow"></div>
             <figcaption class="clear">
-              <p>The Pathways program in Kitchener have helped under-represented and at-risk youth stay in and succeed in school since it began in September 2007.</p>
+              <h3>Curator of Dialogue</h3>
+              <p>Always curious and a lover of dialogue, Karen writes about her thoughts and experiences as a professional woman and entrepreneurship on her <a href="http://curatorofdialogue.wordpress.com/">blog</a></p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
@@ -93,11 +96,9 @@
 
       <div class="span7 interview-panel">
 
-        <h3 id="describe-some-of-the-outreach-efforts-of-google-women-engineers">Describe some of the outreach efforts of Google Women Engineers.</h3>
-
-        <p>Typically I will partner with a particular school or an organization like <a href="https://www.girlguides.ca">Girl Guides</a> or <a href="http://www.pathwaystoeducation.ca/en/kitchener">Mosaic Pathways to Education</a>, who help, not just girls, but also other under-represented groups and at-risk youth. We’ll have a group of about thirty girls. I take them on a tour of the office and we do an engineering-related activity, like a game, and then I’ll explain how what we did was related to computer science and engineering: “What you just did was basically discrete finite automata.” Something like that.</p>
-
-        <p>And then I’ll have a panel with five or six engineers. If it's an all-girls event, I try to have all-women or almost-all-women on the panel saying “This is us, we exist! Ask us any questions.” The goal is to foster open give-and-take of ideas and share their paths to getting here. We have a lot of people who have backgrounds in math, physics, or electrical engineering, and we want to make young people aware that there are multiple paths you can take, but you do have to work hard to get here.</p>
+       <h3>I&#39;m interested in your definition of technological literacy.</h3>
+       <p>For me it&#39;s a Renaissance term. I&#39;m a lifetime learner. I love anthropology, I love poetry, I love art, I love how these things all connect. As a kid I loved Da Vinci, and it was not just the Mona Lisa–it was looking at his drawings, his creations and his inventions and thinking, “How could you think that way?”</p>
+       <p>I think coding is a good skill to have, I think we should be teaching it early, in elementary and middle school. Absolutely we should be building that kind of functional literacy. But I don&#39;t think for a second that you can separate technology from its impact on society. You can’t separate it from art. I think that for me, literacy is about understanding how technology has impacted the human experience throughout history.</p>
 
       </div>
     </section>
@@ -107,52 +108,67 @@
   <div class="fullscreen">
     <div class="parallax">
       <div class="container">
-        <div class="info-panel" id="uofr">
+        <div class="info-panel" id="discussion">
           <aside>
             <div class="arrow right"></div>
-            <h3>A Painful Kind of Fun</h3>
-            <p class="last">Melissa graduated with a PhD in Computer Science from the University of Rochester. In her work with middle and high school students, she’s taught young people that many areas of study (including physics and math) lend themselves to a career in technology.
+            <h3>Panel Discussions</h3>
+            <p class="last">At meshmarketing 2013 last November, Karen shared her thoughts on social media and the latest marketing trends.
             </p>
           </aside>
         </div>      
       </div>      
-      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/university-of-rochester.jpg" alt="University of Rochester" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/karen-schulmandupuis-panel.jpg" alt="meshmarketing panel discussion" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="http://commons.wikimedia.org/wiki/File:URRushRhees.jpg" target="_blank">Wikimedia</a>
+        <a href="http://meshconference.com/newsroom/" target="_blank">mesh/newsroom</a>
       </div>
     </div>
   </div>
 
   <div class="container">
     <section class="row">
-      <div class="span7 offset4 interview-panel">
-        <h3 id="you-have-a-phd-in-computer-science-tell-me-about-your-experience-as-a-woman-in-those-programs-in-the-graduate-and-post-graduate-environment">You have a Ph.D. in Computer Science. Tell me about your experience as a woman in those programs, in the graduate and post-graduate environment.</h3>
-
-         <p>I found grad school to be a very painful kind of fun. [Laughs]</p>
-         <p>You're very poor, you make no money and you work so hard all the time. I did the math at one point, and if you actually divide your income by the hours that you work, you make just a small fraction of minimum wage—and that's in Computer Science, which is one of the better-paid graduate programs, because you actually get a stipend. In some Humanities programs, you work just as hard and end up paying, which is horrifying.</p>
-         <p>I’ve found the gender ratio in grad school to be more balanced than in the industry. I've always been comfortable with guys, so I don't really have a problem with it and it's not something I notice a whole lot—although right now on my team, I've got three amazing women and it’s really fun! There's a different kind of joking. In grad school, I didn't experience any real difficulties related to being female. I really enjoyed it and hated it at the same time, as everyone does—I mean, I don't think you finish a Ph.D. until you want to kill something. [Laughs]</p>
-
+      <div class="span4">
+        <div class="photo-callout notable-person">
+          <figure class="first-row">
+            <div class="arrow"></div>
+            <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/callout-stratford.jpg" alt="Stratford, Ontario Canada"/>
+            <figcaption class="clear">
+              <p>Stratford, Ontario, just a couple of hours west of Toronto and is one of North America&#39;s great arts towns. Well known for being a vibrant theatre and music scene, it is the home of the <a href="http://www.stratfordfestival.ca/" target='_blank'>Stratford Festival</a>.</p>
+            </figcaption>
+            <div style="clear:both"></div>
+          </figure>
         </div>
-        
-        <div class="span11 pull-quote">
-          <aside class="quote">
-            <h2 id="i-found-grad-school-to-be-a-very-painful-kind-of-fun-laughs">I found grad school to be a very painful kind of fun. [Laughs]</h2>
-          </aside>
-          <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-        </div>
-
-        <div class="span7 offset4 interview-panel">
-          
-         <h3 id="how-was-your-experience-making-the-transition-to-professional-practice">How was your experience making the transition to professional practice?</h3>
-
-         <p>I thought I was going to be a professor, but over the course of my post-doc I realized, this isn't actually the life I want. </p>
-         <p>In making the transition to professional practice, I kind of took a leap of faith. I got married as I was finishing my post-doc, and my husband had a fantastic job offer in Chicago that was right in line with his dissertation work. I didn’t really know what I wanted to do at the time, but I knew I had very marketable skills, so I said, “Let's just go! I'll find a job when we get there.” And I did. I applied for a bunch of stuff, and it took a couple months, but I ended up getting a pretty good job, and it worked out.</p>
-
-
+      </div>
+      <div class="span7 interview-panel">
+        <h3 id="what-technology-has-most-affected-you-personally">What technology has most affected you personally?</h3>
+        <p>Social media, for sure. For me Twitter was the platform that absolutely changed my life.</p>
+        <p>When I moved out of Toronto thirteen years ago with my family to Stratford, Ontario, I found it hard to connect with people I felt were like me. I started tweeting about local stuff and began to realize I was not just speaking to Stratford, there was a wider network there. I've met some incredible people online who are immensely talented and creative and fun and intelligent.</p>
       </div>
     </section>
-   
+    <section class="row">
+      <div class="span7 offset4 interview-panel">
+       <h3 id="do-you-have-any-advice-for-people-in-terms-of-connecting-to-communities-with-social-media-and-finding-their-voice">Do you have any advice for people in terms of connecting to communities with social media and finding their voice?</h3>
+       <p>First of all, listen. Find out what's going on, follow the followers, find something that interests you or someone that you think is pretty cool, or if somebody has a great audience online, look at who's following them and at who they're following.</p>
+      </div>
+        
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2 id="the-braver-you-are-about-putting-your-stuff-out-there-the-more-you-find-that-like-mindedness-and-that-kin">The braver you are about putting your stuff out there, the more you find that like-mindedness and that kin.</h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+      </div>
+
+      <div class="span7 offset4 interview-panel">
+        
+       <p>I'm unabashedly opinionated, so it's anyone's choice to not follow me. I absolutely use blue language. You will find me cussing up a storm at times, calling crap out, you'll see more than a few four-letter-words on my stream. But you know, I guess I am fearless about it. It am just, “This is who I am, this is what I believe in, this is a thing I think is amazing.” The reality is that the braver you are about putting your stuff out there, the more you find that like-mindedness and that kin. You find one another.</p>
+      </div>
+    </section>
+    <section class='row'>
+      <div class="span7 offset4 interview-panel">
+        <h3 id="have-you-had-any-challenges-segmenting-your-voice-between-your-personal-account-and-when-you-were-representing-mars-online">Have you had any challenges segmenting your voice between your personal account and when you were representing MaRS online?</h3>
+        <p>There are certainly challenges, for sure, but I don't have a problem with it. Some voices in the MaRS ecosystem are really cutting-edge and can be controversial. And on the personal side, I'm totally behind them. I'm like, Fight the power! Be a disruptor, mix it up! But I also recognize that I have a responsibility to MaRS and that is to not jeopardize its relationships based on my own personal politics.</p>
+      </div>
+    </section>
   </div>
 </li>
 <li>
@@ -167,7 +183,7 @@
           </aside>
         </div>      
       </div>      
-      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/gmail_collage.jpg" alt="Collage of Gmail mobile app screeshots" class="fullscreen-image"/>
+      <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/gmail_collage.jpg" alt="Collage of Gmail mobile app screeshots" class="fullscreen-image"/>
       <div class="photo-credit light">
         Photo credit:
         <a href="http://gmailblog.blogspot.ca/2013/11/a-new-look-for-gmail-app-on-ipad.html" target="_blank">Gmail blog</a>
@@ -241,18 +257,18 @@
   <div class="fullscreen">
     <div class="parallax">
       <div class="container">
-        <div class="info-panel" id="knitting">
+        <div class="info-panel" id="speaking">
           <aside>
             <div class="arrow right"></div>
-            <h3>Knitter Extraordinaire</h3>
-            <p class="last">An avid knitter, Melissa says her favourite hobby has helped her to develop the problem solving skills needed as an engineer.</p>
+            <h3>Building a Community</h3>
+            <p class="last">After she moved to Stratford, Karen found her online voice and a network in her local community through Twitter. She started a project called Blind Eye Stratford which calls upon the community to have a say in what can be done with the abandoned areas of the city and spoke about it at local events.</p>
           </aside>
         </div>      
       </div>      
-      <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/knitting2.jpg" alt="Knitted Sock" />
+      <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/karen-schulmandupuis-speaking.jpg" alt="Karen speaking in front of a projector" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="https://plus.google.com/114152066748412767096/posts" target="_blank">Melissa Dominguez</a>
+        <a href="https://www.flickr.com/photos/screamingflamingdeath/" target="_blank">James Bastow</a>
       </div>
     </div>
   </div>
@@ -263,7 +279,7 @@
         <div class="photo-callout notable-person" id='creative-knitting'>
           <figure class="first-row">
             <div class="arrow"></div>
-            <img src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/creativeknitting.jpg" alt="Creative Knitting Magazine Cover"/>
+            <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/creativeknitting.jpg" alt="Creative Knitting Magazine Cover"/>
             <figcaption class="clear">
               <p>Creative Knitting magazine was the first all-knitting magazine and continues to be one of the most popular print-and-digital knitting magazines on the market.</p>
             </figcaption>
@@ -307,7 +323,7 @@
             <div id="question-details">
               <div id="profile-image">
                 <img
-                  src="<?php echo get_home_url(); ?>/assets/img/melissa-interview/img-square-melissa.jpg" />
+                  src="<?php echo get_home_url(); ?>/assets/img/karen-interview/img-square-melissa.jpg" />
               </div>
               <h4>Is there a time when you've done something scary, and it's turned out to be absolutely the right decision?</h4>
               <div id='quote-mark'>
