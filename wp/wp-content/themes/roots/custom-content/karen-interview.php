@@ -105,12 +105,12 @@
   </div>
 </li>
 <li>
-  <div class="fullscreen">
+  <div class="fullscreen" id="discussion">
     <div class="parallax">
       <div class="container">
-        <div class="info-panel" id="discussion">
+        <div class="info-panel">
           <aside>
-            <div class="arrow right"></div>
+            <div class="arrow left"></div>
             <h3>Panel Discussions</h3>
             <p class="last">At meshmarketing 2013 last November, Karen shared her thoughts on social media and the latest marketing trends.
             </p>
@@ -172,94 +172,12 @@
   </div>
 </li>
 <li>
-  <div class="fullscreen" id="gmail">
+  <div class="fullscreen" id="speaking">
     <div class="parallax">
       <div class="container">
         <div class="info-panel">
           <aside>
             <div class="arrow left"></div>
-            <h3>You’ve got mail</h3>
-            <p class="last">Gmail iOS easily allows users to navigate their inbox from their phone - all thanks to Melissa and her team’s code. As the tech lead she’s able to execute big ideas, and then watch as millions of people use them every day to stay connected.</p>
-          </aside>
-        </div>      
-      </div>      
-      <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/gmail_collage.jpg" alt="Collage of Gmail mobile app screeshots" class="fullscreen-image"/>
-      <div class="photo-credit light">
-        Photo credit:
-        <a href="http://gmailblog.blogspot.ca/2013/11/a-new-look-for-gmail-app-on-ipad.html" target="_blank">Gmail blog</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <section class="row">
-      <div class="span7 offset4 interview-panel">
-        <h3 id="was-that-first-job-a-practical-role-within-software-engineering">Was that first job a practical role within software engineering?</h3>
-
-        <p>Yeah, I worked for a financial risk management software company for a couple years. It was a combination of software and consulting. I was on the software side, obviously, not the financial consulting side! [Laughs]</p>
-    </section>
-    
-    <section class="row">
-      
-      <div class="span11 pull-quote">
-        <aside class="quote">
-          <h2 id="one-skill-to-have-as-a-software-engineer-is-a-desire-to-solve-problems-do-you-like-to-take-things-apart-and-put-them-together-i-like-to-knit-which-is-a-form-of-problem-solving">One [skill to have as a software engineer] is a desire to solve problems. Do you like to take things apart and put them together? I like to knit, which is a form of problem-solving.</h2>
-        </aside>
-        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-      </div>
-
-      <div class="span7 offset4 interview-panel">
-
-         
-          
-        <h3 id="aside-from-the-obvious-technical-skills-are-there-any-other-skills-that-are-important-to-have-if-youre-interested-in-becoming-a-software-engineer">Aside from the obvious technical skills, are there any other skills that are important to have if you’re interested in becoming a software engineer?</h3>
-
-        <p>There are a couple of things. One is a desire to solve problems. Do you like to take things apart and put them together? I like to knit, which is a form of problem-solving. I figure out how I want something to look, and then I figure out the knitting pattern to make it. Did you like to play with Legos as a kid? Did you like to build things? When I was a kid, our VCR broke and I took it apart. I didn't fix it, or anything—I just wanted to see what was inside.</p>
-
-        <p>And the other, which I think women in particular are socialized against, is being willing to handle rejection without taking it personally. I’ve found this from my own experience, and I've heard it from other women as well: If I applied to Google and got rejected, what are the chances I would apply again?</p>
-        <p>There's been a conversation going on around here, about how do we hire more women? Google gets so many resumes that there are false negatives, which means we say no to people who are totally qualified. People who are more easily discouraged by that rejection are going to be less likely to try again in a year or two. There are a few different things to consider when re-applying, one is you might have been a false negative in the first place, and another is, you might have actually gotten better since you first applied. Maybe you weren't quite above the bar last year, but maybe since then you’ve done an amazing project and learned so much, and now you can do it.</p>
-      </div>
-    </section>
-
-    <section class="row">
-      <div class="span7 offset4 interview-panel">
-        <h3 id="when-it-comes-to-bridging-the-gender-ratio-difference-between-education-and-professional-practice-youre-putting-a-bit-of-the-onus-on-women-themselves-its-not-just-about-companies-making-sure-they-hire-women-its-also-about-women-making-sure-that-they-get-themselves-hired-we-have-to-keep-trying-and-not-give-up">When it comes to bridging the gender-ratio difference between education and professional practice, you're putting a bit of the onus on women themselves. It’s not just about companies making sure they hire women, it's also about women making sure that they get themselves hired, we have to keep trying and not give up.</h3>
-
-        <p>I do think it's important that, as an industry, we make the effort to be more inclusive and to recognize discrimination when it happens.</p>
-
-        <p>On the other hand, for women that are in the industry now, we have to deal with the system as it is today. I'm always very pragmatic. I’m not saying it’s anyone’s fault, but there's a certain amount of the world that we just have to deal with. You can choose to take things personally, take offense at things and be hurt, or you can take a step back and say, “Okay, that sucked. What can I do to do better next time? Was this just a one-off?”</p>
-
-      </div>
-      
-      <div class="span11 pull-quote">
-        <aside class="quote">
-          <h2 id="there-are-millions-of-people-who-use-my-code-every-day-how-cool-is-that">There are millions of people who use my code every day! How cool is that!?</h2>
-        </aside>
-        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
-      </div>
-
-      <div class="span7 offset4 interview-panel">
-
-        
-
-        <h3 id="how-long-have-you-been-at-google">How long have you been at Google?</h3>
-        <p>Two years now.</p>
-
-        <h3 id="whats-your-favorite-part-of-your-job-right-now">What's your favorite part of your job right now?</h3>
-        <p>Throughout my career, the people I work with have been the most important thing to me. I can work on something I don't really care about, and the people I work with will make it worth going to work every day. On the other hand, I could be working on something that's super cool, but if I'm working with a bunch of jerks, it doesn't matter! (Laughs) The people I'm working with right now are awesome.</p>
-
-        <p>But also, I'm working on <a href="https://mail.google.com/intl/en/mail/help/about.html">Gmail</a>! There are millions of people who use my code every day! How cool is that!? I’m making something that people actually use, and it's amazing. After working on something that only a hundred banks use, this is way better. [Laughs]</p>
-      </div>
-    </section>
-  </div>
-</li>
-<li>
-  <div class="fullscreen">
-    <div class="parallax">
-      <div class="container">
-        <div class="info-panel" id="speaking">
-          <aside>
-            <div class="arrow right"></div>
             <h3>Building a Community</h3>
             <p class="last">After she moved to Stratford, Karen found her online voice and a network in her local community through Twitter. She started a project called Blind Eye Stratford which calls upon the community to have a say in what can be done with the abandoned areas of the city and spoke about it at local events.</p>
           </aside>
@@ -275,44 +193,114 @@
 
   <div class="container">
     <section class="row">
-      <div class="span4">
-        <div class="photo-callout notable-person" id='creative-knitting'>
-          <figure class="first-row">
-            <div class="arrow"></div>
-            <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/creativeknitting.jpg" alt="Creative Knitting Magazine Cover"/>
-            <figcaption class="clear">
-              <p>Creative Knitting magazine was the first all-knitting magazine and continues to be one of the most popular print-and-digital knitting magazines on the market.</p>
-            </figcaption>
-            <div style="clear:both"></div>
-          </figure>
-        </div>
-      </div>
-      <div class="span7 interview-panel">
-
-        <h3 id="do-you-have-any-passionate-interests-outside-of-technology">Do you have any passionate interests outside of technology?</h3>
-
-        <p>I'm a mother, I have two small girls, a two year-old and a four year-old, so obviously they're pretty awesome. They're sweet and beautiful and loving and smart.</p>
-        <p>And I'm also a knitter, I’ve actually published a few knitting designs. One came out in <a href="http://www.creativeknittingmagazine.com">Creative Knitting Magazine</a> last fall, which was really exciting!</p>
-
-      </div>
+      <div class="span7 offset4 interview-panel">
+        <h3>You still live in Stratford, but your office is 2.5 hours away in Toronto. How do you balance that?</h3>
+        <p>I have an amazingly supportive environment at MaRS. I try to do a stretch of days at home telecommuting, for example I’ll do Monday and Friday at home then will be in Toronto Tuesday through Thursday.</p>
+        <p>It’s a tax on my home life for sure, but being in the community–talking to people, finding out what people are doing–that’s the stuff that invigorates me. So although my husband misses me being at home, and I miss cuddling up in bed with him every night, those are really well-spent hours and well-spent days. My schedule adjusts of course, if I need an extra day at home or if I need to do four or five days in the city that week, then so be it, it’s that kind of a week.</p>
+    </section>
+    
+    <section class="row">
       
       <div class="span11 pull-quote">
         <aside class="quote">
-          <h2 id="make-sure-that-when-we-talk-to-young-girls-we-dont-focus-on-their-appearance-next-time-you-meet-a-girl-between-the-ages-of-two-and-eighteen-as-her-instead-about-her-interests">Make sure that when we talk to young girls, we don’t focus on their appearance [...] Next time you meet a girl between the ages of two and eighteen, ask her instead about her interests</h2>
+          <h2>It&#39;s a responsibility for parents to know what&#39;s going on in our kids&#39; lives and to not be afraid of technology and social platforms.</h2>
         </aside>
         <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
+      </div>
+
+      <div class="span7 offset4 interview-panel">
+
+         <h3>There are always tradeoffs.</h3>
+         <p>I remind my husband all the time that we’re in our prime earning years. This is when we get to really forge ahead in our individual careers.</p>
+         <p>My daughter is almost twenty-two and she&#39;s in her third year at Guelph University in Criminal Justice and Public Policy, and I have nine-year-old twin boys who are <em>really</em> eight and <em>really</em> boys. [Laughs]</p>
+         <p>As our kids get older, I’m able to focus on my career and to do things that are more for me. I’m a firm believer: Happy mummy, happy family. Happy parents, happy family. My husband and I are still very much in love and very supportive of one another, so it’s all good. When we’re feeling slighted, or needy, or pissed, we say so.</p>
+      </div>
+    </section>
+  </div>
+</li>
+<li>
+  <div class="fullscreen">
+    <div class="parallax">
+      <div class="container">
+        <div class="info-panel" id="collage">
+          <aside>
+            <div class="arrow right"></div>
+            <h3>Making it Work</h3>
+            <p class="last">Karen lives in Stratford and works 2.5 hours away in Toronto. She makes it work with the support of her family and work environment at MaRS which allows her to telecommute when she's not in the office.</p>
+          </aside>
+        </div>      
+      </div>      
+      <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/karen-schulmandupuis-collage.jpg" alt="Collage of family photos" />
+      <div class="photo-credit light">
+        Photo credit:
+        <a href="https://twitter.com/karensd" target="_blank">Karen Schulman Dupuis</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="row">
+      <div class="span7 offset4 interview-panel">
+        <h3>Kids are engaging in social media so much younger these days – what is your awareness of your kids’ lives online? How connected are you?</h3>
+        <p>The rule was, “In my house, I have your password until you leave.” My daughter balked at it but really didn&#39;t fight it. That was my rule. If you&#39;re going to be online, I&#39;m going to be monitoring everything. My boys are too young to be on a social platform yet.</p>
+        <p>I cringe at parents who say, “Don&#39;t be your kid&#39;s friends on Facebook”. I say, it&#39;s your responsibility to be your kid&#39;s friend on Facebook, especially in those teen years. When I was a kid in school, if you got into a fight you went home where you had that reprieve. You had that space to talk and deflate and be in a safe, secure environment to deal with things. Kids don&#39;t have that same opportunity now–it&#39;s constant.</p>
+        <p>It&#39;s a responsibility for parents to know what&#39;s going on in our kids&#39; lives and to not be afraid of technology and social platforms. Even if it&#39;s just listening, that&#39;s an important role too.</p>
+        <p>You have to make the rules. You&#39;re the parent. My mother always used to say to me, “I&#39;m not your friend, I&#39;m your mother.” And I used to say to my daughter and I&#39;ll say to my boys, “I&#39;m a friendly mother, but I&#39;m your mother.”</p>
+      </div>
+    </section>
+    <section class="row no-margin-bottom">
+      <div class="span7 offset4 interview-panel">
+        <h3>Does MaRS have any initiatives targeting under-represented demographics of entrepreneurs?</h3>
+        <p>There have been discussions specifically around how we engage with women entrepreneurs.</p>
+      </div>
+    </section>
+
+    <section class="row no-margin-top">
+      <div class="span4 notable-person" id="daphne-kis">
+        <figure class="first-row">
+          <div class="arrow"></div>
+          <h3>Notable Person</h3>
+          <a href="http://www.daphnekis.com/"
+            title="Daphne Kis portrait"
+            target="_blank">
+            <img src='<?php echo get_home_url(); ?>/assets/img/karen-interview/notable-daphnekis.jpg'>
+          </a>
+          <figcaption class="clear">
+            <a href="http://www.daphnekis.com/"
+              title="About Shawn Pucknell"
+              target="_blank"><h4>Daphne Kis</h4></a>
+
+            <p>Daphne Kis is the Managing Director of Golden Seeds, one of the most active angel investing organizations in the US, and one that focuses on the opportunities of women-led businesses.</p>
+
+          </figcaption>
+          <div style="clear:both"></div>
+        </figure>
+      </div>
+
+      <div class="span7 interview-panel">
+        <p>A great example was when Daphne Kis came to Toronto a little while ago. She’s a venture capitalist and an angel investor from New York, and she runs an investor group called <a href="http://www.goldenseeds.com/">Golden Seeds</a> which specifically looks at women-led ventures. </p>
+        <p><a href="http://startupgrind.com/">Startup Grind</a> Toronto hosted her and very graciously introduced us. We were able to get 25 female-led startups in front of Daphne to ask questions. It wasn’t a pitch session, but it was an opportunity to get the real deal straight from the horse’s mouth. The community responded incredibly well to that. That’s what we want to do, to reach out and serve those demographics that haven’t been served historically.</p>
+        <p>There’s been some talk in the media about how <a href="http://www.forbes.com/sites/geristengel/2014/01/08/11-reasons-2014-will-be-a-break-out-year-for-women-entrepreneurs/">2014 is going to be the year of the Woman Entrepreneur</a>. I’m already seeing that momentum and I’m hoping to serve that, among other under-served spaces as well. I think with focus we’re able to hone in on the talent and on the advisors to provide the support network these groups need.</p>
+
       </div>
     </section>
 
     <section class="row">
-      <div class="span7 offset4 interview-panel">
-        <h3 id="in-our-last-interview-amber-macarthur-asked-how-can-we-encourage-a-younger-generation-of-women-to-care-more-about-brains-than-beauty-when-theyre-bombarded-with-images-such-as-miley-cyrus-twerking">In our last interview, <a href="http://womenandtech.com/interview/amber-macarthur/">Amber MacArthur</a> asked: How can we encourage a younger generation of women to care more about brains than beauty when they’re bombarded with images such as Miley Cyrus twerking?</h3>
-
-        <p>On an individual level, one of the most important things we can do is to make sure that when we talk to young girls, we don't focus on their appearance as the topic of conversation. Every time we meet a little girl and say, "Oh, aren't you the cutest! What a pretty dress!" we’re reinforcing the idea that her appearance is the most important thing about her.</p>
-
-        <p>Next time you meet a girl between the ages of two and eighteen, ask her instead about her interests, her favorite book, or her favorite subject at school. Ask her to tell you about her hobbies.</p>
+      
+      <div class="span11 pull-quote">
+        <aside class="quote">
+          <h2>It was scary putting myself out there as a professional in a field where I had no experience. But nothing ventured, nothing gained.</h2>
+        </aside>
+        <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
-    </section> <!-- mel -->
+
+      <div class="span7 offset4 interview-panel">
+
+        <h3>Here’s a question for you from our previous interviewee, Melissa Dominguez: Is there a time when you’ve done something scary and it’s turned out to be absolutely the right decision?</h3>
+        <p>Yes. I used to work from home for a telecom company and was never in the city. I remember even just considering leaving that situation and going for the job at MaRS. I was in Toronto for a conference and I called up my husband and said, “Oh my God, this job has just opened up at MaRS, and I’m going to apply for it. But you need to be okay with this, because if I do this every single thing about our every daily lives is going to change.” And he was like, “Babe, whatever makes you happy. Let’s go for it.” And that was it.</p>
+        <p>It was scary leaving an industry I’d been in for fifteen years. It was scary putting myself out there as a professional in a field where I had no professional experience or credibility. I wasn’t confident. That’s the thing. I had Impostor Syndrome – I thought, “Oh my God they’re going to find out I’m full of shit, I can’t do this.” But nothing ventured, nothing gained (that’s something I say all the time). And it was one hundred percent the best thing I have ever done for myself.</p>
+      </div>
+    </section>
 
     <section class="row">
         <div class="span8 offset3">
@@ -323,9 +311,9 @@
             <div id="question-details">
               <div id="profile-image">
                 <img
-                  src="<?php echo get_home_url(); ?>/assets/img/karen-interview/img-square-melissa.jpg" />
+                  src="<?php echo get_home_url(); ?>/assets/img/karen-interview/img-square-karen.jpg" />
               </div>
-              <h4>Is there a time when you've done something scary, and it's turned out to be absolutely the right decision?</h4>
+              <h4>When were you most vulnerable, and what was the best thing that came from that?</h4>
               <div id='quote-mark'>
                 <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
             </div>
@@ -354,18 +342,11 @@
             </p>
             <p>
               <strong>Editing</strong><em> by</em>
-              <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>,
-              <a href="http://ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a> <em>and</em>
-              <a href="https://twitter.com/tkmars" target="_blank">Taylor Marsden</a>
-            </p>
-            <p>
-              <strong>Art Direction</strong><em> by</em>
-              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>
+              <a href="https://twitter.com/kelzor">KELLY SEAGRAM</a>, <a href="https://twitter.com/cassiemc">CASSIE MCDANIEL</a> and <a href="https://twitter.com/tkmars">TAYLOR MARSDEN</a>
             </p>
             <p>
               <strong>Design</strong><em> by</em>
-              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a><em> and</em> 
-              <a href="http://ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a>
+              <a href="http://ivonnekaramoy.com/">IVONNE KARAMOY</a>
             </p>
             <p>
               <strong>Development</strong><em> by</em>
