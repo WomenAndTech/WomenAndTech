@@ -56,7 +56,7 @@
     </section>
     <section class="row">
       <div class="span4">
-        <div class="photo-callout notable-person">
+        <div class="photo-callout notable-person" id='symphony'>
           <figure class="first-row">
             <div class="arrow"></div>
             <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/callout-symphony.jpg" alt="Symphony screenshot"/>
