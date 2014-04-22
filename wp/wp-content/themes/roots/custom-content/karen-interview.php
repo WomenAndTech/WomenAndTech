@@ -41,7 +41,7 @@
       <div class="span4" id="start-tag">
         <div id="start-animation" style="width: 300px; height: 90px" class="swiffy"></div>
       </div>
-      <div class="span7 interview-panel" style="margin-top: 2.5em;">
+      <div class="span7 interview-panel">
        <h3 id="tell-me-about-your-role-at-mars">Tell me about your role at MaRS.</h3>
       </div>
 
