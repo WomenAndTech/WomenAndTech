@@ -41,7 +41,7 @@
       <div class="span4" id="start-tag">
         <div id="start-animation" style="width: 300px; height: 90px" class="swiffy"></div>
       </div>
-      <div class="span7 interview-panel">
+      <div class="span7 interview-panel" style="margin-top: 2.5em;">
        <h3 id="tell-me-about-your-role-at-mars">Tell me about your role at MaRS.</h3>
       </div>
 
@@ -81,18 +81,15 @@
         <div class="quote-mark"><img src="<?php echo get_home_url(); ?>/assets/img/quote-mark.png" /></div>
       </div>
 
-      <div class="span4">
-        <div class="photo-callout notable-person" id="pathways-kitchener">
-          <figure class="first-row">
-            <div class="arrow"></div>
-            <figcaption class="clear">
-              <h3>Curator of Dialogue</h3>
-              <p>Always curious and a lover of dialogue, Karen writes about her thoughts and experiences as a professional woman and entrepreneurship on her <a href="http://curatorofdialogue.wordpress.com/">blog</a></p>
-            </figcaption>
-            <div style="clear:both"></div>
-          </figure>
-        </div>
+      <!-- Callout without image (i.e. info-panel) -->
+      <div class="span4 info-panel">
+        <aside class="first-row">
+          <div class="arrow"></div>
+          <h3>Curator of Dialogue</h3>
+          <p class="last">Always curious and a lover of dialogue, Karen writes about her thoughts and experiences as a professional woman and entrepreneurship on her <a href="http://curatorofdialogue.wordpress.com/">blog</a> and <a href="https://medium.com/@karensd">Medium</a>.</p>
+        </aside>
       </div>
+      <!-- END .info-panel -->
 
       <div class="span7 interview-panel">
 
@@ -108,7 +105,7 @@
   <div class="fullscreen" id="discussion">
     <div class="parallax">
       <div class="container">
-        <div class="info-panel">
+        <div class="info-panel" style="top: 10%;">
           <aside>
             <div class="arrow left"></div>
             <h3>Panel Discussions</h3>
@@ -133,7 +130,7 @@
             <div class="arrow"></div>
             <img src="<?php echo get_home_url(); ?>/assets/img/karen-interview/callout-stratford.jpg" alt="Stratford, Ontario Canada"/>
             <figcaption class="clear">
-              <p>Stratford, Ontario, just a couple of hours west of Toronto and is one of North America&#39;s great arts towns. Well known for being a vibrant theatre and music scene, it is the home of the <a href="http://www.stratfordfestival.ca/" target='_blank'>Stratford Festival</a>.</p>
+              <p>Stratford, Ontario, just a couple of hours west of Toronto, is one of North America&#39;s great arts towns. Well known for being a vibrant theatre and music scene, it is the home of the <a href="http://www.stratfordfestival.ca/" target='_blank'>Stratford Festival</a>.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
@@ -179,7 +176,7 @@
           <aside>
             <div class="arrow left"></div>
             <h3>Building a Community</h3>
-            <p class="last">After she moved to Stratford, Karen found her online voice and a network in her local community through Twitter. She started a project called Blind Eye Stratford which calls upon the community to have a say in what can be done with the abandoned areas of the city and spoke about it at local events.</p>
+            <p class="last">After she moved to Stratford, Karen found her online voice and a network in her local community through Twitter. She started a project called Blind Eye Stratford which calls upon the community to have a say in what can be done with the abandoned areas of the city.</p>
           </aside>
         </div>      
       </div>      
@@ -212,7 +209,7 @@
 
          <h3>There are always tradeoffs.</h3>
          <p>I remind my husband all the time that we’re in our prime earning years. This is when we get to really forge ahead in our individual careers.</p>
-         <p>My daughter is almost twenty-two and she&#39;s in her third year at Guelph University in Criminal Justice and Public Policy, and I have nine-year-old twin boys who are <em>really</em> eight and <em>really</em> boys. [Laughs]</p>
+         <p>My daughter is almost twenty-two and she&#39;s in her third year at Guelph University in Criminal Justice and Public Policy, and I have nine-year-old twin boys who are <em>really</em> nine and <em>really</em> boys. [Laughs]</p>
          <p>As our kids get older, I’m able to focus on my career and to do things that are more for me. I’m a firm believer: Happy mummy, happy family. Happy parents, happy family. My husband and I are still very much in love and very supportive of one another, so it’s all good. When we’re feeling slighted, or needy, or pissed, we say so.</p>
       </div>
     </section>
@@ -350,7 +347,7 @@
             </p>
             <p>
               <strong>Development</strong><em> by</em>
-              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a>
+              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a> and <a href="http://twitter.com/martianmoose" target="_blank">AUDREY KUO</a>
             </p>
             <p>
               <strong>Transcriptions</strong><em> by</em>
