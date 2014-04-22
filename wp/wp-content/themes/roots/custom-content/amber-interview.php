@@ -119,7 +119,7 @@
             <figcaption class="clear">
               <a href="https://twitter.com/MarilynDenisCTV"><h4 id="marilyndenishttpstwittercommarilyndenisctv">Marilyn Denis</h4></a>
 
-              <p>Marilyn Denis, has been a fixture in Canadian broadcasting since 1986. She is co-host of the long running morning show <a target="_blank" href="http://www.chumfm.com/Shows/Shows/Roger-Darren-and-Marilyn">Roger, Darren and Marilyn</a> and hosts the lifestyle show, <a href="http://marilyn.ca" target="_blank">The Marilyn Denis Show</a> on CTV.</p>
+              <p>Marilyn Denis has been a fixture in Canadian broadcasting since 1986. She is co-host of the long running morning show <a target="_blank" href="http://www.chumfm.com/Shows/Shows/Roger-Darren-and-Marilyn">Roger, Darren and Marilyn</a> and hosts the lifestyle show, <a href="http://marilyn.ca" target="_blank">The Marilyn Denis Show</a> on CTV.</p>
 
             </figcaption>
             <div style="clear:both"></div>
@@ -240,7 +240,7 @@
       <img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/amber-mac-on-set.jpg" alt="Amber Mac" />
       <div class="photo-credit light">
         Photo credit:
-        <a href="http://bamcat.com" target="_blank">Brian McKechnie</a>
+        <a href="https://twitter.com/kelzor" target="_blank">Kelly Seagram</a>
       </div>
     </div>
   </div>
@@ -339,7 +339,7 @@
             <div class="arrow"></div>
             <a href="http://powerfriending.org"><img src="<?php echo get_home_url(); ?>/assets/img/amber-interview/power-friending.jpg" alt="Cover of Amber MacArthur's book 'Power Freinding'"/></a>
             <figcaption class="clear">
-              <p>Amber wrote <em>Power Friending</em> in 2010 to help guide individuals and businesses understand the social web.</p>
+              <p>Amber wrote <em>Power Friending</em> in 2010 to help guide individuals and businesses in understanding the social web.</p>
             </figcaption>
             <div style="clear:both"></div>
           </figure>
