@@ -76,7 +76,7 @@
       <section class="row contains-pull-quote">
         <div class="span7 offset4 interview-panel">
          <h3 id="how-did-you-get-into-advertising-">How did you get into advertising?</h3>
-         <p>I was intrigued by the world of advertising, so I took a job in a big media company, GroupM.  Advertising had this art element. I love being exposed to designing, filmmaking, photography, even if I am not the one doing it. I love being in the world of creative challenges and creative projects. I get sick of pure science to guide your intuition.</p>
+         <p>I was intrigued by the world of advertising, so I took a job in a big media company, <a href="http://www.groupm.com/" target="blank">GroupM</a>.  Advertising had this art element. I love being exposed to designing, filmmaking, photography, even if I am not the one doing it. I love being in the world of creative challenges and creative projects. I get sick of pure science to guide your intuition.</p>
 
          <p>I sort of created my own role here, too. A couple of weeks after joining, I started a project to rebuild the global intranet, the form of communication that they used across the whole company to share knowledge and collaborate on ideas. That was a tremendous learning experience because I was also younger than most of the people I was dealing with and had to learn fast.</p>
         </div>
@@ -124,7 +124,7 @@
         <div class="span7 offset4 interview-panel">
           <h3 id="how-did-you-hone-your-technical-skills-">How did you hone your technical skills?</h3>
 
-          <p>Without knowing it, I really got the bug to start my own thing. I had my own consulting business - I was doing web design and even some tutoring on the side. I realized I didn’t want to be constrained by my computer science skills and I wanted to sharpen these skills a lot. I started by teaching myself whatever I could get my hands on and took some mobile apps classes at the <a href="http://www.extension.harvard.edu/" target='_blank'>Harvard Extension School</a>. There is so much to learn from others. I got a lot out of those classed. In fact, that is how I met my co-founder, <a href="https://twitter.com/Jason_J_Shin">Jason Shin.</a></p>
+          <p>Without knowing it, I really got the bug to start my own thing. I had my own consulting business - I was doing web design and even some tutoring on the side. I realized I didn’t want to be constrained by my computer science skills and I wanted to sharpen these skills a lot. I started by teaching myself whatever I could get my hands on and took some mobile apps classes at the <a href="http://www.extension.harvard.edu/" target='_blank'>Harvard Extension School</a>. There is so much to learn from others. I got a lot out of those classes. In fact, that is how I met my co-founder, <a href="https://twitter.com/Jason_J_Shin">Jason Shin.</a></p>
 
           <p>I’d be sitting front and center, I’d be always raising my hand. Jason sat in that area and that’s how we met. We thought it would be good to collaborate on some of the things we are learning and we started to talk through some of that.</p>
         </div>
@@ -139,7 +139,7 @@
                 <img src='<?php echo get_home_url(); ?>/assets/img/gina-interview/notable-jamesbarabas.jpg'>
               </a>
               <figcaption class="clear">
-                <a href="https://twitter.com/Jason_J_Shin" target='_blank'><h4>James Barabas</h4></a>
+                <a href="https://angel.co/james-d-barabas" target='_blank'><h4>James Barabas</h4></a>
 
                 <p>Delightfully's co-founder and CTO, James Barabas has an engineering background and holds a PhD from MIT Media Lab.</p>
 
@@ -200,7 +200,7 @@
 
          <p>I was too much in the present and in the future to be worried about what if I didn’t do this. I was so eager to match up with people I admired and wanted to collaborate with that any feelings of fear might have been invigorating than stymying. It was really exciting. I remember we were smiling a lot. But also working a lot.</p>
 
-         <p>We built two prototypes immediately, in a day, of the experience of unwrapping a gift online. We came up with real stories of presents and two concepts of what the new generation of unwrapping would be. Our first test was to see how people would respond. Do people like this? Then we put the website together and the video. We applied to MassChallenge, got in immediately, got investment right away.</p>
+         <p>We built two prototypes immediately, in a day, of the experience of unwrapping a gift online. We came up with real stories of presents and two concepts of what the new generation of unwrapping would be. Our first test was to see how people would respond. Do people like this? Then we put the website together and the video. We applied to <a href="http://masschallenge.org/" target="_blank">MassChallenge</a>, got in immediately, got investment right away.</p>
         </div>
 
         <div class="span11 pull-quote">
