@@ -11,7 +11,7 @@
             <div class="author-info">
               <p class="author">
                 An interview with
-                <a target="_blank" href="https://twitter.com/mgieva" rel="author" target="_blank" title="<MAGGIE GIORGIEVA's twitter profile"> <strong>Maggie Giorgieva</strong>
+                <a target="_blank" href="https://twitter.com/mgieva" rel="author" target="_blank" title="<MAGGIE GEORGIEVA's twitter profile"> <strong>Maggie Georgieva</strong>
                 </a>
               </p>
               <p class='date'>
@@ -369,7 +369,7 @@
             <div class="credits">
               <p>
                 <strong>Interview</strong><em> by</em>
-                <a href="https://twitter.com/mgieva" target="_blank">MAGGIE GIORGIEVA</a>
+                <a href="https://twitter.com/mgieva" target="_blank">MAGGIE GEORGIEVA</a>
               </p>
               <p>
                 <strong>Photography</strong><em> by</em>
@@ -377,7 +377,7 @@
               </p>
               <p>
                 <strong>Editing</strong><em> by</em>
-                <a href="https://twitter.com/mgieva">MAGGIE GIORGIEVA</a>
+                <a href="https://twitter.com/mgieva">MAGGIE GEORGIEVA</a>
               </p>
               <p>
                 <strong>Design</strong><em> by</em>
@@ -389,7 +389,7 @@
               </p>
               <p>
                 <strong>Transcriptions</strong><em> by</em>
-                <a href="https://twitter.com/mgieva" target="_blank">MAGGIE GIORGIEVA</a>
+                <a href="https://twitter.com/mgieva" target="_blank">MAGGIE GEORGIEVA</a>
               </p>
             </div>
             <p class="tools">This site uses
