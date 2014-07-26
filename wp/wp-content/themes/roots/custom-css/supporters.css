@@ -32,10 +32,6 @@
   text-align: left;
 }
 
-.member:nth-child(6){
-  margin-left:20%;
-}
-
 .member.with_heart {
   width: 100%;
   min-height: auto;
