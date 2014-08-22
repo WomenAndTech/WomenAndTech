@@ -99,7 +99,13 @@
 			<div class="span9">
 				<div id="members">
 
-
+					<div class="member">
+					<a href="http://womenandtech.com/contributor-guidelines/" target="_blank" alt="Contributor Guidelines" title="Contributor Guidelines">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/you.png" />
+						<h3>(YOU) The Community</h3>
+						<p>Contribute an Interview</p>
+					</a>
+					</div>
 
 					<div class="member">
 						<a href="http://twitter.com/cassiemc" target="_blank" alt="Cassie McDaniel" title="Cassie McDaniel">
@@ -145,7 +151,7 @@
 					<div class="member">
 
 						<a href="http://twitter.com/MartianMoose" target="_blank" alt="Audrey Kuo" title="Audrey Kuo" >
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/audrey.jpg" alt="Audrey Kuo" title="Audrey Kuo" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/audrey.png" alt="Audrey Kuo" title="Audrey Kuo" />
 							<h3>Audrey Kuo</h3>
 							<p>Front-end dev</p>
 						</a>
@@ -174,14 +180,6 @@
 							<h3>Brenna O'Brien</h3>
 							<p>Front and back-end dev</p>
 						</a>
-					</div>
-					
-					<div class="member">
-					<a href="http://womenandtech.com/contributor-guidelines/" target="_blank" alt="Contributor Guidelines" title="Contributor Guidelines">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/you.png" />
-						<h3>(YOU) The Community</h3>
-						<p>Contribute an Interview</p>
-					</a>
 					</div>
 
 					<div class="member with_heart">
