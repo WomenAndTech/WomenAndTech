@@ -98,11 +98,12 @@
 			</div>
 			<div class="span9">
 				<div id="members">
+
 					<div class="member">
-					<a href="#nomination-form" data-href="#nomination-form" data-toggle="modal">
+					<a href="http://womenandtech.com/contributor-guidelines/" target="_blank" alt="Contributor Guidelines" title="Contributor Guidelines">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/you.png" />
-						<h3>The Community</h3>
-						<p>Nominate someone</p>
+						<h3>(YOU) The Community</h3>
+						<p>Contribute an Interview</p>
 					</a>
 					</div>
 
@@ -111,14 +112,6 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/cassie.png" alt="Cassie McDaniel" title="Cassie McDaniel" />
 							<h3>Cassie McDaniel</h3>
 							<p>Design, Copy, Vision</p>
-						</a>
-					</div>
-
-					<div class="member">
-						<a href="http://twitter.com/britburger" target="_blank" alt="Mark Staplehurst" title="Mark Staplehurst">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/mark.png" alt="Mark Staplehurst" title="Mark Staplehurst" />
-							<h3>Mark Staplehurst</h3>
-							<p>Design and front-end</p>
 						</a>
 					</div>
 
@@ -134,20 +127,11 @@
 						<a href="http://twitter.com/ivonnekn" target="_blank" alt="Ivonne Karamoy" title="Ivonne Karamoy">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ivonne.png" alt="Ivonne Karamoy" title="Ivonne Karamoy" />
 							<h3>Ivonne Karamoy</h3>
-							<p>Illustration, Outreach</p>
+							<p>Design, Coordination</p>
 						</a>
 					</div>
 
 					<div class="member">
-						<a href="http://twitter.com/milang" target="_blank" alt="Milan Gokhale" title="Milan Gokhale">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/milan.png" alt="Milan Gokhale" title="Milan Gokhale" />
-							<h3>Milan Gokhale</h3>
-							<p>Social Media, Strategy</p>
-						</a>
-					</div>
-					
-					<div class="member">
-
 						<a href="http://twitter.com/raykao" target="_blank" alt="Ray Kao" title="Ray Kao">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/ray.png" alt="Ray Kao" title="Ray Kao" />
 							<h3>Ray Kao</h3>
@@ -157,22 +141,46 @@
 
 					<div class="member">
 
+						<a href="http://twitter.com/CassKaiser" target="_blank" alt="Cassie Kaiser" title="Cassie Kaiser" >
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/cassiek.png" alt="Cassie Kaiser" title="Cassie Kaiser" />
+							<h3>Cassie Kaiser</h3>
+							<p>Design, Coordination</p>
+						</a>
+					</div>
+
+					<div class="member">
+
+						<a href="http://twitter.com/MartianMoose" target="_blank" alt="Audrey Kuo" title="Audrey Kuo" >
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/audrey.png" alt="Audrey Kuo" title="Audrey Kuo" />
+							<h3>Audrey Kuo</h3>
+							<p>Front-end dev</p>
+						</a>
+					</div>
+
+					<div class="member">
+						<a href="http://twitter.com/britburger" target="_blank" alt="Mark Staplehurst" title="Mark Staplehurst">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/mark.png" alt="Mark Staplehurst" title="Mark Staplehurst" />
+							<h3>Mark Staplehurst</h3>
+							<p>Design and front-end</p>
+						</a>
+					</div>
+
+					<div class="member">
+						<a href="http://twitter.com/milang" target="_blank" alt="Milan Gokhale" title="Milan Gokhale">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/milan.png" alt="Milan Gokhale" title="Milan Gokhale" />
+							<h3>Milan Gokhale</h3>
+							<p>Social Media, Copy</p>
+						</a>
+					</div>
+					
+					<div class="member">
+
 						<a href="http://twitter.com/brennaob" target="_blank" alt="Brenna O'Brien" title="Brenna O'Brien" >
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/brenna.png" alt="Brenna O'Brien" title="Brenna O'Brien" />
 							<h3>Brenna O'Brien</h3>
 							<p>Front and back-end dev</p>
 						</a>
 					</div>
-					
-					<div class="member">
-
-						<a href="http://twitter.com/CassKaiser" target="_blank" alt="Cassie Kaiser" title="Cassie Kaiser" >
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/cassiek.png" alt="Cassie Kaiser" title="Cassie Kaiser" />
-							<h3>Cassie Kaiser</h3>
-							<p>Volunteer Coordinator</p>
-						</a>
-					</div>
-
 
 					<div class="member with_heart">
 						<h4>With <i class="icon-heart-empty icon-orange"></i> from</h4>

@@ -26,14 +26,10 @@
 
 .member {
   width: 20%;
-  min-height: 200px;
+  min-height: 210px;
   display: inline-block;
   float: left;
   text-align: left;
-}
-
-.member:nth-child(6){
-  margin-left:20%;
 }
 
 .member.with_heart {
