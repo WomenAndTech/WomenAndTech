@@ -102,7 +102,7 @@
 					<div class="member">
 					<a href="http://womenandtech.com/contributor-guidelines/" target="_blank" alt="Contributor Guidelines" title="Contributor Guidelines">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/supporters/team/you.png" />
-						<h3>(YOU)The Community</h3>
+						<h3>The Community</h3>
 						<p>Contribute an Interview</p>
 					</a>
 					</div>
