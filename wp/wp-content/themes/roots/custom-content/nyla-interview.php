@@ -164,8 +164,6 @@
 
         <answer>
         <p>When the internet first emerged in the mid-90s, most of the popular press was saying children should not go online. They were claiming there were cyber stalkers and you shouldn’t let your kids run free on the internet. I really believed that Canada as a country was going to be very wired because of our geography and creating a population that was very tech savvy could be a differentiator as a country. </p>
-
-        <p>At the time I was working as the editor-in-chief of OWL, chickaDEE and Chirp magazines, and I became very interested in the emergence of the internet. As an editor of children’s print magazines, I really felt the internet was important for children because they are the generation who are going to grow up with this technology. </p>
         </answer>
 
         <callout-with-large-image image='nyla-interview/nyla-owl-chickadee-chirp.jpg' alternative-text-for-image='Owl and chickaDEE magazine'>
@@ -173,15 +171,21 @@
         </callout-with-large-image>
 
         <answer>
+        <p>At the time I was working as the editor-in-chief of OWL, chickaDEE and Chirp magazines, and I became very interested in the emergence of the internet. As an editor of children’s print magazines, I really felt the internet was important for children because they are the generation who are going to grow up with this technology. </p>
+        </answer>
+
+        <answer>
         <p>We were a very well respected children educational publishing brand. We had the opportunity to really champion the internet and advocate it, but do it very responsively. 
         So here was an example where I was going around the executive table saying we should maybe build a website, we should do maybe do an online service for kids.</p>
-
-        <p>It’s difficult to understand, this was really, really early. Most of the people I was talking to had not been on the internet. What we ended up doing was writing a book called Cyber Surfer. It was a kid’s guide to the internet that explained what the internet was, how it worked and how you can used it. It was designed for kids, but had a lot of factual information about the technology itself.</p>
         </answer>
 
         <callout-with-large-image image='nyla-interview/nyla-cybersurfer.jpg' alternative-text-for-image='Book cover of CyberSurfer'>
           In 1996, at the dawn of internet age, Nyla wrote a kid-oriented book on the topic of internet.
         </callout-with-large-image>
+
+        <answer>
+        <p>It’s difficult to understand, this was really, really early. Most of the people I was talking to had not been on the internet. What we ended up doing was writing a book called Cyber Surfer. It was a kid’s guide to the internet that explained what the internet was, how it worked and how you can used it. It was designed for kids, but had a lot of factual information about the technology itself.</p>
+        </answer>
 
         <answer>
         <p>At the back of the book was a disc with bookmark file which collected hundreds of websites that were good for kids. This was before search engines so it was a lot of effort to go find all these websites. The book and interactive disc package became a huge success because kids were looking for endorsement to allow them to go online and parents were really happy that the publishers of OWL were putting these safe websites together. Kids used the disk, but the irony is the book itself was read mostly by the adults. I realize that explaining the internet almost at the level of a child was what a lot of these adults needed in order to get comfortable with the internet. I think that’s an example of being able to to see the direction things were going. The company became the leader in digital at that time because we took the first step.</p>
