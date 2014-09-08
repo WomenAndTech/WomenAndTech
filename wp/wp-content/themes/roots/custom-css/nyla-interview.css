@@ -24,11 +24,15 @@ Nyla Interview Specific Styles
 /* uncomment and modify as needed */
 
 
-.fullscreen#discussion .info-panel {
-    top: 45%;
-    right: 0%;
+.fullscreen#atWork .info-panel {
+    top: 28%;
+    right: 35%;
 }
 
+#atWork {
+    top: 28%;
+    right: 35%;
+}
 
 .fullscreen#speaking .info-panel {
     top: auto;

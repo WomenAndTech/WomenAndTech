@@ -39,12 +39,13 @@ angular.module('womenAndTech', [])
 				image: '@',
 			    title: '@',
 			    caption: '@',
-				photoCredit: '@'
+				photoCredit: '@',
+				id:'@'
 			},
 			template: "<div class='fullscreen'>"+
 					      "<div class='parallax'>"+
 					        "<div class='container'>"+
-					          "<div class='info-panel'>"+
+					          "<div class='info-panel' id={{id}} ng-show='title.length !== 0'>"+
 					            "<aside>"+
 					              "<div class='arrow left'></div>"+
 					              "<h3>{{title}}</h3>"+
@@ -54,7 +55,7 @@ angular.module('womenAndTech', [])
 					        "</div>"+
 					        "<img ng-src='"+LOCALPATH+"/WomenAndTech/wp/assets/img/{{image}}'/>"+
 					        "<div class='photo-credit light'>"+
-					          "Photo credit:{{photoCredit}}"+
+					          "Photo credit: {{photoCredit}}"+
 					        "</div>"+
 					      "</div>"+
 					    "</div>"

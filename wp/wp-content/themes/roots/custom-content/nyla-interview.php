@@ -29,7 +29,7 @@
       </section>
     </div><!-- interview-intro -->
     <div id="portrait" class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/nyla-interview/nyla-ahmad-portrait.jpg" alt="Nyla Ahmad Profile"/>
+      <img src="<?php echo get_home_url(); ?>/assets/img/nyla-interview/nyla-ahmad-featured.jpg" alt="Nyla Ahmad Profile"/>
       <div class="photo-credit">
         Photo credit:
         <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
@@ -89,6 +89,21 @@
         <p>For example, I remember in the beginning, when email first hit the scene, not everyone had an email address. I remember asking people “are you on email?” Today, we are almost getting to a point where email is almost outdated. People are communicating in a much faster way. I think I have the benefit of having lived through a lot of technological change. When something new hits scene you think “wow, this is great. This is going to be like this forever.” And then, you give it 4-5 years, it evolves, it becomes obsolete or something replaces it. You have to get comfortable with change, not afraid to keep moving forward, even when the horizon is not totally clear.</p>
         </answer>
 
+      </section>
+
+    </div>
+  </li>
+  <li class='regular'>
+    <full-screen-curtain
+      image = 'nyla-interview/nyla-ahmad-portrait.jpg'
+      title = ''
+      caption = ''
+      photo-credit = 'Pam Lau'>
+    </full-screen-curtain>
+
+    <div class="container">
+      <section class='row normal'>
+
         <question>How did you go about following your interest in the technology early on? Did you try to look for a job that is similar to where the trend is going?</question>
 
         <answer>
@@ -117,6 +132,9 @@
         Have you found being a woman challenging to push forward your idea or you don’t see it as an obstacle? 
         </question>
 
+        <callout-with-large-image image='nyla-interview/nyla-talk-on-bnn.jpg' alternative-text-for-image='nyla-talk on bnn'>
+          Jay Rosenzweig and Nyla Ahmad on <a href='https://www.youtube.com/watch?v=Iql_ElEll-0'>Business News Network</a> discussing women at the top.
+        </callout-with-large-image>
 
         <answer>
         <p>I remember a few years ago having lunch with the editor-in-chief for a series of women’s magazines. His magazine was staffed largely by women. A lot of his leadership team was female. He was complaining to me how it difficult it was to be the only man in the room. I laughed at that. In any kind of minority position, you always feel a bit disadvantaged. Your hill is just that much steeper to keep climbing. I have been able to persevere through all of that; I have just always been very focused on and passionate about the area that I want to champion in the emergent technology.</p>
@@ -126,20 +144,7 @@
         I don’t think there is necessary a male or female approach when it comes to driving innovation. You can’t do it in a vacuum. The best idea will never come from someone sitting alone in their office. You have to go out there and talk to a lot of people.
         </pull-quote>
 
-      </section>
 
-    </div>
-  </li>
-  <li class='regular'>
-    <full-screen-curtain
-      image = 'nyla-interview/nyla-talk-on-bnn.jpg'
-      title = 'On Business News Network'
-      caption = 'Jay Rosenzweig and Nyla Ahmad on BNN discussing women at the top.'
-      photo-credit = 'Media House'>
-    </full-screen-curtain>
-
-    <div class="container">
-      <section class='row normal'>
         <question>
         So you have an eye to look out for opportunities so that you can work in the kind of style, the way you wanted. 
         </question>
@@ -179,7 +184,7 @@
         So here was an example where I was going around the executive table saying we should maybe build a website, we should do maybe do an online service for kids.</p>
         </answer>
 
-        <callout-with-large-image image='nyla-interview/nyla-cybersurfer.jpg' alternative-text-for-image='Book cover of CyberSurfer'>
+        <callout-with-large-image image='nyla-interview/nyla-cyberSurfer.jpg' alternative-text-for-image='Book cover of CyberSurfer'>
           In 1996, at the dawn of internet age, Nyla wrote a kid-oriented book on the topic of internet.
         </callout-with-large-image>
 
@@ -211,8 +216,9 @@
   <li class='closing'>
     <full-screen-curtain
       image='nyla-interview/nyla-office.jpg'
+      id='atWork'
       title='At work'
-      caption=''
+      caption="Nyla's favorite things on display in her office accumulated from the connections she has made from all walks of life."
       photo-credit='Pam Lau'>
     </full-screen-curtain>
 
