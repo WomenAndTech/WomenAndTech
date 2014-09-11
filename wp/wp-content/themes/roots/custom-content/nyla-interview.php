@@ -191,7 +191,7 @@
         So here was an example where I was going around the executive table saying we should build a website, we should do an online service for kids.</p>
         </answer>
 
-        <callout-with-large-image image='nyla-interview/nyla-cyberSurfer.jpg' alternative-text-for-image='Book cover of CyberSurfer'>
+        <callout-with-large-image image='nyla-interview/nyla-cybersurfer.jpg' alternative-text-for-image='Book cover of CyberSurfer'>
           In 1996, at the dawn of the Internet age, Nyla wrote this book as a kid's guide to the Internet.
         </callout-with-large-image>
 
