@@ -44,7 +44,7 @@
         <div class="span7 interview-panel">
          <h3>What are your working on at Rogers?</h3>
 
-          <p>I am the Vice President of <i>Local Digital</i> at Rogers Communications Inc., where I direct a group of new startups companies that are focused on the local, digital space.  In a big company like Rogers, I would say that I am what’s often called an Intrapreneur - an entrepreneur inside a big company. My job is to quickly incubate and accelerate new businesses within Rogers, to develop an operational discipline to get them to the market and get them growing and scaling really quickly. I am somebody who is responsible for growth, so I have to have a very entrepreneurial spirit.</p>
+          <p>I am the Vice President of Local Digital at <a href="http://www.rogers.com/web/ir/overview/" target="_blank">Rogers Communications Inc.</a>, where I direct a group of new startups companies that are focused on the local, digital space.  In a big company like Rogers, I would say that I am what’s often called an Intrapreneur - an entrepreneur inside a big company. My job is to quickly incubate and accelerate new businesses within Rogers, to develop an operational discipline to get them to the market and get them growing and scaling really quickly. I am somebody who is responsible for growth, so I have to have a very entrepreneurial spirit.</p>
 
           <p>On a personal level, I am a mom and a wife. I have an equally full plate at home so I am always juggling the two.</p>
         
@@ -71,24 +71,30 @@
         </question>
 
         <answer>
-        <p>I am a middle child and the only daughter; I have an older brother and an younger brother. That contributed a lot to me developing the skills to collaborate and be a bit of a peacemaker. I think being the only girl in that environment meant that I often have to do things that boys did. It’s not like I have another sister so I wasn’t living in a girly girly environment. I also grew up in a very cultural diverse family: my father is from Pakistan and my mother is from Finland. Imagine putting all that stuff together at very early age! Fortunately, I am very thankful that I ended up growing up very comfortable in my skin, not afraid or uncomfortable of sticking out or being different.  I was the only girl between brothers; my parents were a kind of a mixture, I was a mixture. </p>
+        <p>I am a middle child and the only daughter; I have an older brother and a younger brother. That contributed a lot to me developing the skills to collaborate and be a bit of a peacemaker. I think being the only girl in that environment meant that I often have to do things that boys did. It’s not like I had another sister so I wasn’t living in a girly girly environment. I also grew up in a very culturally diverse family: my father is from Pakistan and my mother is from Finland. Imagine mixing all that culture at a very early age! Fortunately, I am very thankful that I ended up growing up very comfortable in my skin, not afraid or uncomfortable with sticking out or being different.  I was the only girl between brothers; my parents were a kind of a mixture, I was a mixture. </p>
         </answer>
         
         <pull-quote>
-        I ended up growing up very comfortable in my skin, not afraid or uncomfortable of sticking out or being different.
+        I ended up growing up very comfortable in my skin, not afraid or uncomfortable with sticking out or being different.
         </pull-quote>
 
         <question>Tell us about your career trajectory.</question>
 
         <answer>
-        <p>My career path really mirrors the way the internet itself has moved into different industries. At the time, it probably looked like I was flip-flopping between different industries, but what I realize now is that there was a natural evolution: I was just following where the internet was going, and I tried to develop and bring to market the services that consumer really want.</p>
+        <p>My career path really mirrors the way the Internet itself has moved into different industries. At the time, it probably looked like I was flip-flopping between different industries, but what I realize now is that there was a natural evolution: I was just following where the Internet was going, and I tried to develop and bring to market the services that consumers really want.</p>
 
-        <p>I was in publishing when the internet came along. In the beginning, the Internet was really viewed as a non-publishing platform. When broadband started, then that’s when I shifted to Rogers. Broadband enabled video streaming, so I became very interested in rich media, because it was possible on this new platform. With two-way cable technology, we were able to develop on-demand video.</p>
+        <p>I was in publishing when the Internet came along. In the beginning, the Internet was really viewed as a non-publishing platform. When broadband started, then that’s when I shifted to Rogers. Broadband enabled video streaming, so I became very interested in rich media, because it was possible on this new platform. With two-way cable technology, we were able to develop on-demand video.</p>
 
         <p>Network and software engineers are always pushing the envelope of what technology can do, but the practical business reality is that there has to be an application of that technology to the consumer that is relevant and useful to them. </p>
                 
-        <p>I tend to look at shifts in consumer behavior; it starts off really small, then you started to see enough of it gaining the traction, then it becomes a bit of a data point. Consumer seem to be moving this way.</p>
-        
+        <p>I tend to look at shifts in consumer behavior; it starts off really small, then you start to see enough of it gaining traction, then it becomes a bit of a data point. Consumers are moving in this new direction.</p>
+        </answer>
+
+        <pull-quote>
+        You have to get comfortable with change, not afraid to keep moving forward, even when the horizon is not totally clear.
+        </pull-quote>
+
+        <answer>
         <p>For example, I remember in the beginning, when email first hit the scene, not everyone had an email address. I remember asking people “are you on email?” Today, we are almost getting to a point where email is outdated. People are communicating in a much faster way. I think I have the benefit of having lived through a lot of technological change. When something new hits the scene you think, “Wow, this is great. This is going to be like this forever.” And then, you give it 4-5 years, it evolves, it becomes obsolete or something replaces it. You have to get comfortable with change, not afraid to keep moving forward, even when the horizon is not totally clear.</p>
         </answer>
 
@@ -110,7 +116,7 @@
         <question>How did you go about following your interest in technology early on? Did you try to look for a job that is similar to where the trend is going?</question>
 
         <answer>
-        <p>Every job I’ve had has been very different to the job I was hired to do. I kind of make this opportunity happen. In a publishing group, where we would focus on print publishing, I would be the one saying “we should really be paying attention to what’s happening on the internet, we should have a website” Before I know it, I have moved into a digital role. When there is technological change in its early stage, it’s often people from within a company that start to dabble with the technology as a side project and it really takes off and becomes a job.
+        <p>Every job I’ve had has been very different to the job I was hired to do. I kind of make this opportunity happen. In a publishing group, where we would focus on print publishing, I would be the one saying “we should really be paying attention to what’s happening on the Internet, we should have a website.” Before I knew it, I have moved into a digital role. When there is technological change in its early stage, it’s often people from within a company that start to dabble with the technology as a side project and it really takes off and becomes a job.
         </p>
         </answer>
 
@@ -128,20 +134,20 @@
 
         <answer>
         <p>What you have to be really good at is understanding why people are rejecting [your ideas]; what is it they are afraid of? What is it they don’t understand? What additional information can you provide to make them more comfortable?</p>
-        <p>You need a lot of empathy to really dig deeper. If you really believe this is the direction that the team should go in, you have to be really persistent in your approach to figuring out what it is going to take to get people to see what you see. Along the way you may uncover, as I have many times, that their concerns are very valid. At those times, it forced me to go back and re-evaluate an idea or collect more data.</p>
+        <p>You need a lot of empathy to really dig deeper. If you really believe this is the direction that the team should go in, you have to be really persistent in your approach to figuring out what it is going to take to get people to see what you see. Along the way you may uncover, as I have many times, that their concerns are very valid. During those times, I am forced to go back and re-evaluate an idea or collect more data.</p>
         </answer>
 
         <question>
-        Have you found being a woman challenging in terms of being able to push forward your ideas? 
+        Have you found being a woman challenging in terms of being able to push forward with your ideas? 
         </question>
 
         <callout-with-large-image image='nyla-interview/nyla-talk-on-bnn.jpg' alternative-text-for-image='nyla-talk on bnn'>
-          Jay Rosenzweig and Nyla Ahmad on <a href='https://www.youtube.com/watch?v=Iql_ElEll-0'>Business News Network</a> discussing women at the top.
+          Jay Rosenzweig and Nyla Ahmad on <a href='https://www.youtube.com/watch?v=Iql_ElEll-0' target="_blank">Business News Network</a> discussing women at the top.
         </callout-with-large-image>
 
         <answer>
-        <p>I remember a few years ago having lunch with the editor-in-chief for a series of women’s magazines. His magazine was staffed largely by women. A lot of his leadership team was female. He was complaining to me about how difficult it was to be the only man in the room. I laughed at that. In any kind of minority position, you always feel a bit disadvantaged. Your hill is just that much steeper to keep climbing. I have been able to persevere through all of that; I have just always been very focused on and passionate about the area that I want to champion in the emergent technology.</p>
-        <p>I don’t think there is necessary a male or female approach when it comes to driving innovation. You can’t do it in a vacuum. The best idea <i>will never come from someone sitting alone in their office. You have to go out there and talk to a lot of people.</i></p>
+        <p>I remember a few years ago having lunch with the editor-in-chief for a series of women’s magazines. His magazine was staffed largely by women. A lot of his leadership team was female. He was complaining to me about how difficult it was to be the only man in the room. I laughed at that. In any kind of minority position, you always feel a bit disadvantaged. Your hill is just that much steeper to climb. I have been able to persevere through all of that; I have just always been very focused on and passionate about the area that I want to champion in the emergent technology.</p>
+        <p>I don’t think there is necessary a male or female approach when it comes to driving innovation. You can’t do it in a vacuum. The best idea will never come from someone sitting alone in their office. You have to go out there and talk to a lot of people.</p>
         </answer>
 
 
@@ -151,11 +157,11 @@
 
         <answer>
         <p>When I look back at it now, my natural aptitude is to just gravitate towards the next thing, the next emerging thing. I am curious about what’s around the corner and I am not afraid to work in an ill-defined white space. </p>
-        <p>I am very comfortable in defining white space. I don’t need to see a very detailed road map in order for me to keep going. I sort of figure things out as I go. </p>
+        <p>I am very comfortable defining white space. I don’t need to see a detailed road map in order to keep going. I figure things out as I go. </p>
         </answer>
 
         <pull-quote>
-        I am very comfortable in defining white space. I don’t need to see a very detailed road map in order for me to keep going. I sort of figure things out as I go. 
+        I am very comfortable defining white space. I don’t need to see a detailed road map in order to keep going. I figure things out as I go. 
         </pull-quote>
 
         <answer>
@@ -169,32 +175,32 @@
         </question>
 
         <answer>
-        <p>When the internet first emerged in the mid-90s, most of the popular press was saying children should not go online. They were claiming there were cyber stalkers and you shouldn’t let your kids run free on the internet. I really believed that Canada as a country was going to be very wired because of our geography and creating a population that was very tech savvy could be a differentiator as a country. </p>
+        <p>When the Internet first emerged in the mid-90s, most of the popular press was saying children should not go online. They were claiming there were cyber stalkers and you shouldn’t let your kids run free on the Internet. I really believed that Canada as a country was going to be very wired because of our geography and creating a population that was very tech savvy could be a differentiator as a country. </p>
         </answer>
 
         <callout-with-large-image image='nyla-interview/nyla-owl-chickadee-chirp.jpg' alternative-text-for-image='Owl and chickaDEE magazine'>
-          OWL magazine is a popular Canadian children’s magazine founded in 1976. OWL stands for “Outdoors and Wild Life.” chickaDEE is a sister publication founded in 1979 serving younger readers.
+          <a href="http://www.owlkids.com/magazines/owl/" target="_blank">OWL magazine</a> is a popular Canadian children’s magazine founded in 1976. OWL stands for “Outdoors and Wild Life.” chickaDEE is a sister publication founded in 1979 serving younger readers.
         </callout-with-large-image>
 
         <answer>
-        <p>At the time I was working as the editor-in-chief of OWL, chickaDEE and Chirp magazines, and I became very interested in the emergence of the internet. As an editor of children’s print magazines, I really felt the internet was important for children because they are the generation who are going to grow up with this technology. </p>
+        <p>At the time I was working as the editor-in-chief of OWL, chickaDEE and Chirp magazines, and I became very interested in the emergence of the Internet. As an editor of children’s print magazines, I really felt the Internet was important for children because they are the generation who are going to grow up with this technology. </p>
         </answer>
 
         <answer>
-        <p>We were a very well respected children educational publishing brand. We had the opportunity to really champion the internet and advocate it, but do it very responsively. 
+        <p>We were a very well respected children educational publishing brand. We had the opportunity to really champion the Internet and advocate it, but do it very responsively. 
         So here was an example where I was going around the executive table saying we should build a website, we should do an online service for kids.</p>
         </answer>
 
         <callout-with-large-image image='nyla-interview/nyla-cyberSurfer.jpg' alternative-text-for-image='Book cover of CyberSurfer'>
-          In 1996, at the dawn of internet age, Nyla wrote a kid-oriented book on the topic of internet.
+          In 1996, at the dawn of the Internet age, Nyla wrote this book as a kid's guide to the Internet.
         </callout-with-large-image>
 
         <answer>
-        <p>It’s difficult to understand, this was really, really early. Most of the people I was talking to had not been on the internet. What we ended up doing was writing a book called <a href="http://www.amazon.ca/Cybersurfer-The-Internet-Guide-Kids/dp/1895688507">CyberSurfer</a>. It was a kid’s guide to the internet that explained what the internet was, how it worked and how you can use it. It was designed for kids, but had a lot of factual information about the technology itself.</p>
+        <p>It’s difficult to understand, this was really, really early. Most of the people I was talking to had not been on the Internet. What we ended up doing was writing a book called <a href="http://www.amazon.ca/Cybersurfer-The-Internet-Guide-Kids/dp/1895688507" target="_blank">CyberSurfer</a>. It was a kid’s guide to the Internet that explained what the Internet was, how it worked and how you can use it. It was designed for kids, but had a lot of factual information about the technology itself.</p>
         </answer>
 
         <answer>
-        <p>At the back of the book was a disc with a bookmark file which collected hundreds of websites that were good for kids. This was before search engines so it was a lot of effort to go find all these websites. The book and interactive disc package became a huge success because kids were looking for endorsement to allow them to go online and parents were really happy that the publishers of OWL were putting these safe websites together. Kids used the disk, but the irony is the book itself was read mostly by the adults. I realize that explaining the internet almost at the level of a child was what a lot of these adults needed in order to get comfortable with the internet. I think that’s an example of being able to to see the direction things were going. The company became the leader in digital at that time because we took the first step.</p>
+        <p>At the back of the book was a disc with a bookmark file which collected hundreds of websites that were good for kids. This was before search engines so it was a lot of effort to go find all these websites. The book and interactive disc package became a huge success because kids were looking for endorsement to allow them to go online and parents were really happy that the publishers of OWL were putting these safe websites together. Kids used the disk, but the irony is the book itself was read mostly by the adults. I realize that explaining the Internet almost at the level of a child was what a lot of these adults needed in order to get comfortable with the Internet. I think that’s an example of being able to to see the direction things were going. The company became the leader in digital at that time because we took the first step.</p>
         </answer>
 
 
@@ -209,7 +215,7 @@
       image='nyla-interview/nyla-office.jpg'
       id='atWork'
       title='At work'
-      caption="Nyla's favorite things on display in her office accumulated from the connections she has made from all walks of life."
+      caption="Nyla's favorite things on display in her office, accumulated from the connections she has made from all walks of life."
       photo-credit='Pam Lau'>
     </full-screen-curtain>
 
@@ -226,19 +232,45 @@
         </answer>
 
         <pull-quote>
-        When I encounter people in the work environment, I like to meet people who have broader context to them other than just what they do at work. 
+        I like to meet people who have broader context to them other than just what they do at work. 
         </pull-quote>
 
         <answer>
-        <p>Today when I encounter people in the work environment, I like to meet people who have broader context to them other than just what they do at work.  These people bring in other references and perspectives and so have a better chance of connecting the dots in all this emerging technology space. </p>
+        <p>Today when I encounter people in the work environment, I like to meet people who have broader context to them other than just what they do at work.  These people bring in other references and perspectives and so have a better chance of connecting the dots in all this emerging technology space. <span class="full-stop"><img src="http://womenandtech.com/assets/img/full-stop.png"></span></p>
         </answer>
 
+      </section>
+
+      <section class="row contains-questions">
+          <div class="span8 offset3">
+            <div class="row-fluid callout-question">
+              <div class="span12" id="question-prompt">
+                <h3 id="without-knowing-who-they-are-please-pose-a-question-for-our-next-interviewee">Without knowing who they are, please pose a question for our next interviewee.</h3>
+              </div>
+              <div id="question-details">
+                <div id="profile-image">
+                  <img
+                    src="<?php echo get_home_url(); ?>/assets/img/nyla-interview/img-square-nyla.jpg" />
+                </div>
+                <h4>How do you lead or build a team of smart people?</h4>
+                <div id='quote-mark'>
+                  <img src="<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png" /></div>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="span12" id="call-to-action">
+                <p>
+                  Be sure to check back next time (or <a href="#subscribe" title="Subscribe form" target="_blank">subscribe below</a>) for Nyla's answer to this question.
+                </p>
+              </div>
+            </div>
+          </div>
       </section>
 
       <section class="row contains-credits">
           <div class="span8 offset3 credits-panel">
             <h4>Credits</h4>
-            <p>This interview is thanks to the hard work on many volunteers. Can you help with the next one? <a href="mailto:volunteer@womenandtech.com">Email us.</a></p>
+            <p>This interview is thanks to the hard work on many volunteers. Can you help with the next one? <a href="mailto:volunteer@womenandtech.com" target="_blank">Email us.</a></p>
             <div class="credits">
               <p>
                 <strong>Interview</strong><em> by</em>
@@ -250,11 +282,11 @@
               </p>
               <p>
                 <strong>Editing</strong><em> by</em>
-                <a href="http://twitter.com/brttb">Brett Bergmann</a> and <a href="http://www.ivonnekaramoy.com/">Ivonne Karamoy</a>
+                <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a> and <a href="http://www.ivonnekaramoy.com/" target="_blank">Ivonne Karamoy</a>
               </p>
               <p>
                 <strong>Design</strong><em> by</em>
-                <a href="https://twitter.com/CassKaiser">CASSIE KAISER</a> 
+                <a href="https://twitter.com/CassKaiser" target="_blank">CASSIE KAISER</a> 
               </p>
               <p>
                 <strong>Development</strong><em> by</em>
