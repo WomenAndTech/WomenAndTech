@@ -1,4 +1,4 @@
-var LOCALPATH = "http://localhost:8888";
+var LOCALPATH = "http://localhost:8888/WomenAndTech/wp";
 var DEVPATH = "http://dev.womenandtech.com";
 var PRODPATH = "http://womenandtech.com";
 
@@ -12,7 +12,7 @@ angular.module('womenAndTech', [])
 							"<aside class='quote'>"+
 							  "<h2 ng-transclude></h2>"+
 							"</aside>"+
-						"<div class='quote-mark'><img src='"+PATH+"/WomenAndTech/wp/assets/img/quote-mark.png' /></div>"+
+						"<div class='quote-mark'><img src='"+PATH+"/assets/img/quote-mark.png' /></div>"+
 					   "</div>"
 		};
 	})
@@ -27,7 +27,7 @@ angular.module('womenAndTech', [])
 			template: " <div class='span4 photo-callout notable-person'>"+
 				            "<figure class='first-row'>"+
 				              "<div class='arrow'></div>"+
-				              "<img ng-src='"+PATH+"/WomenAndTech/wp/assets/img/{{image}}' alt='{{alternativeTextForImage}}'/>"+
+				              "<img ng-src='"+PATH+"/assets/img/{{image}}' alt='{{alternativeTextForImage}}'/>"+
 				              "<figcaption class='clear'>"+
 				                "<p ng-transclude></p>"+
 				              "</figcaption>"+
@@ -57,7 +57,7 @@ angular.module('womenAndTech', [])
 					            "</aside>"+
 					          "</div>"+
 					        "</div>"+
-					        "<img ng-src='"+PATH+"/WomenAndTech/wp/assets/img/{{image}}'/>"+
+					        "<img ng-src='"+PATH+"/assets/img/{{image}}'/>"+
 					        "<div class='photo-credit light'>"+
 					          "Photo credit: {{photoCredit}}"+
 					        "</div>"+
