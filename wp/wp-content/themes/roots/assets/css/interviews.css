@@ -658,6 +658,18 @@
     margin: 0;
 }
 
+/* Small Image */
+.photo-callout.small-image img{
+    float: left;
+    width: 32%;
+    padding-right: 7%;
+}
+
+.photo-callout.small-image figcaption{
+    padding-top: 0;
+    display: inline;
+}
+
 /* Credits */
 .credits-panel {
     border-top: solid 1px #bbb;
