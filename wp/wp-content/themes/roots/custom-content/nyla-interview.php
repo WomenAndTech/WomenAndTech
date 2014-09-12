@@ -42,7 +42,7 @@
           <div id="start-animation" style="width: 300px; height: 90px" class="swiffy"></div>
         </div>
         <div class="span7 interview-panel">
-         <h3>What are your working on at Rogers?</h3>
+         <h3>What are you working on at Rogers?</h3>
 
           <p>I am the Vice President of Local Digital at <a href="http://www.rogers.com/web/ir/overview/" target="_blank">Rogers Communications Inc.</a>, where I direct a group of new startups companies that are focused on the local, digital space.  In a big company like Rogers, I would say that I am what’s often called an Intrapreneur - an entrepreneur inside a big company. My job is to quickly incubate and accelerate new businesses within Rogers, to develop an operational discipline to get them to the market and get them growing and scaling really quickly. I am somebody who is responsible for growth, so I have to have a very entrepreneurial spirit.</p>
 
@@ -95,7 +95,7 @@
         </pull-quote>
 
         <answer>
-        <p>For example, I remember in the beginning, when email first hit the scene, not everyone had an email address. I remember asking people “are you on email?” Today, we are almost getting to a point where email is outdated. People are communicating in a much faster way. I think I have the benefit of having lived through a lot of technological change. When something new hits the scene you think, “Wow, this is great. This is going to be like this forever.” And then, you give it 4-5 years, it evolves, it becomes obsolete or something replaces it. You have to get comfortable with change, not afraid to keep moving forward, even when the horizon is not totally clear.</p>
+        <p>For example, I remember in the beginning, when email first hit the scene, not everyone had an email address. I remember asking people, “Are you on email?” Today, we are almost getting to a point where email is outdated. People are communicating in a much faster way. I think I have the benefit of having lived through a lot of technological change. When something new hits the scene you think, “Wow, this is great. This is going to be like this forever.” And then, you give it 4-5 years, it evolves, it becomes obsolete or something replaces it. You have to get comfortable with change, not afraid to keep moving forward, even when the horizon is not totally clear.</p>
         </answer>
 
       </section>
@@ -113,10 +113,10 @@
     <div class="container">
       <section class='row normal'>
 
-        <question>How did you go about following your interest in technology early on? Did you try to look for a job that is similar to where the trend is going?</question>
+        <question>How did you go about following your interest in technology early on? Did you try to look for a job that was similar to where the trend was going?</question>
 
         <answer>
-        <p>Every job I’ve had has been very different to the job I was hired to do. I kind of make this opportunity happen. In a publishing group, where we would focus on print publishing, I would be the one saying “we should really be paying attention to what’s happening on the Internet, we should have a website.” Before I knew it, I have moved into a digital role. When there is technological change in its early stage, it’s often people from within a company that start to dabble with the technology as a side project and it really takes off and becomes a job.
+        <p>Every job I’ve had has been very different to the job I was hired to do. I kind of make this opportunity happen. In a publishing group, where we would focus on print publishing, I would be the one saying, “We should really be paying attention to what’s happening on the Internet, we should have a website.” Before I knew it, I have moved into a digital role. When there is technological change in its early stage, it’s often people from within a company that start to dabble with the technology as a side project and it really takes off and becomes a job.
         </p>
         </answer>
 
@@ -125,7 +125,7 @@
         </question>
 
         <answer>
-        <p>It’s never easy to convince a change in the established way of thinking. People generally don’t like change, they don’t like to take on additional risk. With emerging technology, you can’t really button down what the opportunity is going to be into dollars and cents. You have to kind of just go, take a leap of faith and believe that your success will depend on your ability to execute. </p>
+        <p>It’s never easy to convince a change in the established way of thinking. People generally don’t like change, they don’t like to take on additional risk. With emerging technology, you can’t really pin point what the opportunity is going to be into dollars and cents. You have to kind of just go, take a leap of faith and believe that your success will depend on your ability to execute. </p>
         </answer>
 
         <pull-quote>
@@ -200,7 +200,7 @@
         </answer>
 
         <answer>
-        <p>At the back of the book was a disc with a bookmark file which collected hundreds of websites that were good for kids. This was before search engines so it was a lot of effort to go find all these websites. The book and interactive disc package became a huge success because kids were looking for endorsement to allow them to go online and parents were really happy that the publishers of OWL were putting these safe websites together. Kids used the disk, but the irony is the book itself was read mostly by the adults. I realize that explaining the Internet almost at the level of a child was what a lot of these adults needed in order to get comfortable with the Internet. I think that’s an example of being able to to see the direction things were going. The company became the leader in digital at that time because we took the first step.</p>
+        <p>At the back of the book was a disc with a bookmark file which collected hundreds of websites that were good for kids. This was before search engines so it was a lot of effort to go find all these websites. The book and interactive disc package became a huge success because kids were looking for endorsement to allow them to go online and parents were really happy that the publishers of OWL were putting these safe websites together. Kids used the disk, but the irony is the book itself was read mostly by the adults. I realized that explaining the Internet almost at the level of a child was what a lot of these adults needed in order to get comfortable with the Internet. I think that’s an example of being able to to see the direction things were going. The company became the leader in digital at that time because we took the first step.</p>
         </answer>
 
 
