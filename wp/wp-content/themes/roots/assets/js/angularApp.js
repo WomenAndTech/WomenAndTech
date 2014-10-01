@@ -115,7 +115,7 @@ angular.module('womenAndTech', [])
 			template: "<div class='span7 offset4 interview-panel' ng-transclude>"+
          			"</div>"
 		}
-	}).directive('question-for-next-interviewee', function() {
+	}).directive('questionForNextInterviewee', function() {
 		return {
 			transclude: true,
 			image: '@',
