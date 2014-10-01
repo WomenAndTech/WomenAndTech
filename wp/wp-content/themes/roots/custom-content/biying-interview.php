@@ -132,7 +132,7 @@
 
         <question>You went to school with co-founder Matt Compeau. Now you share a home and a company together. What are some of the rewards and challenges of working so closely with your partner?</question>
 
-        <notable-person image=”biying-interview/biying-matt-compeau.jpg”>
+        <notable-person image="biying-interview/biying-matt-compeau.jpg">
         <h3>Matt Compeau</h3>
         <p>Matt Compeau is co-founder of Hot Pop Factory with Biying. He was also trained as an Architect and is a digital fabrication specialist and computational designer.</p>
         </notable-person>
@@ -145,7 +145,7 @@
 
         <question>Do you have any mentors or is there anyone whose work inspires you?</question>
 
-        <notable-person image=”biying-interview/biying-iris-van-herpen.jpg”>
+        <notable-person image="biying-interview/biying-iris-van-herpen.jpg">
         <h3>Iris Van Herpen</h3>
         <p>Iris Van Herpen is an unconventional fashion designer based in the Netherlands.</p>
         </notable-person>
