@@ -143,4 +143,4 @@ angular.module('womenAndTech', [])
 			            "</div>"+
 			          "</div>"
 		}
-	}).
+	});
