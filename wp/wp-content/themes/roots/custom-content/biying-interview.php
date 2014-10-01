@@ -61,7 +61,7 @@
         <p>Because digital fabrication has the capacity to realize a wide variety of ideas, our projects tend to range a lot in size, application, and industry - from designers, to brands, to hardware startups. I tell my parents that I make things with robots. That’s kind of a whimsical way of describing the nitty-gritty, but they’re always intrigued.</p>
         </answer>
 
-        <question>Hot Pop Factory offers <a href=”http://www.hotpopfactory.com/workshops/” target="_blank">workshops</a> to people interested in learning more about digital fabrication. Who seems most interested in and receptive to these workshops?</question>
+        <question>Hot Pop Factory offers <a href="http://www.hotpopfactory.com/workshops/" target="_blank">workshops</a> to people interested in learning more about digital fabrication. Who seems most interested in and receptive to these workshops?</question>
 
         <callout-without-image>
         Since our interview with Biying, the scope and range of workshops at the studio has evolved. Check out The Hot Pop Factory <a href=”http://www.hotpopfactory.com/workshops/” target="_blank">Workshop schedule</a> to see what they’re up to.
@@ -72,7 +72,7 @@
         </answer>
 
 
-        <question>You received a bachelor’s degree from the <a href=”https://uwaterloo.ca/architecture/” target="_blank">School of Architecture at the University of Waterloo</a>. I’m curious about your previous exposure to digital fabrication and 3D technologies while you were in school.</question>
+        <question>You received a bachelor’s degree from the <a href="https://uwaterloo.ca/architecture/" target="_blank">School of Architecture at the University of Waterloo</a>. I’m curious about your previous exposure to digital fabrication and 3D technologies while you were in school.</question>
          
         <answer>
         <p>The design process for an architect always includes making scaled models before construction because you’re often dealing with large buildings and big budgets. We used digital fabrication to translate our drawings, which lived in the computer, into physical reality as scaled 3D-printed models. When I was going to school this was still a really expensive technology, so we only used it for big budget projects. Otherwise we would make the models by hand. Throughout my architecture career, I began to see the transition from completely hand-made models to digitally fabricated ones. That became a real fascination for me, because it can be quite tedious trying to build curves with 2D pieces of card. As the technology improved, we were making finished products rather than just prototypes or scaled models. This was when I began to transition into creating 3D printed products by Hot Pop Factory.</p>
@@ -93,7 +93,7 @@
         </answer>
 
         <callout-with-large-image image="biying-interview/biying-apple-watch.jpg" alternative-text-for-image="Biying foresight on wearable technologies">
-        We are impressed by Biying’s foresight. Her response on the future of wearable technologies preceded the announcement of the <a href=”https://www.apple.com/watch/” target="_blank">Apple watch</a> by 4 months.
+        We are impressed by Biying’s foresight. Her response on the future of wearable technologies preceded the announcement of the <a href="https://www.apple.com/watch/" target="_blank">Apple watch</a> by 4 months.
         </callout-with-large-image>
 
         <answer>
@@ -106,7 +106,7 @@
         <p>Manufacturing or any industry that has a need for hyper customization is eager to incorporate digital fabrication into production. Fashion designers, jewelry designers, and even advertising agencies are exploring custom-branded experiences. One area I really believe in is the medical application, and 3D printed prosthetics, which have incredible value. It makes economic sense in terms of how much it costs to produce versus how much it’s sold for. It makes practical sense, because amputees need a customized product to fit their body. Prosthetics are customized to an extent, but not really personalized at all. If we could create a 3D printed limb that is a scan of someone’s existing limb, its look and function may be a vast improvement and those who need prosthetics may have greater creative control over how their limb looks and feels. These are the kinds of applications I’m looking forward to, whereas a 3D printed chair may not make very much sense. I could go to Ikea and get some really nice chairs for a fraction of the cost. There are things that make sense right now, and things that don’t.</p> 
 
         <p>
-        Most recently, we have been working with a lot of hardware and wearable tech startups. We found that a lot of early stage companies have talented engineers and developers on the team but not always an industrial designer or manufacturing lead. This is where we step in and take advantage of the power of digital fabrication to help clients develop iterative prototypes, an MVP [Minimum Viable Product], and line up short-run manufacturing for their first round of production. In fact, we have seen enough of a need for this type of services that we put on a <a href=”http://www.hotpopfactory.com/workshops/hardware-startup-workshop/ target="_blank">Hardware Startup Workshop</a> at MaRS on September 27th to address many of these challenges in a group format along with a roster of industry experts. </a>
+        Most recently, we have been working with a lot of hardware and wearable tech startups. We found that a lot of early stage companies have talented engineers and developers on the team but not always an industrial designer or manufacturing lead. This is where we step in and take advantage of the power of digital fabrication to help clients develop iterative prototypes, an MVP [Minimum Viable Product], and line up short-run manufacturing for their first round of production. In fact, we have seen enough of a need for this type of services that we put on a <a href="http://www.hotpopfactory.com/workshops/hardware-startup-workshop/" target="_blank">Hardware Startup Workshop</a> at MaRS on September 27th to address many of these challenges in a group format along with a roster of industry experts. </a>
         </p>
         </answer>
 
@@ -154,7 +154,7 @@
         <p>Iris Van Herpen’s work is truly inspiring. Textile work is this magical way of gathering single units which, when added up, become something completely different. This signature aspect of digital fabrication is what attracted me to 3D printing too; one simple motion repeated many, many times. The act of repeating motions and layering smaller pieces that link together can be a beautiful metaphor for operating a small business and building something up from scratch.</p>
         </answer>
 
-        <notable-person image=”biying-interview/biying-janna-levitt.jpg>
+        <notable-person image="biying-interview/biying-janna-levitt.jpg">
         <h3>Janna Levitt</h3>
         Janna Levitt is a Partner at LGA Architectural Partners and Professor at the University of Waterloo and Dalhousie University Schools of Architecture.
         </notable-person>
@@ -174,7 +174,7 @@
       </section>
 
       <section class="row contains-questions">
-          <question-for-next-interviewee image=”biying-interview/img-square-biying.jpg” firstname=”Biying”>
+          <question-for-next-interviewee image="biying-interview/img-square-biying.jpg" firstname="Biying">
           What has been the most unexpected lesson to come out of being an entrepreneur?
           </question-for-next-interviewee>
       </section>
@@ -197,7 +197,8 @@
               </p>
               <p>
                 <strong>Art Direction</strong><em> by</em>
-                <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>            </p>
+                <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>            
+              </p>
               <p>
                 <strong>Design</strong><em> by</em>
                 <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>
