@@ -64,7 +64,7 @@
         <question>Hot Pop Factory offers <a href="http://www.hotpopfactory.com/workshops/" target="_blank">workshops</a> to people interested in learning more about digital fabrication. Who seems most interested in and receptive to these workshops?</question>
 
         <callout-without-image>
-        Since our interview with Biying, the scope and range of workshops at the studio has evolved. Check out The Hot Pop Factory <a href=”http://www.hotpopfactory.com/workshops/” target="_blank">Workshop schedule</a> to see what they’re up to.
+        Since our interview with Biying, the scope and range of workshops at the studio has evolved. Check out The Hot Pop Factory <a href="http://www.hotpopfactory.com/workshops/" target="_blank">Workshop schedule</a> to see what they’re up to.
         </callout-without-image>
 
         <answer>
@@ -81,7 +81,7 @@
         <question>Given the ubiquity of digital technology in our everyday lives, what are your hopes or predictions for the future of 3D technologies?</question>
 
         <answer>
-        <p>The transient nature of the way we take in information is going to start infiltrating the physical world. We’re used to scrolling through tons of information that is updated every second. Just like your news feed can be personalized to display exactly what you want to see, the products we own will be customized to fit our bodies and personality perfectly. Digital fabrication allows for a physical reality that’s much more transient, dynamic, and customized by the individual. You may wish to never wear the same shirt more than once. Our wardrobes could be just as dynamic as our Facebook feed.<p>
+        <p>The transient nature of the way we take in information is going to start infiltrating the physical world. We’re used to scrolling through tons of information that is updated every second. Just like your news feed can be personalized to display exactly what you want to see, the products we own will be customized to fit our bodies and personality perfectly. Digital fabrication allows for a physical reality that’s much more transient, dynamic, and customized by the individual. You may wish to never wear the same shirt more than once. Our wardrobes could be just as dynamic as our Facebook feed.</p>
         </answer>
 
         <pull-quote>We’ll see fewer gadgets, and more integration with the body… Fashion is really important because it’s one of the closest things to you.</pull-quote>
