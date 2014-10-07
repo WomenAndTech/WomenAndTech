@@ -2,7 +2,7 @@ var LOCALPATH = "http://localhost:8888/WomenAndTech/wp";
 var DEVPATH = "http://dev.womenandtech.com";
 var PRODPATH = "http://womenandtech.com";
 
-var PATH = PRODPATH;
+var PATH = DEVPATH;
 
 angular.module('womenAndTech', [])
 	.directive('pullQuote', function() {
@@ -102,20 +102,31 @@ angular.module('womenAndTech', [])
 					      "</div>"+
 					    "</div>"
 		}
-	}).directive('question', function() {
+	})
+	.directive('question', function() {
 		return {
 			transclude: true,
 			template: "<div class='span7 offset4 interview-panel'>"+
          				"<h3 ng-transclude></h3>"+
          			"</div>"
 		}
-	}).directive('answer', function() {
+	})
+    .directive('firstQuestion', function() {
 		return {
 			transclude: true,
-			template: "<div class='span7 offset4 interview-panel' ng-transclude>"+
+			template: "<div class='span7 interview-panel'>"+
+         				"<h3 ng-transclude></h3>"+
          			"</div>"
 		}
-	}).directive('questionForNextInterviewee', function() {
+	})
+	.directive('firstAnswer', function() {
+		return {
+			transclude: true,
+			template: "<div class='span7 interview-panel' ng-transclude>"+
+         			"</div>"
+		}
+	})
+	.directive('questionForNextInterviewee', function() {
 		return {
 			transclude: true,
 			image: '@',
