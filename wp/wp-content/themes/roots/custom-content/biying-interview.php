@@ -29,7 +29,7 @@
       </section>
     </div><!-- interview-intro -->
     <div id="portrait" class="fullscreen">
-      <img src="<?php echo get_home_url(); ?>/assets/img/nyla-interview/biying-miao-featured.jpg" alt="Biying Miao Profile"/>
+      <img src="<?php echo get_home_url(); ?>/assets/img/biying-interview/biying-miao-featured.jpg" alt="Biying Miao Profile"/>
       <div class="photo-credit">
         Photo credit:
         <a href="http://twitter.com/itsamanda_h" target="_blank">Amanda Huang</a>
