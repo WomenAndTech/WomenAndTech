@@ -111,6 +111,13 @@ angular.module('womenAndTech', [])
          			"</div>"
 		}
 	})
+    .directive('answer', function() {
+		return {
+			transclude: true,
+			template: "<div class='span7 offset4 interview-panel' ng-transclude>"+
+         			"</div>"
+		}
+	})
     .directive('firstQuestion', function() {
 		return {
 			transclude: true,
