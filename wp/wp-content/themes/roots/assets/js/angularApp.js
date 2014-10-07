@@ -145,11 +145,11 @@ angular.module('womenAndTech', [])
 			              "</div>"+
 			              "<div id='question-details'>"+
 			                "<div id='profile-image'>"+
-			                  "<img src='<?php echo get_home_url(); ?>/assets/img/{{image}}' />"+
+			                  "<img src='"+PATH+"/assets/img/{{image}}' />"+
 			                "</div>"+
 			                "<h4 ng-transclude></h4>"+
 			                "<div id='quote-mark'>"+
-			                  "<img src='<?php echo get_home_url(); ?>/assets/img/quote-mark-small.png' /></div>"+
+			                  "<img src='"+PATH+"/assets/img/quote-mark-small.png' /></div>"+
 			              "</div>"+
 			            "</div>"+
 			            "<div class='row-fluid'>"+
