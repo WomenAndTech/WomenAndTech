@@ -2,7 +2,7 @@ var LOCALPATH = "http://localhost:8888/WomenAndTech/wp";
 var DEVPATH = "http://dev.womenandtech.com";
 var PRODPATH = "http://womenandtech.com";
 
-var PATH = PRODPATH;
+var PATH = DEVPATH;
 
 angular.module('womenAndTech', [])
 	.directive('pullQuote', function() {
