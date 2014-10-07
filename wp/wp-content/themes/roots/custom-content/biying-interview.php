@@ -78,6 +78,22 @@
         <p>The design process for an architect always includes making scaled models before construction because you’re often dealing with large buildings and big budgets. We used digital fabrication to translate our drawings, which lived in the computer, into physical reality as scaled 3D-printed models. When I was going to school this was still a really expensive technology, so we only used it for big budget projects. Otherwise we would make the models by hand. Throughout my architecture career, I began to see the transition from completely hand-made models to digitally fabricated ones. That became a real fascination for me, because it can be quite tedious trying to build curves with 2D pieces of card. As the technology improved, we were making finished products rather than just prototypes or scaled models. This was when I began to transition into creating 3D printed products by Hot Pop Factory.</p>
         </answer>
 
+      </section>
+
+    </div>
+  </li>
+  <li class='regular'>
+    <full-screen-curtain
+      image='biying-interview/biying-miao-hot-pop.jpg'
+        id='printer'
+        title='MakerBot'
+        caption="Hot Pop Factory’s MakerBot 3D printer in the studio."
+        photo-credit='Amanda Huang'>
+    </full-screen-curtain>
+
+    <div class="container">
+      <section class='row normal'>
+
         <question>Given the ubiquity of digital technology in our everyday lives, what are your hopes or predictions for the future of 3D technologies?</question>
 
         <answer>
@@ -119,6 +135,22 @@
 
         <p>I think balance is a constant challenge for every entrepreneur out there. If it’s not, I want to know what the secret is. When I’m at the studio I need to make a conscious decision to stop working at some point and just get out of the office. I try to go for a walk each day, which I find helps to re-set things and give me some time to reflect. Sometimes you’re so deep in the trenches that it’s easy to say, “I gotta just keep working”. It’s terribly difficult to let go.</p>
         </answer>
+
+     </section>
+
+    </div>
+  </li>
+  <li class='regular'>
+    <full-screen-curtain
+      image='biying-interview/biying-miao-studio.jpg'
+      id='studio'
+      title='The Studio'
+      caption='Co-founder Matt Compeau works on a project at the Hot Pop Factory design studio located inside the CSI building on Spadina Ave. in Toronto.'
+      photo-credit='Hot Pop Factory'>
+    </full-screen-curtain>
+
+    <div class="container">
+      <section class='row normal'>
 
         <question>You went to school with co-founder Matt Compeau. Now you share a home and a company together. What are some of the rewards and challenges of working so closely with your partner?</question>
 
