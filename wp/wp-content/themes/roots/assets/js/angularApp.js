@@ -89,7 +89,7 @@ angular.module('womenAndTech', [])
 					        "<div class='container'>"+
 					          "<div class='info-panel' id={{id}} ng-show='title.length !== 0'>"+
 					            "<aside>"+
-					              "<div class='arrow left'></div>"+
+					              "<div class='arrow right'></div>"+
 					              "<h3>{{title}}</h3>"+
 					              "<p class='last'>{{caption}}</p>"+
 					            "</aside>"+
@@ -136,8 +136,10 @@ angular.module('womenAndTech', [])
 	.directive('questionForNextInterviewee', function() {
 		return {
 			transclude: true,
-			image: '@',
-			firstname: '@',
+			scope: {
+				image: '@',
+			    firstname: '@',
+			},
 			template: "<div class='span8 offset3'>"+
 			            "<div class='row-fluid callout-question'>"+
 			              "<div class='span12' id='question-prompt'>"+
@@ -145,11 +147,12 @@ angular.module('womenAndTech', [])
 			              "</div>"+
 			              "<div id='question-details'>"+
 			                "<div id='profile-image'>"+
-			                  "<img src='"+PATH+"/assets/img/{{image}}' />"+
+			                  "<img ng-src='"+PATH+"/assets/img/{{image}}'/>"+
 			                "</div>"+
 			                "<h4 ng-transclude></h4>"+
 			                "<div id='quote-mark'>"+
-			                  "<img src='"+PATH+"/assets/img/quote-mark-small.png' /></div>"+
+			                  "<img ng-src='"+PATH+"/assets/img/quote-mark-small.png' />"+
+			                "</div>"+
 			              "</div>"+
 			            "</div>"+
 			            "<div class='row-fluid'>"+

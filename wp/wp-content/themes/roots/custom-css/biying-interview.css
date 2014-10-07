@@ -24,14 +24,14 @@ Biying Interview Specific Styles
 /* uncomment and modify as needed */
 
 
-.fullscreen#atWork .info-panel {
-    top: 28%;
+.fullscreen#studio .info-panel {
+    top: 75%;
     right: 35%;
 }
 
-#atWork {
-    top: 28%;
-    right: 35%;
+#studio {
+    top: 75%;
+    left: 4%;
 }
 
 .fullscreen#speaking .info-panel {
