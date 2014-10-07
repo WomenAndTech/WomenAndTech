@@ -42,13 +42,13 @@
           <div id="start-animation" style="width: 300px; height: 90px" class="swiffy"></div>
         </div>
 
-        <question>Where did you grow up and what were you like as a child?</question>
+        <first-question>Where did you grow up and what were you like as a child?</first-question>
 
-        <answer>
+        <first-answer>
         <p>My family moved to Canada from Shanghai when I was in fourth grade, and I grew up in Toronto. I was a very creative child who loved drawing and making things with my hands. Coming from a Chinese family, I was encouraged to play music but gravitated toward freeform arts, so learning an instrument in the classical sense never became something that I honed. I actually wish that I had done that. My 3D printers sound like singing robots, so that’s the music I make now. I’m sure if I put the time in, I could remix it into a pretty sweet song.</p>
 
         <p>I was always a bit of an art and music geek so when it came time to choose a career path I leaned toward architecture because it was a mix of art, science, and technology; all things that are very much a part of who I am.</p>
-        </answer>
+        </first-answer>
 
         <pull-quote>Digital fabrication allows for a physical reality that’s much more transient, dynamic, and customized by the individual.
         </pull-quote>
@@ -120,20 +120,12 @@
         <p>I think balance is a constant challenge for every entrepreneur out there. If it’s not, I want to know what the secret is. When I’m at the studio I need to make a conscious decision to stop working at some point and just get out of the office. I try to go for a walk each day, which I find helps to re-set things and give me some time to reflect. Sometimes you’re so deep in the trenches that it’s easy to say, “I gotta just keep working”. It’s terribly difficult to let go.</p>
         </answer>
 
-        <pull-quote>Work/life balance is very difficult. There doesn’t seem to be a way to achieve it without making a compromise.</pull-quote>
-
-        <question>Not only do you work in an industry that is rapidly evolving, you’re an entrepreneur running a growing business. How is your work/life balance? Is there one?</question>
-
-        <answer>
-        <p>Should I tell you the truth, or should I lie? [Laughs] Work/life balance is very difficult. There doesn’t seem to be a way to achieve it without making a compromise. I try to pick an extracurricular activity to do, especially in the summertime. I play beach volleyball every week, make sure to see friends as much as possible, and get out of the city.</p>
-
-        <p>I think balance is a constant challenge for every entrepreneur out there. If it’s not, I want to know what the secret is. When I’m at the studio I need to make a conscious decision to stop working at some point and just get out of the office. I try to go for a walk each day, which I find helps to re-set things and give me some time to reflect. Sometimes you’re so deep in the trenches that it’s easy to say, “I gotta just keep working”. It’s terribly difficult to let go.</p>
-        </answer>
-
         <question>You went to school with co-founder Matt Compeau. Now you share a home and a company together. What are some of the rewards and challenges of working so closely with your partner?</question>
 
         <notable-person image="biying-interview/biying-matt-compeau.jpg">
-        <h3>Matt Compeau</h3>
+        <a href="https://twitter.com/MattCompeau" target="_blank">
+          <h4>Matt Compeau</h4>
+        </a>
         <p>Matt Compeau is co-founder of Hot Pop Factory with Biying. He was also trained as an Architect and is a digital fabrication specialist and computational designer.</p>
         </notable-person>
 
@@ -146,7 +138,9 @@
         <question>Do you have any mentors or is there anyone whose work inspires you?</question>
 
         <notable-person image="biying-interview/biying-iris-van-herpen.jpg">
-        <h3>Iris Van Herpen</h3>
+        <a href="http://www.irisvanherpen.com/" target="_blank">
+          <h4>Iris Van Herpen</h4>
+        </a>
         <p>Iris Van Herpen is an unconventional fashion designer based in the Netherlands.</p>
         </notable-person>
 
@@ -155,12 +149,14 @@
         </answer>
 
         <notable-person image="biying-interview/biying-janna-levitt.jpg">
-        <h3>Janna Levitt</h3>
-        Janna Levitt is a Partner at LGA Architectural Partners and Professor at the University of Waterloo and Dalhousie University Schools of Architecture.
+        <a href="https://twitter.com/JannaLevitt" target="_blank">
+          <h4>Janna Levitt</h4>
+        </a>
+        <p>Janna Levitt is a Partner at <a href="http://lga-ap.com/home" target="_blank">LGA Architectural Partners</a> and Professor at the University of Waterloo and Dalhousie University Schools of Architecture.</p>
         </notable-person>
 
         <answer>
-        <p>In terms of a mentor, Janna Levitt was a professor of mine in architecture school who I later went on to work for. She is someone whom I deeply respect who has a lot of dignity, and handles tough situations with grace. I think women in authoritative positions sometimes get a bad rep and Janna does it with a lot of class. She makes me proud to be a woman. She’s a wonderful person who loves to garden and bake all while being a fantastic architect. She hires fantastic women and men at her practice, LGA Architectural Partners. It was a nicely balanced workplace, which I think is kind of rare in tech and start-up industries. It’s something that’s molded me in terms of how I work in professional environments as a woman as well as how I would like to run our company looking forward into the future.</p>
+        <p>In terms of a mentor, Janna Levitt was a professor of mine in architecture school who I later went on to work for. She is someone whom I deeply respect who has a lot of dignity, and handles tough situations with grace. I think women in authoritative positions sometimes get a bad rep and Janna does it with a lot of class. She makes me proud to be a woman. She’s a wonderful person who loves to garden and bake all while being a fantastic architect. She hires fantastic women and men at her practice, <a href="http://lga-ap.com/home" target="_blank">LGA Architectural Partners</a>. It was a nicely balanced workplace, which I think is kind of rare in tech and start-up industries. It’s something that’s molded me in terms of how I work in professional environments as a woman as well as how I would like to run our company looking forward into the future.</p>
         </answer>
 
         <question>In our last interview, Nyla Ahmad asked: How do you lead or build a team of smart people?</question>
@@ -168,7 +164,7 @@
         <answer>
         <p>This is a great question and something that’s very important for a tight-knit company like ours. It’s a significant investment for an employer because your team can make or break your business. What I look for in people that join our team are soft skills over hard skills. A good attitude, work ethic, and respect are essential. Curiosity and an eagerness to learn should also be there. The technical skills can be taught.</p>
 
-        <p>It’s tough to know what the best strategy is for inspiring a great team. I think the key to being a great manager is to choose a team you respect, believe in, and want to get to know. And they need to believe in us too. This is what makes someone want to do a good job. Things are more likely to work out if everyone who is there wants to be there.</p>
+        <p>It’s tough to know what the best strategy is for inspiring a great team. I think the key to being a great manager is to choose a team you respect, believe in, and want to get to know. And they need to believe in us too. This is what makes someone want to do a good job. Things are more likely to work out if everyone who is there wants to be there. <span class="full-stop"><img src="http://womenandtech.com/assets/img/full-stop.png"></span></p> 
         </answer>
 
       </section>
