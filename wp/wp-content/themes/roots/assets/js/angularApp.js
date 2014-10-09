@@ -138,7 +138,7 @@ angular.module('womenAndTech', [])
 			transclude: true,
 			scope: {
 				image: '@',
-			    firstname: '@',
+			    firstnameOfNextInterviewee: '@',
 			},
 			template: "<div class='span8 offset3'>"+
 			            "<div class='row-fluid callout-question'>"+
@@ -158,7 +158,7 @@ angular.module('womenAndTech', [])
 			            "<div class='row-fluid'>"+
 			              "<div class='span12' id='call-to-action'>"+
 			                "<p>"+
-			                  "Be sure to check back next time (or <a href='#subscribe' title='Subscribe form' target='_blank'>subscribe below</a>) for {{firstname}}'s answer to this question."+
+			                  "Be sure to check back next time (or <a href='#subscribe' title='Subscribe form' target='_blank'>subscribe below</a>) for {{firstnameOfNextInterviewee}}'s answer to this question."+
 			                "</p>"+
 			              "</div>"+
 			            "</div>"+
