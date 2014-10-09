@@ -202,7 +202,7 @@
       </section>
 
       <section class="row contains-questions">
-          <question-for-next-interviewee image="biying-interview/img-square-biying.jpg" firstnameOfNextInterviewee="Sandi">
+          <question-for-next-interviewee image="biying-interview/img-square-biying.jpg" firstname-of-next-interviewee="Sandi">
           What has been the most unexpected lesson to come out of being an entrepreneur?
           </question-for-next-interviewee>
       </section>
