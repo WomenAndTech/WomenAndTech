@@ -53,6 +53,28 @@ angular.module('womenAndTech', [])
 				        "</div>"
 		}
 	})
+	.directive('calloutWithVideo', function() {
+		return {
+			restrict: 'E',
+			transclude: true,
+			scope: {
+				video: '@',
+				caption: '@'
+			},
+			template: "<div class='span4'>"+
+          				"<div class='photo-callout notable-person'>"+
+				            "<figure class='first-row'>"+
+				              "<div class='arrow'></div>"+
+				              "<iframe src='{{video}}'' width="278" height="156" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"+
+				              "<figcaption class='clear'>"+
+				                "<p>{{caption}}</p>"+
+				              "</figcaption>"+
+				              "<div style='clear:both'></div>"+
+				            "</figure>"+
+				          "</div>"+
+				        "</div>"
+		}
+	})
 	.directive('notablePerson', function() {
 		return {
 			restrict: 'E',
