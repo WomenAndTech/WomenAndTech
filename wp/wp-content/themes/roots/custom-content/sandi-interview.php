@@ -86,7 +86,7 @@
           <div class="photo-callout notable-person">
             <figure class="first-row">
               <div class="arrow"></div>
-              <iframe src="http://youtu.be/JKXfNxbwKOc" width="278" height="156" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <iframe src="http://www.youtube.com/embed/JKXfNxbwKOc" width="278" height="156" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               <figcaption class="clear">
                 <p>Skilljar empowers instructors to deliver courses from their own website.</p>
               </figcaption>
@@ -231,7 +231,7 @@
           <div class="photo-callout notable-person">
             <figure class="first-row">
               <div class="arrow"></div>
-              <iframe src="http://youtu.be/5-mc9Rrfs00" width="278" height="156" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <iframe src="http://www.youtube.com/embed/5-mc9Rrfs00" width="278" height="156" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               <figcaption class="clear">
                 <p>SEducation gamification attempts to incorporate game elements and design into learning environments. Watch Jane McGonigal, a leading proponent of education gamification, <a href='http://ed.ted.com/on/uk36wtoI'>discuss her thoughts</a></p>
               </figcaption>
