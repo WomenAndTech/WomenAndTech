@@ -80,7 +80,7 @@
           Tell us about your company Skilljar.
         </question>
 
-        <!-- Non-Angular-ized callout with video
+        <!-- Non-Angularizes callout -->
 
         <div class="span4">
           <div class="photo-callout notable-person">
@@ -94,10 +94,13 @@
             </figure>
           </div>
         </div>
-        -->
+        
+
+        <!-- Angular-ized callout with video
 
         <callout-with-video video="http://youtu.be/JKXfNxbwKOc" caption="Skilljar demo Skilljar empowers instructors to deliver courses from their own website.">
         </callout-with-video>
+        -->
 
         <answer>
           <p>
@@ -224,8 +227,25 @@
           Where do you see the education technology space heading over the next few years?
         </question>
 
+        <div class="span4">
+          <div class="photo-callout notable-person">
+            <figure class="first-row">
+              <div class="arrow"></div>
+              <iframe src="http://youtu.be/5-mc9Rrfs00" width="278" height="156" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <figcaption class="clear">
+                <p>SEducation gamification attempts to incorporate game elements and design into learning environments. Watch Jane McGonigal, a leading proponent of education gamification, <a href='http://ed.ted.com/on/uk36wtoI'>discuss her thoughts</a></p>
+              </figcaption>
+              <div style="clear:both"></div>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Angular-ized callout with video
+
         <callout-with-video video="http://youtu.be/5-mc9Rrfs00" caption="Education gamification attempts to incorporate game elements and design into learning environments. Watch Jane McGonigal, a leading proponent of education gamification, <a href='http://ed.ted.com/on/uk36wtoI'>discuss her thoughts</a>">
         </callout-with-video>
+
+        -->
 
         <answer>
           <p>
