@@ -310,7 +310,7 @@
 
         <answer>
           <p>
-            I recently went to [Lake 22](http://www.wta.org/go-hiking/hikes/lake-22) up near Mt. Baker -- it was a really amazing hike.
+            I recently went to <a href="http://www.wta.org/go-hiking/hikes/lake-22">Lake 22</a> up near Mt. Baker -- it was a really amazing hike.
           </p>
         </answer>
 
