@@ -65,7 +65,7 @@ angular.module('womenAndTech', [])
           				"<div class='photo-callout notable-person'>"+
 				            "<figure class='first-row'>"+
 				              "<div class='arrow'></div>"+
-				              "<iframe src='{{video}}'' width="278" height="156" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"+
+				              "<iframe src='{{video}}'' width='278' height='156' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"+
 				              "<figcaption class='clear'>"+
 				                "<p>{{caption}}</p>"+
 				              "</figcaption>"+
