@@ -1,6 +1,6 @@
 var LOCALPATH = "http://localhost:8888/WomenAndTech/wp";
 var DEVPATH = "http://dev.womenandtech.com";
-var PRODPATH = "http://womenandtech.com";
+var PRODPATH = "<?php echo site_url(); ?>";
 
 var PATH = PRODPATH;
 
