@@ -80,7 +80,7 @@
           Tell us about your company Skilljar.
         </question>
 
-        <!-- Non-Angularizes callout
+        <!-- Non-Angular-ized callout -->
 
         <div class="span4">
           <div class="photo-callout notable-person">
@@ -94,14 +94,15 @@
             </figure>
           </div>
         </div>
-        -->
+       
         
 
-        <!-- Angular-ized callout with video -->
+        <!-- Angular-ized callout with video
 
         <callout-with-video video="http://www.youtube.com/embed/JKXfNxbwKOc" caption="Skilljar demo Skilljar empowers instructors to deliver courses from their own website.">
         </callout-with-video>
-        
+
+        -->
 
         <answer>
           <p>
@@ -167,7 +168,7 @@
     <full-screen-curtain
       image='sandi-interview/sandi-in-courtyard.jpg'
         id=''
-        title='Sandi Lin in Courtyward'
+        title=''
         caption="Originally called “Everpath,” the business rebranded as “Skilljar” after Sandi initiated a <a href='http://thenextweb.com/entrepreneur/2014/03/31/changing-startups-name-tale-crowdsourcing-843-domain-names/''>crowdsourced naming campaign</a>."
         photo-credit='Doug Gradt'>
     </full-screen-curtain>
