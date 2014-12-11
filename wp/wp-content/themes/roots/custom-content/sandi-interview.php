@@ -80,7 +80,7 @@
           Tell us about your company Skilljar.
         </question>
 
-        <!-- Non-Angularizes callout -->
+        <!-- Non-Angularizes callout
 
         <div class="span4">
           <div class="photo-callout notable-person">
@@ -94,13 +94,14 @@
             </figure>
           </div>
         </div>
+        -->
         
 
-        <!-- Angular-ized callout with video
+        <!-- Angular-ized callout with video -->
 
-        <callout-with-video video="http://youtu.be/JKXfNxbwKOc" caption="Skilljar demo Skilljar empowers instructors to deliver courses from their own website.">
+        <callout-with-video video="http://www.youtube.com/embed/JKXfNxbwKOc" caption="Skilljar demo Skilljar empowers instructors to deliver courses from their own website.">
         </callout-with-video>
-        -->
+        
 
         <answer>
           <p>
