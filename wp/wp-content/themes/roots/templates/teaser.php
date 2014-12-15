@@ -66,6 +66,12 @@ $loop = new WP_Query( $args ); ?>
   
 <?php endwhile; ?>
 
+<?php
+  if ($next_image_url == '') {
+    $next_image_url = "assets/img/footer-contribute.jpg"
+  }
+?>
+
 <?php wp_reset_query(); ?>
 
 
