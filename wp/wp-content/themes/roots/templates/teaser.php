@@ -68,7 +68,7 @@ $loop = new WP_Query( $args ); ?>
 <?php endwhile; ?>
 
 <?php
-  if (strlen($next_image_url) < 1 ) {
+  if (strpos($next_image_url,'interview') !== false) {
     $next_image_text = "Contribute";
     $next_image_url = "assets/img/footer-contribute.jpg";
     $next_url = get_home_url()."/contributor-guidelines/";
