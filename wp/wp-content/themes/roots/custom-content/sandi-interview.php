@@ -191,7 +191,9 @@
         </question>
 
         <notable-person image="sandi-interview/sandi-tom-taylor.jpg">
-          <h3>Tom Taylor</h3>
+          <a href="http://www.linkedin.com/pub/tom-taylor/0/b03/835" target="_blank">
+            <h4>Tom Taylor</h4>
+          </a>
           Tom Taylor is a Vice President at Amazon in Sellers Services.
         </notable-person>
 
