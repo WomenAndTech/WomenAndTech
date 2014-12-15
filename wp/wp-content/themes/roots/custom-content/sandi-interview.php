@@ -168,8 +168,8 @@
     <full-screen-curtain
       image='sandi-interview/sandi-in-courtyard.jpg'
         id='Courtyard'
-        title=' '
-        caption="Originally called “Everpath,” the business rebranded as “Skilljar” after Sandi initiated a <a href='http://thenextweb.com/entrepreneur/2014/03/31/changing-startups-name-tale-crowdsourcing-843-domain-names/''>crowdsourced naming campaign</a>."
+        title='Skilljar'
+        caption="Originally called “Everpath,” the business rebranded as “Skilljar” after Sandi initiated a <a href='http://thenextweb.com/entrepreneur/2014/03/31/changing-startups-name-tale-crowdsourcing-843-domain-names/'>crowdsourced naming campaign</a>."
         photo-credit='Doug Gradt'>
     </full-screen-curtain>
 
@@ -369,7 +369,7 @@
       image='sandi-interview/sandi-lin-market.jpg'
       id='Market'
       title='Pike Place Market'
-      caption='Located in Pioneer Square, the company’s office is a short walk to Seattle’s historic <a hreef="http://www.pikeplacemarket.org/">Pike Place Market</a>.'
+      caption='Located in Pioneer Square, the company’s office is a short walk to Seattle’s historic <a href="http://www.pikeplacemarket.org/">Pike Place Market</a>.'
       photo-credit='Doug Gradt'>
     </full-screen-curtain>
 
