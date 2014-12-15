@@ -411,7 +411,7 @@
       </section>
 
       <section class="row contains-questions">
-          <question-for-next-interviewee image="sandi-interview/img-square-sandi.jpg" firstname="our next interviewee">
+          <question-for-next-interviewee image="sandi-interview/img-square-sandi.jpg" firstnameOfNextInterviewee="our next interviewee">
             Women face many challenges in the technology industry but we also bring many strengths. What do you think is the best part of being a woman in tech?
           </question-for-next-interviewee>
       </section>
