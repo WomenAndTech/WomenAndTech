@@ -169,7 +169,7 @@
       image='sandi-interview/sandi-in-courtyard.jpg'
         id='Courtyard'
         title='Skilljar'
-        caption="Originally called “Everpath,” the business rebranded as “Skilljar” after Sandi initiated a <a href='http://thenextweb.com/entrepreneur/2014/03/31/changing-startups-name-tale-crowdsourcing-843-domain-names/'>crowdsourced naming campaign</a>."
+        caption="Originally called “Everpath,” the business rebranded as “Skilljar” after Sandi initiated a crowdsourced naming campaign."
         photo-credit='Doug Gradt'>
     </full-screen-curtain>
 
