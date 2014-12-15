@@ -160,7 +160,7 @@ angular.module('womenAndTech', [])
 			transclude: true,
 			scope: {
 				image: '@',
-			    firstnameOfNextInterviewee: '@',
+			    firstnameOfNextInterviewee: '@'
 			},
 			template: "<div class='span8 offset3'>"+
 			            "<div class='row-fluid callout-question'>"+
