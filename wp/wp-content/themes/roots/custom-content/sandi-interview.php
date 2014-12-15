@@ -194,7 +194,7 @@
           <a href="http://www.linkedin.com/pub/tom-taylor/0/b03/835" target="_blank">
             <h4>Tom Taylor</h4>
           </a>
-          Tom Taylor is a Vice President at Amazon in Sellers Services.
+          Tom Taylor is Vice President of Sellers Services at Amazon. He joined the company in 2000.
         </notable-person>
 
         <answer>
@@ -219,7 +219,7 @@
 
         <answer>
           <p>
-            [laughing] In general I’m not someone that enjoys “networking.” If I’ve had a long day and I have an event to attend, I mentally reframe it as an opportunity to tell people about what we’re doing at Skilljar and share our mission. Usually I consider a networking event a success if I walk away with one or two interesting contacts.
+            [Laughs] In general I’m not someone that enjoys “networking.” If I’ve had a long day and I have an event to attend, I mentally reframe it as an opportunity to tell people about what we’re doing at Skilljar and share our mission. Usually I consider a networking event a success if I walk away with one or two interesting contacts.
           </p>
         </answer>
 
@@ -237,7 +237,7 @@
               <div class="arrow"></div>
               <iframe src="http://www.youtube.com/embed/5-mc9Rrfs00" width="278" height="156" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               <figcaption class="clear">
-                <p>SEducation gamification attempts to incorporate game elements and design into learning environments. Watch Jane McGonigal, a leading proponent of education gamification, <a href='http://ed.ted.com/on/uk36wtoI'>discuss her thoughts</a></p>
+                <p>Education gamification attempts to incorporate game elements and design into learning environments. Watch Jane McGonigal, a leading proponent of education gamification, <a href='http://ed.ted.com/on/uk36wtoI'>discuss her thoughts</a></p>
               </figcaption>
               <div style="clear:both"></div>
             </figure>
@@ -258,7 +258,7 @@
         </answer>
 
         <question>
-          Do you notice a lack of women starting companies in the tech industry? If you do why do you think that might be the case?
+          Do you notice a lack of women starting companies in the tech industry? If you do, why do you think that might be the case?
         </question>
 
         <answer>
@@ -399,12 +399,12 @@
         </answer>
 
         <question>
-          This question was posed by the last woman interviewed: What has been the most unexpected lesson to come out of being an entrepreneur?
+          In our last interview, <a href="http://womenandtech.com/interview/bi-ying-miao/">Biying Miao</a> asked, “What has been the most unexpected lesson to come out of being an entrepreneur?”
         </question>
 
         <answer>
           <p>
-            The most unexpected lesson is the importance of maintaining a healthy physical, mental, and emotional state. Being an entrepreneur is a roller coaster of ups and downs. I've found it's critical to work at giving myself routines and space to regain perspective. It doesn't help the company if I'm not on top of my game. Some tactical things I've implemented include exercising even it’s just 10 minutes a day, reducing caffeine and alcohol, and not looking at email for 1 hour before bed.
+            The most unexpected lesson is the importance of maintaining a healthy physical, mental, and emotional state. Being an entrepreneur is a roller coaster of ups and downs. I've found it's critical to work at giving myself routines and space to regain perspective. It doesn't help the company if I'm not on top of my game. Some tactical things I've implemented include exercising even it’s just 10 minutes a day, reducing caffeine and alcohol, and not looking at email for 1 hour before bed. <span class="full-stop"><img src="http://womenandtech.com/assets/img/full-stop.png"></span>
           </p>
         </answer>
 
