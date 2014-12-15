@@ -369,7 +369,7 @@
       image='sandi-interview/sandi-lin-market.jpg'
       id='Market'
       title='Pike Place Market'
-      caption='Located in Pioneer Square, the company’s office is a short walk to Seattle’s historic <a href="http://www.pikeplacemarket.org/">Pike Place Market</a>.'
+      caption='Located in Pioneer Square, the company’s office is a short walk to Seattle’s historic <span>Pike Place Market</span>.'
       photo-credit='Doug Gradt'>
     </full-screen-curtain>
 
