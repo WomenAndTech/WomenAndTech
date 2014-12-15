@@ -69,13 +69,15 @@ $loop = new WP_Query( $args ); ?>
         //$next_url=get_home_url()."/archive";
 
         // Contributor search
-
-        $next_image_url='/assets/img/footer-contribute.jpg';
-        $next_text='Contribute';
-        $next_url=get_home_url()."/contributor-guidelines";
   ?>
   
 <?php endwhile; ?>
+
+<?php
+$next_image_url='/assets/img/footer-contribute.jpg';
+        $next_text='Contribute';
+        $next_url=get_home_url()."/contributor-guidelines";
+        ?>
 
 <?php wp_reset_query(); ?>
 
