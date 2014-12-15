@@ -4,7 +4,7 @@
       <header class="row">
         <div class="span9">
           <div class="interview-number double-digits interview-number-<?php echo get_field('interview_number') ?>"><?php echo get_field('interview_number')?></div>
-          <h1 class="clearfix" id="twitter-handle" data-twitter-handle="HotPopFactory">
+          <h1 class="clearfix" id="twitter-handle" data-twitter-handle="sandislin">
             <?php the_title() ?></h1>
           <address>
             <div class="author-image"></div>
@@ -63,16 +63,16 @@
         </answer>
 
         <pull-quote>
-          One thing my family valued was that whatever we did, we were expected to do it excellently
+          One thing my family valued was that whatever we did, we were expected to do it excellently.
         </pull-quote>
 
         <question>
-          You left your career at Amazon to start your own company. Was this a tough decision for you?
+          You left your career at Amazon to start your own company. Was that a tough decision for you?
         </question>
 
         <answer>
           <p>
-            When I left Amazon I wasn’t scared about trying entrepreneurship – it’s something I had wanted to do for a while. After thinking through it, I realized the worst that could happen is the startup wouldn’t go anywhere, I would draw down my savings, and I would end up back at Amazon. This didn't seem so bad because I was pretty happy with my career progression there. I was actually more scared about leaving my team behind at Amazon. I was a manager at that point and had helped build the business [Amazon Local](http://local.amazon.com/). I felt a lot of loyalty towards the people I worked with so I was more worried about leaving them than I was about the future.
+            When I left Amazon I wasn’t scared about trying entrepreneurship – it’s something I had wanted to do for a while. After thinking through it, I realized the worst that could happen is the startup wouldn’t go anywhere, I would draw down my savings, and I would end up back at Amazon. This didn't seem so bad because I was pretty happy with my career progression there. I was actually more scared about leaving my team behind at Amazon. I was a manager at that point and had helped build the business <a href="http://local.amazon.com/">Amazon Local</a>. I felt a lot of loyalty towards the people I worked with so I was more worried about leaving them than I was about the future.
           </p>        
         </answer>
 
@@ -132,7 +132,7 @@
 
         <answer>
           <p>
-            Not very well [laughing]. Balance is an ongoing struggle for me. Exercising is very important so I try to do that as often as I can. I try hard to not work on Friday nights and Saturdays too, but that’s not always possible when you are trying to grow a company.
+            Not very well [laughs]. Balance is an ongoing struggle for me. Exercising is very important so I try to do that as often as I can. I try hard to not work on Friday nights and Saturdays too, but that’s not always possible when you are trying to grow a company.
           </p>
         </answer>
 
@@ -369,7 +369,7 @@
       image='sandi-interview/sandi-lin-market.jpg'
       id='Market'
       title='Pike Place Market'
-      caption='Located in Pioneer Square, the company’s office is a short walk to Seattle’s historic <span>Pike Place Market</span>.'
+      caption='Located in Pioneer Square, the company’s office is a short walk to Seattle’s historic Pike Place Market.'
       photo-credit='Doug Gradt'>
     </full-screen-curtain>
 
