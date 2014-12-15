@@ -58,10 +58,20 @@ $loop = new WP_Query( $args ); ?>
 
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-  <?php $teaser_image=get_field('teaser_image');
-        $next_image_url=$teaser_image['url'];
-        // $next_url=get_permalink();
-        $next_url=get_home_url()."/archive";
+  <!-- For existing next interviewee -->
+
+  <?php //$teaser_image=get_field('teaser_image');
+        //$next_image_url=$teaser_image['url'];
+        //$next_text='Up Next Time';
+        // $next_url=get_permalink(); (DO NOT UNCOMMENT)
+        //$next_url=get_home_url()."/archive";
+  ?>
+
+  <!-- For Contributor search -->
+
+  <?php $next_image_url='/assets/img/footer-contribute.jpg';
+        $next_text='Contribute';
+        $next_url=get_home_url()."/contributor-guidelines";
   ?>
   
 <?php endwhile; ?>
@@ -82,7 +92,7 @@ $loop = new WP_Query( $args ); ?>
 
   <div class="span4" id='up-next-teaser'>
     <a href="<?php echo $next_url; ?>">
-    <h3>Up Next Time</h3>
+    <h3><?php echo $next_text; ?></h3>
     <div class="teaser-block">
       <img src="<?php echo $next_image_url; ?>">
     </div>
