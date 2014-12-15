@@ -411,7 +411,7 @@
       </section>
 
       <section class="row contains-questions">
-          <question-for-next-interviewee image="sandi-interview/img-square-sandi.jpg" firstname="Sandi">
+          <question-for-next-interviewee image="sandi-interview/img-square-sandi.jpg" firstname="our next interviewee">
             Women face many challenges in the technology industry but we also bring many strengths. What do you think is the best part of being a woman in tech?
           </question-for-next-interviewee>
       </section>
@@ -429,7 +429,7 @@
               </p>
               <p>
                 <strong>Editing</strong><em> by</em>
-                <a href="http://twitter.com/heyrubyjean" target="_blank">Sarah Southerland</a><em> and</em>
+                <a href="http://twitter.com/southersar" target="_blank">Sarah Southerland</a><em> and</em>
                 <a href="http://twitter.com/KeeganWincewicz" target="_blank">Keegan Wincewicz</a>
               </p>
               <p>
