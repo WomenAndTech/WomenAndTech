@@ -58,18 +58,19 @@ $loop = new WP_Query( $args ); ?>
 
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-  <!-- For existing next interviewee -->
+  <?php 
 
-  <?php //$teaser_image=get_field('teaser_image');
+        // Next interviewee
+
+        //$teaser_image=get_field('teaser_image');
         //$next_image_url=$teaser_image['url'];
         //$next_text='Up Next Time';
         // $next_url=get_permalink(); (DO NOT UNCOMMENT)
         //$next_url=get_home_url()."/archive";
-  ?>
 
-  <!-- For Contributor search -->
+        // Contributor search
 
-  <?php $next_image_url='/assets/img/footer-contribute.jpg';
+        $next_image_url='/assets/img/footer-contribute.jpg';
         $next_text='Contribute';
         $next_url=get_home_url()."/contributor-guidelines";
   ?>
