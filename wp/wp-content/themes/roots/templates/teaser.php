@@ -60,6 +60,7 @@ $loop = new WP_Query( $args ); ?>
 
   <?php $teaser_image=get_field('teaser_image');
         $next_image_url=$teaser_image['url'];
+        $next_image_text='Up Next Time';
         // $next_url=get_permalink();
         $next_url=get_home_url()."/archive";
   ?>
@@ -68,7 +69,9 @@ $loop = new WP_Query( $args ); ?>
 
 <?php
   if ($next_image_url == '') {
-    $next_image_url = "assets/img/footer-contribute.jpg"
+    $next_image_text = "Contribute";
+    $next_image_url = "assets/img/footer-contribute.jpg";
+    $next_url = get_home_url()."/contributor-guidelines/";
   }
 ?>
 
@@ -88,7 +91,7 @@ $loop = new WP_Query( $args ); ?>
 
   <div class="span4" id='up-next-teaser'>
     <a href="<?php echo $next_url; ?>">
-    <h3>Up Next Time</h3>
+    <h3><?php echo $next_image_text ?></h3>
     <div class="teaser-block">
       <img src="<?php echo $next_image_url; ?>">
     </div>
