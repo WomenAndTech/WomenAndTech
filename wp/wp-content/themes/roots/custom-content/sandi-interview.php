@@ -177,7 +177,7 @@
             </aside>
           </div>
         </div>
-        <img ng-src='/assets/img/sandi-in-courtyard.jpg'/>
+        <img ng-src='/assets/img/sandi-interview/sandi-lin-courtyard.jpg'/>
         <div class='photo-credit light'>
           Photo credit: Doug Gradt
         </div>
