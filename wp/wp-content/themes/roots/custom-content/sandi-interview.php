@@ -165,13 +165,24 @@
     </div>
   </li>
   <li class='regular'>
-    <full-screen-curtain
-      image='sandi-interview/sandi-in-courtyard.jpg'
-        id='Courtyard'
-        title='Skilljar'
-        caption="Originally called “Everpath,” the business rebranded as “Skilljar” after Sandi initiated a crowdsourced naming campaign."
-        photo-credit='Doug Gradt'>
-    </full-screen-curtain>
+
+    <div class='fullscreen'>
+      <div class='parallax'>
+        <div class='container'>
+          <div class='info-panel' id="Courtyard" ng-show='title.length !== 0'>
+            <aside>
+              <div class='arrow right'></div>
+              <h3> </h3>
+              <p class='last'>Originally called “Everpath,” the business rebranded as “Skilljar” after Sandi initiated a <a href="http://thenextweb.com/entrepreneur/2014/03/31/changing-startups-name-tale-crowdsourcing-843-domain-names/">crowdsourced naming campaign</a>.</p>
+            </aside>
+          </div>
+        </div>
+        <img ng-src='"+PATH+"/assets/img/sandi-in-courtyard.jpg'/>
+        <div class='photo-credit light'>
+          Photo credit: Doug Gradt
+        </div>
+      </div>
+    </div>
 
     <div class="container">
       <section class='row normal'>
@@ -367,13 +378,24 @@
     </div>
   </li>
   <li class='regular'>
-    <full-screen-curtain
-      image='sandi-interview/sandi-lin-market.jpg'
-      id='Market'
-      title='Pike Place Market'
-      caption='Located in Pioneer Square, the company’s office is a short walk to Seattle’s historic Pike Place Market.'
-      photo-credit='Doug Gradt'>
-    </full-screen-curtain>
+
+    <div class='fullscreen'>
+      <div class='parallax'>
+        <div class='container'>
+          <div class='info-panel' id="Courtyard" ng-show='title.length !== 0'>
+            <aside>
+              <div class='arrow right'></div>
+              <h3>Pike Place Market</h3>
+              <p class='last'>Located in Pioneer Square, the company’s office is a short walk to Seattle’s historic <a href="http://www.pikeplacemarket.org">Pike Place Market</a>.</p>
+            </aside>
+          </div>
+        </div>
+        <img ng-src='/assets/img/sandi-interview/sandi-lin-market.jpg'/>
+        <div class='photo-credit light'>
+          Photo credit: Doug Gradt
+        </div>
+      </div>
+    </div>
 
     <div class="container">
       <section class='row normal'>
