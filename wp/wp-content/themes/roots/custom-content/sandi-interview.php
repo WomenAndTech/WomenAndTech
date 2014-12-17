@@ -167,7 +167,7 @@
           <p>
             I think I learn very quickly -- especially through hands-on experiences. I’m not afraid to get into the weeds and experiment with things. I think I’m able to take in a lot of different inputs, draw conclusions and move on pretty rapidly.
           </p>
-=======
+          <p>
             In order to teach people what do we began leading workshops. We encourage folks to come in, get their hands dirty with the technology, and see the printers in action.
           </p>
            
