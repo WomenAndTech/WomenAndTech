@@ -2,7 +2,7 @@ var LOCALPATH = "http://localhost:8888/WomenAndTech/wp";
 var DEVPATH = "http://dev.womenandtech.com";
 var PRODPATH = "http://womenandtech.com";
 
-var PATH = PRODPATH;
+var PATH = DEVPATH;
 
 angular.module('womenAndTech', [])
 	.directive('pullQuote', function() {
@@ -50,6 +50,28 @@ angular.module('womenAndTech', [])
 				                "<p class='last' ng-transclude></p>"+
 				              "<div style='clear:both'></div>"+
 				            "</aside>"+
+				        "</div>"
+		}
+	})
+	.directive('calloutWithVideo', function() {
+		return {
+			restrict: 'E',
+			transclude: true,
+			scope: {
+				video: '@',
+				caption: '@'
+			},
+			template: "<div class='span4'>"+
+          				"<div class='photo-callout notable-person'>"+
+				            "<figure class='first-row'>"+
+				              "<div class='arrow'></div>"+
+				              "<iframe src='{{video}}'' width='278' height='156' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"+
+				              "<figcaption class='clear'>"+
+				                "<p>{{caption}}</p>"+
+				              "</figcaption>"+
+				              "<div style='clear:both'></div>"+
+				            "</figure>"+
+				          "</div>"+
 				        "</div>"
 		}
 	})
@@ -138,7 +160,7 @@ angular.module('womenAndTech', [])
 			transclude: true,
 			scope: {
 				image: '@',
-			    firstnameOfNextInterviewee: '@',
+			    firstnameOfNextInterviewee: '@'
 			},
 			template: "<div class='span8 offset3'>"+
 			            "<div class='row-fluid callout-question'>"+
