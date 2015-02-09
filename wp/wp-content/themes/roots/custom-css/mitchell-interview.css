@@ -4,7 +4,7 @@ Biying Interview Specific Styles
 
 
 .interview address .author-image{
-    background: url('../../assets/img/sandi-interview/author-sarah.jpg') center top no-repeat;
+    background: url('https://pbs.twimg.com/profile_images/514454127821078528/Yjy621Kb.jpeg') center top no-repeat;
     background-size: 110%;
 }
 
@@ -24,8 +24,9 @@ Biying Interview Specific Styles
 /* uncomment and modify as needed */
 
 
-.fullscreen#studio .info-panel {
-    top: 75%;
+.fullscreen#press .info-panel {
+    top: 47%;
+    right: 58%;
     right: 35%;
 }
 
@@ -34,14 +35,35 @@ Biying Interview Specific Styles
     left: 4%;
 }
 
-.fullscreen#speaking .info-panel {
-    top: auto;
-    bottom: 50%;
-    right: 0%;
+.fullscreen#kithen .info-panel {
+    top: 72%;
+    left: 5%;
     z-index: 2;
 }
 
+.fullscreen#speaking .info-panel {
+    top: 57%;
+    left: 5%;
+    z-index: 2;
+}
 
+.fullscreen#meeting .info-panel {
+    top: 75%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen#travel .info-panel {
+    top: 25%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen#talk .info-panel {
+    top: 7%;
+    left: 5%;
+    z-index: 2;
+}
 
 /* Article > Start Tag */
 .no-svg #start-animation {
