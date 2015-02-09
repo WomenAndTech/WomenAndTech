@@ -159,7 +159,7 @@
 
         </answer>
 
-        <callout-with-large-image image="mitchell-interview/mitchell-baker-art-foundry.jpg" alternative-text-for-image="Baker Art Foundry">
+        <callout-with-large-image image="mitchell-interview/mitchell-art-foundry.jpg" alternative-text-for-image="Baker Art Foundry">
                <p>
                  When Mitchell was growing up, her dad's business was the Baker Art Foundry which began in the family's basement. The business survives today, over forty years later. This custom "Hack" award was created for Facebook.
                </p>
