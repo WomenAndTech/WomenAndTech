@@ -445,7 +445,7 @@
     <div class='fullscreen'>
       <div class='parallax'>
         <div class='container'>
-          <div class='info-panel' id="Trapeze">
+          <div class='info-panel' id="trapeze">
             <aside>
               <div class='arrow right'></div>
               <h3></h3>
@@ -492,7 +492,7 @@
     <div class='fullscreen'>
       <div class='parallax'>
         <div class='container'>
-          <div class='info-panel' id="Trapeze">
+          <div class='info-panel' id="office">
             <aside>
               <div class='arrow right'></div>
               <h3></h3>

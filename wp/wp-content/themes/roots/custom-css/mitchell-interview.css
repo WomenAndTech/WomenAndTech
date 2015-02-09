@@ -64,6 +64,24 @@ Biying Interview Specific Styles
     z-index: 2;
 }
 
+.fullscreen #keynote.info-panel {
+    top: 18%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #trapeze.info-panel {
+    top: 80%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #office.info-panel {
+    top: 58%;
+    left: 5%;
+    z-index: 2;
+}
+
 /* Article > Start Tag */
 .no-svg #start-animation {
     background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
