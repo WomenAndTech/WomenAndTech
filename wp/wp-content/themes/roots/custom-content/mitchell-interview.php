@@ -567,7 +567,7 @@
               <p>
                 <strong>Development</strong><em> by</em>
                 <a href="https://twitter.com/MartianMoose" target="_blank">Audrey Kuo</a> and 
-                <a href="https://twitter.com/warderin" target="_blank">Erin Ward</a> and 
+                <a href="https://twitter.com/warderin" target="_blank">Erin Ward</a> 
               </p>
               <p>
                 <strong>Transcriptions</strong><em> by</em>
