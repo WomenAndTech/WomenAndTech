@@ -138,7 +138,7 @@
           <div class='info-panel' id="kitchen">
             <aside>
               <div class='arrow right'></div>
-              <h3>Mitchell Baker in kitchen</h3>
+              <h3></h3>
               <p class='last'>
                 Trained as a lawyer, Baker’s early employers included Fenwick & West LLP, Sun Microsystems and eventually Netscape, where in 1998 she wrote the groundbreaking <a href="http://en.wikipedia.org/wiki/Mozilla_Public_License" target="_blank">Mozilla Public License</a>, still used by companies today to licence their open source software.              </p>
             </aside>
@@ -181,7 +181,7 @@
           <div class='info-panel' id="speaking">
             <aside>
               <div class='arrow right'></div>
-              <h3>Mitchell Baker Speaking</h3>
+              <h3></h3>
               <p class='last'>Baker has served a variety of roles at Mozilla, from founder to volunteer to CEO, and to her current role as Executive Chairwoman of the Board.</p>
             </aside>
           </div>
@@ -242,7 +242,7 @@
           <div class='info-panel' id="meeting">
             <aside>
               <div class='arrow right'></div>
-              <h3>Mitchell Baker WoMoz Meeting</h3>
+              <h3></h3>
               <p class='last'>
                 Baker sits in on a WoMoz meeting, a group run by Mozilla Reps to encourage diversity (including female participation) in technology. 
               </p>
@@ -282,7 +282,7 @@
           <div class='info-panel' id="travel">
             <aside>
               <div class='arrow right'></div>
-              <h3>Mitchell Baker Travelling</h3>
+              <h3></h3>
               <p class='last'>
                 Mozilla celebrates on-the-ground volunteer communities, strong local partnerships, and worldwide campaigns and product launches, so a big part of Baker’s job involves global travel.
               </p>
@@ -325,7 +325,7 @@
           <div class='info-panel' id="talk">
             <aside>
               <div class='arrow right'></div>
-              <h3>Mitchell Baker talk</h3>
+              <h3></h3>
               <p class='last'>
                 Often the only woman in the room, Baker has found a way to reach common ground with technologists for over a decade.
               </p>
@@ -394,7 +394,7 @@
           <div class='info-panel' id="keynote">
             <aside>
               <div class='arrow right'></div>
-              <h3>Mitchell Baker Keynote 2013</h3>
+              <h3></h3>
               <p class='last'>
                 Baker keynotes the biennial Mozilla Summit in 2013 to speak about the web literacy component of Mozilla’s mission.
               </p>
