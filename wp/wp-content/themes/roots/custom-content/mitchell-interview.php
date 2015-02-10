@@ -541,7 +541,7 @@
 
         <p>The part that’s good is that there are so many possibilities, and right now Mozilla and I are in a place to try and build the parts of the world that we want. That’s the best part about being in technology – that we’re early in what the network and online life and all these things mean, and we get to build it. That’s the good part for me. </p>
 
-        <p>But which of that is because I am a woman? I don’t know how to answer that part. </p>
+        <p>But which of that is because I am a woman? I don’t know how to answer that part. <span class="full-stop"><img src="http://womenandtech.com/assets/img/full-stop.png"></span></p>
         </answer>
 
       </section>
@@ -554,7 +554,7 @@
                 <a href="https://twitter.com/cassiemc" target="_blank">Cassie McDaniel</a>
               </p>
               <p>
-                <strong>Photography</strong><em> by</em>Various
+                <strong>Photography</strong><em> by</em> Various
               </p>
               <p>
                 <strong>Editing</strong><em> by</em>
