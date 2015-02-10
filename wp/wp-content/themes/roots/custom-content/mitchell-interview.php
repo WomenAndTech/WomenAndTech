@@ -57,10 +57,10 @@
           Somewhere along the line I was writing a résumé or something and my mother saw a draft of it and said, “I don’t like Winifred as your name and I hope you won’t use it. I’d like you to use the name I intended to give you which is W. Mitchell Baker.” She was pretty determined about it, and so I said okay. But it’s an awkward thing when you’re in college not to have a name or an identity that’s consistent. 
           </p>
           <p>
-          I find, having a name that’s unusual, that when I meet people if I’m not careful they don’t talk to me directly. English speakers in particular. Mitchell’s a man’s name, and there I am – they really don’t believe it or understand it, it doesn’t sound like Michelle – but because they don’t know my name, they’re uncomfortable talking to me. So I have a bunch of adjustments I’ve learned to do to help make people comfortable with my name.
+          I find, having a name that’s unusual, that when I meet people if I’m not careful they don’t talk to me directly. English speakers in particular. Mitchell’s a man’s name, and there I am &mdash; they really don’t believe it or understand it, it doesn’t sound like Michelle &mdash; but because they don’t know my name, they’re uncomfortable talking to me. So I have a bunch of adjustments I’ve learned to do to help make people comfortable with my name.
           </p>
           <p>
-          Funny thing – I have a Chinese name too and it is also unusual and requires explanation. It’s been sort of a constant throughout my life.
+          Funny thing &mdash; I have a Chinese name too and it is also unusual and requires explanation. It’s been sort of a constant throughout my life.
           </p>
         </first-answer>
 
@@ -166,9 +166,9 @@
         </callout-with-large-image>
 
         <answer>
-        <p>He really did not like working for other people. He was a workaholic – he worked all the time, but he needed to be setting his own direction, so he had a series of businesses throughout his life, a few of them that were really successful. Most of them related to metal. He had been trained as a jeweler long ago then got a degree in mechanical engineering, sort of an inventor for awhile.</p>
+        <p>He really did not like working for other people. He was a workaholic &mdash; he worked all the time, but he needed to be setting his own direction, so he had a series of businesses throughout his life, a few of them that were really successful. Most of them related to metal. He had been trained as a jeweler long ago then got a degree in mechanical engineering, sort of an inventor for awhile.</p>
 
-        <p>He was an iconoclast and he loved discussions that bordered on argument, loved nothing more than to get a table full of people and make some outrageous statement about politics or this or that and then see what happened. I grew up as an only child and he was aggressive in his verbal sparring. It wasn’t personal at all – I mean, my dad loved me like mad, so it wasn’t a question of worth or value, it was about intellectual exchange. And I think that was phenomenal training.</p>
+        <p>He was an iconoclast and he loved discussions that bordered on argument, loved nothing more than to get a table full of people and make some outrageous statement about politics or this or that and then see what happened. I grew up as an only child and he was aggressive in his verbal sparring. It wasn’t personal at all &mdash; I mean, my dad loved me like mad, so it wasn’t a question of worth or value, it was about intellectual exchange. And I think that was phenomenal training.</p>
         </answer>
       </section>
     </div>
@@ -204,7 +204,7 @@
           <a href="http://www.cathydavidson.com/" target="_blank">
             <h4>Cathy Davidson</h4>
           </a>
-          <p>Of its six members, two women currently hold positions on <a href='https://wiki.mozilla.org/Board/FAQ#Who_are_the_current_Mozilla_Foundation_board_members.3F' target='_blank'>Mozilla's Board of Directors </a>– Mitchell Baker, Executive Chairwoman, and Cathy Davidson, who is a professor and educational innovator.
+          <p>Of its six members, two women currently hold positions on <a href='https://wiki.mozilla.org/Board/FAQ#Who_are_the_current_Mozilla_Foundation_board_members.3F' target='_blank'>Mozilla's Board of Directors </a>&mdash; Mitchell Baker, Executive Chairwoman, and Cathy Davidson, who is a professor and educational innovator.
           </p>
        </notable-person>
 
@@ -213,7 +213,7 @@
 
           <p>Periodically some people I work with would ask me, “Are you okay?” I’d think, “I’m a partner at Mozilla and, yes I’m fine, that discussion did not bother me.” I can have a heated discussion on the elements and I can have people get frustrated with me and not feel crushed and not feel like it’s the end of the world. And still feel like maybe I overreacted some, but I still think my point of view is right and I’m not going to give it up. </p>
 
-          <p>So that constant sparring, contradiction, and ‘let’s try to push your buttons so I can see what happens’ – in the setting of a man who I knew adored me – I think that was one of those intangible trainings you can’t put on a résumé but that has been critical to my success.</p>
+          <p>So that constant sparring, contradiction, and ‘let’s try to push your buttons so I can see what happens’ &mdash; in the setting of a man who I knew adored me – I think that was one of those intangible trainings you can’t put on a résumé but that has been critical to my success.</p>
         </answer>
 
         <pull-quote>I can have a heated discussion on the elements and I can have people get frustrated with me and not feel crushed and not feel like it’s the end of the world.</pull-quote>
@@ -263,7 +263,7 @@
         We talked a bit about how you grew up as an only child. And you have an only son. How do you find balancing being a mom with your insane work schedule?
         </question>
         <answer>
-        <p>It’s got a lot of pluses and some drawbacks. I think each kid and each family is different and so what works in one family may not work in another. I should also say my husband is beyond helpful and supportive, so I’m really fortunate. I think both my husband and my son appreciate what I’m doing. I think it’s good for my son to have me out in the world. And Mozilla is a special thing – at least to me. It is a valuable thing in its own right. So I think all of those things are good.</p>
+        <p>It’s got a lot of pluses and some drawbacks. I think each kid and each family is different and so what works in one family may not work in another. I should also say my husband is beyond helpful and supportive, so I’m really fortunate. I think both my husband and my son appreciate what I’m doing. I think it’s good for my son to have me out in the world. And Mozilla is a special thing &mdash; at least to me. It is a valuable thing in its own right. So I think all of those things are good.</p>
 
         <p>But yeah, for sure, if I weren’t working or if I were working half-heartedly I would be more engaged on a daily basis in my son’s schooling and activities. On the other hand I don’t know if that’s good for an only child. Two parents intensely focused with all their energy on an only child and nothing else is not always great. Maybe with two kids it’s the same thing, I don’t know, that’s not my experience. </p>
 
@@ -304,7 +304,7 @@
         </question>
 
         <answer>
-        <p>First of all, I don’t care that much. For someone on the outside to look in and tell me what my family needs – I really… I will say I did come from two odd people who made their own way, so I grew up in that setting and I have that in myself. Aspects of that are not good, I’m not saying it’s a perfect trade, but in general it makes it easier for me.</p>
+        <p>First of all, I don’t care that much. For someone on the outside to look in and tell me what my family needs &mdash; I really… I will say I did come from two odd people who made their own way, so I grew up in that setting and I have that in myself. Aspects of that are not good, I’m not saying it’s a perfect trade, but in general it makes it easier for me.</p>
 
         <p>I do feel pressure, not just from my family but from me as well, to be home more than I would be if I just scheduled trips without thinking about it. I travel a lot and my trips are always as compressed as I can make them. I’ll go off (like many business people do) and I’lI arrive in Europe at 10am, and my meetings start at 11:30 because I don’t want to take a day to rest. I want to get home as soon as I can. So that is where I do feel a bunch of pressure.</p>
         </answer>
@@ -346,7 +346,7 @@
         Can you clarify that – were you laid off, or were you fired?
         </question>
         <answer>
-        <p>Let’s see. Mozilla started inside Netscape in 1998 and at the end of that year, early ‘99, AOL bought Netscape. It turns out (especially in those days) that you can use a browser to generate a fair amount of money, but some of the things that generate money people don’t like. And the browser becomes more and more about making money out of people. Like, every button or every menu item is sold to some company, and then the user experience deteriorates. </p>
+        <p>Let’s see. <a href="http://en.wikipedia.org/wiki/Mozilla">Mozilla</a> started inside Netscape in 1998 and at the end of that year, early ‘99, AOL bought Netscape. It turns out (especially in those days) that you can use a browser to generate a fair amount of money, but some of the things that generate money people don’t like. And the browser becomes more and more about making money out of people. Like, every button or every menu item is sold to some company, and then the user experience deteriorates. </p>
 
         </answer>
 
@@ -358,28 +358,28 @@
         <p>We had a lot of pressures when we were inside AOL, in 1999, 2000, 2001, the handful of us who were leading the Mozilla project. I had a charter to build an open-source project, a true, distributed, meritocratic, open source project. And my boss and the rest of the AOL employees of course had the charter to build the business of AOL. And those two things can be side-by-side for some period of time, but they are not the same. </p>
 
         <p>
-        Eventually the tensions became overwhelming. There were outright fights going on where some of the employees at AOL – chartered with AOL’s business – would say “Mitchell, Mozilla must do the following things in the browser,” and I would say, “Mozilla is not going to do those things.” Head-to-head conflict like that, and that went on for awhile. </p>
+        Eventually the tensions became overwhelming. There were outright fights going on where some of the employees at AOL &mdash; chartered with AOL’s business &mdash; would say “Mitchell, Mozilla must do the following things in the browser,” and I would say, “Mozilla is not going to do those things.” Head-to-head conflict like that, and that went on for awhile. </p>
 
         <p>At that time there was this giant layoff planned, and it appeared like a good time to lay me off, which is a gracious way of getting rid of someone. And so I was laid off. Technically. Nevertheless it was a fight for the control of Mozilla. Was it run as an open source project, or was it run as an AOL project that had a lot of volunteers in it?</p>
 
         <p>The rest of the story was relayed to me because I had been laid off so I wasn’t in the building or involved. There were six or seven people chartered to work on Mozilla, and then there were oh I don’t know, 75, 100, 125 people employed by AOL to build the browser and to contribute their work into the open source code base. And that set of employees made it clear that they just weren’t going to follow direction or organization of that product unless Mozilla and I were at the center of it.</p>
         </answer>
 
-        <pull-quote>we got to keep the project, that was what really happened! We were able to keep Mozilla – the open-source project – alive and real.</pull-quote>
+        <pull-quote>we got to keep the project, that was what really happened! We were able to keep Mozilla &mdash; the open-source project &mdash; alive and real.</pull-quote>
 
         <question>
         That must have felt pretty good in a way.
         </question>
 
         <answer>
-        <p>Good and bad. It was pretty traumatic for the people who were left who felt this person who was leading the aspect of their jobs that they cared about most (the open source aspect) was gone – it’s very traumatic. But it was also rewarding to learn how many people viewed what I and my colleagues were doing. And we got to keep the project, that was what really happened! We were able to keep Mozilla – the open-source project – alive and real.</p>
+        <p>Good and bad. It was pretty traumatic for the people who were left who felt this person who was leading the aspect of their jobs that they cared about most (the open source aspect) was gone &mdash; it’s very traumatic. But it was also rewarding to learn how many people viewed what I and my colleagues were doing. And we got to keep the project, that was what really happened! We were able to keep Mozilla &mdash; the open-source project &mdash; alive and real.</p>
         </answer>
 
         <question>
         What is it about Mozilla’s mission that matters to you personally? I mean, why essentially devote your life to the Internet? Why do you care?
         </question>
         <answer>
-        <p>There are two interlocking reasons. The first one is that the power of a network has always fascinated me. It is one of those places where one plus one can equal three. You have a set of capabilities, I have a set of capabilities, and the next person has a set of capabilities – one plus one plus one can equal five, right? When we are connected in a networked way, where you can reach each other across many vectors the power goes way up. </p>
+        <p>There are two interlocking reasons. The first one is that the power of a network has always fascinated me. It is one of those places where one plus one can equal three. You have a set of capabilities, I have a set of capabilities, and the next person has a set of capabilities &mdash; one plus one plus one can equal five, right? When we are connected in a networked way, where you can reach each other across many vectors the power goes way up. </p>
         </answer>
 
       </section>
@@ -467,7 +467,7 @@
         <answer>
         <p>In trapeze, you can hurt yourself that’s for sure, but no one is trying to hurt you. Everybody is trying to make it safe and fun. A ton of the world’s population does not experience that, so it’s a pretty privileged position and I’m careful not to think that it’s a fear like a ton of people, a ton of women, live in all the time.</p>
 
-        <p>One thing I learned is how fear turns the brain off, and how so often when fear takes over, one does the wrong thing. The flying is scary. When you take the safety lines off it’s also scary. You are on your own until you are in a spot where the catcher can catch you, if he can. And the net – it’s not like a floor, it’s a net – but it’s easy to break bones. So what I really found interesting is that there is a period of time where there is plenty of fear but it’s under control and you’re committed and going for it, and then there’s a moment where the fear takes over and you’re afraid. You’re going through the motions but the fear is what’s driving things. Those are utterly different moments. </p>
+        <p>One thing I learned is how fear turns the brain off, and how so often when fear takes over, one does the wrong thing. The flying is scary. When you take the safety lines off it’s also scary. You are on your own until you are in a spot where the catcher can catch you, if he can. And the net &mdash; it’s not like a floor, it’s a net – but it’s easy to break bones. So what I really found interesting is that there is a period of time where there is plenty of fear but it’s under control and you’re committed and going for it, and then there’s a moment where the fear takes over and you’re afraid. You’re going through the motions but the fear is what’s driving things. Those are utterly different moments. </p>
         
         <p>I was able to feel that shift any number of times in the other places in life where I had been afraid. When something shifts, everything goes wrong. Typically when you’re flying, you plunge into the net.</p>
 
@@ -513,7 +513,7 @@
       <section class='row normal'>
 
         <answer>
-        <p>In the setting I grew up in, if you take all of that aside and just say, ‘Will I take jobs that don’t seem to have a future because I’m interested in them? Will I suddenly do something that I always thought I would never do because now seems like the right time? Will I change my mind fundamentally? Will I do something that seems crazy – like Mozilla – because most people don’t believe in it?’</p>
+        <p>In the setting I grew up in, if you take all of that aside and just say, ‘Will I take jobs that don’t seem to have a future because I’m interested in them? Will I suddenly do something that I always thought I would never do because now seems like the right time? Will I change my mind fundamentally? Will I do something that seems crazy &mdash; like Mozilla &mdash; because most people don’t believe in it?’</p>
 
         <p>The answer to those things is clearly yes.</p>
         </answer>
