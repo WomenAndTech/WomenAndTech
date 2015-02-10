@@ -350,7 +350,7 @@
 
         </answer>
 
-        <callout-with-large-image image="mitchell-interview/mitchell-original-firefox-team.jpg" alternative-text-for-image="Original Firefox Team">
+        <callout-with-large-image image="mitchell-interview/mitchell-original-firefox-team-FULL.jpg" alternative-text-for-image="Original Firefox Team">
           <p>The original team that launched Firefox 1.0. Baker is in the front row of the group photo, third from the left.</p>
         </callout-with-large-image>
 
