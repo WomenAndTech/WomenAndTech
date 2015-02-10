@@ -346,7 +346,7 @@
         Can you clarify that – were you laid off, or were you fired?
         </question>
         <answer>
-        <p>Let’s see. <a href="http://en.wikipedia.org/wiki/Mozilla">Mozilla</a> started inside Netscape in 1998 and at the end of that year, early ‘99, AOL bought Netscape. It turns out (especially in those days) that you can use a browser to generate a fair amount of money, but some of the things that generate money people don’t like. And the browser becomes more and more about making money out of people. Like, every button or every menu item is sold to some company, and then the user experience deteriorates. </p>
+        <p>Let’s see. <a href="http://en.wikipedia.org/wiki/Mozilla" target="_blank">Mozilla</a> started inside Netscape in 1998 and at the end of that year, early ‘99, AOL bought Netscape. It turns out (especially in those days) that you can use a browser to generate a fair amount of money, but some of the things that generate money people don’t like. And the browser becomes more and more about making money out of people. Like, every button or every menu item is sold to some company, and then the user experience deteriorates. </p>
 
         </answer>
 
@@ -519,10 +519,7 @@
         </answer>
 
         <notable-person image='mitchell-interview/mitchell-notable-jim-barksdale.jpg'>
-          <a href="http://en.wikipedia.org/wiki/Jim_Barksdale" target="_blank">
-            <h4>Jim Barksdale</h4>
-          </a>
-          <p>Jim Barksdale (whose middle name is Love) was president and CEO of Netscape Communications Corporation for four years from 1995 to 1999.</p>
+          <p><a href="http://en.wikipedia.org/wiki/Jim_Barksdale" target="_blank">Jim Barksdale</a> (whose middle name is Love) was president and CEO of Netscape Communications Corporation for four years from 1995 to 1999.</p>
           <p>He has held leadership positions at FedEx, Time Warner Inc., Sun Microsystems and of course at his own company, Barksdale Management Corporation.
         </p>
        </notable-person>
@@ -558,7 +555,8 @@
               </p>
               <p>
                 <strong>Editing</strong><em> by</em>
-                <a href="https://twitter.com/cassiemc" target="_blank">Cassie McDaniel</a>
+                <a href="https://twitter.com/cassiemc" target="_blank">Cassie McDaniel</a> and 
+                <a href="https://twitter.com/ivonnekn" target="_blank">Ivonne Karamoy</a> 
               </p>
               <p>
                 <strong>Design</strong><em> by</em>
