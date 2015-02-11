@@ -14,10 +14,11 @@ Biying Interview Specific Styles
     min-width: 748px;
 }
 
-.interview .interview-number.double-digits{
+/* v Removed during QA */
+/*.interview .interview-number.double-digits{
     padding-right: 0.55em;
     padding-left: 0.45em;
-}
+}*/
 
 
 /* CAPTION POSITIONS */
