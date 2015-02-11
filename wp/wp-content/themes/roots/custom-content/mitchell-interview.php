@@ -28,7 +28,7 @@
         </div>
       </section>
     </div><!-- interview-intro -->
-    <div id="featured" class="fullscreen">
+    <div id="portrait" class="fullscreen">
       <img src="<?php echo get_home_url(); ?>/assets/img/mitchell-interview/mitchell-01-headshot-Joi-Ito.jpg" alt="Mitchell Baker Profile"/>
       <div class="photo-credit">
         Photo credit:
@@ -365,7 +365,7 @@
         <p>The rest of the story was relayed to me because I had been laid off so I wasn’t in the building or involved. There were six or seven people chartered to work on Mozilla, and then there were oh I don’t know, 75, 100, 125 people employed by AOL to build the browser and to contribute their work into the open source code base. And that set of employees made it clear that they just weren’t going to follow direction or organization of that product unless Mozilla and I were at the center of it.</p>
         </answer>
 
-        <pull-quote>we got to keep the project, that was what really happened! We were able to keep Mozilla &mdash; the open-source project &mdash; alive and real.</pull-quote>
+        <pull-quote>We got to keep the project, that was what really happened! We were able to keep Mozilla &mdash; the open-source project &mdash; alive and real.</pull-quote>
 
         <question>
         That must have felt pretty good in a way.
