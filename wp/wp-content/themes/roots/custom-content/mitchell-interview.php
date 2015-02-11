@@ -519,10 +519,10 @@
         </answer>
 
         <notable-person image='mitchell-interview/mitchell-notable-jim-barksdale.jpg'>
-          <p><a href="http://en.wikipedia.org/wiki/Jim_Barksdale" target="_blank">Jim Barksdale</a> (whose middle name is Love) was president and CEO of Netscape Communications Corporation for four years from 1995 to 1999.</p>
-          <p>He has held leadership positions at FedEx, Time Warner Inc., Sun Microsystems and of course at his own company, Barksdale Management Corporation.
-        </p>
-       </notable-person>
+          <p>
+            <a href="http://en.wikipedia.org/wiki/Jim_Barksdale" target="_blank">Jim Barksdale</a> was president and CEO of Netscape Communications Corporation for four years from 1995 to 1999. He has held leadership positions at FedEx, Time Warner Inc., Sun Microsystems and of course at his own company, Barksdale Management Corporation.
+          </p>
+        </notable-person>
 
         <answer>
           <p>The man who used to run Netscape, Jim Barksdale, liked to say, “People love progress. It’s change they can’t stand.” I think about that a lot because most people are uncomfortable or disoriented by change, destabilized by change. You see that in managing or reading people. I am much less so, and my dad was much less so. I like change. Maybe that’s because I’ve been lucky in life, maybe it’s genetic, but on the spectrum of how people respond to change I’m pretty positive. Some things that feel like giant risks to people, well, it’s change – sounds like fun!</p>
