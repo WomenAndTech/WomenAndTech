@@ -1,0 +1,252 @@
+/*=============================
+Biying Interview Specific Styles
+=============================*/
+
+
+.interview address .author-image{
+    background: url('https://pbs.twimg.com/profile_images/514454127821078528/Yjy621Kb.jpeg') center top no-repeat;
+    background-size: 110%;
+}
+
+/* Article > #Opening */
+.fullscreen img {
+    min-height: 420px;
+    min-width: 748px;
+}
+
+/* v Removed during QA */
+/*.interview .interview-number.double-digits{
+    padding-right: 0.55em;
+    padding-left: 0.45em;
+}*/
+
+
+/* CAPTION POSITIONS */
+/* uncomment and modify as needed */
+
+
+.fullscreen #press.info-panel {
+    top: 47%;
+    left: 16%;
+}
+
+#studio {
+    top: 75%;
+    left: 4%;
+}
+
+.fullscreen #kithen.info-panel {
+    top: 72%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #speaking.info-panel {
+    top: 57%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #meeting.info-panel {
+    top: 66%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #travel.info-panel {
+    top: 25%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #talk.info-panel {
+    top: 7%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #keynote.info-panel {
+    top: 18%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #trapeze.info-panel {
+    top: 80%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #office.info-panel {
+    top: 58%;
+    left: 5%;
+    z-index: 2;
+}
+
+/* Article > Start Tag */
+.no-svg #start-animation {
+    background:transparent url("../img/lucia-interview/img-swiffy-start-animation.gif") no-repeat left top;
+}
+
+.notable-person.double .first {
+    margin-bottom: 10px;
+}
+
+.interview section.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.interview section.no-margin-top {
+    margin-top: 0;
+}
+
+
+.fullscreen .info-panel.right-anchor {
+    right:0;
+    top:45%;
+}
+.fullscreen .info-panel.right-anchor .arrow {
+    left:-14px;
+    border-width:15px 0 15px 15px;
+}
+.fullscreen .info-panel.right-anchor .arrow:after {
+    border-width:16px 16px 16px 0;
+    border-right-color:#FF3818;
+    border-left-color:transparent;
+}
+
+.notable-person h4 {
+  font-size: 1.071em;
+  line-height: 1.3em;
+  margin: 0 0 0.25em;
+  font-weight: bold;
+}
+.photo-credit.light {
+  background-color:rgba(255,255,255,0.4);
+}
+
+.notable-person#daphne-kis .arrow{
+    top: 20%;
+}
+
+.photo-callout#symphony{
+    margin-top: 10em;
+}
+
+
+/*.callout-question #profile-image{
+    padding-top:4em;
+    padding-bottom: 1.5em;
+}
+
+@media (max-width: 1200px) {
+    .callout-question #profile-image{
+        padding-bottom: 2em;
+    }
+}
+
+@media (max-width: 980px) {
+    .callout-question #profile-image{
+        padding-top:7em;
+        padding-bottom: 7.5em;
+    }
+}
+
+@media (max-width: 767px) {
+    .callout-question #profile-image{
+        padding-top:3.5em;
+        padding-bottom: 0em;
+    }
+}
+
+@media (max-width: 698px) {
+    .callout-question #profile-image{
+        padding-top:5.5em;
+        padding-bottom: 4.5em;
+    }
+}
+
+@media (max-width: 580px) {
+    .callout-question #profile-image{
+        padding-top:6.5em;
+        padding-bottom: 6.5em;
+    }
+}
+
+@media (max-width: 530px) {
+    .callout-question #profile-image{
+        padding-top:9em;
+        padding-bottom: 14em;
+    }
+}
+
+@media (max-width: 481px) {
+    .callout-question #profile-image{
+        padding-top:3%;
+        padding-bottom: 0em;
+    }
+}*/
+
+/* Mobile Fluid */
+@media (max-width:767px) {
+    #start-tag {
+        display:inherit;
+    }
+    #start-tag .fluid-width-swiffy-wrapper {
+        display:none;
+    }
+    .notable-person.photo-callout img {
+        float:left;
+    }
+    .curtains.drawn > li .fullscreen{
+        margin-top: 10px;
+    }
+
+    .fullscreen {
+        height: inherit;
+    }
+    .fullscreen img {
+        min-height: inherit;
+        min-width: inherit;
+        position: static;
+        margin-left: inherit;
+        top: inherit;
+        left: inherit;
+    }
+
+
+    .photo-credit, .photo-credit.light, .photo-credit.dark{
+        position:static;
+        height: inherit;
+        color: #999;
+        background-color: transparent;
+    }
+
+    .photo-credit a, .photo-credit a:visited, .photo-credit.light a, .photo-credit.light a:visited, .photo-credit.dark a, .photo-credit.dark a:visited{
+        color: #888;
+    }
+
+    .fullscreen .parallax{
+        position: static;
+        height: inherit;
+    }
+
+    .fullscreen .info-panel{
+        width: inherit;
+        top: inherit;
+        position: static;
+    }
+
+
+    .callout-question #quote-mark{
+        top: 2em;
+    }
+
+    .photo-callout img{
+        float: none;
+    }
+
+  .notable-person h4 {
+    line-height:1.5em;
+  }
+}
