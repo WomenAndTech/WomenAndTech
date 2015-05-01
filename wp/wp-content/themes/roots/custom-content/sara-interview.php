@@ -199,7 +199,7 @@
           <div class="photo-callout notable-person">
             <figure class="first-row">
               <div class="arrow"></div>
-              <iframe width="278" height="156" src="https://www.youtube.com/embed/mQ6ngLieVEU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <iframe width="100%" height="156" src="https://www.youtube.com/embed/mQ6ngLieVEU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               <figcaption class="clear">
                 <p>Having worked in the industry for many years, Sara launched Reaction Commerce, a modern full open-source platform for small to medium markets.</p>
               </figcaption>
