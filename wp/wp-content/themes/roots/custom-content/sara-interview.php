@@ -131,7 +131,7 @@
         <answer>
           <p>We had 8 people on my team, divided by the neighborhoods. It was electric. Such an exciting time! GeoCities was exploding and the team was dynamic. Every day was different. Tens of millions of homesteaders.</p>
          
-          <p>Then, we were acquired by Yahoo! in 1999 for nearly $4 billion during that crazy first wave of the web. I migrated to the Bay Area for 5 years and worked at Yahoo! as a product manager, initially on the integration, but soon I became Head of Product for Yahoo! Merchant Solutions, which was an ecommerce hosting solution inside of Yahoo!.<p>
+          <p>Then, we were acquired by Yahoo! in 1999 for nearly $4 billion during that crazy first wave of the web. I migrated to the Bay Area for 5 years and worked at Yahoo! as a product manager, initially on the integration, but soon I became Head of Product for Yahoo! Merchant Solutions, which was an ecommerce hosting solution inside of Yahoo!.</p>
         </answer>
 
         <pull-quote>I’ve always been interested in helping small businesses, individuals, hobbyists, and makers succeed online.</pull-quote>
@@ -199,7 +199,7 @@
           <div class="photo-callout notable-person">
             <figure class="first-row">
               <div class="arrow"></div>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/mQ6ngLieVEU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <iframe width="278" height="156" src="https://www.youtube.com/embed/mQ6ngLieVEU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               <figcaption class="clear">
                 <p>Having worked in the industry for many years, Sara launched Reaction Commerce, a modern full open-source platform for small to medium markets.</p>
               </figcaption>
