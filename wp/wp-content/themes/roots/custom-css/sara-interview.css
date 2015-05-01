@@ -27,7 +27,19 @@ Biying Interview Specific Styles
 
 
 .fullscreen #grace.info-panel {
-    top: 72%;
+    top: 52%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #california.info-panel {
+    top: 52%;
+    left: 5%;
+    z-index: 2;
+}
+
+.fullscreen #founders.info-panel {
+    top: 52%;
     left: 5%;
     z-index: 2;
 }
