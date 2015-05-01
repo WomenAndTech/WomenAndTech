@@ -42,11 +42,11 @@
           So you’ve done a ton of different things. You are a coder, a designer and an entrepreneur?
         </first-question>
 
-        <first-answer>
+        <answer>
           <p>
             Yes, mostly an entrepreneur and a product designer. Certainly these days, I’m more of an entrepreneur.
           </p>
-        </first-answer>
+        </answer>
 
         <question>
           How do you feel about that? The term “entrepreneur”?
