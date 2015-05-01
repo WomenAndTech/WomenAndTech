@@ -96,7 +96,9 @@ Biying Interview Specific Styles
 }
 
 
-/*.callout-question #profile-image{
+
+
+.callout-question #profile-image{
     padding-top:4em;
     padding-bottom: 1.5em;
 }
@@ -147,7 +149,7 @@ Biying Interview Specific Styles
         padding-top:3%;
         padding-bottom: 0em;
     }
-}*/
+}
 
 /* Mobile Fluid */
 @media (max-width:767px) {
