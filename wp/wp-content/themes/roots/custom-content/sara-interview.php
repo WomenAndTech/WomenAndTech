@@ -43,7 +43,9 @@
         </first-question>
 
         <first-answer>
-          <p>Yes, mostly an entrepreneur and a product designer. Certainly these days, I’m more of an entrepreneur.</p>
+          <p>
+            Yes, mostly an entrepreneur and a product designer. Certainly these days, I’m more of an entrepreneur.
+          </p>
         </first-answer>
 
         <question>
