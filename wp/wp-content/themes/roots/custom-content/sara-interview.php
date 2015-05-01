@@ -58,13 +58,13 @@
           I wanted to speak with you in particular because I knew that you recently founded your startup, <a href="https://reactioncommerce.com" target="_blank">Reaction Commerce</a>, but you never struck me as that kind of person, as an “entrepreneur,” in the loaded sense. So I wanted to hear more about how you got to where you are today.
         </question>
 
-        <answer>
-          <p>Well, we could get into where things started for me.</p>      
-
-          <notable-person image="sara-interview/notable-aaron-judd.jpg">
+        <notable-person image="sara-interview/notable-aaron-judd.jpg">
             <h3>Aaron Judd</h3>
             <p>Aaron Judd is a veteran of multiple startups having over 20 years experience in the industry. He is cofounder and CTO of Reaction Commerce.</p>
           </notable-person>
+
+        <answer>
+          <p>Well, we could get into where things started for me.</p>               
 
           <p>I’ve been working since the early stages of the web, starting with <a href="http://en.wikipedia.org/wiki/GeoCities" target="_blank">GeoCities</a>, then Yahoo! for 5 years, then Etsy, and really, I’ve been building and designing products for different audiences for almost my whole career. The natural evolution of starting my own company just seemed to flow from all those experiences. I was doing this for other people’s ideas, and then I saw this need in ecommerce. Along with my cofounder, <a href="https://twitter.com/aaronsjudd" target="_blank">Aaron Judd</a>, we decided that it was time to build a new modern ecommerce platform, Reaction.</p>
         </answer>
