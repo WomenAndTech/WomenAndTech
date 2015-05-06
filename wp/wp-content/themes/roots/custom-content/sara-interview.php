@@ -119,7 +119,7 @@
     <div class="container">
       <section class='row normal'>
 
-        <question>Tell us how you got started with <a href="http://en.wikipedia.org/wiki/GeoCities" target="_blank">. I had a GeoCities site when I was, like, 8, and it was so bad. It was a fansite about the show Daria and it was only compatible with Netscape Navigator. How did you get into that? And what was it like back in the day?</question>
+        <question>Tell us how you got started with <a href="http://en.wikipedia.org/wiki/GeoCities" target="_blank">Geocities</a>. I had a GeoCities site when I was, like, 8, and it was so bad. It was a fansite about the show Daria and it was only compatible with Netscape Navigator. How did you get into that? And what was it like back in the day?</question>
  
         <answer>
           <p>Well, I went to UCLA and graduated with a degree in social psychology. I thought I was going to go into a career of social work. Post college, I was doing volunteer coordinating for non-profits. What frustrated me about community organizing was that it was so dependent on funding grants. Everything was grant to grant to grant. You never knew if the organization was going to be able to sustain itself. Funding was decreasing, and I could see the writing on the wall.</p>
