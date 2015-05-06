@@ -53,7 +53,7 @@
         </question>
 
         <answer>
-          <p>I generally don’t like labels, and I sort of cringe when I think about the term “entrepreneur” because of the way it’s been overhyped. If I think about an entrepreneur in the purest sense as someone who is intrigued with creating and building things that are meaningful–if I think about entrepreneurship from that standpoint and not as a buzzword– then, it’s a little more palatable.</p>
+          <p>I generally don’t like labels, and I sort of cringe when I think about the term “entrepreneur” because of the way it’s been overhyped. If I think about an entrepreneur in the purest sense as someone who is intrigued with creating and building things that are meaningful—if I think about entrepreneurship from that standpoint and not as a buzzword— then, it’s a little more palatable.</p>
         </answer>
 
         <question>
@@ -61,7 +61,7 @@
         </question>
 
         <notable-person image="sara-interview/notable-aaron-judd.jpg">
-            <h3>Aaron Judd</h3>
+            <a href="https://twitter.com/aaronsjudd" target="_blank"><h4>Aaron Judd</h4></a>
             <p>Aaron Judd is a veteran of multiple startups having over 20 years experience in the industry. He is cofounder and CTO of Reaction Commerce.</p>
           </notable-person>
 
@@ -103,9 +103,8 @@
           <div class='info-panel' id="grace">
             <aside>
               <div class='arrow right'></div>
-              <h3>Sara Hicks with Grace</h3>
               <p class='last'>
-                Having worked in the industry for 20 years and now cofounding her own startup, Sara writes about her experiences of running a business, building a product and managing a team in an environment that values positivity and well-being on her <a href="http://saralouhicks.com/" target="_blank">blog</a> and on <a href="https://medium.com/@saralouhicks" target="_blank">Medium</a>. (Pictured here with Sara is her sweet pup Grace.)
+                Sara shares her experiences of running a business, building a product and managing a team in an environment that values positivity and well-being on her website <a href="http://saralouhicks.com/" target="_blank">blog</a> and on <a href="https://medium.com/@saralouhicks" target="_blank">Medium</a>. Pictured here with Sara is her sweet pup Grace.
               </p>
             </aside>
           </div>
@@ -120,7 +119,7 @@
     <div class="container">
       <section class='row normal'>
 
-        <question>Tell us how you got started with GeoCities. I had a GeoCities site when I was, like, 8, and it was so bad. It was a fansite about the show Daria and it was only compatible with Netscape Navigator. How did you get into that? And how was it like back in the day?</question>
+        <question>Tell us how you got started with <a href="http://en.wikipedia.org/wiki/GeoCities" target="_blank">. I had a GeoCities site when I was, like, 8, and it was so bad. It was a fansite about the show Daria and it was only compatible with Netscape Navigator. How did you get into that? And what was it like back in the day?</question>
  
         <answer>
           <p>Well, I went to UCLA and graduated with a degree in social psychology. I thought I was going to go into a career of social work. Post college, I was doing volunteer coordinating for non-profits. What frustrated me about community organizing was that it was so dependent on funding grants. Everything was grant to grant to grant. You never knew if the organization was going to be able to sustain itself. Funding was decreasing, and I could see the writing on the wall.</p>
@@ -149,7 +148,7 @@
         </answer>
          
 
-        <question>And that’s how you got into Etsy as well? What made you decide to move onto Etsy? When was this, like 2008?</question>
+        <question>And that’s how you got into <a href="https://www.etsy.com/" target="_blank">Etsy</a> as well? What made you decide to move onto Etsy? When was this, like 2008?</question>
          
         <answer>
           <p>Yes, around that time. I had been a fan of Etsy for a long time. I just loved what it stood for. I was watching the company and business from afar just to see how it was growing, not necessarily looking for a job. As a 4th generation Californian, I certainly wasn’t looking to move to New York.</p>
@@ -176,9 +175,9 @@
           <div class='info-panel' id="california">
             <aside>
               <div class='arrow right'></div>
-              <h3>California Bike Ride</h3>
+              <h3>The California Life</h3>
               <p class='last'>
-                As a 4th generation California, Sara finds inspiration and rejuvenation from the outdoors.
+                As a 4th generation California, Sara is an avid hiker, surfer, runner, and biker and finds inspiration and rejuvenation from the outdoors.
               </p>
             </aside>
           </div>
@@ -203,7 +202,7 @@
               <div class="arrow"></div>
               <iframe width="100%" height="156" src="https://www.youtube.com/embed/mQ6ngLieVEU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               <figcaption class="clear">
-                <p>Having worked in the industry for many years, Sara launched Reaction Commerce, a modern full open-source platform for small to medium markets.</p>
+                <p>Reaction Commerce is a modern, open-source ecommerce platform for small to medium markets.</p>
               </figcaption>
               <div style="clear:both"></div>
             </figure>
@@ -241,7 +240,7 @@
 
           <p>The Shopify’s of the world are closed-source solutions. Great products, but they’ve been around for 10 years, and once you start doing meaningful volume on something that’s closed source, you’re going to want more flexibility and customization.</p>
            
-          <p>The other thing is—if you look at open-source platforms, there’s really only a couple choices. There’s Magento, recently acquired by eBay, which hasn’t really been innovating. There’s also Spree, a good product built on Rails, but other than that, there aren’t many more options for business owners. They want new features.</p>
+          <p>The other thing is, if you look at open-source platforms, there’s really only a couple choices. There’s Magento, recently acquired by eBay, which hasn’t really been innovating. There’s also Spree, a good product built on Rails, but other than that, there aren’t many more options for business owners. They want new features.</p>
            
           <p>Our platform is all on <a href="https://nodejs.org/" target="_blank">Node.js</a>, which is rising in popularity. It’s completely JavaScript, HTML, and CSS front end and back end. It’s super fast in terms of page load and everything is reactive, which means everything updates in real time. So let’s say you want to up the conversion rate of a product page. In real time, without page reloads, we could push a coupon or a price change to help visitors convert. We’re trying to build a more intelligent, dynamic platform, not just another platform.</p>
         </answer>
@@ -257,9 +256,8 @@
           <div class='info-panel' id="founders">
             <aside>
               <div class='arrow right'></div>
-              <h3>Sara with cofounder Aaron</h3>
               <p class='last'>
-                Sara cofounded Ongo and Reaction Commerce in 2013 with Aaron Judd. Together they bootstrapped the business and created an open-source ecommerce platform with a remote team. A few months in, <a href="https://medium.com/@saralouhicks/this-is-hard-906dbedfe2a4" target="_blank">Sara wrote about the difficulties of running a startup</a>
+                Sara cofounded Ongo and Reaction Commerce in 2013 with Aaron Judd. Together they bootstrapped the business and created an open-source ecommerce platform with a distributed team. A few months in, <a href="https://medium.com/@saralouhicks/this-is-hard-906dbedfe2a4" target="_blank">Sara wrote about the difficulties of running a startup</a>.
               </p>
             </aside>
           </div>
@@ -294,7 +292,7 @@
           <p>The issue of balance. I worry when I see people out and about and they’re so plugged into their devices. I’m guilty of that too. I just feel like we have to be more mindful and make sure we’re having enough real life interactions with people and with nature. Moderation is key. We have to make sure that generations growing up natively with all these apps and devices know about that balance.</p>
         </answer>
          
-        <question>Kids these days are so good at the Internet–I don’t even know. My friend has this nephew who’s about 10 and he gets 100 likes every time he posts something on Instagram and it’s like, “You’re 10! How do you even know 100 people!?”</question>
+        <question>Kids these days are so good at the Internet—I don’t even know. My friend has this nephew who’s about 10 and he gets 100 likes every time he posts something on Instagram and it’s like, “You’re 10! How do you even know 100 people!?”</question>
          
         <answer>
           <p>It’s amazing and also scary. As mentors, it’s our job to help teach and guide people to use technology responsibly.</p>
@@ -318,7 +316,6 @@
           <div class='info-panel' id="mentorship">
             <aside>
               <div class='arrow right'></div>
-              <h3>Sara at StackCommerce</h3>
               <p class='last'>
                 Sara advises the team at StackCommerce, a local Venice startup, on topics such as leadership, startups, best practices, technology and collaboration.
               </p>
@@ -358,7 +355,7 @@
         <question>I never realized the importance of having female camaraderie in this industry until last year when I started having dinner with other women in tech. It validated everything I was feeling. There was such an apparent gender divide at the places I’ve worked, but it was always hard to explain, really.</question>
 
         <notable-person image="sara-interview/notable-maria-thomas.jpg">
-          <h3>Maria Thomas</h3>
+          <a href="https://twitter.com/pesmou" target="_blank"><h4>Maria Thomas</h4></a>
           <p>Maria Thomas increased Etsy’s sales seven-fold and led the company to profitability and internationalization in her role as CEO from 2008 - 2010. She has held many executive positions since and is currently the Chief Marketing and Consumer Officer at SmartThings.</p>
         </notable-person>
          
@@ -392,7 +389,7 @@
           <p>Yeah. It is what it is, right? But at least now there are more VC funds focused on women entrepreneurs, like <a href="http://corp.aol.com/2014/09/02/aol-launches-women-focused-start-up-fund/" target="_blank">Built by Girls out of AOL</a> and the <a href="https://angel.co/500-women" target="_blank">500 Women Syndicate from 500 Startups</a> are just a couple examples. The transformation is happening, just slower than what we’d all like.</p>
         </answer>
          
-        <question>Just a matter of time.</question>
+        <question>Just a matter of time. <span class="full-stop"><img src="http://womenandtech.com/assets/img/full-stop.png"></span></question>
 
       </section>
 
@@ -410,7 +407,8 @@
                 <a href="https://twitter.com/sophiehe" target="_blank">Sophie He</a>
               </p>
               <p>
-                <strong>Photography</strong><em> by</em> Various
+                <strong>Photography</strong><em> by</em> 
+                <a href="https://twitter.com/saralouhicks" target="_blank">Sara Hicks</a>
               </p>
               <p>
                 <strong>Editing</strong><em> by</em>
