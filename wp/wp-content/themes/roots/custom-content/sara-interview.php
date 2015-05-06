@@ -60,7 +60,7 @@
           I wanted to speak with you in particular because I knew that you recently founded your startup, <a href="https://reactioncommerce.com" target="_blank">Reaction Commerce</a>, but you never struck me as that kind of person, as an “entrepreneur,” in the loaded sense. So I wanted to hear more about how you got to where you are today.
         </question>
 
-        <notable-person image="/assets/img/sara-interview/notable-aaron-judd.jpg">
+        <notable-person image="http://womenandtech.com/assets/img/sara-interview/notable-aaron-judd.jpg">
             <a href="https://twitter.com/aaronsjudd" target="_blank"><h4>Aaron Judd</h4></a>
             <p>Aaron Judd is a veteran of multiple startups having over 20 years experience in the industry. He is cofounder and CTO of Reaction Commerce.</p>
           </notable-person>
@@ -354,7 +354,7 @@
 
         <question>I never realized the importance of having female camaraderie in this industry until last year when I started having dinner with other women in tech. It validated everything I was feeling. There was such an apparent gender divide at the places I’ve worked, but it was always hard to explain, really.</question>
 
-        <notable-person image="/assets/img/sara-interview/notable-maria-thomas.jpg">
+        <notable-person image="http://womenandtech.com/assets/img/sara-interview/notable-maria-thomas.jpg">
           <a href="https://twitter.com/pesmou" target="_blank"><h4>Maria Thomas</h4></a>
           <p>Maria Thomas increased Etsy’s sales seven-fold and led the company to profitability and internationalization in her role as CEO from 2008 - 2010. She has held many executive positions since and is currently the Chief Marketing and Consumer Officer at SmartThings.</p>
         </notable-person>
@@ -394,7 +394,7 @@
       </section>
 
       <section class="row contains-questions">
-          <question-for-next-interviewee image="/assets/img/sara-interview/img-square-sara.jpg" firstname-of-next-interviewee="our next interviewee">
+          <question-for-next-interviewee image="http://womenandtech.com/assets/img/sara-interview/img-square-sara.jpg" firstname-of-next-interviewee="our next interviewee">
             Who have you either mentored or advised, and what was that like? How did that originate? What were the benefits of being a mentor or advisor to someone?
           </question-for-next-interviewee>
       </section>
